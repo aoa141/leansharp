@@ -157,7 +157,9 @@ Piles: `elab`, `elab_fail`, `elab_bench`, `compile`, `compile_bench` (interprete
 
 Options: `-j N` workers (default: bounded by cores and by memory), `--mem GB` managed heap limit
 per worker (default: 75% of RAM divided by the number of workers; a worker is replaced when its
-live heap exceeds 70% of the limit), `--timeout SECONDS` per test (default 300), `--show-diffs`,
+live heap exceeds 70% of the limit), `--timeout SECONDS` per test (default 300), `--show-diffs`, `--include-unsupported` (script piles:
+also run the tests of scenarios LeanSharp does not support by design, which are skipped otherwise;
+the list with reasons is `s_unsupported` in the runner),
 `--results FILE` (TSV: name, status, seconds, detail; for script piles the output of every test is
 saved in `FILE.out/`). Statuses: `PASS`, `FAIL`, `CRASH` (worker died), `TIMEOUT`. After `one`, the
 expected and produced outputs are in the temp directory (`leansharp.expected`,

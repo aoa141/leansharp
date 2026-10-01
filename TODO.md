@@ -20,21 +20,27 @@ the standard library **built by LeanSharp itself** (`artifacts/selfhost`). Comma
 | `server` | 4 / 4 | |
 | `server_interactive` | 154 / 154 | |
 | `misc` | 5 / 5 | |
-| `misc_dir` | 2 / 3 | `rc_sticky` is a hand-written C test of the native runtime |
-| `pkg` | 43 / 44 | `def_clash` expects a native linker error; 3 more are excluded as in Lean's CMake |
-| `lake` | 88 / 94 | see below |
+| `misc_dir` | 2 / 2 | 1 not run (unsupported) |
+| `pkg` | 43 / 43 | 1 not run (unsupported); 3 more are excluded as in Lean's CMake |
+| `lake` | 88 / 88 | 6 not run (unsupported), see below |
 
 API tests (`dotnet test tests/LeanSharp.Tests`): 9 / 9. Runtime check programs
 (`tools/run-checks.sh`): 11 / 11.
 
-The 6 `lake` failures, by cause:
+Tests of scenarios LeanSharp does not support by design are **not run** by the test runner
+(the list with reasons is `s_unsupported` in `tests/LeanSharp.TestRunner/Program.cs`;
+`--include-unsupported` runs them anyway, and they fail):
 
-- Need a real C toolchain and the native Lean runtime (hand-written C linked with Lean code, or
-  the text of a native linker error): `examples/precompile`, `examples/reverse-ffi`,
-  `tests/8448`, `tests/externLib`, `tests/precompileLink`.
-- `tests/challenge-olean-issue`: the test forges an invalid `Nat` with `unsafeCast`. Native Lean's
-  kernel accepts the forged proof when *building* (the comparator then rejects it); LeanSharp's
-  kernel already rejects it during the build. Not a bug, but the output differs.
+- Hand-written C linked with Lean code or with the native Lean runtime: `lake/examples/precompile`,
+  `lake/examples/reverse-ffi`, `lake/tests/8448`, `lake/tests/externLib`, `misc_dir/rc_sticky`.
+- Tests that expect the diagnostics of a native linker: `lake/tests/precompileLink`,
+  `pkg/def_clash`.
+- `lake/tests/challenge-olean-issue`: the test forges an invalid `Nat` with `unsafeCast`. Native
+  Lean's kernel accepts the forged proof when *building* (the comparator then rejects it);
+  LeanSharp's kernel already rejects it during the build. The scenario is handled, soundly, but
+  the output differs.
+
+The only failing tests are the two snapshot tests of `compile_bench` (sections 3 and 4).
 
 ## 2. Not done yet
 

@@ -76,9 +76,12 @@ Linux x64, using the standard library built by LeanSharp itself:
 | `compile_bench` (interpreter half) | 27 / 29 |
 | `docparse` | 303 / 303 |
 | `server`, `server_interactive` (LSP) | 4 / 4, 154 / 154 |
-| `misc`, `misc_dir` | 5 / 5, 2 / 3 |
-| `pkg` (Lake packages) | 43 / 44 |
-| `lake` (Lake's own tests) | 88 / 94 |
+| `misc`, `misc_dir` | 5 / 5, 2 / 2 |
+| `pkg` (Lake packages) | 43 / 43 |
+| `lake` (Lake's own tests) | 88 / 88 |
+
+Eight tests of scenarios that are out of scope (linking hand-written C, native linker
+diagnostics) are not run; see [TODO.md](TODO.md).
 
 * Working: elaboration, kernel type checking, tactics, `#eval` (IR interpreter), `bv_decide`
   (C# port of CaDiCaL), the language server, `lake build`/`lake exe`/`lake test` with in-process

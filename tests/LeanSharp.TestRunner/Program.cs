@@ -30,7 +30,7 @@ static class Program
         if (args.Length > 0 && args[0] == "worker") return Worker.Run(args[1..]);
         if (args.Length > 0 && args[0] == "run") return Coordinator.Run(args[1..]);
         if (args.Length > 0 && args[0] == "one") return Worker.RunOneCli(args[1..]);
-        Console.Error.WriteLine("usage: LeanSharp.TestRunner run --tests DIR --pile PILE [--filter RE] [-j N] [--mem GB] [--timeout S] [--results FILE] [--rerun FILE] [--show-diffs]");
+        Console.Error.WriteLine("usage: LeanSharp.TestRunner run --tests DIR --pile PILE [--filter RE] [-j N] [--mem GB] [--timeout S] [--results FILE] [--rerun FILE] [--show-diffs] [--include-unsupported]");
         Console.Error.WriteLine("       piles run in-process: elab elab_fail elab_bench compile compile_bench docparse server server_interactive");
         Console.Error.WriteLine("       piles run through their shell scripts: pkg misc misc_dir lake");
         Console.Error.WriteLine("       LeanSharp.TestRunner one --tests DIR --pile elab FILE.lean");
@@ -316,7 +316,7 @@ static class Coordinator
         int jobs = (int)Math.Max(1, Math.Min(Environment.ProcessorCount / 2, totalMem / (6L << 30)));
         double memGb = 0; // per worker; 0 = derive from the machine's memory
         double timeout = 300;
-        bool showDiffs = false;
+        bool showDiffs = false, includeUnsupported = false;
         string rerun = null;
         for (int i = 0; i < args.Length; i++)
         {
@@ -330,6 +330,7 @@ static class Coordinator
                 case "--results": resultsFile = args[++i]; break;
                 case "--show-diffs": showDiffs = true; break;
                 case "--rerun": rerun = args[++i]; break;
+                case "--include-unsupported": includeUnsupported = true; break;
                 case "--mem": memGb = double.Parse(args[++i], System.Globalization.CultureInfo.InvariantCulture); break;
             }
         }
@@ -339,7 +340,7 @@ static class Coordinator
         // --rerun FILE: only the tests that did not pass in a previous results file
         HashSet<string> only = rerun == null ? null : File.ReadAllLines(rerun).Select(l => l.Split('\t')).Where(p => p.Length > 1 && p[1] != "PASS").Select(p => p[0]).ToHashSet();
         if (ScriptPiles.IsScriptPile(pile))
-            return ScriptPiles.Run(testsDir, pile, re, only, jobs, timeout, resultsFile, showDiffs);
+            return ScriptPiles.Run(testsDir, pile, re, only, jobs, timeout, resultsFile, showDiffs, includeUnsupported);
         var tests = Directory.GetFiles(pileDir, Piles.Pattern(pile))
             .Where(f => !Piles.Skip(pile, f))
             .Where(f => re == null || re.IsMatch(Path.GetFileName(f)))
@@ -472,6 +473,25 @@ static class ScriptPiles
 {
     public static bool IsScriptPile(string pile) => pile is "pkg" or "misc" or "misc_dir" or "lake";
 
+    /// <summary>
+    /// Tests of scenarios LeanSharp does not support by design (key: `pile/test`, value: why).
+    /// They are not run unless `--include-unsupported` is given.
+    /// </summary>
+    static readonly Dictionary<string, string> s_unsupported = new(StringComparer.Ordinal)
+    {
+        // hand-written C linked with Lean code, or with the native Lean runtime
+        ["lake/examples/precompile"] = "links a C implementation of an `@[extern]` function",
+        ["lake/examples/reverse-ffi"] = "C program linked against the native Lean runtime",
+        ["lake/tests/8448"] = "links a hand-written C object into a shared library",
+        ["lake/tests/externLib"] = "links an external C library",
+        ["misc_dir/rc_sticky"] = "C test of the native runtime (lean.h)",
+        // expect the diagnostics of a native linker
+        ["lake/tests/precompileLink"] = "expects a native linker error (`-lBogus`)",
+        ["pkg/def_clash"] = "expects a native linker symbol clash",
+        // different, but sound, behavior
+        ["lake/tests/challenge-olean-issue"] = "forges a `Nat` with `unsafeCast`; the managed kernel rejects it already at build time",
+    };
+
     /// <summary>(test name, working directory, bash command) of every test of the pile.</summary>
     static IEnumerable<(string name, string dir, string cmd)> Enumerate(string testsDir, string pile)
     {
@@ -515,11 +535,14 @@ static class ScriptPiles
 
     static string Quote(string s) => "'" + s.Replace("'", "'\\''") + "'";
 
-    public static int Run(string testsDir, string pile, Regex filter, HashSet<string> only, int jobs, double timeout, string resultsFile, bool showOutput)
+    public static int Run(string testsDir, string pile, Regex filter, HashSet<string> only, int jobs, double timeout, string resultsFile, bool showOutput, bool includeUnsupported)
     {
-        var tests = Enumerate(testsDir, pile)
+        var all0 = Enumerate(testsDir, pile)
             .Where(t => filter == null || filter.IsMatch(t.name))
             .Where(t => only == null || only.Contains(t.name)).ToList();
+        var tests = includeUnsupported ? all0 : all0.Where(t => !s_unsupported.ContainsKey(pile + "/" + t.name)).ToList();
+        foreach (var t in all0.Except(tests))
+            Console.WriteLine($"not run (unsupported scenario): {t.name} -- {s_unsupported[pile + "/" + t.name]}");
         // make sure the launchers exist and point to this program
         var bin = LeanSysroot.BinDir;
         _ = LeanSysroot.Root; LeanSysroot.Root = LeanSysroot.Root;
