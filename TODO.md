@@ -22,16 +22,13 @@ the standard library **built by LeanSharp itself** (`artifacts/selfhost`). Comma
 | `misc` | 5 / 5 | |
 | `misc_dir` | 2 / 3 | `rc_sticky` is a hand-written C test of the native runtime |
 | `pkg` | 43 / 44 | `def_clash` expects a native linker error; 3 more are excluded as in Lean's CMake |
-| `lake` | 84 / 94 | see below |
+| `lake` | 88 / 94 | see below |
 
 API tests (`dotnet test tests/LeanSharp.Tests`): 9 / 9. Runtime check programs
-(`tools/run-checks.sh`): 9 / 9.
+(`tools/run-checks.sh`): 11 / 11.
 
-The 10 `lake` failures, by cause:
+The 6 `lake` failures, by cause:
 
-- Need the Rust tool `leantar` (Lake's artifact cache format): `tests/cache`,
-  `tests/cacheTransfer`, `tests/ltar`, `tests/ltarStable`. Would need a managed port of
-  [leangz](https://github.com/digama0/leangz).
 - Need a real C toolchain and the native Lean runtime (hand-written C linked with Lean code, or
   the text of a native linker error): `examples/precompile`, `examples/reverse-ffi`,
   `tests/8448`, `tests/externLib`, `tests/precompileLink`.
@@ -45,9 +42,9 @@ The 10 `lake` failures, by cause:
       empty `.exe` placeholders that only work in-process), but nothing was verified: WSL cannot
       start Windows programs on this machine. macOS was the original development platform and
       has not been rerun since the changes of this session.
-- [ ] **CI.** `.github/workflows/ci.yml` is a draft that has never run on a hosted runner (memory
-      for compiling `LeanSharp.Lean` may be the limiting factor).
-- [ ] **`leantar`** (see above) for Lake's cache and `.ltar` targets.
+- [ ] **CI.** There is none. A draft GitHub Actions workflow was removed at the owner's request
+      (it ran on every push and sent failure mails). If one is added again: compiling
+      `LeanSharp.Lean` needs a lot of memory, so hosted runners may be too small.
 - [ ] The compiled half of the `compile`/`compile_bench` piles (`lean --c` + `leanc`). The
       sysroot now has a `leanc` launcher that produces an interpreter-backed executable, so the
       runner could do it; it would exercise little that the interpreter half does not.
@@ -60,6 +57,10 @@ The 10 `lake` failures, by cause:
       old LeanSharp, emit, rebuild) has not been tried.
 
 ## 3. Performance and memory
+
+- [ ] **Zstandard encoder.** `src/LeanSharp/Zstd` compresses with a lazy hash-chain matcher;
+      `.ltar` archives are about 7% larger than native `leantar`'s (which uses `zstd -19`), and
+      level 19 runs at 10-30 MB/s. An optimal parser would close the gap.
 
 - [ ] **Memory.** `import Lean` allocates ~4.4 GB (native: ~2 GB mmap); a test worker reaches
       5–8 GB on a 30 GB machine. Ideas: remove `m_id` (8 bytes on every object; use a side table
@@ -108,6 +109,8 @@ The 10 `lake` failures, by cause:
   dependencies outside the library must be on the search path. Programs that link hand-written C, or whose behavior
   depends on native symbol visibility, do not work. On Windows the launcher only works when
   started from an in-process program (e.g. `lake exe`).
+- `leantar` is a managed port (`src/LeanSharp/Leantar`). Archives are interchangeable with the
+  native tool's in both directions but not byte-identical (different zstd encoder).
 - `Lean.openSSLVersion` reports a fixed OpenSSL 3.0.0 number; nothing is linked.
 - `Lean.manualRoot` (computed from `LEAN_MANUAL_ROOT` at initialization) is shared by the
   programs running concurrently in one OS process; all other global state of the Lean libraries
@@ -191,9 +194,15 @@ most Lake/package tests on Linux.
 
 ### What was verified in the Linux session (2026-10-01)
 
-* All numbers in section 1 come from one build (commit `26055fb`): every pile was rerun on it
-  after the plugin and initializer changes. The script-driven piles run without elan on `PATH`,
-  so no native Lean tool can take part.
+* All piles were run on commit `26055fb` (after the plugin and initializer changes). After the
+  `leantar` port and the launcher change, `compile`, `misc`, `misc_dir`, `pkg`, the full `lake`
+  pile, the API tests and a 437-test `elab` subset were rerun; the other in-process piles were
+  not (the change does not touch the runtime). The script-driven piles run without elan on
+  `PATH`, so no native Lean tool can take part.
+* `leantar`: the lgz encoder's output is byte-identical to the native tool's on 60 modules;
+  archives of 51 modules were packed and unpacked with the native and the managed tool in every
+  combination; `tools/run-checks.sh zstd leantar` cross-checks the Zstandard codec against
+  libzstd 1.5.7 (through Python's `compression.zstd`).
 * A from-scratch `build-stdlib` (7 min 42 s, 12 GB peak) gives the same 15,352 files byte for
   byte as an earlier one made before the emitter fix.
 * The self-built standard library: for sampled modules of every library the native `lean` of the

@@ -70,6 +70,7 @@ $CLI --run Main.lean arg1      # run `main` with the interpreter
 $CLI lake build                # run Lake in the current directory (lean subprocesses run in-process)
 $CLI lake env lean Foo.lean
 $CLI build-stdlib <lean4/src> <sysroot> [targets...]
+$CLI leantar -x Foo.ltar       # Lake's archive tool (managed port of leantar)
 $CLI leanc -o prog prog.c      # "link" a Lean-generated C file into an interpreter-backed executable
 ```
 

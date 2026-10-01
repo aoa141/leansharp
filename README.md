@@ -18,7 +18,7 @@ Lean is mostly written in Lean. LeanSharp translates Lean's compiled intermediat
 |---------|----------|
 | `src/LeanSharp.Runtime` | Object model, runtime, kernel, IR interpreter, `.olean` reader/writer, SAT solver |
 | `src/LeanSharp.Lean`    | The Lean libraries/compiler translated to C# (generated from `gen/`) |
-| `src/LeanSharp`         | Host library: initialization, `lean` and `lake` entry points, `LeanProject`, `LeanStdlib`, in-process subprocesses |
+| `src/LeanSharp`         | Host library: initialization, `lean` and `lake` entry points, `LeanProject`, `LeanStdlib`, in-process subprocesses, `leantar` and Zstandard |
 | `src/LeanSharp.Cli`     | Command-line tool (`LeanSharp.Cli lean ...`, `LeanSharp.Cli lake ...`) |
 | `tools/EmitCSharp`      | The IR → C# emitter (development only; needs a native Lean build of the same commit) |
 
@@ -78,16 +78,24 @@ Linux x64, using the standard library built by LeanSharp itself:
 | `server`, `server_interactive` (LSP) | 4 / 4, 154 / 154 |
 | `misc`, `misc_dir` | 5 / 5, 2 / 3 |
 | `pkg` (Lake packages) | 43 / 44 |
-| `lake` (Lake's own tests) | 84 / 94 |
+| `lake` (Lake's own tests) | 88 / 94 |
 
 * Working: elaboration, kernel type checking, tactics, `#eval` (IR interpreter), `bv_decide`
   (C# port of CaDiCaL), the language server, `lake build`/`lake exe`/`lake test` with in-process
   `lean`, reading and writing native-compatible `.olean` files, building the standard library
   from source (the output is byte-identical to what native Lean writes for the same inputs).
-* Not supported: anything that needs native code — linking hand-written C, the LLVM backend,
-  Lake's `leantar` cache format. Plugins work when they are built from Lean modules. Executables are launchers that run the program
+* Not supported: anything that needs native code — linking hand-written C, the LLVM backend.
+  Plugins work when they are built from Lean modules. Lake's artifact cache works through a
+  managed port of `leantar` (with a managed Zstandard codec). Executables are launchers that run the program
   with the interpreter.
 * Platforms: developed on macOS arm64 and Linux x64 (WSL 2). Windows has not been run.
+
+## Third-party code
+
+`src/LeanSharp/Leantar` is a port of [leangz](https://github.com/digama0/leangz) (Apache-2.0) and
+includes its Zstandard dictionary `v1.dict`. `src/LeanSharp.Runtime/Cadical` is a port of
+[CaDiCaL](https://github.com/arminbiere/cadical) (MIT). The generated code in `gen/` and the
+hand-ported runtime derive from [Lean 4](https://github.com/leanprover/lean4) (Apache-2.0).
 
 ## Documentation
 

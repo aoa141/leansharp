@@ -334,22 +334,37 @@ public static class ManagedToolchain
     /// </summary>
     public static void WriteLauncher(string output, string mainModule, IReadOnlyList<string> libDirs)
     {
-        // the program the interpreter runs: the main module's `main`
-        string src = output + ".lean";
-        string module = string.Join(".", mainModule.Split('.').Select(c => "«" + c + "»"));
-        WriteAtomic(src, $"import {module}\n");
+        // The launcher must keep working when Lake restores it from its artifact cache (only the
+        // file itself is cached) or the whole build directory is moved: library directories are
+        // recorded relative to the launcher, and the one-line program the interpreter runs
+        // (`<launcher>.lean`, importing the main module) is recreated when it is missing.
+        string dir = Path.GetDirectoryName(output);
+        var dirs = new List<string>(libDirs);
+        // Lake's layout: `<build>/bin/<exe>` next to `<build>/lib/lean` (with Lake's artifact
+        // cache the C files are not in the build directory, so `libDirs` can be empty)
+        string sibling = Path.GetFullPath(Path.Combine(dir, "..", "lib", "lean"));
+        if (Directory.Exists(sibling) && !dirs.Contains(sibling)) dirs.Add(sibling);
+        var rel = dirs.Select(d => Path.GetRelativePath(dir, d).Replace('\\', '/')).ToList();
+        string import = ImportLine(mainModule);
+        WriteAtomic(output + ".lean", import + "\n");
         var sb = new StringBuilder();
         sb.Append("#!/bin/sh\n");
         sb.Append(ExeMagic).Append('\n');
         sb.Append("# Executable built by LeanSharp: the program is run by Lean's IR interpreter.\n");
         sb.Append("# module\t").Append(mainModule).Append('\n');
-        sb.Append("# source\t").Append(src).Append('\n');
-        foreach (var d in libDirs) sb.Append("# path\t").Append(d).Append('\n');
+        foreach (var d in rel) sb.Append("# path\t").Append(d).Append('\n');
         sb.Append("# lean\t").Append(LeanSysroot.LeanExe).Append('\n');
-        sb.Append("LEANSHARP_RUN_BUILTIN_INIT=1 LEAN_PATH=").Append(Sh(string.Join(":", libDirs))).Append("\"${LEAN_PATH:+:$LEAN_PATH}\" exec ")
-          .Append(Sh(LeanSysroot.LeanExe)).Append(" --run ").Append(Sh(src)).Append(" \"$@\"\n");
+        sb.Append("d=$(cd \"$(dirname \"$0\")\" && pwd)\n");
+        sb.Append("s=\"$d/$(basename \"$0\").lean\"\n");
+        sb.Append("[ -f \"$s\" ] || printf '%s\\n' ").Append(Sh(import)).Append(" > \"$s\"\n");
+        sb.Append("LEANSHARP_RUN_BUILTIN_INIT=1 LEAN_PATH=\"");
+        sb.Append(string.Join(":", rel.Select(r => Path.IsPathRooted(r) ? r : "$d/" + r)));
+        sb.Append("${LEAN_PATH:+:$LEAN_PATH}\" exec ").Append(Sh(LeanSysroot.LeanExe)).Append(" --run \"$s\" \"$@\"\n");
         WriteAtomic(output, sb.ToString(), executable: true);
     }
+
+    static string ImportLine(string mainModule) =>
+        "import " + string.Join(".", mainModule.Split('.').Select(c => "«" + c + "»"));
 
     /// <summary>
     /// If `req` starts a launcher written by <see cref="LinkExe"/>, returns the `lean` arguments
@@ -367,17 +382,20 @@ public static class ManagedToolchain
             string head = ReadHead(path, 64);
             int nl = head.IndexOf('\n');
             if (nl < 0 || !head.Substring(nl + 1).StartsWith(ExeMagic, StringComparison.Ordinal)) return false;
-            string source = null;
+            string module = null;
+            string dir = Path.GetDirectoryName(path);
             var dirs = new List<string>();
             foreach (var line in File.ReadLines(path))
             {
                 if (!line.StartsWith("# ", StringComparison.Ordinal)) continue;
                 var p = line.Substring(2).Split('\t');
                 if (p.Length != 2) continue;
-                if (p[0] == "source") source = p[1];
-                else if (p[0] == "path") dirs.Add(p[1]);
+                if (p[0] == "module") module = p[1];
+                else if (p[0] == "path") dirs.Add(Path.GetFullPath(p[1], dir));
             }
-            if (source == null) return false;
+            if (module == null) return false;
+            string source = path + ".lean";
+            if (!File.Exists(source)) WriteAtomic(source, ImportLine(module) + "\n");
             leanArgs = new[] { "--run", source }.Concat(req.Args).ToArray();
             req.BuildEnvironment().TryGetValue("LEAN_PATH", out var existing);
             leanPath = string.Join(Path.PathSeparator, string.IsNullOrEmpty(existing) ? dirs : dirs.Append(existing));

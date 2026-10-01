@@ -35,6 +35,7 @@ public static class LeanSysroot
     public static string LibDir => Path.Combine(Root, "lib", "lean");
     public static string LeanExe => Path.Combine(BinDir, OperatingSystem.IsWindows() ? "lean.exe" : "lean");
     public static string LakeExe => Path.Combine(BinDir, OperatingSystem.IsWindows() ? "lake.exe" : "lake");
+    public static string LeantarExe => Path.Combine(BinDir, OperatingSystem.IsWindows() ? "leantar.exe" : "leantar");
 
     internal static void Apply()
     {
@@ -47,6 +48,7 @@ public static class LeanSysroot
         EnsureLauncher(LeanExe, "lean");
         EnsureLauncher(LakeExe, "lake");
         EnsureLauncher(Path.Combine(BinDir, OperatingSystem.IsWindows() ? "leanc.exe" : "leanc"), "leanc");
+        EnsureLauncher(LeantarExe, "leantar");
     }
 
     /// <summary>
@@ -147,6 +149,16 @@ static unsafe class HostHooks
             return new InProcessChild(req, ctx => LeanShell.RunOnCurrentThread(req.Args.ToArray()), LeanHost.MainThreadStackSize);
         if (IsCommand(req, "lake", LeanSysroot.LakeExe))
             return new InProcessChild(req, ctx => LakeShell.RunOnCurrentThread(req.Args.ToArray()), LeanHost.MainThreadStackSize);
+        // `leantar` (Lake's artifact cache): the managed port
+        if (IsCommand(req, "leantar", LeanSysroot.LeantarExe))
+            return new InProcessChild(req, ctx =>
+            {
+                var utf8 = new System.Text.UTF8Encoding(false);
+                using var stdout = new StreamWriter(ctx.Stdout, utf8, 4096, leaveOpen: true);
+                using var stderr = new StreamWriter(ctx.Stderr, utf8, 4096, leaveOpen: true);
+                try { return LeanSharp.Leantar.LeantarCli.Main(req.Args, new StreamReader(ctx.Stdin, utf8), stdout, stderr, ctx.Cwd); }
+                finally { stdout.Flush(); stderr.Flush(); }
+            }, 16 * 1024 * 1024);
         // executables "linked" by the managed toolchain run in the interpreter
         if (ManagedToolchain.TryGetLauncher(req, out var launcherArgs, out var leanPath))
         {

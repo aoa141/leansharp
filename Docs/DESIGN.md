@@ -122,6 +122,25 @@ module is compiled from the source next to it. Lean's own tools that are Lean pr
 installed into `<sysroot>/bin` as such launchers by `LeanStdlib.Build`, and the shared libraries
 Lake expects next to the library files (`libLake_shared` etc.) as stub libraries.
 
+## leantar
+
+Lake's artifact cache stores the build outputs of a module as an `.ltar` archive, written and
+read by `leantar`, a Rust program (https://github.com/digama0/leangz). `src/LeanSharp/Leantar` is
+a port of version 0.1.20 (the one Lean pins):
+
+* `Lgz.cs`: the `.olean`-specific encoding (object graph as a prefix code with back references;
+  hashes of names, levels and expressions are recomputed when decoding). Deterministic; its
+  output is byte-identical to the Rust encoder's.
+* `Ltar.cs`: the archive container and the build-trace handling.
+* `LeantarCli.cs`: the command line. The spawn hook runs `leantar` in-process; the sysroot has a
+  `leantar` launcher.
+* `src/LeanSharp/Zstd`: a managed Zstandard decoder and encoder with dictionary support (.NET 10
+  has none). The decoder handles everything the reference produces. The encoder is a lazy
+  hash-chain matcher, not the reference's optimal parser: its frames are valid for any zstd
+  decoder but 3-11% larger than `zstd -19`, so archives are not byte-identical to native
+  `leantar`'s (about 7% larger). Archives are interchangeable in both directions.
+  The dictionary `Leantar/v1.dict` (from leangz) is an embedded resource.
+
 ## Hard links
 
 .NET 10 has no managed API for hard links. `IO.FS.hardLink` creates them by extracting a one-entry

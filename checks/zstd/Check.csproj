@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Nullable>disable</Nullable>
+    <Optimize>true</Optimize>
+    <ServerGarbageCollector>false</ServerGarbageCollector>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/LeanSharp/Zstd/**/*.cs" />
+    <Compile Include="*.cs" />
+  </ItemGroup>
+</Project>

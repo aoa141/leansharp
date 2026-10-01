@@ -5,6 +5,10 @@
     <Optimize>true</Optimize>
   </PropertyGroup>
   <ItemGroup>
+    <!-- zstd dictionary of leantar (dict/v1.dict of https://github.com/digama0/leangz, Apache-2.0) -->
+    <EmbeddedResource Include="Leantar/v1.dict" LogicalName="LeanSharp.Leantar.v1.dict" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="../LeanSharp.Runtime/LeanSharp.Runtime.csproj" />
     <ProjectReference Include="../LeanSharp.Lean/LeanSharp.Lean.csproj" />
   </ItemGroup>

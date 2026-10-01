@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Checks of the managed leantar port without the rest of LeanSharp: compiles the sources directly. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RootNamespace>LeantarCheck</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/LeanSharp/Leantar/**/*.cs" />
+    <Compile Include="../../src/LeanSharp/Zstd/**/*.cs" />
+    <Compile Include="*.cs" />
+    <EmbeddedResource Include="../../src/LeanSharp/Leantar/v1.dict" LogicalName="LeanSharp.Leantar.v1.dict" />
+  </ItemGroup>
+</Project>

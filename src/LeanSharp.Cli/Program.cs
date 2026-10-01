@@ -1,6 +1,7 @@
 // `leansharp` command line:
 //   leansharp [lean] <lean args>
 //   leansharp lake <lake args>
+//   leansharp leantar <args>                                    Lake's `.ltar` archive tool (managed port of leantar)
 //   leansharp leanc <cc args>                                   "compile"/"link" Lean-generated C files (see ManagedToolchain)
 //   leansharp build-stdlib <lean4/src> <sysroot> [targets...]   build the Lean library files with LeanSharp
 
@@ -11,6 +12,8 @@ if (args.Length > 0 && args[0] == "lake")
     return LakeShell.Main(args[1..]);
 if (args.Length > 0 && args[0] == "lean")
     return LeanShell.Main(args[1..]);
+if (args.Length > 0 && args[0] == "leantar")
+    return LeanSharp.Leantar.LeantarCli.Main(args[1..], Console.In, Console.Out, Console.Error);
 if (args.Length > 0 && args[0] == "leanc")
     return ManagedToolchain.Leanc(args[1..], Console.Error);
 if (args.Length > 0 && args[0] == "build-stdlib")

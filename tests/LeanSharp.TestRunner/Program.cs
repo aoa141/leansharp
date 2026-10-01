@@ -25,6 +25,7 @@ static class Program
             LeanProgramState.TopLevelProgramOwnsProcess = true;
             return args[0] == "lean" ? LeanShell.Main(args[1..]) : LakeShell.Main(args[1..]);
         }
+        if (args.Length > 0 && args[0] == "leantar") return LeanSharp.Leantar.LeantarCli.Main(args[1..], Console.In, Console.Out, Console.Error);
         if (args.Length > 0 && args[0] == "leanc") return ManagedToolchain.Leanc(args[1..], Console.Error);
         if (args.Length > 0 && args[0] == "worker") return Worker.Run(args[1..]);
         if (args.Length > 0 && args[0] == "run") return Coordinator.Run(args[1..]);
