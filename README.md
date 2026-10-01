@@ -77,15 +77,15 @@ Linux x64, using the standard library built by LeanSharp itself:
 | `docparse` | 303 / 303 |
 | `server`, `server_interactive` (LSP) | 4 / 4, 154 / 154 |
 | `misc`, `misc_dir` | 5 / 5, 2 / 3 |
-| `pkg` (Lake packages) | 42 / 44 |
+| `pkg` (Lake packages) | 43 / 44 |
 | `lake` (Lake's own tests) | 84 / 94 |
 
 * Working: elaboration, kernel type checking, tactics, `#eval` (IR interpreter), `bv_decide`
   (C# port of CaDiCaL), the language server, `lake build`/`lake exe`/`lake test` with in-process
   `lean`, reading and writing native-compatible `.olean` files, building the standard library
   from source (the output is byte-identical to what native Lean writes for the same inputs).
-* Not supported: anything that needs native code — linking hand-written C, native plugins, the
-  LLVM backend, Lake's `leantar` cache format. Executables are launchers that run the program
+* Not supported: anything that needs native code — linking hand-written C, the LLVM backend,
+  Lake's `leantar` cache format. Plugins work when they are built from Lean modules. Executables are launchers that run the program
   with the interpreter.
 * Platforms: developed on macOS arm64 and Linux x64 (WSL 2). Windows has not been run.
 

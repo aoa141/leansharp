@@ -20,8 +20,8 @@ the standard library **built by LeanSharp itself** (`artifacts/selfhost`). Comma
 | `server` | 4 / 4 | |
 | `server_interactive` | 154 / 154 | |
 | `misc` | 5 / 5 | |
-| `misc_dir` | 2 / 3 | `plugin` (see "Plugins" in section 2) |
-| `pkg` | 42 / 44 | `def_clash` (expects a native linker error), `user_plugin` (plugins); 3 more are excluded as in Lean's CMake |
+| `misc_dir` | 2 / 3 | `rc_sticky` is a hand-written C test of the native runtime |
+| `pkg` | 43 / 44 | `def_clash` expects a native linker error; 3 more are excluded as in Lean's CMake |
 | `lake` | 84 / 94 | see below |
 
 API tests (`dotnet test tests/LeanSharp.Tests`): 9 / 9. Runtime check programs
@@ -48,16 +48,10 @@ The `lake` figure combines a full run (82 / 94) with a rerun of the two tests fi
       has not been rerun since the changes of this session.
 - [ ] **CI.** `.github/workflows/ci.yml` is a draft that has never run on a hosted runner (memory
       for compiling `LeanSharp.Lean` may be the limiting factor).
-- [ ] **Plugins** (`lean --plugin`, `Lean.loadPlugin`). Loading a library built from Lean
-      modules succeeds and does nothing: that is right for Lake's `precompileModules` (the
-      modules are interpreted when imported) but a plugin that is *not* imported by the file,
-      such as a linter, silently has no effect (`misc_dir/plugin`, `pkg/user_plugin`). Emulating
-      it means importing the plugin's modules and running their `initialize` and
-      `builtin_initialize` declarations with the interpreter at load time.
 - [ ] **`leantar`** (see above) for Lake's cache and `.ltar` targets.
-- [ ] The compiled half of the `compile`/`compile_bench` piles (`lean --c` + `leanc`). With the
-      managed toolchain this would mean a `leanc` launcher that produces an interpreter-backed
-      executable; it would exercise nothing new.
+- [ ] The compiled half of the `compile`/`compile_bench` piles (`lean --c` + `leanc`). The
+      sysroot now has a `leanc` launcher that produces an interpreter-backed executable, so the
+      runner could do it; it would exercise little that the interpreter half does not.
 - [ ] Decide how to version `gen/` (440 MB of generated C#): commit as is (current state),
       compress, or generate in CI from a native Lean build.
 - [ ] `gen/` in the repository comes from a native stage 1 build. Regenerating it with LeanSharp
@@ -106,8 +100,13 @@ The `lake` figure combines a full run (82 / 94) with a rerun of the two tests fi
 - File locks (`IO.FS.Handle.lock`) only work within one process.
 - LLVM backend and native dynamic libraries/plugins: not supported.
 - Executables built by Lake are launchers that run the program with the IR interpreter
-  (`src/LeanSharp/ManagedToolchain.cs`). `builtin_initialize` constants of interpreted modules
-  are initialized on first use, and `builtin_initialize` blocks without a value do not run. Programs that link hand-written C, or whose behavior
+  (`src/LeanSharp/ManagedToolchain.cs`). The `builtin_initialize` declarations of their modules
+  run before `main`, after all `initialize` declarations (natively the two kinds are interleaved
+  in declaration order).
+- Plugins (`lean --plugin`, `Lean.loadPlugin`) must be libraries built from Lean modules by the
+  managed toolchain (Lake, or the `leanc` launcher). Loading one imports its modules and runs
+  their initializers with the interpreter (`src/LeanSharp/InterpretedInit.cs`); the plugin's
+  dependencies outside the library must be on the search path. Programs that link hand-written C, or whose behavior
   depends on native symbol visibility, do not work. On Windows the launcher only works when
   started from an in-process program (e.g. `lake exe`).
 - `Lean.openSSLVersion` reports a fixed OpenSSL 3.0.0 number; nothing is linked.

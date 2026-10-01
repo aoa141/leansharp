@@ -72,6 +72,9 @@ public static class LeanProgramState
     /// </summary>
     public static void FreezeInitialState() => LeanGlobalRefs.Freeze();
 
+    /// <summary>Returns true the first time it is called with `key` in the current program.</summary>
+    public static bool TryMarkOnce(string key) => LeanContext.Proc.TryMarkOnce(key);
+
     /// <summary>
     /// Set by a host whose OS process exists only to run one Lean program (a command-line tool):
     /// `IO.Process.forceExit` in that program then terminates the OS process, as it does natively.

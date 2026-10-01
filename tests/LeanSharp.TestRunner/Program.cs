@@ -25,6 +25,7 @@ static class Program
             LeanProgramState.TopLevelProgramOwnsProcess = true;
             return args[0] == "lean" ? LeanShell.Main(args[1..]) : LakeShell.Main(args[1..]);
         }
+        if (args.Length > 0 && args[0] == "leanc") return ManagedToolchain.Leanc(args[1..], Console.Error);
         if (args.Length > 0 && args[0] == "worker") return Worker.Run(args[1..]);
         if (args.Length > 0 && args[0] == "run") return Coordinator.Run(args[1..]);
         if (args.Length > 0 && args[0] == "one") return Worker.RunOneCli(args[1..]);
@@ -566,7 +567,11 @@ static class ScriptPiles
         psi.ArgumentList.Add(t.cmd + " 2>&1");
         var env = psi.Environment;
         string sysroot = LeanSysroot.Root;
-        env["PATH"] = bin + Path.PathSeparator + dotnetDir + Path.PathSeparator + Environment.GetEnvironmentVariable("PATH");
+        // No other Lean installation may leak into the tests: elan's proxies (`leanc`,
+        // `leanchecker`, ...) would silently run a native toolchain.
+        var path = (Environment.GetEnvironmentVariable("PATH") ?? "").Split(Path.PathSeparator)
+            .Where(d => !d.Replace('\\', '/').Contains("/.elan/"));
+        env["PATH"] = bin + Path.PathSeparator + dotnetDir + Path.PathSeparator + string.Join(Path.PathSeparator, path);
         env["LEANSHARP_SYSROOT"] = sysroot;
         // the variables of `tests/with_env.sh.in`
         env["STAGE"] = "1";

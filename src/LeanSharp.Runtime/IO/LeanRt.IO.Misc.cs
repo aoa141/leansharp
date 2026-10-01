@@ -97,10 +97,18 @@ public static unsafe partial class LeanRt
     public static void lean_io_mark_end_initialization()
     {
         g_io_initializing = false;
+        LeanContext.Proc.IoInitializing = false;
     }
 
     /* IO.initializing : BaseIO Bool */
-    public static byte lean_io_initializing() => g_io_initializing ? (byte)1 : (byte)0;
+    public static byte lean_io_initializing()
+    {
+        // per program; the OS process itself (module initialization by the host, stray threads)
+        // uses the process-wide flag
+        var p = LeanContext.Proc;
+        bool v = ReferenceEquals(p, LeanLogicalProcess.Root) ? g_io_initializing : p.IoInitializing;
+        return v ? (byte)1 : (byte)0;
+    }
 
     // ------------------------------------------------------------------
     // Printing to Lean's stderr stream
@@ -513,17 +521,11 @@ public static unsafe partial class LeanRt
     /* Dynlib.get? : (dynlib : @& Dynlib) -> @& String -> Option dynlib.Symbol */
     public static Obj lean_dynlib_get(Obj dynlib, Obj name)
     {
-        // "Loading a stub library as a plugin" finds its module initializer, and running it is a
-        // no-op:
+        // A stub library has an initializer for whatever name is asked for:
         //  * the initializers of a library that is part of LeanSharp (`libLake_shared`) have
-        //    already run;
-        //  * Lake passes the precompiled modules of a package as plugins to the `lean` runs that
-        //    import them (`precompileModules`). Natively that makes their compiled code
-        //    available; here the modules are interpreted, and their initializers run when they
-        //    are imported.
-        // A plugin whose modules are *not* imported by the file (e.g. a linter loaded only with
-        // `--plugin`) is therefore silently ineffective: running its initializers would need
-        // the modules to be imported and interpreted here.
+        //    already run, so running it is a no-op;
+        //  * for a library built from Lean modules, running it imports the modules and runs
+        //    their initializers with the interpreter (`ManagedPluginInitHook`).
         if (Unsafe.As<ExternalObj>(dynlib).m_data is ManagedDynlib
             && lean_string_to_net(name).StartsWith("initialize_", StringComparison.Ordinal))
             return lean_mk_option_some(new ExternalObj { m_tag = (byte)LeanExternal, m_class = s_dynlibClass, m_data = "initializer" });
@@ -532,8 +534,8 @@ public static unsafe partial class LeanRt
 
     /* Dynlib.Symbol.runAsInit : {Dynlib} -> Symbol -> IO Unit */
     public static Obj lean_dynlib_symbol_run_as_init(Obj dynlib, Obj sym) =>
-        Unsafe.As<ExternalObj>(dynlib).m_data is ManagedDynlib
-            ? lean_io_result_mk_ok(lean_box(0))
+        Unsafe.As<ExternalObj>(dynlib).m_data is ManagedDynlib lib
+            ? (lib.BuiltIn || ManagedPluginInitHook == null ? lean_io_result_mk_ok(lean_box(0)) : ManagedPluginInitHook(lib.Path))
             : LeanIOErrors.UserErrorResult("dynamic libraries are not supported by LeanSharp");
 
     // ------------------------------------------------------------------

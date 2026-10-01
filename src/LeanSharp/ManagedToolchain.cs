@@ -33,7 +33,8 @@ public static class ManagedToolchain
     /// <summary>Set to false to pass all compiler/linker commands to the real toolchain.</summary>
     public static bool Enabled { get; set; } = true;
 
-    sealed record Stub(string Module, string CFile, bool HasMain);
+    /// <param name="LibDir">Directory with the module's `.olean` files, if it is not the one of Lake's layout.</param>
+    sealed record Stub(string Module, string CFile, bool HasMain, string LibDir = null);
 
     // ------------------------------------------------------------------
     // Command recognition
@@ -46,16 +47,32 @@ public static class ManagedToolchain
     internal static Func<TextWriter, int> TryHandle(SpawnRequest req)
     {
         if (!Enabled) return null;
-        string cwd;
-        List<string> args;
-        try
-        {
-            cwd = req.EffectiveCwd;
-            args = ExpandResponseFiles(req.Args, cwd);
-        }
+        try { return TryHandle(req.CommandName, req.Args, req.EffectiveCwd, compileSources: false); }
         catch (Exception) { return null; }
+    }
 
-        if (req.CommandName == "ar")
+    /// <summary>
+    /// `leanc`: the compiler driver of a Lean installation, for use from a shell or script
+    /// (`leanc -o prog prog.c`, `leanc -shared -o plugin.so Plugin.c`). Unlike the steps Lake
+    /// runs, the C file usually comes from `lean --c=file.c file.lean`, which writes no
+    /// `.olean`: the module is compiled from the source file next to the C file.
+    /// </summary>
+    public static int Leanc(string[] args, TextWriter stderr)
+    {
+        var handler = TryHandle("leanc", args, Directory.GetCurrentDirectory(), compileSources: true);
+        if (handler == null)
+        {
+            stderr.WriteLine("leanc: LeanSharp has no C compiler; only Lean-generated C files can be \"compiled\" (they are run by the interpreter)");
+            return 1;
+        }
+        return handler(stderr);
+    }
+
+    static Func<TextWriter, int> TryHandle(string commandName, IReadOnlyList<string> rawArgs, string cwd, bool compileSources)
+    {
+        var args = ExpandResponseFiles(rawArgs, cwd);
+
+        if (commandName == "ar")
         {
             // ar rcs [--thin] lib objs...
             if (args.Count < 2 || !args[0].TrimStart('-').Contains('c')) return null;
@@ -86,12 +103,38 @@ public static class ManagedToolchain
             return _ => { WriteAtomic(output, ObjMagic + "\n" + Line(stub)); return 0; };
         }
 
-        // cc [-shared] -o out objs... libs...
-        var objs = positional.Where(File.Exists).ToList();
-        if (objs.Count == 0 || !TryReadStubs(objs, out var linked)) return null;
-        if (args.Contains("-shared"))
-            return _ => { WriteLib(output, linked); return 0; };
-        return err => LinkExe(output, linked, err);
+        // cc [-shared] -o out objs... libs...   (inputs may also be Lean-generated C files)
+        var inputs2 = positional.Where(File.Exists).ToList();
+        var cStubs = new List<Stub>();
+        var objs = new List<string>();
+        foreach (var f in inputs2)
+        {
+            if (f.EndsWith(".c", StringComparison.Ordinal))
+            {
+                if (!IsLeanC(f, out var cs)) return null;
+                cStubs.Add(cs);
+            }
+            else objs.Add(f);
+        }
+        var linked = new List<Stub>();
+        if (objs.Count > 0 && !TryReadStubs(objs, out linked)) return null;
+        if (objs.Count == 0 && cStubs.Count == 0) return null;
+        bool shared = args.Contains("-shared");
+        return err =>
+        {
+            foreach (var cs in cStubs)
+            {
+                var s = cs;
+                if (compileSources && LibDirOf(s) == null)
+                {
+                    s = CompileSourceOf(s, output, err);
+                    if (s == null) return 1;
+                }
+                if (!linked.Any(l => l.Module == s.Module)) linked.Add(s);
+            }
+            if (shared) { WriteLib(output, linked); return 0; }
+            return LinkExe(output, linked, err);
+        };
     }
 
     static string Full(string path, string cwd) => Path.GetFullPath(path, cwd);
@@ -138,7 +181,36 @@ public static class ManagedToolchain
     // ------------------------------------------------------------------
     // Stubs
 
-    static string Line(Stub s) => $"obj\t{s.Module}\t{(s.HasMain ? 1 : 0)}\t{s.CFile}\n";
+    static string Line(Stub s) => $"obj\t{s.Module}\t{(s.HasMain ? 1 : 0)}\t{s.CFile}" + (s.LibDir != null ? "\t" + s.LibDir : "") + "\n";
+
+    /// <summary>
+    /// The module of `s` has no `.olean` (the C file was written by `lean --c=`): compiles the
+    /// Lean source next to the C file (`X.lean` for `X.c` or `X.lean.c`) into a directory under the
+    /// temp directory that is derived from the output path.
+    /// </summary>
+    static Stub CompileSourceOf(Stub s, string output, TextWriter err)
+    {
+        string src = s.CFile.EndsWith(".lean.c", StringComparison.Ordinal)
+            ? s.CFile.Substring(0, s.CFile.Length - 2)
+            : Path.ChangeExtension(s.CFile, ".lean");
+        if (!File.Exists(src))
+        {
+            err.WriteLine($"leanc: cannot find the Lean source of '{s.CFile}' (looked for '{src}')");
+            return null;
+        }
+        // kept outside the source tree (the output is often written next to checked-in files)
+        string key = Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(Encoding.UTF8.GetBytes(output))).Substring(0, 16);
+        string dir = Path.Combine(Path.GetTempPath(), "leansharp-leanc", key);
+        string stem = Path.Combine(new[] { dir }.Concat(s.Module.Split('.')).ToArray());
+        Directory.CreateDirectory(Path.GetDirectoryName(stem));
+        int rc = LeanShell.Main(new[] { "-q", src, "-o", stem + ".olean", "-i", stem + ".ilean" });
+        if (rc != 0 || !File.Exists(stem + ".olean"))
+        {
+            err.WriteLine($"leanc: compiling '{src}' failed");
+            return null;
+        }
+        return s with { LibDir = dir };
+    }
 
     /// <summary>Whether `path` is a C file emitted by Lean; reads the module name and looks for `main`.</summary>
     static bool IsLeanC(string path, out Stub stub)
@@ -189,11 +261,21 @@ public static class ManagedToolchain
             foreach (var line in File.ReadAllLines(f))
             {
                 var p = line.Split('\t');
-                if (p.Length == 4 && p[0] == "obj" && !stubs.Any(s => s.Module == p[1]))
-                    stubs.Add(new Stub(p[1], p[3], p[2] == "1"));
+                if (p.Length >= 4 && p[0] == "obj" && !stubs.Any(s => s.Module == p[1]))
+                    stubs.Add(new Stub(p[1], p[3], p[2] == "1", p.Length > 4 ? p[4] : null));
             }
         }
         return any;
+    }
+
+    /// <summary>The modules of a stub library and the directories with their `.olean` files; false if `path` is not a stub.</summary>
+    internal static bool TryReadLibrary(string path, out List<string> modules, out List<string> libDirs)
+    {
+        modules = new List<string>(); libDirs = new List<string>();
+        if (!File.Exists(path) || !TryReadStubs(new[] { path }, out var stubs)) return false;
+        modules = stubs.Select(s => s.Module).ToList();
+        libDirs = stubs.Select(LibDirOf).Where(d => d != null).Distinct().ToList();
+        return true;
     }
 
     static void WriteLib(string path, List<Stub> stubs) =>
@@ -216,6 +298,7 @@ public static class ManagedToolchain
     /// <summary>The directory with the `.olean` files of a module compiled by Lake to `cFile` (`<build>/ir/A/B.c` → `<build>/lib/lean`).</summary>
     static string LibDirOf(Stub s)
     {
+        if (s.LibDir != null) return s.LibDir;
         string dir = Path.GetDirectoryName(s.CFile);
         int depth = s.Module.Count(c => c == '.');
         for (int i = 0; i < depth && dir != null; i++) dir = Path.GetDirectoryName(dir);
@@ -263,7 +346,7 @@ public static class ManagedToolchain
         sb.Append("# source\t").Append(src).Append('\n');
         foreach (var d in libDirs) sb.Append("# path\t").Append(d).Append('\n');
         sb.Append("# lean\t").Append(LeanSysroot.LeanExe).Append('\n');
-        sb.Append("LEAN_PATH=").Append(Sh(string.Join(":", libDirs))).Append("\"${LEAN_PATH:+:$LEAN_PATH}\" exec ")
+        sb.Append("LEANSHARP_RUN_BUILTIN_INIT=1 LEAN_PATH=").Append(Sh(string.Join(":", libDirs))).Append("\"${LEAN_PATH:+:$LEAN_PATH}\" exec ")
           .Append(Sh(LeanSysroot.LeanExe)).Append(" --run ").Append(Sh(src)).Append(" \"$@\"\n");
         WriteAtomic(output, sb.ToString(), executable: true);
     }

@@ -55,8 +55,66 @@ public static unsafe partial class LeanRt
     /// <summary>`runMain (env : @&amp; Environment) (opts : @&amp; Options) (args : @&amp; List String) : BaseIO UInt32`.</summary>
     public static uint lean_eval_main(Obj env, Obj opts, Obj args)
     {
+        // An executable "linked" by the managed toolchain is run by `lean --run`. Its native
+        // counterpart runs the initializers of all its modules, including `builtin_initialize`
+        // blocks, before `main`; the launcher asks for the same with this variable.
+        var proc = LeanContext.Proc;
+        if (InterpretedBuiltinInitHook != null && proc.GetEnv("LEANSHARP_RUN_BUILTIN_INIT") == "1")
+        {
+            Obj r = RunWithIoInitializing(() => InterpretedBuiltinInitHook(env, opts));
+            if (lean_io_result_is_error(r))
+            {
+                lean_io_result_show_error(r);
+                lean_dec_ref(r);
+                return 1;
+            }
+            lean_dec_ref(r);
+        }
         return IrInterpreter.With(env, opts, interp => interp.RunMain(args));
     }
+
+    /// <summary>
+    /// Set by the host: runs the `[builtin_init]` declarations of the modules of `env` that have
+    /// no compiled code and whose builtin initializers have not run in this program yet
+    /// (arguments borrowed; returns an `IO Unit` result).
+    /// </summary>
+    public static Func<Obj, Obj, Obj> InterpretedBuiltinInitHook;
+
+    /// <summary>
+    /// Set by the host: "initializes" a stub library written by the managed toolchain when it
+    /// is loaded as a plugin, i.e. imports its modules and runs their initializers with the
+    /// interpreter (returns an `IO Unit` result).
+    /// </summary>
+    public static Func<string, Obj> ManagedPluginInitHook;
+
+    /// <summary>Runs `f` with `IO.initializing` true for the current program (as while a native module initializer runs).</summary>
+    public static Obj RunWithIoInitializing(Func<Obj> f)
+    {
+        var proc = LeanContext.Proc;
+        bool saved = proc.IoInitializing;
+        proc.IoInitializing = true;
+        try { return f(); }
+        finally { proc.IoInitializing = saved; }
+    }
+
+    /// <summary>Runs the `[builtin_init]`/`[init]` declaration `decl` of type `IO Unit` with the interpreter (arguments borrowed).</summary>
+    public static Obj lean_run_init_unit(Obj env, Obj opts, Obj decl)
+    {
+        return IrInterpreter.With(env, opts, interp =>
+        {
+            try { return interp.CallBoxed(decl, 1, new Obj[] { lean_io_mk_world() }); }
+            catch (InterpreterException ex) { return InterpExports.IoResultMkError(ex.Message); }
+        });
+    }
+
+    /// <summary>Whether the interpreter has already run the initializer of the constant `decl` in this program.</summary>
+    public static bool InterpreterHasInitialized(Obj decl) => IrInterpreter.HasInitGlobal(decl);
+
+    /// <summary>The Lean `Name` with the given dot-separated components.</summary>
+    public static Obj MkNameFromDotted(string dotted) => IrName.Mk(dotted);
+
+    /// <summary>`Name.toString` without escaping.</summary>
+    public static string NameToDotted(Obj name) => IrName.ToString(name);
 }
 
 /// <summary>Process-level setup of the interpreter (C++ `initialize_ir_interpreter`).</summary>

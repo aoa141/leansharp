@@ -46,6 +46,7 @@ public static class LeanSysroot
         // the sysroot usable from a shell.
         EnsureLauncher(LeanExe, "lean");
         EnsureLauncher(LakeExe, "lake");
+        EnsureLauncher(Path.Combine(BinDir, OperatingSystem.IsWindows() ? "leanc.exe" : "leanc"), "leanc");
     }
 
     /// <summary>
@@ -116,6 +117,7 @@ static unsafe class HostHooks
         LeanCompiledCode.ModuleNames = () => LeanSharp.Compiled.LeanModules.ModuleNames;
         LeanCompiledCode.ModuleClassResolver = LeanSharp.Compiled.LeanModules.GetModuleClass;
         LeanCompiledCode.InitializerResolver = m => (nint)LeanSharp.Compiled.LeanModules.GetInitializer(m);
+        InterpretedInit.Install();
     }
 
     public static void AfterModuleInitialization()
@@ -152,7 +154,8 @@ static unsafe class HostHooks
             {
                 Cmd = req.Cmd, Args = req.Args, Cwd = req.Cwd, InheritEnv = req.InheritEnv, SetSid = req.SetSid,
                 Stdin = req.Stdin, Stdout = req.Stdout, Stderr = req.Stderr,
-                Env = req.Env.Append(new KeyValuePair<string, string>("LEAN_PATH", leanPath)).ToList(),
+                Env = req.Env.Append(new KeyValuePair<string, string>("LEAN_PATH", leanPath))
+                    .Append(new KeyValuePair<string, string>("LEANSHARP_RUN_BUILTIN_INIT", "1")).ToList(),
             };
             return new InProcessChild(run, ctx => LeanShell.RunOnCurrentThread(launcherArgs), LeanHost.MainThreadStackSize);
         }

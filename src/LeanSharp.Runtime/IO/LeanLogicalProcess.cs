@@ -55,6 +55,20 @@ internal sealed class LeanLogicalProcess
     /// <summary>Constants initialized by the IR interpreter in this process (see `IrInterpreter.InitGlobals`).</summary>
     public object InterpreterInitGlobals;
 
+    /// <summary>
+    /// `IO.initializing` of this program: true until its `main` starts
+    /// (`lean_io_mark_end_initialization`), as in a fresh native process.
+    /// </summary>
+    public volatile bool IoInitializing = true;
+
+    readonly HashSet<string> m_once = new(StringComparer.Ordinal);
+
+    /// <summary>Returns true the first time it is called with `key` in this process.</summary>
+    public bool TryMarkOnce(string key)
+    {
+        lock (m_once) return m_once.Add(key);
+    }
+
     Obj[] m_globals;
 
     /// <summary>Values of the global `IO.Ref`s of the compiled Lean code in this process (see `LeanGlobalRefs`).</summary>

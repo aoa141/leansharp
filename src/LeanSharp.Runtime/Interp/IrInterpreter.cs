@@ -187,6 +187,12 @@ internal sealed unsafe class IrInterpreter : IDisposable
         }
     }
 
+    internal static bool HasInitGlobal(Obj decl)
+    {
+        var d = InitGlobals;
+        lock (d) return d.ContainsKey(decl);
+    }
+
     public const bool DefaultPreferNative = true;
     static Obj s_preferNativeName;
 

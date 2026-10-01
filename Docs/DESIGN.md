@@ -99,17 +99,26 @@ compiler command is called):
 
 * compile (`cc -c`): writes a text *stub object* naming the module and whether it defines `main`;
 * archive (`ar rcs`) and shared-library link (`cc -shared`): write a *stub library* listing the
-  stubs. `lean --load-dynlib` and `lean --plugin` of such a library are no-ops: the interpreter
-  runs the code of the modules when they are imported (this is what Lake's `precompileModules`
-  needs; a plugin that is not imported has no effect);
+  stubs. `lean --load-dynlib` of such a library is a no-op (the interpreter runs the code of the
+  modules when they are imported). Loading it as a plugin (`lean --plugin`, `Lean.loadPlugin`)
+  imports its modules and runs their initializers, see below;
 * executable link: writes a *launcher*, a shell script that runs
   `lean --run <launcher>.lean` (a one-line file importing the main module) with the build's
   library directories on `LEAN_PATH`. The IR interpreter executes `main` from the `.olean`/`.ir`
   files Lake built anyway. Spawning a launcher from an in-process program (`lake exe`,
   `lake test`) runs it in-process.
 
+A native module is initialized by a function that runs its `initialize` and `builtin_initialize`
+declarations. For interpreted modules Lean itself runs the `initialize` declarations at import;
+`src/LeanSharp/InterpretedInit.cs` adds what is missing: the `[builtin_init]` declarations of the
+interpreted modules of an environment are run once per program, before `main` of a launcher
+(requested with `LEANSHARP_RUN_BUILTIN_INIT=1`) and when a stub library is loaded as a plugin.
+`IO.initializing` is per program and true while they run.
+
 Commands involving anything else (hand-written C, real object files) go to the real toolchain if
-there is one. Lean's own tools that are Lean programs (`leanchecker`, `leanexport`, `leanir`) are
+there is one. The sysroot's `leanc` launcher gives scripts the same emulation
+(`lean --c=X.c X.lean; leanc -shared -o X.so X.c`); as such a C file comes without `.olean`, the
+module is compiled from the source next to it. Lean's own tools that are Lean programs (`leanchecker`, `leanexport`, `leanir`) are
 installed into `<sysroot>/bin` as such launchers by `LeanStdlib.Build`, and the shared libraries
 Lake expects next to the library files (`libLake_shared` etc.) as stub libraries.
 
