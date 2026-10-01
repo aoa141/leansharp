@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The Lean standard library and compiler (Init, Std, Lean, Lake), translated to C# by
+       tools/EmitCSharp from Lean's compiled IR. Do not edit the generated sources in /gen. -->
+  <PropertyGroup>
+    <RootNamespace>LeanSharp.Compiled</RootNamespace>
+    <AssemblyName>LeanSharp.Lean</AssemblyName>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../gen/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../LeanSharp.Runtime/LeanSharp.Runtime.csproj" />
+  </ItemGroup>
+</Project>

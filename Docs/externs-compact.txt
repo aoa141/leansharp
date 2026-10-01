@@ -1,0 +1,3 @@
+standard Obj lean_compacted_region_free(Obj)  -- Lean.CompactedRegion.free
+standard Obj lean_compacted_region_read(Obj, Obj)  -- Lean.CompactedRegion.read
+standard Obj lean_compacted_region_save(Obj, Obj, Obj, Obj, Obj, byte)  -- Lean.CompactedRegion.save

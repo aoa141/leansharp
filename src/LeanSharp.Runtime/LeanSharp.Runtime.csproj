@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>LeanSharp.Runtime</RootNamespace>
+    <AssemblyName>LeanSharp.Runtime</AssemblyName>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <!-- temporary switch used while areas are being ported -->
+  <ItemGroup Condition="'$(LeanSharpExclude)' != ''">
+    <Compile Remove="$(LeanSharpExclude)/**" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(LeanSharpExclude2)' != ''">
+    <Compile Remove="$(LeanSharpExclude2)/**" />
+  </ItemGroup>
+</Project>

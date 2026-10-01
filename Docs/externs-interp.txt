@@ -1,0 +1,4 @@
+standard Obj lean_eval_const(Obj, Obj, Obj)  -- _private.Lean.Environment.0.Lean.Environment.evalConstCore
+standard Obj lean_run_init(Obj, Obj, Obj, Obj)  -- Lean.runInit
+standard Obj lean_run_mod_init_core(Obj)  -- _private.Lean.Compiler.InitAttr.0.Lean.runModInitCore
+standard uint lean_eval_main(Obj, Obj, Obj)  -- _private.Lean.Shell.0.Lean.runMain

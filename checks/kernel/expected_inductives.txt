@@ -1,0 +1,67 @@
+MyNat : Type | 3931117990 | lps=[]
+  np=0 ni=0 all=[MyNat] ctors=[MyNat.zero, MyNat.succ] nested=0 rec=true refl=false
+MyNat.zero : MyNat | 971829208 | lps=[]
+  induct=MyNat cidx=0 np=0 nf=0
+MyNat.succ : MyNat -> MyNat | 2371719839 | lps=[]
+  induct=MyNat cidx=1 np=0 nf=1
+MyNat.rec : forall {motive : MyNat -> Sort.{u}}, (motive MyNat.zero) -> (forall (n : MyNat), (motive n) -> (motive (MyNat.succ n))) -> (forall (t : MyNat), motive t) | 4168807807 | lps=[u]
+  all=[MyNat] np=0 ni=0 nmot=1 nmin=2 k=false
+  rule MyNat.zero 0 : fun (motive : MyNat -> Sort.{u}) (zero : motive MyNat.zero) (succ : forall (n : MyNat), (motive n) -> (motive (MyNat.succ n))) => zero | 344289059
+  rule MyNat.succ 1 : fun (motive : MyNat -> Sort.{u}) (zero : motive MyNat.zero) (succ : forall (n : MyNat), (motive n) -> (motive (MyNat.succ n))) (n : MyNat) => succ n (MyNat.rec.{u} motive zero succ n) | 4262142671
+MyNat.casesOn : forall {motive : MyNat -> Sort.{u}} (t : MyNat), (motive MyNat.zero) -> (forall (n : MyNat), motive (MyNat.succ n)) -> (motive t) | 3660997156 | lps=[u]
+  value: fun {motive : MyNat -> Sort.{u}} (t : MyNat) (zero : motive MyNat.zero) (succ : forall (n : MyNat), motive (MyNat.succ n)) => MyNat.rec.{u} motive zero (fun (n : MyNat) (n_ih : motive n) => succ n) t | 3457551836 hints=0 abbrev=true safe=true
+MyList : Type.{u} -> Type.{u} | 3807510281 | lps=[u]
+  np=1 ni=0 all=[MyList] ctors=[MyList.nil, MyList.cons] nested=0 rec=true refl=false
+MyList.cons : forall {α : Type.{u}}, α -> (MyList.{u} α) -> (MyList.{u} α) | 1911676810 | lps=[u]
+  induct=MyList cidx=1 np=1 nf=2
+MyList.rec : forall {α : Type.{u}} {motive : (MyList.{u} α) -> Sort.{u_1}}, (motive (MyList.nil.{u} α)) -> (forall (head : α) (tail : MyList.{u} α), (motive tail) -> (motive (MyList.cons.{u} α head tail))) -> (forall (t : MyList.{u} α), motive t) | 833958050 | lps=[u_1, u]
+  all=[MyList] np=1 ni=0 nmot=1 nmin=2 k=false
+  rule MyList.nil 0 : fun (α : Type.{u}) (motive : (MyList.{u} α) -> Sort.{u_1}) (nil : motive (MyList.nil.{u} α)) (cons : forall (head : α) (tail : MyList.{u} α), (motive tail) -> (motive (MyList.cons.{u} α head tail))) => nil | 4123442392
+  rule MyList.cons 2 : fun (α : Type.{u}) (motive : (MyList.{u} α) -> Sort.{u_1}) (nil : motive (MyList.nil.{u} α)) (cons : forall (head : α) (tail : MyList.{u} α), (motive tail) -> (motive (MyList.cons.{u} α head tail))) (head : α) (tail : MyList.{u} α) => cons head tail (MyList.rec.{u_1, u} α motive nil cons tail) | 3667616207
+Tree : Type | 3931117990 | lps=[]
+  np=0 ni=0 all=[Tree] ctors=[Tree.node] nested=1 rec=true refl=false
+Tree.node : (MyList.{0} Tree) -> Tree | 423031992 | lps=[]
+  induct=Tree cidx=0 np=0 nf=1
+Tree.rec : forall {motive_1 : Tree -> Sort.{u}} {motive_2 : (MyList.{0} Tree) -> Sort.{u}}, (forall (cs : MyList.{0} Tree), (motive_2 cs) -> (motive_1 (Tree.node cs))) -> (motive_2 (MyList.nil.{0} Tree)) -> (forall (head : Tree) (tail : MyList.{0} Tree), (motive_1 head) -> (motive_2 tail) -> (motive_2 (MyList.cons.{0} Tree head tail))) -> (forall (t : Tree), motive_1 t) | 1584294331 | lps=[u]
+  all=[Tree] np=0 ni=0 nmot=2 nmin=3 k=false
+  rule Tree.node 1 : fun (motive_1 : Tree -> Sort.{u}) (motive_2 : (MyList.{0} Tree) -> Sort.{u}) (node : forall (cs : MyList.{0} Tree), (motive_2 cs) -> (motive_1 (Tree.node cs))) (nil : motive_2 (MyList.nil.{0} Tree)) (cons : forall (head : Tree) (tail : MyList.{0} Tree), (motive_1 head) -> (motive_2 tail) -> (motive_2 (MyList.cons.{0} Tree head tail))) (cs : MyList.{0} Tree) => node cs (Tree.rec_1.{u} motive_1 motive_2 node nil cons cs) | 2232784604
+Tree.rec_1 : forall {motive_1 : Tree -> Sort.{u}} {motive_2 : (MyList.{0} Tree) -> Sort.{u}}, (forall (cs : MyList.{0} Tree), (motive_2 cs) -> (motive_1 (Tree.node cs))) -> (motive_2 (MyList.nil.{0} Tree)) -> (forall (head : Tree) (tail : MyList.{0} Tree), (motive_1 head) -> (motive_2 tail) -> (motive_2 (MyList.cons.{0} Tree head tail))) -> (forall (t : MyList.{0} Tree), motive_2 t) | 1371478903 | lps=[u]
+  all=[Tree] np=0 ni=0 nmot=2 nmin=3 k=false
+  rule MyList.nil 0 : fun (motive_1 : Tree -> Sort.{u}) (motive_2 : (MyList.{0} Tree) -> Sort.{u}) (node : forall (cs : MyList.{0} Tree), (motive_2 cs) -> (motive_1 (Tree.node cs))) (nil : motive_2 (MyList.nil.{0} Tree)) (cons : forall (head : Tree) (tail : MyList.{0} Tree), (motive_1 head) -> (motive_2 tail) -> (motive_2 (MyList.cons.{0} Tree head tail))) => nil | 1274720293
+  rule MyList.cons 2 : fun (motive_1 : Tree -> Sort.{u}) (motive_2 : (MyList.{0} Tree) -> Sort.{u}) (node : forall (cs : MyList.{0} Tree), (motive_2 cs) -> (motive_1 (Tree.node cs))) (nil : motive_2 (MyList.nil.{0} Tree)) (cons : forall (head : Tree) (tail : MyList.{0} Tree), (motive_1 head) -> (motive_2 tail) -> (motive_2 (MyList.cons.{0} Tree head tail))) (head : Tree) (tail : MyList.{0} Tree) => cons head tail (Tree.rec.{u} motive_1 motive_2 node nil cons head) (Tree.rec_1.{u} motive_1 motive_2 node nil cons tail) | 974034079
+Tree.casesOn : forall {motive_1 : Tree -> Sort.{u}} (t : Tree), (forall (cs : MyList.{0} Tree), motive_1 (Tree.node cs)) -> (motive_1 t) | 3463252390 | lps=[u]
+  value: fun {motive_1 : Tree -> Sort.{u}} (t : Tree) (node : forall (cs : MyList.{0} Tree), motive_1 (Tree.node cs)) => Tree.rec.{u} motive_1 (fun (t : MyList.{0} Tree) => PUnit.{u}) (fun (cs : MyList.{0} Tree) (cs_ih : PUnit.{u}) => node cs) PUnit.unit.{u} (fun (head : Tree) (tail : MyList.{0} Tree) (head_ih : motive_1 head) (tail_ih : PUnit.{u}) => PUnit.unit.{u}) t | 2604606572 hints=0 abbrev=true safe=true
+MyEq : forall {α : Sort.{u}}, α -> α -> Prop | 2885572531 | lps=[u]
+  np=2 ni=1 all=[MyEq] ctors=[MyEq.refl] nested=0 rec=false refl=false
+MyEq.refl : forall {α : Sort.{u}} (a : α), MyEq.{u} α a a | 4004386205 | lps=[u]
+  induct=MyEq cidx=0 np=2 nf=0
+MyEq.rec : forall {α : Sort.{u}} {a : α} {motive : forall (b : α), (MyEq.{u} α a b) -> Sort.{u_1}}, (motive a (MyEq.refl.{u} α a)) -> (forall {b : α} (t : MyEq.{u} α a b), motive b t) | 2547191210 | lps=[u_1, u]
+  all=[MyEq] np=2 ni=1 nmot=1 nmin=1 k=true
+  rule MyEq.refl 0 : fun {α : Sort.{u}} (a : α) (motive : forall (b : α), (MyEq.{u} α a b) -> Sort.{u_1}) (refl : motive a (MyEq.refl.{u} α a)) => refl | 1587176766
+MyProd : Type -> Type -> Type | 2301245127 | lps=[]
+  np=2 ni=0 all=[MyProd] ctors=[MyProd.mk] nested=0 rec=false refl=false
+MyProd.mk : forall {α : Type} {β : Type}, α -> β -> (MyProd α β) | 3721016378 | lps=[]
+  induct=MyProd cidx=0 np=2 nf=2
+MyProd.rec : forall {α : Type} {β : Type} {motive : (MyProd α β) -> Sort.{u}}, (forall (fst : α) (snd : β), motive (MyProd.mk α β fst snd)) -> (forall (t : MyProd α β), motive t) | 2740841078 | lps=[u]
+  all=[MyProd] np=2 ni=0 nmot=1 nmin=1 k=false
+  rule MyProd.mk 2 : fun (α : Type) (β : Type) (motive : (MyProd α β) -> Sort.{u}) (mk : forall (fst : α) (snd : β), motive (MyProd.mk α β fst snd)) (fst : α) (snd : β) => mk fst snd | 2111609037
+Vec : Type.{u} -> MyNat -> Type.{u} | 3894582326 | lps=[u]
+  np=1 ni=1 all=[Vec] ctors=[Vec.nil, Vec.cons] nested=0 rec=true refl=false
+Vec.nil : forall {α : Type.{u}}, Vec.{u} α MyNat.zero | 985694721 | lps=[u]
+  induct=Vec cidx=0 np=1 nf=0
+Vec.cons : forall {α : Type.{u}} {n : MyNat}, α -> (Vec.{u} α n) -> (Vec.{u} α (MyNat.succ n)) | 3736994369 | lps=[u]
+  induct=Vec cidx=1 np=1 nf=3
+Vec.rec : forall {α : Type.{u}} {motive : forall (n : MyNat), (Vec.{u} α n) -> Sort.{u_1}}, (motive MyNat.zero (Vec.nil.{u} α)) -> (forall {n : MyNat} (h : α) (t : Vec.{u} α n), (motive n t) -> (motive (MyNat.succ n) (Vec.cons.{u} α n h t))) -> (forall {n : MyNat} (t : Vec.{u} α n), motive n t) | 2918175423 | lps=[u_1, u]
+  all=[Vec] np=1 ni=1 nmot=1 nmin=2 k=false
+  rule Vec.nil 0 : fun (α : Type.{u}) (motive : forall (n : MyNat), (Vec.{u} α n) -> Sort.{u_1}) (nil : motive MyNat.zero (Vec.nil.{u} α)) (cons : forall {n : MyNat} (h : α) (t : Vec.{u} α n), (motive n t) -> (motive (MyNat.succ n) (Vec.cons.{u} α n h t))) => nil | 3580590475
+  rule Vec.cons 3 : fun (α : Type.{u}) (motive : forall (n : MyNat), (Vec.{u} α n) -> Sort.{u_1}) (nil : motive MyNat.zero (Vec.nil.{u} α)) (cons : forall {n : MyNat} (h : α) (t : Vec.{u} α n), (motive n t) -> (motive (MyNat.succ n) (Vec.cons.{u} α n h t))) {n : MyNat} (h : α) (t : Vec.{u} α n) => cons n h t (Vec.rec.{u_1, u} α motive nil cons n t) | 426179039
+Vec.casesOn : forall {α : Type.{u}} {motive : forall (n : MyNat), (Vec.{u} α n) -> Sort.{u_1}} {n : MyNat} (t : Vec.{u} α n), (motive MyNat.zero (Vec.nil.{u} α)) -> (forall {n : MyNat} (h : α) (t : Vec.{u} α n), motive (MyNat.succ n) (Vec.cons.{u} α n h t)) -> (motive n t) | 3906131859 | lps=[u_1, u]
+  value: fun {α : Type.{u}} {motive : forall (n : MyNat), (Vec.{u} α n) -> Sort.{u_1}} {n : MyNat} (t : Vec.{u} α n) (nil : motive MyNat.zero (Vec.nil.{u} α)) (cons : forall {n : MyNat} (h : α) (t : Vec.{u} α n), motive (MyNat.succ n) (Vec.cons.{u} α n h t)) => Vec.rec.{u_1, u} α motive nil (fun {n : MyNat} (h : α) (t : Vec.{u} α n) (t_ih : motive n t) => cons n h t) n t | 290552790 hints=0 abbrev=true safe=true
+Eq : forall {α : Sort.{u_1}}, α -> α -> Prop | 3970007004 | lps=[u_1]
+  np=2 ni=1 all=[Eq] ctors=[Eq.refl] nested=0 rec=false refl=false
+Eq.refl : forall {α : Sort.{u_1}} (a : α), Eq.{u_1} α a a | 3843735716 | lps=[u_1]
+  induct=Eq cidx=0 np=2 nf=0
+Quot : forall {α : Sort.{u}}, (α -> α -> Prop) -> Sort.{u} | 4084769648 | lps=[u]
+Quot.mk : forall {α : Sort.{u}} (r : α -> α -> Prop), α -> (Quot.{u} α r) | 1976642392 | lps=[u]
+Quot.lift : forall {α : Sort.{u}} {r : α -> α -> Prop} {β : Sort.{v}} (f : α -> β), (forall (a : α) (b : α), (r a b) -> (Eq.{v} β (f a) (f b))) -> (Quot.{u} α r) -> β | 3526946736 | lps=[u, v]
+Quot.ind : forall {α : Sort.{u}} {r : α -> α -> Prop} {β : (Quot.{u} α r) -> Prop}, (forall (a : α), β (Quot.mk.{u} α r a)) -> (forall (q : Quot.{u} α r), β q) | 3124482517 | lps=[u]

@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/examples/">
+    <Project Path="examples/ProjectDemo/ProjectDemo.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/LeanSharp.Cli/LeanSharp.Cli.csproj" />
+    <Project Path="src/LeanSharp.Lean/LeanSharp.Lean.csproj" />
+    <Project Path="src/LeanSharp.Runtime/LeanSharp.Runtime.csproj" />
+    <Project Path="src/LeanSharp/LeanSharp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LeanSharp.TestRunner/LeanSharp.TestRunner.csproj" />
+  </Folder>
+</Solution>

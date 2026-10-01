@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RootNamespace>IOCheck</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/LeanSharp.Runtime/Core/**/*.cs" />
+    <Compile Include="../../src/LeanSharp.Runtime/IO/**/*.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+standard Obj lean_add_decl(Obj, ulong, ulong, Obj, Obj)  -- Lean.Kernel.Environment.addDeclCore
+standard Obj lean_add_decl_without_checking(Obj, Obj)  -- Lean.Kernel.Environment.addDeclWithoutChecking
+standard Obj lean_elab_add_decl(Obj, ulong, ulong, Obj, Obj)  -- _private.Lean.Environment.0.Lean.Environment.addDeclCheck
+standard Obj lean_elab_add_decl_without_checking(Obj, Obj)  -- _private.Lean.Environment.0.Lean.Environment.addDeclWithoutChecking
+standard Obj lean_expr_abstract(Obj, Obj)  -- Lean.Expr.abstract
+standard Obj lean_expr_abstract_range(Obj, Obj, Obj)  -- Lean.Expr.abstractRange
+standard Obj lean_expr_dbg_to_string(Obj)  -- Lean.Expr.dbgToString
+standard Obj lean_expr_instantiate(Obj, Obj)  -- Lean.Expr.instantiate
+standard Obj lean_expr_instantiate1(Obj, Obj)  -- Lean.Expr.instantiate1
+standard Obj lean_expr_instantiate_range(Obj, Obj, Obj, Obj)  -- Lean.Expr.instantiateRange
+standard Obj lean_expr_instantiate_rev(Obj, Obj)  -- Lean.Expr.instantiateRev
+standard Obj lean_expr_instantiate_rev_range(Obj, Obj, Obj, Obj)  -- Lean.Expr.instantiateRevRange
+standard Obj lean_expr_lift_loose_bvars(Obj, Obj, Obj)  -- Lean.Expr.liftLooseBVars
+standard Obj lean_expr_lower_loose_bvars(Obj, Obj, Obj)  -- Lean.Expr.lowerLooseBVars
+standard Obj lean_find_expr(Obj, Obj)  -- Lean.Expr.findImpl?
+standard Obj lean_find_ext_expr(Obj, Obj)  -- Lean.Expr.findExtImpl?
+standard Obj lean_instantiate_expr_mvars(Obj, Obj)  -- Lean.instantiateExprMVarsImp
+standard Obj lean_instantiate_level_mvars(Obj, Obj)  -- Lean.instantiateLevelMVarsImp
+standard Obj lean_kernel_check(Obj, Obj, Obj)  -- Lean.Kernel.check
+standard Obj lean_kernel_is_def_eq(Obj, Obj, Obj, Obj)  -- Lean.Kernel.isDefEq
+standard Obj lean_kernel_whnf(Obj, Obj, Obj)  -- Lean.Kernel.whnf
+standard Obj lean_mk_cases_on(Obj, Obj)  -- Lean.mkCasesOnImp
+standard Obj lean_replace_expr(Obj, Obj)  -- Lean.Expr.replaceImpl
+standard byte lean_expr_equal(Obj, Obj)  -- Lean.Expr.equal
+standard byte lean_expr_eqv(Obj, Obj)  -- Lean.Expr.eqv
+standard byte lean_expr_has_loose_bvar(Obj, Obj)  -- Lean.Expr.hasLooseBVar
+standard byte lean_expr_lt(Obj, Obj)  -- Lean.Expr.lt
+standard byte lean_expr_quick_lt(Obj, Obj)  -- Lean.Expr.quickLt
+standard byte lean_level_eq(Obj, Obj)  -- Lean.Level.beq
+standard ulong lean_expr_data(Obj)  -- Lean.Expr.data
+standard ulong lean_expr_mk_app_data(ulong, ulong)  -- Lean.Expr.mkAppData
+standard ulong lean_expr_mk_data(ulong, Obj, uint, byte, byte, byte, byte)  -- Lean.Expr.mkData
+standard ulong lean_level_mk_data(ulong, Obj, byte, byte)  -- Lean.Level.mkData

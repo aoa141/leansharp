@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RootNamespace>InterpCheck</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Core now depends on other areas (IO, Strings, ...): compile the whole runtime -->
+    <Compile Include="../../src/LeanSharp.Runtime/**/*.cs" Exclude="../../src/LeanSharp.Runtime/bin/**;../../src/LeanSharp.Runtime/obj/**" />
+    <Compile Include="*.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,211 @@
+lake_environment_add	delegate*<Obj, Obj, Obj>	_private.Lean.Environment.0.Lean.Environment.lakeAdd	M_Lean_Environment
+lean_array_to_list_impl	delegate*<Obj, Obj, Obj>	Array.toListImpl	M_Init_Data_Array_Basic
+lean_assign_lmvar	delegate*<Obj, Obj, Obj, Obj>	Lean.assignLevelMVarExp	M_Lean_MetavarContext
+lean_assign_mvar	delegate*<Obj, Obj, Obj, Obj>	Lean.assignExp	M_Lean_MetavarContext
+lean_axiom_val_is_unsafe	delegate*<Obj, byte>	Lean.AxiomVal.isUnsafeEx	M_Lean_Declaration
+lean_checked_assign	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.checkedAssignImpl	M_Lean_Meta_ExprDefEq
+lean_constructor_val_is_unsafe	delegate*<Obj, byte>	Lean.ConstructorVal.isUnsafeEx	M_Lean_Declaration
+lean_cutsat_eq_cnstr_to_proof	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Meta.Tactic.Grind.Arith.Cutsat.Proof.0.Lean.Meta.Grind.Arith.Cutsat.EqCnstr.toExprProofImpl	M_Lean_Meta_Tactic_Grind_Arith_Cutsat_Proof
+lean_cutsat_propagate_nonlinear	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Grind.Arith.Cutsat.propagateNonlinearTermImpl	M_Lean_Meta_Tactic_Grind_Arith_Cutsat_EqCnstr
+lean_data_value_beq	delegate*<Obj, Obj, byte>	Lean.DataValue.beqExp	M_Lean_Data_KVMap
+lean_data_value_bool	delegate*<Obj, byte>	Lean.DataValue.getBoolEx	M_Lean_Data_KVMap
+lean_decl_get_sorry_dep	delegate*<Obj, Obj, Obj>	Lean.IR.getSorryDep	M_Lean_Compiler_IR_CompilerM
+lean_definition_val_get_safety	delegate*<Obj, byte>	Lean.DefinitionVal.getSafetyEx	M_Lean_Declaration
+lean_delayed_mvar_assignment_fvars	delegate*<Obj, Obj>	Lean.DelayedMetavarAssignment.fvarsExp	M_Lean_MetavarContext
+lean_delayed_mvar_assignment_mvar_id_pending	delegate*<Obj, Obj>	Lean.DelayedMetavarAssignment.mvarIdPendingExp	M_Lean_MetavarContext
+lean_demangle_bt_line_cstr	delegate*<Obj, Obj>	_private.Lean.Compiler.NameDemangling.0.Lean.Name.Demangle.demangleBtLineCStr	M_Lean_Compiler_NameDemangling
+lean_dsimp	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Meta.Tactic.Simp.Main.0.Lean.Meta.Simp.dsimpImpl	M_Lean_Meta_Tactic_Simp_Main
+lean_elab_environment_to_kernel_env	delegate*<Obj, Obj>	Lean.Environment.toKernelEnv	M_Lean_Environment
+lean_elab_environment_update_base_after_kernel_add	delegate*<Obj, Obj, Obj, Obj>	_private.Lean.Environment.0.Lean.Environment.updateBaseAfterKernelAdd	M_Lean_Environment
+lean_enable_initializer_execution	delegate*<Obj>	Lean.enableInitializersExecution	M_Lean_ImportingFlag
+lean_environment_add	delegate*<Obj, Obj, Obj>	_private.Lean.Environment.0.Lean.Kernel.Environment.add	M_Lean_Environment
+lean_environment_find	delegate*<Obj, Obj, Obj>	Lean.Kernel.Environment.find?	M_Lean_Environment
+lean_environment_free_regions	delegate*<Obj, Obj>	Lean.Environment.freeRegions	M_Lean_Environment
+lean_environment_mark_quot_init	delegate*<Obj, Obj>	_private.Lean.Environment.0.Lean.Kernel.Environment.markQuotInit	M_Lean_Environment
+lean_environment_quot_init	delegate*<Obj, byte>	_private.Lean.Environment.0.Lean.Kernel.Environment.isQuotInit	M_Lean_Environment
+lean_eval_check_meta	delegate*<Obj, Obj, Obj>	_private.Lean.Compiler.IR.Meta.0.Lean.IR.evalCheckMeta	M_Lean_Compiler_IR_Meta
+lean_eval_suggest_tactic	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Elab.Tactic.Try.0.Lean.Elab.Tactic.Try.evalSuggestImpl	M_Lean_Elab_Tactic_Try
+lean_expr_binder_info	delegate*<Obj, byte>	Lean.Expr.binderInfoEx	M_Lean_Expr
+lean_expr_consume_type_annotations	delegate*<Obj, Obj>	Lean.Expr.consumeTypeAnnotations	M_Lean_Expr
+lean_expr_has_expr_mvar	delegate*<Obj, byte>	Lean.Expr.hasExprMVarEx	M_Lean_Expr
+lean_expr_has_fvar	delegate*<Obj, byte>	Lean.Expr.hasFVarEx	M_Lean_Expr
+lean_expr_has_level_mvar	delegate*<Obj, byte>	Lean.Expr.hasLevelMVarEx	M_Lean_Expr
+lean_expr_has_level_param	delegate*<Obj, byte>	Lean.Expr.hasLevelParamEx	M_Lean_Expr
+lean_expr_hash	delegate*<Obj, ulong>	Lean.Expr.hashEx	M_Lean_Expr
+lean_expr_is_have	delegate*<Obj, byte>	Lean.Expr.isHaveEx	M_Lean_Expr
+lean_expr_loose_bvar_range	delegate*<Obj, uint>	Lean.Expr.looseBVarRangeEx	M_Lean_Expr
+lean_expr_mk_app	delegate*<Obj, Obj, Obj>	Lean.mkAppEx	M_Lean_Expr
+lean_expr_mk_bvar	delegate*<Obj, Obj>	Lean.mkBVarEx	M_Lean_Expr
+lean_expr_mk_const	delegate*<Obj, Obj, Obj>	Lean.mkConstEx	M_Lean_Expr
+lean_expr_mk_forall	delegate*<Obj, Obj, Obj, byte, Obj>	Lean.mkForallEx	M_Lean_Expr
+lean_expr_mk_fvar	delegate*<Obj, Obj>	Lean.mkFVarEx	M_Lean_Expr
+lean_expr_mk_lambda	delegate*<Obj, Obj, Obj, byte, Obj>	Lean.mkLambdaEx	M_Lean_Expr
+lean_expr_mk_let	delegate*<Obj, Obj, Obj, Obj, byte, Obj>	Lean.mkLetEx	M_Lean_Expr
+lean_expr_mk_lit	delegate*<Obj, Obj>	Lean.mkLitEx	M_Lean_Expr
+lean_expr_mk_mdata	delegate*<Obj, Obj, Obj>	Lean.mkMDataEx	M_Lean_Expr
+lean_expr_mk_proj	delegate*<Obj, Obj, Obj, Obj>	Lean.mkProjEx	M_Lean_Expr
+lean_expr_mk_sort	delegate*<Obj, Obj>	Lean.mkSortEx	M_Lean_Expr
+lean_float32_of_nat	delegate*<Obj, float>	Float32.ofNat	M_Init_Data_OfScientific
+lean_float_of_nat	delegate*<Obj, double>	Float.ofNat	M_Init_Data_OfScientific
+lean_get_congr_match_equations_for	delegate*<Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Match.genMatchCongrEqnsImpl	M_Lean_Meta_Match_MatchEqs
+lean_get_delayed_mvar_assignment	delegate*<Obj, Obj, Obj>	Lean.MetavarContext.getDelayedMVarAssignmentExp	M_Lean_MetavarContext
+lean_get_export_name_for	delegate*<Obj, Obj, Obj>	Lean.getExportNameFor?	M_Lean_Compiler_ExportAttr
+lean_get_init_fn_name_for	delegate*<Obj, Obj, Obj>	Lean.getInitFnNameFor?	M_Lean_Compiler_InitAttr
+lean_get_ir_extra_const_names	delegate*<Obj, byte, byte, Obj>	_private.Lean.Compiler.IR.CompilerM.0.Lean.IR.getIRExtraConstNames	M_Lean_Compiler_IR_CompilerM
+lean_get_lmvar_assignment	delegate*<Obj, Obj, Obj>	Lean.getLevelMVarAssignmentExp	M_Lean_MetavarContext
+lean_get_match_equations_for	delegate*<Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Match.getEquationsForImpl	M_Lean_Meta_Match_MatchEqs
+lean_get_mvar_assignment	delegate*<Obj, Obj, Obj>	Lean.MetavarContext.getExprAssignmentExp	M_Lean_MetavarContext
+lean_get_num_attributes	delegate*<Obj>	Lean.getNumBuiltinAttributesImpl	M_Lean_Attributes
+lean_get_profiler	delegate*<Obj, byte>	_private.Lean.Util.Profile.0.Lean.get_profiler	M_Lean_Util_Profile
+lean_get_profiler_threshold	delegate*<Obj, double>	Lean.profiler.threshold.getSecs	M_Lean_Util_Profile
+lean_get_regular_init_fn_name_for	delegate*<Obj, Obj, Obj>	Lean.getRegularInitFnNameFor?	M_Lean_Compiler_InitAttr
+lean_get_structural_rec_arg_pos	delegate*<Obj, Obj, Obj, Obj>	_private.Lean.Elab.PreDefinition.Structural.Eqns.0.Lean.Elab.Structural.getStructuralRecArgPosImp?	M_Lean_Elab_PreDefinition_Structural_Eqns
+lean_get_symbol_stem	delegate*<Obj, Obj, Obj>	Lean.getSymbolStem	M_Lean_Compiler_ModPkgExt
+lean_grind_cutsat_assert_eq	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Grind.Arith.Cutsat.EqCnstr.assertImpl	M_Lean_Meta_Tactic_Grind_Arith_Cutsat_EqCnstr
+lean_grind_cutsat_assert_le	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Grind.Arith.Cutsat.LeCnstr.assertImpl	M_Lean_Meta_Tactic_Grind_Arith_Cutsat_LeCnstr
+lean_grind_cutsat_mk_var	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Grind.Arith.Cutsat.mkVarImpl	M_Lean_Meta_Tactic_Grind_Arith_Cutsat_Var
+lean_grind_internalize	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Meta.Tactic.Grind.Internalize.0.Lean.Meta.Grind.internalizeImpl	M_Lean_Meta_Tactic_Grind_Internalize
+lean_grind_mk_eq_proof	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Grind.mkEqProofImpl	M_Lean_Meta_Tactic_Grind_Proof
+lean_grind_mk_heq_proof	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Grind.mkHEqProofImpl	M_Lean_Meta_Tactic_Grind_Proof
+lean_grind_normalize	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Grind.normalizeImp	M_Lean_Meta_Tactic_Grind_SimpUtil
+lean_grind_preprocess	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Grind.preprocessImpl	M_Lean_Meta_Tactic_Grind_Simp
+lean_grind_process_new_facts	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Meta.Tactic.Grind.Core.0.Lean.Meta.Grind.processNewFactsImpl	M_Lean_Meta_Tactic_Grind_Core
+lean_has_compile_error	delegate*<Obj, Obj, byte>	_private.Lean.Compiler.IR.CompilerM.0.Lean.IR.hasCompileError	M_Lean_Compiler_IR_CompilerM
+lean_idbg_client_loop	delegate*<Obj, Obj, Obj, Obj>	_private.Lean.Elab.Idbg.0.Lean.Idbg.idbgClientLoopImpl	M_Lean_Elab_Idbg
+lean_inductive_val_is_rec	delegate*<Obj, byte>	Lean.InductiveVal.isRecEx	M_Lean_Declaration
+lean_inductive_val_is_reflexive	delegate*<Obj, byte>	Lean.InductiveVal.isReflexiveEx	M_Lean_Declaration
+lean_inductive_val_is_unsafe	delegate*<Obj, byte>	Lean.InductiveVal.isUnsafeEx	M_Lean_Declaration
+lean_infer_type	delegate*<Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.inferTypeImp	M_Lean_Meta_InferType
+lean_init_search_path	delegate*<Obj>	_private.Lean.Util.Path.0.Lean.initSearchPathInternal	M_Lean_Util_Path
+lean_io_cancel_token_is_set	delegate*<Obj, byte>	_private.Init.System.CancelToken.0.IO.CancelToken.isSetExport	M_Init_System_CancelToken
+lean_io_eprint	delegate*<Obj, Obj>	_private.Init.System.IO.0.IO.eprintAux	M_Init_System_IO
+lean_io_eprintln	delegate*<Obj, Obj>	_private.Init.System.IO.0.IO.eprintlnAux	M_Init_System_IO
+lean_io_error_to_string	delegate*<Obj, Obj>	IO.Error.toString	M_Init_System_IOError
+lean_ir_emit_llvm	delegate*<Obj, Obj, Obj, Obj>	Lean.IR.emitLLVM	M_Lean_Compiler_IR_EmitLLVM
+lean_ir_export_entries	delegate*<Obj, Obj>	_private.Lean.Compiler.IR.CompilerM.0.Lean.IR.exportIREntries	M_Lean_Compiler_IR_CompilerM
+lean_ir_find_env_decl	delegate*<Obj, Obj, Obj>	_private.Lean.Compiler.IR.CompilerM.0.Lean.IR.findInterpDecl	M_Lean_Compiler_IR_CompilerM
+lean_ir_find_env_decl_boxed	delegate*<Obj, Obj, Obj>	_private.Lean.Compiler.IR.CompilerM.0.Lean.IR.findInterpDeclBoxed	M_Lean_Compiler_IR_CompilerM
+lean_ir_format_fn_body_head	delegate*<Obj, Obj>	_private.Lean.Compiler.IR.Format.0.Lean.IR.formatFnBodyHead'	M_Lean_Compiler_IR_Format
+lean_is_expr_def_eq	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.isExprDefEqAuxImpl	M_Lean_Meta_ExprDefEq
+lean_is_level_def_eq	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.isLevelDefEqAuxImpl	M_Lean_Meta_LevelDefEq
+lean_is_reserved_name	delegate*<Obj, Obj, byte>	Lean.isReservedName	M_Lean_ResolveName
+lean_is_trace_class_enabled	delegate*<Obj, Obj, byte>	_private.Lean.Util.Trace.0.Lean.isTracingEnabledForExport	M_Lean_Util_Trace
+lean_is_unsafe_inductive_decl	delegate*<Obj, byte>	Lean.Declaration.isUnsafeInductiveDeclEx	M_Lean_Declaration
+lean_kernel_diag_is_enabled	delegate*<Obj, byte>	Lean.Kernel.Environment.Diagnostics.isEnabled	M_Lean_Environment
+lean_kernel_get_diag	delegate*<Obj, Obj>	Lean.Kernel.Environment.getDiagnostics	M_Lean_Environment
+lean_kernel_record_unfold	delegate*<Obj, Obj, Obj>	Lean.Kernel.Environment.Diagnostics.recordUnfold	M_Lean_Environment
+lean_kernel_set_diag	delegate*<Obj, Obj, Obj>	Lean.Kernel.Environment.setDiagnostics	M_Lean_Environment
+lean_level_depth	delegate*<Obj, uint>	Lean.Level.depthEx	M_Lean_Level
+lean_level_has_mvar	delegate*<Obj, byte>	Lean.Level.hasMVarEx	M_Lean_Level
+lean_level_has_param	delegate*<Obj, byte>	Lean.Level.hasParamEx	M_Lean_Level
+lean_level_hash	delegate*<Obj, uint>	Lean.Level.hashEx	M_Lean_Level
+lean_level_mk_imax	delegate*<Obj, Obj, Obj>	Lean.mkLevelIMaxEx	M_Lean_Level
+lean_level_mk_max	delegate*<Obj, Obj, Obj>	Lean.mkLevelMaxEx	M_Lean_Level
+lean_level_mk_param	delegate*<Obj, Obj>	Lean.mkLevelParamEx	M_Lean_Level
+lean_level_mk_succ	delegate*<Obj, Obj>	Lean.mkLevelSuccEx	M_Lean_Level
+lean_level_mk_zero	delegate*<Obj, Obj>	Lean.mkLevelZeroEx	M_Lean_Level
+lean_list_to_array	delegate*<Obj, Obj, Obj>	List.toArrayImpl	M_Init_Data_List_ToArrayImpl
+lean_lit_type	delegate*<Obj, Obj>	Lean.Literal.typeEx	M_Lean_Expr
+lean_load_dynlib	delegate*<Obj, Obj>	Lean.loadDynlib	M_Lean_LoadDynlib
+lean_load_plugin	delegate*<Obj, Obj, Obj>	Lean.loadPlugin	M_Lean_LoadDynlib
+lean_local_ctx_find	delegate*<Obj, Obj, Obj>	Lean.LocalContext.find?	M_Lean_LocalContext
+lean_local_ctx_mk_let_decl	delegate*<Obj, Obj, Obj, Obj, Obj, byte, Obj>	_private.Lean.LocalContext.0.Lean.LocalContext.mkLetDeclExported	M_Lean_LocalContext
+lean_local_ctx_mk_local_decl	delegate*<Obj, Obj, Obj, Obj, byte, Obj>	_private.Lean.LocalContext.0.Lean.LocalContext.mkLocalDeclExported	M_Lean_LocalContext
+lean_local_ctx_num_indices	delegate*<Obj, Obj>	Lean.LocalContext.numIndices	M_Lean_LocalContext
+lean_local_decl_binder_info	delegate*<Obj, byte>	Lean.LocalDecl.binderInfoEx	M_Lean_LocalContext
+lean_mk_antiquot_formatter	delegate*<Obj, Obj, byte, byte, Obj, Obj, Obj, Obj, Obj>	Lean.PrettyPrinter.Formatter.mkAntiquot.formatter	M_Lean_Parser
+lean_mk_antiquot_parenthesizer	delegate*<Obj, Obj, byte, byte, Obj, Obj, Obj, Obj, Obj>	Lean.PrettyPrinter.Parenthesizer.mkAntiquot.parenthesizer	M_Lean_Parser
+lean_mk_bool_data_value	delegate*<byte, Obj>	Lean.mkBoolDataValueEx	M_Lean_Data_KVMap
+lean_mk_constructor_val	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, byte, Obj>	Lean.mkConstructorValEx	M_Lean_Declaration
+lean_mk_definition_val	delegate*<Obj, Obj, Obj, Obj, Obj, byte, Obj, Obj>	Lean.mkDefinitionValEx	M_Lean_Declaration
+lean_mk_empty_local_ctx	delegate*<Obj, Obj>	Lean.LocalContext.mkEmpty	M_Lean_LocalContext
+lean_mk_inductive_decl	delegate*<Obj, Obj, Obj, byte, Obj>	Lean.mkInductiveDeclEs	M_Lean_Declaration
+lean_mk_inductive_val	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, byte, byte, byte, Obj>	Lean.mkInductiveValEx	M_Lean_Declaration
+lean_mk_io_error_already_exists	delegate*<uint, Obj, Obj>	IO.Error.mkAlreadyExists	M_Init_System_IOError
+lean_mk_io_error_already_exists_file	delegate*<Obj, uint, Obj, Obj>	IO.Error.mkAlreadyExistsFile	M_Init_System_IOError
+lean_mk_io_error_eof	delegate*<Obj, Obj>	IO.Error.mkEofError	M_Init_System_IOError
+lean_mk_io_error_hardware_fault	delegate*<uint, Obj, Obj>	IO.Error.mkHardwareFault	M_Init_System_IOError
+lean_mk_io_error_illegal_operation	delegate*<uint, Obj, Obj>	IO.Error.mkIllegalOperation	M_Init_System_IOError
+lean_mk_io_error_inappropriate_type	delegate*<uint, Obj, Obj>	IO.Error.mkInappropriateType	M_Init_System_IOError
+lean_mk_io_error_inappropriate_type_file	delegate*<Obj, uint, Obj, Obj>	IO.Error.mkInappropriateTypeFile	M_Init_System_IOError
+lean_mk_io_error_interrupted	delegate*<Obj, uint, Obj, Obj>	IO.Error.mkInterrupted	M_Init_System_IOError
+lean_mk_io_error_invalid_argument	delegate*<uint, Obj, Obj>	IO.Error.mkInvalidArgument	M_Init_System_IOError
+lean_mk_io_error_invalid_argument_file	delegate*<Obj, uint, Obj, Obj>	IO.Error.mkInvalidArgumentFile	M_Init_System_IOError
+lean_mk_io_error_no_file_or_directory	delegate*<Obj, uint, Obj, Obj>	IO.Error.mkNoFileOrDirectory	M_Init_System_IOError
+lean_mk_io_error_no_such_thing	delegate*<uint, Obj, Obj>	IO.Error.mkNoSuchThing	M_Init_System_IOError
+lean_mk_io_error_no_such_thing_file	delegate*<Obj, uint, Obj, Obj>	IO.Error.mkNoSuchThingFile	M_Init_System_IOError
+lean_mk_io_error_other_error	delegate*<uint, Obj, Obj>	IO.Error.mkOtherError	M_Init_System_IOError
+lean_mk_io_error_permission_denied	delegate*<uint, Obj, Obj>	IO.Error.mkPermissionDenied	M_Init_System_IOError
+lean_mk_io_error_permission_denied_file	delegate*<Obj, uint, Obj, Obj>	IO.Error.mkPermissionDeniedFile	M_Init_System_IOError
+lean_mk_io_error_protocol_error	delegate*<uint, Obj, Obj>	IO.Error.mkProtocolError	M_Init_System_IOError
+lean_mk_io_error_resource_busy	delegate*<uint, Obj, Obj>	IO.Error.mkResourceBusy	M_Init_System_IOError
+lean_mk_io_error_resource_exhausted	delegate*<uint, Obj, Obj>	IO.Error.mkResourceExhausted	M_Init_System_IOError
+lean_mk_io_error_resource_exhausted_file	delegate*<Obj, uint, Obj, Obj>	IO.Error.mkResourceExhaustedFile	M_Init_System_IOError
+lean_mk_io_error_resource_vanished	delegate*<uint, Obj, Obj>	IO.Error.mkResourceVanished	M_Init_System_IOError
+lean_mk_io_error_time_expired	delegate*<uint, Obj, Obj>	IO.Error.mkTimeExpired	M_Init_System_IOError
+lean_mk_io_error_unsatisfied_constraints	delegate*<uint, Obj, Obj>	IO.Error.mkUnsatisfiedConstraints	M_Init_System_IOError
+lean_mk_io_error_unsupported_operation	delegate*<uint, Obj, Obj>	IO.Error.mkUnsupportedOperation	M_Init_System_IOError
+lean_mk_io_user_error	delegate*<Obj, Obj>	IO.userError	M_Init_System_IOError
+lean_mk_let_decl	delegate*<Obj, Obj, Obj, Obj, Obj, Obj>	Lean.mkLetDeclEx	M_Lean_LocalContext
+lean_mk_local_decl	delegate*<Obj, Obj, Obj, Obj, byte, Obj>	Lean.mkLocalDeclEx	M_Lean_LocalContext
+lean_mk_mangled_boxed_name	delegate*<Obj, Obj>	Lean.mkMangledBoxedName	M_Lean_Compiler_NameMangling
+lean_mk_quot_val	delegate*<Obj, Obj, Obj, byte, Obj>	Lean.mkQuotValEx	M_Lean_Declaration
+lean_mk_recursor_val	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, byte, byte, Obj>	Lean.mkRecursorValEx	M_Lean_Declaration
+lean_name_append_after	delegate*<Obj, Obj, Obj>	Lean.Name.appendAfter	M_Init_Meta_Defs
+lean_name_append_index_after	delegate*<Obj, Obj, Obj>	Lean.Name.appendIndexAfter	M_Init_Meta_Defs
+lean_name_hash_exported	delegate*<Obj, ulong>	Lean.Name.hashEx	M_Lean_Data_Name
+lean_name_mk_numeral	delegate*<Obj, Obj, Obj>	Lean.Name.mkNum	M_Init_Prelude
+lean_name_mk_string	delegate*<Obj, Obj, Obj>	Lean.Name.mkStr	M_Init_Prelude
+lean_opaque_val_is_unsafe	delegate*<Obj, byte>	Lean.OpaqueVal.isUnsafeEx	M_Lean_Declaration
+lean_options_get_bool	delegate*<Obj, Obj, byte, byte>	_private.Lean.Data.Options.0.Lean.Option.getBool	M_Lean_Data_Options
+lean_options_get_empty	delegate*<Obj, Obj>	_private.Lean.Data.Options.0.Lean.Options.getEmpty	M_Lean_Data_Options
+lean_options_update_bool	delegate*<Obj, Obj, byte, Obj>	_private.Lean.Data.Options.0.Lean.Option.updateBool	M_Lean_Data_Options
+lean_pretty_printer_formatter_interpret_parser_descr	delegate*<Obj, Obj, Obj, Obj>	Lean.PrettyPrinter.Formatter.interpretParserDescr	M_Lean_Parser
+lean_pretty_printer_parenthesizer_interpret_parser_descr	delegate*<Obj, Obj, Obj, Obj>	Lean.PrettyPrinter.Parenthesizer.interpretParserDescr	M_Lean_Parser
+lean_recursor_is_unsafe	delegate*<Obj, byte>	Lean.RecursorVal.isUnsafeEx	M_Lean_Declaration
+lean_recursor_k	delegate*<Obj, byte>	Lean.RecursorVal.kEx	M_Lean_Declaration
+lean_reducibility_hints_get_height	delegate*<Obj, uint>	Lean.ReducibilityHints.getHeightEx	M_Lean_Declaration
+lean_register_option	delegate*<Obj, Obj, Obj>	Lean.registerOption	M_Lean_Data_Options
+lean_run_init_attrs	delegate*<Obj, Obj, Obj>	_private.Lean.Compiler.InitAttr.0.Lean.runInitAttrs	M_Lean_Compiler_InitAttr
+lean_set_initializing	delegate*<byte, Obj>	_private.Lean.ImportingFlag.0.Lean.setInitializing	M_Lean_ImportingFlag
+lean_shell_main	delegate*<Obj, Obj, Obj>	_private.Lean.Shell.0.Lean.shellMain	M_Lean_Shell
+lean_shell_options_get_num_threads	delegate*<Obj, uint>	_private.Lean.Shell.0.Lean.ShellOptions.getNumThreads	M_Lean_Shell
+lean_shell_options_get_profiler	delegate*<Obj, byte>	_private.Lean.Shell.0.Lean.ShellOptions.getProfiler	M_Lean_Shell
+lean_shell_options_get_run	delegate*<Obj, byte>	_private.Lean.Shell.0.Lean.ShellOptions.getRun	M_Lean_Shell
+lean_shell_options_mk	delegate*<Obj, Obj>	_private.Lean.Shell.0.Lean.mkShellOptions	M_Lean_Shell
+lean_shell_options_process	delegate*<Obj, uint, Obj, Obj>	_private.Lean.Shell.0.Lean.ShellOptions.process	M_Lean_Shell
+lean_simp	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.Simp.simpImpl	M_Lean_Meta_Tactic_Simp_Main
+lean_stream_of_handle	delegate*<Obj, Obj>	IO.FS.Stream.ofHandle	M_Init_System_IO
+lean_string_any	delegate*<Obj, Obj, byte>	String.Internal.anyImpl	M_Init_Data_String_Search
+lean_string_capitalize	delegate*<Obj, Obj>	String.Internal.capitalizeImpl	M_Init_Data_String_Modify
+lean_string_contains	delegate*<Obj, uint, byte>	String.Internal.containsImpl	M_Init_Data_String_Search
+lean_string_drop	delegate*<Obj, Obj, Obj>	String.Internal.dropImpl	M_Init_Data_String_TakeDrop
+lean_string_dropright	delegate*<Obj, Obj, Obj>	String.Internal.dropRightImpl	M_Init_Data_String_TakeDrop
+lean_string_foldl	delegate*<Obj, Obj, Obj, Obj>	String.Internal.foldlImpl	M_Init_Data_String_Iterate
+lean_string_front	delegate*<Obj, uint>	String.Internal.frontImpl	M_Init_Data_String_Search
+lean_string_intercalate	delegate*<Obj, Obj, Obj>	String.Internal.intercalateImpl	M_Init_Data_String_Defs
+lean_string_isempty	delegate*<Obj, byte>	String.Internal.isEmptyImpl	M_Init_Data_String_Defs
+lean_string_isprefixof	delegate*<Obj, Obj, byte>	String.Internal.isPrefixOfImpl	M_Init_Data_String_TakeDrop
+lean_string_nextwhile	delegate*<Obj, Obj, Obj, Obj>	String.Internal.nextWhileImpl	M_Init_Data_String_TakeDrop
+lean_string_offsetofpos	delegate*<Obj, Obj, Obj>	String.Internal.offsetOfPosImpl	M_Init_Data_String_Basic
+lean_string_pos_min	delegate*<Obj, Obj, Obj>	String.Pos.Raw.Internal.minImpl	M_Init_Data_String_PosRaw
+lean_string_pos_sub	delegate*<Obj, Obj, Obj>	String.Pos.Internal.subImpl	M_Init_Data_String_PosRaw
+lean_string_posof	delegate*<Obj, uint, Obj>	String.Internal.posOfImpl	M_Init_Data_String_Search
+lean_string_pushn	delegate*<Obj, uint, Obj, Obj>	String.Internal.pushnImpl	M_Init_Data_String_Defs
+lean_string_trim	delegate*<Obj, Obj>	String.Internal.trimImpl	M_Init_Data_String_TakeDrop
+lean_substring_all	delegate*<Obj, Obj, byte>	Substring.Raw.Internal.allImpl	M_Init_Data_String_Substring
+lean_substring_beq	delegate*<Obj, Obj, byte>	Substring.Raw.Internal.beqImpl	M_Init_Data_String_Substring
+lean_substring_drop	delegate*<Obj, Obj, Obj>	Substring.Raw.Internal.dropImpl	M_Init_Data_String_Substring
+lean_substring_extract	delegate*<Obj, Obj, Obj, Obj>	Substring.Raw.Internal.extractImpl	M_Init_Data_String_Substring
+lean_substring_front	delegate*<Obj, uint>	Substring.Raw.Internal.frontImpl	M_Init_Data_String_Substring
+lean_substring_get	delegate*<Obj, Obj, uint>	Substring.Raw.Internal.getImpl	M_Init_Data_String_Substring
+lean_substring_isempty	delegate*<Obj, byte>	Substring.Raw.Internal.isEmptyImpl	M_Init_Data_String_Substring
+lean_substring_prev	delegate*<Obj, Obj, Obj>	Substring.Raw.Internal.prevImpl	M_Init_Data_String_Substring
+lean_substring_takewhile	delegate*<Obj, Obj, Obj>	Substring.Raw.Internal.takeWhileImpl	M_Init_Data_String_Substring
+lean_substring_tostring	delegate*<Obj, Obj>	Substring.Raw.Internal.toStringImpl	M_Init_Data_String_Substring
+lean_sym_def_eq	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Meta.Sym.Pattern.0.Lean.Meta.Sym.isDefEqMainImpl	M_Lean_Meta_Sym_Pattern
+lean_sym_dsimp	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Meta.Sym.DSimp.Main.0.Lean.Meta.Sym.DSimp.dsimpImpl	M_Lean_Meta_Sym_DSimp_Main
+lean_sym_simp	delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Meta.Sym.Simp.Main.0.Lean.Meta.Sym.Simp.simpImpl	M_Lean_Meta_Sym_Simp_Main
+lean_synth_pending	delegate*<Obj, Obj, Obj, Obj, Obj, Obj>	_private.Lean.Meta.SynthInstance.0.Lean.Meta.synthPendingImp	M_Lean_Meta_SynthInstance
+lean_update_env_attributes	delegate*<Obj, Obj>	Lean.updateEnvAttributesImpl	M_Lean_Attributes
+lean_whnf	delegate*<Obj, Obj, Obj, Obj, Obj, Obj>	Lean.Meta.whnfImp	M_Lean_Meta_WHNF

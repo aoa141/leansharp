@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RootNamespace>CadicalCheck</RootNamespace>
+    <Optimize>true</Optimize>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/LeanSharp.Runtime/Core/**/*.cs" />
+    <Compile Include="../../src/LeanSharp.Runtime/Cadical/**/*.cs" />
+    <Compile Include="*.cs" />
+  </ItemGroup>
+</Project>

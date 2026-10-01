@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Optimize>true</Optimize>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/LeanSharp.Runtime/Core/**/*.cs" />
+    <Compile Include="../../src/LeanSharp.Runtime/Compact/**/*.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+</Project>

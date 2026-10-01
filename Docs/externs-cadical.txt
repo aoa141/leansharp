@@ -1,0 +1,47 @@
+standard Obj lean_cadical_signature(Obj)  -- _private.Lean.Cadical.Internal.0.Lean.Cadical.Internal.getSignature
+standard Obj lean_cadical_solver_add(Obj, uint)  -- Lean.Cadical.Internal.Solver.add
+standard Obj lean_cadical_solver_assume(Obj, uint)  -- Lean.Cadical.Internal.Solver.assume
+standard Obj lean_cadical_solver_clause(Obj, Obj)  -- Lean.Cadical.Internal.Solver.clause
+standard Obj lean_cadical_solver_conclude(Obj)  -- Lean.Cadical.Internal.Solver.conclude
+standard Obj lean_cadical_solver_configurations()  -- Lean.Cadical.Internal.Solver.configurations
+standard Obj lean_cadical_solver_constrain(Obj, uint)  -- Lean.Cadical.Internal.Solver.constrain
+standard Obj lean_cadical_solver_freeze(Obj, uint)  -- Lean.Cadical.Internal.Solver.freeze
+standard Obj lean_cadical_solver_melt(Obj, uint)  -- Lean.Cadical.Internal.Solver.melt
+standard Obj lean_cadical_solver_new()  -- Lean.Cadical.Internal.Solver.new
+standard Obj lean_cadical_solver_optimize(Obj, uint)  -- Lean.Cadical.Internal.Solver.optimize
+standard Obj lean_cadical_solver_phase(Obj, uint)  -- Lean.Cadical.Internal.Solver.phase
+standard Obj lean_cadical_solver_reset_assumptions(Obj)  -- Lean.Cadical.Internal.Solver.resetAssumptions
+standard Obj lean_cadical_solver_reset_constraint(Obj)  -- Lean.Cadical.Internal.Solver.resetConstraint
+standard Obj lean_cadical_solver_resize(Obj, uint)  -- Lean.Cadical.Internal.Solver.resize
+standard Obj lean_cadical_solver_resources(Obj)  -- Lean.Cadical.Internal.Solver.resources
+standard Obj lean_cadical_solver_statistics(Obj)  -- Lean.Cadical.Internal.Solver.statistics
+standard Obj lean_cadical_solver_terminate(Obj)  -- Lean.Cadical.Internal.Solver.terminate
+standard Obj lean_cadical_solver_unphase(Obj, uint)  -- Lean.Cadical.Internal.Solver.unphase
+standard Obj lean_cadical_solver_usage()  -- Lean.Cadical.Internal.Solver.usage
+standard byte lean_cadical_solver_configure(Obj, Obj)  -- Lean.Cadical.Internal.Solver.configure
+standard byte lean_cadical_solver_constraint_failed(Obj)  -- Lean.Cadical.Internal.Solver.constraintFailed
+standard byte lean_cadical_solver_failed(Obj, uint)  -- Lean.Cadical.Internal.Solver.failed
+standard byte lean_cadical_solver_flip(Obj, uint)  -- Lean.Cadical.Internal.Solver.flip
+standard byte lean_cadical_solver_flippable(Obj, uint)  -- Lean.Cadical.Internal.Solver.flippable
+standard byte lean_cadical_solver_frozen(Obj, uint)  -- Lean.Cadical.Internal.Solver.frozen
+standard byte lean_cadical_solver_inconsistent(Obj)  -- Lean.Cadical.Internal.Solver.inconsistent
+standard byte lean_cadical_solver_is_preprocessing_option(Obj)  -- Lean.Cadical.Internal.Solver.isPreprocessingOption
+standard byte lean_cadical_solver_is_valid_configuration(Obj)  -- Lean.Cadical.Internal.Solver.isValidConfiguration
+standard byte lean_cadical_solver_is_valid_limit(Obj, Obj)  -- Lean.Cadical.Internal.Solver.isValidLimit
+standard byte lean_cadical_solver_is_valid_long_option(Obj)  -- Lean.Cadical.Internal.Solver.isValidLongOption
+standard byte lean_cadical_solver_is_valid_option(Obj)  -- Lean.Cadical.Internal.Solver.isValidOption
+standard byte lean_cadical_solver_limit(Obj, Obj, uint)  -- Lean.Cadical.Internal.Solver.limit
+standard byte lean_cadical_solver_set(Obj, Obj, uint)  -- Lean.Cadical.Internal.Solver.set
+standard byte lean_cadical_solver_set_long_option(Obj, Obj)  -- Lean.Cadical.Internal.Solver.setLongOption
+standard byte lean_cadical_solver_simplify(Obj, uint)  -- Lean.Cadical.Internal.Solver.simplify
+standard byte lean_cadical_solver_solve(Obj)  -- Lean.Cadical.Internal.Solver.solve
+standard byte lean_cadical_solver_status(Obj)  -- Lean.Cadical.Internal.Solver.status
+standard uint lean_cadical_solver_active(Obj)  -- Lean.Cadical.Internal.Solver.active
+standard uint lean_cadical_solver_fixed(Obj, uint)  -- Lean.Cadical.Internal.Solver.fixed
+standard uint lean_cadical_solver_get(Obj, Obj)  -- Lean.Cadical.Internal.Solver.get
+standard uint lean_cadical_solver_lookahead(Obj)  -- Lean.Cadical.Internal.Solver.lookahead
+standard uint lean_cadical_solver_val(Obj, uint)  -- Lean.Cadical.Internal.Solver.val
+standard uint lean_cadical_solver_vars(Obj)  -- Lean.Cadical.Internal.Solver.vars
+standard ulong lean_cadical_solver_irredundant(Obj)  -- Lean.Cadical.Internal.Solver.irredundant
+standard ulong lean_cadical_solver_redundant(Obj)  -- Lean.Cadical.Internal.Solver.redundant
+standard ushort lean_cadical_solver_state(Obj)  -- Lean.Cadical.Internal.Solver.state

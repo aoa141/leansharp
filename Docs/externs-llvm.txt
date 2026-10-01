@@ -1,0 +1,79 @@
+standard Obj lean_llvm_add_attribute_at_index(ulong, ulong, ulong, ulong)  -- Lean.LLVM.addAttributeAtIndex
+standard Obj lean_llvm_add_case(ulong, ulong, ulong, ulong)  -- Lean.LLVM.addCase
+standard Obj lean_llvm_build_store(ulong, ulong, ulong, ulong)  -- Lean.LLVM.buildStore
+standard Obj lean_llvm_clear_insertion_position(Obj, ulong)  -- Lean.LLVM.clearInsertionPosition
+standard Obj lean_llvm_dispose_module(ulong, ulong)  -- Lean.LLVM.disposeModule
+standard Obj lean_llvm_dispose_target_machine(ulong, ulong)  -- Lean.LLVM.disposeTargetMachine
+standard Obj lean_llvm_get_default_target_triple()  -- Lean.LLVM.getDefaultTargetTriple
+standard Obj lean_llvm_get_first_instruction(ulong, ulong)  -- Lean.LLVM.getFirstInstruction
+standard Obj lean_llvm_get_named_function(ulong, ulong, Obj)  -- Lean.LLVM.getNamedFunction
+standard Obj lean_llvm_get_named_global(ulong, ulong, Obj)  -- Lean.LLVM.getNamedGlobal
+standard Obj lean_llvm_get_value_name2(ulong, ulong)  -- Lean.LLVM.Value.getName
+standard Obj lean_llvm_initialize_target_info()  -- Lean.LLVM.llvmInitializeTargetInfo
+standard Obj lean_llvm_link_modules(ulong, ulong, ulong)  -- Lean.LLVM.linkModules
+standard Obj lean_llvm_module_to_string(ulong, ulong)  -- Lean.LLVM.moduleToString
+standard Obj lean_llvm_position_builder_at_end(Obj, ulong, ulong)  -- Lean.LLVM.positionBuilderAtEnd
+standard Obj lean_llvm_position_builder_before(ulong, ulong, ulong)  -- Lean.LLVM.positionBuilderBefore
+standard Obj lean_llvm_print_module_to_file(ulong, ulong, Obj)  -- Lean.LLVM.printModuletoFile
+standard Obj lean_llvm_print_module_to_string(ulong, ulong)  -- Lean.LLVM.printModuletoString
+standard Obj lean_llvm_set_dll_storage_class(ulong, ulong, ulong)  -- Lean.LLVM.setDLLStorageClass
+standard Obj lean_llvm_set_initializer(ulong, ulong, ulong)  -- Lean.LLVM.setInitializer
+standard Obj lean_llvm_set_linkage(ulong, ulong, ulong)  -- Lean.LLVM.setLinkage
+standard Obj lean_llvm_set_tail_call(ulong, ulong, byte)  -- Lean.LLVM.setTailCall
+standard Obj lean_llvm_set_visibility(ulong, ulong, ulong)  -- Lean.LLVM.setVisibility
+standard Obj lean_llvm_target_machine_emit_to_file(ulong, ulong, ulong, Obj, ulong)  -- Lean.LLVM.targetMachineEmitToFile
+standard Obj lean_llvm_verify_module(ulong, ulong)  -- Lean.LLVM.verifyModule
+standard Obj lean_llvm_write_bitcode_to_file(ulong, ulong, Obj)  -- Lean.LLVM.writeBitcodeToFile
+standard ulong lean_llvm_add_function(ulong, ulong, Obj, ulong)  -- Lean.LLVM.addFunction
+standard ulong lean_llvm_add_global(ulong, ulong, Obj, ulong)  -- Lean.LLVM.addGlobal
+standard ulong lean_llvm_append_basic_block_in_context(ulong, ulong, Obj)  -- Lean.LLVM.appendBasicBlockInContext
+standard ulong lean_llvm_array_type(ulong, ulong, ulong)  -- Lean.LLVM.arrayType
+standard ulong lean_llvm_build_add(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildAdd
+standard ulong lean_llvm_build_alloca(ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildAlloca
+standard ulong lean_llvm_build_br(ulong, ulong, ulong)  -- Lean.LLVM.buildBr
+standard ulong lean_llvm_build_call2(ulong, ulong, ulong, ulong, Obj, Obj)  -- Lean.LLVM.buildCall2
+standard ulong lean_llvm_build_cond_br(ulong, ulong, ulong, ulong, ulong)  -- Lean.LLVM.buildCondBr
+standard ulong lean_llvm_build_gep2(ulong, ulong, ulong, ulong, Obj, Obj)  -- Lean.LLVM.buildGEP2
+standard ulong lean_llvm_build_global_string(ulong, ulong, Obj, Obj)  -- Lean.LLVM.buildGlobalString
+standard ulong lean_llvm_build_icmp(ulong, ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildICmp
+standard ulong lean_llvm_build_inbounds_gep2(ulong, ulong, ulong, ulong, Obj, Obj)  -- Lean.LLVM.buildInBoundsGEP2
+standard ulong lean_llvm_build_load2(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildLoad2
+standard ulong lean_llvm_build_mul(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildMul
+standard ulong lean_llvm_build_not(ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildNot
+standard ulong lean_llvm_build_ptr_to_int(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildPtrToInt
+standard ulong lean_llvm_build_ret(ulong, ulong, ulong)  -- Lean.LLVM.buildRet
+standard ulong lean_llvm_build_sext(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildSext
+standard ulong lean_llvm_build_sext_or_trunc(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildSextOrTrunc
+standard ulong lean_llvm_build_sub(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildSub
+standard ulong lean_llvm_build_switch(ulong, ulong, ulong, ulong, ulong)  -- Lean.LLVM.buildSwitch
+standard ulong lean_llvm_build_unreachable(ulong, ulong)  -- Lean.LLVM.buildUnreachable
+standard ulong lean_llvm_build_zext(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildZext
+standard ulong lean_llvm_const_array(ulong, ulong, Obj)  -- Lean.LLVM.constArray
+standard ulong lean_llvm_const_int(ulong, ulong, ulong, byte)  -- Lean.LLVM.constInt
+standard ulong lean_llvm_const_pointer_null(ulong, ulong)  -- Lean.LLVM.constPointerNull
+standard ulong lean_llvm_const_string(ulong, Obj)  -- Lean.LLVM.constString
+standard ulong lean_llvm_count_basic_blocks(ulong, ulong)  -- Lean.LLVM.countBasicBlocks
+standard ulong lean_llvm_create_builder_in_context(ulong)  -- Lean.LLVM.createBuilderInContext
+standard ulong lean_llvm_create_context()  -- Lean.LLVM.createContext
+standard ulong lean_llvm_create_memory_buffer_with_contents_of_file(ulong, Obj)  -- Lean.LLVM.createMemoryBufferWithContentsOfFile
+standard ulong lean_llvm_create_module(ulong, Obj)  -- Lean.LLVM.createModule
+standard ulong lean_llvm_create_string_attribute(ulong, Obj, Obj)  -- Lean.LLVM.createStringAttribute
+standard ulong lean_llvm_create_target_machine(ulong, ulong, Obj, Obj, Obj)  -- Lean.LLVM.createTargetMachine
+standard ulong lean_llvm_double_type_in_context(ulong)  -- Lean.LLVM.doubleTypeInContext
+standard ulong lean_llvm_float_type_in_context(ulong)  -- Lean.LLVM.floatTypeInContext
+standard ulong lean_llvm_function_type(ulong, ulong, Obj, byte)  -- Lean.LLVM.functionType
+standard ulong lean_llvm_get_basic_block_parent(ulong, ulong)  -- Lean.LLVM.getBasicBlockParent
+standard ulong lean_llvm_get_entry_basic_block(ulong, ulong)  -- Lean.LLVM.getEntryBasicBlock
+standard ulong lean_llvm_get_first_function(ulong, ulong)  -- Lean.LLVM.getFirstFunction
+standard ulong lean_llvm_get_first_global(ulong, ulong)  -- Lean.LLVM.getFirstGlobal
+standard ulong lean_llvm_get_insert_block(Obj, ulong)  -- Lean.LLVM.getInsertBlock
+standard ulong lean_llvm_get_next_function(ulong, ulong)  -- Lean.LLVM.getNextFunction
+standard ulong lean_llvm_get_next_global(ulong, ulong)  -- Lean.LLVM.getNextGlobal
+standard ulong lean_llvm_get_target_from_triple(ulong, Obj)  -- Lean.LLVM.getTargetFromTriple
+standard ulong lean_llvm_get_undef(ulong, ulong)  -- Lean.LLVM.getUndef
+standard ulong lean_llvm_int_type_in_context(ulong, ulong)  -- Lean.LLVM.intTypeInContext
+standard ulong lean_llvm_opaque_pointer_type_in_context(ulong, ulong)  -- Lean.LLVM.opaquePointerTypeInContext
+standard ulong lean_llvm_parse_bitcode(ulong, ulong)  -- Lean.LLVM.parseBitcode
+standard ulong lean_llvm_pointer_type(ulong, ulong)  -- Lean.LLVM.pointerType
+standard ulong lean_llvm_type_of(ulong, ulong)  -- Lean.LLVM.typeOf
+standard ulong lean_llvm_void_type_in_context(ulong)  -- Lean.LLVM.voidType

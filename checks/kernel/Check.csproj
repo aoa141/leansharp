@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RootNamespace>KernelCheck</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/LeanSharp.Runtime/Core/**/*.cs" />
+    <Compile Include="../../src/LeanSharp.Runtime/Kernel/**/*.cs" />
+    <Compile Include="*.cs" />
+    <None Include="expected_inductives.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="expected_inductives2.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

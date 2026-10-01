@@ -1,0 +1,78 @@
+standard Obj lean_uv_chdir(Obj)  -- Std.Internal.UV.System.chdir
+standard Obj lean_uv_cpu_info()  -- Std.Internal.UV.System.cpuInfo
+standard Obj lean_uv_cwd()  -- Std.Internal.UV.System.cwd
+standard Obj lean_uv_dns_get_info(Obj, Obj, byte)  -- Std.Internal.UV.DNS.getAddrInfo
+standard Obj lean_uv_dns_get_name(Obj)  -- Std.Internal.UV.DNS.getNameInfo
+standard Obj lean_uv_event_loop_configure(Obj)  -- Std.Internal.UV.Loop.configure
+standard Obj lean_uv_exepath()  -- Std.Internal.UV.System.exePath
+standard Obj lean_uv_get_available_memory()  -- Std.Internal.UV.System.availableMemory
+standard Obj lean_uv_get_constrained_memory()  -- Std.Internal.UV.System.constrainedMemory
+standard Obj lean_uv_get_free_memory()  -- Std.Internal.UV.System.freeMemory
+standard Obj lean_uv_get_process_title()  -- Std.Internal.UV.System.getProcessTitle
+standard Obj lean_uv_get_total_memory()  -- Std.Internal.UV.System.totalMemory
+standard Obj lean_uv_getrusage()  -- Std.Internal.UV.System.getrusage
+standard Obj lean_uv_hrtime()  -- Std.Internal.UV.System.hrtime
+standard Obj lean_uv_interface_addresses()  -- Std.Net.interfaceAddresses
+standard Obj lean_uv_ntop_v4(Obj)  -- Std.Net.IPv4Addr.toString
+standard Obj lean_uv_ntop_v6(Obj)  -- Std.Net.IPv6Addr.toString
+standard Obj lean_uv_os_environ()  -- Std.Internal.UV.System.osEnviron
+standard Obj lean_uv_os_get_group(ulong)  -- Std.Internal.UV.System.osGetGroup
+standard Obj lean_uv_os_get_passwd()  -- Std.Internal.UV.System.osGetPasswd
+standard Obj lean_uv_os_getenv(Obj)  -- Std.Internal.UV.System.osGetenv
+standard Obj lean_uv_os_gethostname()  -- Std.Internal.UV.System.osGetHostname
+standard Obj lean_uv_os_getpid()  -- Std.Internal.UV.System.osGetPid
+standard Obj lean_uv_os_getppid()  -- Std.Internal.UV.System.osGetPpid
+standard Obj lean_uv_os_getpriority(ulong)  -- Std.Internal.UV.System.osGetPriority
+standard Obj lean_uv_os_homedir()  -- Std.Internal.UV.System.osHomedir
+standard Obj lean_uv_os_setenv(Obj, Obj)  -- Std.Internal.UV.System.osSetenv
+standard Obj lean_uv_os_setpriority(ulong, ulong)  -- Std.Internal.UV.System.osSetPriority
+standard Obj lean_uv_os_tmpdir()  -- Std.Internal.UV.System.osTmpdir
+standard Obj lean_uv_os_uname()  -- Std.Internal.UV.System.osUname
+standard Obj lean_uv_os_unsetenv(Obj)  -- Std.Internal.UV.System.osUnsetenv
+standard Obj lean_uv_pton_v4(Obj)  -- Std.Net.IPv4Addr.ofString
+standard Obj lean_uv_pton_v6(Obj)  -- Std.Net.IPv6Addr.ofString
+standard Obj lean_uv_random(ulong)  -- Std.Internal.UV.System.random
+standard Obj lean_uv_set_process_title(Obj)  -- Std.Internal.UV.System.setProcessTitle
+standard Obj lean_uv_signal_cancel(Obj)  -- Std.Internal.UV.Signal.cancel
+standard Obj lean_uv_signal_mk(uint, byte)  -- Std.Internal.UV.Signal.mk
+standard Obj lean_uv_signal_next(Obj)  -- Std.Internal.UV.Signal.next
+standard Obj lean_uv_signal_stop(Obj)  -- Std.Internal.UV.Signal.stop
+standard Obj lean_uv_tcp_accept(Obj)  -- Std.Internal.UV.TCP.Socket.accept
+standard Obj lean_uv_tcp_bind(Obj, Obj)  -- Std.Internal.UV.TCP.Socket.bind
+standard Obj lean_uv_tcp_cancel_accept(Obj)  -- Std.Internal.UV.TCP.Socket.cancelAccept
+standard Obj lean_uv_tcp_cancel_recv(Obj)  -- Std.Internal.UV.TCP.Socket.cancelRecv
+standard Obj lean_uv_tcp_connect(Obj, Obj)  -- Std.Internal.UV.TCP.Socket.connect
+standard Obj lean_uv_tcp_getpeername(Obj)  -- Std.Internal.UV.TCP.Socket.getPeerName
+standard Obj lean_uv_tcp_getsockname(Obj)  -- Std.Internal.UV.TCP.Socket.getSockName
+standard Obj lean_uv_tcp_keepalive(Obj, byte, uint)  -- Std.Internal.UV.TCP.Socket.keepAlive
+standard Obj lean_uv_tcp_listen(Obj, uint)  -- Std.Internal.UV.TCP.Socket.listen
+standard Obj lean_uv_tcp_new()  -- Std.Internal.UV.TCP.Socket.new
+standard Obj lean_uv_tcp_nodelay(Obj)  -- Std.Internal.UV.TCP.Socket.noDelay
+standard Obj lean_uv_tcp_recv(Obj, ulong)  -- Std.Internal.UV.TCP.Socket.recv?
+standard Obj lean_uv_tcp_send(Obj, Obj)  -- Std.Internal.UV.TCP.Socket.send
+standard Obj lean_uv_tcp_shutdown(Obj)  -- Std.Internal.UV.TCP.Socket.shutdown
+standard Obj lean_uv_tcp_try_accept(Obj)  -- Std.Internal.UV.TCP.Socket.tryAccept
+standard Obj lean_uv_tcp_wait_acceptable(Obj)  -- Std.Internal.UV.TCP.Socket.waitAcceptable
+standard Obj lean_uv_tcp_wait_readable(Obj)  -- Std.Internal.UV.TCP.Socket.waitReadable
+standard Obj lean_uv_timer_cancel(Obj)  -- Std.Internal.UV.Timer.cancel
+standard Obj lean_uv_timer_mk(ulong, byte)  -- Std.Internal.UV.Timer.mk
+standard Obj lean_uv_timer_next(Obj)  -- Std.Internal.UV.Timer.next
+standard Obj lean_uv_timer_reset(Obj)  -- Std.Internal.UV.Timer.reset
+standard Obj lean_uv_timer_stop(Obj)  -- Std.Internal.UV.Timer.stop
+standard Obj lean_uv_udp_bind(Obj, Obj)  -- Std.Internal.UV.UDP.Socket.bind
+standard Obj lean_uv_udp_cancel_recv(Obj)  -- Std.Internal.UV.UDP.Socket.cancelRecv
+standard Obj lean_uv_udp_connect(Obj, Obj)  -- Std.Internal.UV.UDP.Socket.connect
+standard Obj lean_uv_udp_getpeername(Obj)  -- Std.Internal.UV.UDP.Socket.getPeerName
+standard Obj lean_uv_udp_getsockname(Obj)  -- Std.Internal.UV.UDP.Socket.getSockName
+standard Obj lean_uv_udp_new()  -- Std.Internal.UV.UDP.Socket.new
+standard Obj lean_uv_udp_recv(Obj, ulong)  -- Std.Internal.UV.UDP.Socket.recv
+standard Obj lean_uv_udp_send(Obj, Obj, Obj)  -- Std.Internal.UV.UDP.Socket.send
+standard Obj lean_uv_udp_set_broadcast(Obj, byte)  -- Std.Internal.UV.UDP.Socket.setBroadcast
+standard Obj lean_uv_udp_set_membership(Obj, Obj, Obj, byte)  -- Std.Internal.UV.UDP.Socket.setMembership
+standard Obj lean_uv_udp_set_multicast_interface(Obj, Obj)  -- Std.Internal.UV.UDP.Socket.setMulticastInterface
+standard Obj lean_uv_udp_set_multicast_loop(Obj, byte)  -- Std.Internal.UV.UDP.Socket.setMulticastLoop
+standard Obj lean_uv_udp_set_multicast_ttl(Obj, uint)  -- Std.Internal.UV.UDP.Socket.setMulticastTTL
+standard Obj lean_uv_udp_set_ttl(Obj, uint)  -- Std.Internal.UV.UDP.Socket.setTTL
+standard Obj lean_uv_udp_wait_readable(Obj)  -- Std.Internal.UV.UDP.Socket.waitReadable
+standard Obj lean_uv_uptime()  -- Std.Internal.UV.System.uptime
+standard byte lean_uv_event_loop_alive()  -- Std.Internal.UV.Loop.alive

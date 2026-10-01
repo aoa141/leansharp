@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>LeanSharp</RootNamespace>
+    <AssemblyName>LeanSharp</AssemblyName>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../LeanSharp.Runtime/LeanSharp.Runtime.csproj" />
+    <ProjectReference Include="../LeanSharp.Lean/LeanSharp.Lean.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,79 @@
+standard Obj lean_array_fget(Obj, Obj)  -- Array.getInternal
+standard Obj lean_array_fget_borrowed(Obj, Obj)  -- Array.getInternalBorrowed
+standard Obj lean_array_fset(Obj, Obj, Obj)  -- Array.set
+standard Obj lean_array_fswap(Obj, Obj, Obj)  -- Array.swap
+standard Obj lean_array_get(Obj, Obj, Obj)  -- Array.get!Internal
+standard Obj lean_array_get_borrowed(Obj, Obj, Obj)  -- Array.get!InternalBorrowed
+standard Obj lean_array_get_size(Obj)  -- Array.size
+standard Obj lean_array_mark_linear(Obj)  -- Array.markLinear
+standard Obj lean_array_mk(Obj)  -- Array.mk
+standard Obj lean_array_pop(Obj)  -- Array.pop
+standard Obj lean_array_propagate_mark(Obj, Obj)  -- Array.propagateMark
+standard Obj lean_array_push(Obj, Obj)  -- Array.push
+standard Obj lean_array_set(Obj, Obj, Obj)  -- Array.set!
+standard Obj lean_array_swap(Obj, Obj, Obj)  -- Array.swapIfInBounds
+standard Obj lean_array_to_list(Obj)  -- Array.toList
+standard Obj lean_array_uget(Obj, ulong)  -- Array.uget
+standard Obj lean_array_uget_borrowed(Obj, ulong)  -- Array.ugetBorrowed
+standard Obj lean_array_uset(Obj, ulong, Obj)  -- Array.uset
+standard Obj lean_byte_array_copy_slice(Obj, Obj, Obj, Obj, Obj, byte)  -- ByteArray.copySlice
+standard Obj lean_byte_array_data(Obj)  -- ByteArray.data
+standard Obj lean_byte_array_fset(Obj, Obj, byte)  -- ByteArray.set
+standard Obj lean_byte_array_mk(Obj)  -- ByteArray.mk
+standard Obj lean_byte_array_push(Obj, byte)  -- ByteArray.push
+standard Obj lean_byte_array_set(Obj, Obj, byte)  -- ByteArray.set!
+standard Obj lean_byte_array_size(Obj)  -- ByteArray.size
+standard Obj lean_byte_array_uset(Obj, ulong, byte)  -- ByteArray.uset
+standard Obj lean_decode_lossy_utf8(Obj)  -- _private.Lean.Shell.0.Lean.decodeLossyUTF8
+standard Obj lean_mk_array(Obj, Obj)  -- Array.replicate
+standard Obj lean_mk_empty_array_with_capacity(Obj)  -- Array.emptyWithCapacity
+standard Obj lean_mk_empty_byte_array(Obj)  -- ByteArray.emptyWithCapacity
+standard Obj lean_mk_empty_float_array(Obj)  -- FloatArray.emptyWithCapacity
+standard Obj lean_sarray_mark_linear(Obj)  -- FloatArray.markLinear
+standard Obj lean_sarray_propagate_mark(Obj, Obj)  -- FloatArray.propagateMark
+standard Obj lean_sharecommon_quick(Obj)  -- ShareCommon.shareCommon'
+standard Obj lean_state_sharecommon(Obj, Obj, Obj)  -- ShareCommon.State.shareCommon
+standard Obj lean_string_append(Obj, Obj)  -- String.append
+standard Obj lean_string_data(Obj)  -- String.toList
+standard Obj lean_string_from_utf8_unchecked(Obj)  -- String.ofByteArray
+standard Obj lean_string_length(Obj)  -- String.length
+standard Obj lean_string_mark_linear(Obj)  -- String.markLinear
+standard Obj lean_string_mk(Obj)  -- String.mk
+standard Obj lean_string_of_usize(ulong)  -- USize.repr
+standard Obj lean_string_propagate_mark(Obj, Obj)  -- String.propagateMark
+standard Obj lean_string_push(Obj, uint)  -- String.push
+standard Obj lean_string_to_utf8(Obj)  -- String.toUTF8
+standard Obj lean_string_utf8_byte_size(Obj)  -- String.utf8ByteSize
+standard Obj lean_string_utf8_extract(Obj, Obj, Obj)  -- String.Pos.Raw.extract
+standard Obj lean_string_utf8_extract_fast(Obj, Obj, Obj)  -- String.extract
+standard Obj lean_string_utf8_get_opt(Obj, Obj)  -- String.Pos.Raw.get?
+standard Obj lean_string_utf8_next(Obj, Obj)  -- String.Pos.Raw.next
+standard Obj lean_string_utf8_next_fast(Obj, Obj)  -- String.Pos.Raw.next'
+standard Obj lean_string_utf8_prev(Obj, Obj)  -- String.Pos.Raw.prev
+standard Obj lean_string_utf8_set(Obj, Obj, uint)  -- String.Pos.Raw.set
+standard byte lean_byte_array_fget(Obj, Obj)  -- ByteArray.get
+standard byte lean_byte_array_get(Obj, Obj)  -- ByteArray.get!
+standard byte lean_byte_array_uget(Obj, ulong)  -- ByteArray.uget
+standard byte lean_byteslice_beq(Obj, Obj)  -- ByteSlice.beq
+standard byte lean_name_eq(Obj, Obj)  -- Lean.Name.beq
+standard byte lean_sarray_dec_eq(Obj, Obj)  -- ByteArray.beq
+standard byte lean_sharecommon_eq(Obj, Obj)  -- ShareCommon.Object.eq
+standard byte lean_slice_dec_lt(Obj, Obj)  -- String.Slice.instDecidableLt
+standard byte lean_string_compare(Obj, Obj)  -- String.compare
+standard byte lean_string_dec_eq(Obj, Obj)  -- String.decEq
+standard byte lean_string_dec_lt(Obj, Obj)  -- String.decidableLT
+standard byte lean_string_get_byte_fast(Obj, Obj)  -- String.getUTF8Byte
+standard byte lean_string_is_valid_pos(Obj, Obj)  -- String.Pos.Raw.isValid
+standard byte lean_string_memcmp(Obj, Obj, Obj, Obj, Obj)  -- String.Slice.Pattern.Internal.memcmpStr
+standard byte lean_string_uget_byte_fast(Obj, ulong)  -- String.Internal.ugetUTF8Byte
+standard byte lean_string_utf8_at_end(Obj, Obj)  -- String.Pos.Raw.atEnd
+standard byte lean_string_validate_utf8(Obj)  -- ByteArray.validateUTF8
+standard uint lean_string_utf8_get(Obj, Obj)  -- String.Pos.Raw.get
+standard uint lean_string_utf8_get_bang(Obj, Obj)  -- String.Pos.Raw.get!
+standard uint lean_string_utf8_get_fast(Obj, Obj)  -- String.Pos.Raw.get'
+standard ulong lean_array_size(Obj)  -- Array.usize
+standard ulong lean_byte_array_hash(Obj)  -- ByteArray.hash
+standard ulong lean_sarray_size(Obj)  -- FloatArray.usize
+standard ulong lean_sharecommon_hash(Obj)  -- ShareCommon.Object.hash
+standard ulong lean_slice_hash(Obj)  -- String.Slice.hash
+standard ulong lean_string_hash(Obj)  -- String.hash

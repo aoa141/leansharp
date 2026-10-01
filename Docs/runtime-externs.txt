@@ -1,0 +1,912 @@
+standard Obj lean_add_decl(Obj, ulong, ulong, Obj, Obj)  -- Lean.Kernel.Environment.addDeclCore
+standard Obj lean_add_decl_without_checking(Obj, Obj)  -- Lean.Kernel.Environment.addDeclWithoutChecking
+standard Obj lean_array_fget(Obj, Obj)  -- Array.getInternal
+standard Obj lean_array_fget_borrowed(Obj, Obj)  -- Array.getInternalBorrowed
+standard Obj lean_array_fset(Obj, Obj, Obj)  -- Array.set
+standard Obj lean_array_fswap(Obj, Obj, Obj)  -- Array.swap
+standard Obj lean_array_get(Obj, Obj, Obj)  -- Array.get!Internal
+standard Obj lean_array_get_borrowed(Obj, Obj, Obj)  -- Array.get!InternalBorrowed
+standard Obj lean_array_get_size(Obj)  -- Array.size
+standard Obj lean_array_mark_linear(Obj)  -- Array.markLinear
+standard Obj lean_array_mk(Obj)  -- Array.mk
+standard Obj lean_array_pop(Obj)  -- Array.pop
+standard Obj lean_array_propagate_mark(Obj, Obj)  -- Array.propagateMark
+standard Obj lean_array_push(Obj, Obj)  -- Array.push
+standard Obj lean_array_set(Obj, Obj, Obj)  -- Array.set!
+standard Obj lean_array_swap(Obj, Obj, Obj)  -- Array.swapIfInBounds
+standard Obj lean_array_to_list(Obj)  -- Array.toList
+standard Obj lean_array_uget(Obj, ulong)  -- Array.uget
+standard Obj lean_array_uget_borrowed(Obj, ulong)  -- Array.ugetBorrowed
+standard Obj lean_array_uset(Obj, ulong, Obj)  -- Array.uset
+standard Obj lean_byte_array_copy_slice(Obj, Obj, Obj, Obj, Obj, byte)  -- ByteArray.copySlice
+standard Obj lean_byte_array_data(Obj)  -- ByteArray.data
+standard Obj lean_byte_array_fset(Obj, Obj, byte)  -- ByteArray.set
+standard Obj lean_byte_array_mk(Obj)  -- ByteArray.mk
+standard Obj lean_byte_array_push(Obj, byte)  -- ByteArray.push
+standard Obj lean_byte_array_set(Obj, Obj, byte)  -- ByteArray.set!
+standard Obj lean_byte_array_size(Obj)  -- ByteArray.size
+standard Obj lean_byte_array_uset(Obj, ulong, byte)  -- ByteArray.uset
+standard Obj lean_cadical_signature(Obj)  -- _private.Lean.Cadical.Internal.0.Lean.Cadical.Internal.getSignature
+standard Obj lean_cadical_solver_add(Obj, uint)  -- Lean.Cadical.Internal.Solver.add
+standard Obj lean_cadical_solver_assume(Obj, uint)  -- Lean.Cadical.Internal.Solver.assume
+standard Obj lean_cadical_solver_clause(Obj, Obj)  -- Lean.Cadical.Internal.Solver.clause
+standard Obj lean_cadical_solver_conclude(Obj)  -- Lean.Cadical.Internal.Solver.conclude
+standard Obj lean_cadical_solver_configurations()  -- Lean.Cadical.Internal.Solver.configurations
+standard Obj lean_cadical_solver_constrain(Obj, uint)  -- Lean.Cadical.Internal.Solver.constrain
+standard Obj lean_cadical_solver_freeze(Obj, uint)  -- Lean.Cadical.Internal.Solver.freeze
+standard Obj lean_cadical_solver_melt(Obj, uint)  -- Lean.Cadical.Internal.Solver.melt
+standard Obj lean_cadical_solver_new()  -- Lean.Cadical.Internal.Solver.new
+standard Obj lean_cadical_solver_optimize(Obj, uint)  -- Lean.Cadical.Internal.Solver.optimize
+standard Obj lean_cadical_solver_phase(Obj, uint)  -- Lean.Cadical.Internal.Solver.phase
+standard Obj lean_cadical_solver_reset_assumptions(Obj)  -- Lean.Cadical.Internal.Solver.resetAssumptions
+standard Obj lean_cadical_solver_reset_constraint(Obj)  -- Lean.Cadical.Internal.Solver.resetConstraint
+standard Obj lean_cadical_solver_resize(Obj, uint)  -- Lean.Cadical.Internal.Solver.resize
+standard Obj lean_cadical_solver_resources(Obj)  -- Lean.Cadical.Internal.Solver.resources
+standard Obj lean_cadical_solver_statistics(Obj)  -- Lean.Cadical.Internal.Solver.statistics
+standard Obj lean_cadical_solver_terminate(Obj)  -- Lean.Cadical.Internal.Solver.terminate
+standard Obj lean_cadical_solver_unphase(Obj, uint)  -- Lean.Cadical.Internal.Solver.unphase
+standard Obj lean_cadical_solver_usage()  -- Lean.Cadical.Internal.Solver.usage
+standard Obj lean_chmod(Obj, uint)  -- IO.Prim.setAccessRights
+standard Obj lean_closure_max_args(Obj)  -- Lean.closureMaxArgsFn
+standard Obj lean_compacted_region_free(Obj)  -- Lean.CompactedRegion.free
+standard Obj lean_compacted_region_read(Obj, Obj)  -- Lean.CompactedRegion.read
+standard Obj lean_compacted_region_save(Obj, Obj, Obj, Obj, Obj, byte)  -- Lean.CompactedRegion.save
+standard Obj lean_dbg_sleep(uint, Obj)  -- dbgSleep
+standard Obj lean_dbg_stack_trace(Obj)  -- dbgStackTrace
+standard Obj lean_dbg_trace(Obj, Obj)  -- dbgTrace
+standard Obj lean_dbg_trace_if_shared(Obj, Obj)  -- dbgTraceIfShared
+standard Obj lean_decode_lossy_utf8(Obj)  -- _private.Lean.Shell.0.Lean.decodeLossyUTF8
+standard Obj lean_display_cumulative_profiling_times()  -- Lean.displayCumulativeProfilingTimes
+standard Obj lean_dynlib_get(Obj, Obj)  -- Lean.Dynlib.get?
+standard Obj lean_dynlib_load(Obj)  -- Lean.Dynlib.load
+standard Obj lean_dynlib_symbol_run_as_init(Obj, Obj)  -- Lean.Dynlib.Symbol.runAsInit
+standard Obj lean_elab_add_decl(Obj, ulong, ulong, Obj, Obj)  -- _private.Lean.Environment.0.Lean.Environment.addDeclCheck
+standard Obj lean_elab_add_decl_without_checking(Obj, Obj)  -- _private.Lean.Environment.0.Lean.Environment.addDeclWithoutChecking
+standard Obj lean_emit_llvm(Obj, Obj, Obj)  -- _private.Lean.Shell.0.Lean.emitLLVM
+standard Obj lean_eval_const(Obj, Obj, Obj)  -- _private.Lean.Environment.0.Lean.Environment.evalConstCore
+standard Obj lean_expr_abstract(Obj, Obj)  -- Lean.Expr.abstract
+standard Obj lean_expr_abstract_range(Obj, Obj, Obj)  -- Lean.Expr.abstractRange
+standard Obj lean_expr_dbg_to_string(Obj)  -- Lean.Expr.dbgToString
+standard Obj lean_expr_instantiate(Obj, Obj)  -- Lean.Expr.instantiate
+standard Obj lean_expr_instantiate1(Obj, Obj)  -- Lean.Expr.instantiate1
+standard Obj lean_expr_instantiate_range(Obj, Obj, Obj, Obj)  -- Lean.Expr.instantiateRange
+standard Obj lean_expr_instantiate_rev(Obj, Obj)  -- Lean.Expr.instantiateRev
+standard Obj lean_expr_instantiate_rev_range(Obj, Obj, Obj, Obj)  -- Lean.Expr.instantiateRevRange
+standard Obj lean_expr_lift_loose_bvars(Obj, Obj, Obj)  -- Lean.Expr.liftLooseBVars
+standard Obj lean_expr_lower_loose_bvars(Obj, Obj, Obj)  -- Lean.Expr.lowerLooseBVars
+standard Obj lean_find_expr(Obj, Obj)  -- Lean.Expr.findImpl?
+standard Obj lean_find_ext_expr(Obj, Obj)  -- Lean.Expr.findExtImpl?
+standard Obj lean_float32_frexp(float)  -- Float32.frExp
+standard Obj lean_float32_to_string(float)  -- Float32.toString
+standard Obj lean_float_array_data(Obj)  -- FloatArray.data
+standard Obj lean_float_array_fset(Obj, Obj, double)  -- FloatArray.set
+standard Obj lean_float_array_mk(Obj)  -- FloatArray.mk
+standard Obj lean_float_array_push(Obj, double)  -- FloatArray.push
+standard Obj lean_float_array_set(Obj, Obj, double)  -- FloatArray.set!
+standard Obj lean_float_array_size(Obj)  -- FloatArray.size
+standard Obj lean_float_array_uset(Obj, ulong, double)  -- FloatArray.uset
+standard Obj lean_float_frexp(double)  -- Float.frExp
+standard Obj lean_float_to_string(double)  -- Float.toString
+standard Obj lean_get_current_time()  -- Std.Time.Timestamp.now
+standard Obj lean_get_githash(Obj)  -- Lean.getGithash
+standard Obj lean_get_internal_linker_flags(Obj)  -- _private.Lean.Compiler.FFI.0.Lean.Compiler.FFI.getBuiltinInternalLinkerFlags
+standard Obj lean_get_leanc_extra_flags(Obj)  -- _private.Lean.Compiler.FFI.0.Lean.Compiler.FFI.getLeancExtraFlags
+standard Obj lean_get_leanc_internal_flags(Obj)  -- _private.Lean.Compiler.FFI.0.Lean.Compiler.FFI.getLeancInternalFlags
+standard Obj lean_get_linker_flags(byte)  -- _private.Lean.Compiler.FFI.0.Lean.Compiler.FFI.getBuiltinLinkerFlags
+standard Obj lean_get_max_ctor_fields(Obj)  -- Lean.getMaxCtorFields
+standard Obj lean_get_max_ctor_scalars_size(Obj)  -- Lean.getMaxCtorScalarsSize
+standard Obj lean_get_max_ctor_tag(Obj)  -- Lean.getMaxCtorTag
+standard Obj lean_get_set_stderr(Obj)  -- IO.setStderr
+standard Obj lean_get_set_stdin(Obj)  -- IO.setStdin
+standard Obj lean_get_set_stdout(Obj)  -- IO.setStdout
+standard Obj lean_get_stderr()  -- IO.getStderr
+standard Obj lean_get_stdin()  -- IO.getStdin
+standard Obj lean_get_stdout()  -- IO.getStdout
+standard Obj lean_get_usize_size(Obj)  -- Lean.getUSizeSize
+standard Obj lean_get_windows_local_timezone_id_at(ulong)  -- Std.Time.Database.Windows.getLocalTimeZoneIdentifierAt
+standard Obj lean_init_llvm()  -- _private.Lean.Shell.0.Lean.initLLVM
+standard Obj lean_instantiate_expr_mvars(Obj, Obj)  -- Lean.instantiateExprMVarsImp
+standard Obj lean_instantiate_level_mvars(Obj, Obj)  -- Lean.instantiateLevelMVarsImp
+standard Obj lean_int16_to_int(ushort)  -- Int16.toInt
+standard Obj lean_int32_to_int(uint)  -- Int32.toInt
+standard Obj lean_int64_to_int_sint(ulong)  -- Int64.toInt
+standard Obj lean_int8_to_int(byte)  -- Int8.toInt
+standard Obj lean_int_add(Obj, Obj)  -- Int.add
+standard Obj lean_int_div(Obj, Obj)  -- Int.tdiv
+standard Obj lean_int_div_exact(Obj, Obj)  -- Int.divExact
+standard Obj lean_int_ediv(Obj, Obj)  -- Int.ediv
+standard Obj lean_int_emod(Obj, Obj)  -- Int.emod
+standard Obj lean_int_mod(Obj, Obj)  -- Int.tmod
+standard Obj lean_int_mul(Obj, Obj)  -- Int.mul
+standard Obj lean_int_neg(Obj)  -- Int.neg
+standard Obj lean_int_neg_succ_of_nat(Obj)  -- Int.negSucc
+standard Obj lean_int_sub(Obj, Obj)  -- Int.sub
+standard Obj lean_internal_enable_debug(Obj)  -- _private.Lean.Shell.0.Lean.Internal.enableDebug
+standard Obj lean_internal_get_build_type(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getBuildType
+standard Obj lean_internal_get_default_max_heartbeat(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getDefaultMaxHeartbeat
+standard Obj lean_internal_get_default_max_memory(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getDefaultMaxMemory
+standard Obj lean_internal_get_option_overrides(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getOptionOverrides
+standard Obj lean_internal_set_exit_on_panic(byte)  -- _private.Lean.Shell.0.Lean.Internal.setExitOnPanic
+standard Obj lean_internal_set_max_heartbeat(ulong)  -- _private.Lean.Shell.0.Lean.Internal.setMaxHeartbeat
+standard Obj lean_internal_set_max_memory(ulong)  -- _private.Lean.Shell.0.Lean.Internal.setMaxMemory
+standard Obj lean_internal_set_thread_stack_size(ulong)  -- _private.Lean.Shell.0.Lean.Internal.setThreadStackSize
+standard Obj lean_io_allocprof(Obj, Obj)  -- allocprof
+standard Obj lean_io_app_path()  -- IO.appPath
+standard Obj lean_io_as_task(Obj, Obj)  -- BaseIO.asTask
+standard Obj lean_io_basemutex_lock(Obj)  -- Std.BaseMutex.lock
+standard Obj lean_io_basemutex_new()  -- Std.BaseMutex.new
+standard Obj lean_io_basemutex_unlock(Obj)  -- Std.BaseMutex.unlock
+standard Obj lean_io_baserecmutex_lock(Obj)  -- Std.BaseRecursiveMutex.lock
+standard Obj lean_io_baserecmutex_new()  -- Std.BaseRecursiveMutex.new
+standard Obj lean_io_baserecmutex_unlock(Obj)  -- Std.BaseRecursiveMutex.unlock
+standard Obj lean_io_basesharedmutex_new()  -- Std.BaseSharedMutex.new
+standard Obj lean_io_basesharedmutex_read(Obj)  -- Std.BaseSharedMutex.read
+standard Obj lean_io_basesharedmutex_unlock_read(Obj)  -- Std.BaseSharedMutex.unlockRead
+standard Obj lean_io_basesharedmutex_unlock_write(Obj)  -- Std.BaseSharedMutex.unlockWrite
+standard Obj lean_io_basesharedmutex_write(Obj)  -- Std.BaseSharedMutex.write
+standard Obj lean_io_bind_task(Obj, Obj, Obj, byte)  -- BaseIO.bindTask
+standard Obj lean_io_cancel(Obj)  -- IO.cancel
+standard Obj lean_io_condvar_new()  -- Std.Condvar.new
+standard Obj lean_io_condvar_notify_all(Obj)  -- Std.Condvar.notifyAll
+standard Obj lean_io_condvar_notify_one(Obj)  -- Std.Condvar.notifyOne
+standard Obj lean_io_condvar_wait(Obj, Obj)  -- Std.Condvar.wait
+standard Obj lean_io_create_dir(Obj)  -- IO.FS.createDir
+standard Obj lean_io_create_tempdir()  -- IO.FS.createTempDir
+standard Obj lean_io_create_tempfile()  -- IO.FS.createTempFile
+standard Obj lean_io_current_dir()  -- IO.currentDir
+standard Obj lean_io_exit(byte)  -- IO.Process.exit
+standard Obj lean_io_force_exit(byte)  -- IO.Process.forceExit
+standard Obj lean_io_get_num_heartbeats()  -- IO.getNumHeartbeats
+standard Obj lean_io_get_random_bytes(ulong)  -- IO.getRandomBytes
+standard Obj lean_io_getenv(Obj)  -- IO.getEnv
+standard Obj lean_io_hard_link(Obj, Obj)  -- IO.FS.hardLink
+standard Obj lean_io_map_task(Obj, Obj, Obj, byte)  -- BaseIO.mapTask
+standard Obj lean_io_metadata(Obj)  -- System.FilePath.metadata
+standard Obj lean_io_mono_ms_now()  -- IO.monoMsNow
+standard Obj lean_io_mono_nanos_now()  -- IO.monoNanosNow
+standard Obj lean_io_prim_handle_flush(Obj)  -- IO.FS.Handle.flush
+standard Obj lean_io_prim_handle_get_line(Obj)  -- IO.FS.Handle.getLine
+standard Obj lean_io_prim_handle_lock(Obj, byte)  -- IO.FS.Handle.lock
+standard Obj lean_io_prim_handle_mk(Obj, byte)  -- IO.FS.Handle.mk
+standard Obj lean_io_prim_handle_put_str(Obj, Obj)  -- IO.FS.Handle.putStr
+standard Obj lean_io_prim_handle_read(Obj, ulong)  -- IO.FS.Handle.read
+standard Obj lean_io_prim_handle_rewind(Obj)  -- IO.FS.Handle.rewind
+standard Obj lean_io_prim_handle_truncate(Obj)  -- IO.FS.Handle.truncate
+standard Obj lean_io_prim_handle_try_lock(Obj, byte)  -- IO.FS.Handle.tryLock
+standard Obj lean_io_prim_handle_unlock(Obj)  -- IO.FS.Handle.unlock
+standard Obj lean_io_prim_handle_write(Obj, Obj)  -- IO.FS.Handle.write
+standard Obj lean_io_process_child_kill(Obj, Obj)  -- IO.Process.Child.kill
+standard Obj lean_io_process_child_take_stdin(Obj, Obj)  -- IO.Process.Child.takeStdin
+standard Obj lean_io_process_child_try_wait(Obj, Obj)  -- IO.Process.Child.tryWait
+standard Obj lean_io_process_child_wait(Obj, Obj)  -- IO.Process.Child.wait
+standard Obj lean_io_process_get_current_dir()  -- IO.Process.getCurrentDir
+standard Obj lean_io_process_set_current_dir(Obj)  -- IO.Process.setCurrentDir
+standard Obj lean_io_process_spawn(Obj)  -- IO.Process.spawn
+standard Obj lean_io_promise_new()  -- IO.Promise.new
+standard Obj lean_io_promise_resolve(Obj, Obj)  -- IO.Promise.resolve
+standard Obj lean_io_promise_result_opt(Obj)  -- IO.Promise.result?
+standard Obj lean_io_read_dir(Obj)  -- System.FilePath.readDir
+standard Obj lean_io_realpath(Obj)  -- IO.FS.realPath
+standard Obj lean_io_remove_dir(Obj)  -- IO.FS.removeDir
+standard Obj lean_io_remove_file(Obj)  -- IO.FS.removeFile
+standard Obj lean_io_rename(Obj, Obj)  -- IO.FS.rename
+standard Obj lean_io_set_heartbeats(Obj)  -- IO.setNumHeartbeats
+standard Obj lean_io_symlink_metadata(Obj)  -- System.FilePath.symlinkMetadata
+standard Obj lean_io_timeit(Obj, Obj)  -- timeit
+standard Obj lean_io_wait(Obj)  -- IO.wait
+standard Obj lean_io_wait_any(Obj)  -- IO.waitAny
+standard Obj lean_isize_to_int(ulong)  -- ISize.toInt
+standard Obj lean_kernel_check(Obj, Obj, Obj)  -- Lean.Kernel.check
+standard Obj lean_kernel_is_def_eq(Obj, Obj, Obj, Obj)  -- Lean.Kernel.isDefEq
+standard Obj lean_kernel_whnf(Obj, Obj, Obj)  -- Lean.Kernel.whnf
+standard Obj lean_libuv_version(Obj)  -- Lean.libUVVersionFn
+standard Obj lean_llvm_add_attribute_at_index(ulong, ulong, ulong, ulong)  -- Lean.LLVM.addAttributeAtIndex
+standard Obj lean_llvm_add_case(ulong, ulong, ulong, ulong)  -- Lean.LLVM.addCase
+standard Obj lean_llvm_build_store(ulong, ulong, ulong, ulong)  -- Lean.LLVM.buildStore
+standard Obj lean_llvm_clear_insertion_position(Obj, ulong)  -- Lean.LLVM.clearInsertionPosition
+standard Obj lean_llvm_dispose_module(ulong, ulong)  -- Lean.LLVM.disposeModule
+standard Obj lean_llvm_dispose_target_machine(ulong, ulong)  -- Lean.LLVM.disposeTargetMachine
+standard Obj lean_llvm_get_default_target_triple()  -- Lean.LLVM.getDefaultTargetTriple
+standard Obj lean_llvm_get_first_instruction(ulong, ulong)  -- Lean.LLVM.getFirstInstruction
+standard Obj lean_llvm_get_named_function(ulong, ulong, Obj)  -- Lean.LLVM.getNamedFunction
+standard Obj lean_llvm_get_named_global(ulong, ulong, Obj)  -- Lean.LLVM.getNamedGlobal
+standard Obj lean_llvm_get_value_name2(ulong, ulong)  -- Lean.LLVM.Value.getName
+standard Obj lean_llvm_initialize_target_info()  -- Lean.LLVM.llvmInitializeTargetInfo
+standard Obj lean_llvm_link_modules(ulong, ulong, ulong)  -- Lean.LLVM.linkModules
+standard Obj lean_llvm_module_to_string(ulong, ulong)  -- Lean.LLVM.moduleToString
+standard Obj lean_llvm_position_builder_at_end(Obj, ulong, ulong)  -- Lean.LLVM.positionBuilderAtEnd
+standard Obj lean_llvm_position_builder_before(ulong, ulong, ulong)  -- Lean.LLVM.positionBuilderBefore
+standard Obj lean_llvm_print_module_to_file(ulong, ulong, Obj)  -- Lean.LLVM.printModuletoFile
+standard Obj lean_llvm_print_module_to_string(ulong, ulong)  -- Lean.LLVM.printModuletoString
+standard Obj lean_llvm_set_dll_storage_class(ulong, ulong, ulong)  -- Lean.LLVM.setDLLStorageClass
+standard Obj lean_llvm_set_initializer(ulong, ulong, ulong)  -- Lean.LLVM.setInitializer
+standard Obj lean_llvm_set_linkage(ulong, ulong, ulong)  -- Lean.LLVM.setLinkage
+standard Obj lean_llvm_set_tail_call(ulong, ulong, byte)  -- Lean.LLVM.setTailCall
+standard Obj lean_llvm_set_visibility(ulong, ulong, ulong)  -- Lean.LLVM.setVisibility
+standard Obj lean_llvm_target_machine_emit_to_file(ulong, ulong, ulong, Obj, ulong)  -- Lean.LLVM.targetMachineEmitToFile
+standard Obj lean_llvm_verify_module(ulong, ulong)  -- Lean.LLVM.verifyModule
+standard Obj lean_llvm_write_bitcode_to_file(ulong, ulong, Obj)  -- Lean.LLVM.writeBitcodeToFile
+standard Obj lean_manual_get_root(Obj)  -- _private.Lean.DocString.Links.0.Lean.getManualRoot
+standard Obj lean_max_small_nat(Obj)  -- Lean.maxSmallNatFn
+standard Obj lean_mk_array(Obj, Obj)  -- Array.replicate
+standard Obj lean_mk_cases_on(Obj, Obj)  -- Lean.mkCasesOnImp
+standard Obj lean_mk_empty_array_with_capacity(Obj)  -- Array.emptyWithCapacity
+standard Obj lean_mk_empty_byte_array(Obj)  -- ByteArray.emptyWithCapacity
+standard Obj lean_mk_empty_float_array(Obj)  -- FloatArray.emptyWithCapacity
+standard Obj lean_mk_thunk(Obj)  -- Thunk.mk
+standard Obj lean_nat_abs(Obj)  -- Int.natAbs
+standard Obj lean_nat_add(Obj, Obj)  -- Nat.add
+standard Obj lean_nat_div(Obj, Obj)  -- Nat.div
+standard Obj lean_nat_div_exact(Obj, Obj)  -- Nat.divExact
+standard Obj lean_nat_gcd(Obj, Obj)  -- Nat.gcd
+standard Obj lean_nat_land(Obj, Obj)  -- Nat.land
+standard Obj lean_nat_log2(Obj)  -- Nat.log2
+standard Obj lean_nat_lor(Obj, Obj)  -- Nat.lor
+standard Obj lean_nat_lxor(Obj, Obj)  -- Nat.xor
+standard Obj lean_nat_mod(Obj, Obj)  -- Nat.mod
+standard Obj lean_nat_mul(Obj, Obj)  -- Nat.mul
+standard Obj lean_nat_pow(Obj, Obj)  -- Nat.pow
+standard Obj lean_nat_powmod(Obj, Obj, Obj)  -- Nat.powMod
+standard Obj lean_nat_pred(Obj)  -- Nat.pred
+standard Obj lean_nat_shiftl(Obj, Obj)  -- Nat.shiftLeft
+standard Obj lean_nat_shiftr(Obj, Obj)  -- Nat.shiftRight
+standard Obj lean_nat_sub(Obj, Obj)  -- Nat.sub
+standard Obj lean_nat_to_int(Obj)  -- Int.ofNat
+standard Obj lean_openssl_version(Obj)  -- Lean.openSSLVersionFn
+standard Obj lean_option_get_or_block(Obj)  -- _private.Init.System.Promise.0.IO.Option.getOrBlock!
+standard Obj lean_panic_fn_borrowed(Obj, Obj)  -- panicCore
+standard Obj lean_profileit(Obj, Obj, Obj, Obj)  -- Lean.profileit
+standard Obj lean_replace_expr(Obj, Obj)  -- Lean.Expr.replaceImpl
+standard Obj lean_run_init(Obj, Obj, Obj, Obj)  -- Lean.runInit
+standard Obj lean_run_mod_init_core(Obj)  -- _private.Lean.Compiler.InitAttr.0.Lean.runModInitCore
+standard Obj lean_runtime_forget(Obj)  -- Runtime.forget
+standard Obj lean_runtime_hold(Obj)  -- Runtime.hold
+standard Obj lean_runtime_mark_multi_threaded(Obj)  -- Runtime.markMultiThreaded
+standard Obj lean_runtime_mark_persistent(Obj)  -- Runtime.markPersistent
+standard Obj lean_sarray_mark_linear(Obj)  -- FloatArray.markLinear
+standard Obj lean_sarray_propagate_mark(Obj, Obj)  -- FloatArray.propagateMark
+standard Obj lean_sharecommon_quick(Obj)  -- ShareCommon.shareCommon'
+standard Obj lean_sorry(byte)  -- sorryAx
+standard Obj lean_st_mk_ref(Obj)  -- ST.Prim.mkRef
+standard Obj lean_st_ref_get(Obj)  -- ST.Prim.Ref.get
+standard Obj lean_st_ref_put(Obj, Obj)  -- ST.Prim.Ref.put
+standard Obj lean_st_ref_swap(Obj, Obj)  -- ST.Prim.Ref.swap
+standard Obj lean_st_ref_take(Obj)  -- ST.Prim.Ref.take
+standard Obj lean_state_sharecommon(Obj, Obj, Obj)  -- ShareCommon.State.shareCommon
+standard Obj lean_string_append(Obj, Obj)  -- String.append
+standard Obj lean_string_data(Obj)  -- String.toList
+standard Obj lean_string_from_utf8_unchecked(Obj)  -- String.ofByteArray
+standard Obj lean_string_length(Obj)  -- String.length
+standard Obj lean_string_mark_linear(Obj)  -- String.markLinear
+standard Obj lean_string_mk(Obj)  -- String.mk
+standard Obj lean_string_of_usize(ulong)  -- USize.repr
+standard Obj lean_string_propagate_mark(Obj, Obj)  -- String.propagateMark
+standard Obj lean_string_push(Obj, uint)  -- String.push
+standard Obj lean_string_to_utf8(Obj)  -- String.toUTF8
+standard Obj lean_string_utf8_byte_size(Obj)  -- String.utf8ByteSize
+standard Obj lean_string_utf8_extract(Obj, Obj, Obj)  -- String.Pos.Raw.extract
+standard Obj lean_string_utf8_extract_fast(Obj, Obj, Obj)  -- String.extract
+standard Obj lean_string_utf8_get_opt(Obj, Obj)  -- String.Pos.Raw.get?
+standard Obj lean_string_utf8_next(Obj, Obj)  -- String.Pos.Raw.next
+standard Obj lean_string_utf8_next_fast(Obj, Obj)  -- String.Pos.Raw.next'
+standard Obj lean_string_utf8_prev(Obj, Obj)  -- String.Pos.Raw.prev
+standard Obj lean_string_utf8_set(Obj, Obj, uint)  -- String.Pos.Raw.set
+standard Obj lean_system_platform_nbits(Obj)  -- System.Platform.getNumBits
+standard Obj lean_system_platform_target(Obj)  -- System.Platform.getTarget
+standard Obj lean_task_bind(Obj, Obj, Obj, byte)  -- Task.bind
+standard Obj lean_task_get_own(Obj)  -- Task.get
+standard Obj lean_task_map(Obj, Obj, Obj, byte)  -- Task.map
+standard Obj lean_task_pure(Obj)  -- Task.pure
+standard Obj lean_task_spawn(Obj, Obj)  -- Task.spawn
+standard Obj lean_thunk_get_own(Obj)  -- Thunk.get
+standard Obj lean_thunk_pure(Obj)  -- Thunk.pure
+standard Obj lean_uint16_to_nat(ushort)  -- UInt16.toNat
+standard Obj lean_uint32_to_nat(uint)  -- UInt32.toNat
+standard Obj lean_uint64_to_nat(ulong)  -- UInt64.toNat
+standard Obj lean_uint8_to_nat(byte)  -- UInt8.toNat
+standard Obj lean_usize_to_nat(ulong)  -- USize.toNat
+standard Obj lean_uv_chdir(Obj)  -- Std.Internal.UV.System.chdir
+standard Obj lean_uv_cpu_info()  -- Std.Internal.UV.System.cpuInfo
+standard Obj lean_uv_cwd()  -- Std.Internal.UV.System.cwd
+standard Obj lean_uv_dns_get_info(Obj, Obj, byte)  -- Std.Internal.UV.DNS.getAddrInfo
+standard Obj lean_uv_dns_get_name(Obj)  -- Std.Internal.UV.DNS.getNameInfo
+standard Obj lean_uv_event_loop_configure(Obj)  -- Std.Internal.UV.Loop.configure
+standard Obj lean_uv_exepath()  -- Std.Internal.UV.System.exePath
+standard Obj lean_uv_get_available_memory()  -- Std.Internal.UV.System.availableMemory
+standard Obj lean_uv_get_constrained_memory()  -- Std.Internal.UV.System.constrainedMemory
+standard Obj lean_uv_get_free_memory()  -- Std.Internal.UV.System.freeMemory
+standard Obj lean_uv_get_process_title()  -- Std.Internal.UV.System.getProcessTitle
+standard Obj lean_uv_get_total_memory()  -- Std.Internal.UV.System.totalMemory
+standard Obj lean_uv_getrusage()  -- Std.Internal.UV.System.getrusage
+standard Obj lean_uv_hrtime()  -- Std.Internal.UV.System.hrtime
+standard Obj lean_uv_interface_addresses()  -- Std.Net.interfaceAddresses
+standard Obj lean_uv_ntop_v4(Obj)  -- Std.Net.IPv4Addr.toString
+standard Obj lean_uv_ntop_v6(Obj)  -- Std.Net.IPv6Addr.toString
+standard Obj lean_uv_os_environ()  -- Std.Internal.UV.System.osEnviron
+standard Obj lean_uv_os_get_group(ulong)  -- Std.Internal.UV.System.osGetGroup
+standard Obj lean_uv_os_get_passwd()  -- Std.Internal.UV.System.osGetPasswd
+standard Obj lean_uv_os_getenv(Obj)  -- Std.Internal.UV.System.osGetenv
+standard Obj lean_uv_os_gethostname()  -- Std.Internal.UV.System.osGetHostname
+standard Obj lean_uv_os_getpid()  -- Std.Internal.UV.System.osGetPid
+standard Obj lean_uv_os_getppid()  -- Std.Internal.UV.System.osGetPpid
+standard Obj lean_uv_os_getpriority(ulong)  -- Std.Internal.UV.System.osGetPriority
+standard Obj lean_uv_os_homedir()  -- Std.Internal.UV.System.osHomedir
+standard Obj lean_uv_os_setenv(Obj, Obj)  -- Std.Internal.UV.System.osSetenv
+standard Obj lean_uv_os_setpriority(ulong, ulong)  -- Std.Internal.UV.System.osSetPriority
+standard Obj lean_uv_os_tmpdir()  -- Std.Internal.UV.System.osTmpdir
+standard Obj lean_uv_os_uname()  -- Std.Internal.UV.System.osUname
+standard Obj lean_uv_os_unsetenv(Obj)  -- Std.Internal.UV.System.osUnsetenv
+standard Obj lean_uv_pton_v4(Obj)  -- Std.Net.IPv4Addr.ofString
+standard Obj lean_uv_pton_v6(Obj)  -- Std.Net.IPv6Addr.ofString
+standard Obj lean_uv_random(ulong)  -- Std.Internal.UV.System.random
+standard Obj lean_uv_set_process_title(Obj)  -- Std.Internal.UV.System.setProcessTitle
+standard Obj lean_uv_signal_cancel(Obj)  -- Std.Internal.UV.Signal.cancel
+standard Obj lean_uv_signal_mk(uint, byte)  -- Std.Internal.UV.Signal.mk
+standard Obj lean_uv_signal_next(Obj)  -- Std.Internal.UV.Signal.next
+standard Obj lean_uv_signal_stop(Obj)  -- Std.Internal.UV.Signal.stop
+standard Obj lean_uv_tcp_accept(Obj)  -- Std.Internal.UV.TCP.Socket.accept
+standard Obj lean_uv_tcp_bind(Obj, Obj)  -- Std.Internal.UV.TCP.Socket.bind
+standard Obj lean_uv_tcp_cancel_accept(Obj)  -- Std.Internal.UV.TCP.Socket.cancelAccept
+standard Obj lean_uv_tcp_cancel_recv(Obj)  -- Std.Internal.UV.TCP.Socket.cancelRecv
+standard Obj lean_uv_tcp_connect(Obj, Obj)  -- Std.Internal.UV.TCP.Socket.connect
+standard Obj lean_uv_tcp_getpeername(Obj)  -- Std.Internal.UV.TCP.Socket.getPeerName
+standard Obj lean_uv_tcp_getsockname(Obj)  -- Std.Internal.UV.TCP.Socket.getSockName
+standard Obj lean_uv_tcp_keepalive(Obj, byte, uint)  -- Std.Internal.UV.TCP.Socket.keepAlive
+standard Obj lean_uv_tcp_listen(Obj, uint)  -- Std.Internal.UV.TCP.Socket.listen
+standard Obj lean_uv_tcp_new()  -- Std.Internal.UV.TCP.Socket.new
+standard Obj lean_uv_tcp_nodelay(Obj)  -- Std.Internal.UV.TCP.Socket.noDelay
+standard Obj lean_uv_tcp_recv(Obj, ulong)  -- Std.Internal.UV.TCP.Socket.recv?
+standard Obj lean_uv_tcp_send(Obj, Obj)  -- Std.Internal.UV.TCP.Socket.send
+standard Obj lean_uv_tcp_shutdown(Obj)  -- Std.Internal.UV.TCP.Socket.shutdown
+standard Obj lean_uv_tcp_try_accept(Obj)  -- Std.Internal.UV.TCP.Socket.tryAccept
+standard Obj lean_uv_tcp_wait_acceptable(Obj)  -- Std.Internal.UV.TCP.Socket.waitAcceptable
+standard Obj lean_uv_tcp_wait_readable(Obj)  -- Std.Internal.UV.TCP.Socket.waitReadable
+standard Obj lean_uv_timer_cancel(Obj)  -- Std.Internal.UV.Timer.cancel
+standard Obj lean_uv_timer_mk(ulong, byte)  -- Std.Internal.UV.Timer.mk
+standard Obj lean_uv_timer_next(Obj)  -- Std.Internal.UV.Timer.next
+standard Obj lean_uv_timer_reset(Obj)  -- Std.Internal.UV.Timer.reset
+standard Obj lean_uv_timer_stop(Obj)  -- Std.Internal.UV.Timer.stop
+standard Obj lean_uv_udp_bind(Obj, Obj)  -- Std.Internal.UV.UDP.Socket.bind
+standard Obj lean_uv_udp_cancel_recv(Obj)  -- Std.Internal.UV.UDP.Socket.cancelRecv
+standard Obj lean_uv_udp_connect(Obj, Obj)  -- Std.Internal.UV.UDP.Socket.connect
+standard Obj lean_uv_udp_getpeername(Obj)  -- Std.Internal.UV.UDP.Socket.getPeerName
+standard Obj lean_uv_udp_getsockname(Obj)  -- Std.Internal.UV.UDP.Socket.getSockName
+standard Obj lean_uv_udp_new()  -- Std.Internal.UV.UDP.Socket.new
+standard Obj lean_uv_udp_recv(Obj, ulong)  -- Std.Internal.UV.UDP.Socket.recv
+standard Obj lean_uv_udp_send(Obj, Obj, Obj)  -- Std.Internal.UV.UDP.Socket.send
+standard Obj lean_uv_udp_set_broadcast(Obj, byte)  -- Std.Internal.UV.UDP.Socket.setBroadcast
+standard Obj lean_uv_udp_set_membership(Obj, Obj, Obj, byte)  -- Std.Internal.UV.UDP.Socket.setMembership
+standard Obj lean_uv_udp_set_multicast_interface(Obj, Obj)  -- Std.Internal.UV.UDP.Socket.setMulticastInterface
+standard Obj lean_uv_udp_set_multicast_loop(Obj, byte)  -- Std.Internal.UV.UDP.Socket.setMulticastLoop
+standard Obj lean_uv_udp_set_multicast_ttl(Obj, uint)  -- Std.Internal.UV.UDP.Socket.setMulticastTTL
+standard Obj lean_uv_udp_set_ttl(Obj, uint)  -- Std.Internal.UV.UDP.Socket.setTTL
+standard Obj lean_uv_udp_wait_readable(Obj)  -- Std.Internal.UV.UDP.Socket.waitReadable
+standard Obj lean_uv_uptime()  -- Std.Internal.UV.System.uptime
+standard Obj lean_version_get_major(Obj)  -- _private.Init.Meta.Defs.0.Lean.version.getMajor
+standard Obj lean_version_get_minor(Obj)  -- _private.Init.Meta.Defs.0.Lean.version.getMinor
+standard Obj lean_version_get_patch(Obj)  -- _private.Init.Meta.Defs.0.Lean.version.getPatch
+standard Obj lean_version_get_special_desc(Obj)  -- Lean.version.getSpecialDesc
+standard Obj lean_void_mk(Obj)  -- Void.mk
+standard Obj lean_windows_get_next_transition(Obj, ulong, byte)  -- Std.Time.Database.Windows.getNextTransition
+standard byte lean_bool_to_int8(byte)  -- Bool.toInt8
+standard byte lean_bool_to_uint8(byte)  -- Bool.toUInt8
+standard byte lean_byte_array_fget(Obj, Obj)  -- ByteArray.get
+standard byte lean_byte_array_get(Obj, Obj)  -- ByteArray.get!
+standard byte lean_byte_array_uget(Obj, ulong)  -- ByteArray.uget
+standard byte lean_byteslice_beq(Obj, Obj)  -- ByteSlice.beq
+standard byte lean_cadical_solver_configure(Obj, Obj)  -- Lean.Cadical.Internal.Solver.configure
+standard byte lean_cadical_solver_constraint_failed(Obj)  -- Lean.Cadical.Internal.Solver.constraintFailed
+standard byte lean_cadical_solver_failed(Obj, uint)  -- Lean.Cadical.Internal.Solver.failed
+standard byte lean_cadical_solver_flip(Obj, uint)  -- Lean.Cadical.Internal.Solver.flip
+standard byte lean_cadical_solver_flippable(Obj, uint)  -- Lean.Cadical.Internal.Solver.flippable
+standard byte lean_cadical_solver_frozen(Obj, uint)  -- Lean.Cadical.Internal.Solver.frozen
+standard byte lean_cadical_solver_inconsistent(Obj)  -- Lean.Cadical.Internal.Solver.inconsistent
+standard byte lean_cadical_solver_is_preprocessing_option(Obj)  -- Lean.Cadical.Internal.Solver.isPreprocessingOption
+standard byte lean_cadical_solver_is_valid_configuration(Obj)  -- Lean.Cadical.Internal.Solver.isValidConfiguration
+standard byte lean_cadical_solver_is_valid_limit(Obj, Obj)  -- Lean.Cadical.Internal.Solver.isValidLimit
+standard byte lean_cadical_solver_is_valid_long_option(Obj)  -- Lean.Cadical.Internal.Solver.isValidLongOption
+standard byte lean_cadical_solver_is_valid_option(Obj)  -- Lean.Cadical.Internal.Solver.isValidOption
+standard byte lean_cadical_solver_limit(Obj, Obj, uint)  -- Lean.Cadical.Internal.Solver.limit
+standard byte lean_cadical_solver_set(Obj, Obj, uint)  -- Lean.Cadical.Internal.Solver.set
+standard byte lean_cadical_solver_set_long_option(Obj, Obj)  -- Lean.Cadical.Internal.Solver.setLongOption
+standard byte lean_cadical_solver_simplify(Obj, uint)  -- Lean.Cadical.Internal.Solver.simplify
+standard byte lean_cadical_solver_solve(Obj)  -- Lean.Cadical.Internal.Solver.solve
+standard byte lean_cadical_solver_status(Obj)  -- Lean.Cadical.Internal.Solver.status
+standard byte lean_expr_equal(Obj, Obj)  -- Lean.Expr.equal
+standard byte lean_expr_eqv(Obj, Obj)  -- Lean.Expr.eqv
+standard byte lean_expr_has_loose_bvar(Obj, Obj)  -- Lean.Expr.hasLooseBVar
+standard byte lean_expr_lt(Obj, Obj)  -- Lean.Expr.lt
+standard byte lean_expr_quick_lt(Obj, Obj)  -- Lean.Expr.quickLt
+standard byte lean_float32_beq(float, float)  -- Float32.beq
+standard byte lean_float32_decLe(float, float)  -- Float32.decLe
+standard byte lean_float32_decLt(float, float)  -- Float32.decLt
+standard byte lean_float32_isfinite(float)  -- Float32.isFinite
+standard byte lean_float32_isinf(float)  -- Float32.isInf
+standard byte lean_float32_isnan(float)  -- Float32.isNaN
+standard byte lean_float32_to_int8(float)  -- Float32.toInt8
+standard byte lean_float32_to_uint8(float)  -- Float32.toUInt8
+standard byte lean_float_beq(double, double)  -- Float.beq
+standard byte lean_float_decLe(double, double)  -- Float.decLe
+standard byte lean_float_decLt(double, double)  -- Float.lt
+standard byte lean_float_isfinite(double)  -- Float.isFinite
+standard byte lean_float_isinf(double)  -- Float.isInf
+standard byte lean_float_isnan(double)  -- Float.isNaN
+standard byte lean_float_to_int8(double)  -- Float.toInt8
+standard byte lean_float_to_uint8(double)  -- Float.toUInt8
+standard byte lean_int16_dec_eq(ushort, ushort)  -- Int16.decEq
+standard byte lean_int16_dec_le(ushort, ushort)  -- Int16.decLe
+standard byte lean_int16_dec_lt(ushort, ushort)  -- Int16.decLt
+standard byte lean_int16_to_int8(ushort)  -- Int16.toInt8
+standard byte lean_int32_dec_eq(uint, uint)  -- Int32.decEq
+standard byte lean_int32_dec_le(uint, uint)  -- Int32.decLe
+standard byte lean_int32_dec_lt(uint, uint)  -- Int32.decLt
+standard byte lean_int32_to_int8(uint)  -- Int32.toInt8
+standard byte lean_int64_dec_eq(ulong, ulong)  -- Int64.decEq
+standard byte lean_int64_dec_le(ulong, ulong)  -- Int64.decLe
+standard byte lean_int64_dec_lt(ulong, ulong)  -- Int64.decLt
+standard byte lean_int64_to_int8(ulong)  -- Int64.toInt8
+standard byte lean_int8_abs(byte)  -- Int8.abs
+standard byte lean_int8_add(byte, byte)  -- Int8.add
+standard byte lean_int8_complement(byte)  -- Int8.complement
+standard byte lean_int8_dec_eq(byte, byte)  -- Int8.decEq
+standard byte lean_int8_dec_le(byte, byte)  -- Int8.decLe
+standard byte lean_int8_dec_lt(byte, byte)  -- Int8.decLt
+standard byte lean_int8_div(byte, byte)  -- Int8.div
+standard byte lean_int8_land(byte, byte)  -- Int8.land
+standard byte lean_int8_lor(byte, byte)  -- Int8.lor
+standard byte lean_int8_mod(byte, byte)  -- Int8.mod
+standard byte lean_int8_mul(byte, byte)  -- Int8.mul
+standard byte lean_int8_neg(byte)  -- Int8.neg
+standard byte lean_int8_of_int(Obj)  -- Int8.ofInt
+standard byte lean_int8_of_nat(Obj)  -- Int8.ofNat
+standard byte lean_int8_shift_left(byte, byte)  -- Int8.shiftLeft
+standard byte lean_int8_shift_right(byte, byte)  -- Int8.shiftRight
+standard byte lean_int8_sub(byte, byte)  -- Int8.sub
+standard byte lean_int8_xor(byte, byte)  -- Int8.xor
+standard byte lean_int_dec_eq(Obj, Obj)  -- Int.decEq
+standard byte lean_int_dec_le(Obj, Obj)  -- Int.decLe
+standard byte lean_int_dec_lt(Obj, Obj)  -- Int.decLt
+standard byte lean_int_dec_nonneg(Obj)  -- Int.decNonneg
+standard byte lean_internal_get_default_verbose(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getDefaultVerbose
+standard byte lean_internal_has_address_sanitizer(Obj)  -- _private.Lean.Shell.0.Lean.Internal.hasAddressSanitizer
+standard byte lean_internal_has_llvm_backend(Obj)  -- Lean.Internal.hasLLVMBackend
+standard byte lean_internal_is_debug(Obj)  -- _private.Lean.Shell.0.Lean.Internal.isDebug
+standard byte lean_internal_is_multi_thread(Obj)  -- _private.Lean.Shell.0.Lean.Internal.isMultiThread
+standard byte lean_internal_is_stage0(Obj)  -- Lean.Internal.isStage0
+standard byte lean_io_basemutex_try_lock(Obj)  -- Std.BaseMutex.tryLock
+standard byte lean_io_baserecmutex_try_lock(Obj)  -- Std.BaseRecursiveMutex.tryLock
+standard byte lean_io_basesharedmutex_try_read(Obj)  -- Std.BaseSharedMutex.tryRead
+standard byte lean_io_basesharedmutex_try_write(Obj)  -- Std.BaseSharedMutex.tryWrite
+standard byte lean_io_check_canceled()  -- IO.checkCanceled
+standard byte lean_io_get_task_state(Obj)  -- IO.getTaskState
+standard byte lean_io_initializing()  -- IO.initializing
+standard byte lean_io_prim_handle_is_tty(Obj)  -- IO.FS.Handle.isTty
+standard byte lean_is_exclusive_obj(Obj)  -- isExclusiveUnsafe
+standard byte lean_is_scalar(Obj)  -- isScalarObj
+standard byte lean_isize_dec_eq(ulong, ulong)  -- ISize.decEq
+standard byte lean_isize_dec_le(ulong, ulong)  -- ISize.decLe
+standard byte lean_isize_dec_lt(ulong, ulong)  -- ISize.decLt
+standard byte lean_isize_to_int8(ulong)  -- ISize.toInt8
+standard byte lean_level_eq(Obj, Obj)  -- Lean.Level.beq
+standard byte lean_name_eq(Obj, Obj)  -- Lean.Name.beq
+standard byte lean_nat_dec_eq(Obj, Obj)  -- Nat.decEq
+standard byte lean_nat_dec_le(Obj, Obj)  -- Nat.decLe
+standard byte lean_nat_dec_lt(Obj, Obj)  -- Nat.decLt
+standard byte lean_sarray_dec_eq(Obj, Obj)  -- ByteArray.beq
+standard byte lean_sharecommon_eq(Obj, Obj)  -- ShareCommon.Object.eq
+standard byte lean_slice_dec_lt(Obj, Obj)  -- String.Slice.instDecidableLt
+standard byte lean_st_ref_ptr_eq(Obj, Obj)  -- ST.Prim.Ref.ptrEq
+standard byte lean_strict_and(byte, byte)  -- strictAnd
+standard byte lean_strict_or(byte, byte)  -- strictOr
+standard byte lean_string_compare(Obj, Obj)  -- String.compare
+standard byte lean_string_dec_eq(Obj, Obj)  -- String.decEq
+standard byte lean_string_dec_lt(Obj, Obj)  -- String.decidableLT
+standard byte lean_string_get_byte_fast(Obj, Obj)  -- String.getUTF8Byte
+standard byte lean_string_is_valid_pos(Obj, Obj)  -- String.Pos.Raw.isValid
+standard byte lean_string_memcmp(Obj, Obj, Obj, Obj, Obj)  -- String.Slice.Pattern.Internal.memcmpStr
+standard byte lean_string_uget_byte_fast(Obj, ulong)  -- String.Internal.ugetUTF8Byte
+standard byte lean_string_utf8_at_end(Obj, Obj)  -- String.Pos.Raw.atEnd
+standard byte lean_string_validate_utf8(Obj)  -- ByteArray.validateUTF8
+standard byte lean_system_platform_emscripten(Obj)  -- System.Platform.getIsEmscripten
+standard byte lean_system_platform_linux(Obj)  -- System.Platform.getIsLinux
+standard byte lean_system_platform_osx(Obj)  -- System.Platform.getIsOSX
+standard byte lean_system_platform_windows(Obj)  -- System.Platform.getIsWindows
+standard byte lean_uint16_dec_eq(ushort, ushort)  -- UInt16.decEq
+standard byte lean_uint16_dec_le(ushort, ushort)  -- UInt16.decLe
+standard byte lean_uint16_dec_lt(ushort, ushort)  -- UInt16.decLt
+standard byte lean_uint16_to_uint8(ushort)  -- UInt16.toUInt8
+standard byte lean_uint32_dec_eq(uint, uint)  -- UInt32.decEq
+standard byte lean_uint32_dec_le(uint, uint)  -- UInt32.decLe
+standard byte lean_uint32_dec_lt(uint, uint)  -- UInt32.decLt
+standard byte lean_uint32_to_uint8(uint)  -- UInt32.toUInt8
+standard byte lean_uint64_dec_eq(ulong, ulong)  -- UInt64.decEq
+standard byte lean_uint64_dec_le(ulong, ulong)  -- UInt64.decLe
+standard byte lean_uint64_dec_lt(ulong, ulong)  -- UInt64.decLt
+standard byte lean_uint64_to_uint8(ulong)  -- UInt64.toUInt8
+standard byte lean_uint8_add(byte, byte)  -- UInt8.add
+standard byte lean_uint8_complement(byte)  -- UInt8.complement
+standard byte lean_uint8_dec_eq(byte, byte)  -- UInt8.decEq
+standard byte lean_uint8_dec_le(byte, byte)  -- UInt8.decLe
+standard byte lean_uint8_dec_lt(byte, byte)  -- UInt8.decLt
+standard byte lean_uint8_div(byte, byte)  -- UInt8.div
+standard byte lean_uint8_land(byte, byte)  -- UInt8.land
+standard byte lean_uint8_log2(byte)  -- UInt8.log2
+standard byte lean_uint8_lor(byte, byte)  -- UInt8.lor
+standard byte lean_uint8_mod(byte, byte)  -- UInt8.mod
+standard byte lean_uint8_mul(byte, byte)  -- UInt8.mul
+standard byte lean_uint8_neg(byte)  -- UInt8.neg
+standard byte lean_uint8_of_nat(Obj)  -- UInt8.ofNatLT
+standard byte lean_uint8_of_nat_mk(Obj)  -- UInt8.ofBitVec
+standard byte lean_uint8_shift_left(byte, byte)  -- UInt8.shiftLeft
+standard byte lean_uint8_shift_right(byte, byte)  -- UInt8.shiftRight
+standard byte lean_uint8_sub(byte, byte)  -- UInt8.sub
+standard byte lean_uint8_xor(byte, byte)  -- UInt8.xor
+standard byte lean_usize_dec_eq(ulong, ulong)  -- USize.decEq
+standard byte lean_usize_dec_le(ulong, ulong)  -- USize.decLe
+standard byte lean_usize_dec_lt(ulong, ulong)  -- USize.decLt
+standard byte lean_usize_to_uint8(ulong)  -- USize.toUInt8
+standard byte lean_uv_event_loop_alive()  -- Std.Internal.UV.Loop.alive
+standard byte lean_version_get_is_release(Obj)  -- Lean.version.getIsRelease
+standard byte llvm_is_declaration(ulong, ulong)  -- Lean.LLVM.isDeclaration
+standard double acos(double)  -- Float.acos
+standard double acosh(double)  -- Float.acosh
+standard double asin(double)  -- Float.asin
+standard double asinh(double)  -- Float.asinh
+standard double atan(double)  -- Float.atan
+standard double atan2(double, double)  -- Float.atan2
+standard double atanh(double)  -- Float.atanh
+standard double cbrt(double)  -- Float.cbrt
+standard double ceil(double)  -- Float.ceil
+standard double cos(double)  -- Float.cos
+standard double cosh(double)  -- Float.cosh
+standard double exp(double)  -- Float.exp
+standard double exp2(double)  -- Float.exp2
+standard double fabs(double)  -- Float.abs
+standard double floor(double)  -- Float.floor
+standard double fma(double, double, double)  -- Float.fma
+standard double lean_float32_to_float(float)  -- Float32.toFloat
+standard double lean_float_add(double, double)  -- Float.add
+standard double lean_float_array_fget(Obj, Obj)  -- FloatArray.get
+standard double lean_float_array_get(Obj, Obj)  -- FloatArray.get!
+standard double lean_float_array_uget(Obj, ulong)  -- FloatArray.uget
+standard double lean_float_div(double, double)  -- Float.div
+standard double lean_float_maximum(double, double)  -- Float.maximum
+standard double lean_float_maximum_number(double, double)  -- Float.maximumNumber
+standard double lean_float_minimum(double, double)  -- Float.minimum
+standard double lean_float_minimum_number(double, double)  -- Float.minimumNumber
+standard double lean_float_mul(double, double)  -- Float.mul
+standard double lean_float_negate(double)  -- Float.neg
+standard double lean_float_of_bits(ulong)  -- Float.ofModel
+standard double lean_float_scaleb(double, Obj)  -- Float.scaleB
+standard double lean_float_sub(double, double)  -- Float.sub
+standard double lean_int16_to_float(ushort)  -- Int16.toFloat
+standard double lean_int32_to_float(uint)  -- Int32.toFloat
+standard double lean_int64_to_float(ulong)  -- Int64.toFloat
+standard double lean_int8_to_float(byte)  -- Int8.toFloat
+standard double lean_isize_to_float(ulong)  -- ISize.toFloat
+standard double lean_uint16_to_float(ushort)  -- UInt16.toFloat
+standard double lean_uint32_to_float(uint)  -- UInt32.toFloat
+standard double lean_uint64_to_float(ulong)  -- UInt64.toFloat
+standard double lean_uint8_to_float(byte)  -- UInt8.toFloat
+standard double lean_usize_to_float(ulong)  -- USize.toFloat
+standard double log(double)  -- Float.log
+standard double log10(double)  -- Float.log10
+standard double log2(double)  -- Float.log2
+standard double pow(double, double)  -- Float.pow
+standard double round(double)  -- Float.round
+standard double sin(double)  -- Float.sin
+standard double sinh(double)  -- Float.sinh
+standard double sqrt(double)  -- Float.sqrt
+standard double tan(double)  -- Float.tan
+standard double tanh(double)  -- Float.tanh
+standard float acosf(float)  -- Float32.acos
+standard float acoshf(float)  -- Float32.acosh
+standard float asinf(float)  -- Float32.asin
+standard float asinhf(float)  -- Float32.asinh
+standard float atan2f(float, float)  -- Float32.atan2
+standard float atanf(float)  -- Float32.atan
+standard float atanhf(float)  -- Float32.atanh
+standard float cbrtf(float)  -- Float32.cbrt
+standard float ceilf(float)  -- Float32.ceil
+standard float cosf(float)  -- Float32.cos
+standard float coshf(float)  -- Float32.cosh
+standard float exp2f(float)  -- Float32.exp2
+standard float expf(float)  -- Float32.exp
+standard float fabsf(float)  -- Float32.abs
+standard float floorf(float)  -- Float32.floor
+standard float fmaf(float, float, float)  -- Float32.fma
+standard float lean_float32_add(float, float)  -- Float32.add
+standard float lean_float32_div(float, float)  -- Float32.div
+standard float lean_float32_maximum(float, float)  -- Float32.maximum
+standard float lean_float32_maximum_number(float, float)  -- Float32.maximumNumber
+standard float lean_float32_minimum(float, float)  -- Float32.minimum
+standard float lean_float32_minimum_number(float, float)  -- Float32.minimumNumber
+standard float lean_float32_mul(float, float)  -- Float32.mul
+standard float lean_float32_negate(float)  -- Float32.neg
+standard float lean_float32_of_bits(uint)  -- Float32.ofBits
+standard float lean_float32_scaleb(float, Obj)  -- Float32.scaleB
+standard float lean_float32_sub(float, float)  -- Float32.sub
+standard float lean_float_to_float32(double)  -- Float.toFloat32
+standard float lean_int16_to_float32(ushort)  -- Int16.toFloat32
+standard float lean_int32_to_float32(uint)  -- Int32.toFloat32
+standard float lean_int64_to_float32(ulong)  -- Int64.toFloat32
+standard float lean_int8_to_float32(byte)  -- Int8.toFloat32
+standard float lean_isize_to_float32(ulong)  -- ISize.toFloat32
+standard float lean_uint16_to_float32(ushort)  -- UInt16.toFloat32
+standard float lean_uint32_to_float32(uint)  -- UInt32.toFloat32
+standard float lean_uint64_to_float32(ulong)  -- UInt64.toFloat32
+standard float lean_uint8_to_float32(byte)  -- UInt8.toFloat32
+standard float lean_usize_to_float32(ulong)  -- USize.toFloat32
+standard float log10f(float)  -- Float32.log10
+standard float log2f(float)  -- Float32.log2
+standard float logf(float)  -- Float32.log
+standard float powf(float, float)  -- Float32.pow
+standard float roundf(float)  -- Float32.round
+standard float sinf(float)  -- Float32.sin
+standard float sinhf(float)  -- Float32.sinh
+standard float sqrtf(float)  -- Float32.sqrt
+standard float tanf(float)  -- Float32.tan
+standard float tanhf(float)  -- Float32.tanh
+standard uint lean_bool_to_int32(byte)  -- Bool.toInt32
+standard uint lean_bool_to_uint32(byte)  -- Bool.toUInt32
+standard uint lean_cadical_solver_active(Obj)  -- Lean.Cadical.Internal.Solver.active
+standard uint lean_cadical_solver_fixed(Obj, uint)  -- Lean.Cadical.Internal.Solver.fixed
+standard uint lean_cadical_solver_get(Obj, Obj)  -- Lean.Cadical.Internal.Solver.get
+standard uint lean_cadical_solver_lookahead(Obj)  -- Lean.Cadical.Internal.Solver.lookahead
+standard uint lean_cadical_solver_val(Obj, uint)  -- Lean.Cadical.Internal.Solver.val
+standard uint lean_cadical_solver_vars(Obj)  -- Lean.Cadical.Internal.Solver.vars
+standard uint lean_eval_main(Obj, Obj, Obj)  -- _private.Lean.Shell.0.Lean.runMain
+standard uint lean_float32_to_bits(float)  -- Float32.toBits
+standard uint lean_float32_to_int32(float)  -- Float32.toInt32
+standard uint lean_float32_to_uint32(float)  -- Float32.toUInt32
+standard uint lean_float_to_int32(double)  -- Float.toInt32
+standard uint lean_float_to_uint32(double)  -- Float.toUInt32
+standard uint lean_int16_to_int32(ushort)  -- Int16.toInt32
+standard uint lean_int32_abs(uint)  -- Int32.abs
+standard uint lean_int32_add(uint, uint)  -- Int32.add
+standard uint lean_int32_complement(uint)  -- Int32.complement
+standard uint lean_int32_div(uint, uint)  -- Int32.div
+standard uint lean_int32_land(uint, uint)  -- Int32.land
+standard uint lean_int32_lor(uint, uint)  -- Int32.lor
+standard uint lean_int32_mod(uint, uint)  -- Int32.mod
+standard uint lean_int32_mul(uint, uint)  -- Int32.mul
+standard uint lean_int32_neg(uint)  -- Int32.neg
+standard uint lean_int32_of_int(Obj)  -- Int32.ofInt
+standard uint lean_int32_of_nat(Obj)  -- Int32.ofNat
+standard uint lean_int32_shift_left(uint, uint)  -- Int32.shiftLeft
+standard uint lean_int32_shift_right(uint, uint)  -- Int32.shiftRight
+standard uint lean_int32_sub(uint, uint)  -- Int32.sub
+standard uint lean_int32_xor(uint, uint)  -- Int32.xor
+standard uint lean_int64_to_int32(ulong)  -- Int64.toInt32
+standard uint lean_int8_to_int32(byte)  -- Int8.toInt32
+standard uint lean_internal_get_believer_trust_level(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getBelieverTrustLevel
+standard uint lean_internal_get_hardware_concurrency(Obj)  -- System.Platform.Internal.getHardwareConcurrency
+standard uint lean_io_process_child_pid(Obj, Obj)  -- IO.Process.Child.pid
+standard uint lean_io_process_get_pid()  -- IO.Process.getPID
+standard uint lean_isize_to_int32(ulong)  -- ISize.toInt32
+standard uint lean_string_utf8_get(Obj, Obj)  -- String.Pos.Raw.get
+standard uint lean_string_utf8_get_bang(Obj, Obj)  -- String.Pos.Raw.get!
+standard uint lean_string_utf8_get_fast(Obj, Obj)  -- String.Pos.Raw.get'
+standard uint lean_uint16_to_uint32(ushort)  -- UInt16.toUInt32
+standard uint lean_uint32_add(uint, uint)  -- UInt32.add
+standard uint lean_uint32_complement(uint)  -- UInt32.complement
+standard uint lean_uint32_div(uint, uint)  -- UInt32.div
+standard uint lean_uint32_land(uint, uint)  -- UInt32.land
+standard uint lean_uint32_log2(uint)  -- UInt32.log2
+standard uint lean_uint32_lor(uint, uint)  -- UInt32.lor
+standard uint lean_uint32_mod(uint, uint)  -- UInt32.mod
+standard uint lean_uint32_mul(uint, uint)  -- UInt32.mul
+standard uint lean_uint32_neg(uint)  -- UInt32.neg
+standard uint lean_uint32_of_nat(Obj)  -- UInt32.ofNat
+standard uint lean_uint32_of_nat_mk(Obj)  -- UInt32.ofBitVec
+standard uint lean_uint32_shift_left(uint, uint)  -- UInt32.shiftLeft
+standard uint lean_uint32_shift_right(uint, uint)  -- UInt32.shiftRight
+standard uint lean_uint32_sub(uint, uint)  -- UInt32.sub
+standard uint lean_uint32_xor(uint, uint)  -- UInt32.xor
+standard uint lean_uint64_to_uint32(ulong)  -- UInt64.toUInt32
+standard uint lean_uint8_to_uint32(byte)  -- UInt8.toUInt32
+standard uint lean_usize_to_uint32(ulong)  -- USize.toUInt32
+standard ulong lean_array_size(Obj)  -- Array.usize
+standard ulong lean_bool_to_int64(byte)  -- Bool.toInt64
+standard ulong lean_bool_to_isize(byte)  -- Bool.toISize
+standard ulong lean_bool_to_uint64(byte)  -- Bool.toUInt64
+standard ulong lean_bool_to_usize(byte)  -- Bool.toUSize
+standard ulong lean_byte_array_hash(Obj)  -- ByteArray.hash
+standard ulong lean_cadical_solver_irredundant(Obj)  -- Lean.Cadical.Internal.Solver.irredundant
+standard ulong lean_cadical_solver_redundant(Obj)  -- Lean.Cadical.Internal.Solver.redundant
+standard ulong lean_expr_data(Obj)  -- Lean.Expr.data
+standard ulong lean_expr_mk_app_data(ulong, ulong)  -- Lean.Expr.mkAppData
+standard ulong lean_expr_mk_data(ulong, Obj, uint, byte, byte, byte, byte)  -- Lean.Expr.mkData
+standard ulong lean_float32_to_int64(float)  -- Float32.toInt64
+standard ulong lean_float32_to_isize(float)  -- Float32.toISize
+standard ulong lean_float32_to_uint64(float)  -- Float32.toUInt64
+standard ulong lean_float32_to_usize(float)  -- Float32.toUSize
+standard ulong lean_float_to_bits(double)  -- Float.toModel
+standard ulong lean_float_to_int64(double)  -- Float.toInt64
+standard ulong lean_float_to_isize(double)  -- Float.toISize
+standard ulong lean_float_to_uint64(double)  -- Float.toUInt64
+standard ulong lean_float_to_usize(double)  -- Float.toUSize
+standard ulong lean_int16_to_int64(ushort)  -- Int16.toInt64
+standard ulong lean_int16_to_isize(ushort)  -- Int16.toISize
+standard ulong lean_int32_to_int64(uint)  -- Int32.toInt64
+standard ulong lean_int32_to_isize(uint)  -- Int32.toISize
+standard ulong lean_int64_abs(ulong)  -- Int64.abs
+standard ulong lean_int64_add(ulong, ulong)  -- Int64.add
+standard ulong lean_int64_complement(ulong)  -- Int64.complement
+standard ulong lean_int64_div(ulong, ulong)  -- Int64.div
+standard ulong lean_int64_land(ulong, ulong)  -- Int64.land
+standard ulong lean_int64_lor(ulong, ulong)  -- Int64.lor
+standard ulong lean_int64_mod(ulong, ulong)  -- Int64.mod
+standard ulong lean_int64_mul(ulong, ulong)  -- Int64.mul
+standard ulong lean_int64_neg(ulong)  -- Int64.neg
+standard ulong lean_int64_of_int(Obj)  -- Int64.ofInt
+standard ulong lean_int64_of_nat(Obj)  -- Int64.ofNat
+standard ulong lean_int64_shift_left(ulong, ulong)  -- Int64.shiftLeft
+standard ulong lean_int64_shift_right(ulong, ulong)  -- Int64.shiftRight
+standard ulong lean_int64_sub(ulong, ulong)  -- Int64.sub
+standard ulong lean_int64_to_isize(ulong)  -- Int64.toISize
+standard ulong lean_int64_xor(ulong, ulong)  -- Int64.xor
+standard ulong lean_int8_to_int64(byte)  -- Int8.toInt64
+standard ulong lean_int8_to_isize(byte)  -- Int8.toISize
+standard ulong lean_io_get_tid()  -- IO.getTID
+standard ulong lean_isize_abs(ulong)  -- ISize.abs
+standard ulong lean_isize_add(ulong, ulong)  -- ISize.add
+standard ulong lean_isize_complement(ulong)  -- ISize.complement
+standard ulong lean_isize_div(ulong, ulong)  -- ISize.div
+standard ulong lean_isize_land(ulong, ulong)  -- ISize.land
+standard ulong lean_isize_lor(ulong, ulong)  -- ISize.lor
+standard ulong lean_isize_mod(ulong, ulong)  -- ISize.mod
+standard ulong lean_isize_mul(ulong, ulong)  -- ISize.mul
+standard ulong lean_isize_neg(ulong)  -- ISize.neg
+standard ulong lean_isize_of_int(Obj)  -- ISize.ofInt
+standard ulong lean_isize_of_nat(Obj)  -- ISize.ofNat
+standard ulong lean_isize_shift_left(ulong, ulong)  -- ISize.shiftLeft
+standard ulong lean_isize_shift_right(ulong, ulong)  -- ISize.shiftRight
+standard ulong lean_isize_sub(ulong, ulong)  -- ISize.sub
+standard ulong lean_isize_to_int64(ulong)  -- ISize.toInt64
+standard ulong lean_isize_xor(ulong, ulong)  -- ISize.xor
+standard ulong lean_level_mk_data(ulong, Obj, byte, byte)  -- Lean.Level.mkData
+standard ulong lean_llvm_add_function(ulong, ulong, Obj, ulong)  -- Lean.LLVM.addFunction
+standard ulong lean_llvm_add_global(ulong, ulong, Obj, ulong)  -- Lean.LLVM.addGlobal
+standard ulong lean_llvm_append_basic_block_in_context(ulong, ulong, Obj)  -- Lean.LLVM.appendBasicBlockInContext
+standard ulong lean_llvm_array_type(ulong, ulong, ulong)  -- Lean.LLVM.arrayType
+standard ulong lean_llvm_build_add(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildAdd
+standard ulong lean_llvm_build_alloca(ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildAlloca
+standard ulong lean_llvm_build_br(ulong, ulong, ulong)  -- Lean.LLVM.buildBr
+standard ulong lean_llvm_build_call2(ulong, ulong, ulong, ulong, Obj, Obj)  -- Lean.LLVM.buildCall2
+standard ulong lean_llvm_build_cond_br(ulong, ulong, ulong, ulong, ulong)  -- Lean.LLVM.buildCondBr
+standard ulong lean_llvm_build_gep2(ulong, ulong, ulong, ulong, Obj, Obj)  -- Lean.LLVM.buildGEP2
+standard ulong lean_llvm_build_global_string(ulong, ulong, Obj, Obj)  -- Lean.LLVM.buildGlobalString
+standard ulong lean_llvm_build_icmp(ulong, ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildICmp
+standard ulong lean_llvm_build_inbounds_gep2(ulong, ulong, ulong, ulong, Obj, Obj)  -- Lean.LLVM.buildInBoundsGEP2
+standard ulong lean_llvm_build_load2(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildLoad2
+standard ulong lean_llvm_build_mul(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildMul
+standard ulong lean_llvm_build_not(ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildNot
+standard ulong lean_llvm_build_ptr_to_int(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildPtrToInt
+standard ulong lean_llvm_build_ret(ulong, ulong, ulong)  -- Lean.LLVM.buildRet
+standard ulong lean_llvm_build_sext(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildSext
+standard ulong lean_llvm_build_sext_or_trunc(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildSextOrTrunc
+standard ulong lean_llvm_build_sub(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildSub
+standard ulong lean_llvm_build_switch(ulong, ulong, ulong, ulong, ulong)  -- Lean.LLVM.buildSwitch
+standard ulong lean_llvm_build_unreachable(ulong, ulong)  -- Lean.LLVM.buildUnreachable
+standard ulong lean_llvm_build_zext(ulong, ulong, ulong, ulong, Obj)  -- Lean.LLVM.buildZext
+standard ulong lean_llvm_const_array(ulong, ulong, Obj)  -- Lean.LLVM.constArray
+standard ulong lean_llvm_const_int(ulong, ulong, ulong, byte)  -- Lean.LLVM.constInt
+standard ulong lean_llvm_const_pointer_null(ulong, ulong)  -- Lean.LLVM.constPointerNull
+standard ulong lean_llvm_const_string(ulong, Obj)  -- Lean.LLVM.constString
+standard ulong lean_llvm_count_basic_blocks(ulong, ulong)  -- Lean.LLVM.countBasicBlocks
+standard ulong lean_llvm_create_builder_in_context(ulong)  -- Lean.LLVM.createBuilderInContext
+standard ulong lean_llvm_create_context()  -- Lean.LLVM.createContext
+standard ulong lean_llvm_create_memory_buffer_with_contents_of_file(ulong, Obj)  -- Lean.LLVM.createMemoryBufferWithContentsOfFile
+standard ulong lean_llvm_create_module(ulong, Obj)  -- Lean.LLVM.createModule
+standard ulong lean_llvm_create_string_attribute(ulong, Obj, Obj)  -- Lean.LLVM.createStringAttribute
+standard ulong lean_llvm_create_target_machine(ulong, ulong, Obj, Obj, Obj)  -- Lean.LLVM.createTargetMachine
+standard ulong lean_llvm_double_type_in_context(ulong)  -- Lean.LLVM.doubleTypeInContext
+standard ulong lean_llvm_float_type_in_context(ulong)  -- Lean.LLVM.floatTypeInContext
+standard ulong lean_llvm_function_type(ulong, ulong, Obj, byte)  -- Lean.LLVM.functionType
+standard ulong lean_llvm_get_basic_block_parent(ulong, ulong)  -- Lean.LLVM.getBasicBlockParent
+standard ulong lean_llvm_get_entry_basic_block(ulong, ulong)  -- Lean.LLVM.getEntryBasicBlock
+standard ulong lean_llvm_get_first_function(ulong, ulong)  -- Lean.LLVM.getFirstFunction
+standard ulong lean_llvm_get_first_global(ulong, ulong)  -- Lean.LLVM.getFirstGlobal
+standard ulong lean_llvm_get_insert_block(Obj, ulong)  -- Lean.LLVM.getInsertBlock
+standard ulong lean_llvm_get_next_function(ulong, ulong)  -- Lean.LLVM.getNextFunction
+standard ulong lean_llvm_get_next_global(ulong, ulong)  -- Lean.LLVM.getNextGlobal
+standard ulong lean_llvm_get_target_from_triple(ulong, Obj)  -- Lean.LLVM.getTargetFromTriple
+standard ulong lean_llvm_get_undef(ulong, ulong)  -- Lean.LLVM.getUndef
+standard ulong lean_llvm_int_type_in_context(ulong, ulong)  -- Lean.LLVM.intTypeInContext
+standard ulong lean_llvm_opaque_pointer_type_in_context(ulong, ulong)  -- Lean.LLVM.opaquePointerTypeInContext
+standard ulong lean_llvm_parse_bitcode(ulong, ulong)  -- Lean.LLVM.parseBitcode
+standard ulong lean_llvm_pointer_type(ulong, ulong)  -- Lean.LLVM.pointerType
+standard ulong lean_llvm_type_of(ulong, ulong)  -- Lean.LLVM.typeOf
+standard ulong lean_llvm_void_type_in_context(ulong)  -- Lean.LLVM.voidType
+standard ulong lean_ptr_addr(Obj)  -- ptrAddrUnsafe
+standard ulong lean_sarray_size(Obj)  -- FloatArray.usize
+standard ulong lean_sharecommon_hash(Obj)  -- ShareCommon.Object.hash
+standard ulong lean_slice_hash(Obj)  -- String.Slice.hash
+standard ulong lean_string_hash(Obj)  -- String.hash
+standard ulong lean_uint16_to_uint64(ushort)  -- UInt16.toUInt64
+standard ulong lean_uint16_to_usize(ushort)  -- UInt16.toUSize
+standard ulong lean_uint32_to_uint64(uint)  -- UInt32.toUInt64
+standard ulong lean_uint32_to_usize(uint)  -- UInt32.toUSize
+standard ulong lean_uint64_add(ulong, ulong)  -- UInt64.add
+standard ulong lean_uint64_complement(ulong)  -- UInt64.complement
+standard ulong lean_uint64_div(ulong, ulong)  -- UInt64.div
+standard ulong lean_uint64_land(ulong, ulong)  -- UInt64.land
+standard ulong lean_uint64_log2(ulong)  -- UInt64.log2
+standard ulong lean_uint64_lor(ulong, ulong)  -- UInt64.lor
+standard ulong lean_uint64_mix_hash(ulong, ulong)  -- mixHash
+standard ulong lean_uint64_mod(ulong, ulong)  -- UInt64.mod
+standard ulong lean_uint64_mul(ulong, ulong)  -- UInt64.mul
+standard ulong lean_uint64_neg(ulong)  -- UInt64.neg
+standard ulong lean_uint64_of_nat(Obj)  -- UInt64.ofNat
+standard ulong lean_uint64_of_nat_mk(Obj)  -- UInt64.ofBitVec
+standard ulong lean_uint64_shift_left(ulong, ulong)  -- UInt64.shiftLeft
+standard ulong lean_uint64_shift_right(ulong, ulong)  -- UInt64.shiftRight
+standard ulong lean_uint64_sub(ulong, ulong)  -- UInt64.sub
+standard ulong lean_uint64_to_usize(ulong)  -- UInt64.toUSize
+standard ulong lean_uint64_xor(ulong, ulong)  -- UInt64.xor
+standard ulong lean_uint8_to_uint64(byte)  -- Lean.BinderInfo.toUInt64
+standard ulong lean_uint8_to_usize(byte)  -- UInt8.toUSize
+standard ulong lean_usize_add(ulong, ulong)  -- USize.add
+standard ulong lean_usize_complement(ulong)  -- USize.complement
+standard ulong lean_usize_div(ulong, ulong)  -- USize.div
+standard ulong lean_usize_land(ulong, ulong)  -- USize.land
+standard ulong lean_usize_log2(ulong)  -- USize.log2
+standard ulong lean_usize_lor(ulong, ulong)  -- USize.lor
+standard ulong lean_usize_mod(ulong, ulong)  -- USize.mod
+standard ulong lean_usize_mul(ulong, ulong)  -- USize.mul
+standard ulong lean_usize_neg(ulong)  -- USize.neg
+standard ulong lean_usize_of_nat(Obj)  -- USize.ofNat32
+standard ulong lean_usize_of_nat_mk(Obj)  -- USize.ofBitVec
+standard ulong lean_usize_shift_left(ulong, ulong)  -- USize.shiftLeft
+standard ulong lean_usize_shift_right(ulong, ulong)  -- USize.shiftRight
+standard ulong lean_usize_sub(ulong, ulong)  -- USize.sub
+standard ulong lean_usize_to_uint64(ulong)  -- USize.toUInt64
+standard ulong lean_usize_xor(ulong, ulong)  -- USize.xor
+standard ulong llvm_count_params(ulong, ulong)  -- Lean.LLVM.countParams
+standard ulong llvm_get_param(ulong, ulong, ulong)  -- Lean.LLVM.getParam
+standard ushort lean_bool_to_int16(byte)  -- Bool.toInt16
+standard ushort lean_bool_to_uint16(byte)  -- Bool.toUInt16
+standard ushort lean_cadical_solver_state(Obj)  -- Lean.Cadical.Internal.Solver.state
+standard ushort lean_float32_to_int16(float)  -- Float32.toInt16
+standard ushort lean_float32_to_uint16(float)  -- Float32.toUInt16
+standard ushort lean_float_to_int16(double)  -- Float.toInt16
+standard ushort lean_float_to_uint16(double)  -- Float.toUInt16
+standard ushort lean_int16_abs(ushort)  -- Int16.abs
+standard ushort lean_int16_add(ushort, ushort)  -- Int16.add
+standard ushort lean_int16_complement(ushort)  -- Int16.complement
+standard ushort lean_int16_div(ushort, ushort)  -- Int16.div
+standard ushort lean_int16_land(ushort, ushort)  -- Int16.land
+standard ushort lean_int16_lor(ushort, ushort)  -- Int16.lor
+standard ushort lean_int16_mod(ushort, ushort)  -- Int16.mod
+standard ushort lean_int16_mul(ushort, ushort)  -- Int16.mul
+standard ushort lean_int16_neg(ushort)  -- Int16.neg
+standard ushort lean_int16_of_int(Obj)  -- Int16.ofInt
+standard ushort lean_int16_of_nat(Obj)  -- Int16.ofNat
+standard ushort lean_int16_shift_left(ushort, ushort)  -- Int16.shiftLeft
+standard ushort lean_int16_shift_right(ushort, ushort)  -- Int16.shiftRight
+standard ushort lean_int16_sub(ushort, ushort)  -- Int16.sub
+standard ushort lean_int16_xor(ushort, ushort)  -- Int16.xor
+standard ushort lean_int32_to_int16(uint)  -- Int32.toInt16
+standard ushort lean_int64_to_int16(ulong)  -- Int64.toInt16
+standard ushort lean_int8_to_int16(byte)  -- Int8.toInt16
+standard ushort lean_isize_to_int16(ulong)  -- ISize.toInt16
+standard ushort lean_uint16_add(ushort, ushort)  -- UInt16.add
+standard ushort lean_uint16_complement(ushort)  -- UInt16.complement
+standard ushort lean_uint16_div(ushort, ushort)  -- UInt16.div
+standard ushort lean_uint16_land(ushort, ushort)  -- UInt16.land
+standard ushort lean_uint16_log2(ushort)  -- UInt16.log2
+standard ushort lean_uint16_lor(ushort, ushort)  -- UInt16.lor
+standard ushort lean_uint16_mod(ushort, ushort)  -- UInt16.mod
+standard ushort lean_uint16_mul(ushort, ushort)  -- UInt16.mul
+standard ushort lean_uint16_neg(ushort)  -- UInt16.neg
+standard ushort lean_uint16_of_nat(Obj)  -- UInt16.ofNat
+standard ushort lean_uint16_of_nat_mk(Obj)  -- UInt16.ofBitVec
+standard ushort lean_uint16_shift_left(ushort, ushort)  -- UInt16.shiftLeft
+standard ushort lean_uint16_shift_right(ushort, ushort)  -- UInt16.shiftRight
+standard ushort lean_uint16_sub(ushort, ushort)  -- UInt16.sub
+standard ushort lean_uint16_xor(ushort, ushort)  -- UInt16.xor
+standard ushort lean_uint32_to_uint16(uint)  -- UInt32.toUInt16
+standard ushort lean_uint64_to_uint16(ulong)  -- UInt64.toUInt16
+standard ushort lean_uint8_to_uint16(byte)  -- UInt8.toUInt16
+standard ushort lean_usize_to_uint16(ulong)  -- USize.toUInt16

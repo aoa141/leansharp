@@ -1,0 +1,417 @@
+standard Obj lean_float32_frexp(float)  -- Float32.frExp
+standard Obj lean_float32_to_string(float)  -- Float32.toString
+standard Obj lean_float_array_data(Obj)  -- FloatArray.data
+standard Obj lean_float_array_fset(Obj, Obj, double)  -- FloatArray.set
+standard Obj lean_float_array_mk(Obj)  -- FloatArray.mk
+standard Obj lean_float_array_push(Obj, double)  -- FloatArray.push
+standard Obj lean_float_array_set(Obj, Obj, double)  -- FloatArray.set!
+standard Obj lean_float_array_size(Obj)  -- FloatArray.size
+standard Obj lean_float_array_uset(Obj, ulong, double)  -- FloatArray.uset
+standard Obj lean_float_frexp(double)  -- Float.frExp
+standard Obj lean_float_to_string(double)  -- Float.toString
+standard Obj lean_int16_to_int(ushort)  -- Int16.toInt
+standard Obj lean_int32_to_int(uint)  -- Int32.toInt
+standard Obj lean_int64_to_int_sint(ulong)  -- Int64.toInt
+standard Obj lean_int8_to_int(byte)  -- Int8.toInt
+standard Obj lean_int_add(Obj, Obj)  -- Int.add
+standard Obj lean_int_div(Obj, Obj)  -- Int.tdiv
+standard Obj lean_int_div_exact(Obj, Obj)  -- Int.divExact
+standard Obj lean_int_ediv(Obj, Obj)  -- Int.ediv
+standard Obj lean_int_emod(Obj, Obj)  -- Int.emod
+standard Obj lean_int_mod(Obj, Obj)  -- Int.tmod
+standard Obj lean_int_mul(Obj, Obj)  -- Int.mul
+standard Obj lean_int_neg(Obj)  -- Int.neg
+standard Obj lean_int_neg_succ_of_nat(Obj)  -- Int.negSucc
+standard Obj lean_int_sub(Obj, Obj)  -- Int.sub
+standard Obj lean_internal_enable_debug(Obj)  -- _private.Lean.Shell.0.Lean.Internal.enableDebug
+standard Obj lean_internal_get_build_type(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getBuildType
+standard Obj lean_internal_get_default_max_heartbeat(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getDefaultMaxHeartbeat
+standard Obj lean_internal_get_default_max_memory(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getDefaultMaxMemory
+standard Obj lean_internal_get_option_overrides(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getOptionOverrides
+standard Obj lean_internal_set_exit_on_panic(byte)  -- _private.Lean.Shell.0.Lean.Internal.setExitOnPanic
+standard Obj lean_internal_set_max_heartbeat(ulong)  -- _private.Lean.Shell.0.Lean.Internal.setMaxHeartbeat
+standard Obj lean_internal_set_max_memory(ulong)  -- _private.Lean.Shell.0.Lean.Internal.setMaxMemory
+standard Obj lean_internal_set_thread_stack_size(ulong)  -- _private.Lean.Shell.0.Lean.Internal.setThreadStackSize
+standard Obj lean_isize_to_int(ulong)  -- ISize.toInt
+standard Obj lean_nat_abs(Obj)  -- Int.natAbs
+standard Obj lean_nat_add(Obj, Obj)  -- Nat.add
+standard Obj lean_nat_div(Obj, Obj)  -- Nat.div
+standard Obj lean_nat_div_exact(Obj, Obj)  -- Nat.divExact
+standard Obj lean_nat_gcd(Obj, Obj)  -- Nat.gcd
+standard Obj lean_nat_land(Obj, Obj)  -- Nat.land
+standard Obj lean_nat_log2(Obj)  -- Nat.log2
+standard Obj lean_nat_lor(Obj, Obj)  -- Nat.lor
+standard Obj lean_nat_lxor(Obj, Obj)  -- Nat.xor
+standard Obj lean_nat_mod(Obj, Obj)  -- Nat.mod
+standard Obj lean_nat_mul(Obj, Obj)  -- Nat.mul
+standard Obj lean_nat_pow(Obj, Obj)  -- Nat.pow
+standard Obj lean_nat_powmod(Obj, Obj, Obj)  -- Nat.powMod
+standard Obj lean_nat_pred(Obj)  -- Nat.pred
+standard Obj lean_nat_shiftl(Obj, Obj)  -- Nat.shiftLeft
+standard Obj lean_nat_shiftr(Obj, Obj)  -- Nat.shiftRight
+standard Obj lean_nat_sub(Obj, Obj)  -- Nat.sub
+standard Obj lean_nat_to_int(Obj)  -- Int.ofNat
+standard Obj lean_uint16_to_nat(ushort)  -- UInt16.toNat
+standard Obj lean_uint32_to_nat(uint)  -- UInt32.toNat
+standard Obj lean_uint64_to_nat(ulong)  -- UInt64.toNat
+standard Obj lean_uint8_to_nat(byte)  -- UInt8.toNat
+standard Obj lean_usize_to_nat(ulong)  -- USize.toNat
+standard byte lean_bool_to_int8(byte)  -- Bool.toInt8
+standard byte lean_bool_to_uint8(byte)  -- Bool.toUInt8
+standard byte lean_float32_beq(float, float)  -- Float32.beq
+standard byte lean_float32_decLe(float, float)  -- Float32.decLe
+standard byte lean_float32_decLt(float, float)  -- Float32.decLt
+standard byte lean_float32_isfinite(float)  -- Float32.isFinite
+standard byte lean_float32_isinf(float)  -- Float32.isInf
+standard byte lean_float32_isnan(float)  -- Float32.isNaN
+standard byte lean_float32_to_int8(float)  -- Float32.toInt8
+standard byte lean_float32_to_uint8(float)  -- Float32.toUInt8
+standard byte lean_float_beq(double, double)  -- Float.beq
+standard byte lean_float_decLe(double, double)  -- Float.decLe
+standard byte lean_float_decLt(double, double)  -- Float.lt
+standard byte lean_float_isfinite(double)  -- Float.isFinite
+standard byte lean_float_isinf(double)  -- Float.isInf
+standard byte lean_float_isnan(double)  -- Float.isNaN
+standard byte lean_float_to_int8(double)  -- Float.toInt8
+standard byte lean_float_to_uint8(double)  -- Float.toUInt8
+standard byte lean_int16_dec_eq(ushort, ushort)  -- Int16.decEq
+standard byte lean_int16_dec_le(ushort, ushort)  -- Int16.decLe
+standard byte lean_int16_dec_lt(ushort, ushort)  -- Int16.decLt
+standard byte lean_int16_to_int8(ushort)  -- Int16.toInt8
+standard byte lean_int32_dec_eq(uint, uint)  -- Int32.decEq
+standard byte lean_int32_dec_le(uint, uint)  -- Int32.decLe
+standard byte lean_int32_dec_lt(uint, uint)  -- Int32.decLt
+standard byte lean_int32_to_int8(uint)  -- Int32.toInt8
+standard byte lean_int64_dec_eq(ulong, ulong)  -- Int64.decEq
+standard byte lean_int64_dec_le(ulong, ulong)  -- Int64.decLe
+standard byte lean_int64_dec_lt(ulong, ulong)  -- Int64.decLt
+standard byte lean_int64_to_int8(ulong)  -- Int64.toInt8
+standard byte lean_int8_abs(byte)  -- Int8.abs
+standard byte lean_int8_add(byte, byte)  -- Int8.add
+standard byte lean_int8_complement(byte)  -- Int8.complement
+standard byte lean_int8_dec_eq(byte, byte)  -- Int8.decEq
+standard byte lean_int8_dec_le(byte, byte)  -- Int8.decLe
+standard byte lean_int8_dec_lt(byte, byte)  -- Int8.decLt
+standard byte lean_int8_div(byte, byte)  -- Int8.div
+standard byte lean_int8_land(byte, byte)  -- Int8.land
+standard byte lean_int8_lor(byte, byte)  -- Int8.lor
+standard byte lean_int8_mod(byte, byte)  -- Int8.mod
+standard byte lean_int8_mul(byte, byte)  -- Int8.mul
+standard byte lean_int8_neg(byte)  -- Int8.neg
+standard byte lean_int8_of_int(Obj)  -- Int8.ofInt
+standard byte lean_int8_of_nat(Obj)  -- Int8.ofNat
+standard byte lean_int8_shift_left(byte, byte)  -- Int8.shiftLeft
+standard byte lean_int8_shift_right(byte, byte)  -- Int8.shiftRight
+standard byte lean_int8_sub(byte, byte)  -- Int8.sub
+standard byte lean_int8_xor(byte, byte)  -- Int8.xor
+standard byte lean_int_dec_eq(Obj, Obj)  -- Int.decEq
+standard byte lean_int_dec_le(Obj, Obj)  -- Int.decLe
+standard byte lean_int_dec_lt(Obj, Obj)  -- Int.decLt
+standard byte lean_int_dec_nonneg(Obj)  -- Int.decNonneg
+standard byte lean_internal_get_default_verbose(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getDefaultVerbose
+standard byte lean_internal_has_address_sanitizer(Obj)  -- _private.Lean.Shell.0.Lean.Internal.hasAddressSanitizer
+standard byte lean_internal_has_llvm_backend(Obj)  -- Lean.Internal.hasLLVMBackend
+standard byte lean_internal_is_debug(Obj)  -- _private.Lean.Shell.0.Lean.Internal.isDebug
+standard byte lean_internal_is_multi_thread(Obj)  -- _private.Lean.Shell.0.Lean.Internal.isMultiThread
+standard byte lean_internal_is_stage0(Obj)  -- Lean.Internal.isStage0
+standard byte lean_isize_dec_eq(ulong, ulong)  -- ISize.decEq
+standard byte lean_isize_dec_le(ulong, ulong)  -- ISize.decLe
+standard byte lean_isize_dec_lt(ulong, ulong)  -- ISize.decLt
+standard byte lean_isize_to_int8(ulong)  -- ISize.toInt8
+standard byte lean_nat_dec_eq(Obj, Obj)  -- Nat.decEq
+standard byte lean_nat_dec_le(Obj, Obj)  -- Nat.decLe
+standard byte lean_nat_dec_lt(Obj, Obj)  -- Nat.decLt
+standard byte lean_uint16_dec_eq(ushort, ushort)  -- UInt16.decEq
+standard byte lean_uint16_dec_le(ushort, ushort)  -- UInt16.decLe
+standard byte lean_uint16_dec_lt(ushort, ushort)  -- UInt16.decLt
+standard byte lean_uint16_to_uint8(ushort)  -- UInt16.toUInt8
+standard byte lean_uint32_dec_eq(uint, uint)  -- UInt32.decEq
+standard byte lean_uint32_dec_le(uint, uint)  -- UInt32.decLe
+standard byte lean_uint32_dec_lt(uint, uint)  -- UInt32.decLt
+standard byte lean_uint32_to_uint8(uint)  -- UInt32.toUInt8
+standard byte lean_uint64_dec_eq(ulong, ulong)  -- UInt64.decEq
+standard byte lean_uint64_dec_le(ulong, ulong)  -- UInt64.decLe
+standard byte lean_uint64_dec_lt(ulong, ulong)  -- UInt64.decLt
+standard byte lean_uint64_to_uint8(ulong)  -- UInt64.toUInt8
+standard byte lean_uint8_add(byte, byte)  -- UInt8.add
+standard byte lean_uint8_complement(byte)  -- UInt8.complement
+standard byte lean_uint8_dec_eq(byte, byte)  -- UInt8.decEq
+standard byte lean_uint8_dec_le(byte, byte)  -- UInt8.decLe
+standard byte lean_uint8_dec_lt(byte, byte)  -- UInt8.decLt
+standard byte lean_uint8_div(byte, byte)  -- UInt8.div
+standard byte lean_uint8_land(byte, byte)  -- UInt8.land
+standard byte lean_uint8_log2(byte)  -- UInt8.log2
+standard byte lean_uint8_lor(byte, byte)  -- UInt8.lor
+standard byte lean_uint8_mod(byte, byte)  -- UInt8.mod
+standard byte lean_uint8_mul(byte, byte)  -- UInt8.mul
+standard byte lean_uint8_neg(byte)  -- UInt8.neg
+standard byte lean_uint8_of_nat(Obj)  -- UInt8.ofNatLT
+standard byte lean_uint8_of_nat_mk(Obj)  -- UInt8.ofBitVec
+standard byte lean_uint8_shift_left(byte, byte)  -- UInt8.shiftLeft
+standard byte lean_uint8_shift_right(byte, byte)  -- UInt8.shiftRight
+standard byte lean_uint8_sub(byte, byte)  -- UInt8.sub
+standard byte lean_uint8_xor(byte, byte)  -- UInt8.xor
+standard byte lean_usize_dec_eq(ulong, ulong)  -- USize.decEq
+standard byte lean_usize_dec_le(ulong, ulong)  -- USize.decLe
+standard byte lean_usize_dec_lt(ulong, ulong)  -- USize.decLt
+standard byte lean_usize_to_uint8(ulong)  -- USize.toUInt8
+standard double acos(double)  -- Float.acos
+standard double asin(double)  -- Float.asin
+standard double atan(double)  -- Float.atan
+standard double cbrt(double)  -- Float.cbrt
+standard double ceil(double)  -- Float.ceil
+standard double cos(double)  -- Float.cos
+standard double exp(double)  -- Float.exp
+standard double fabs(double)  -- Float.abs
+standard double floor(double)  -- Float.floor
+standard double fma(double, double, double)  -- Float.fma
+standard double lean_float32_to_float(float)  -- Float32.toFloat
+standard double lean_float_add(double, double)  -- Float.add
+standard double lean_float_array_fget(Obj, Obj)  -- FloatArray.get
+standard double lean_float_array_get(Obj, Obj)  -- FloatArray.get!
+standard double lean_float_array_uget(Obj, ulong)  -- FloatArray.uget
+standard double lean_float_div(double, double)  -- Float.div
+standard double lean_float_maximum(double, double)  -- Float.maximum
+standard double lean_float_maximum_number(double, double)  -- Float.maximumNumber
+standard double lean_float_minimum(double, double)  -- Float.minimum
+standard double lean_float_minimum_number(double, double)  -- Float.minimumNumber
+standard double lean_float_mul(double, double)  -- Float.mul
+standard double lean_float_negate(double)  -- Float.neg
+standard double lean_float_of_bits(ulong)  -- Float.ofModel
+standard double lean_float_scaleb(double, Obj)  -- Float.scaleB
+standard double lean_float_sub(double, double)  -- Float.sub
+standard double lean_int16_to_float(ushort)  -- Int16.toFloat
+standard double lean_int32_to_float(uint)  -- Int32.toFloat
+standard double lean_int64_to_float(ulong)  -- Int64.toFloat
+standard double lean_int8_to_float(byte)  -- Int8.toFloat
+standard double lean_isize_to_float(ulong)  -- ISize.toFloat
+standard double lean_uint16_to_float(ushort)  -- UInt16.toFloat
+standard double lean_uint32_to_float(uint)  -- UInt32.toFloat
+standard double lean_uint64_to_float(ulong)  -- UInt64.toFloat
+standard double lean_uint8_to_float(byte)  -- UInt8.toFloat
+standard double lean_usize_to_float(ulong)  -- USize.toFloat
+standard double log(double)  -- Float.log
+standard double pow(double, double)  -- Float.pow
+standard double round(double)  -- Float.round
+standard double sin(double)  -- Float.sin
+standard double sqrt(double)  -- Float.sqrt
+standard double tan(double)  -- Float.tan
+standard float acosf(float)  -- Float32.acos
+standard float asinf(float)  -- Float32.asin
+standard float atanf(float)  -- Float32.atan
+standard float cbrtf(float)  -- Float32.cbrt
+standard float ceilf(float)  -- Float32.ceil
+standard float cosf(float)  -- Float32.cos
+standard float expf(float)  -- Float32.exp
+standard float fabsf(float)  -- Float32.abs
+standard float floorf(float)  -- Float32.floor
+standard float fmaf(float, float, float)  -- Float32.fma
+standard float lean_float32_add(float, float)  -- Float32.add
+standard float lean_float32_div(float, float)  -- Float32.div
+standard float lean_float32_maximum(float, float)  -- Float32.maximum
+standard float lean_float32_maximum_number(float, float)  -- Float32.maximumNumber
+standard float lean_float32_minimum(float, float)  -- Float32.minimum
+standard float lean_float32_minimum_number(float, float)  -- Float32.minimumNumber
+standard float lean_float32_mul(float, float)  -- Float32.mul
+standard float lean_float32_negate(float)  -- Float32.neg
+standard float lean_float32_of_bits(uint)  -- Float32.ofBits
+standard float lean_float32_scaleb(float, Obj)  -- Float32.scaleB
+standard float lean_float32_sub(float, float)  -- Float32.sub
+standard float lean_float_to_float32(double)  -- Float.toFloat32
+standard float lean_int16_to_float32(ushort)  -- Int16.toFloat32
+standard float lean_int32_to_float32(uint)  -- Int32.toFloat32
+standard float lean_int64_to_float32(ulong)  -- Int64.toFloat32
+standard float lean_int8_to_float32(byte)  -- Int8.toFloat32
+standard float lean_isize_to_float32(ulong)  -- ISize.toFloat32
+standard float lean_uint16_to_float32(ushort)  -- UInt16.toFloat32
+standard float lean_uint32_to_float32(uint)  -- UInt32.toFloat32
+standard float lean_uint64_to_float32(ulong)  -- UInt64.toFloat32
+standard float lean_uint8_to_float32(byte)  -- UInt8.toFloat32
+standard float lean_usize_to_float32(ulong)  -- USize.toFloat32
+standard float logf(float)  -- Float32.log
+standard float powf(float, float)  -- Float32.pow
+standard float roundf(float)  -- Float32.round
+standard float sinf(float)  -- Float32.sin
+standard float sqrtf(float)  -- Float32.sqrt
+standard float tanf(float)  -- Float32.tan
+standard uint lean_bool_to_int32(byte)  -- Bool.toInt32
+standard uint lean_bool_to_uint32(byte)  -- Bool.toUInt32
+standard uint lean_float32_to_bits(float)  -- Float32.toBits
+standard uint lean_float32_to_int32(float)  -- Float32.toInt32
+standard uint lean_float32_to_uint32(float)  -- Float32.toUInt32
+standard uint lean_float_to_int32(double)  -- Float.toInt32
+standard uint lean_float_to_uint32(double)  -- Float.toUInt32
+standard uint lean_int16_to_int32(ushort)  -- Int16.toInt32
+standard uint lean_int32_abs(uint)  -- Int32.abs
+standard uint lean_int32_add(uint, uint)  -- Int32.add
+standard uint lean_int32_complement(uint)  -- Int32.complement
+standard uint lean_int32_div(uint, uint)  -- Int32.div
+standard uint lean_int32_land(uint, uint)  -- Int32.land
+standard uint lean_int32_lor(uint, uint)  -- Int32.lor
+standard uint lean_int32_mod(uint, uint)  -- Int32.mod
+standard uint lean_int32_mul(uint, uint)  -- Int32.mul
+standard uint lean_int32_neg(uint)  -- Int32.neg
+standard uint lean_int32_of_int(Obj)  -- Int32.ofInt
+standard uint lean_int32_of_nat(Obj)  -- Int32.ofNat
+standard uint lean_int32_shift_left(uint, uint)  -- Int32.shiftLeft
+standard uint lean_int32_shift_right(uint, uint)  -- Int32.shiftRight
+standard uint lean_int32_sub(uint, uint)  -- Int32.sub
+standard uint lean_int32_xor(uint, uint)  -- Int32.xor
+standard uint lean_int64_to_int32(ulong)  -- Int64.toInt32
+standard uint lean_int8_to_int32(byte)  -- Int8.toInt32
+standard uint lean_internal_get_believer_trust_level(Obj)  -- _private.Lean.Shell.0.Lean.Internal.getBelieverTrustLevel
+standard uint lean_internal_get_hardware_concurrency(Obj)  -- System.Platform.Internal.getHardwareConcurrency
+standard uint lean_isize_to_int32(ulong)  -- ISize.toInt32
+standard uint lean_uint16_to_uint32(ushort)  -- UInt16.toUInt32
+standard uint lean_uint32_add(uint, uint)  -- UInt32.add
+standard uint lean_uint32_complement(uint)  -- UInt32.complement
+standard uint lean_uint32_div(uint, uint)  -- UInt32.div
+standard uint lean_uint32_land(uint, uint)  -- UInt32.land
+standard uint lean_uint32_log2(uint)  -- UInt32.log2
+standard uint lean_uint32_lor(uint, uint)  -- UInt32.lor
+standard uint lean_uint32_mod(uint, uint)  -- UInt32.mod
+standard uint lean_uint32_mul(uint, uint)  -- UInt32.mul
+standard uint lean_uint32_neg(uint)  -- UInt32.neg
+standard uint lean_uint32_of_nat(Obj)  -- UInt32.ofNat
+standard uint lean_uint32_of_nat_mk(Obj)  -- UInt32.ofBitVec
+standard uint lean_uint32_shift_left(uint, uint)  -- UInt32.shiftLeft
+standard uint lean_uint32_shift_right(uint, uint)  -- UInt32.shiftRight
+standard uint lean_uint32_sub(uint, uint)  -- UInt32.sub
+standard uint lean_uint32_xor(uint, uint)  -- UInt32.xor
+standard uint lean_uint64_to_uint32(ulong)  -- UInt64.toUInt32
+standard uint lean_uint8_to_uint32(byte)  -- UInt8.toUInt32
+standard uint lean_usize_to_uint32(ulong)  -- USize.toUInt32
+standard ulong lean_bool_to_int64(byte)  -- Bool.toInt64
+standard ulong lean_bool_to_isize(byte)  -- Bool.toISize
+standard ulong lean_bool_to_uint64(byte)  -- Bool.toUInt64
+standard ulong lean_bool_to_usize(byte)  -- Bool.toUSize
+standard ulong lean_float32_to_int64(float)  -- Float32.toInt64
+standard ulong lean_float32_to_isize(float)  -- Float32.toISize
+standard ulong lean_float32_to_uint64(float)  -- Float32.toUInt64
+standard ulong lean_float32_to_usize(float)  -- Float32.toUSize
+standard ulong lean_float_to_bits(double)  -- Float.toModel
+standard ulong lean_float_to_int64(double)  -- Float.toInt64
+standard ulong lean_float_to_isize(double)  -- Float.toISize
+standard ulong lean_float_to_uint64(double)  -- Float.toUInt64
+standard ulong lean_float_to_usize(double)  -- Float.toUSize
+standard ulong lean_int16_to_int64(ushort)  -- Int16.toInt64
+standard ulong lean_int16_to_isize(ushort)  -- Int16.toISize
+standard ulong lean_int32_to_int64(uint)  -- Int32.toInt64
+standard ulong lean_int32_to_isize(uint)  -- Int32.toISize
+standard ulong lean_int64_abs(ulong)  -- Int64.abs
+standard ulong lean_int64_add(ulong, ulong)  -- Int64.add
+standard ulong lean_int64_complement(ulong)  -- Int64.complement
+standard ulong lean_int64_div(ulong, ulong)  -- Int64.div
+standard ulong lean_int64_land(ulong, ulong)  -- Int64.land
+standard ulong lean_int64_lor(ulong, ulong)  -- Int64.lor
+standard ulong lean_int64_mod(ulong, ulong)  -- Int64.mod
+standard ulong lean_int64_mul(ulong, ulong)  -- Int64.mul
+standard ulong lean_int64_neg(ulong)  -- Int64.neg
+standard ulong lean_int64_of_int(Obj)  -- Int64.ofInt
+standard ulong lean_int64_of_nat(Obj)  -- Int64.ofNat
+standard ulong lean_int64_shift_left(ulong, ulong)  -- Int64.shiftLeft
+standard ulong lean_int64_shift_right(ulong, ulong)  -- Int64.shiftRight
+standard ulong lean_int64_sub(ulong, ulong)  -- Int64.sub
+standard ulong lean_int64_to_isize(ulong)  -- Int64.toISize
+standard ulong lean_int64_xor(ulong, ulong)  -- Int64.xor
+standard ulong lean_int8_to_int64(byte)  -- Int8.toInt64
+standard ulong lean_int8_to_isize(byte)  -- Int8.toISize
+standard ulong lean_isize_abs(ulong)  -- ISize.abs
+standard ulong lean_isize_add(ulong, ulong)  -- ISize.add
+standard ulong lean_isize_complement(ulong)  -- ISize.complement
+standard ulong lean_isize_div(ulong, ulong)  -- ISize.div
+standard ulong lean_isize_land(ulong, ulong)  -- ISize.land
+standard ulong lean_isize_lor(ulong, ulong)  -- ISize.lor
+standard ulong lean_isize_mod(ulong, ulong)  -- ISize.mod
+standard ulong lean_isize_mul(ulong, ulong)  -- ISize.mul
+standard ulong lean_isize_neg(ulong)  -- ISize.neg
+standard ulong lean_isize_of_int(Obj)  -- ISize.ofInt
+standard ulong lean_isize_of_nat(Obj)  -- ISize.ofNat
+standard ulong lean_isize_shift_left(ulong, ulong)  -- ISize.shiftLeft
+standard ulong lean_isize_shift_right(ulong, ulong)  -- ISize.shiftRight
+standard ulong lean_isize_sub(ulong, ulong)  -- ISize.sub
+standard ulong lean_isize_to_int64(ulong)  -- ISize.toInt64
+standard ulong lean_isize_xor(ulong, ulong)  -- ISize.xor
+standard ulong lean_uint16_to_uint64(ushort)  -- UInt16.toUInt64
+standard ulong lean_uint16_to_usize(ushort)  -- UInt16.toUSize
+standard ulong lean_uint32_to_uint64(uint)  -- UInt32.toUInt64
+standard ulong lean_uint32_to_usize(uint)  -- UInt32.toUSize
+standard ulong lean_uint64_add(ulong, ulong)  -- UInt64.add
+standard ulong lean_uint64_complement(ulong)  -- UInt64.complement
+standard ulong lean_uint64_div(ulong, ulong)  -- UInt64.div
+standard ulong lean_uint64_land(ulong, ulong)  -- UInt64.land
+standard ulong lean_uint64_log2(ulong)  -- UInt64.log2
+standard ulong lean_uint64_lor(ulong, ulong)  -- UInt64.lor
+standard ulong lean_uint64_mix_hash(ulong, ulong)  -- mixHash
+standard ulong lean_uint64_mod(ulong, ulong)  -- UInt64.mod
+standard ulong lean_uint64_mul(ulong, ulong)  -- UInt64.mul
+standard ulong lean_uint64_neg(ulong)  -- UInt64.neg
+standard ulong lean_uint64_of_nat(Obj)  -- UInt64.ofNat
+standard ulong lean_uint64_of_nat_mk(Obj)  -- UInt64.ofBitVec
+standard ulong lean_uint64_shift_left(ulong, ulong)  -- UInt64.shiftLeft
+standard ulong lean_uint64_shift_right(ulong, ulong)  -- UInt64.shiftRight
+standard ulong lean_uint64_sub(ulong, ulong)  -- UInt64.sub
+standard ulong lean_uint64_to_usize(ulong)  -- UInt64.toUSize
+standard ulong lean_uint64_xor(ulong, ulong)  -- UInt64.xor
+standard ulong lean_uint8_to_uint64(byte)  -- Lean.BinderInfo.toUInt64
+standard ulong lean_uint8_to_usize(byte)  -- UInt8.toUSize
+standard ulong lean_usize_add(ulong, ulong)  -- USize.add
+standard ulong lean_usize_complement(ulong)  -- USize.complement
+standard ulong lean_usize_div(ulong, ulong)  -- USize.div
+standard ulong lean_usize_land(ulong, ulong)  -- USize.land
+standard ulong lean_usize_log2(ulong)  -- USize.log2
+standard ulong lean_usize_lor(ulong, ulong)  -- USize.lor
+standard ulong lean_usize_mod(ulong, ulong)  -- USize.mod
+standard ulong lean_usize_mul(ulong, ulong)  -- USize.mul
+standard ulong lean_usize_neg(ulong)  -- USize.neg
+standard ulong lean_usize_of_nat(Obj)  -- USize.ofNat32
+standard ulong lean_usize_of_nat_mk(Obj)  -- USize.ofBitVec
+standard ulong lean_usize_shift_left(ulong, ulong)  -- USize.shiftLeft
+standard ulong lean_usize_shift_right(ulong, ulong)  -- USize.shiftRight
+standard ulong lean_usize_sub(ulong, ulong)  -- USize.sub
+standard ulong lean_usize_to_uint64(ulong)  -- USize.toUInt64
+standard ulong lean_usize_xor(ulong, ulong)  -- USize.xor
+standard ushort lean_bool_to_int16(byte)  -- Bool.toInt16
+standard ushort lean_bool_to_uint16(byte)  -- Bool.toUInt16
+standard ushort lean_float32_to_int16(float)  -- Float32.toInt16
+standard ushort lean_float32_to_uint16(float)  -- Float32.toUInt16
+standard ushort lean_float_to_int16(double)  -- Float.toInt16
+standard ushort lean_float_to_uint16(double)  -- Float.toUInt16
+standard ushort lean_int16_abs(ushort)  -- Int16.abs
+standard ushort lean_int16_add(ushort, ushort)  -- Int16.add
+standard ushort lean_int16_complement(ushort)  -- Int16.complement
+standard ushort lean_int16_div(ushort, ushort)  -- Int16.div
+standard ushort lean_int16_land(ushort, ushort)  -- Int16.land
+standard ushort lean_int16_lor(ushort, ushort)  -- Int16.lor
+standard ushort lean_int16_mod(ushort, ushort)  -- Int16.mod
+standard ushort lean_int16_mul(ushort, ushort)  -- Int16.mul
+standard ushort lean_int16_neg(ushort)  -- Int16.neg
+standard ushort lean_int16_of_int(Obj)  -- Int16.ofInt
+standard ushort lean_int16_of_nat(Obj)  -- Int16.ofNat
+standard ushort lean_int16_shift_left(ushort, ushort)  -- Int16.shiftLeft
+standard ushort lean_int16_shift_right(ushort, ushort)  -- Int16.shiftRight
+standard ushort lean_int16_sub(ushort, ushort)  -- Int16.sub
+standard ushort lean_int16_xor(ushort, ushort)  -- Int16.xor
+standard ushort lean_int32_to_int16(uint)  -- Int32.toInt16
+standard ushort lean_int64_to_int16(ulong)  -- Int64.toInt16
+standard ushort lean_int8_to_int16(byte)  -- Int8.toInt16
+standard ushort lean_isize_to_int16(ulong)  -- ISize.toInt16
+standard ushort lean_uint16_add(ushort, ushort)  -- UInt16.add
+standard ushort lean_uint16_complement(ushort)  -- UInt16.complement
+standard ushort lean_uint16_div(ushort, ushort)  -- UInt16.div
+standard ushort lean_uint16_land(ushort, ushort)  -- UInt16.land
+standard ushort lean_uint16_log2(ushort)  -- UInt16.log2
+standard ushort lean_uint16_lor(ushort, ushort)  -- UInt16.lor
+standard ushort lean_uint16_mod(ushort, ushort)  -- UInt16.mod
+standard ushort lean_uint16_mul(ushort, ushort)  -- UInt16.mul
+standard ushort lean_uint16_neg(ushort)  -- UInt16.neg
+standard ushort lean_uint16_of_nat(Obj)  -- UInt16.ofNat
+standard ushort lean_uint16_of_nat_mk(Obj)  -- UInt16.ofBitVec
+standard ushort lean_uint16_shift_left(ushort, ushort)  -- UInt16.shiftLeft
+standard ushort lean_uint16_shift_right(ushort, ushort)  -- UInt16.shiftRight
+standard ushort lean_uint16_sub(ushort, ushort)  -- UInt16.sub
+standard ushort lean_uint16_xor(ushort, ushort)  -- UInt16.xor
+standard ushort lean_uint32_to_uint16(uint)  -- UInt32.toUInt16
+standard ushort lean_uint64_to_uint16(ulong)  -- UInt64.toUInt16
+standard ushort lean_uint8_to_uint16(byte)  -- UInt8.toUInt16
+standard ushort lean_usize_to_uint16(ulong)  -- USize.toUInt16

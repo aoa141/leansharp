@@ -1,0 +1,121 @@
+standard Obj lean_chmod(Obj, uint)  -- IO.Prim.setAccessRights
+standard Obj lean_closure_max_args(Obj)  -- Lean.closureMaxArgsFn
+standard Obj lean_dbg_sleep(uint, Obj)  -- dbgSleep
+standard Obj lean_dbg_stack_trace(Obj)  -- dbgStackTrace
+standard Obj lean_dbg_trace(Obj, Obj)  -- dbgTrace
+standard Obj lean_dbg_trace_if_shared(Obj, Obj)  -- dbgTraceIfShared
+standard Obj lean_display_cumulative_profiling_times()  -- Lean.displayCumulativeProfilingTimes
+standard Obj lean_dynlib_get(Obj, Obj)  -- Lean.Dynlib.get?
+standard Obj lean_dynlib_load(Obj)  -- Lean.Dynlib.load
+standard Obj lean_dynlib_symbol_run_as_init(Obj, Obj)  -- Lean.Dynlib.Symbol.runAsInit
+standard Obj lean_emit_llvm(Obj, Obj, Obj)  -- _private.Lean.Shell.0.Lean.emitLLVM
+standard Obj lean_get_current_time()  -- Std.Time.Timestamp.now
+standard Obj lean_get_githash(Obj)  -- Lean.getGithash
+standard Obj lean_get_internal_linker_flags(Obj)  -- _private.Lean.Compiler.FFI.0.Lean.Compiler.FFI.getBuiltinInternalLinkerFlags
+standard Obj lean_get_leanc_extra_flags(Obj)  -- _private.Lean.Compiler.FFI.0.Lean.Compiler.FFI.getLeancExtraFlags
+standard Obj lean_get_leanc_internal_flags(Obj)  -- _private.Lean.Compiler.FFI.0.Lean.Compiler.FFI.getLeancInternalFlags
+standard Obj lean_get_linker_flags(byte)  -- _private.Lean.Compiler.FFI.0.Lean.Compiler.FFI.getBuiltinLinkerFlags
+standard Obj lean_get_max_ctor_fields(Obj)  -- Lean.getMaxCtorFields
+standard Obj lean_get_max_ctor_scalars_size(Obj)  -- Lean.getMaxCtorScalarsSize
+standard Obj lean_get_max_ctor_tag(Obj)  -- Lean.getMaxCtorTag
+standard Obj lean_get_set_stderr(Obj)  -- IO.setStderr
+standard Obj lean_get_set_stdin(Obj)  -- IO.setStdin
+standard Obj lean_get_set_stdout(Obj)  -- IO.setStdout
+standard Obj lean_get_stderr()  -- IO.getStderr
+standard Obj lean_get_stdin()  -- IO.getStdin
+standard Obj lean_get_stdout()  -- IO.getStdout
+standard Obj lean_get_usize_size(Obj)  -- Lean.getUSizeSize
+standard Obj lean_get_windows_local_timezone_id_at(ulong)  -- Std.Time.Database.Windows.getLocalTimeZoneIdentifierAt
+standard Obj lean_init_llvm()  -- _private.Lean.Shell.0.Lean.initLLVM
+standard Obj lean_io_allocprof(Obj, Obj)  -- allocprof
+standard Obj lean_io_app_path()  -- IO.appPath
+standard Obj lean_io_create_dir(Obj)  -- IO.FS.createDir
+standard Obj lean_io_create_tempdir()  -- IO.FS.createTempDir
+standard Obj lean_io_create_tempfile()  -- IO.FS.createTempFile
+standard Obj lean_io_current_dir()  -- IO.currentDir
+standard Obj lean_io_exit(byte)  -- IO.Process.exit
+standard Obj lean_io_force_exit(byte)  -- IO.Process.forceExit
+standard Obj lean_io_get_num_heartbeats()  -- IO.getNumHeartbeats
+standard Obj lean_io_get_random_bytes(ulong)  -- IO.getRandomBytes
+standard Obj lean_io_getenv(Obj)  -- IO.getEnv
+standard Obj lean_io_hard_link(Obj, Obj)  -- IO.FS.hardLink
+standard Obj lean_io_metadata(Obj)  -- System.FilePath.metadata
+standard Obj lean_io_mono_ms_now()  -- IO.monoMsNow
+standard Obj lean_io_mono_nanos_now()  -- IO.monoNanosNow
+standard Obj lean_io_prim_handle_flush(Obj)  -- IO.FS.Handle.flush
+standard Obj lean_io_prim_handle_get_line(Obj)  -- IO.FS.Handle.getLine
+standard Obj lean_io_prim_handle_lock(Obj, byte)  -- IO.FS.Handle.lock
+standard Obj lean_io_prim_handle_mk(Obj, byte)  -- IO.FS.Handle.mk
+standard Obj lean_io_prim_handle_put_str(Obj, Obj)  -- IO.FS.Handle.putStr
+standard Obj lean_io_prim_handle_read(Obj, ulong)  -- IO.FS.Handle.read
+standard Obj lean_io_prim_handle_rewind(Obj)  -- IO.FS.Handle.rewind
+standard Obj lean_io_prim_handle_truncate(Obj)  -- IO.FS.Handle.truncate
+standard Obj lean_io_prim_handle_try_lock(Obj, byte)  -- IO.FS.Handle.tryLock
+standard Obj lean_io_prim_handle_unlock(Obj)  -- IO.FS.Handle.unlock
+standard Obj lean_io_prim_handle_write(Obj, Obj)  -- IO.FS.Handle.write
+standard Obj lean_io_process_child_kill(Obj, Obj)  -- IO.Process.Child.kill
+standard Obj lean_io_process_child_take_stdin(Obj, Obj)  -- IO.Process.Child.takeStdin
+standard Obj lean_io_process_child_try_wait(Obj, Obj)  -- IO.Process.Child.tryWait
+standard Obj lean_io_process_child_wait(Obj, Obj)  -- IO.Process.Child.wait
+standard Obj lean_io_process_get_current_dir()  -- IO.Process.getCurrentDir
+standard Obj lean_io_process_set_current_dir(Obj)  -- IO.Process.setCurrentDir
+standard Obj lean_io_process_spawn(Obj)  -- IO.Process.spawn
+standard Obj lean_io_read_dir(Obj)  -- System.FilePath.readDir
+standard Obj lean_io_realpath(Obj)  -- IO.FS.realPath
+standard Obj lean_io_remove_dir(Obj)  -- IO.FS.removeDir
+standard Obj lean_io_remove_file(Obj)  -- IO.FS.removeFile
+standard Obj lean_io_rename(Obj, Obj)  -- IO.FS.rename
+standard Obj lean_io_set_heartbeats(Obj)  -- IO.setNumHeartbeats
+standard Obj lean_io_symlink_metadata(Obj)  -- System.FilePath.symlinkMetadata
+standard Obj lean_io_timeit(Obj, Obj)  -- timeit
+standard Obj lean_libuv_version(Obj)  -- Lean.libUVVersionFn
+standard Obj lean_manual_get_root(Obj)  -- _private.Lean.DocString.Links.0.Lean.getManualRoot
+standard Obj lean_max_small_nat(Obj)  -- Lean.maxSmallNatFn
+standard Obj lean_openssl_version(Obj)  -- Lean.openSSLVersionFn
+standard Obj lean_option_get_or_block(Obj)  -- _private.Init.System.Promise.0.IO.Option.getOrBlock!
+standard Obj lean_panic_fn_borrowed(Obj, Obj)  -- panicCore
+standard Obj lean_profileit(Obj, Obj, Obj, Obj)  -- Lean.profileit
+standard Obj lean_sorry(byte)  -- sorryAx
+standard Obj lean_system_platform_nbits(Obj)  -- System.Platform.getNumBits
+standard Obj lean_system_platform_target(Obj)  -- System.Platform.getTarget
+standard Obj lean_version_get_major(Obj)  -- _private.Init.Meta.Defs.0.Lean.version.getMajor
+standard Obj lean_version_get_minor(Obj)  -- _private.Init.Meta.Defs.0.Lean.version.getMinor
+standard Obj lean_version_get_patch(Obj)  -- _private.Init.Meta.Defs.0.Lean.version.getPatch
+standard Obj lean_version_get_special_desc(Obj)  -- Lean.version.getSpecialDesc
+standard Obj lean_void_mk(Obj)  -- Void.mk
+standard Obj lean_windows_get_next_transition(Obj, ulong, byte)  -- Std.Time.Database.Windows.getNextTransition
+standard byte lean_io_initializing()  -- IO.initializing
+standard byte lean_io_prim_handle_is_tty(Obj)  -- IO.FS.Handle.isTty
+standard byte lean_is_exclusive_obj(Obj)  -- isExclusiveUnsafe
+standard byte lean_is_scalar(Obj)  -- isScalarObj
+standard byte lean_system_platform_emscripten(Obj)  -- System.Platform.getIsEmscripten
+standard byte lean_system_platform_linux(Obj)  -- System.Platform.getIsLinux
+standard byte lean_system_platform_osx(Obj)  -- System.Platform.getIsOSX
+standard byte lean_system_platform_windows(Obj)  -- System.Platform.getIsWindows
+standard byte lean_version_get_is_release(Obj)  -- Lean.version.getIsRelease
+standard byte llvm_is_declaration(ulong, ulong)  -- Lean.LLVM.isDeclaration
+standard double acosh(double)  -- Float.acosh
+standard double asinh(double)  -- Float.asinh
+standard double atan2(double, double)  -- Float.atan2
+standard double atanh(double)  -- Float.atanh
+standard double cosh(double)  -- Float.cosh
+standard double exp2(double)  -- Float.exp2
+standard double log10(double)  -- Float.log10
+standard double log2(double)  -- Float.log2
+standard double sinh(double)  -- Float.sinh
+standard double tanh(double)  -- Float.tanh
+standard float acoshf(float)  -- Float32.acosh
+standard float asinhf(float)  -- Float32.asinh
+standard float atan2f(float, float)  -- Float32.atan2
+standard float atanhf(float)  -- Float32.atanh
+standard float coshf(float)  -- Float32.cosh
+standard float exp2f(float)  -- Float32.exp2
+standard float log10f(float)  -- Float32.log10
+standard float log2f(float)  -- Float32.log2
+standard float sinhf(float)  -- Float32.sinh
+standard float tanhf(float)  -- Float32.tanh
+standard uint lean_io_process_child_pid(Obj, Obj)  -- IO.Process.Child.pid
+standard uint lean_io_process_get_pid()  -- IO.Process.getPID
+standard ulong lean_ptr_addr(Obj)  -- ptrAddrUnsafe
+standard ulong llvm_count_params(ulong, ulong)  -- Lean.LLVM.countParams
+standard ulong llvm_get_param(ulong, ulong, ulong)  -- Lean.LLVM.getParam

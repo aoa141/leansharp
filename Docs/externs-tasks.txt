@@ -1,0 +1,51 @@
+standard Obj lean_io_as_task(Obj, Obj)  -- BaseIO.asTask
+standard Obj lean_io_basemutex_lock(Obj)  -- Std.BaseMutex.lock
+standard Obj lean_io_basemutex_new()  -- Std.BaseMutex.new
+standard Obj lean_io_basemutex_unlock(Obj)  -- Std.BaseMutex.unlock
+standard Obj lean_io_baserecmutex_lock(Obj)  -- Std.BaseRecursiveMutex.lock
+standard Obj lean_io_baserecmutex_new()  -- Std.BaseRecursiveMutex.new
+standard Obj lean_io_baserecmutex_unlock(Obj)  -- Std.BaseRecursiveMutex.unlock
+standard Obj lean_io_basesharedmutex_new()  -- Std.BaseSharedMutex.new
+standard Obj lean_io_basesharedmutex_read(Obj)  -- Std.BaseSharedMutex.read
+standard Obj lean_io_basesharedmutex_unlock_read(Obj)  -- Std.BaseSharedMutex.unlockRead
+standard Obj lean_io_basesharedmutex_unlock_write(Obj)  -- Std.BaseSharedMutex.unlockWrite
+standard Obj lean_io_basesharedmutex_write(Obj)  -- Std.BaseSharedMutex.write
+standard Obj lean_io_bind_task(Obj, Obj, Obj, byte)  -- BaseIO.bindTask
+standard Obj lean_io_cancel(Obj)  -- IO.cancel
+standard Obj lean_io_condvar_new()  -- Std.Condvar.new
+standard Obj lean_io_condvar_notify_all(Obj)  -- Std.Condvar.notifyAll
+standard Obj lean_io_condvar_notify_one(Obj)  -- Std.Condvar.notifyOne
+standard Obj lean_io_condvar_wait(Obj, Obj)  -- Std.Condvar.wait
+standard Obj lean_io_map_task(Obj, Obj, Obj, byte)  -- BaseIO.mapTask
+standard Obj lean_io_promise_new()  -- IO.Promise.new
+standard Obj lean_io_promise_resolve(Obj, Obj)  -- IO.Promise.resolve
+standard Obj lean_io_promise_result_opt(Obj)  -- IO.Promise.result?
+standard Obj lean_io_wait(Obj)  -- IO.wait
+standard Obj lean_io_wait_any(Obj)  -- IO.waitAny
+standard Obj lean_mk_thunk(Obj)  -- Thunk.mk
+standard Obj lean_runtime_forget(Obj)  -- Runtime.forget
+standard Obj lean_runtime_hold(Obj)  -- Runtime.hold
+standard Obj lean_runtime_mark_multi_threaded(Obj)  -- Runtime.markMultiThreaded
+standard Obj lean_runtime_mark_persistent(Obj)  -- Runtime.markPersistent
+standard Obj lean_st_mk_ref(Obj)  -- ST.Prim.mkRef
+standard Obj lean_st_ref_get(Obj)  -- ST.Prim.Ref.get
+standard Obj lean_st_ref_put(Obj, Obj)  -- ST.Prim.Ref.put
+standard Obj lean_st_ref_swap(Obj, Obj)  -- ST.Prim.Ref.swap
+standard Obj lean_st_ref_take(Obj)  -- ST.Prim.Ref.take
+standard Obj lean_task_bind(Obj, Obj, Obj, byte)  -- Task.bind
+standard Obj lean_task_get_own(Obj)  -- Task.get
+standard Obj lean_task_map(Obj, Obj, Obj, byte)  -- Task.map
+standard Obj lean_task_pure(Obj)  -- Task.pure
+standard Obj lean_task_spawn(Obj, Obj)  -- Task.spawn
+standard Obj lean_thunk_get_own(Obj)  -- Thunk.get
+standard Obj lean_thunk_pure(Obj)  -- Thunk.pure
+standard byte lean_io_basemutex_try_lock(Obj)  -- Std.BaseMutex.tryLock
+standard byte lean_io_baserecmutex_try_lock(Obj)  -- Std.BaseRecursiveMutex.tryLock
+standard byte lean_io_basesharedmutex_try_read(Obj)  -- Std.BaseSharedMutex.tryRead
+standard byte lean_io_basesharedmutex_try_write(Obj)  -- Std.BaseSharedMutex.tryWrite
+standard byte lean_io_check_canceled()  -- IO.checkCanceled
+standard byte lean_io_get_task_state(Obj)  -- IO.getTaskState
+standard byte lean_st_ref_ptr_eq(Obj, Obj)  -- ST.Prim.Ref.ptrEq
+standard byte lean_strict_and(byte, byte)  -- strictAnd
+standard byte lean_strict_or(byte, byte)  -- strictOr
+standard ulong lean_io_get_tid()  -- IO.getTID

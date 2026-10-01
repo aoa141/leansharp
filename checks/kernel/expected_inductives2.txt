@@ -1,0 +1,49 @@
+Even : Type | 3931117990 | lps=[]
+  np=0 ni=0 all=[Even, Odd] ctors=[Even.zero, Even.succ] nested=0 rec=true refl=false
+Odd : Type | 3931117990 | lps=[]
+  np=0 ni=0 all=[Even, Odd] ctors=[Odd.succ] nested=0 rec=true refl=false
+Even.succ : Odd -> Even | 1950111757 | lps=[]
+  induct=Even cidx=1 np=0 nf=1
+Odd.succ : Even -> Odd | 1479710670 | lps=[]
+  induct=Odd cidx=0 np=0 nf=1
+Even.rec : forall {motive_1 : Even -> Sort.{u}} {motive_2 : Odd -> Sort.{u}}, (motive_1 Even.zero) -> (forall (o : Odd), (motive_2 o) -> (motive_1 (Even.succ o))) -> (forall (e : Even), (motive_1 e) -> (motive_2 (Odd.succ e))) -> (forall (t : Even), motive_1 t) | 3091126151 | lps=[u]
+  all=[Even, Odd] np=0 ni=0 nmot=2 nmin=3 k=false
+  rule Even.zero 0 : fun (motive_1 : Even -> Sort.{u}) (motive_2 : Odd -> Sort.{u}) (zero : motive_1 Even.zero) (succ : forall (o : Odd), (motive_2 o) -> (motive_1 (Even.succ o))) (succ : forall (e : Even), (motive_1 e) -> (motive_2 (Odd.succ e))) => zero | 194776234
+  rule Even.succ 1 : fun (motive_1 : Even -> Sort.{u}) (motive_2 : Odd -> Sort.{u}) (zero : motive_1 Even.zero) (succ : forall (o : Odd), (motive_2 o) -> (motive_1 (Even.succ o))) (succ_1 : forall (e : Even), (motive_1 e) -> (motive_2 (Odd.succ e))) (o : Odd) => succ o (Odd.rec.{u} motive_1 motive_2 zero succ succ_1 o) | 3617781391
+Odd.rec : forall {motive_1 : Even -> Sort.{u}} {motive_2 : Odd -> Sort.{u}}, (motive_1 Even.zero) -> (forall (o : Odd), (motive_2 o) -> (motive_1 (Even.succ o))) -> (forall (e : Even), (motive_1 e) -> (motive_2 (Odd.succ e))) -> (forall (t : Odd), motive_2 t) | 2767680053 | lps=[u]
+  all=[Even, Odd] np=0 ni=0 nmot=2 nmin=3 k=false
+  rule Odd.succ 1 : fun (motive_1 : Even -> Sort.{u}) (motive_2 : Odd -> Sort.{u}) (zero : motive_1 Even.zero) (succ : forall (o : Odd), (motive_2 o) -> (motive_1 (Even.succ o))) (succ_1 : forall (e : Even), (motive_1 e) -> (motive_2 (Odd.succ e))) (e : Even) => succ_1 e (Even.rec.{u} motive_1 motive_2 zero succ succ_1 e) | 1468463962
+Even.casesOn : forall {motive_1 : Even -> Sort.{u}} (t : Even), (motive_1 Even.zero) -> (forall (o : Odd), motive_1 (Even.succ o)) -> (motive_1 t) | 2098528339 | lps=[u]
+  value: fun {motive_1 : Even -> Sort.{u}} (t : Even) (zero : motive_1 Even.zero) (succ : forall (o : Odd), motive_1 (Even.succ o)) => Even.rec.{u} motive_1 (fun (t : Odd) => PUnit.{u}) zero (fun (o : Odd) (o_ih : PUnit.{u}) => succ o) (fun (e : Even) (e_ih : motive_1 e) => PUnit.unit.{u}) t | 975539040 hints=0 abbrev=true safe=true
+W : Type | 3931117990 | lps=[]
+  np=0 ni=0 all=[W] ctors=[W.sup] nested=0 rec=true refl=true
+W.sup : (MyNat -> W) -> W | 1826238815 | lps=[]
+  induct=W cidx=0 np=0 nf=1
+W.rec : forall {motive : W -> Sort.{u}}, (forall (f : MyNat -> W), (forall (a._@._internal._hyg.0 : MyNat), motive (f a._@._internal._hyg.0)) -> (motive (W.sup f))) -> (forall (t : W), motive t) | 1002358139 | lps=[u]
+  all=[W] np=0 ni=0 nmot=1 nmin=1 k=false
+  rule W.sup 1 : fun (motive : W -> Sort.{u}) (sup : forall (f : MyNat -> W), (forall (a._@._internal._hyg.0 : MyNat), motive (f a._@._internal._hyg.0)) -> (motive (W.sup f))) (f : MyNat -> W) => sup f (fun (a._@._internal._hyg.0 : MyNat) => W.rec.{u} motive sup (f a._@._internal._hyg.0)) | 2146823256
+Le : MyNat -> MyNat -> Prop | 3220199611 | lps=[]
+  np=1 ni=1 all=[Le] ctors=[Le.refl, Le.step] nested=0 rec=true refl=false
+Le.refl : forall (n : MyNat), Le n n | 1583515173 | lps=[]
+  induct=Le cidx=0 np=1 nf=0
+Le.step : forall (n : MyNat) (m : MyNat), (Le n m) -> (Le n (MyNat.succ m)) | 1746772842 | lps=[]
+  induct=Le cidx=1 np=1 nf=2
+Le.rec : forall {n : MyNat} {motive : forall (m : MyNat), (Le n m) -> Prop}, (motive n (Le.refl n)) -> (forall (m : MyNat) (h : Le n m), (motive m h) -> (motive (MyNat.succ m) (Le.step n m h))) -> (forall {m : MyNat} (t : Le n m), motive m t) | 3243184492 | lps=[]
+  all=[Le] np=1 ni=1 nmot=1 nmin=2 k=false
+  rule Le.refl 0 : fun (n : MyNat) (motive : forall (m : MyNat), (Le n m) -> Prop) (refl : motive n (Le.refl n)) (step : forall (m : MyNat) (h : Le n m), (motive m h) -> (motive (MyNat.succ m) (Le.step n m h))) => refl | 4180008214
+  rule Le.step 2 : fun (n : MyNat) (motive : forall (m : MyNat), (Le n m) -> Prop) (refl : motive n (Le.refl n)) (step : forall (m : MyNat) (h : Le n m), (motive m h) -> (motive (MyNat.succ m) (Le.step n m h))) (m : MyNat) (h : Le n m) => step m h (Le.rec n motive refl step m h) | 1509278735
+Le.casesOn : forall {n : MyNat} {motive : forall (m : MyNat), (Le n m) -> Prop} {m : MyNat} (t : Le n m), (motive n (Le.refl n)) -> (forall (m : MyNat) (h : Le n m), motive (MyNat.succ m) (Le.step n m h)) -> (motive m t) | 1374653776 | lps=[]
+  value: fun {n : MyNat} {motive : forall (m : MyNat), (Le n m) -> Prop} {m : MyNat} (t : Le n m) (refl : motive n (Le.refl n)) (step : forall (m : MyNat) (h : Le n m), motive (MyNat.succ m) (Le.step n m h)) => Le.rec n motive refl (fun (m : MyNat) (h : Le n m) (h_ih : motive m h) => step m h) m t | 460176608 hints=0 abbrev=true safe=true
+MyAnd : Prop -> Prop -> Prop | 2232915537 | lps=[]
+  np=2 ni=0 all=[MyAnd] ctors=[MyAnd.intro] nested=0 rec=false refl=false
+MyAnd.intro : forall {a : Prop} {b : Prop}, a -> b -> (MyAnd a b) | 2198840838 | lps=[]
+  induct=MyAnd cidx=0 np=2 nf=2
+MyAnd.rec : forall {a : Prop} {b : Prop} {motive : (MyAnd a b) -> Sort.{u}}, (forall (left : a) (right : b), motive (MyAnd.intro a b left right)) -> (forall (t : MyAnd a b), motive t) | 217738318 | lps=[u]
+  all=[MyAnd] np=2 ni=0 nmot=1 nmin=1 k=false
+  rule MyAnd.intro 2 : fun (a : Prop) (b : Prop) (motive : (MyAnd a b) -> Sort.{u}) (intro : forall (left : a) (right : b), motive (MyAnd.intro a b left right)) (left : a) (right : b) => intro left right | 1513537624
+MyFalse : Prop | 3944470172 | lps=[]
+  np=0 ni=0 all=[MyFalse] ctors=[] nested=0 rec=false refl=false
+MyFalse.rec : forall (motive : MyFalse -> Sort.{u}) (t : MyFalse), motive t | 3529850461 | lps=[u]
+  all=[MyFalse] np=0 ni=0 nmot=1 nmin=0 k=false
+MyFalse.casesOn : forall (motive : MyFalse -> Sort.{u}) (t : MyFalse), motive t | 3529850461 | lps=[u]
+  value: fun (motive : MyFalse -> Sort.{u}) (t : MyFalse) => MyFalse.rec.{u} motive t | 1496671900 hints=0 abbrev=true safe=true
