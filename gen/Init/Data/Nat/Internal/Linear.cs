@@ -714,13 +714,13 @@ public static Obj l___private_Init_Data_Nat_Internal_Linear_0__Nat_Internal_Line
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
-x_6 = lean_ctor_get_uint8_s(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 16);
 x_7 = lean_ctor_get(x_2, 0);
 lean_inc(x_7);
 x_8 = lean_ctor_get(x_2, 1);
 lean_inc(x_8);
 lean_dec_ref(x_2);
-x_9 = lean_ctor_get_uint8_s(x_3, 0);
+x_9 = lean_ctor_get_uint8(x_3, 16);
 x_10 = lean_ctor_get(x_3, 0);
 lean_inc(x_10);
 x_11 = lean_ctor_get(x_3, 1);
@@ -982,7 +982,7 @@ public static Obj l_Nat_Internal_Linear_ExprCnstr_toPoly(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_13 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = lean_ctor_get(x_1, 1);
 x_13 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
@@ -1021,7 +1021,7 @@ Obj x_11 = null;
 x_11 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_11, 0, x_7);
 lean_ctor_set(x_11, 1, x_8);
-lean_ctor_set_uint8_s(x_11, 0, x_2);
+lean_ctor_set_uint8(x_11, 16, x_2);
 x_9 = x_11;
 goto block_10;
 }
@@ -1064,7 +1064,7 @@ public static Obj l_Nat_Internal_Linear_ExprCnstr_toNormPoly(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_16 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = lean_ctor_get(x_1, 1);
 x_16 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
@@ -1109,7 +1109,7 @@ Obj x_14 = null;
 x_14 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_14, 0, x_10);
 lean_ctor_set(x_14, 1, x_11);
-lean_ctor_set_uint8_s(x_14, 0, x_2);
+lean_ctor_set_uint8(x_14, 16, x_2);
 x_12 = x_14;
 goto block_13;
 }
@@ -1283,7 +1283,7 @@ public static byte l_Nat_Internal_Linear_PolyCnstr_isUnsat(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = lean_ctor_get(x_1, 1);
 if (x_2 == 0)
@@ -1354,10 +1354,10 @@ public static byte l_Nat_Internal_Linear_instBEqPolyCnstr_beq(Obj x_1, Obj x_2) 
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 16);
 x_4 = lean_ctor_get(x_1, 0);
 x_5 = lean_ctor_get(x_1, 1);
-x_6 = lean_ctor_get_uint8_s(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 16);
 x_7 = lean_ctor_get(x_2, 0);
 x_8 = lean_ctor_get(x_2, 1);
 if (x_6 == 0)
@@ -1473,7 +1473,7 @@ public static Obj l_Nat_Internal_Linear_PolyCnstr_norm(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_16 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = lean_ctor_get(x_1, 1);
 x_16 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
@@ -1516,7 +1516,7 @@ Obj x_14 = null;
 x_14 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_14, 0, x_10);
 lean_ctor_set(x_14, 1, x_11);
-lean_ctor_set_uint8_s(x_14, 0, x_2);
+lean_ctor_set_uint8(x_14, 16, x_2);
 x_12 = x_14;
 goto block_13;
 }
@@ -1819,7 +1819,7 @@ public static Obj l_Nat_Internal_Linear_PolyCnstr_toExpr(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_13 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = lean_ctor_get(x_1, 1);
 x_13 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
@@ -1856,7 +1856,7 @@ Obj x_11 = null;
 x_11 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_11, 0, x_7);
 lean_ctor_set(x_11, 1, x_8);
-lean_ctor_set_uint8_s(x_11, 0, x_2);
+lean_ctor_set_uint8(x_11, 16, x_2);
 x_9 = x_11;
 goto block_10;
 }
@@ -2013,13 +2013,13 @@ public static Obj l___private_Init_Data_Nat_Internal_Linear_0__Nat_Internal_Line
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 16);
 x_5 = lean_ctor_get(x_1, 0);
 lean_inc(x_5);
 x_6 = lean_ctor_get(x_1, 1);
 lean_inc(x_6);
 lean_dec_ref(x_1);
-x_7 = lean_ctor_get_uint8_s(x_2, 0);
+x_7 = lean_ctor_get_uint8(x_2, 16);
 x_8 = lean_ctor_get(x_2, 0);
 lean_inc(x_8);
 x_9 = lean_ctor_get(x_2, 1);
@@ -2097,7 +2097,7 @@ public static byte l_Nat_Internal_Linear_PolyCnstr_isValid(Obj x_1) {
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 if (x_2 == 0)
 {
 Obj x_3 = null; byte x_4 = 0; 

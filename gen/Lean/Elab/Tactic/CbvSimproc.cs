@@ -2511,17 +2511,17 @@ lean_ctor_set(x_8, 4, x_3);
 lean_ctor_set(x_8, 5, x_3);
 lean_ctor_set(x_8, 6, x_7);
 lean_ctor_set(x_8, 7, x_1);
-lean_ctor_set_uint8_s(x_8, 0, x_5);
-lean_ctor_set_uint8_s(x_8, 1, x_5);
-lean_ctor_set_uint8_s(x_8, 2, x_5);
-lean_ctor_set_uint8_s(x_8, 3, x_5);
-lean_ctor_set_uint8_s(x_8, 4, x_2);
-lean_ctor_set_uint8_s(x_8, 5, x_2);
-lean_ctor_set_uint8_s(x_8, 6, x_2);
-lean_ctor_set_uint8_s(x_8, 7, x_2);
-lean_ctor_set_uint8_s(x_8, 8, x_5);
-lean_ctor_set_uint8_s(x_8, 9, x_2);
-lean_ctor_set_uint8_s(x_8, 10, x_5);
+lean_ctor_set_uint8(x_8, 64, x_5);
+lean_ctor_set_uint8(x_8, 65, x_5);
+lean_ctor_set_uint8(x_8, 66, x_5);
+lean_ctor_set_uint8(x_8, 67, x_5);
+lean_ctor_set_uint8(x_8, 68, x_2);
+lean_ctor_set_uint8(x_8, 69, x_2);
+lean_ctor_set_uint8(x_8, 70, x_2);
+lean_ctor_set_uint8(x_8, 71, x_2);
+lean_ctor_set_uint8(x_8, 72, x_5);
+lean_ctor_set_uint8(x_8, 73, x_2);
+lean_ctor_set_uint8(x_8, 74, x_5);
 return x_8;
 }
 }
@@ -2982,9 +2982,9 @@ Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; ushort x_9 = 0; byte x_10 = 0; b
 x_6 = lean_ctor_get(x_3, 0);
 x_7 = lean_ctor_get(x_3, 1);
 x_8 = lean_ctor_get(x_3, 2);
-x_9 = lean_ctor_get_uint16_s(x_3, 0);
-x_10 = lean_ctor_get_uint8_s(x_3, 2);
-x_11 = lean_ctor_get_uint8_s(x_3, 3);
+x_9 = lean_ctor_get_uint16(x_3, 24);
+x_10 = lean_ctor_get_uint8(x_3, 26);
+x_11 = lean_ctor_get_uint8(x_3, 27);
 x_12 = M_Init_Prelude.l_Lean_replaceRef(x_1, x_8);
 lean_inc(x_7);
 lean_inc_ref(x_6);
@@ -2992,9 +2992,9 @@ x_13 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_13, 0, x_6);
 lean_ctor_set(x_13, 1, x_7);
 lean_ctor_set(x_13, 2, x_12);
-lean_ctor_set_uint16_s(x_13, 0, x_9);
-lean_ctor_set_uint8_s(x_13, 2, x_10);
-lean_ctor_set_uint8_s(x_13, 3, x_11);
+lean_ctor_set_uint16(x_13, 24, x_9);
+lean_ctor_set_uint8(x_13, 26, x_10);
+lean_ctor_set_uint8(x_13, 27, x_11);
 x_14 = l_Lean_throwError___at___00Lean_Elab_checkCbvSimprocType_spec__1___redArg(x_2, x_13, x_4);
 lean_dec_ref(x_13);
 return x_14;
@@ -3037,7 +3037,7 @@ x_8 = M_Lean_Data_Name.l_Lean_Name_isAnonymous(x_2);
 if (x_8 == 0)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_7, 0);
+x_9 = lean_ctor_get_uint8(x_7, 64);
 if (x_9 == 0)
 {
 Obj x_10 = null; 

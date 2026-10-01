@@ -699,7 +699,7 @@ x_14 = (lean_string_append(x_13, x_7));
 lean_dec(x_7);
 x_15 = lean_alloc_ctor(1, 1, 1);
 lean_ctor_set(x_15, 0, x_14);
-lean_ctor_set_uint8_s(x_15, 0, x_8);
+lean_ctor_set_uint8(x_15, 8, x_8);
 return x_15;
 }
 else
@@ -734,7 +734,7 @@ else
 {
 byte x_22 = 0; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; byte x_30 = 0; 
 lean_dec_ref(x_1);
-x_22 = lean_ctor_get_uint8_s(x_2, 0);
+x_22 = lean_ctor_get_uint8(x_2, 8);
 x_23 = lean_ctor_get(x_2, 0);
 x_30 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_30 == 0)
@@ -764,7 +764,7 @@ else
 Obj x_28 = null; 
 x_28 = lean_alloc_ctor(1, 1, 1);
 lean_ctor_set(x_28, 0, x_23);
-lean_ctor_set_uint8_s(x_28, 0, x_22);
+lean_ctor_set_uint8(x_28, 8, x_22);
 x_26 = x_28;
 goto block_27;
 }
@@ -1767,7 +1767,7 @@ x_7 = lean_apply_1(x_5, x_4);
 x_8 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_8, 0, x_6);
 lean_ctor_set(x_8, 1, x_7);
-lean_ctor_set_uint8_s(x_8, 0, x_2);
+lean_ctor_set_uint8(x_8, 16, x_2);
 return x_8;
 }
 else
@@ -1782,7 +1782,7 @@ x_11 = M_Lean_Data_Json_Printer.l_Lean_Json_compress(x_9);
 x_12 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_12, 0, x_10);
 lean_ctor_set(x_12, 1, x_11);
-lean_ctor_set_uint8_s(x_12, 0, x_2);
+lean_ctor_set_uint8(x_12, 16, x_2);
 return x_12;
 }
 }
@@ -1844,7 +1844,7 @@ x_13 = (lean_string_append(x_12, x_4));
 lean_dec(x_4);
 x_14 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_14, 0, x_13);
-lean_ctor_set_uint8_s(x_14, 0, x_7);
+lean_ctor_set_uint8(x_14, 8, x_7);
 if (x_6 == 0)
 {
 lean_ctor_set(x_5, 0, x_14);
@@ -1928,7 +1928,7 @@ x_1 = l_Lean_Server_instInhabitedRequestError_default___closed__0;
 x_2 = (byte)0;
 x_3 = lean_alloc_ctor(1, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -3020,7 +3020,7 @@ byte x_14 = 0; Obj x_15 = null; Obj x_16 = null;
 x_14 = (byte)1;
 x_15 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_15, 0, x_10);
-lean_ctor_set_uint8_s(x_15, 0, x_14);
+lean_ctor_set_uint8(x_15, 8, x_14);
 if (x_13 == 0)
 {
 lean_ctor_set(x_12, 0, x_15);
@@ -3302,7 +3302,7 @@ x_1 = l_Lean_Server_RequestError_rpcNeedsReconnect___closed__0;
 x_2 = (byte)9;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -3786,7 +3786,7 @@ byte x_2 = 0; Obj x_3 = null;
 x_2 = (byte)4;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -4283,7 +4283,7 @@ x_1 = l_Lean_Server_instInhabitedRequestError_default___closed__0;
 x_2 = (byte)8;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -4412,7 +4412,7 @@ block_35:
 Obj x_22 = null; byte x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; 
 x_22 = lean_ctor_get(x_18, 0);
 lean_inc(x_22);
-x_23 = lean_ctor_get_uint8_s(x_18, 0);
+x_23 = lean_ctor_get_uint8(x_18, 8);
 lean_dec(x_18);
 x_24 = lean_apply_1(x_5, x_22);
 lean_inc(x_24);
@@ -4422,7 +4422,7 @@ x_26 = M_Lean_Data_Json_Printer.l_Lean_Json_compress(x_24);
 x_27 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_27, 0, x_25);
 lean_ctor_set(x_27, 1, x_26);
-lean_ctor_set_uint8_s(x_27, 0, x_23);
+lean_ctor_set_uint8(x_27, 16, x_23);
 if (x_21 == 0)
 {
 lean_ctor_set(x_20, 0, x_3);
@@ -4983,7 +4983,7 @@ return x_4;
 else
 {
 byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 8);
 x_6 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_6);
 lean_dec_ref(x_1);
@@ -5228,7 +5228,7 @@ public static Obj l_Lean_Server_RequestError_toLspResponseError(Obj x_1, Obj x_2
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 8);
 x_4 = lean_ctor_get(x_2, 0);
 x_5 = lean_box(0);
 lean_inc_ref(x_4);
@@ -5236,7 +5236,7 @@ x_6 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_6, 0, x_1);
 lean_ctor_set(x_6, 1, x_4);
 lean_ctor_set(x_6, 2, x_5);
-lean_ctor_set_uint8_s(x_6, 0, x_3);
+lean_ctor_set_uint8(x_6, 24, x_3);
 return x_6;
 }
 }
@@ -5421,7 +5421,7 @@ x_5 = l_Lean_Server_RequestError_methodNotFound___closed__1;
 x_6 = (lean_string_append(x_4, x_5));
 x_7 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_7, 0, x_6);
-lean_ctor_set_uint8_s(x_7, 0, x_2);
+lean_ctor_set_uint8(x_7, 8, x_2);
 return x_7;
 }
 }
@@ -6694,7 +6694,7 @@ x_19 = lean_ctor_get(x_17, 0);
 lean_inc(x_19);
 x_20 = lean_ctor_get(x_17, 1);
 lean_inc_ref(x_20);
-x_21 = lean_ctor_get_uint8_s(x_17, 0);
+x_21 = lean_ctor_get_uint8(x_17, 16);
 lean_dec(x_17);
 if (lean_obj_tag(x_19) == 0)
 {
@@ -6748,7 +6748,7 @@ lean_inc(x_24);
 lean_dec_ref(x_23);
 x_25 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_25, 0, x_24);
-lean_ctor_set_uint8_s(x_25, 0, x_21);
+lean_ctor_set_uint8(x_25, 8, x_21);
 x_26 = l___private_Lean_Server_Requests_0__Lean_Server_getState_x21___redArg(x_5, x_18, x_2);
 lean_dec(x_2);
 lean_dec(x_18);
@@ -6928,7 +6928,7 @@ x_1 = l_Lean_Server_instInhabitedRequestError_default___closed__0;
 x_2 = (byte)0;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -7670,7 +7670,7 @@ x_1 = l_Lean_Server_RequestError_fileChanged___closed__0;
 x_2 = (byte)7;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -7855,7 +7855,7 @@ x_25 = (lean_string_append(x_15, x_24));
 lean_dec_ref(x_24);
 x_26 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_26, 0, x_25);
-lean_ctor_set_uint8_s(x_26, 0, x_14);
+lean_ctor_set_uint8(x_26, 8, x_14);
 x_27 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj>)&l_Lean_Server_RequestM_withWaitFindSnapAtPos___redArg___lam__1___boxed, 3, 1);
 lean_closure_set(x_27, 0, x_26);
 x_28 = l_Lean_Server_RequestM_withWaitFindSnap___redArg(x_6, x_13, x_27, x_2, x_3);
@@ -8590,7 +8590,7 @@ x_6 = M_Lean_Data_Json_Printer.l_Lean_Json_compress(x_4);
 x_7 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_7, 0, x_5);
 lean_ctor_set(x_7, 1, x_6);
-lean_ctor_set_uint8_s(x_7, 0, x_2);
+lean_ctor_set_uint8(x_7, 16, x_2);
 return x_7;
 }
 }
@@ -8619,7 +8619,7 @@ byte x_2 = 0; Obj x_3 = null;
 x_2 = (byte)3;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }

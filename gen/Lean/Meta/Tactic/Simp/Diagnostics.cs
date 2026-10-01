@@ -445,9 +445,9 @@ x_23 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_23, 0, x_19);
 lean_ctor_set(x_23, 1, x_20);
 lean_ctor_set(x_23, 2, x_22);
-lean_ctor_set_float_s(x_23, 0, x_21);
-lean_ctor_set_float_s(x_23, 8, x_21);
-lean_ctor_set_uint8_s(x_23, 16, x_8);
+lean_ctor_set_float(x_23, 24, x_21);
+lean_ctor_set_float(x_23, 32, x_21);
+lean_ctor_set_uint8(x_23, 40, x_8);
 x_24 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Meta_Simp_mkSimpDiagSummary_spec__3___redArg___closed__6;
 if (x_14 == 0)
 {
@@ -565,9 +565,9 @@ if (lean_obj_tag(x_16) == 0)
 {
 Obj x_17 = null; byte x_18 = 0; Obj x_19 = null; byte x_20 = 0; byte x_21 = 0; 
 x_17 = lean_ctor_get(x_4, 0);
-x_18 = lean_ctor_get_uint8_s(x_4, 1);
+x_18 = lean_ctor_get_uint8(x_4, 9);
 x_19 = lean_ctor_get(x_16, 0);
-x_20 = lean_ctor_get_uint8_s(x_16, 1);
+x_20 = lean_ctor_get_uint8(x_16, 9);
 x_21 = lean_u8(lean_name_eq(x_17, x_19));
 if (x_21 == 0)
 {
@@ -1004,7 +1004,7 @@ lean_dec_ref(x_6);
 if (lean_obj_tag(x_8) == 1)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 0);
 lean_dec_ref(x_8);
 return x_9;
 }
@@ -1070,9 +1070,9 @@ lean_ctor_set(x_23, 1, x_15);
 lean_ctor_set(x_23, 2, x_10);
 lean_ctor_set(x_23, 3, x_13);
 lean_ctor_set(x_23, 4, x_22);
-lean_ctor_set_uint8_s(x_23, 0, x_11);
-lean_ctor_set_uint8_s(x_23, 1, x_16);
-lean_ctor_set_uint8_s(x_23, 2, x_4);
+lean_ctor_set_uint8(x_23, 40, x_11);
+lean_ctor_set_uint8(x_23, 41, x_16);
+lean_ctor_set_uint8(x_23, 42, x_4);
 x_24 = (lean_st_ref_take(x_18));
 x_25 = lean_ctor_get(x_24, 0);
 x_26 = lean_ctor_get(x_24, 1);
@@ -1283,7 +1283,7 @@ block_97:
 Obj x_87 = null; Obj x_88 = null; byte x_89 = 0; Obj x_90 = null; Obj x_91 = null; Obj x_92 = null; Obj x_93 = null; Obj x_94 = null; 
 x_87 = lean_ctor_get(x_7, 0);
 x_88 = lean_ctor_get(x_7, 2);
-x_89 = lean_ctor_get_uint8_s(x_7, 2);
+x_89 = lean_ctor_get_uint8(x_7, 26);
 x_90 = lean_box(x_89);
 x_91 = lean_box(x_84);
 x_92 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj>)&l_Lean_logAt___at___00Lean_log___at___00Lean_logInfo___at___00Lean_Meta_Simp_reportDiag_spec__0_spec__0_spec__1___lam__0___boxed, 3, 2);
@@ -1444,7 +1444,7 @@ ulong x_3 = 0; ulong x_7 = 0; ulong x_11 = 0;
 if (lean_obj_tag(x_2) == 0)
 {
 byte x_15 = 0; 
-x_15 = lean_ctor_get_uint8_s(x_2, 1);
+x_15 = lean_ctor_get_uint8(x_2, 9);
 if (x_15 == 0)
 {
 Obj x_16 = null; 
@@ -1459,7 +1459,7 @@ goto block_10;
 else
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_16, 0);
+x_18 = lean_ctor_get_uint64(x_16, 16);
 x_7 = x_18;
 goto block_10;
 }
@@ -1478,7 +1478,7 @@ goto block_14;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_19, 0);
+x_21 = lean_ctor_get_uint64(x_19, 16);
 x_11 = x_21;
 goto block_14;
 }
@@ -1498,7 +1498,7 @@ goto block_6;
 else
 {
 ulong x_24 = 0; 
-x_24 = lean_ctor_get_uint64_s(x_22, 0);
+x_24 = lean_ctor_get_uint64(x_22, 16);
 lean_dec(x_22);
 x_3 = x_24;
 goto block_6;
@@ -1611,7 +1611,7 @@ x_9 = lean_ctor_get(x_8, 0);
 lean_inc_ref(x_9);
 lean_dec(x_8);
 x_10 = M_Lean_Environment.l_Lean_Environment_header(x_9);
-x_11 = lean_ctor_get_uint8_s(x_10, 4);
+x_11 = lean_ctor_get_uint8(x_10, 60);
 lean_dec_ref(x_10);
 if (x_11 == 0)
 {
@@ -1627,7 +1627,7 @@ return x_12;
 else
 {
 byte x_13 = 0; 
-x_13 = lean_ctor_get_uint8_s(x_9, 0);
+x_13 = lean_ctor_get_uint8(x_9, 64);
 lean_dec_ref(x_9);
 if (x_2 == 0)
 {
@@ -2438,9 +2438,9 @@ x_25 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_25, 0, x_22);
 lean_ctor_set(x_25, 1, x_17);
 lean_ctor_set(x_25, 2, x_24);
-lean_ctor_set_float_s(x_25, 0, x_23);
-lean_ctor_set_float_s(x_25, 8, x_23);
-lean_ctor_set_uint8_s(x_25, 16, x_8);
+lean_ctor_set_float(x_25, 24, x_23);
+lean_ctor_set_float(x_25, 32, x_23);
+lean_ctor_set_uint8(x_25, 40, x_8);
 x_26 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00__private_Lean_Meta_Tactic_Simp_Diagnostics_0__Lean_Meta_Simp_mkTheoremsWithBadKeySummary_spec__0_spec__0_spec__2_spec__3___redArg___closed__1;
 x_27 = lean_alloc_ctor(7, 2, 0);
 lean_ctor_set(x_27, 0, x_19);
@@ -3125,9 +3125,9 @@ x_27 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_27, 0, x_24);
 lean_ctor_set(x_27, 1, x_19);
 lean_ctor_set(x_27, 2, x_26);
-lean_ctor_set_float_s(x_27, 0, x_25);
-lean_ctor_set_float_s(x_27, 8, x_25);
-lean_ctor_set_uint8_s(x_27, 16, x_10);
+lean_ctor_set_float(x_27, 24, x_25);
+lean_ctor_set_float(x_27, 32, x_25);
+lean_ctor_set_uint8(x_27, 40, x_10);
 x_28 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00__private_Lean_Meta_Tactic_Simp_Diagnostics_0__Lean_Meta_Simp_mkTheoremsWithBadKeySummary_spec__0_spec__0_spec__2_spec__3___redArg___closed__1;
 x_29 = lean_alloc_ctor(7, 2, 0);
 lean_ctor_set(x_29, 0, x_21);
@@ -3654,9 +3654,9 @@ x_27 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_27, 0, x_24);
 lean_ctor_set(x_27, 1, x_19);
 lean_ctor_set(x_27, 2, x_26);
-lean_ctor_set_float_s(x_27, 0, x_25);
-lean_ctor_set_float_s(x_27, 8, x_25);
-lean_ctor_set_uint8_s(x_27, 16, x_10);
+lean_ctor_set_float(x_27, 24, x_25);
+lean_ctor_set_float(x_27, 32, x_25);
+lean_ctor_set_uint8(x_27, 40, x_10);
 x_28 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00__private_Lean_Meta_Tactic_Simp_Diagnostics_0__Lean_Meta_Simp_mkTheoremsWithBadKeySummary_spec__0_spec__0_spec__2_spec__3___redArg___closed__1;
 x_29 = lean_alloc_ctor(7, 2, 0);
 lean_ctor_set(x_29, 0, x_21);
@@ -3918,9 +3918,9 @@ x_25 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_25, 0, x_22);
 lean_ctor_set(x_25, 1, x_17);
 lean_ctor_set(x_25, 2, x_24);
-lean_ctor_set_float_s(x_25, 0, x_23);
-lean_ctor_set_float_s(x_25, 8, x_23);
-lean_ctor_set_uint8_s(x_25, 16, x_8);
+lean_ctor_set_float(x_25, 24, x_23);
+lean_ctor_set_float(x_25, 32, x_23);
+lean_ctor_set_uint8(x_25, 40, x_8);
 x_26 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00__private_Lean_Meta_Tactic_Simp_Diagnostics_0__Lean_Meta_Simp_mkTheoremsWithBadKeySummary_spec__0_spec__0_spec__2_spec__3___redArg___closed__1;
 x_27 = lean_alloc_ctor(7, 2, 0);
 lean_ctor_set(x_27, 0, x_19);
@@ -4900,9 +4900,9 @@ x_18 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_18, 0, x_14);
 lean_ctor_set(x_18, 1, x_15);
 lean_ctor_set(x_18, 2, x_17);
-lean_ctor_set_float_s(x_18, 0, x_16);
-lean_ctor_set_float_s(x_18, 8, x_16);
-lean_ctor_set_uint8_s(x_18, 16, x_13);
+lean_ctor_set_float(x_18, 24, x_16);
+lean_ctor_set_float(x_18, 32, x_16);
+lean_ctor_set_uint8(x_18, 40, x_13);
 x_19 = l_Lean_Meta_Simp_reportDiag___lam__0___closed__2;
 x_20 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_20, 0, x_18);
@@ -5819,9 +5819,9 @@ if (lean_obj_tag(x_10) == 0)
 {
 Obj x_16 = null; byte x_17 = 0; Obj x_18 = null; byte x_19 = 0; byte x_20 = 0; 
 x_16 = lean_ctor_get(x_3, 0);
-x_17 = lean_ctor_get_uint8_s(x_3, 1);
+x_17 = lean_ctor_get_uint8(x_3, 9);
 x_18 = lean_ctor_get(x_10, 0);
-x_19 = lean_ctor_get_uint8_s(x_10, 1);
+x_19 = lean_ctor_get_uint8(x_10, 9);
 x_20 = lean_u8(lean_name_eq(x_16, x_18));
 if (x_20 == 0)
 {

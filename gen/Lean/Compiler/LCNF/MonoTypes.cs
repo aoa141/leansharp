@@ -1849,7 +1849,7 @@ x_15 = lean_ctor_get(x_5, 1);
 lean_inc_ref(x_15);
 x_16 = lean_ctor_get(x_5, 2);
 lean_inc_ref(x_16);
-x_17 = lean_ctor_get_uint8_s(x_5, 8);
+x_17 = lean_ctor_get_uint8(x_5, 32);
 lean_dec_ref(x_5);
 x_18 = M_Lean_Compiler_LCNF_Types.l_Lean_Compiler_LCNF_anyExpr;
 x_19 = (lean_expr_instantiate1(x_16, x_18));

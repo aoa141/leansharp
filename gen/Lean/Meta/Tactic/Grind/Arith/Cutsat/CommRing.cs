@@ -2232,7 +2232,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -2261,9 +2261,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00Int_Internal_Linear_Poly_normCommRing_x3f_spec__1___redArg___closed__2;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -2285,7 +2285,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }
@@ -3039,7 +3039,7 @@ x_13 = lean_ctor_get(x_2, 10);
 x_14 = lean_ctor_get(x_2, 11);
 x_15 = lean_ctor_get(x_2, 12);
 x_16 = lean_ctor_get(x_2, 13);
-x_17 = lean_ctor_get_uint8_s(x_2, 0);
+x_17 = lean_ctor_get_uint8(x_2, 152);
 x_18 = lean_ctor_get(x_2, 14);
 x_19 = lean_ctor_get(x_2, 15);
 x_20 = lean_ctor_get(x_2, 16);
@@ -3109,13 +3109,13 @@ lean_ctor_set(x_27, 15, x_19);
 lean_ctor_set(x_27, 16, x_20);
 lean_ctor_set(x_27, 17, x_21);
 lean_ctor_set(x_27, 18, x_22);
-lean_ctor_set_uint8_s(x_27, 0, x_17);
+lean_ctor_set_uint8(x_27, 152, x_17);
 x_25 = x_27;
 goto block_26;
 }
 block_26:
 {
-lean_ctor_set_uint8_s(x_25, 1, x_1);
+lean_ctor_set_uint8(x_25, 153, x_1);
 return x_25;
 }
 }
@@ -3344,7 +3344,7 @@ x_29 = lean_unsigned_to_nat(0u);
 x_30 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_30, 0, x_27);
 lean_ctor_set(x_30, 1, x_29);
-lean_ctor_set_uint8_s(x_30, 0, x_28);
+lean_ctor_set_uint8(x_30, 16, x_28);
 lean_inc_ref(x_1);
 x_31 = M_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util.l_Int_Internal_Linear_Poly_denoteExpr_x27___redArg(x_1, x_2, x_10);
 if (lean_obj_tag(x_31) == 0)
@@ -3538,7 +3538,7 @@ Obj x_76 = null; Obj x_77 = null; byte x_78 = 0;
 lean_dec_ref(x_75);
 x_76 = lean_ctor_get(x_10, 0);
 x_77 = lean_ctor_get(x_76, 2);
-x_78 = lean_ctor_get_uint8_s(x_77, 0);
+x_78 = lean_ctor_get_uint8(x_77, 8);
 if (x_78 == 0)
 {
 lean_dec_ref(x_1);

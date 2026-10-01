@@ -911,7 +911,7 @@ x_1 = (byte)0;
 x_2 = l_tacticBy__cases___x3a___00__closed__4;
 x_3 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }

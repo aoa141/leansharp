@@ -1075,7 +1075,7 @@ if (lean_obj_tag(x_2) == 1)
 {
 Obj x_5 = null; byte x_6 = 0; 
 x_5 = lean_ctor_get(x_2, 0);
-x_6 = lean_ctor_get_uint8_s(x_5, 0);
+x_6 = lean_ctor_get_uint8(x_5, 32);
 if (x_6 == 0)
 {
 return x_4;

@@ -90,7 +90,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
 x_3 = M_Lean_Environment.l_Lean_Environment_header(x_1);
-x_4 = lean_ctor_get_uint8_s(x_3, 4);
+x_4 = lean_ctor_get_uint8(x_3, 60);
 lean_dec_ref(x_3);
 if (x_4 == 0)
 {

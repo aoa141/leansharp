@@ -800,7 +800,7 @@ lean_dec_ref(x_6);
 if (lean_obj_tag(x_8) == 1)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 0);
 lean_dec_ref(x_8);
 return x_9;
 }
@@ -862,8 +862,8 @@ _start:
 Obj x_2 = null; byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
 x_2 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_2);
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
-x_4 = lean_ctor_get_uint8_s(x_1, 1);
+x_3 = lean_ctor_get_uint8(x_1, 8);
+x_4 = lean_ctor_get_uint8(x_1, 9);
 lean_dec_ref(x_1);
 x_5 = l_Lake_DSL_VerComparator_toExpr___closed__2;
 x_6 = l_Lake_DSL_StdVer_toExpr(x_2);

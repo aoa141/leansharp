@@ -696,7 +696,7 @@ x_10 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_10, 0, x_4);
 lean_ctor_set(x_10, 1, x_1);
 lean_ctor_set(x_10, 2, x_2);
-lean_ctor_set_uint8_s(x_10, 0, x_9);
+lean_ctor_set_uint8(x_10, 24, x_9);
 x_11 = lean_alloc_ctor(0, 3, 0);
 lean_ctor_set(x_11, 0, x_10);
 lean_ctor_set(x_11, 1, x_6);
@@ -813,7 +813,7 @@ goto block_47;
 else
 {
 ulong x_49 = 0; 
-x_49 = lean_ctor_get_uint64_s(x_2, 0);
+x_49 = lean_ctor_get_uint64(x_2, 16);
 x_9 = x_49;
 goto block_47;
 }
@@ -1387,7 +1387,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }
@@ -2538,7 +2538,7 @@ lean_ctor_set(x_8, 1, x_4);
 lean_ctor_set(x_8, 2, x_6);
 lean_ctor_set(x_8, 3, x_5);
 lean_ctor_set(x_8, 4, x_3);
-lean_ctor_set_uint8_s(x_8, 0, x_7);
+lean_ctor_set_uint8(x_8, 40, x_7);
 x_9 = M_Lean_ScopedEnvExtension.l_Lean_registerSimpleScopedEnvExtension___redArg(x_8);
 return x_9;
 }
@@ -2840,7 +2840,7 @@ goto block_27;
 else
 {
 ulong x_29 = 0; 
-x_29 = lean_ctor_get_uint64_s(x_3, 0);
+x_29 = lean_ctor_get_uint64(x_3, 16);
 x_9 = x_29;
 goto block_27;
 }

@@ -252,6 +252,7 @@ standard Obj lean_nat_shiftl(Obj, Obj)  -- Nat.shiftLeft
 standard Obj lean_nat_shiftr(Obj, Obj)  -- Nat.shiftRight
 standard Obj lean_nat_sub(Obj, Obj)  -- Nat.sub
 standard Obj lean_nat_to_int(Obj)  -- Int.ofNat
+standard Obj lean_obj_tag_nat(Obj)  -- getObjTagNat
 standard Obj lean_openssl_version(Obj)  -- Lean.openSSLVersionFn
 standard Obj lean_option_get_or_block(Obj)  -- _private.Init.System.Promise.0.IO.Option.getOrBlock!
 standard Obj lean_panic_fn_borrowed(Obj, Obj)  -- panicCore

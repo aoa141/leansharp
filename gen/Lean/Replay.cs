@@ -22,7 +22,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }
@@ -2004,7 +2004,7 @@ x_149 = lean_alloc_ctor(6, 3, 1);
 lean_ctor_set(x_149, 0, x_138);
 lean_ctor_set(x_149, 1, x_136);
 lean_ctor_set(x_149, 2, x_147);
-lean_ctor_set_uint8_s(x_149, 0, x_148);
+lean_ctor_set_uint8(x_149, 24, x_148);
 x_150 = l___private_Lean_Replay_0__Lean_Kernel_Environment_Replay_addDecl___redArg(x_149, x_3);
 lean_dec_ref(x_149);
 if (lean_obj_tag(x_150) == 0)
@@ -6718,7 +6718,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }

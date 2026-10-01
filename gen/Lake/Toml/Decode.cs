@@ -2836,7 +2836,7 @@ Obj x_3 = null;
 if (lean_obj_tag(x_1) == 2)
 {
 double x_10 = 0.0; Obj x_11 = null; Obj x_12 = null; 
-x_10 = lean_ctor_get_float_s(x_1, 0);
+x_10 = lean_ctor_get_float(x_1, 8);
 lean_dec_ref(x_1);
 x_11 = lean_box_float(x_10);
 x_12 = lean_alloc_ctor(0, 2, 0);
@@ -5289,7 +5289,7 @@ Obj x_3 = null;
 if (lean_obj_tag(x_1) == 3)
 {
 byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; 
-x_10 = lean_ctor_get_uint8_s(x_1, 0);
+x_10 = lean_ctor_get_uint8(x_1, 8);
 lean_dec_ref(x_1);
 x_11 = lean_box(x_10);
 x_12 = lean_alloc_ctor(0, 2, 0);

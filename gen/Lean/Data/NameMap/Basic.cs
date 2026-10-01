@@ -323,7 +323,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }
@@ -2955,7 +2955,7 @@ goto block_27;
 else
 {
 ulong x_29 = 0; 
-x_29 = lean_ctor_get_uint64_s(x_3, 0);
+x_29 = lean_ctor_get_uint64(x_3, 16);
 x_9 = x_29;
 goto block_27;
 }
@@ -3143,7 +3143,7 @@ goto block_44;
 else
 {
 ulong x_46 = 0; 
-x_46 = lean_ctor_get_uint64_s(x_2, 0);
+x_46 = lean_ctor_get_uint64(x_2, 16);
 x_7 = x_46;
 goto block_44;
 }

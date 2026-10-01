@@ -188,7 +188,7 @@ byte x_19 = 0; Obj x_20 = null; Obj x_21 = null;
 lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-x_19 = lean_ctor_get_uint8_s(x_16, 1);
+x_19 = lean_ctor_get_uint8(x_16, 1);
 lean_dec_ref(x_16);
 x_20 = M_Lean_Meta_Sym_Simp_SimpM.l_Lean_Meta_Sym_Simp_mkRflResultCD(x_19);
 if (x_18 == 0)
@@ -216,7 +216,7 @@ Obj x_24 = null; Obj x_25 = null; byte x_26 = 0; Obj x_27 = null; byte x_28 = 0;
 lean_del_object(x_17);
 x_24 = lean_ctor_get(x_16, 0);
 x_25 = lean_ctor_get(x_16, 1);
-x_26 = lean_ctor_get_uint8_s(x_16, 1);
+x_26 = lean_ctor_get_uint8(x_16, 17);
 x_84 = (byte)(lean_is_exclusive(x_16) ? 0 : 1);
 if (x_84 == 0)
 {
@@ -299,14 +299,14 @@ Obj x_48 = null;
 x_48 = lean_alloc_ctor(1, 2, 2);
 lean_ctor_set(x_48, 0, x_37);
 lean_ctor_set(x_48, 1, x_42);
-lean_ctor_set_uint8_s(x_48, 1, x_26);
+lean_ctor_set_uint8(x_48, 17, x_26);
 x_43 = x_48;
 goto block_47;
 }
 block_47:
 {
 Obj x_44 = null; 
-lean_ctor_set_uint8_s(x_43, 0, x_29);
+lean_ctor_set_uint8(x_43, 16, x_29);
 if (x_41 == 0)
 {
 lean_ctor_set(x_40, 0, x_43);

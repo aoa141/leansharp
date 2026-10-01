@@ -110,8 +110,8 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)0;
 x_2 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
 return x_2;
 }
 }
@@ -719,8 +719,8 @@ x_14 = (byte)0;
 x_15 = lean_alloc_ctor(1, 2, 2);
 lean_ctor_set(x_15, 0, x_9);
 lean_ctor_set(x_15, 1, x_11);
-lean_ctor_set_uint8_s(x_15, 0, x_14);
-lean_ctor_set_uint8_s(x_15, 1, x_14);
+lean_ctor_set_uint8(x_15, 16, x_14);
+lean_ctor_set_uint8(x_15, 17, x_14);
 if (x_13 == 0)
 {
 lean_ctor_set(x_12, 0, x_15);

@@ -32,7 +32,7 @@ lean_inc_ref(x_12);
 lean_dec_ref(x_9);
 x_13 = lean_ctor_get(x_10, 0);
 lean_inc_ref(x_13);
-x_14 = lean_ctor_get_uint8_s(x_10, 0);
+x_14 = lean_ctor_get_uint8(x_10, 8);
 lean_dec(x_10);
 x_15 = M_Lake_Build_Data.l_Lake_instDataKindFilePath;
 x_16 = (byte)1;
@@ -112,7 +112,7 @@ goto block_41;
 block_41:
 {
 Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; 
-lean_ctor_set_uint8_s(x_32, 0, x_21);
+lean_ctor_set_uint8(x_32, 24, x_21);
 x_33 = (lean_st_ref_take(x_31));
 lean_inc_ref(x_32);
 x_34 = M_Lake_Build_Job_Basic.l_Lake_Job_toOpaque___redArg(x_32);
@@ -293,7 +293,7 @@ lean_inc_ref(x_12);
 lean_dec_ref(x_9);
 x_13 = lean_ctor_get(x_10, 0);
 lean_inc_ref(x_13);
-x_14 = lean_ctor_get_uint8_s(x_10, 0);
+x_14 = lean_ctor_get_uint8(x_10, 16);
 x_15 = lean_ctor_get(x_10, 1);
 lean_inc_ref(x_15);
 lean_dec(x_10);
@@ -378,7 +378,7 @@ goto block_43;
 block_43:
 {
 Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; 
-lean_ctor_set_uint8_s(x_34, 0, x_23);
+lean_ctor_set_uint8(x_34, 24, x_23);
 x_35 = (lean_st_ref_take(x_33));
 lean_inc_ref(x_34);
 x_36 = M_Lake_Build_Job_Basic.l_Lake_Job_toOpaque___redArg(x_34);
@@ -1786,8 +1786,8 @@ lean_ctor_set(x_6, 0, x_5);
 lean_ctor_set(x_6, 1, x_4);
 lean_ctor_set(x_6, 2, x_3);
 lean_ctor_set(x_6, 3, x_1);
-lean_ctor_set_uint8_s(x_6, 0, x_2);
-lean_ctor_set_uint8_s(x_6, 1, x_2);
+lean_ctor_set_uint8(x_6, 32, x_2);
+lean_ctor_set_uint8(x_6, 33, x_2);
 return x_6;
 }
 }
@@ -2058,8 +2058,8 @@ lean_ctor_set(x_6, 0, x_5);
 lean_ctor_set(x_6, 1, x_4);
 lean_ctor_set(x_6, 2, x_3);
 lean_ctor_set(x_6, 3, x_1);
-lean_ctor_set_uint8_s(x_6, 0, x_2);
-lean_ctor_set_uint8_s(x_6, 1, x_2);
+lean_ctor_set_uint8(x_6, 32, x_2);
+lean_ctor_set_uint8(x_6, 33, x_2);
 return x_6;
 }
 }

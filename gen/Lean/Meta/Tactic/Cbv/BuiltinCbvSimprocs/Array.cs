@@ -515,8 +515,8 @@ x_23 = (byte)0;
 x_24 = lean_alloc_ctor(1, 2, 2);
 lean_ctor_set(x_24, 0, x_12);
 lean_ctor_set(x_24, 1, x_20);
-lean_ctor_set_uint8_s(x_24, 0, x_23);
-lean_ctor_set_uint8_s(x_24, 1, x_23);
+lean_ctor_set_uint8(x_24, 16, x_23);
+lean_ctor_set_uint8(x_24, 17, x_23);
 if (x_22 == 0)
 {
 lean_ctor_set(x_21, 0, x_24);
@@ -971,8 +971,8 @@ Obj x_43 = null; Obj x_44 = null;
 lean_dec(x_38);
 lean_dec(x_34);
 x_43 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_43, 0, x_42);
-lean_ctor_set_uint8_s(x_43, 1, x_42);
+lean_ctor_set_uint8(x_43, 0, x_42);
+lean_ctor_set_uint8(x_43, 1, x_42);
 if (x_40 == 0)
 {
 lean_ctor_set_tag(x_39, 0);
@@ -1028,8 +1028,8 @@ x_52 = (byte)0;
 x_53 = lean_alloc_ctor(1, 2, 2);
 lean_ctor_set(x_53, 0, x_47);
 lean_ctor_set(x_53, 1, x_49);
-lean_ctor_set_uint8_s(x_53, 0, x_52);
-lean_ctor_set_uint8_s(x_53, 1, x_52);
+lean_ctor_set_uint8(x_53, 16, x_52);
+lean_ctor_set_uint8(x_53, 17, x_52);
 if (x_51 == 0)
 {
 lean_ctor_set(x_50, 0, x_53);
@@ -1582,8 +1582,8 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)0;
 x_2 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
 return x_2;
 }
 }

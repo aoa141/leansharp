@@ -279,7 +279,7 @@ lean_ctor_set(x_16, 6, x_14);
 lean_ctor_set(x_16, 7, x_15);
 lean_ctor_set(x_16, 8, x_13);
 lean_ctor_set(x_16, 9, x_13);
-lean_ctor_set_uint8_s(x_16, 0, x_10);
+lean_ctor_set_uint8(x_16, 80, x_10);
 x_17 = (lean_st_mk_ref(x_8));
 lean_inc(x_17);
 x_18 = lean_apply_3(x_3, x_16, x_17, lean_box(0));

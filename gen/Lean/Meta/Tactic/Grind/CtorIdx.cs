@@ -275,8 +275,8 @@ block_289:
 Obj x_52 = null; byte x_53 = 0; byte x_54 = 0; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; Obj x_69 = null; 
 x_52 = lean_ctor_get(x_49, 0);
 lean_inc_ref(x_52);
-x_53 = lean_ctor_get_uint8_s(x_49, 2);
-x_54 = lean_ctor_get_uint8_s(x_49, 4);
+x_53 = lean_ctor_get_uint8(x_49, 98);
+x_54 = lean_ctor_get_uint8(x_49, 100);
 lean_dec(x_49);
 if (x_53 == 0)
 {

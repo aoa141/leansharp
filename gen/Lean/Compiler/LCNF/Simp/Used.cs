@@ -1427,7 +1427,7 @@ x_5 = lean_ctor_get(x_4, 0);
 x_6 = lean_ctor_get(x_4, 1);
 x_7 = lean_ctor_get(x_4, 2);
 x_8 = lean_ctor_get(x_4, 3);
-x_9 = lean_ctor_get_uint8_s(x_4, 0);
+x_9 = lean_ctor_get_uint8(x_4, 56);
 x_10 = lean_ctor_get(x_4, 4);
 x_11 = lean_ctor_get(x_4, 5);
 x_12 = lean_ctor_get(x_4, 6);
@@ -1474,7 +1474,7 @@ lean_ctor_set(x_21, 3, x_8);
 lean_ctor_set(x_21, 4, x_10);
 lean_ctor_set(x_21, 5, x_11);
 lean_ctor_set(x_21, 6, x_12);
-lean_ctor_set_uint8_s(x_21, 0, x_9);
+lean_ctor_set_uint8(x_21, 56, x_9);
 x_17 = x_21;
 goto block_20;
 }

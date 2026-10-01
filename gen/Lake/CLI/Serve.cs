@@ -125,8 +125,8 @@ lean_ctor_set(x_16, 1, x_9);
 lean_ctor_set(x_16, 2, x_12);
 lean_ctor_set(x_16, 3, x_13);
 lean_ctor_set(x_16, 4, x_4);
-lean_ctor_set_uint8_s(x_16, 0, x_14);
-lean_ctor_set_uint8_s(x_16, 1, x_15);
+lean_ctor_set_uint8(x_16, 40, x_14);
+lean_ctor_set_uint8(x_16, 41, x_15);
 x_17 = (lean_io_process_spawn(x_16));
 if (lean_obj_tag(x_17) == 0)
 {
@@ -500,8 +500,8 @@ else
 Obj x_21 = null; byte x_22 = 0; byte x_23 = 0; Obj x_24 = null; Obj x_25 = null; byte x_26 = 0; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; 
 lean_dec(x_15);
 x_21 = lean_ctor_get(x_4, 0);
-x_22 = lean_ctor_get_uint8_s(x_21, 1);
-x_23 = lean_ctor_get_uint8_s(x_21, 2);
+x_22 = lean_ctor_get_uint8(x_21, 9);
+x_23 = lean_ctor_get_uint8(x_21, 10);
 x_24 = lean_ctor_get(x_21, 0);
 x_25 = M_Lake_Util_Log.l_Lake_OutStream_get(x_24);
 lean_inc_ref(x_25);
@@ -595,7 +595,7 @@ lean_ctor_set(x_55, 3, x_49);
 lean_ctor_set(x_55, 4, x_50);
 lean_ctor_set(x_55, 5, x_54);
 lean_ctor_set(x_55, 6, x_49);
-lean_ctor_set_uint8_s(x_55, 0, x_12);
+lean_ctor_set_uint8(x_55, 56, x_12);
 x_56 = M_Lean_Setup.l_Lean_instToJsonModuleSetup_toJson(x_55);
 x_57 = M_Lean_Data_Json_Printer.l_Lean_Json_compress(x_56);
 x_58 = l___private_Lake_CLI_Serve_0__Lake_setupFile_print_x21(x_57);
@@ -687,9 +687,9 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(0, 0, 3);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
-lean_ctor_set_uint8_s(x_2, 2, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 2, x_1);
 return x_2;
 }
 }

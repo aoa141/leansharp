@@ -8,9 +8,16 @@
     <Optimize>true</Optimize>
     <DebugType>none</DebugType>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <!-- compiling 12.8M lines takes 20+ GB: don't leave that memory in a compiler server -->
+    <UseSharedCompilation>false</UseSharedCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- Directory of the generated sources. Override (absolute path) to build from another
+         emitter output, e.g. one produced by LeanSharp itself: -p:LeanSharpGenDir=/path/to/gen -->
+    <LeanSharpGenDir Condition="'$(LeanSharpGenDir)' == ''">$(MSBuildThisFileDirectory)../../gen</LeanSharpGenDir>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../gen/**/*.cs" />
+    <Compile Include="$(LeanSharpGenDir)/**/*.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="../LeanSharp.Runtime/LeanSharp.Runtime.csproj" />

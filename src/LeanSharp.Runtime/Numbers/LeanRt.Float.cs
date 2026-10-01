@@ -521,7 +521,7 @@ public static unsafe partial class LeanRt
 
     static Obj NumbersCopySArrayNonlinear(Obj a, ulong cap)
     {
-        if ((a.m_other & LEAN_LINEAR_MARK_MASK) != 0 && System.Environment.GetEnvironmentVariable("LEAN_ABORT_ON_NONLINEAR") != null)
+        if ((a.m_other & LEAN_LINEAR_MARK_MASK) != 0 && LeanContext.Proc.GetEnv("LEAN_ABORT_ON_NONLINEAR") != null)
             throw lean_internal_panic("scalar array marked by `markLinear` was used non-linearly");
         return NumbersCopySArray(a, cap);
     }

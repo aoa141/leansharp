@@ -702,7 +702,7 @@ x_13 = lean_ctor_get(x_5, 7);
 x_14 = lean_ctor_get(x_5, 8);
 x_15 = lean_ctor_get(x_5, 9);
 x_16 = lean_ctor_get(x_5, 10);
-x_17 = lean_ctor_get_uint8_s(x_5, 0);
+x_17 = lean_ctor_get_uint8(x_5, 88);
 x_28 = (byte)(lean_is_exclusive(x_5) ? 0 : 1);
 if (x_28 == 0)
 {
@@ -754,7 +754,7 @@ lean_ctor_set(x_26, 7, x_13);
 lean_ctor_set(x_26, 8, x_14);
 lean_ctor_set(x_26, 9, x_15);
 lean_ctor_set(x_26, 10, x_21);
-lean_ctor_set_uint8_s(x_26, 0, x_17);
+lean_ctor_set_uint8(x_26, 88, x_17);
 x_22 = x_26;
 goto block_25;
 }

@@ -170,7 +170,7 @@ goto block_32;
 block_32:
 {
 Obj x_26 = null; 
-lean_ctor_set_uint8_s(x_25, 0, x_24);
+lean_ctor_set_uint8(x_25, 8, x_24);
 if (x_17 == 0)
 {
 lean_ctor_set(x_16, 1, x_25);
@@ -1067,7 +1067,7 @@ lean_dec_ref(x_11);
 x_13 = lean_ctor_get(x_12, 1);
 lean_inc(x_13);
 lean_dec(x_12);
-x_14 = lean_ctor_get_uint8_s(x_13, 0);
+x_14 = lean_ctor_get_uint8(x_13, 8);
 if (x_14 == 0)
 {
 x_6 = x_13;
@@ -1104,7 +1104,7 @@ goto block_33;
 block_33:
 {
 Obj x_22 = null; Obj x_23 = null; byte x_24 = 0; 
-lean_ctor_set_uint8_s(x_21, 0, x_20);
+lean_ctor_set_uint8(x_21, 8, x_20);
 x_22 = lean_unsigned_to_nat(0u);
 x_23 = (lean_array_get_size(x_1));
 x_24 = lean_u8(lean_nat_dec_lt(x_22, x_23));
@@ -1169,7 +1169,7 @@ x_1 = (byte)0;
 x_2 = lean_box(1);
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }

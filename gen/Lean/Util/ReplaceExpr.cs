@@ -30,7 +30,7 @@ Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Ob
 x_4 = lean_ctor_get(x_2, 0);
 x_5 = lean_ctor_get(x_2, 1);
 x_6 = lean_ctor_get(x_2, 2);
-x_7 = lean_ctor_get_uint8_s(x_2, 8);
+x_7 = lean_ctor_get_uint8(x_2, 32);
 lean_inc_ref(x_5);
 lean_inc_ref(x_1);
 x_8 = l_Lean_Expr_replaceNoCache(x_1, x_5);
@@ -88,7 +88,7 @@ Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; Obj x_24 = nul
 x_20 = lean_ctor_get(x_2, 0);
 x_21 = lean_ctor_get(x_2, 1);
 x_22 = lean_ctor_get(x_2, 2);
-x_23 = lean_ctor_get_uint8_s(x_2, 8);
+x_23 = lean_ctor_get_uint8(x_2, 32);
 lean_inc_ref(x_21);
 lean_inc_ref(x_1);
 x_24 = l_Lean_Expr_replaceNoCache(x_1, x_21);
@@ -171,7 +171,7 @@ x_43 = lean_ctor_get(x_2, 0);
 x_44 = lean_ctor_get(x_2, 1);
 x_45 = lean_ctor_get(x_2, 2);
 x_46 = lean_ctor_get(x_2, 3);
-x_47 = lean_ctor_get_uint8_s(x_2, 8);
+x_47 = lean_ctor_get_uint8(x_2, 40);
 lean_inc_ref(x_44);
 lean_inc_ref_n(x_1, 2);
 x_48 = l_Lean_Expr_replaceNoCache(x_1, x_44);

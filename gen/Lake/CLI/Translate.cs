@@ -75,9 +75,9 @@ x_2 = (byte)0;
 x_3 = l_Lake_Package_mkConfigString___closed__2;
 x_4 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_4, 0, x_3);
-lean_ctor_set_uint8_s(x_4, 0, x_2);
-lean_ctor_set_uint8_s(x_4, 1, x_1);
-lean_ctor_set_uint8_s(x_4, 2, x_2);
+lean_ctor_set_uint8(x_4, 8, x_2);
+lean_ctor_set_uint8(x_4, 9, x_1);
+lean_ctor_set_uint8(x_4, 10, x_2);
 return x_4;
 }
 }
@@ -275,9 +275,9 @@ x_65 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_65, 0, x_64);
 lean_ctor_set(x_65, 1, x_59);
 lean_ctor_set(x_65, 2, x_60);
-lean_ctor_set_uint16_s(x_65, 0, x_36);
-lean_ctor_set_uint8_s(x_65, 2, x_61);
-lean_ctor_set_uint8_s(x_65, 3, x_62);
+lean_ctor_set_uint16(x_65, 24, x_36);
+lean_ctor_set_uint8(x_65, 26, x_61);
+lean_ctor_set_uint8(x_65, 27, x_62);
 x_66 = M_Lean_PrettyPrinter.l_Lean_PrettyPrinter_ppModule(x_26, x_65, x_48);
 lean_dec_ref(x_65);
 if (lean_obj_tag(x_66) == 0)
@@ -471,7 +471,7 @@ x_126 = M_Init_System_IOError.lean_io_error_to_string(x_125);
 x_127 = (byte)3;
 x_128 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_128, 0, x_126);
-lean_ctor_set_uint8_s(x_128, 0, x_127);
+lean_ctor_set_uint8(x_128, 8, x_127);
 x_129 = (lean_array_get_size(x_3));
 x_130 = (lean_array_push(x_3, x_128));
 x_131 = lean_alloc_ctor(1, 2, 0);
@@ -502,7 +502,7 @@ lean_dec_ref(x_7);
 x_9 = (byte)3;
 x_10 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_10, 0, x_8);
-lean_ctor_set_uint8_s(x_10, 0, x_9);
+lean_ctor_set_uint8(x_10, 8, x_9);
 x_11 = (lean_array_get_size(x_3));
 x_12 = (lean_array_push(x_3, x_10));
 x_13 = lean_alloc_ctor(1, 2, 0);
@@ -729,7 +729,7 @@ x_1 = l_Lake_Package_mkConfigString___closed__14;
 x_2 = 0UL;
 x_3 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint64_s(x_3, 0, x_2);
+lean_ctor_set_uint64(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -784,7 +784,7 @@ x_4 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_4, 0, x_2);
 lean_ctor_set(x_4, 1, x_2);
 lean_ctor_set(x_4, 2, x_1);
-lean_ctor_set_uint8_s(x_4, 0, x_3);
+lean_ctor_set_uint8(x_4, 24, x_3);
 return x_4;
 }
 }

@@ -262,11 +262,11 @@ if (lean_obj_tag(x_2) == 2)
 Obj x_17 = null; double x_18 = 0.0; Obj x_19 = null; double x_20 = 0.0; byte x_21 = 0; 
 x_17 = lean_ctor_get(x_1, 0);
 lean_inc(x_17);
-x_18 = lean_ctor_get_float_s(x_1, 0);
+x_18 = lean_ctor_get_float(x_1, 8);
 lean_dec_ref(x_1);
 x_19 = lean_ctor_get(x_2, 0);
 lean_inc(x_19);
-x_20 = lean_ctor_get_float_s(x_2, 0);
+x_20 = lean_ctor_get_float(x_2, 8);
 lean_dec_ref(x_2);
 x_21 = M_Init_Meta_Defs.l_Lean_Syntax_structEq(x_17, x_19);
 lean_dec(x_19);
@@ -298,11 +298,11 @@ if (lean_obj_tag(x_2) == 3)
 Obj x_24 = null; byte x_25 = 0; Obj x_26 = null; byte x_27 = 0; byte x_28 = 0; 
 x_24 = lean_ctor_get(x_1, 0);
 lean_inc(x_24);
-x_25 = lean_ctor_get_uint8_s(x_1, 0);
+x_25 = lean_ctor_get_uint8(x_1, 8);
 lean_dec_ref(x_1);
 x_26 = lean_ctor_get(x_2, 0);
 lean_inc(x_26);
-x_27 = lean_ctor_get_uint8_s(x_2, 0);
+x_27 = lean_ctor_get_uint8(x_2, 8);
 lean_dec_ref(x_2);
 x_28 = M_Init_Meta_Defs.l_Lean_Syntax_structEq(x_24, x_26);
 lean_dec(x_26);
@@ -644,7 +644,7 @@ case 2:
 Obj x_6 = null; double x_7 = 0.0; Obj x_8 = null; Obj x_9 = null; 
 x_6 = lean_ctor_get(x_1, 0);
 lean_inc(x_6);
-x_7 = lean_ctor_get_float_s(x_1, 0);
+x_7 = lean_ctor_get_float(x_1, 8);
 lean_dec_ref(x_1);
 x_8 = lean_box_float(x_7);
 x_9 = lean_apply_2(x_2, x_6, x_8);
@@ -655,7 +655,7 @@ case 3:
 Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; 
 x_10 = lean_ctor_get(x_1, 0);
 lean_inc(x_10);
-x_11 = lean_ctor_get_uint8_s(x_1, 0);
+x_11 = lean_ctor_get_uint8(x_1, 8);
 lean_dec_ref(x_1);
 x_12 = lean_box(x_11);
 x_13 = lean_apply_2(x_2, x_10, x_12);
@@ -1750,7 +1750,7 @@ return x_5;
 case 2:
 {
 double x_6 = 0.0; Obj x_7 = null; 
-x_6 = lean_ctor_get_float_s(x_1, 0);
+x_6 = lean_ctor_get_float(x_1, 8);
 lean_dec_ref(x_1);
 x_7 = (lean_float_to_string(x_6));
 return x_7;
@@ -1758,7 +1758,7 @@ return x_7;
 case 3:
 {
 byte x_8 = 0; 
-x_8 = lean_ctor_get_uint8_s(x_1, 0);
+x_8 = lean_ctor_get_uint8(x_1, 8);
 lean_dec_ref(x_1);
 if (x_8 == 0)
 {

@@ -829,7 +829,7 @@ else
 {
 Obj x_17 = null; byte x_18 = 0; 
 x_17 = (lean_array_fget_borrowed(x_14, x_2));
-x_18 = lean_ctor_get_uint8_s(x_17, 1);
+x_18 = lean_ctor_get_uint8(x_17, 9);
 if (x_18 == 0)
 {
 Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; 
@@ -1041,7 +1041,7 @@ x_3 = (byte)0;
 x_4 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_4, 0, x_2);
 lean_ctor_set(x_4, 1, x_1);
-lean_ctor_set_uint8_s(x_4, 0, x_3);
+lean_ctor_set_uint8(x_4, 16, x_3);
 return x_4;
 }
 }
@@ -1372,7 +1372,7 @@ public static Obj l_Lean_Elab_instToFormatAttribute___lam__0(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 x_3 = lean_ctor_get(x_1, 0);
 lean_inc(x_3);
 x_4 = lean_ctor_get(x_1, 1);
@@ -1440,7 +1440,7 @@ lean_ctor_set(x_24, 1, x_23);
 x_25 = (byte)0;
 x_26 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_26, 0, x_24);
-lean_ctor_set_uint8_s(x_26, 0, x_25);
+lean_ctor_set_uint8(x_26, 8, x_25);
 return x_26;
 }
 }
@@ -1452,7 +1452,7 @@ Obj x_6 = null; Obj x_7 = null;
 x_6 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_6, 0, x_2);
 lean_ctor_set(x_6, 1, x_3);
-lean_ctor_set_uint8_s(x_6, 0, x_1);
+lean_ctor_set_uint8(x_6, 16, x_1);
 x_7 = lean_apply_2(x_4, lean_box(0), x_6);
 return x_7;
 }

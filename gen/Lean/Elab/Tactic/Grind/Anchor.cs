@@ -311,7 +311,7 @@ x_7 = (ulong)(lean_uint64_of_nat(x_6));
 lean_dec(x_6);
 x_8 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_8, 0, x_5);
-lean_ctor_set_uint64_s(x_8, 0, x_7);
+lean_ctor_set_uint64(x_8, 8, x_7);
 x_9 = lean_alloc_ctor(0, 1, 0);
 lean_ctor_set(x_9, 0, x_8);
 return x_9;

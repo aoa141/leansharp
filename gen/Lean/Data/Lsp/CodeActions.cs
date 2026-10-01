@@ -4921,7 +4921,7 @@ lean_ctor_set(x_67, 0, x_43);
 lean_ctor_set(x_67, 1, x_64);
 x_68 = (byte)lean_unbox(x_22);
 lean_dec(x_22);
-lean_ctor_set_uint8_s(x_67, 0, x_68);
+lean_ctor_set_uint8(x_67, 16, x_68);
 if (x_66 == 0)
 {
 lean_ctor_set(x_65, 0, x_67);
@@ -4975,7 +4975,7 @@ public static Obj l_Lean_Lsp_instToJsonCodeActionOptions_toJson(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 x_3 = lean_ctor_get(x_1, 0);
 lean_inc(x_3);
 x_4 = lean_ctor_get(x_1, 1);
@@ -4983,7 +4983,7 @@ lean_inc(x_4);
 lean_dec_ref(x_1);
 x_5 = l_Lean_Lsp_instToJsonCodeActionOptions_toJson___closed__0;
 x_6 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_6, 0, x_2);
+lean_ctor_set_uint8(x_6, 0, x_2);
 x_7 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_7, 0, x_5);
 lean_ctor_set(x_7, 1, x_6);
@@ -6003,7 +6003,7 @@ Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Ob
 x_4 = lean_ctor_get(x_2, 0);
 x_5 = lean_alloc_ctor(1, 0, 1);
 x_6 = (byte)lean_unbox(x_4);
-lean_ctor_set_uint8_s(x_5, 0, x_6);
+lean_ctor_set_uint8(x_5, 0, x_6);
 x_7 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_7, 0, x_1);
 lean_ctor_set(x_7, 1, x_5);

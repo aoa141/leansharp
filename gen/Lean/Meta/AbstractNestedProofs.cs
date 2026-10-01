@@ -433,7 +433,7 @@ x_11 = lean_ctor_get(x_10, 0);
 lean_inc_ref(x_11);
 lean_dec(x_10);
 x_12 = M_Lean_Environment.l_Lean_Environment_header(x_11);
-x_13 = lean_ctor_get_uint8_s(x_12, 4);
+x_13 = lean_ctor_get_uint8(x_12, 60);
 lean_dec_ref(x_12);
 if (x_13 == 0)
 {
@@ -451,7 +451,7 @@ return x_15;
 else
 {
 byte x_16 = 0; 
-x_16 = lean_ctor_get_uint8_s(x_11, 0);
+x_16 = lean_ctor_get_uint8(x_11, 64);
 lean_dec_ref(x_11);
 if (x_2 == 0)
 {
@@ -2583,7 +2583,7 @@ x_9 = lean_ctor_get(x_8, 0);
 lean_inc_ref(x_9);
 lean_dec(x_8);
 x_10 = M_Lean_Environment.l_Lean_Environment_header(x_9);
-x_11 = lean_ctor_get_uint8_s(x_10, 4);
+x_11 = lean_ctor_get_uint8(x_10, 60);
 lean_dec_ref(x_10);
 if (x_11 == 0)
 {
@@ -2599,7 +2599,7 @@ return x_12;
 else
 {
 byte x_13 = 0; 
-x_13 = lean_ctor_get_uint8_s(x_9, 0);
+x_13 = lean_ctor_get_uint8(x_9, 64);
 lean_dec_ref(x_9);
 if (x_2 == 0)
 {

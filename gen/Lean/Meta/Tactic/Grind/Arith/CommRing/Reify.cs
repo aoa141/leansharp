@@ -181,7 +181,7 @@ goto block_22;
 block_22:
 {
 byte x_16 = 0; 
-x_16 = lean_ctor_get_uint8_s(x_13, 0);
+x_16 = lean_ctor_get_uint8(x_13, 0);
 lean_dec(x_13);
 if (x_16 == 0)
 {
@@ -652,12 +652,12 @@ _start:
 {
 Obj x_16 = null; byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; 
 x_16 = lean_ctor_get(x_4, 0);
-x_17 = lean_ctor_get_uint8_s(x_4, 0);
+x_17 = lean_ctor_get_uint8(x_4, 16);
 lean_inc(x_16);
 x_18 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_18, 0, x_16);
 lean_ctor_set(x_18, 1, x_3);
-lean_ctor_set_uint8_s(x_18, 0, x_17);
+lean_ctor_set_uint8(x_18, 16, x_17);
 x_19 = l_Lean_Meta_Sym_Arith_reifyRing_x3f___at___00Lean_Meta_Grind_Arith_CommRing_reify_x3f_spec__0(x_1, x_2, x_18, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
 lean_dec_ref(x_18);
 return x_19;
@@ -20535,7 +20535,7 @@ goto block_22;
 block_22:
 {
 byte x_16 = 0; 
-x_16 = lean_ctor_get_uint8_s(x_13, 0);
+x_16 = lean_ctor_get_uint8(x_13, 0);
 lean_dec(x_13);
 if (x_16 == 0)
 {
@@ -23238,11 +23238,11 @@ x_7 = lean_ctor_get(x_3, 3);
 x_8 = lean_ctor_get(x_3, 4);
 x_9 = lean_ctor_get(x_3, 5);
 x_10 = lean_ctor_get(x_3, 6);
-x_11 = lean_ctor_get_uint8_s(x_3, 0);
+x_11 = lean_ctor_get_uint8(x_3, 80);
 x_12 = lean_ctor_get(x_3, 7);
 x_13 = lean_ctor_get(x_3, 8);
 x_14 = lean_ctor_get(x_3, 9);
-x_15 = lean_ctor_get_uint8_s(x_3, 1);
+x_15 = lean_ctor_get_uint8(x_3, 81);
 x_34 = (byte)(lean_is_exclusive(x_3) ? 0 : 1);
 if (x_34 == 0)
 {
@@ -23336,8 +23336,8 @@ lean_ctor_set(x_28, 6, x_10);
 lean_ctor_set(x_28, 7, x_12);
 lean_ctor_set(x_28, 8, x_13);
 lean_ctor_set(x_28, 9, x_14);
-lean_ctor_set_uint8_s(x_28, 0, x_11);
-lean_ctor_set_uint8_s(x_28, 1, x_15);
+lean_ctor_set_uint8(x_28, 80, x_11);
+lean_ctor_set_uint8(x_28, 81, x_15);
 x_26 = x_28;
 goto block_27;
 }
@@ -23796,7 +23796,7 @@ goto block_22;
 block_22:
 {
 byte x_16 = 0; 
-x_16 = lean_ctor_get_uint8_s(x_13, 0);
+x_16 = lean_ctor_get_uint8(x_13, 0);
 lean_dec(x_13);
 if (x_16 == 0)
 {
@@ -28253,7 +28253,7 @@ goto block_22;
 block_22:
 {
 byte x_16 = 0; 
-x_16 = lean_ctor_get_uint8_s(x_13, 0);
+x_16 = lean_ctor_get_uint8(x_13, 0);
 lean_dec(x_13);
 if (x_16 == 0)
 {

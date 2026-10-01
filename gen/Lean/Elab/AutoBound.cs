@@ -655,7 +655,7 @@ x_6 = lean_ctor_get(x_2, 1);
 x_7 = lean_ctor_get(x_2, 2);
 x_8 = lean_alloc_ctor(1, 0, 1);
 x_9 = (byte)lean_unbox(x_5);
-lean_ctor_set_uint8_s(x_8, 0, x_9);
+lean_ctor_set_uint8(x_8, 0, x_9);
 lean_inc(x_7);
 lean_inc_ref(x_6);
 lean_inc_n(x_1, 2);
@@ -761,7 +761,7 @@ public static Obj l_Lean_Elab_AutoBoundImplicitContext_push(Obj x_1, Obj x_2) {
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_12 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 8);
 x_4 = lean_ctor_get(x_1, 0);
 x_12 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_12 == 0)
@@ -793,7 +793,7 @@ else
 Obj x_10 = null; 
 x_10 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_10, 0, x_7);
-lean_ctor_set_uint8_s(x_10, 0, x_3);
+lean_ctor_set_uint8(x_10, 8, x_3);
 x_8 = x_10;
 goto block_9;
 }
@@ -953,7 +953,7 @@ x_1 = l_Lean_Elab_instInhabitedAutoBoundImplicitContext_default___closed__1;
 x_2 = (byte)0;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }

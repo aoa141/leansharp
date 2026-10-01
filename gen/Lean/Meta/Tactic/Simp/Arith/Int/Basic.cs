@@ -2853,7 +2853,7 @@ lean_ctor_set(x_52, 1, x_51);
 x_53 = (byte)0;
 x_54 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_54, 0, x_52);
-lean_ctor_set_uint8_s(x_54, 0, x_53);
+lean_ctor_set_uint8(x_54, 8, x_53);
 x_55 = M_Init_Data_Repr.l_Repr_addAppParen(x_54, x_2);
 return x_55;
 }
@@ -2907,7 +2907,7 @@ lean_ctor_set(x_7, 1, x_6);
 x_8 = (byte)0;
 x_9 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_9, 0, x_7);
-lean_ctor_set_uint8_s(x_9, 0, x_8);
+lean_ctor_set_uint8(x_9, 8, x_8);
 x_10 = M_Init_Data_Repr.l_Repr_addAppParen(x_9, x_2);
 return x_10;
 }
@@ -8014,7 +8014,7 @@ lean_ctor_set(x_53, 1, x_52);
 x_54 = (byte)0;
 x_55 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_55, 0, x_53);
-lean_ctor_set_uint8_s(x_55, 0, x_54);
+lean_ctor_set_uint8(x_55, 8, x_54);
 x_56 = M_Init_Data_Repr.l_Repr_addAppParen(x_55, x_2);
 return x_56;
 }
@@ -8101,7 +8101,7 @@ lean_ctor_set(x_79, 1, x_78);
 x_80 = (byte)0;
 x_81 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_81, 0, x_79);
-lean_ctor_set_uint8_s(x_81, 0, x_80);
+lean_ctor_set_uint8(x_81, 8, x_80);
 x_82 = M_Init_Data_Repr.l_Repr_addAppParen(x_81, x_2);
 return x_82;
 }
@@ -8188,7 +8188,7 @@ lean_ctor_set(x_104, 1, x_103);
 x_105 = (byte)0;
 x_106 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_106, 0, x_104);
-lean_ctor_set_uint8_s(x_106, 0, x_105);
+lean_ctor_set_uint8(x_106, 8, x_105);
 x_107 = M_Init_Data_Repr.l_Repr_addAppParen(x_106, x_2);
 return x_107;
 }
@@ -8232,7 +8232,7 @@ lean_ctor_set(x_122, 1, x_121);
 x_123 = (byte)0;
 x_124 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_124, 0, x_122);
-lean_ctor_set_uint8_s(x_124, 0, x_123);
+lean_ctor_set_uint8(x_124, 8, x_123);
 x_125 = M_Init_Data_Repr.l_Repr_addAppParen(x_124, x_2);
 return x_125;
 }
@@ -8315,7 +8315,7 @@ lean_ctor_set(x_143, 1, x_142);
 x_144 = (byte)0;
 x_145 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_145, 0, x_143);
-lean_ctor_set_uint8_s(x_145, 0, x_144);
+lean_ctor_set_uint8(x_145, 8, x_144);
 x_146 = M_Init_Data_Repr.l_Repr_addAppParen(x_145, x_2);
 return x_146;
 }
@@ -8471,7 +8471,7 @@ lean_ctor_set(x_7, 1, x_6);
 x_8 = (byte)0;
 x_9 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_9, 0, x_7);
-lean_ctor_set_uint8_s(x_9, 0, x_8);
+lean_ctor_set_uint8(x_9, 8, x_8);
 x_10 = M_Init_Data_Repr.l_Repr_addAppParen(x_9, x_2);
 return x_10;
 }
@@ -8489,7 +8489,7 @@ lean_ctor_set(x_16, 1, x_15);
 x_17 = (byte)0;
 x_18 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_18, 0, x_16);
-lean_ctor_set_uint8_s(x_18, 0, x_17);
+lean_ctor_set_uint8(x_18, 8, x_17);
 x_19 = M_Init_Data_Repr.l_Repr_addAppParen(x_18, x_2);
 return x_19;
 }

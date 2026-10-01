@@ -11349,7 +11349,7 @@ case 4:
 byte x_147 = 0; Obj x_148 = null; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; Obj x_166 = null; 
 lean_dec_ref(x_17);
 lean_dec_ref(x_16);
-x_147 = lean_ctor_get_uint8_s(x_18, 0);
+x_147 = lean_ctor_get_uint8(x_18, 16);
 x_148 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_148);
 x_149 = lean_ctor_get(x_18, 1);
@@ -11513,7 +11513,7 @@ goto block_42;
 case 5:
 {
 byte x_175 = 0; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_180 = null; Obj x_204 = null; 
-x_175 = lean_ctor_get_uint8_s(x_18, 0);
+x_175 = lean_ctor_get_uint8(x_18, 24);
 x_176 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_176);
 x_177 = lean_ctor_get(x_18, 1);
@@ -11754,7 +11754,7 @@ goto block_42;
 case 6:
 {
 byte x_211 = 0; Obj x_212 = null; Obj x_213 = null; Obj x_214 = null; Obj x_215 = null; Obj x_216 = null; Obj x_240 = null; 
-x_211 = lean_ctor_get_uint8_s(x_18, 0);
+x_211 = lean_ctor_get_uint8(x_18, 24);
 x_212 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_212);
 x_213 = lean_ctor_get(x_18, 1);
@@ -11997,7 +11997,7 @@ goto block_42;
 case 7:
 {
 byte x_247 = 0; Obj x_248 = null; Obj x_249 = null; Obj x_250 = null; Obj x_251 = null; Obj x_252 = null; Obj x_276 = null; 
-x_247 = lean_ctor_get_uint8_s(x_18, 0);
+x_247 = lean_ctor_get_uint8(x_18, 24);
 x_248 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_248);
 x_249 = lean_ctor_get(x_18, 1);
@@ -12240,7 +12240,7 @@ goto block_42;
 case 8:
 {
 byte x_283 = 0; Obj x_284 = null; Obj x_285 = null; Obj x_286 = null; Obj x_287 = null; Obj x_288 = null; Obj x_289 = null; Obj x_315 = null; 
-x_283 = lean_ctor_get_uint8_s(x_18, 0);
+x_283 = lean_ctor_get_uint8(x_18, 32);
 x_284 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_284);
 x_285 = lean_ctor_get(x_18, 1);
@@ -14538,7 +14538,7 @@ case 3:
 byte x_134 = 0; Obj x_135 = null; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_153 = null; 
 lean_dec_ref(x_17);
 lean_dec_ref(x_16);
-x_134 = lean_ctor_get_uint8_s(x_18, 0);
+x_134 = lean_ctor_get_uint8(x_18, 16);
 x_135 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_135);
 x_136 = lean_ctor_get(x_18, 1);
@@ -14702,7 +14702,7 @@ goto block_42;
 case 4:
 {
 byte x_162 = 0; Obj x_163 = null; Obj x_164 = null; Obj x_165 = null; Obj x_166 = null; Obj x_167 = null; Obj x_191 = null; 
-x_162 = lean_ctor_get_uint8_s(x_18, 0);
+x_162 = lean_ctor_get_uint8(x_18, 24);
 x_163 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_163);
 x_164 = lean_ctor_get(x_18, 1);
@@ -14943,7 +14943,7 @@ goto block_42;
 case 5:
 {
 byte x_198 = 0; Obj x_199 = null; Obj x_200 = null; Obj x_201 = null; Obj x_202 = null; Obj x_203 = null; Obj x_227 = null; 
-x_198 = lean_ctor_get_uint8_s(x_18, 0);
+x_198 = lean_ctor_get_uint8(x_18, 24);
 x_199 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_199);
 x_200 = lean_ctor_get(x_18, 1);
@@ -15186,7 +15186,7 @@ goto block_42;
 case 6:
 {
 byte x_234 = 0; Obj x_235 = null; Obj x_236 = null; Obj x_237 = null; Obj x_238 = null; Obj x_239 = null; Obj x_263 = null; 
-x_234 = lean_ctor_get_uint8_s(x_18, 0);
+x_234 = lean_ctor_get_uint8(x_18, 24);
 x_235 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_235);
 x_236 = lean_ctor_get(x_18, 1);
@@ -15429,7 +15429,7 @@ goto block_42;
 default: 
 {
 byte x_270 = 0; Obj x_271 = null; Obj x_272 = null; Obj x_273 = null; Obj x_274 = null; Obj x_275 = null; Obj x_276 = null; Obj x_302 = null; 
-x_270 = lean_ctor_get_uint8_s(x_18, 0);
+x_270 = lean_ctor_get_uint8(x_18, 32);
 x_271 = lean_ctor_get(x_18, 0);
 lean_inc_ref(x_271);
 x_272 = lean_ctor_get(x_18, 1);

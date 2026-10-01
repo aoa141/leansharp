@@ -190,7 +190,7 @@ lean_ctor_set(x_6, 1, x_1);
 lean_ctor_set(x_6, 2, x_3);
 lean_ctor_set(x_6, 3, x_4);
 lean_ctor_set(x_6, 4, x_5);
-lean_ctor_set_uint8_s(x_6, 0, x_2);
+lean_ctor_set_uint8(x_6, 40, x_2);
 return x_6;
 }
 }
@@ -369,7 +369,7 @@ x_1 = (byte)0;
 x_2 = l_Lean_Meta_Grind_Order_instInhabitedCnstr_default___redArg___closed__0;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }

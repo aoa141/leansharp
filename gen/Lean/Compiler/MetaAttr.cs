@@ -70,7 +70,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
 x_3 = M_Lean_Environment.l_Lean_Environment_header(x_1);
-x_4 = lean_ctor_get_uint8_s(x_3, 4);
+x_4 = lean_ctor_get_uint8(x_3, 60);
 if (x_4 == 0)
 {
 byte x_5 = 0; 
@@ -165,7 +165,7 @@ Obj x_23 = null; byte x_24 = 0;
 x_23 = (lean_array_fget(x_6, x_17));
 lean_dec(x_17);
 lean_dec_ref(x_6);
-x_24 = lean_ctor_get_uint8_s(x_23, 0);
+x_24 = lean_ctor_get_uint8(x_23, 8);
 lean_dec(x_23);
 return x_24;
 }
@@ -381,7 +381,7 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)0;
 x_2 = lean_alloc_ctor(3, 0, 1);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
 return x_2;
 }
 }
@@ -1130,7 +1130,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
 x_3 = M_Lean_Environment.l_Lean_Environment_header(x_1);
-x_4 = lean_ctor_get_uint8_s(x_3, 4);
+x_4 = lean_ctor_get_uint8(x_3, 60);
 lean_dec_ref(x_3);
 if (x_4 == 0)
 {

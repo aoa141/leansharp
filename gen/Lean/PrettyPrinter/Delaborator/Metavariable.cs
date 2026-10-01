@@ -4346,7 +4346,7 @@ else
 {
 byte x_159 = 0; 
 lean_dec(x_97);
-x_159 = lean_ctor_get_uint8_s(x_14, 0);
+x_159 = lean_ctor_get_uint8(x_14, 56);
 switch (x_159) {
 case 0:
 {

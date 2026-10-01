@@ -89,37 +89,37 @@ switch (lean_obj_tag(x_2)) {
 case 0:
 {
 ulong x_3 = 0; 
-x_3 = lean_ctor_get_uint64_s(x_2, 0);
+x_3 = lean_ctor_get_uint64(x_2, 16);
 return x_3;
 }
 case 1:
 {
 ulong x_4 = 0; 
-x_4 = lean_ctor_get_uint64_s(x_2, 0);
+x_4 = lean_ctor_get_uint64(x_2, 16);
 return x_4;
 }
 case 3:
 {
 ulong x_5 = 0; 
-x_5 = lean_ctor_get_uint64_s(x_2, 0);
+x_5 = lean_ctor_get_uint64(x_2, 24);
 return x_5;
 }
 case 4:
 {
 ulong x_6 = 0; 
-x_6 = lean_ctor_get_uint64_s(x_2, 0);
+x_6 = lean_ctor_get_uint64(x_2, 24);
 return x_6;
 }
 case 5:
 {
 ulong x_7 = 0; 
-x_7 = lean_ctor_get_uint64_s(x_2, 0);
+x_7 = lean_ctor_get_uint64(x_2, 40);
 return x_7;
 }
 default: 
 {
 ulong x_8 = 0; 
-x_8 = lean_ctor_get_uint64_s(x_2, 0);
+x_8 = lean_ctor_get_uint64(x_2, 32);
 return x_8;
 }
 }
@@ -137,8 +137,20 @@ x_7 = (ulong)(lean_uint64_mix_hash(x_3, x_6));
 x_8 = lean_alloc_ctor(0, 2, 8);
 lean_ctor_set(x_8, 0, x_1);
 lean_ctor_set(x_8, 1, x_2);
-lean_ctor_set_uint64_s(x_8, 0, x_7);
+lean_ctor_set_uint64(x_8, 16, x_7);
 return x_8;
+}
+}
+public static byte l_Std_Tactic_BVDecide_instDecidableEqBVBinPred(byte x_1, byte x_2) {
+_start:
+{
+Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
+x_3 = l_Std_Tactic_BVDecide_BVBinPred_ctorIdx(x_1);
+x_4 = l_Std_Tactic_BVDecide_BVBinPred_ctorIdx(x_2);
+x_5 = lean_u8(lean_nat_dec_eq(x_3, x_4));
+lean_dec(x_4);
+lean_dec(x_3);
+return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_or_elim(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
@@ -200,6 +212,27 @@ _start:
 Obj x_5 = null; 
 x_5 = l_Std_Tactic_BVDecide_BVPred_ctorElim___redArg(x_2, x_4);
 return x_5;
+}
+}
+public static byte l_Std_Tactic_BVDecide_BVExpr_instDecidableEqPackedBitVec_decEq(Obj x_1, Obj x_2) {
+_start:
+{
+Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
+x_3 = lean_ctor_get(x_1, 0);
+x_4 = lean_ctor_get(x_1, 1);
+x_5 = lean_ctor_get(x_2, 0);
+x_6 = lean_ctor_get(x_2, 1);
+x_7 = lean_u8(lean_nat_dec_eq(x_3, x_5));
+if (x_7 == 0)
+{
+return x_7;
+}
+else
+{
+byte x_8 = 0; 
+x_8 = lean_u8(lean_nat_dec_eq(x_4, x_6));
+return x_8;
+}
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_arithShiftRightConst_elim___redArg(Obj x_1, Obj x_2) {
@@ -275,6 +308,104 @@ x_6 = l_Std_Tactic_BVDecide_BVPred_ctorElim___redArg(x_3, x_5);
 return x_6;
 }
 }
+public static byte l_Std_Tactic_BVDecide_instDecidableEqBVPred_decEq(Obj x_1, Obj x_2) {
+_start:
+{
+if (lean_obj_tag(x_1) == 0)
+{
+if (lean_obj_tag(x_2) == 0)
+{
+Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; byte x_11 = 0; 
+x_3 = lean_ctor_get(x_1, 0);
+x_4 = lean_ctor_get(x_1, 1);
+x_5 = lean_ctor_get_uint8(x_1, 24);
+x_6 = lean_ctor_get(x_1, 2);
+x_7 = lean_ctor_get(x_2, 0);
+x_8 = lean_ctor_get(x_2, 1);
+x_9 = lean_ctor_get_uint8(x_2, 24);
+x_10 = lean_ctor_get(x_2, 2);
+x_11 = lean_u8(lean_nat_dec_eq(x_3, x_7));
+if (x_11 == 0)
+{
+return x_11;
+}
+else
+{
+byte x_12 = 0; 
+x_12 = l_Std_Tactic_BVDecide_BVExpr_decEq___redArg(x_4, x_8);
+if (x_12 == 0)
+{
+return x_12;
+}
+else
+{
+Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; 
+x_13 = l_Std_Tactic_BVDecide_BVBinPred_ctorIdx(x_5);
+x_14 = l_Std_Tactic_BVDecide_BVBinPred_ctorIdx(x_9);
+x_15 = lean_u8(lean_nat_dec_eq(x_13, x_14));
+lean_dec(x_14);
+lean_dec(x_13);
+if (x_15 == 0)
+{
+return x_15;
+}
+else
+{
+byte x_16 = 0; 
+x_16 = l_Std_Tactic_BVDecide_BVExpr_decEq___redArg(x_6, x_10);
+return x_16;
+}
+}
+}
+}
+else
+{
+byte x_17 = 0; 
+x_17 = (byte)0;
+return x_17;
+}
+}
+else
+{
+if (lean_obj_tag(x_2) == 0)
+{
+byte x_18 = 0; 
+x_18 = (byte)0;
+return x_18;
+}
+else
+{
+Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; 
+x_19 = lean_ctor_get(x_1, 0);
+x_20 = lean_ctor_get(x_1, 1);
+x_21 = lean_ctor_get(x_1, 2);
+x_22 = lean_ctor_get(x_2, 0);
+x_23 = lean_ctor_get(x_2, 1);
+x_24 = lean_ctor_get(x_2, 2);
+x_25 = lean_u8(lean_nat_dec_eq(x_19, x_22));
+if (x_25 == 0)
+{
+return x_25;
+}
+else
+{
+byte x_26 = 0; 
+x_26 = l_Std_Tactic_BVDecide_BVExpr_decEq___redArg(x_20, x_23);
+if (x_26 == 0)
+{
+return x_26;
+}
+else
+{
+byte x_27 = 0; 
+x_27 = lean_u8(lean_nat_dec_eq(x_21, x_24));
+return x_27;
+}
+}
+}
+}
+}
+}
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bin___override(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
 _start:
 {
@@ -285,42 +416,42 @@ switch (lean_obj_tag(x_2)) {
 case 0:
 {
 ulong x_25 = 0; 
-x_25 = lean_ctor_get_uint64_s(x_2, 0);
+x_25 = lean_ctor_get_uint64(x_2, 16);
 x_16 = x_25;
 goto block_24;
 }
 case 1:
 {
 ulong x_26 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_2, 0);
+x_26 = lean_ctor_get_uint64(x_2, 16);
 x_16 = x_26;
 goto block_24;
 }
 case 3:
 {
 ulong x_27 = 0; 
-x_27 = lean_ctor_get_uint64_s(x_2, 0);
+x_27 = lean_ctor_get_uint64(x_2, 24);
 x_16 = x_27;
 goto block_24;
 }
 case 4:
 {
 ulong x_28 = 0; 
-x_28 = lean_ctor_get_uint64_s(x_2, 0);
+x_28 = lean_ctor_get_uint64(x_2, 24);
 x_16 = x_28;
 goto block_24;
 }
 case 5:
 {
 ulong x_29 = 0; 
-x_29 = lean_ctor_get_uint64_s(x_2, 0);
+x_29 = lean_ctor_get_uint64(x_2, 40);
 x_16 = x_29;
 goto block_24;
 }
 default: 
 {
 ulong x_30 = 0; 
-x_30 = lean_ctor_get_uint64_s(x_2, 0);
+x_30 = lean_ctor_get_uint64(x_2, 32);
 x_16 = x_30;
 goto block_24;
 }
@@ -336,8 +467,8 @@ x_14 = lean_alloc_ctor(3, 3, 9);
 lean_ctor_set(x_14, 0, x_1);
 lean_ctor_set(x_14, 1, x_2);
 lean_ctor_set(x_14, 2, x_4);
-lean_ctor_set_uint64_s(x_14, 0, x_13);
-lean_ctor_set_uint8_s(x_14, 8, x_3);
+lean_ctor_set_uint64(x_14, 24, x_13);
+lean_ctor_set_uint8(x_14, 32, x_3);
 return x_14;
 }
 block_24:
@@ -348,7 +479,7 @@ switch (lean_obj_tag(x_4)) {
 case 0:
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_4, 0);
+x_18 = lean_ctor_get_uint64(x_4, 16);
 x_7 = x_16;
 x_8 = x_17;
 x_9 = x_18;
@@ -357,7 +488,7 @@ goto block_15;
 case 1:
 {
 ulong x_19 = 0; 
-x_19 = lean_ctor_get_uint64_s(x_4, 0);
+x_19 = lean_ctor_get_uint64(x_4, 16);
 x_7 = x_16;
 x_8 = x_17;
 x_9 = x_19;
@@ -366,7 +497,7 @@ goto block_15;
 case 3:
 {
 ulong x_20 = 0; 
-x_20 = lean_ctor_get_uint64_s(x_4, 0);
+x_20 = lean_ctor_get_uint64(x_4, 24);
 x_7 = x_16;
 x_8 = x_17;
 x_9 = x_20;
@@ -375,7 +506,7 @@ goto block_15;
 case 4:
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_4, 0);
+x_21 = lean_ctor_get_uint64(x_4, 24);
 x_7 = x_16;
 x_8 = x_17;
 x_9 = x_21;
@@ -384,7 +515,7 @@ goto block_15;
 case 5:
 {
 ulong x_22 = 0; 
-x_22 = lean_ctor_get_uint64_s(x_4, 0);
+x_22 = lean_ctor_get_uint64(x_4, 40);
 x_7 = x_16;
 x_8 = x_17;
 x_9 = x_22;
@@ -393,7 +524,7 @@ goto block_15;
 default: 
 {
 ulong x_23 = 0; 
-x_23 = lean_ctor_get_uint64_s(x_4, 0);
+x_23 = lean_ctor_get_uint64(x_4, 32);
 x_7 = x_16;
 x_8 = x_17;
 x_9 = x_23;
@@ -408,6 +539,19 @@ _start:
 {
 lean_inc(x_1);
 return x_1;
+}
+}
+static Obj l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default___closed__0_cell;
+public static Obj l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default___closed__0 => l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default___closed__0_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default___closed__0_cell, &_init_l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default___closed__0);
+public static Obj _init_l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default___closed__0() {
+_start:
+{
+Obj x_1 = null; Obj x_2 = null; 
+x_1 = lean_unsigned_to_nat(0u);
+x_2 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_2, 0, x_1);
+lean_ctor_set(x_2, 1, x_1);
+return x_2;
 }
 }
 static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__11_cell;
@@ -449,42 +593,42 @@ switch (lean_obj_tag(x_4)) {
 case 0:
 {
 ulong x_14 = 0; 
-x_14 = lean_ctor_get_uint64_s(x_4, 0);
+x_14 = lean_ctor_get_uint64(x_4, 16);
 x_8 = x_14;
 goto block_13;
 }
 case 1:
 {
 ulong x_15 = 0; 
-x_15 = lean_ctor_get_uint64_s(x_4, 0);
+x_15 = lean_ctor_get_uint64(x_4, 16);
 x_8 = x_15;
 goto block_13;
 }
 case 3:
 {
 ulong x_16 = 0; 
-x_16 = lean_ctor_get_uint64_s(x_4, 0);
+x_16 = lean_ctor_get_uint64(x_4, 24);
 x_8 = x_16;
 goto block_13;
 }
 case 4:
 {
 ulong x_17 = 0; 
-x_17 = lean_ctor_get_uint64_s(x_4, 0);
+x_17 = lean_ctor_get_uint64(x_4, 24);
 x_8 = x_17;
 goto block_13;
 }
 case 5:
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_4, 0);
+x_18 = lean_ctor_get_uint64(x_4, 40);
 x_8 = x_18;
 goto block_13;
 }
 default: 
 {
 ulong x_19 = 0; 
-x_19 = lean_ctor_get_uint64_s(x_4, 0);
+x_19 = lean_ctor_get_uint64(x_4, 32);
 x_8 = x_19;
 goto block_13;
 }
@@ -500,7 +644,7 @@ lean_ctor_set(x_12, 0, x_1);
 lean_ctor_set(x_12, 1, x_2);
 lean_ctor_set(x_12, 2, x_3);
 lean_ctor_set(x_12, 3, x_4);
-lean_ctor_set_uint64_s(x_12, 0, x_11);
+lean_ctor_set_uint64(x_12, 32, x_11);
 return x_12;
 }
 }
@@ -523,6 +667,16 @@ Obj x_2 = null;
 x_2 = l_Std_Tactic_BVDecide_BVBinOp_mul_elim___redArg(x_1);
 lean_dec(x_1);
 return x_2;
+}
+}
+static Obj l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default_cell;
+public static Obj l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default => l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default_cell, &_init_l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default);
+public static Obj _init_l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default() {
+_start:
+{
+Obj x_1 = null; 
+x_1 = l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default___closed__0;
+return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_eval(Obj x_1, Obj x_2, Obj x_3) {
@@ -610,42 +764,42 @@ switch (lean_obj_tag(x_3)) {
 case 0:
 {
 ulong x_13 = 0; 
-x_13 = lean_ctor_get_uint64_s(x_3, 0);
+x_13 = lean_ctor_get_uint64(x_3, 16);
 x_7 = x_13;
 goto block_12;
 }
 case 1:
 {
 ulong x_14 = 0; 
-x_14 = lean_ctor_get_uint64_s(x_3, 0);
+x_14 = lean_ctor_get_uint64(x_3, 16);
 x_7 = x_14;
 goto block_12;
 }
 case 3:
 {
 ulong x_15 = 0; 
-x_15 = lean_ctor_get_uint64_s(x_3, 0);
+x_15 = lean_ctor_get_uint64(x_3, 24);
 x_7 = x_15;
 goto block_12;
 }
 case 4:
 {
 ulong x_16 = 0; 
-x_16 = lean_ctor_get_uint64_s(x_3, 0);
+x_16 = lean_ctor_get_uint64(x_3, 24);
 x_7 = x_16;
 goto block_12;
 }
 case 5:
 {
 ulong x_17 = 0; 
-x_17 = lean_ctor_get_uint64_s(x_3, 0);
+x_17 = lean_ctor_get_uint64(x_3, 40);
 x_7 = x_17;
 goto block_12;
 }
 default: 
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_3, 0);
+x_18 = lean_ctor_get_uint64(x_3, 32);
 x_7 = x_18;
 goto block_12;
 }
@@ -660,7 +814,7 @@ x_11 = lean_alloc_ctor(4, 3, 8);
 lean_ctor_set(x_11, 0, x_1);
 lean_ctor_set(x_11, 1, x_2);
 lean_ctor_set(x_11, 2, x_3);
-lean_ctor_set_uint64_s(x_11, 0, x_10);
+lean_ctor_set_uint64(x_11, 24, x_10);
 return x_11;
 }
 }
@@ -698,6 +852,179 @@ x_1 = l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__0;
 x_2 = lean_alloc_ctor(3, 1, 0);
 lean_ctor_set(x_2, 0, x_1);
 return x_2;
+}
+}
+public static ulong l_Std_Tactic_BVDecide_instHashableBVPred_hash(Obj x_1) {
+_start:
+{
+if (lean_obj_tag(x_1) == 0)
+{
+Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; 
+x_2 = lean_ctor_get(x_1, 0);
+x_3 = lean_ctor_get(x_1, 1);
+x_4 = lean_ctor_get_uint8(x_1, 24);
+x_5 = lean_ctor_get(x_1, 2);
+x_6 = 0UL;
+x_7 = (ulong)(lean_uint64_of_nat(x_2));
+x_8 = (ulong)(lean_uint64_mix_hash(x_6, x_7));
+switch (lean_obj_tag(x_3)) {
+case 0:
+{
+ulong x_26 = 0; 
+x_26 = lean_ctor_get_uint64(x_3, 16);
+x_9 = x_26;
+goto block_25;
+}
+case 1:
+{
+ulong x_27 = 0; 
+x_27 = lean_ctor_get_uint64(x_3, 16);
+x_9 = x_27;
+goto block_25;
+}
+case 3:
+{
+ulong x_28 = 0; 
+x_28 = lean_ctor_get_uint64(x_3, 24);
+x_9 = x_28;
+goto block_25;
+}
+case 4:
+{
+ulong x_29 = 0; 
+x_29 = lean_ctor_get_uint64(x_3, 24);
+x_9 = x_29;
+goto block_25;
+}
+case 5:
+{
+ulong x_30 = 0; 
+x_30 = lean_ctor_get_uint64(x_3, 40);
+x_9 = x_30;
+goto block_25;
+}
+default: 
+{
+ulong x_31 = 0; 
+x_31 = lean_ctor_get_uint64(x_3, 32);
+x_9 = x_31;
+goto block_25;
+}
+}
+block_25:
+{
+ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; 
+x_10 = (ulong)(lean_uint64_mix_hash(x_8, x_9));
+x_11 = l_Std_Tactic_BVDecide_instHashableBVBinPred_hash(x_4);
+x_12 = (ulong)(lean_uint64_mix_hash(x_10, x_11));
+switch (lean_obj_tag(x_5)) {
+case 0:
+{
+ulong x_13 = 0; ulong x_14 = 0; 
+x_13 = lean_ctor_get_uint64(x_5, 16);
+x_14 = (ulong)(lean_uint64_mix_hash(x_12, x_13));
+return x_14;
+}
+case 1:
+{
+ulong x_15 = 0; ulong x_16 = 0; 
+x_15 = lean_ctor_get_uint64(x_5, 16);
+x_16 = (ulong)(lean_uint64_mix_hash(x_12, x_15));
+return x_16;
+}
+case 3:
+{
+ulong x_17 = 0; ulong x_18 = 0; 
+x_17 = lean_ctor_get_uint64(x_5, 24);
+x_18 = (ulong)(lean_uint64_mix_hash(x_12, x_17));
+return x_18;
+}
+case 4:
+{
+ulong x_19 = 0; ulong x_20 = 0; 
+x_19 = lean_ctor_get_uint64(x_5, 24);
+x_20 = (ulong)(lean_uint64_mix_hash(x_12, x_19));
+return x_20;
+}
+case 5:
+{
+ulong x_21 = 0; ulong x_22 = 0; 
+x_21 = lean_ctor_get_uint64(x_5, 40);
+x_22 = (ulong)(lean_uint64_mix_hash(x_12, x_21));
+return x_22;
+}
+default: 
+{
+ulong x_23 = 0; ulong x_24 = 0; 
+x_23 = lean_ctor_get_uint64(x_5, 32);
+x_24 = (ulong)(lean_uint64_mix_hash(x_12, x_23));
+return x_24;
+}
+}
+}
+}
+else
+{
+Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; ulong x_35 = 0; ulong x_36 = 0; ulong x_37 = 0; ulong x_38 = 0; 
+x_32 = lean_ctor_get(x_1, 0);
+x_33 = lean_ctor_get(x_1, 1);
+x_34 = lean_ctor_get(x_1, 2);
+x_35 = 1UL;
+x_36 = (ulong)(lean_uint64_of_nat(x_32));
+x_37 = (ulong)(lean_uint64_mix_hash(x_35, x_36));
+switch (lean_obj_tag(x_33)) {
+case 0:
+{
+ulong x_43 = 0; 
+x_43 = lean_ctor_get_uint64(x_33, 16);
+x_38 = x_43;
+goto block_42;
+}
+case 1:
+{
+ulong x_44 = 0; 
+x_44 = lean_ctor_get_uint64(x_33, 16);
+x_38 = x_44;
+goto block_42;
+}
+case 3:
+{
+ulong x_45 = 0; 
+x_45 = lean_ctor_get_uint64(x_33, 24);
+x_38 = x_45;
+goto block_42;
+}
+case 4:
+{
+ulong x_46 = 0; 
+x_46 = lean_ctor_get_uint64(x_33, 24);
+x_38 = x_46;
+goto block_42;
+}
+case 5:
+{
+ulong x_47 = 0; 
+x_47 = lean_ctor_get_uint64(x_33, 40);
+x_38 = x_47;
+goto block_42;
+}
+default: 
+{
+ulong x_48 = 0; 
+x_48 = lean_ctor_get_uint64(x_33, 32);
+x_38 = x_48;
+goto block_42;
+}
+}
+block_42:
+{
+ulong x_39 = 0; ulong x_40 = 0; ulong x_41 = 0; 
+x_39 = (ulong)(lean_uint64_mix_hash(x_37, x_38));
+x_40 = (ulong)(lean_uint64_of_nat(x_34));
+x_41 = (ulong)(lean_uint64_mix_hash(x_39, x_40));
+return x_41;
+}
+}
 }
 }
 static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__0_cell;
@@ -832,7 +1159,7 @@ x_25 = lean_ctor_get(x_3, 0);
 lean_inc(x_25);
 x_26 = lean_ctor_get(x_3, 1);
 lean_inc_ref(x_26);
-x_27 = lean_ctor_get_uint8_s(x_3, 8);
+x_27 = lean_ctor_get_uint8(x_3, 32);
 x_28 = lean_ctor_get(x_3, 2);
 lean_inc_ref(x_28);
 lean_dec_ref(x_3);
@@ -1028,12 +1355,43 @@ x_5 = l_Std_Tactic_BVDecide_BVUnOp_ctorElim___redArg(x_2, x_4);
 return x_5;
 }
 }
+public static ulong l_Std_Tactic_BVDecide_instHashableBVBinPred_hash(byte x_1) {
+_start:
+{
+if (x_1 == 0)
+{
+ulong x_2 = 0; 
+x_2 = 0UL;
+return x_2;
+}
+else
+{
+ulong x_3 = 0; 
+x_3 = 1UL;
+return x_3;
+}
+}
+}
 public static Obj l_Std_Tactic_BVDecide_BVExpr_arithShiftRight_elim___redArg(Obj x_1, Obj x_2) {
 _start:
 {
 Obj x_3 = null; 
 x_3 = l_Std_Tactic_BVDecide_BVExpr_ctorElim___redArg(x_1, x_2);
 return x_3;
+}
+}
+public static ulong l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec_hash(Obj x_1) {
+_start:
+{
+Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; 
+x_2 = lean_ctor_get(x_1, 0);
+x_3 = lean_ctor_get(x_1, 1);
+x_4 = 0UL;
+x_5 = (ulong)(lean_uint64_of_nat(x_2));
+x_6 = (ulong)(lean_uint64_mix_hash(x_4, x_5));
+x_7 = M_Init_Data_BitVec_Basic.l_BitVec_hash(x_2, x_3);
+x_8 = (ulong)(lean_uint64_mix_hash(x_6, x_7));
+return x_8;
 }
 }
 public static Obj l___private_Std_Tactic_BVDecide_Bitblast_BVExpr_Basic_0__Std_Tactic_BVDecide_BVExpr_toString_match__1_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
@@ -1112,7 +1470,7 @@ lean_dec(x_5);
 lean_dec(x_4);
 x_22 = lean_ctor_get(x_3, 1);
 lean_inc_ref(x_22);
-x_23 = lean_ctor_get_uint8_s(x_3, 8);
+x_23 = lean_ctor_get_uint8(x_3, 32);
 x_24 = lean_ctor_get(x_3, 2);
 lean_inc_ref(x_24);
 lean_dec_ref(x_3);
@@ -1265,7 +1623,7 @@ x_2 = lean_ctor_get(x_1, 0);
 lean_inc_n(x_2, 2);
 x_3 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_3);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 24);
 x_5 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_5);
 lean_dec_ref(x_1);
@@ -1383,7 +1741,7 @@ x_14 = lean_ctor_get(x_1, 0);
 lean_inc(x_14);
 x_15 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_15);
-x_16 = lean_ctor_get_uint8_s(x_1, 0);
+x_16 = lean_ctor_get_uint8(x_1, 24);
 x_17 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_17);
 lean_dec_ref(x_1);
@@ -1665,6 +2023,16 @@ x_4 = lean_box(x_3);
 return x_4;
 }
 }
+public static Obj l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec_hash___boxed(Obj x_1) {
+_start:
+{
+ulong x_2 = 0; Obj x_3 = null; 
+x_2 = l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec_hash(x_1);
+lean_dec_ref(x_1);
+x_3 = lean_box_uint64(x_2);
+return x_3;
+}
+}
 public static Obj l_Std_Tactic_BVDecide_BVExpr_replicate_elim___redArg(Obj x_1, Obj x_2) {
 _start:
 {
@@ -1721,6 +2089,16 @@ _start:
 Obj x_6 = null; 
 x_6 = l_Std_Tactic_BVDecide_BVExpr_ctorElim___redArg(x_3, x_5);
 return x_6;
+}
+}
+static Obj l_Std_Tactic_BVDecide_instHashableBVPred_cell;
+public static Obj l_Std_Tactic_BVDecide_instHashableBVPred => l_Std_Tactic_BVDecide_instHashableBVPred_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_instHashableBVPred_cell, &_init_l_Std_Tactic_BVDecide_instHashableBVPred);
+public static Obj _init_l_Std_Tactic_BVDecide_instHashableBVPred() {
+_start:
+{
+Obj x_1 = null; 
+x_1 = l_Std_Tactic_BVDecide_instHashableBVPred___closed__0;
+return x_1;
 }
 }
 static Obj l_Std_Tactic_BVDecide_BVBinOp_toString___closed__0_cell;
@@ -1804,6 +2182,16 @@ x_1 = l_Std_Tactic_BVDecide_instHashableBVBinOp___closed__0;
 return x_1;
 }
 }
+static Obj l_Std_Tactic_BVDecide_instHashableBVPred___closed__0_cell;
+public static Obj l_Std_Tactic_BVDecide_instHashableBVPred___closed__0 => l_Std_Tactic_BVDecide_instHashableBVPred___closed__0_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_instHashableBVPred___closed__0_cell, &_init_l_Std_Tactic_BVDecide_instHashableBVPred___closed__0);
+public static Obj _init_l_Std_Tactic_BVDecide_instHashableBVPred___closed__0() {
+_start:
+{
+Obj x_1 = null; 
+x_1 = lean_alloc_closure((delegate*<Obj, Obj>)&l_Std_Tactic_BVDecide_instHashableBVPred_hash___boxed, 1, 0);
+return x_1;
+}
+}
 public static Obj l_Std_Tactic_BVDecide_instDecidableEqBVBinOp___boxed(Obj x_1, Obj x_2) {
 _start:
 {
@@ -1828,42 +2216,42 @@ switch (lean_obj_tag(x_1)) {
 case 0:
 {
 ulong x_116 = 0; 
-x_116 = lean_ctor_get_uint64_s(x_1, 0);
+x_116 = lean_ctor_get_uint64(x_1, 16);
 x_108 = x_116;
 goto block_115;
 }
 case 1:
 {
 ulong x_117 = 0; 
-x_117 = lean_ctor_get_uint64_s(x_1, 0);
+x_117 = lean_ctor_get_uint64(x_1, 16);
 x_108 = x_117;
 goto block_115;
 }
 case 3:
 {
 ulong x_118 = 0; 
-x_118 = lean_ctor_get_uint64_s(x_1, 0);
+x_118 = lean_ctor_get_uint64(x_1, 24);
 x_108 = x_118;
 goto block_115;
 }
 case 4:
 {
 ulong x_119 = 0; 
-x_119 = lean_ctor_get_uint64_s(x_1, 0);
+x_119 = lean_ctor_get_uint64(x_1, 24);
 x_108 = x_119;
 goto block_115;
 }
 case 5:
 {
 ulong x_120 = 0; 
-x_120 = lean_ctor_get_uint64_s(x_1, 0);
+x_120 = lean_ctor_get_uint64(x_1, 40);
 x_108 = x_120;
 goto block_115;
 }
 default: 
 {
 ulong x_121 = 0; 
-x_121 = lean_ctor_get_uint64_s(x_1, 0);
+x_121 = lean_ctor_get_uint64(x_1, 32);
 x_108 = x_121;
 goto block_115;
 }
@@ -2027,10 +2415,10 @@ if (lean_obj_tag(x_2) == 3)
 {
 Obj x_45 = null; byte x_46 = 0; Obj x_47 = null; Obj x_48 = null; byte x_49 = 0; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; byte x_53 = 0; 
 x_45 = lean_ctor_get(x_1, 1);
-x_46 = lean_ctor_get_uint8_s(x_1, 8);
+x_46 = lean_ctor_get_uint8(x_1, 32);
 x_47 = lean_ctor_get(x_1, 2);
 x_48 = lean_ctor_get(x_2, 1);
-x_49 = lean_ctor_get_uint8_s(x_2, 8);
+x_49 = lean_ctor_get_uint8(x_2, 32);
 x_50 = lean_ctor_get(x_2, 2);
 x_51 = l_Std_Tactic_BVDecide_BVBinOp_ctorIdx(x_46);
 x_52 = l_Std_Tactic_BVDecide_BVBinOp_ctorIdx(x_49);
@@ -2328,7 +2716,7 @@ switch (lean_obj_tag(x_2)) {
 case 0:
 {
 ulong x_109 = 0; 
-x_109 = lean_ctor_get_uint64_s(x_2, 0);
+x_109 = lean_ctor_get_uint64(x_2, 16);
 x_28 = x_108;
 x_29 = x_109;
 goto block_107;
@@ -2336,7 +2724,7 @@ goto block_107;
 case 1:
 {
 ulong x_110 = 0; 
-x_110 = lean_ctor_get_uint64_s(x_2, 0);
+x_110 = lean_ctor_get_uint64(x_2, 16);
 x_28 = x_108;
 x_29 = x_110;
 goto block_107;
@@ -2344,7 +2732,7 @@ goto block_107;
 case 3:
 {
 ulong x_111 = 0; 
-x_111 = lean_ctor_get_uint64_s(x_2, 0);
+x_111 = lean_ctor_get_uint64(x_2, 24);
 x_28 = x_108;
 x_29 = x_111;
 goto block_107;
@@ -2352,7 +2740,7 @@ goto block_107;
 case 4:
 {
 ulong x_112 = 0; 
-x_112 = lean_ctor_get_uint64_s(x_2, 0);
+x_112 = lean_ctor_get_uint64(x_2, 24);
 x_28 = x_108;
 x_29 = x_112;
 goto block_107;
@@ -2360,7 +2748,7 @@ goto block_107;
 case 5:
 {
 ulong x_113 = 0; 
-x_113 = lean_ctor_get_uint64_s(x_2, 0);
+x_113 = lean_ctor_get_uint64(x_2, 40);
 x_28 = x_108;
 x_29 = x_113;
 goto block_107;
@@ -2368,7 +2756,7 @@ goto block_107;
 default: 
 {
 ulong x_114 = 0; 
-x_114 = lean_ctor_get_uint64_s(x_2, 0);
+x_114 = lean_ctor_get_uint64(x_2, 32);
 x_28 = x_108;
 x_29 = x_114;
 goto block_107;
@@ -2530,7 +2918,7 @@ case 3:
 Obj x_16 = null; byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
 x_16 = lean_ctor_get(x_3, 1);
 lean_inc_ref(x_16);
-x_17 = lean_ctor_get_uint8_s(x_3, 8);
+x_17 = lean_ctor_get_uint8(x_3, 32);
 x_18 = lean_ctor_get(x_3, 2);
 lean_inc_ref(x_18);
 lean_dec_ref(x_3);
@@ -2732,6 +3120,16 @@ x_1 = lean_mk_string_unchecked("%ᵤ"u8, 4, 2);
 return x_1;
 }
 }
+public static Obj l_Std_Tactic_BVDecide_BVBinPred_ofNat___boxed(Obj x_1) {
+_start:
+{
+byte x_2 = 0; Obj x_3 = null; 
+x_2 = l_Std_Tactic_BVDecide_BVBinPred_ofNat(x_1);
+lean_dec(x_1);
+x_3 = lean_box(x_2);
+return x_3;
+}
+}
 public static Obj l_Std_Tactic_BVDecide_BVExpr_hashCode___override___boxed(Obj x_1, Obj x_2) {
 _start:
 {
@@ -2739,6 +3137,16 @@ ulong x_3 = 0; Obj x_4 = null;
 x_3 = l_Std_Tactic_BVDecide_BVExpr_hashCode___override(x_1, x_2);
 lean_dec_ref(x_2);
 lean_dec(x_1);
+x_4 = lean_box_uint64(x_3);
+return x_4;
+}
+}
+public static Obj l_Std_Tactic_BVDecide_instHashableBVBinPred_hash___boxed(Obj x_1) {
+_start:
+{
+byte x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
+x_2 = (byte)lean_unbox(x_1);
+x_3 = l_Std_Tactic_BVDecide_instHashableBVBinPred_hash(x_2);
 x_4 = lean_box_uint64(x_3);
 return x_4;
 }
@@ -2756,6 +3164,16 @@ _start:
 {
 Obj x_3 = null; 
 x_3 = l_Std_Tactic_BVDecide_BVExpr_ctorElim___redArg(x_1, x_2);
+return x_3;
+}
+}
+public static Obj l_Std_Tactic_BVDecide_instHashableBVPred_hash___boxed(Obj x_1) {
+_start:
+{
+ulong x_2 = 0; Obj x_3 = null; 
+x_2 = l_Std_Tactic_BVDecide_instHashableBVPred_hash(x_1);
+lean_dec_ref(x_1);
+x_3 = lean_box_uint64(x_2);
 return x_3;
 }
 }
@@ -2917,7 +3335,7 @@ x_23 = lean_ctor_get(x_1, 0);
 lean_inc(x_23);
 x_24 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_24);
-x_25 = lean_ctor_get_uint8_s(x_1, 8);
+x_25 = lean_ctor_get_uint8(x_1, 32);
 x_26 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_26);
 lean_dec_ref(x_1);
@@ -3148,7 +3566,7 @@ lean_dec(x_4);
 lean_dec(x_3);
 x_21 = lean_ctor_get(x_2, 1);
 lean_inc_ref(x_21);
-x_22 = lean_ctor_get_uint8_s(x_2, 8);
+x_22 = lean_ctor_get_uint8(x_2, 32);
 x_23 = lean_ctor_get(x_2, 2);
 lean_inc_ref(x_23);
 lean_dec_ref(x_2);
@@ -3694,6 +4112,25 @@ x_3 = l_Std_Tactic_BVDecide_BVExpr_ctorElim___redArg(x_1, x_2);
 return x_3;
 }
 }
+public static byte l_Std_Tactic_BVDecide_BVExpr_instDecidableEqPackedBitVec(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; 
+x_3 = l_Std_Tactic_BVDecide_BVExpr_instDecidableEqPackedBitVec_decEq(x_1, x_2);
+return x_3;
+}
+}
+public static Obj l_Std_Tactic_BVDecide_instDecidableEqBVPred_decEq___boxed(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; Obj x_4 = null; 
+x_3 = l_Std_Tactic_BVDecide_instDecidableEqBVPred_decEq(x_1, x_2);
+lean_dec_ref(x_2);
+lean_dec_ref(x_1);
+x_4 = lean_box(x_3);
+return x_4;
+}
+}
 static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__5_cell;
 public static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__5 => l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__5_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__5_cell, &_init_l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__5);
 public static Obj _init_l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__5() {
@@ -3750,42 +4187,42 @@ switch (lean_obj_tag(x_3)) {
 case 0:
 {
 ulong x_22 = 0; 
-x_22 = lean_ctor_get_uint64_s(x_3, 0);
+x_22 = lean_ctor_get_uint64(x_3, 16);
 x_14 = x_22;
 goto block_21;
 }
 case 1:
 {
 ulong x_23 = 0; 
-x_23 = lean_ctor_get_uint64_s(x_3, 0);
+x_23 = lean_ctor_get_uint64(x_3, 16);
 x_14 = x_23;
 goto block_21;
 }
 case 3:
 {
 ulong x_24 = 0; 
-x_24 = lean_ctor_get_uint64_s(x_3, 0);
+x_24 = lean_ctor_get_uint64(x_3, 24);
 x_14 = x_24;
 goto block_21;
 }
 case 4:
 {
 ulong x_25 = 0; 
-x_25 = lean_ctor_get_uint64_s(x_3, 0);
+x_25 = lean_ctor_get_uint64(x_3, 24);
 x_14 = x_25;
 goto block_21;
 }
 case 5:
 {
 ulong x_26 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_3, 0);
+x_26 = lean_ctor_get_uint64(x_3, 40);
 x_14 = x_26;
 goto block_21;
 }
 default: 
 {
 ulong x_27 = 0; 
-x_27 = lean_ctor_get_uint64_s(x_3, 0);
+x_27 = lean_ctor_get_uint64(x_3, 32);
 x_14 = x_27;
 goto block_21;
 }
@@ -3801,7 +4238,7 @@ lean_ctor_set(x_12, 0, x_1);
 lean_ctor_set(x_12, 1, x_2);
 lean_ctor_set(x_12, 2, x_3);
 lean_ctor_set(x_12, 3, x_4);
-lean_ctor_set_uint64_s(x_12, 0, x_11);
+lean_ctor_set_uint64(x_12, 32, x_11);
 return x_12;
 }
 block_21:
@@ -3810,7 +4247,7 @@ switch (lean_obj_tag(x_4)) {
 case 0:
 {
 ulong x_15 = 0; 
-x_15 = lean_ctor_get_uint64_s(x_4, 0);
+x_15 = lean_ctor_get_uint64(x_4, 16);
 x_7 = x_14;
 x_8 = x_15;
 goto block_13;
@@ -3818,7 +4255,7 @@ goto block_13;
 case 1:
 {
 ulong x_16 = 0; 
-x_16 = lean_ctor_get_uint64_s(x_4, 0);
+x_16 = lean_ctor_get_uint64(x_4, 16);
 x_7 = x_14;
 x_8 = x_16;
 goto block_13;
@@ -3826,7 +4263,7 @@ goto block_13;
 case 3:
 {
 ulong x_17 = 0; 
-x_17 = lean_ctor_get_uint64_s(x_4, 0);
+x_17 = lean_ctor_get_uint64(x_4, 24);
 x_7 = x_14;
 x_8 = x_17;
 goto block_13;
@@ -3834,7 +4271,7 @@ goto block_13;
 case 4:
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_4, 0);
+x_18 = lean_ctor_get_uint64(x_4, 24);
 x_7 = x_14;
 x_8 = x_18;
 goto block_13;
@@ -3842,7 +4279,7 @@ goto block_13;
 case 5:
 {
 ulong x_19 = 0; 
-x_19 = lean_ctor_get_uint64_s(x_4, 0);
+x_19 = lean_ctor_get_uint64(x_4, 40);
 x_7 = x_14;
 x_8 = x_19;
 goto block_13;
@@ -3850,7 +4287,7 @@ goto block_13;
 default: 
 {
 ulong x_20 = 0; 
-x_20 = lean_ctor_get_uint64_s(x_4, 0);
+x_20 = lean_ctor_get_uint64(x_4, 32);
 x_7 = x_14;
 x_8 = x_20;
 goto block_13;
@@ -3904,6 +4341,17 @@ _start:
 Obj x_5 = null; 
 x_5 = l_Std_Tactic_BVDecide_BVUnOp_ctorElim___redArg(x_2, x_4);
 return x_5;
+}
+}
+public static Obj l_Std_Tactic_BVDecide_instDecidableEqBVBinPred___boxed(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
+x_3 = (byte)lean_unbox(x_1);
+x_4 = (byte)lean_unbox(x_2);
+x_5 = l_Std_Tactic_BVDecide_instDecidableEqBVBinPred(x_3, x_4);
+x_6 = lean_box(x_5);
+return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instToStringBVBit___lam__0(Obj x_1) {
@@ -4036,7 +4484,7 @@ lean_ctor_set(x_10, 1, x_9);
 x_11 = (byte)0;
 x_12 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_12, 0, x_10);
-lean_ctor_set_uint8_s(x_12, 0, x_11);
+lean_ctor_set_uint8(x_12, 8, x_11);
 x_13 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_13, 0, x_6);
 lean_ctor_set(x_13, 1, x_12);
@@ -4064,7 +4512,7 @@ lean_ctor_set(x_24, 0, x_21);
 lean_ctor_set(x_24, 1, x_23);
 x_25 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_25, 0, x_24);
-lean_ctor_set_uint8_s(x_25, 0, x_11);
+lean_ctor_set_uint8(x_25, 8, x_11);
 x_26 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_26, 0, x_20);
 lean_ctor_set(x_26, 1, x_25);
@@ -4089,7 +4537,7 @@ lean_ctor_set(x_34, 0, x_7);
 lean_ctor_set(x_34, 1, x_33);
 x_35 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_35, 0, x_34);
-lean_ctor_set_uint8_s(x_35, 0, x_11);
+lean_ctor_set_uint8(x_35, 8, x_11);
 x_36 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_36, 0, x_31);
 lean_ctor_set(x_36, 1, x_35);
@@ -4107,7 +4555,7 @@ lean_ctor_set(x_42, 0, x_37);
 lean_ctor_set(x_42, 1, x_41);
 x_43 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_43, 0, x_42);
-lean_ctor_set_uint8_s(x_43, 0, x_11);
+lean_ctor_set_uint8(x_43, 8, x_11);
 return x_43;
 }
 }
@@ -4117,6 +4565,16 @@ _start:
 Obj x_2 = null; 
 x_2 = l_Std_Tactic_BVDecide_BVExpr_instHashable___redArg();
 return x_2;
+}
+}
+static Obj l_Std_Tactic_BVDecide_instHashableBVBinPred_cell;
+public static Obj l_Std_Tactic_BVDecide_instHashableBVBinPred => l_Std_Tactic_BVDecide_instHashableBVBinPred_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_instHashableBVBinPred_cell, &_init_l_Std_Tactic_BVDecide_instHashableBVBinPred);
+public static Obj _init_l_Std_Tactic_BVDecide_instHashableBVBinPred() {
+_start:
+{
+Obj x_1 = null; 
+x_1 = l_Std_Tactic_BVDecide_instHashableBVBinPred___closed__0;
+return x_1;
 }
 }
 static Obj l_Std_Tactic_BVDecide_BVBinOp_toString___closed__2_cell;
@@ -4176,6 +4634,26 @@ x_2 = l_Std_Tactic_BVDecide_BVExpr_hashCode___override___redArg(x_1);
 lean_dec_ref(x_1);
 x_3 = lean_box_uint64(x_2);
 return x_3;
+}
+}
+public static byte l_Std_Tactic_BVDecide_BVBinPred_ofNat(Obj x_1) {
+_start:
+{
+Obj x_2 = null; byte x_3 = 0; 
+x_2 = lean_unsigned_to_nat(0u);
+x_3 = lean_u8(lean_nat_dec_le(x_1, x_2));
+if (x_3 == 0)
+{
+byte x_4 = 0; 
+x_4 = (byte)1;
+return x_4;
+}
+else
+{
+byte x_5 = 0; 
+x_5 = (byte)0;
+return x_5;
+}
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_udiv_elim___redArg___boxed(Obj x_1) {
@@ -4322,37 +4800,37 @@ switch (lean_obj_tag(x_1)) {
 case 0:
 {
 ulong x_2 = 0; 
-x_2 = lean_ctor_get_uint64_s(x_1, 0);
+x_2 = lean_ctor_get_uint64(x_1, 16);
 return x_2;
 }
 case 1:
 {
 ulong x_3 = 0; 
-x_3 = lean_ctor_get_uint64_s(x_1, 0);
+x_3 = lean_ctor_get_uint64(x_1, 16);
 return x_3;
 }
 case 3:
 {
 ulong x_4 = 0; 
-x_4 = lean_ctor_get_uint64_s(x_1, 0);
+x_4 = lean_ctor_get_uint64(x_1, 24);
 return x_4;
 }
 case 4:
 {
 ulong x_5 = 0; 
-x_5 = lean_ctor_get_uint64_s(x_1, 0);
+x_5 = lean_ctor_get_uint64(x_1, 24);
 return x_5;
 }
 case 5:
 {
 ulong x_6 = 0; 
-x_6 = lean_ctor_get_uint64_s(x_1, 0);
+x_6 = lean_ctor_get_uint64(x_1, 40);
 return x_6;
 }
 default: 
 {
 ulong x_7 = 0; 
-x_7 = lean_ctor_get_uint64_s(x_1, 0);
+x_7 = lean_ctor_get_uint64(x_1, 32);
 return x_7;
 }
 }
@@ -4487,42 +4965,42 @@ switch (lean_obj_tag(x_4)) {
 case 0:
 {
 ulong x_14 = 0; 
-x_14 = lean_ctor_get_uint64_s(x_4, 0);
+x_14 = lean_ctor_get_uint64(x_4, 16);
 x_8 = x_14;
 goto block_13;
 }
 case 1:
 {
 ulong x_15 = 0; 
-x_15 = lean_ctor_get_uint64_s(x_4, 0);
+x_15 = lean_ctor_get_uint64(x_4, 16);
 x_8 = x_15;
 goto block_13;
 }
 case 3:
 {
 ulong x_16 = 0; 
-x_16 = lean_ctor_get_uint64_s(x_4, 0);
+x_16 = lean_ctor_get_uint64(x_4, 24);
 x_8 = x_16;
 goto block_13;
 }
 case 4:
 {
 ulong x_17 = 0; 
-x_17 = lean_ctor_get_uint64_s(x_4, 0);
+x_17 = lean_ctor_get_uint64(x_4, 24);
 x_8 = x_17;
 goto block_13;
 }
 case 5:
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_4, 0);
+x_18 = lean_ctor_get_uint64(x_4, 40);
 x_8 = x_18;
 goto block_13;
 }
 default: 
 {
 ulong x_19 = 0; 
-x_19 = lean_ctor_get_uint64_s(x_4, 0);
+x_19 = lean_ctor_get_uint64(x_4, 32);
 x_8 = x_19;
 goto block_13;
 }
@@ -4538,9 +5016,19 @@ lean_ctor_set(x_12, 0, x_1);
 lean_ctor_set(x_12, 1, x_2);
 lean_ctor_set(x_12, 2, x_3);
 lean_ctor_set(x_12, 3, x_4);
-lean_ctor_set_uint64_s(x_12, 0, x_11);
+lean_ctor_set_uint64(x_12, 32, x_11);
 return x_12;
 }
+}
+}
+static Obj l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec_cell;
+public static Obj l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec => l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec_cell, &_init_l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec);
+public static Obj _init_l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec() {
+_start:
+{
+Obj x_1 = null; 
+x_1 = l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec___closed__0;
+return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
@@ -4576,6 +5064,16 @@ _start:
 {
 lean_inc(x_4);
 return x_4;
+}
+}
+static Obj l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_cell;
+public static Obj l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec => l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_cell, &_init_l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec);
+public static Obj _init_l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec() {
+_start:
+{
+Obj x_1 = null; 
+x_1 = l_Std_Tactic_BVDecide_BVExpr_instInhabitedPackedBitVec_default;
+return x_1;
 }
 }
 public static byte l_Std_Tactic_BVDecide_BVBinPred_eval___redArg(byte x_1, Obj x_2, Obj x_3) {
@@ -4725,42 +5223,42 @@ switch (lean_obj_tag(x_3)) {
 case 0:
 {
 ulong x_22 = 0; 
-x_22 = lean_ctor_get_uint64_s(x_3, 0);
+x_22 = lean_ctor_get_uint64(x_3, 16);
 x_14 = x_22;
 goto block_21;
 }
 case 1:
 {
 ulong x_23 = 0; 
-x_23 = lean_ctor_get_uint64_s(x_3, 0);
+x_23 = lean_ctor_get_uint64(x_3, 16);
 x_14 = x_23;
 goto block_21;
 }
 case 3:
 {
 ulong x_24 = 0; 
-x_24 = lean_ctor_get_uint64_s(x_3, 0);
+x_24 = lean_ctor_get_uint64(x_3, 24);
 x_14 = x_24;
 goto block_21;
 }
 case 4:
 {
 ulong x_25 = 0; 
-x_25 = lean_ctor_get_uint64_s(x_3, 0);
+x_25 = lean_ctor_get_uint64(x_3, 24);
 x_14 = x_25;
 goto block_21;
 }
 case 5:
 {
 ulong x_26 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_3, 0);
+x_26 = lean_ctor_get_uint64(x_3, 40);
 x_14 = x_26;
 goto block_21;
 }
 default: 
 {
 ulong x_27 = 0; 
-x_27 = lean_ctor_get_uint64_s(x_3, 0);
+x_27 = lean_ctor_get_uint64(x_3, 32);
 x_14 = x_27;
 goto block_21;
 }
@@ -4776,7 +5274,7 @@ lean_ctor_set(x_12, 0, x_1);
 lean_ctor_set(x_12, 1, x_2);
 lean_ctor_set(x_12, 2, x_3);
 lean_ctor_set(x_12, 3, x_4);
-lean_ctor_set_uint64_s(x_12, 0, x_11);
+lean_ctor_set_uint64(x_12, 32, x_11);
 return x_12;
 }
 block_21:
@@ -4785,7 +5283,7 @@ switch (lean_obj_tag(x_4)) {
 case 0:
 {
 ulong x_15 = 0; 
-x_15 = lean_ctor_get_uint64_s(x_4, 0);
+x_15 = lean_ctor_get_uint64(x_4, 16);
 x_7 = x_14;
 x_8 = x_15;
 goto block_13;
@@ -4793,7 +5291,7 @@ goto block_13;
 case 1:
 {
 ulong x_16 = 0; 
-x_16 = lean_ctor_get_uint64_s(x_4, 0);
+x_16 = lean_ctor_get_uint64(x_4, 16);
 x_7 = x_14;
 x_8 = x_16;
 goto block_13;
@@ -4801,7 +5299,7 @@ goto block_13;
 case 3:
 {
 ulong x_17 = 0; 
-x_17 = lean_ctor_get_uint64_s(x_4, 0);
+x_17 = lean_ctor_get_uint64(x_4, 24);
 x_7 = x_14;
 x_8 = x_17;
 goto block_13;
@@ -4809,7 +5307,7 @@ goto block_13;
 case 4:
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_4, 0);
+x_18 = lean_ctor_get_uint64(x_4, 24);
 x_7 = x_14;
 x_8 = x_18;
 goto block_13;
@@ -4817,7 +5315,7 @@ goto block_13;
 case 5:
 {
 ulong x_19 = 0; 
-x_19 = lean_ctor_get_uint64_s(x_4, 0);
+x_19 = lean_ctor_get_uint64(x_4, 40);
 x_7 = x_14;
 x_8 = x_19;
 goto block_13;
@@ -4825,7 +5323,7 @@ goto block_13;
 default: 
 {
 ulong x_20 = 0; 
-x_20 = lean_ctor_get_uint64_s(x_4, 0);
+x_20 = lean_ctor_get_uint64(x_4, 32);
 x_7 = x_14;
 x_8 = x_20;
 goto block_13;
@@ -4870,6 +5368,17 @@ _start:
 byte x_3 = 0; 
 x_3 = l_Std_Tactic_BVDecide_BVPred_eval(x_1, x_2);
 return x_3;
+}
+}
+public static Obj l_Std_Tactic_BVDecide_BVExpr_instDecidableEqPackedBitVec_decEq___boxed(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; Obj x_4 = null; 
+x_3 = l_Std_Tactic_BVDecide_BVExpr_instDecidableEqPackedBitVec_decEq(x_1, x_2);
+lean_dec_ref(x_2);
+lean_dec_ref(x_1);
+x_4 = lean_box(x_3);
+return x_4;
 }
 }
 public static byte l_Std_Tactic_BVDecide_BVLogicalExpr_eval(Obj x_1, Obj x_2) {
@@ -4919,42 +5428,42 @@ switch (lean_obj_tag(x_4)) {
 case 0:
 {
 ulong x_23 = 0; 
-x_23 = lean_ctor_get_uint64_s(x_4, 0);
+x_23 = lean_ctor_get_uint64(x_4, 16);
 x_15 = x_23;
 goto block_22;
 }
 case 1:
 {
 ulong x_24 = 0; 
-x_24 = lean_ctor_get_uint64_s(x_4, 0);
+x_24 = lean_ctor_get_uint64(x_4, 16);
 x_15 = x_24;
 goto block_22;
 }
 case 3:
 {
 ulong x_25 = 0; 
-x_25 = lean_ctor_get_uint64_s(x_4, 0);
+x_25 = lean_ctor_get_uint64(x_4, 24);
 x_15 = x_25;
 goto block_22;
 }
 case 4:
 {
 ulong x_26 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_4, 0);
+x_26 = lean_ctor_get_uint64(x_4, 24);
 x_15 = x_26;
 goto block_22;
 }
 case 5:
 {
 ulong x_27 = 0; 
-x_27 = lean_ctor_get_uint64_s(x_4, 0);
+x_27 = lean_ctor_get_uint64(x_4, 40);
 x_15 = x_27;
 goto block_22;
 }
 default: 
 {
 ulong x_28 = 0; 
-x_28 = lean_ctor_get_uint64_s(x_4, 0);
+x_28 = lean_ctor_get_uint64(x_4, 32);
 x_15 = x_28;
 goto block_22;
 }
@@ -4971,7 +5480,7 @@ lean_ctor_set(x_13, 1, x_2);
 lean_ctor_set(x_13, 2, x_3);
 lean_ctor_set(x_13, 3, x_4);
 lean_ctor_set(x_13, 4, x_5);
-lean_ctor_set_uint64_s(x_13, 0, x_12);
+lean_ctor_set_uint64(x_13, 40, x_12);
 return x_13;
 }
 block_22:
@@ -4980,7 +5489,7 @@ switch (lean_obj_tag(x_5)) {
 case 0:
 {
 ulong x_16 = 0; 
-x_16 = lean_ctor_get_uint64_s(x_5, 0);
+x_16 = lean_ctor_get_uint64(x_5, 16);
 x_8 = x_15;
 x_9 = x_16;
 goto block_14;
@@ -4988,7 +5497,7 @@ goto block_14;
 case 1:
 {
 ulong x_17 = 0; 
-x_17 = lean_ctor_get_uint64_s(x_5, 0);
+x_17 = lean_ctor_get_uint64(x_5, 16);
 x_8 = x_15;
 x_9 = x_17;
 goto block_14;
@@ -4996,7 +5505,7 @@ goto block_14;
 case 3:
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_5, 0);
+x_18 = lean_ctor_get_uint64(x_5, 24);
 x_8 = x_15;
 x_9 = x_18;
 goto block_14;
@@ -5004,7 +5513,7 @@ goto block_14;
 case 4:
 {
 ulong x_19 = 0; 
-x_19 = lean_ctor_get_uint64_s(x_5, 0);
+x_19 = lean_ctor_get_uint64(x_5, 24);
 x_8 = x_15;
 x_9 = x_19;
 goto block_14;
@@ -5012,7 +5521,7 @@ goto block_14;
 case 5:
 {
 ulong x_20 = 0; 
-x_20 = lean_ctor_get_uint64_s(x_5, 0);
+x_20 = lean_ctor_get_uint64(x_5, 40);
 x_8 = x_15;
 x_9 = x_20;
 goto block_14;
@@ -5020,7 +5529,7 @@ goto block_14;
 default: 
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_5, 0);
+x_21 = lean_ctor_get_uint64(x_5, 32);
 x_8 = x_15;
 x_9 = x_21;
 goto block_14;
@@ -5036,40 +5545,48 @@ switch (lean_obj_tag(x_1)) {
 case 0:
 {
 ulong x_2 = 0; 
-x_2 = lean_ctor_get_uint64_s(x_1, 0);
+x_2 = lean_ctor_get_uint64(x_1, 16);
 return x_2;
 }
 case 1:
 {
 ulong x_3 = 0; 
-x_3 = lean_ctor_get_uint64_s(x_1, 0);
+x_3 = lean_ctor_get_uint64(x_1, 16);
 return x_3;
 }
 case 3:
 {
 ulong x_4 = 0; 
-x_4 = lean_ctor_get_uint64_s(x_1, 0);
+x_4 = lean_ctor_get_uint64(x_1, 24);
 return x_4;
 }
 case 4:
 {
 ulong x_5 = 0; 
-x_5 = lean_ctor_get_uint64_s(x_1, 0);
+x_5 = lean_ctor_get_uint64(x_1, 24);
 return x_5;
 }
 case 5:
 {
 ulong x_6 = 0; 
-x_6 = lean_ctor_get_uint64_s(x_1, 0);
+x_6 = lean_ctor_get_uint64(x_1, 40);
 return x_6;
 }
 default: 
 {
 ulong x_7 = 0; 
-x_7 = lean_ctor_get_uint64_s(x_1, 0);
+x_7 = lean_ctor_get_uint64(x_1, 32);
 return x_7;
 }
 }
+}
+}
+public static byte l_Std_Tactic_BVDecide_instDecidableEqBVPred(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; 
+x_3 = l_Std_Tactic_BVDecide_instDecidableEqBVPred_decEq(x_1, x_2);
+return x_3;
 }
 }
 static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__1_cell;
@@ -5098,6 +5615,17 @@ _start:
 Obj x_3 = null; 
 x_3 = l_Std_Tactic_BVDecide_BVPred_ctorElim___redArg(x_1, x_2);
 return x_3;
+}
+}
+public static Obj l_Std_Tactic_BVDecide_instDecidableEqBVPred___boxed(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; Obj x_4 = null; 
+x_3 = l_Std_Tactic_BVDecide_instDecidableEqBVPred(x_1, x_2);
+lean_dec_ref(x_2);
+lean_dec_ref(x_1);
+x_4 = lean_box(x_3);
+return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_shiftLeft_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
@@ -5145,7 +5673,7 @@ x_3 = lean_ctor_get(x_2, 0);
 lean_inc_n(x_3, 2);
 x_4 = lean_ctor_get(x_2, 1);
 lean_inc_ref(x_4);
-x_5 = lean_ctor_get_uint8_s(x_2, 0);
+x_5 = lean_ctor_get_uint8(x_2, 24);
 x_6 = lean_ctor_get(x_2, 2);
 lean_inc_ref(x_6);
 lean_dec_ref(x_2);
@@ -5278,6 +5806,17 @@ x_8 = lean_unsigned_to_nat(6u);
 return x_8;
 }
 }
+}
+}
+public static Obj l_Std_Tactic_BVDecide_BVExpr_instDecidableEqPackedBitVec___boxed(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; Obj x_4 = null; 
+x_3 = l_Std_Tactic_BVDecide_BVExpr_instDecidableEqPackedBitVec(x_1, x_2);
+lean_dec_ref(x_2);
+lean_dec_ref(x_1);
+x_4 = lean_box(x_3);
+return x_4;
 }
 }
 static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__2_cell;
@@ -5596,7 +6135,7 @@ x_7 = (ulong)(lean_uint64_mix_hash(x_3, x_6));
 x_8 = lean_alloc_ctor(1, 2, 8);
 lean_ctor_set(x_8, 0, x_1);
 lean_ctor_set(x_8, 1, x_2);
-lean_ctor_set_uint64_s(x_8, 0, x_7);
+lean_ctor_set_uint64(x_8, 16, x_7);
 return x_8;
 }
 }
@@ -5677,7 +6216,7 @@ case 3:
 Obj x_26 = null; byte x_27 = 0; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; 
 x_26 = lean_ctor_get(x_2, 1);
 lean_inc_ref(x_26);
-x_27 = lean_ctor_get_uint8_s(x_2, 8);
+x_27 = lean_ctor_get_uint8(x_2, 32);
 x_28 = lean_ctor_get(x_2, 2);
 lean_inc_ref(x_28);
 lean_dec_ref(x_2);
@@ -5940,7 +6479,7 @@ x_3 = lean_ctor_get(x_1, 0);
 lean_inc(x_3);
 x_4 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_4);
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 24);
 x_6 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_6);
 lean_dec_ref(x_1);
@@ -6009,6 +6548,16 @@ x_6 = l_Std_Tactic_BVDecide_BVExpr_ctorElim___redArg(x_3, x_5);
 return x_6;
 }
 }
+static Obj l_Std_Tactic_BVDecide_instHashableBVBinPred___closed__0_cell;
+public static Obj l_Std_Tactic_BVDecide_instHashableBVBinPred___closed__0 => l_Std_Tactic_BVDecide_instHashableBVBinPred___closed__0_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_instHashableBVBinPred___closed__0_cell, &_init_l_Std_Tactic_BVDecide_instHashableBVBinPred___closed__0);
+public static Obj _init_l_Std_Tactic_BVDecide_instHashableBVBinPred___closed__0() {
+_start:
+{
+Obj x_1 = null; 
+x_1 = lean_alloc_closure((delegate*<Obj, Obj>)&l_Std_Tactic_BVDecide_instHashableBVBinPred_hash___boxed, 1, 0);
+return x_1;
+}
+}
 public static Obj l_Std_Tactic_BVDecide_BVExpr_shiftRight_elim___redArg(Obj x_1, Obj x_2) {
 _start:
 {
@@ -6047,6 +6596,16 @@ x_1 = l_Std_Tactic_BVDecide_BVPred_instToString___closed__0;
 return x_1;
 }
 }
+static Obj l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec___closed__0_cell;
+public static Obj l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec___closed__0 => l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec___closed__0_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec___closed__0_cell, &_init_l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec___closed__0);
+public static Obj _init_l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec___closed__0() {
+_start:
+{
+Obj x_1 = null; 
+x_1 = lean_alloc_closure((delegate*<Obj, Obj>)&l_Std_Tactic_BVDecide_BVExpr_instHashablePackedBitVec_hash___boxed, 1, 0);
+return x_1;
+}
+}
 static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__4_cell;
 public static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__4 => l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__4_cell ?? lean_obj_once(ref l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__4_cell, &_init_l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__4);
 public static Obj _init_l_Std_Tactic_BVDecide_instReprBVBit_repr___redArg___closed__4() {
@@ -6067,42 +6626,42 @@ switch (lean_obj_tag(x_3)) {
 case 0:
 {
 ulong x_22 = 0; 
-x_22 = lean_ctor_get_uint64_s(x_3, 0);
+x_22 = lean_ctor_get_uint64(x_3, 16);
 x_14 = x_22;
 goto block_21;
 }
 case 1:
 {
 ulong x_23 = 0; 
-x_23 = lean_ctor_get_uint64_s(x_3, 0);
+x_23 = lean_ctor_get_uint64(x_3, 16);
 x_14 = x_23;
 goto block_21;
 }
 case 3:
 {
 ulong x_24 = 0; 
-x_24 = lean_ctor_get_uint64_s(x_3, 0);
+x_24 = lean_ctor_get_uint64(x_3, 24);
 x_14 = x_24;
 goto block_21;
 }
 case 4:
 {
 ulong x_25 = 0; 
-x_25 = lean_ctor_get_uint64_s(x_3, 0);
+x_25 = lean_ctor_get_uint64(x_3, 24);
 x_14 = x_25;
 goto block_21;
 }
 case 5:
 {
 ulong x_26 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_3, 0);
+x_26 = lean_ctor_get_uint64(x_3, 40);
 x_14 = x_26;
 goto block_21;
 }
 default: 
 {
 ulong x_27 = 0; 
-x_27 = lean_ctor_get_uint64_s(x_3, 0);
+x_27 = lean_ctor_get_uint64(x_3, 32);
 x_14 = x_27;
 goto block_21;
 }
@@ -6118,7 +6677,7 @@ lean_ctor_set(x_12, 0, x_1);
 lean_ctor_set(x_12, 1, x_2);
 lean_ctor_set(x_12, 2, x_3);
 lean_ctor_set(x_12, 3, x_4);
-lean_ctor_set_uint64_s(x_12, 0, x_11);
+lean_ctor_set_uint64(x_12, 32, x_11);
 return x_12;
 }
 block_21:
@@ -6127,7 +6686,7 @@ switch (lean_obj_tag(x_4)) {
 case 0:
 {
 ulong x_15 = 0; 
-x_15 = lean_ctor_get_uint64_s(x_4, 0);
+x_15 = lean_ctor_get_uint64(x_4, 16);
 x_7 = x_14;
 x_8 = x_15;
 goto block_13;
@@ -6135,7 +6694,7 @@ goto block_13;
 case 1:
 {
 ulong x_16 = 0; 
-x_16 = lean_ctor_get_uint64_s(x_4, 0);
+x_16 = lean_ctor_get_uint64(x_4, 16);
 x_7 = x_14;
 x_8 = x_16;
 goto block_13;
@@ -6143,7 +6702,7 @@ goto block_13;
 case 3:
 {
 ulong x_17 = 0; 
-x_17 = lean_ctor_get_uint64_s(x_4, 0);
+x_17 = lean_ctor_get_uint64(x_4, 24);
 x_7 = x_14;
 x_8 = x_17;
 goto block_13;
@@ -6151,7 +6710,7 @@ goto block_13;
 case 4:
 {
 ulong x_18 = 0; 
-x_18 = lean_ctor_get_uint64_s(x_4, 0);
+x_18 = lean_ctor_get_uint64(x_4, 24);
 x_7 = x_14;
 x_8 = x_18;
 goto block_13;
@@ -6159,7 +6718,7 @@ goto block_13;
 case 5:
 {
 ulong x_19 = 0; 
-x_19 = lean_ctor_get_uint64_s(x_4, 0);
+x_19 = lean_ctor_get_uint64(x_4, 40);
 x_7 = x_14;
 x_8 = x_19;
 goto block_13;
@@ -6167,7 +6726,7 @@ goto block_13;
 default: 
 {
 ulong x_20 = 0; 
-x_20 = lean_ctor_get_uint64_s(x_4, 0);
+x_20 = lean_ctor_get_uint64(x_4, 32);
 x_7 = x_14;
 x_8 = x_20;
 goto block_13;

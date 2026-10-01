@@ -54,7 +54,7 @@ goto block_8;
 }
 block_8:
 {
-lean_ctor_set_uint8_s(x_7, 0, x_6);
+lean_ctor_set_uint8(x_7, 8, x_6);
 return x_7;
 }
 }
@@ -79,7 +79,7 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(0, 0, 1);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
 return x_2;
 }
 }

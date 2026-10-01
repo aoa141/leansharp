@@ -1195,7 +1195,7 @@ _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
 x_9 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_9, 0, x_1);
+lean_ctor_set_uint8(x_9, 0, x_1);
 x_10 = l_Lean_Meta_Tactic_BVDecide_ReifiedBVLogical_mkBoolConst___redArg___closed__2;
 x_11 = l_Lean_Meta_Tactic_BVDecide_ReifiedBVLogical_ofPred___redArg___closed__6;
 if (x_1 == 0)
@@ -2830,7 +2830,7 @@ lean_inc_ref(x_14);
 x_19 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_19, 0, x_14);
 lean_ctor_set(x_19, 1, x_16);
-lean_ctor_set_uint8_s(x_19, 0, x_5);
+lean_ctor_set_uint8(x_19, 16, x_5);
 x_20 = lean_box(0);
 x_21 = lean_alloc_closure((delegate*<Obj[], Obj>)&l_Lean_Meta_Tactic_BVDecide_ReifiedBVLogical_mkGate___redArg___lam__0___boxed, 17, 8);
 lean_closure_set(x_21, 0, x_15);

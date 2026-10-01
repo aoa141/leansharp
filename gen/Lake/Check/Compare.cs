@@ -100,7 +100,7 @@ goto block_44;
 else
 {
 ulong x_46 = 0; 
-x_46 = lean_ctor_get_uint64_s(x_2, 0);
+x_46 = lean_ctor_get_uint64(x_2, 16);
 x_7 = x_46;
 goto block_44;
 }
@@ -504,7 +504,7 @@ goto block_27;
 else
 {
 ulong x_29 = 0; 
-x_29 = lean_ctor_get_uint64_s(x_3, 0);
+x_29 = lean_ctor_get_uint64(x_3, 16);
 x_9 = x_29;
 goto block_27;
 }
@@ -1256,7 +1256,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }
@@ -1318,9 +1318,9 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; byte x_7 = 0; 
 x_3 = lean_ctor_get(x_1, 0);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 32);
 x_5 = lean_ctor_get(x_2, 0);
-x_6 = lean_ctor_get_uint8_s(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 32);
 x_7 = M_Lean_Declaration.l_Lean_instBEqConstantVal_beq(x_3, x_5);
 if (x_7 == 0)
 {
@@ -1465,7 +1465,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }

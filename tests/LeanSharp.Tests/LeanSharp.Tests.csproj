@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Fast end-to-end tests of the LeanSharp API (`dotnet test`). They need a sysroot: set
+       LEANSHARP_SYSROOT, or build one into artifacts/selfhost with `LeanSharp.Cli build-stdlib`.
+       Lean's own test suite is run with tests/LeanSharp.TestRunner. -->
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+  </PropertyGroup>
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.IO.DisableFileLocking" Value="true" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+    <PackageReference Include="Xunit.SkippableFact" Version="1.5.23" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/LeanSharp/LeanSharp.csproj" />
+  </ItemGroup>
+</Project>

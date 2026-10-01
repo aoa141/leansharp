@@ -83,7 +83,7 @@ public static unsafe class LeanShell
         }
         catch (LeanPanicException ex)
         {
-            Console.Error.WriteLine("error: " + ex.Message);
+            LeanStdStreams.WriteProcessStderr("error: " + ex.Message + "\n");
             return 1;
         }
         Consume(((delegate*<Obj>)LeanExports.Get("lean_enable_initializer_execution"))());
@@ -111,7 +111,19 @@ public static unsafe class LeanShell
                 var lo = s_longOptions.FirstOrDefault(o => o.name == name);
                 if (lo.name == null)
                 {
-                    Console.Error.WriteLine($"lean: unrecognized option '{a}'");
+                    // `getopt_long` accepts unambiguous prefixes of option names
+                    var matches = s_longOptions.Where(o => o.name.StartsWith(name, StringComparison.Ordinal)).ToArray();
+                    if (matches.Length == 1 || (matches.Length > 1 && matches.All(m => m.val == matches[0].val && m.kind == matches[0].kind)))
+                        lo = matches[0];
+                    else if (matches.Length > 1)
+                    {
+                        LeanStdStreams.WriteProcessStderr($"lean: option '--{name}' is ambiguous; possibilities:" + string.Concat(matches.Select(m => " '--" + m.name + "'")) + "\n");
+                        return Process('?', null, process, ref shellOpts, out int rcA) ? rcA : 1;
+                    }
+                }
+                if (lo.name == null)
+                {
+                    LeanStdStreams.WriteProcessStderr($"lean: unrecognized option '{a}'" + "\n");
                     return Process('?', null, process, ref shellOpts, out int rc0) ? rc0 : 1;
                 }
                 switch (lo.kind)
@@ -119,7 +131,7 @@ public static unsafe class LeanShell
                     case ArgKind.None:
                         if (value != null)
                         {
-                            Console.Error.WriteLine($"lean: option doesn't take an argument -- {name}");
+                            LeanStdStreams.WriteProcessStderr($"lean: option doesn't take an argument -- {name}" + "\n");
                             value = null;
                             opts.Add(('?', null));
                             break;
@@ -131,7 +143,7 @@ public static unsafe class LeanShell
                         {
                             if (i >= argv.Length)
                             {
-                                Console.Error.WriteLine($"lean: option requires an argument -- {name}");
+                                LeanStdStreams.WriteProcessStderr($"lean: option requires an argument -- {name}" + "\n");
                                 opts.Add(('?', null));
                                 break;
                             }
@@ -159,7 +171,7 @@ public static unsafe class LeanShell
                         else if (i < argv.Length) value = argv[i++];
                         else
                         {
-                            Console.Error.WriteLine($"lean: option requires an argument -- {c}");
+                            LeanStdStreams.WriteProcessStderr($"lean: option requires an argument -- {c}" + "\n");
                             opts.Add(('?', null));
                             break;
                         }
@@ -176,7 +188,16 @@ public static unsafe class LeanShell
                     return rc;
                 if (getRun(shellOpts) != 0) { stop = true; break; }
             }
-            if (stop) { positional.AddRange(argv[i..]); i = argv.Length; break; }
+            if (stop)
+            {
+                // `--run` ends option processing. glibc's `getopt_long` has not yet moved the
+                // non-options it skipped behind the options at this point, so the program and its
+                // arguments are what follows `--run`: `lean A.lean --run B.lean x` runs `B.lean x`.
+                positional.Clear();
+                positional.AddRange(argv[i..]);
+                i = argv.Length;
+                break;
+            }
         }
 
         LeanRt.lean_io_mark_end_initialization();
@@ -191,6 +212,9 @@ public static unsafe class LeanShell
         try
         {
             Obj r = ((delegate*<Obj, Obj, Obj>)LeanExports.Get("lean_shell_main"))(args, shellOpts);
+            // `scoped_task_manager` in `lean_main`: when the main function returns (as opposed
+            // to `exit`), the remaining tasks and dedicated threads are waited for.
+            LeanRt.lean_finalize_task_manager();
             if (LeanRt.lean_io_result_is_ok(r))
             {
                 uint code = LeanRt.lean_unbox_uint32(LeanRt.lean_io_result_get_value(r));
@@ -202,6 +226,10 @@ public static unsafe class LeanShell
         catch (LeanExitException e)
         {
             return e.ExitCode;
+        }
+        catch (LeanPanicException)
+        {
+            return 1; // `lean_internal_panic`: the message has been printed
         }
     }
 

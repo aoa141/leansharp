@@ -893,7 +893,7 @@ x_13 = lean_ctor_get(x_3, 5);
 x_14 = lean_ctor_get(x_3, 6);
 x_15 = lean_ctor_get(x_3, 8);
 x_16 = lean_ctor_get(x_3, 9);
-x_17 = lean_ctor_get_uint8_s(x_3, 0);
+x_17 = lean_ctor_get_uint8(x_3, 80);
 x_18 = M_Init_Prelude.l_Lean_replaceRef(x_1, x_7);
 lean_dec(x_7);
 lean_inc(x_16);
@@ -916,7 +916,7 @@ lean_ctor_set(x_19, 6, x_14);
 lean_ctor_set(x_19, 7, x_18);
 lean_ctor_set(x_19, 8, x_15);
 lean_ctor_set(x_19, 9, x_16);
-lean_ctor_set_uint8_s(x_19, 0, x_17);
+lean_ctor_set_uint8(x_19, 80, x_17);
 x_20 = l_Lean_throwError___at___00Lean_throwErrorAt___at___00__private_Lake_DSL_Package_0__Lake_DSL_elabPackageCommand_spec__0_spec__0___redArg(x_2, x_19, x_4);
 lean_dec_ref(x_19);
 return x_20;
@@ -5775,7 +5775,7 @@ x_498 = lean_ctor_get(x_488, 5);
 x_499 = lean_ctor_get(x_488, 6);
 x_500 = lean_ctor_get(x_488, 8);
 x_501 = lean_ctor_get(x_488, 9);
-x_502 = lean_ctor_get_uint8_s(x_488, 0);
+x_502 = lean_ctor_get_uint8(x_488, 80);
 x_503 = M_Init_Prelude.l_Lean_replaceRef(x_484, x_492);
 lean_dec(x_492);
 lean_dec(x_484);
@@ -5799,7 +5799,7 @@ lean_ctor_set(x_504, 6, x_499);
 lean_ctor_set(x_504, 7, x_503);
 lean_ctor_set(x_504, 8, x_500);
 lean_ctor_set(x_504, 9, x_501);
-lean_ctor_set_uint8_s(x_504, 0, x_502);
+lean_ctor_set_uint8(x_504, 80, x_502);
 x_505 = M_Lean_Elab_Command.l_Lean_Elab_Command_getRef___redArg(x_504);
 if (lean_obj_tag(x_505) == 0)
 {
@@ -6256,7 +6256,7 @@ lean_dec_ref(x_6);
 if (lean_obj_tag(x_8) == 1)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 0);
 lean_dec_ref(x_8);
 return x_9;
 }

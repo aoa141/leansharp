@@ -288,6 +288,9 @@ unsafe static class Program
         thrown = false;
         try { lean_task_get_own(m); } catch (LeanPanicException) { thrown = true; }
         Check(thrown, "failure propagates through Task.map");
+        // an internal panic in a task ends the program like `exit(1)` (as natively)
+        Check(LeanTaskManager.PendingExitCode == 1, "internal panic in a task requests exit code 1");
+        LeanTaskManager.ClearPendingExit();
 
         // exit in a task wakes up a thread blocked on an unrelated promise
         Obj p = lean_io_promise_new();

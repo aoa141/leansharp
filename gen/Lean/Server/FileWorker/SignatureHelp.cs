@@ -51,7 +51,7 @@ else
 Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; byte x_39 = 0; 
 lean_dec_ref(x_7);
 x_11 = (lean_array_uget_borrowed(x_4, x_6));
-x_12 = lean_ctor_get_uint8_s(x_11, 0);
+x_12 = lean_ctor_get_uint8(x_11, 8);
 x_13 = lean_box(0);
 x_14 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Server_FileWorker_SignatureHelp_findSignatureHelp_x3f_spec__0_spec__0___closed__0;
 if (x_12 == 1)
@@ -339,8 +339,8 @@ public static byte l_Lean_Server_FileWorker_SignatureHelp_findSignatureHelp_x3f_
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_2, 8);
+x_4 = lean_ctor_get_uint8(x_1, 8);
 x_5 = l_Lean_Server_FileWorker_SignatureHelp_CandidateKind_prio(x_3);
 x_6 = l_Lean_Server_FileWorker_SignatureHelp_CandidateKind_prio(x_4);
 x_7 = lean_u8(lean_nat_dec_le(x_5, x_6));
@@ -567,7 +567,7 @@ else
 {
 Obj x_143 = null; byte x_144 = 0; 
 x_143 = lean_ctor_get(x_2, 0);
-x_144 = lean_ctor_get_uint8_s(x_143, 0);
+x_144 = lean_ctor_get_uint8(x_143, 16);
 if (x_144 == 0)
 {
 x_139 = x_115;
@@ -684,7 +684,7 @@ else
 {
 Obj x_140 = null; byte x_141 = 0; 
 x_140 = lean_ctor_get(x_2, 0);
-x_141 = lean_ctor_get_uint8_s(x_140, 1);
+x_141 = lean_ctor_get_uint8(x_140, 17);
 x_131 = x_139;
 x_132 = x_141;
 goto block_138;
@@ -1186,7 +1186,7 @@ if (x_4 == 0)
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
 x_5 = (lean_array_uget_borrowed(x_1, x_2));
-x_6 = lean_ctor_get_uint8_s(x_5, 0);
+x_6 = lean_ctor_get_uint8(x_5, 8);
 x_7 = l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Server_FileWorker_SignatureHelp_findSignatureHelp_x3f_spec__1___closed__0;
 x_8 = l_Lean_Server_FileWorker_SignatureHelp_CandidateKind_prio(x_6);
 x_9 = lean_u8(lean_nat_dec_lt(x_7, x_8));
@@ -1377,7 +1377,7 @@ x_41 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_41, 0, x_35);
 x_42 = (byte)lean_unbox(x_40);
 lean_dec(x_40);
-lean_ctor_set_uint8_s(x_41, 0, x_42);
+lean_ctor_set_uint8(x_41, 8, x_42);
 x_43 = (lean_array_push(x_8, x_41));
 x_44 = lean_box(0);
 x_45 = (byte)lean_unbox(x_39);
@@ -2192,7 +2192,7 @@ else
 Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; byte x_39 = 0; 
 lean_dec_ref(x_7);
 x_11 = (lean_array_uget_borrowed(x_4, x_6));
-x_12 = lean_ctor_get_uint8_s(x_11, 0);
+x_12 = lean_ctor_get_uint8(x_11, 8);
 x_13 = lean_box(0);
 x_14 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Server_FileWorker_SignatureHelp_findSignatureHelp_x3f_spec__0_spec__0___closed__0;
 if (x_12 == 1)

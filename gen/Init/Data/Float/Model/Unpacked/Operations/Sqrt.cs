@@ -48,7 +48,7 @@ block_14:
 {
 Obj x_13 = null; 
 x_13 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_13, 0, x_12);
+lean_ctor_set_uint8(x_13, 0, x_12);
 x_4 = x_10;
 x_5 = x_11;
 x_6 = x_13;
@@ -126,7 +126,7 @@ switch (lean_obj_tag(x_2)) {
 case 0:
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 0);
 if (x_3 == 0)
 {
 Obj x_4 = null; 
@@ -142,7 +142,7 @@ return x_2;
 case 3:
 {
 byte x_5 = 0; 
-x_5 = lean_ctor_get_uint8_s(x_2, 0);
+x_5 = lean_ctor_get_uint8(x_2, 16);
 if (x_5 == 0)
 {
 Obj x_6 = null; 

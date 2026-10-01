@@ -1052,7 +1052,7 @@ Obj x_15 = null; byte x_16 = 0;
 x_15 = lean_ctor_get(x_12, 0);
 lean_inc(x_15);
 lean_dec_ref(x_12);
-x_16 = lean_ctor_get_uint8_s(x_15, 0);
+x_16 = lean_ctor_get_uint8(x_15, 24);
 lean_dec(x_15);
 if (x_16 == 0)
 {
@@ -1395,7 +1395,7 @@ _start:
 {
 Obj x_10 = null; Obj x_14 = null; byte x_15 = 0; 
 x_14 = (lean_st_ref_get(x_4));
-x_15 = lean_ctor_get_uint8_s(x_14, 0);
+x_15 = lean_ctor_get_uint8(x_14, 88);
 lean_dec(x_14);
 if (x_15 == 0)
 {

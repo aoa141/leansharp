@@ -16,7 +16,7 @@ x_1 = (byte)1;
 x_2 = lean_unsigned_to_nat(0u);
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -118,7 +118,7 @@ lean_ctor_set(x_16, 2, x_14);
 x_17 = M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Impl_Carry.l_Std_Tactic_BVDecide_BVExpr_bitblast_mkOverflowBit___redArg(x_1, x_2, x_11, x_16);
 x_18 = lean_ctor_get(x_17, 1);
 lean_inc_ref(x_18);
-x_19 = lean_ctor_get_uint8_s(x_18, 0);
+x_19 = lean_ctor_get_uint8(x_18, 8);
 if (x_19 == 0)
 {
 Obj x_20 = null; Obj x_21 = null; byte x_22 = 0; byte x_35 = 0; 
@@ -179,7 +179,7 @@ goto block_30;
 block_30:
 {
 Obj x_27 = null; 
-lean_ctor_set_uint8_s(x_26, 0, x_13);
+lean_ctor_set_uint8(x_26, 8, x_13);
 if (x_22 == 0)
 {
 lean_ctor_set(x_21, 1, x_26);
@@ -264,7 +264,7 @@ goto block_48;
 block_48:
 {
 Obj x_45 = null; 
-lean_ctor_set_uint8_s(x_44, 0, x_43);
+lean_ctor_set_uint8(x_44, 8, x_43);
 if (x_39 == 0)
 {
 lean_ctor_set(x_38, 1, x_44);

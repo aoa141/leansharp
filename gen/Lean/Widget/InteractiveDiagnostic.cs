@@ -237,7 +237,7 @@ x_5 = lean_alloc_ctor(3, 3, 1);
 lean_ctor_set(x_5, 0, x_4);
 lean_ctor_set(x_5, 1, x_3);
 lean_ctor_set(x_5, 2, x_1);
-lean_ctor_set_uint8_s(x_5, 0, x_2);
+lean_ctor_set_uint8(x_5, 24, x_2);
 return x_5;
 }
 }
@@ -1854,7 +1854,7 @@ Obj x_175 = null; byte x_176 = 0; Obj x_177 = null;
 x_175 = lean_alloc_ctor(1, 0, 1);
 x_176 = (byte)lean_unbox(x_172);
 lean_dec(x_172);
-lean_ctor_set_uint8_s(x_175, 0, x_176);
+lean_ctor_set_uint8(x_175, 0, x_176);
 if (x_174 == 0)
 {
 lean_ctor_set(x_173, 0, x_175);
@@ -3241,7 +3241,7 @@ x_11 = lean_alloc_ctor(3, 3, 1);
 lean_ctor_set(x_11, 0, x_7);
 lean_ctor_set(x_11, 1, x_6);
 lean_ctor_set(x_11, 2, x_9);
-lean_ctor_set_uint8_s(x_11, 0, x_8);
+lean_ctor_set_uint8(x_11, 24, x_8);
 x_12 = l___private_Lean_Widget_InteractiveDiagnostic_0__Lean_Widget_msgToInteractiveAux_pushEmbed(x_11, x_10);
 if (lean_obj_tag(x_12) == 0)
 {
@@ -3661,9 +3661,9 @@ x_145 = lean_ctor_get(x_141, 0);
 lean_inc(x_145);
 x_146 = lean_ctor_get(x_141, 1);
 lean_inc(x_146);
-x_147 = lean_ctor_get_float_s(x_141, 0);
-x_148 = lean_ctor_get_float_s(x_141, 8);
-x_149 = lean_ctor_get_uint8_s(x_141, 16);
+x_147 = lean_ctor_get_float(x_141, 24);
+x_148 = lean_ctor_get_float(x_141, 32);
+x_149 = lean_ctor_get_uint8(x_141, 40);
 lean_dec_ref(x_141);
 x_150 = M_Lean_Data_Name.l_Lean_Name_isAnonymous(x_145);
 if (x_150 == 0)
@@ -4444,7 +4444,7 @@ byte x_327 = 0; Obj x_328 = null; Obj x_329 = null;
 x_327 = (byte)0;
 x_328 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_328, 0, x_323);
-lean_ctor_set_uint8_s(x_328, 0, x_327);
+lean_ctor_set_uint8(x_328, 8, x_327);
 if (x_326 == 0)
 {
 lean_ctor_set(x_325, 0, x_328);
@@ -4709,9 +4709,9 @@ x_22 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_22, 0, x_1);
 lean_ctor_set(x_22, 1, x_19);
 lean_ctor_set(x_22, 2, x_21);
-lean_ctor_set_float_s(x_22, 0, x_20);
-lean_ctor_set_float_s(x_22, 8, x_20);
-lean_ctor_set_uint8_s(x_22, 16, x_5);
+lean_ctor_set_float(x_22, 24, x_20);
+lean_ctor_set_float(x_22, 32, x_20);
+lean_ctor_set_uint8(x_22, 40, x_5);
 x_23 = (lean_nat_sub(x_11, x_2));
 lean_dec(x_11);
 x_24 = M_Init_Data_Repr.l_Nat_reprFast(x_23);
@@ -7103,7 +7103,7 @@ x_69 = lean_ctor_get(x_1, 1);
 lean_inc(x_69);
 x_70 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_70);
-x_71 = lean_ctor_get_uint8_s(x_1, 0);
+x_71 = lean_ctor_get_uint8(x_1, 32);
 x_72 = lean_ctor_get(x_1, 3);
 lean_inc_ref(x_72);
 lean_dec_ref(x_1);
@@ -7144,7 +7144,7 @@ x_85 = lean_alloc_ctor(3, 1, 0);
 lean_ctor_set(x_85, 0, x_84);
 x_86 = l_Lean_Widget_instToJsonTaggedText_toJson___at___00Lean_Widget_instRpcEncodableMsgEmbed_enc_00___x40_Lean_Widget_InteractiveDiagnostic_1765450820____hygCtx___hyg_1__spec__1(x_74);
 x_87 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_87, 0, x_71);
+lean_ctor_set_uint8(x_87, 0, x_71);
 x_88 = lean_alloc_ctor(3, 5, 0);
 lean_ctor_set(x_88, 0, x_82);
 lean_ctor_set(x_88, 1, x_85);
@@ -11458,7 +11458,7 @@ lean_ctor_set(x_188, 2, x_165);
 lean_ctor_set(x_188, 3, x_185);
 x_189 = (byte)lean_unbox(x_175);
 lean_dec(x_175);
-lean_ctor_set_uint8_s(x_188, 0, x_189);
+lean_ctor_set_uint8(x_188, 32, x_189);
 if (x_187 == 0)
 {
 lean_ctor_set(x_186, 0, x_188);
@@ -11756,7 +11756,7 @@ x_7 = lean_ctor_get(x_1, 0);
 lean_inc(x_7);
 x_8 = lean_ctor_get(x_1, 1);
 lean_inc(x_8);
-x_9 = lean_ctor_get_uint8_s(x_1, 0);
+x_9 = lean_ctor_get_uint8(x_1, 24);
 x_10 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_10);
 lean_dec_ref(x_1);
@@ -12111,7 +12111,7 @@ x_7 = lean_ctor_get(x_1, 1);
 lean_inc(x_7);
 x_8 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_8);
-x_9 = lean_ctor_get_uint8_s(x_1, 0);
+x_9 = lean_ctor_get_uint8(x_1, 32);
 x_10 = lean_ctor_get(x_1, 3);
 lean_inc_ref(x_10);
 lean_dec_ref(x_1);
@@ -13097,7 +13097,7 @@ x_52 = lean_ctor_get(x_11, 0);
 lean_inc(x_52);
 x_53 = lean_ctor_get(x_11, 1);
 lean_inc(x_53);
-x_54 = lean_ctor_get_uint8_s(x_11, 0);
+x_54 = lean_ctor_get_uint8(x_11, 24);
 x_55 = lean_ctor_get(x_11, 2);
 lean_inc_ref(x_55);
 lean_dec_ref(x_11);
@@ -13343,7 +13343,7 @@ lean_ctor_set(x_62, 0, x_3);
 lean_ctor_set(x_62, 1, x_52);
 lean_ctor_set(x_62, 2, x_59);
 lean_ctor_set(x_62, 3, x_57);
-lean_ctor_set_uint8_s(x_62, 0, x_54);
+lean_ctor_set_uint8(x_62, 32, x_54);
 x_63 = l_Lean_Widget_instInhabitedMsgEmbed_default___closed__0;
 if (x_10 == 0)
 {
@@ -14756,9 +14756,9 @@ x_18 = lean_ctor_get(x_2, 1);
 lean_inc_ref_n(x_18, 2);
 x_19 = lean_ctor_get(x_2, 2);
 lean_inc(x_19);
-x_20 = lean_ctor_get_uint8_s(x_2, 0);
-x_21 = lean_ctor_get_uint8_s(x_2, 1);
-x_22 = lean_ctor_get_uint8_s(x_2, 2);
+x_20 = lean_ctor_get_uint8(x_2, 40);
+x_21 = lean_ctor_get_uint8(x_2, 41);
+x_22 = lean_ctor_get_uint8(x_2, 42);
 x_23 = lean_ctor_get(x_2, 4);
 lean_inc(x_23);
 lean_dec_ref(x_2);

@@ -5,9 +5,9 @@
     <RootNamespace>NumbersCheck</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../src/LeanSharp.Runtime/Core/**/*.cs" />
-    <Compile Include="../../src/LeanSharp.Runtime/Numbers/**/*.cs" />
+    <Compile Include="../../src/LeanSharp.Runtime/**/*.cs" Exclude="../../src/LeanSharp.Runtime/bin/**;../../src/LeanSharp.Runtime/obj/**" />
     <Compile Include="*.cs" />
     <None Include="expected.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="expected.linux.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>

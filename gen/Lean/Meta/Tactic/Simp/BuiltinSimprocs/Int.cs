@@ -10475,7 +10475,7 @@ goto block_83;
 block_83:
 {
 byte x_43 = 0; Obj x_44 = null; 
-x_43 = lean_ctor_get_uint8_s(x_39, 25);
+x_43 = lean_ctor_get_uint8(x_39, 49);
 lean_inc(x_40);
 x_44 = M_Lean_Util_SafeExponentiation.l_Lean_checkExponent(x_40, x_43, x_5, x_6);
 if (lean_obj_tag(x_44) == 0)
@@ -14463,7 +14463,7 @@ Obj x_58 = null; Obj x_59 = null;
 x_58 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_58, 0, x_53);
 lean_ctor_set(x_58, 1, x_57);
-lean_ctor_set_uint8_s(x_58, 0, x_25);
+lean_ctor_set_uint8(x_58, 16, x_25);
 if (x_42 == 0)
 {
 lean_ctor_set_tag(x_41, 0);
@@ -14530,7 +14530,7 @@ Obj x_72 = null; Obj x_73 = null;
 x_72 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_72, 0, x_67);
 lean_ctor_set(x_72, 1, x_71);
-lean_ctor_set_uint8_s(x_72, 0, x_25);
+lean_ctor_set_uint8(x_72, 16, x_25);
 if (x_42 == 0)
 {
 lean_ctor_set_tag(x_41, 0);

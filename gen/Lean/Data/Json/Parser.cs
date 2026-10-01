@@ -7558,7 +7558,7 @@ block_105:
 {
 Obj x_101 = null; Obj x_102 = null; 
 x_101 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_101, 0, x_50);
+lean_ctor_set_uint8(x_101, 0, x_50);
 if (x_94 == 0)
 {
 lean_ctor_set(x_93, 1, x_101);
@@ -7700,7 +7700,7 @@ block_136:
 {
 Obj x_132 = null; Obj x_133 = null; 
 x_132 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_132, 0, x_46);
+lean_ctor_set_uint8(x_132, 0, x_46);
 if (x_125 == 0)
 {
 lean_ctor_set(x_124, 1, x_132);

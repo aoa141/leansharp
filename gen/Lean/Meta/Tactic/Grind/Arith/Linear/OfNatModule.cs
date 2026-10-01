@@ -4422,7 +4422,7 @@ Obj x_23 = null; byte x_24 = 0;
 x_23 = lean_ctor_get(x_22, 0);
 lean_inc(x_23);
 lean_dec_ref(x_22);
-x_24 = lean_ctor_get_uint8_s(x_23, 0);
+x_24 = lean_ctor_get_uint8(x_23, 0);
 lean_dec(x_23);
 if (x_24 == 0)
 {

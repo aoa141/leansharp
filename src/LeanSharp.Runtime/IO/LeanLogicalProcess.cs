@@ -19,7 +19,10 @@ namespace LeanSharp.Runtime;
 internal sealed class LeanLogicalProcess
 {
     /// <summary>The OS process itself: real working directory and environment.</summary>
-    public static readonly LeanLogicalProcess Root = new LeanLogicalProcess(null, null) { m_started = true };
+    public static readonly LeanLogicalProcess Root = new LeanLogicalProcess(null, null) { m_started = true, OwnsOsProcess = true };
+
+    /// <summary>Whether the end of this program is the end of the OS process (`IO.Process.forceExit` really exits).</summary>
+    public bool OwnsOsProcess;
 
     readonly object m_lock = new();
     /// <summary>Logical working directory (absolute), or null to use the one of the OS process.</summary>
@@ -45,6 +48,26 @@ internal sealed class LeanLogicalProcess
     string m_natMaxSizeText;
     ulong m_natMaxSize;
     bool m_natMaxSizeValid;
+
+    /// <summary>The task manager of this process.</summary>
+    public readonly LeanTaskManager.ProcessState Tasks = new();
+
+    /// <summary>Constants initialized by the IR interpreter in this process (see `IrInterpreter.InitGlobals`).</summary>
+    public object InterpreterInitGlobals;
+
+    Obj[] m_globals;
+
+    /// <summary>Values of the global `IO.Ref`s of the compiled Lean code in this process (see `LeanGlobalRefs`).</summary>
+    public Obj[] Globals
+    {
+        get
+        {
+            var g = m_globals;
+            if (g != null) return g;
+            Interlocked.CompareExchange(ref m_globals, LeanGlobalRefs.NewState(), null);
+            return m_globals;
+        }
+    }
 
     public LeanLogicalProcess(string cwd, Dictionary<string, string> env)
     {
@@ -191,7 +214,11 @@ internal sealed class LeanLogicalProcess
 
     public void ClearPendingExit() => m_exitPending = false;
 
-    public void MarkExited() => m_exited = true;
+    public void MarkExited()
+    {
+        m_exited = true;
+        Tasks.EndProgram();
+    }
 
     // ------------------------------------------------------------------
     // Cumulative profiling times (library/time_task.cpp)
@@ -267,6 +294,8 @@ internal static class LeanContext
     {
         var proc = Proc;
         if (proc.TryStart()) return;
-        SetProcess(proc.Fork());
+        var p = proc.Fork();
+        p.OwnsOsProcess = ReferenceEquals(proc, LeanLogicalProcess.Root) && LeanProgramState.TopLevelProgramOwnsProcess;
+        SetProcess(p);
     }
 }

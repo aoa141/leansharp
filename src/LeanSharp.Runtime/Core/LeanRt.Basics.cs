@@ -68,7 +68,15 @@ public static unsafe partial class LeanRt
 
     public static Exception lean_internal_panic(string msg)
     {
-        try { Console.Error.WriteLine("INTERNAL PANIC: " + msg); } catch { }
+        // C: `fprintf(stderr, "INTERNAL PANIC: %s\n", msg); exit(1)`. The message goes to the
+        // standard error of the current program; the hosts turn the exception into exit code 1.
+        try
+        {
+            var b = System.Text.Encoding.UTF8.GetBytes("INTERNAL PANIC: " + msg + "\n");
+            var err = LeanStdStreams.Stderr;
+            lock (LeanStdStreams.s_writeLock) { err.Write(b, 0, b.Length); err.Flush(); }
+        }
+        catch { }
         return new LeanPanicException(msg);
     }
 

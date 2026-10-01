@@ -111,7 +111,7 @@ if (lean_obj_tag(x_3) == 0)
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_12 = 0; 
 x_4 = lean_ctor_get(x_2, 0);
-x_5 = lean_ctor_get_uint8_s(x_2, 0);
+x_5 = lean_ctor_get_uint8(x_2, 16);
 x_12 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_12 == 0)
 {
@@ -145,7 +145,7 @@ Obj x_10 = null;
 x_10 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_10, 0, x_4);
 lean_ctor_set(x_10, 1, x_1);
-lean_ctor_set_uint8_s(x_10, 0, x_5);
+lean_ctor_set_uint8(x_10, 16, x_5);
 x_8 = x_10;
 goto block_9;
 }
@@ -159,7 +159,7 @@ else
 {
 Obj x_14 = null; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; 
 x_14 = lean_ctor_get(x_2, 0);
-x_15 = lean_ctor_get_uint8_s(x_2, 0);
+x_15 = lean_ctor_get_uint8(x_2, 16);
 x_16 = lean_ctor_get(x_1, 0);
 x_17 = lean_ctor_get(x_3, 0);
 x_18 = lean_u8(lean_nat_dec_lt(x_17, x_16));
@@ -201,7 +201,7 @@ Obj x_23 = null;
 x_23 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_23, 0, x_14);
 lean_ctor_set(x_23, 1, x_1);
-lean_ctor_set_uint8_s(x_23, 0, x_15);
+lean_ctor_set_uint8(x_23, 16, x_15);
 x_21 = x_23;
 goto block_22;
 }
@@ -626,7 +626,7 @@ lean_inc_ref(x_15);
 x_17 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_17, 0, x_15);
 lean_ctor_set(x_17, 1, x_15);
-lean_ctor_set_uint8_s(x_17, 0, x_16);
+lean_ctor_set_uint8(x_17, 16, x_16);
 x_18 = M_Std_Data_DHashMap_Internal_Defs.l_Std_DHashMap_Internal_Raw_u2080_insert___redArg(x_1, x_2, x_7, x_3, x_17);
 if (x_10 == 0)
 {
@@ -783,7 +783,7 @@ x_2 = lean_box(0);
 x_3 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_3, 0, x_2);
 lean_ctor_set(x_3, 1, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 16, x_1);
 return x_3;
 }
 }
@@ -998,7 +998,7 @@ goto block_8;
 }
 block_8:
 {
-lean_ctor_set_uint8_s(x_7, 0, x_6);
+lean_ctor_set_uint8(x_7, 16, x_6);
 return x_7;
 }
 }
@@ -1157,7 +1157,7 @@ else
 byte x_18 = 0; 
 lean_dec(x_5);
 lean_dec_ref(x_3);
-x_18 = lean_ctor_get_uint8_s(x_8, 0);
+x_18 = lean_ctor_get_uint8(x_8, 16);
 if (x_18 == 0)
 {
 Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_27 = 0; 

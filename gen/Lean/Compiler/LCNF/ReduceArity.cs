@@ -97,13 +97,13 @@ lean_ctor_set(x_27, 0, x_3);
 lean_ctor_set(x_27, 1, x_4);
 lean_ctor_set(x_27, 2, x_5);
 lean_ctor_set(x_27, 3, x_6);
-lean_ctor_set_uint8_s(x_27, 0, x_7);
+lean_ctor_set_uint8(x_27, 32, x_7);
 x_28 = l_Lean_Compiler_LCNF_Decl_reduceArity___lam__1___closed__2;
 x_29 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_29, 0, x_27);
 lean_ctor_set(x_29, 1, x_26);
 lean_ctor_set(x_29, 2, x_28);
-lean_ctor_set_uint8_s(x_29, 0, x_8);
+lean_ctor_set_uint8(x_29, 24, x_8);
 lean_inc_ref(x_29);
 x_30 = M_Lean_Compiler_LCNF_PhaseExt.l_Lean_Compiler_LCNF_Decl_saveMono___redArg(x_29, x_16);
 if (lean_obj_tag(x_30) == 0)
@@ -1556,7 +1556,7 @@ x_187 = lean_ctor_get(x_185, 2);
 x_188 = lean_ctor_get(x_2, 0);
 x_189 = lean_ctor_get(x_2, 1);
 x_190 = lean_ctor_get(x_2, 2);
-x_191 = lean_ctor_get_uint8_s(x_2, 0);
+x_191 = lean_ctor_get_uint8(x_2, 24);
 x_192 = lean_u8(lean_name_eq(x_186, x_188));
 if (x_192 == 0)
 {
@@ -3279,7 +3279,7 @@ goto block_64;
 block_64:
 {
 ulong x_38 = 0; Obj x_39 = null; Obj x_40 = null; byte x_41 = 0; byte x_63 = 0; 
-x_38 = lean_ctor_get_uint64_s(x_26, 0);
+x_38 = lean_ctor_get_uint64(x_26, 8);
 x_39 = lean_ctor_get(x_26, 0);
 x_63 = (byte)(lean_is_exclusive(x_26) ? 0 : 1);
 if (x_63 == 0)
@@ -3308,9 +3308,9 @@ x_47 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_47, 0, x_1);
 lean_ctor_set(x_47, 1, x_43);
 lean_ctor_set(x_47, 2, x_46);
-lean_ctor_set_float_s(x_47, 0, x_44);
-lean_ctor_set_float_s(x_47, 8, x_44);
-lean_ctor_set_uint8_s(x_47, 16, x_45);
+lean_ctor_set_float(x_47, 24, x_44);
+lean_ctor_set_float(x_47, 32, x_44);
+lean_ctor_set_uint8(x_47, 40, x_45);
 x_48 = l_Lean_addTrace___at___00Lean_Compiler_LCNF_Decl_reduceArity_spec__9___closed__5;
 x_49 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_49, 0, x_47);
@@ -3332,7 +3332,7 @@ else
 Obj x_61 = null; 
 x_61 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_61, 0, x_51);
-lean_ctor_set_uint64_s(x_61, 0, x_38);
+lean_ctor_set_uint64(x_61, 8, x_38);
 x_52 = x_61;
 goto block_60;
 }
@@ -3857,14 +3857,14 @@ if (lean_obj_tag(x_45) == 0)
 {
 Obj x_46 = null; byte x_47 = 0; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; byte x_54 = 0; Obj x_55 = null; Obj x_56 = null; byte x_57 = 0; 
 x_46 = lean_ctor_get(x_1, 0);
-x_47 = lean_ctor_get_uint8_s(x_1, 0);
+x_47 = lean_ctor_get_uint8(x_1, 24);
 x_48 = lean_ctor_get(x_1, 2);
 x_49 = lean_ctor_get(x_45, 0);
 x_50 = lean_ctor_get(x_46, 0);
 x_51 = lean_ctor_get(x_46, 1);
 x_52 = lean_ctor_get(x_46, 2);
 x_53 = lean_ctor_get(x_46, 3);
-x_54 = lean_ctor_get_uint8_s(x_46, 0);
+x_54 = lean_ctor_get_uint8(x_46, 32);
 x_55 = (lean_array_get_size(x_53));
 x_56 = lean_unsigned_to_nat(0u);
 x_57 = lean_u8(lean_nat_dec_eq(x_55, x_56));
@@ -3912,7 +3912,7 @@ lean_dec_ref(x_1);
 x_65 = lean_ctor_get(x_4, 0);
 x_66 = lean_ctor_get(x_65, 2);
 x_67 = lean_ctor_get(x_65, 11);
-x_68 = lean_ctor_get_uint8_s(x_66, 0);
+x_68 = lean_ctor_get_uint8(x_66, 8);
 x_69 = lean_u8(lean_nat_dec_eq(x_62, x_56));
 if (x_68 == 0)
 {
@@ -5813,9 +5813,9 @@ x_6 = lean_alloc_ctor(0, 3, 3);
 lean_ctor_set(x_6, 0, x_5);
 lean_ctor_set(x_6, 1, x_2);
 lean_ctor_set(x_6, 2, x_1);
-lean_ctor_set_uint8_s(x_6, 0, x_4);
-lean_ctor_set_uint8_s(x_6, 1, x_4);
-lean_ctor_set_uint8_s(x_6, 2, x_3);
+lean_ctor_set_uint8(x_6, 24, x_4);
+lean_ctor_set_uint8(x_6, 25, x_4);
+lean_ctor_set_uint8(x_6, 26, x_3);
 return x_6;
 }
 }
@@ -6711,7 +6711,7 @@ x_16 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_16, 0, x_1);
 lean_ctor_set(x_16, 1, x_2);
 lean_ctor_set(x_16, 2, x_3);
-lean_ctor_set_uint8_s(x_16, 0, x_4);
+lean_ctor_set_uint8(x_16, 24, x_4);
 x_17 = (byte)0;
 x_18 = l_Lean_Compiler_LCNF_Decl_reduceArity___lam__0___closed__0;
 x_19 = l_Lean_Compiler_LCNF_DeclValue_mapCodeM___at___00Lean_Compiler_LCNF_Decl_reduceArity_spec__2___redArg(x_18, x_5, x_16, x_11, x_12, x_13, x_14);
@@ -6744,12 +6744,12 @@ lean_ctor_set(x_26, 0, x_2);
 lean_ctor_set(x_26, 1, x_25);
 lean_ctor_set(x_26, 2, x_24);
 lean_ctor_set(x_26, 3, x_10);
-lean_ctor_set_uint8_s(x_26, 0, x_7);
+lean_ctor_set_uint8(x_26, 32, x_7);
 x_27 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_27, 0, x_26);
 lean_ctor_set(x_27, 1, x_20);
 lean_ctor_set(x_27, 2, x_9);
-lean_ctor_set_uint8_s(x_27, 0, x_8);
+lean_ctor_set_uint8(x_27, 24, x_8);
 lean_inc_ref(x_27);
 x_28 = M_Lean_Compiler_LCNF_PhaseExt.l_Lean_Compiler_LCNF_Decl_saveMono___redArg(x_27, x_14);
 if (lean_obj_tag(x_28) == 0)

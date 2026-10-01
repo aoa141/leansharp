@@ -6,7 +6,7 @@ standard library (written in Lean) are translated to C# from Lean's compiled IR 
 implements in C/C++ (`lean.h`, `src/runtime`, `src/kernel`, `src/library`, `src/util` of the Lean
 repository at `~/Repos/lean4/src`) is ported by hand to `src/LeanSharp.Runtime`.
 
-The Lean version is the one in `~/Repos/lean4` (4.36.0-pre, commit 67a8629274). Always port from
+The Lean version is the one in `~/Repos/lean4` (4.36.0-pre, commit 77f336f7ae). Always port from
 those sources.
 
 ## Rules
@@ -35,7 +35,6 @@ those sources.
   exercises your functions (compare against known values from the C semantics). The root
   `Directory.Build.props` applies (net10.0, unsafe allowed). Do not add your area to other
   projects; the main `src/LeanSharp.Runtime/LeanSharp.Runtime.csproj` picks up all `.cs` files.
-* Don't commit to git.
 
 ## Object model (see `src/LeanSharp.Runtime/Core/*.cs`)
 
@@ -53,6 +52,11 @@ those sources.
 | mpz (big nat/int)         | `MpzObj` (`System.Numerics.BigInteger m_value`). Invariant as in C: a Nat/Int that fits in a small scalar is always boxed. |
 | thunk / task / promise / ref / external | `ThunkObj`, `TaskObj`, `PromiseObj`, `RefObj`, `ExternalObj` (+ `ExternalClass`) |
 
+* **Scalar fields.** As in C, `lean_ctor_get_uint8(o, offset)` etc. take the offset from the
+  first field (`8 * (number of object fields + number of USize fields) + byte offset`);
+  `lean_ctor_get_usize(o, i)` takes the slot index. The `_s` variants take the offset inside the
+  scalar area, where the `USize` fields come first: use them only for constructors without
+  `USize` fields.
 * **Reference counting.** `m_rc > 0` single-threaded, `< 0` multi-threaded (atomic ops), `0`
   persistent (never mutated, RC ops are no-ops). `lean_inc`, `lean_dec`, `lean_inc_ref`,
   `lean_dec_ref`, `lean_is_exclusive`, `lean_mark_mt`, `lean_mark_persistent` behave as in C.
@@ -73,8 +77,14 @@ those sources.
   `LeanHash.HashStr` (= `hash_str`, MurmurHash64A).
 * **IO results.** `lean_io_result_mk_ok(v)`, `lean_io_result_mk_error(err)` (the world token has
   been erased: an IO function returns an `EStateM.Result`-like ctor with one field).
+* **Per-program state.** Several Lean programs run in one OS process. Never keep state that is
+  per OS process natively (working directory, environment, caches of things a program
+  initialized, flags) in a `static` field: put it on `LeanLogicalProcess` (`LeanContext.Proc`)
+  and read environment variables with `LeanContext.Proc.GetEnv`. Write diagnostics to
+  `LeanStdStreams.Stderr`, not `Console.Error`.
 * **Panics.** `lean_panic_fn(default, msg)`; `throw lean_internal_panic("msg")` for internal
-  errors. `LeanIO.Stdout/Stderr/Stdin` are the process-level streams.
+  errors (prints `INTERNAL PANIC: msg` to the program's stderr; the hosts turn the exception into
+  exit code 1). `LeanIO.Stdout/Stderr/Stdin` are the process-level streams.
 
 ## Calling Lean code from the runtime
 

@@ -518,7 +518,7 @@ switch (lean_obj_tag(x_3)) {
 case 0:
 {
 byte x_4 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_3, 0);
 if (x_4 == 0)
 {
 lean_inc(x_1);
@@ -533,7 +533,7 @@ return x_2;
 case 3:
 {
 byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
-x_5 = lean_ctor_get_uint8_s(x_3, 0);
+x_5 = lean_ctor_get_uint8(x_3, 16);
 x_6 = lean_ctor_get(x_3, 0);
 x_7 = lean_ctor_get(x_3, 1);
 x_8 = l_Float_Model_UnpackedFloat_roundToInt(x_5, x_6, x_7);

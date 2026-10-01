@@ -407,7 +407,7 @@ if (lean_obj_tag(x_51) == 0)
 {
 byte x_52 = 0; 
 lean_del_object(x_46);
-x_52 = lean_ctor_get_uint8_s(x_48, 0);
+x_52 = lean_ctor_get_uint8(x_48, 24);
 if (x_52 == 0)
 {
 Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; byte x_57 = 0; 

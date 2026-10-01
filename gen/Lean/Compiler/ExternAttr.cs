@@ -373,9 +373,9 @@ Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; ushort x_9 = 0; byte x_10 = 0; b
 x_6 = lean_ctor_get(x_3, 0);
 x_7 = lean_ctor_get(x_3, 1);
 x_8 = lean_ctor_get(x_3, 2);
-x_9 = lean_ctor_get_uint16_s(x_3, 0);
-x_10 = lean_ctor_get_uint8_s(x_3, 2);
-x_11 = lean_ctor_get_uint8_s(x_3, 3);
+x_9 = lean_ctor_get_uint16(x_3, 24);
+x_10 = lean_ctor_get_uint8(x_3, 26);
+x_11 = lean_ctor_get_uint8(x_3, 27);
 x_12 = M_Init_Prelude.l_Lean_replaceRef(x_1, x_8);
 lean_inc(x_7);
 lean_inc_ref(x_6);
@@ -383,9 +383,9 @@ x_13 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_13, 0, x_6);
 lean_ctor_set(x_13, 1, x_7);
 lean_ctor_set(x_13, 2, x_12);
-lean_ctor_set_uint16_s(x_13, 0, x_9);
-lean_ctor_set_uint8_s(x_13, 2, x_10);
-lean_ctor_set_uint8_s(x_13, 3, x_11);
+lean_ctor_set_uint16(x_13, 24, x_9);
+lean_ctor_set_uint8(x_13, 26, x_10);
+lean_ctor_set_uint8(x_13, 27, x_11);
 x_14 = l_Lean_throwError___at___00Lean_throwErrorAt___at___00__private_Lean_Compiler_ExternAttr_0__Lean_syntaxToExternAttrData_spec__0_spec__0___redArg(x_2, x_13, x_4);
 lean_dec_ref(x_13);
 return x_14;
@@ -501,7 +501,7 @@ return x_4;
 else
 {
 ulong x_5 = 0; ulong x_6 = 0; 
-x_5 = lean_ctor_get_uint64_s(x_2, 0);
+x_5 = lean_ctor_get_uint64(x_2, 16);
 x_6 = (ulong)(lean_uint64_mix_hash(x_3, x_5));
 return x_6;
 }
@@ -522,7 +522,7 @@ goto block_14;
 else
 {
 ulong x_16 = 0; 
-x_16 = lean_ctor_get_uint64_s(x_7, 0);
+x_16 = lean_ctor_get_uint64(x_7, 16);
 x_10 = x_16;
 goto block_14;
 }
@@ -551,7 +551,7 @@ goto block_24;
 else
 {
 ulong x_26 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_17, 0);
+x_26 = lean_ctor_get_uint64(x_17, 16);
 x_20 = x_26;
 goto block_24;
 }
@@ -1178,7 +1178,7 @@ x_5 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_5, 0, x_4);
 lean_ctor_set(x_5, 1, x_3);
 lean_ctor_set(x_5, 2, x_2);
-lean_ctor_set_uint8_s(x_5, 0, x_1);
+lean_ctor_set_uint8(x_5, 24, x_1);
 return x_5;
 }
 }
@@ -1477,7 +1477,7 @@ lean_ctor_set(x_6, 0, x_5);
 lean_ctor_set(x_6, 1, x_4);
 lean_ctor_set(x_6, 2, x_3);
 lean_ctor_set(x_6, 3, x_1);
-lean_ctor_set_uint8_s(x_6, 0, x_2);
+lean_ctor_set_uint8(x_6, 32, x_2);
 return x_6;
 }
 }

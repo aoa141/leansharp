@@ -105,6 +105,9 @@ public sealed class ThunkObj : Obj
 public sealed class RefObj : Obj
 {
     public volatile Obj m_value;
+    /// <summary>Non-zero for a ref created while the compiled Lean modules were initializing:
+    /// index of its value in the global state of each logical process (see `LeanGlobalRefs`).</summary>
+    public int m_slot;
 }
 
 public sealed class ExternalObj : Obj

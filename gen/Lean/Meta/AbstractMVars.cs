@@ -46,7 +46,7 @@ public static Obj l___private_Lean_Meta_AbstractMVars_0__Lean_Meta_AbstractMVars
 _start:
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 72);
 if (x_3 == 0)
 {
 Obj x_4 = null; 
@@ -509,7 +509,7 @@ lean_ctor_set(x_112, 5, x_10);
 lean_ctor_set(x_112, 6, x_11);
 lean_ctor_set(x_112, 7, x_108);
 lean_ctor_set(x_112, 8, x_13);
-lean_ctor_set_uint8_s(x_112, 0, x_3);
+lean_ctor_set_uint8(x_112, 72, x_3);
 x_109 = x_112;
 goto block_111;
 }
@@ -1429,7 +1429,7 @@ lean_ctor_set(x_20, 5, x_18);
 lean_ctor_set(x_20, 6, x_18);
 lean_ctor_set(x_20, 7, x_19);
 lean_ctor_set(x_20, 8, x_19);
-lean_ctor_set_uint8_s(x_20, 0, x_2);
+lean_ctor_set_uint8(x_20, 72, x_2);
 x_21 = l_Lean_Meta_AbstractMVars_abstractExprMVars(x_9, x_20);
 x_22 = lean_ctor_get(x_21, 1);
 lean_inc(x_22);
@@ -1823,7 +1823,7 @@ x_10 = lean_ctor_get(x_2, 5);
 x_11 = lean_ctor_get(x_2, 6);
 x_12 = lean_ctor_get(x_2, 7);
 x_13 = lean_ctor_get(x_2, 8);
-x_14 = lean_ctor_get_uint8_s(x_2, 0);
+x_14 = lean_ctor_get_uint8(x_2, 72);
 x_31 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_31 == 0)
 {
@@ -1891,7 +1891,7 @@ lean_ctor_set(x_27, 5, x_10);
 lean_ctor_set(x_27, 6, x_11);
 lean_ctor_set(x_27, 7, x_12);
 lean_ctor_set(x_27, 8, x_13);
-lean_ctor_set_uint8_s(x_27, 0, x_14);
+lean_ctor_set_uint8(x_27, 72, x_14);
 x_22 = x_27;
 goto block_26;
 }
@@ -2541,7 +2541,7 @@ x_8 = lean_ctor_get(x_2, 5);
 x_9 = lean_ctor_get(x_2, 6);
 x_10 = lean_ctor_get(x_2, 7);
 x_11 = lean_ctor_get(x_2, 8);
-x_12 = lean_ctor_get_uint8_s(x_2, 0);
+x_12 = lean_ctor_get_uint8(x_2, 72);
 x_22 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_22 == 0)
 {
@@ -2589,7 +2589,7 @@ lean_ctor_set(x_20, 5, x_8);
 lean_ctor_set(x_20, 6, x_9);
 lean_ctor_set(x_20, 7, x_10);
 lean_ctor_set(x_20, 8, x_11);
-lean_ctor_set_uint8_s(x_20, 0, x_12);
+lean_ctor_set_uint8(x_20, 72, x_12);
 x_17 = x_20;
 goto block_19;
 }
@@ -2617,7 +2617,7 @@ x_7 = lean_ctor_get(x_1, 5);
 x_8 = lean_ctor_get(x_1, 6);
 x_9 = lean_ctor_get(x_1, 7);
 x_10 = lean_ctor_get(x_1, 8);
-x_11 = lean_ctor_get_uint8_s(x_1, 0);
+x_11 = lean_ctor_get_uint8(x_1, 72);
 x_31 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_31 == 0)
 {
@@ -2708,7 +2708,7 @@ lean_ctor_set(x_25, 5, x_7);
 lean_ctor_set(x_25, 6, x_8);
 lean_ctor_set(x_25, 7, x_9);
 lean_ctor_set(x_25, 8, x_10);
-lean_ctor_set_uint8_s(x_25, 0, x_11);
+lean_ctor_set_uint8(x_25, 72, x_11);
 x_22 = x_25;
 goto block_24;
 }
@@ -2922,7 +2922,7 @@ x_34 = lean_ctor_get(x_24, 5);
 x_35 = lean_ctor_get(x_24, 6);
 x_36 = lean_ctor_get(x_24, 7);
 x_37 = lean_ctor_get(x_24, 8);
-x_38 = lean_ctor_get_uint8_s(x_24, 0);
+x_38 = lean_ctor_get_uint8(x_24, 72);
 x_54 = (byte)(lean_is_exclusive(x_24) ? 0 : 1);
 if (x_54 == 0)
 {
@@ -2978,7 +2978,7 @@ lean_ctor_set(x_52, 5, x_44);
 lean_ctor_set(x_52, 6, x_45);
 lean_ctor_set(x_52, 7, x_36);
 lean_ctor_set(x_52, 8, x_46);
-lean_ctor_set_uint8_s(x_52, 0, x_38);
+lean_ctor_set_uint8(x_52, 72, x_38);
 x_47 = x_52;
 goto block_51;
 }
@@ -3318,7 +3318,7 @@ Obj x_130 = null; Obj x_131 = null; Obj x_132 = null; byte x_133 = 0; Obj x_134 
 x_130 = lean_ctor_get(x_1, 0);
 x_131 = lean_ctor_get(x_1, 1);
 x_132 = lean_ctor_get(x_1, 2);
-x_133 = lean_ctor_get_uint8_s(x_1, 8);
+x_133 = lean_ctor_get_uint8(x_1, 32);
 lean_inc_ref(x_131);
 x_134 = l_Lean_Meta_AbstractMVars_abstractExprMVars(x_131, x_2);
 x_135 = lean_ctor_get(x_134, 0);
@@ -3475,7 +3475,7 @@ Obj x_166 = null; Obj x_167 = null; Obj x_168 = null; byte x_169 = 0; Obj x_170 
 x_166 = lean_ctor_get(x_1, 0);
 x_167 = lean_ctor_get(x_1, 1);
 x_168 = lean_ctor_get(x_1, 2);
-x_169 = lean_ctor_get_uint8_s(x_1, 8);
+x_169 = lean_ctor_get_uint8(x_1, 32);
 lean_inc_ref(x_167);
 x_170 = l_Lean_Meta_AbstractMVars_abstractExprMVars(x_167, x_2);
 x_171 = lean_ctor_get(x_170, 0);
@@ -3633,7 +3633,7 @@ x_202 = lean_ctor_get(x_1, 0);
 x_203 = lean_ctor_get(x_1, 1);
 x_204 = lean_ctor_get(x_1, 2);
 x_205 = lean_ctor_get(x_1, 3);
-x_206 = lean_ctor_get_uint8_s(x_1, 8);
+x_206 = lean_ctor_get_uint8(x_1, 40);
 lean_inc_ref(x_203);
 x_207 = l_Lean_Meta_AbstractMVars_abstractExprMVars(x_203, x_2);
 x_208 = lean_ctor_get(x_207, 0);

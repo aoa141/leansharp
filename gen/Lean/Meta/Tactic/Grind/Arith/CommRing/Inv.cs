@@ -1032,7 +1032,7 @@ lean_inc(x_2);
 x_25 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_25, 0, x_2);
 lean_ctor_set(x_25, 1, x_24);
-lean_ctor_set_uint8_s(x_25, 0, x_23);
+lean_ctor_set_uint8(x_25, 16, x_23);
 x_26 = lean_u8(lean_nat_dec_eq(x_2, x_2));
 if (x_26 == 0)
 {
@@ -2512,7 +2512,7 @@ public static Obj l_Lean_Meta_Grind_Arith_CommRing_checkInvariants(Obj x_1, Obj 
 _start:
 {
 byte x_12 = 0; 
-x_12 = lean_ctor_get_uint8_s(x_3, 2);
+x_12 = lean_ctor_get_uint8(x_3, 66);
 if (x_12 == 0)
 {
 Obj x_13 = null; Obj x_14 = null; 

@@ -21,7 +21,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 2);
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 16);
 return x_3;
 }
 }
@@ -48,7 +48,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 2);
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 8);
 return x_3;
 }
 }

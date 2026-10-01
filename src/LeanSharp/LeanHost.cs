@@ -31,8 +31,11 @@ public static unsafe class LeanHost
             Check(M_Std.initialize(builtin), "Std");
             Check(M_Lean.initialize(builtin), "Lean");
             Check(M_Lake.initialize(builtin), "Lake");
+            Check(M_LakeMain.initialize(builtin), "LakeMain");
             HostHooks.AfterModuleInitialization();
             InitTimeEnvironment.CaptureBase();
+            // from here on every program gets its own copy of the libraries' global state
+            LeanProgramState.FreezeInitialState();
         }
     }
 
@@ -47,12 +50,13 @@ public static unsafe class LeanHost
     ///    a test worker, Lake running `lean` children, ...);
     ///  * re-evaluates the library state that is computed from the environment at initialization
     ///    time (see <see cref="InitTimeEnvironment"/>) for the environment of this program.
-    /// The state that the runtime keeps per logical process (working directory, environment,
-    /// pending exit, cumulative profiling times, ...) is renewed by the runtime itself when the
-    /// program proper starts (`lean_io_mark_end_initialization`).
+    /// The program also gets a fresh logical process: working directory, environment, pending
+    /// exit, cumulative profiling times and the global state of the Lean libraries (the values
+    /// of the `IO.Ref`s created by `builtin_initialize`).
     /// </summary>
     internal static IDisposable EnterProgram()
     {
+        LeanProgramState.BeginProgram();
         LeanRt.lean_set_exit_on_panic(false);
         LeanRt.lean_set_panic_messages(true);
         LeanTaskManager.ClearPendingExit();
@@ -60,7 +64,16 @@ public static unsafe class LeanHost
         LeanRuntimeSettings.MaxHeartbeat = 0;
         LeanRuntimeSettings.ThreadStackSize = 0;
         LeanHeartbeats.Set(0);
-        return InitTimeEnvironment.Enter();
+        return new ProgramScope(InitTimeEnvironment.Enter());
+    }
+
+    sealed class ProgramScope(IDisposable inner) : IDisposable
+    {
+        public void Dispose()
+        {
+            inner.Dispose();
+            LeanProgramState.EndProgram();
+        }
     }
 
     static void Check(Obj r, string what)

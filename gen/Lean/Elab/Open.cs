@@ -1845,7 +1845,7 @@ public static Obj l_Lean_Elab_OpenDecl_elabOpenDecl___redArg___lam__27(Obj x_1, 
 _start:
 {
 byte x_13 = 0; 
-x_13 = lean_ctor_get_uint8_s(x_12, 0);
+x_13 = lean_ctor_get_uint8(x_12, 24);
 if (x_13 == 0)
 {
 Obj x_14 = null; 
@@ -2941,7 +2941,7 @@ public static Obj l_Lean_Elab_OpenDecl_elabOpenDecl___redArg___lam__13(Obj x_1, 
 _start:
 {
 byte x_14 = 0; 
-x_14 = lean_ctor_get_uint8_s(x_13, 0);
+x_14 = lean_ctor_get_uint8(x_13, 24);
 if (x_14 == 0)
 {
 Obj x_15 = null; 
@@ -3239,7 +3239,7 @@ public static Obj l_Lean_Elab_OpenDecl_elabOpenDecl___redArg___lam__21(Obj x_1, 
 _start:
 {
 byte x_13 = 0; 
-x_13 = lean_ctor_get_uint8_s(x_12, 0);
+x_13 = lean_ctor_get_uint8(x_12, 24);
 if (x_13 == 0)
 {
 Obj x_14 = null; Obj x_15 = null; 

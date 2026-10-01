@@ -1,4 +1,4 @@
-Init.Prelude	Init/Prelude.cs	16489	
+Init.Prelude	Init/Prelude.cs	16498	
 Init.Coe	Init/Coe.cs	933	Init.Prelude,Init.Prelude
 Init.Notation	Init/Notation.cs	30441	Init.Coe
 Init.Tactics	Init/Tactics.cs	35243	Init.Notation
@@ -887,7 +887,7 @@ Std.Sat.CNF.Unit	Std/Sat/CNF/Unit.cs	113	Std.Sat.CNF.Basic,Std.Sat.CNF.Sat,Std.S
 Std.Sat.CNF.Negation	Std/Sat/CNF/Negation.cs	146	Std.Sat.CNF.Basic,Std.Sat.CNF.Sat,Std.Sat.CNF.Entails,Std.Sat.CNF.Unit,Init.Data.Array.MapIdx
 Std.Sat.CNF.Redundancy	Std/Sat/CNF/Redundancy.cs	29	Std.Sat.CNF.Negation,Init.ByCases
 Std.Sat.CNF	Std/Sat/CNF.cs	69	Std.Sat.CNF.Basic,Std.Sat.CNF.Literal,Std.Sat.CNF.Sat,Std.Sat.CNF.Relabel,Std.Sat.CNF.RelabelFin,Std.Sat.CNF.Dimacs,Std.Sat.CNF.Entails,Std.Sat.CNF.Unit,Std.Sat.CNF.Negation,Std.Sat.CNF.Redundancy
-Std.Sat.AIG.CNF	Std/Sat/AIG/CNF.cs	3481	Std.Sat.CNF,Std.Sat.AIG.Lemmas,Init.ByCases,Init.Omega
+Std.Sat.AIG.CNF	Std/Sat/AIG/CNF.cs	3453	Std.Sat.CNF,Std.Sat.AIG.Lemmas,Init.ByCases,Init.Omega
 Std.Sat.AIG.Relabel	Std/Sat/AIG/Relabel.cs	530	Std.Sat.AIG.Lemmas,Init.ByCases,Init.Omega
 Std.Sat.AIG.RelabelNat	Std/Sat/AIG/RelabelNat.cs	924	Std.Sat.AIG.Relabel,Init.ByCases,Init.Omega
 Std.Sat.AIG.RefVec	Std/Sat/AIG/RefVec.cs	817	Std.Sat.AIG.CachedGatesLemmas,Init.Data.Vector.Lemmas,Init.ByCases,Init.Omega
@@ -964,9 +964,9 @@ Std.Time.Notation.Spec	Std/Time/Notation/Spec.cs	12386	Std.Time.Format.Basic,Std
 Std.Time.Format	Std/Time/Format.cs	8531	Std.Time.Notation.Spec,Std.Time.Format.Basic,Std.Time.Format.Basic
 Std.Time.Notation	Std/Time/Notation.cs	15485	Std.Time.Format,Std.Time.Format
 Std.Time	Std/Time.cs	59	Std.Time.Time,Std.Time.Date,Std.Time.Zoned,Std.Time.Format,Std.Time.DateTime,Std.Time.Notation,Std.Time.Duration,Std.Time.Zoned.Database
-Std.Tactic.BVDecide.Bitblast.BoolExpr.Basic	Std/Tactic/BVDecide/Bitblast/BoolExpr/Basic.cs	1034	Init.Data.String.Basic
+Std.Tactic.BVDecide.Bitblast.BoolExpr.Basic	Std/Tactic/BVDecide/Bitblast/BoolExpr/Basic.cs	1591	Init.Data.String.Basic,Init.Data.Hashable
 Std.Tactic.BVDecide.Bitblast.BoolExpr	Std/Tactic/BVDecide/Bitblast/BoolExpr.cs	24	Std.Tactic.BVDecide.Bitblast.BoolExpr.Basic
-Std.Tactic.BVDecide.Bitblast.BVExpr.Basic	Std/Tactic/BVDecide/Bitblast/BVExpr/Basic.cs	6219	Init.Data.Hashable,Std.Tactic.BVDecide.Bitblast.BoolExpr.Basic,Init.Data.RArray,Init.Data.ToString.Macro,Init.Data.BitVec.Lemmas,Init.Omega
+Std.Tactic.BVDecide.Bitblast.BVExpr.Basic	Std/Tactic/BVDecide/Bitblast/BVExpr/Basic.cs	6778	Init.Data.Hashable,Std.Tactic.BVDecide.Bitblast.BoolExpr.Basic,Init.Data.RArray,Init.Data.ToString.Macro,Init.Data.BitVec.Lemmas,Init.Omega
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.GetLsbD	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl/Operations/GetLsbD.cs	100	Std.Sat.AIG.RefVec
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Var	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl/Var.cs	854	Std.Tactic.BVDecide.Bitblast.BVExpr.Basic,Std.Sat.AIG.LawfulVecOperator,Init.Omega
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.ShiftRight	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl/Operations/ShiftRight.cs	915	Std.Tactic.BVDecide.Bitblast.BVExpr.Basic,Std.Sat.AIG.If,Init.Omega
@@ -993,7 +993,7 @@ Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Clz	Std/Tactic/BVDec
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Cpop	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl/Operations/Cpop.cs	701	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Const,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Sub,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Extract,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Append,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.ZeroExtend,Std.Sat.AIG.If,Init.Omega
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Expr	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl/Expr.cs	13392	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Var,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.ShiftRight,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Append,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Replicate,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Extract,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.RotateLeft,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.RotateRight,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Mul,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Umod,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Reverse,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Clz,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.Cpop,Init.Data.Nat.Internal.Linear,Init.Omega
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Pred	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl/Pred.cs	4577	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Operations.GetLsbD,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Expr,Init.Omega
-Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Substructure	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl/Substructure.cs	3946	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Pred,Init.Omega
+Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Substructure	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl/Substructure.cs	3954	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Pred,Init.Omega
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Impl.cs	24	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Substructure
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas.Basic	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Lemmas/Basic.cs	55	Std.Sat.AIG.Basic,Std.Tactic.BVDecide.Bitblast.BVExpr.Basic
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas.Var	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Lemmas/Var.cs	44	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas.Basic,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Var,Init.Data.BitVec.Bootstrap,Init.Data.BitVec.Lemmas,Init.Omega
@@ -1029,7 +1029,8 @@ Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas.Pred	Std/Tactic/BVDecide/Bitb
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit/Lemmas.cs	29	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas.Pred
 Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit	Std/Tactic/BVDecide/Bitblast/BVExpr/Circuit.cs	29	Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas
 Std.Tactic.BVDecide.Bitblast.BVExpr	Std/Tactic/BVDecide/Bitblast/BVExpr.cs	29	Std.Tactic.BVDecide.Bitblast.BVExpr.Basic,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit
-Std.Tactic.BVDecide.Bitblast	Std/Tactic/BVDecide/Bitblast.cs	29	Std.Tactic.BVDecide.Bitblast.BoolExpr,Std.Tactic.BVDecide.Bitblast.BVExpr
+Std.Tactic.BVDecide.Bitblast.EfficientEval	Std/Tactic/BVDecide/Bitblast/EfficientEval.cs	1398	Std.Tactic.BVDecide.Bitblast.BVExpr.Basic,Init.System.IO,Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Impl.Expr,Std.Data.HashMap.Basic
+Std.Tactic.BVDecide.Bitblast	Std/Tactic/BVDecide/Bitblast.cs	34	Std.Tactic.BVDecide.Bitblast.BoolExpr,Std.Tactic.BVDecide.Bitblast.BVExpr,Std.Tactic.BVDecide.Bitblast.EfficientEval
 Std.Tactic.BVDecide.LRAT.Actions	Std/Tactic/BVDecide/LRAT/Actions.cs	1785	Std.Sat.CNF
 Std.Tactic.BVDecide.LRAT.Internal.Basic	Std/Tactic/BVDecide/LRAT/Internal/Basic.cs	384	Std.Sat.CNF.Basic,Std.Sat.CNF.Entails,Init.Omega
 Std.Tactic.BVDecide.LRAT.Internal.Add	Std/Tactic/BVDecide/LRAT/Internal/Add.cs	34	Std.Tactic.BVDecide.LRAT.Internal.Basic
@@ -1047,7 +1048,7 @@ Std.Tactic.BVDecide.LRAT	Std/Tactic/BVDecide/LRAT.cs	39	Std.Tactic.BVDecide.LRAT
 Std.Tactic.BVDecide.Normalize.Equal	Std/Tactic/BVDecide/Normalize/Equal.cs	29	Init.Data.BitVec.Lemmas,Init.Data.BitVec.Package
 Std.Tactic.BVDecide.Normalize.Prop	Std/Tactic/BVDecide/Normalize/Prop.cs	24	Init.SimpLemmas
 Std.Tactic.BVDecide.Normalize	Std/Tactic/BVDecide/Normalize.cs	44	Std.Tactic.BVDecide.Normalize.BitVec,Std.Tactic.BVDecide.Normalize.Bool,Std.Tactic.BVDecide.Normalize.Canonicalize,Std.Tactic.BVDecide.Normalize.Equal,Std.Tactic.BVDecide.Normalize.Prop
-Std.Tactic.BVDecide.Reflect	Std/Tactic/BVDecide/Reflect.cs	2146	Std.Tactic.BVDecide.LRAT.Checker,Std.Tactic.BVDecide.LRAT.Parser,Std.Tactic.BVDecide.Bitblast,Std.Sat.AIG.CNF,Std.Sat.AIG.RelabelNat
+Std.Tactic.BVDecide.Reflect	Std/Tactic/BVDecide/Reflect.cs	2287	Std.Tactic.BVDecide.LRAT.Checker,Std.Tactic.BVDecide.LRAT.Parser,Std.Tactic.BVDecide.Bitblast,Std.Sat.AIG.CNF,Std.Sat.AIG.RelabelNat
 Std.Tactic.BVDecide	Std/Tactic/BVDecide.cs	49	Std.Tactic.BVDecide.Bitblast,Std.Tactic.BVDecide.LRAT,Std.Tactic.BVDecide.Normalize,Std.Tactic.BVDecide.Reflect,Std.Tactic.BVDecide.Syntax,Init.Sym.Lemmas
 Std.Tactic	Std/Tactic.cs	29	Std.Tactic.BVDecide,Std.Tactic.Do
 Std.Internal.UV.Loop	Std/Internal/UV/Loop.cs	41	Init.System.Promise
@@ -1194,7 +1195,7 @@ Lean.Data.NameTrie	Lean/Data/NameTrie.cs	3243	Lean.Data.PrefixTree,Init.Data.Ord
 Lean.Util.LeanOptions	Lean/Util/LeanOptions.cs	4790	Lean.Data.Json.FromToJson.Basic
 Lean.Setup	Lean/Setup.cs	15083	Lean.Data.Json.Parser,Lean.Util.LeanOptions
 Lean.Data.PersistentArray	Lean/Data/PersistentArray.cs	7565	Init.Data.Nat.Fold,Init.Data.UInt.Basic,Init.Data.String.Defs,Init.Data.ToString.Macro,Init.Omega
-Lean.LocalContext	Lean/LocalContext.cs	14885	Init.Data.Nat.Control,Lean.Data.PersistentArray,Lean.Expr,Init.Data.ToString.Macro,Init.Omega
+Lean.LocalContext	Lean/LocalContext.cs	14914	Init.Data.Nat.Control,Lean.Data.PersistentArray,Lean.Expr,Init.Data.ToString.Macro,Init.Omega
 Lean.Util.Path	Lean/Util/Path.cs	3224	Init.System.IO,Init.Control.Do,Init.Data.ToString.Name,Init.Data.String.TakeDrop,Init.Data.List.Monadic,Init.Data.Option.BasicAux,Init.Data.ToString.Macro,Init.Data.String.Length
 Lean.Util.FindExpr	Lean/Util/FindExpr.cs	299	Lean.Expr
 Lean.Util.Profile	Lean/Util/Profile.cs	884	Init.Data.OfScientific,Lean.Data.Options
@@ -1388,7 +1389,7 @@ Lean.Compiler.LCNF.Simp.InlineProj	Lean/Compiler/LCNF/Simp/InlineProj.cs	2034	Le
 Lean.Compiler.LCNF.Simp.Used	Lean/Compiler/LCNF/Simp/Used.cs	1512	Lean.Compiler.LCNF.Simp.SimpM,Init.Omega
 Lean.Compiler.LCNF.Simp.DefaultAlt	Lean/Compiler/LCNF/Simp/DefaultAlt.cs	2166	Lean.Compiler.LCNF.Simp.SimpM,Lean.Compiler.LCNF.Simp.Used
 Lean.Compiler.LCNF.Simp.SimpValue	Lean/Compiler/LCNF/Simp/SimpValue.cs	1282	Lean.Compiler.LCNF.Simp.SimpM
-Lean.Compiler.LCNF.Simp.ConstantFold	Lean/Compiler/LCNF/Simp/ConstantFold.cs	75901	Init.Data.UInt.Log2,Lean.Compiler.LCNF.InferType,Init.Data.UInt.Lemmas
+Lean.Compiler.LCNF.Simp.ConstantFold	Lean/Compiler/LCNF/Simp/ConstantFold.cs	76714	Init.Data.UInt.Log2,Lean.Compiler.LCNF.InferType,Init.Data.UInt.Lemmas,Lean.Compiler.LCNF.Util
 Lean.Compiler.LCNF.Simp.Main	Lean/Compiler/LCNF/Simp/Main.cs	13645	Lean.Compiler.LCNF.Simp.InlineCandidate,Lean.Compiler.LCNF.Simp.InlineProj,Lean.Compiler.LCNF.Simp.Used,Lean.Compiler.LCNF.Simp.DefaultAlt,Lean.Compiler.LCNF.Simp.SimpValue,Lean.Compiler.LCNF.Simp.ConstantFold
 Lean.Compiler.LCNF.Simp	Lean/Compiler/LCNF/Simp.cs	2717	Lean.Compiler.LCNF.ReduceJpArity,Lean.Compiler.LCNF.Simp.Basic,Lean.Compiler.LCNF.Simp.FunDeclInfo,Lean.Compiler.LCNF.Simp.JpCases,Lean.Compiler.LCNF.Simp.Config,Lean.Compiler.LCNF.Simp.InlineCandidate,Lean.Compiler.LCNF.Simp.SimpM,Lean.Compiler.LCNF.Simp.Main,Lean.Compiler.LCNF.Simp.InlineProj,Lean.Compiler.LCNF.Simp.DefaultAlt,Lean.Compiler.LCNF.Simp.SimpValue,Lean.Compiler.LCNF.Simp.Used
 Lean.Util.ForEachExprWhere	Lean/Util/ForEachExprWhere.cs	1114	Lean.Expr,Lean.Util.MonadCache
@@ -1422,7 +1423,7 @@ Lean.Meta.AbstractMVars	Lean/Meta/AbstractMVars.cs	4076	Lean.Meta.Basic
 Lean.Meta.Check	Lean/Meta/Check.cs	14906	Lean.Meta.Sorry,Init.Data.Range.Polymorphic.Iterators,Lean.OriginalConstKind
 Lean.Meta.SynthInstance	Lean/Meta/SynthInstance.cs	40026	Init.Data.Array.InsertionSort,Lean.Meta.Instances,Lean.Meta.AbstractMVars,Lean.Meta.Check,Init.While,Lean.Util.CollectFVars
 Lean.Meta.HasAssignableMVar	Lean/Meta/HasAssignableMVar.cs	1306	Lean.Meta.Basic
-Lean.Meta.AppBuilder	Lean/Meta/AppBuilder.cs	23110	Lean.Meta.SynthInstance,Lean.Meta.DecLevel,Lean.Meta.CtorRecognizer,Lean.Meta.HasAssignableMVar,Lean.Structure,Init.Omega
+Lean.Meta.AppBuilder	Lean/Meta/AppBuilder.cs	23310	Lean.Meta.SynthInstance,Lean.Meta.DecLevel,Lean.Meta.CtorRecognizer,Lean.Meta.HasAssignableMVar,Lean.Structure,Init.Omega
 Lean.Meta.CasesInfo	Lean/Meta/CasesInfo.cs	3693	Lean.Meta.Basic,Init.Data.Range.Polymorphic.Iterators
 Lean.Compiler.LCNF.ToLCNF	Lean/Compiler/LCNF/ToLCNF.cs	29898	Lean.Meta.AppBuilder,Lean.Compiler.CSimpAttr,Lean.Compiler.ImplementedByAttr,Lean.Compiler.LCNF.Bind,Lean.Compiler.NeverExtractAttr,Lean.Meta.CasesInfo,Lean.Meta.WHNF,Lean.Compiler.NoncomputableAttr,Lean.Compiler.LCNF.Util,Init.Data.Format.Macro,Init.Omega,Lean.OriginalConstKind
 Lean.Compiler.LCNF.ToDecl	Lean/Compiler/LCNF/ToDecl.cs	11919	Lean.Compiler.InitAttr,Lean.Compiler.LCNF.ToLCNF,Lean.Compiler.Options,Lean.Meta.Transform,Lean.Meta.Match.MatcherInfo,Init.While,Lean.Compiler.ExportAttr
@@ -1544,7 +1545,7 @@ Lean.Meta.TryThis	Lean/Meta/TryThis.cs	2574	Lean.Data.Lsp.Basic,Lean.PrettyPrint
 Lean.Util.Diff	Lean/Util/Diff.cs	3166	Init.Data.Array.Subarray.Split,Init.Data.Slice.Array.Iterator,Init.Data.Range,Std.Data.HashMap.Basic,Init.Data.String.Basic,Init.Data.Range.Polymorphic.RangeIterator,Init.While,Init.Data.Range.Polymorphic.Iterators,Init.Data.Range.Polymorphic.Nat,Init.Data.ToString.Macro,Init.Omega
 Lean.Meta.Hint	Lean/Meta/Hint.cs	11116	Lean.Meta.TryThis,Lean.Util.Diff
 Lean.Linter.Deprecated	Lean/Linter/Deprecated.cs	12407	Lean.Meta.Basic,Lean.Linter.Init,Lean.Elab.InfoTree.Main,Lean.ExtraModUses,Lean.Meta.Hint,Init.Data.List.MapIdx,Init.Omega
-Lean.Meta.Constructions.CtorIdx	Lean/Meta/Constructions/CtorIdx.cs	5359	Lean.Meta.Basic,Lean.AddDecl,Lean.Meta.CompletionName,Lean.Linter.Deprecated
+Lean.Meta.Constructions.CtorIdx	Lean/Meta/Constructions/CtorIdx.cs	6665	Lean.Meta.Basic,Lean.AddDecl,Lean.Meta.CompletionName,Lean.Linter.Deprecated,Lean.Compiler.ImplementedByAttr,Lean.Compiler.LCNF.Util
 Lean.Meta.HasNotBit	Lean/Meta/HasNotBit.cs	1116	Lean.Meta.Basic,Lean.Meta.MatchUtil
 Lean.Meta.Constructions.SparseCasesOn	Lean/Meta/Constructions/SparseCasesOn.cs	6899	Lean.Meta.Basic,Lean.AddDecl,Lean.Meta.Constructions.CtorIdx,Lean.Meta.HasNotBit,Lean.Meta.Transform
 Lean.Meta.Tactic.Cases	Lean/Meta/Tactic/Cases.cs	14779	Lean.Meta.Tactic.Induction,Lean.Meta.Tactic.Acyclic,Lean.Meta.Tactic.UnifyEq,Lean.Meta.Constructions.SparseCasesOn,Lean.Meta.Constructions.CtorIdx,Init.Omega
@@ -1560,7 +1561,7 @@ Lean.Meta.Match.CaseValues	Lean/Meta/Match/CaseValues.cs	2200	Lean.Meta.Basic,Le
 Lean.Meta.Match.CaseArraySizes	Lean/Meta/Match/CaseArraySizes.cs	3468	Lean.Meta.Basic,Lean.Meta.Tactic.FVarSubst,Lean.Meta.Match.CaseValues,Lean.Meta.Tactic.Subst
 Lean.Meta.Match.Match	Lean/Meta/Match/Match.cs	57440	Lean.Meta.Closure,Lean.Meta.Tactic.Contradiction,Lean.Meta.GeneralizeTelescope,Lean.Meta.Match.Basic,Lean.Meta.Match.MatcherApp.Basic,Lean.Meta.Match.MVarRenaming,Lean.Meta.Match.MVarRenaming,Lean.Meta.Match.SimpH,Lean.Meta.Match.SolveOverlap,Lean.Meta.HasNotBit,Lean.Meta.Match.CaseArraySizes,Lean.Meta.Match.CaseValues,Lean.Meta.Match.NamedPatterns
 Lean.Meta.GeneralizeVars	Lean/Meta/GeneralizeVars.cs	4951	Lean.Meta.Basic,Lean.Util.CollectFVars
-Lean.Elab.BindersUtil	Lean/Elab/BindersUtil.cs	2387	Lean.Parser.Term,Lean.Parser.Term,Lean.Parser.Do,Init.Syntax
+Lean.Elab.BindersUtil	Lean/Elab/BindersUtil.cs	2358	Lean.Parser.Term,Lean.Parser.Term,Lean.Parser.Do,Init.Syntax
 Lean.Meta.Coe	Lean/Meta/Coe.cs	13541	Lean.Meta.AppBuilder,Lean.ExtraModUses,Lean.Meta.WHNF
 Lean.Util.CollectLevelMVars	Lean/Util/CollectLevelMVars.cs	1269	Lean.Expr
 Lean.Elab.Util	Lean/Elab/Util.cs	8721	Lean.Parser.Extension,Lean.Parser.Command,Lean.KeyedDeclsAttribute,Lean.BuiltinDocAttr,Lean.ExtraModUses,Init.Prelude
@@ -1792,7 +1793,7 @@ Lean.Meta.Sym.Offset	Lean/Meta/Sym/Offset.cs	2267	Lean.Meta.Sym.LitValues
 Lean.Meta.Sym.Pattern	Lean/Meta/Sym/Pattern.cs	26003	Lean.Meta.Sym.SymM,Lean.Data.AssocList,Lean.Meta.SynthInstance,Lean.Meta.Sym.InstantiateS,Lean.Meta.Sym.AbstractS,Lean.Meta.Sym.InstantiateMVarsS,Lean.Meta.Sym.IsClass,Lean.Meta.Sym.MaxFVar,Lean.Meta.Sym.ProofInstInfo,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.Offset,Lean.Meta.Sym.Eta,Lean.Meta.Sym.Util,Lean.Meta.HasAssignableMVar,Init.Data.List.MapIdx,Init.Data.Nat.Internal.Linear,Std.Do.Triple.Basic
 Lean.Meta.Sym.Simp.SimpM	Lean/Meta/Sym/Simp/SimpM.cs	2986	Lean.Meta.Sym.Pattern
 Lean.Meta.Sym.InferType	Lean/Meta/Sym/InferType.cs	1481	Lean.Meta.Sym.SymM
-Lean.Meta.Sym.Simp.Result	Lean/Meta/Sym/Simp/Result.cs	556	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.InferType
+Lean.Meta.Sym.Simp.Result	Lean/Meta/Sym/Simp/Result.cs	617	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.InferType
 Lean.Meta.Sym.Simp.CongrInfo	Lean/Meta/Sym/Simp/CongrInfo.cs	2600	Lean.Meta.Sym.SymM,Lean.Meta.FunInfo,Init.Omega
 Lean.Meta.Sym.Simp.App	Lean/Meta/Sym/Simp/App.cs	8352	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Tactic.Simp.Types,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.InferType,Lean.Meta.Sym.Simp.CongrInfo,Init.Omega
 Lean.Meta.Sym.Simp.DiscrTree	Lean/Meta/Sym/Simp/DiscrTree.cs	1995	Lean.Meta.Sym.Pattern,Lean.Meta.DiscrTree.Util,Lean.Meta.Sym.Offset,Lean.Meta.Sym.Eta,Init.Omega
@@ -1828,7 +1829,7 @@ Lean.Meta.Sym.Simp.Theorems	Lean/Meta/Sym/Simp/Theorems.cs	10959	Lean.Meta.Sym.P
 Lean.Meta.Sym.Simp.Discharger	Lean/Meta/Sym/Simp/Discharger.cs	2827	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.AppBuilder
 Lean.Meta.Sym.Simp.Rewrite	Lean/Meta/Sym/Simp/Rewrite.cs	4328	Lean.Meta.Sym.Simp.Simproc,Lean.Meta.Sym.Simp.Theorems,Lean.Meta.Sym.Simp.App,Lean.Meta.Sym.Simp.Discharger,Lean.Meta.ACLt,Lean.Meta.Sym.InstantiateS,Lean.Meta.Sym.InstantiateMVarsS,Init.Data.Range.Polymorphic.Iterators
 Lean.Meta.Sym.Reduce	Lean/Meta/Sym/Reduce.cs	1591	Lean.Meta.Sym.SymM,Lean.Meta.Sym.InstantiateS,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.WHNF,Lean.ProjFns
-Lean.Meta.Sym.Simp.ControlFlow	Lean/Meta/Sym/Simp/ControlFlow.cs	4986	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.InferType,Lean.Meta.Sym.Simp.App,Lean.Meta.Sym.Util,Lean.Meta.Sym.Reduce,Lean.Meta.WHNF,Lean.Meta.AppBuilder,Init.Sym.Lemmas
+Lean.Meta.Sym.Simp.ControlFlow	Lean/Meta/Sym/Simp/ControlFlow.cs	5062	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.InferType,Lean.Meta.Sym.Simp.App,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.Util,Lean.Meta.Sym.Reduce,Lean.Meta.WHNF,Lean.Meta.AppBuilder,Init.Sym.Lemmas
 Lean.Meta.Tactic.Cbv.TheoremsLookup	Lean/Meta/Tactic/Cbv/TheoremsLookup.cs	2533	Lean.Meta.Sym.Simp.Theorems,Lean.Meta.Match.MatchEqsExt,Lean.Meta.Eqns
 Lean.Meta.Tactic.Cbv.CbvEvalExt	Lean/Meta/Tactic/Cbv/CbvEvalExt.cs	8158	Lean.Data.NameMap,Lean.ScopedEnvExtension,Lean.Elab.InfoTree,Lean.Meta.Sym.Simp.Theorems,Lean.Meta.Tactic.AuxLemma,Lean.Meta.AppBuilder
 Lean.Meta.Tactic.Cbv.ControlFlow	Lean/Meta/Tactic/Cbv/ControlFlow.cs	16918	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.Simp.Rewrite,Lean.Meta.Sym.Simp.ControlFlow,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.InstantiateS,Lean.Meta.Sym.InferType,Lean.Meta.Sym.Simp.App,Lean.Meta.SynthInstance,Lean.Meta.WHNF,Lean.Meta.AppBuilder,Init.Sym.Lemmas,Lean.Meta.Tactic.Cbv.TheoremsLookup,Lean.Meta.Tactic.Cbv.Opaque,Lean.Meta.Tactic.Cbv.CbvEvalExt,Lean.Compiler.NoncomputableAttr,Init.CbvSimproc,Lean.Meta.Tactic.Cbv.CbvSimproc
@@ -1846,7 +1847,7 @@ Lean.Meta.Sym.Simp.Forall	Lean/Meta/Sym/Simp/Forall.cs	8025	Lean.Meta.Sym.Simp.S
 Lean.Meta.Sym.Simp.Main	Lean/Meta/Sym/Simp/Main.cs	4783	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.Simp.Simproc,Lean.Meta.Sym.Simp.App,Lean.Meta.Sym.Simp.Have,Lean.Meta.Sym.Simp.Forall
 Lean.Meta.Sym.Simp.Goal	Lean/Meta/Sym/Simp/Goal.cs	1970	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Tactic.Util,Lean.Meta.Sym.InferType
 Lean.Meta.Sym.Simp.Debug	Lean/Meta/Sym/Simp/Debug.cs	656	Lean.Meta.Sym.Simp.Discharger,Lean.Meta.Sym.Simp.Rewrite,Lean.Meta.Sym.Simp.Goal,Lean.Meta.Sym.Util
-Lean.Meta.Sym.Simp.EvalGround	Lean/Meta/Sym/Simp/EvalGround.cs	98809	Lean.Meta.Sym.Simp.SimpM,Init.Sym.Lemmas,Lean.Meta.Sym.LitValues,Lean.Meta.StringLitProof,Lean.Meta.Offset
+Lean.Meta.Sym.Simp.EvalGround	Lean/Meta/Sym/Simp/EvalGround.cs	102687	Lean.Meta.Sym.Simp.SimpM,Init.Sym.Lemmas,Lean.Meta.Sym.LitValues,Lean.Meta.StringLitProof,Lean.Meta.Offset
 Lean.Meta.Sym.Simp.Telescope	Lean/Meta/Sym/Simp/Telescope.cs	101	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Have,Lean.Meta.Sym.Simp.Forall
 Lean.Meta.Sym.Simp.Attr	Lean/Meta/Sym/Simp/Attr.cs	2361	Lean.Meta.Sym.Simp.Theorems
 Lean.Meta.Sym.Simp.Variant	Lean/Meta/Sym/Simp/Variant.cs	933	Lean.Meta.Sym.Simp.SimpM,Lean.ScopedEnvExtension
@@ -1869,8 +1870,8 @@ Lean.Meta.Sym.Arith.Classify	Lean/Meta/Sym/Arith/Classify.cs	11247	Lean.Meta.Sym
 Lean.Meta.Tactic.Grind.VarRename	Lean/Meta/Tactic/Grind/VarRename.cs	1418	Init.Data.Array.QSort,Std.Data.HashSet,Init.Data.Hashable
 Lean.Meta.Sym.Arith.VarRename	Lean/Meta/Sym/Arith/VarRename.cs	830	Init.Grind.Ring.CommSemiringAdapter,Lean.Meta.Tactic.Grind.VarRename
 Lean.Meta.Sym.Arith.ToExpr	Lean/Meta/Sym/Arith/ToExpr.cs	1268	Init.Grind.Ring.CommSemiringAdapter,Lean.ToExpr
-Lean.Meta.Sym.Arith.Norm	Lean/Meta/Sym/Arith/Norm.cs	58381	Lean.Meta.Sym.Arith.SafePoly,Lean.Meta.Sym.Arith.Reify,Lean.Meta.Sym.Arith.DenoteExpr,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.Canon,Lean.Meta.Sym.SynthInstance,Lean.Meta.Sym.Arith.Classify,Lean.Meta.Sym.Arith.VarRename,Lean.Meta.Sym.Arith.ToExpr,Lean.Meta.Sym.Simp.App,Lean.Meta.AppBuilder,Lean.Meta.Sym.AlphaShareBuilder,Lean.Data.RArray,Init.Grind.Norm,Init.Grind.Ring.FieldSolver,Init.Grind.Ring.IntSolver
-Lean.Meta.Sym.Simp.Arith	Lean/Meta/Sym/Simp/Arith.cs	32797	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Discharger,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.Arith.Norm,Lean.Meta.Sym.LitValues,Init.Grind.Norm
+Lean.Meta.Sym.Arith.Norm	Lean/Meta/Sym/Arith/Norm.cs	58784	Lean.Meta.Sym.Arith.SafePoly,Lean.Meta.Sym.Arith.Reify,Lean.Meta.Sym.Arith.DenoteExpr,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.Canon,Lean.Meta.Sym.SynthInstance,Lean.Meta.Sym.Arith.Classify,Lean.Meta.Sym.Arith.VarRename,Lean.Meta.Sym.Arith.ToExpr,Lean.Meta.Sym.Simp.App,Lean.Meta.AppBuilder,Lean.Meta.Sym.AlphaShareBuilder,Lean.Data.RArray,Init.Grind.Norm,Init.Grind.Ring.FieldSolver,Init.Grind.Ring.IntSolver
+Lean.Meta.Sym.Simp.Arith	Lean/Meta/Sym/Simp/Arith.cs	32806	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Discharger,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.Arith.Norm,Lean.Meta.Sym.LitValues,Init.Grind.Norm
 Lean.Meta.Sym.Simp.Reduce	Lean/Meta/Sym/Simp/Reduce.cs	868	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Reduce,Lean.Meta.Sym.InferType
 Lean.Meta.Sym.Simp	Lean/Meta/Sym/Simp.cs	134	Lean.Meta.Sym.Simp.App,Lean.Meta.Sym.Simp.CongrInfo,Lean.Meta.Sym.Simp.DiscrTree,Lean.Meta.Sym.Simp.Main,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.Simp.Rewrite,Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Simproc,Lean.Meta.Sym.Simp.Theorems,Lean.Meta.Sym.Simp.Have,Lean.Meta.Sym.Simp.Lambda,Lean.Meta.Sym.Simp.Forall,Lean.Meta.Sym.Simp.Debug,Lean.Meta.Sym.Simp.EvalGround,Lean.Meta.Sym.Simp.Discharger,Lean.Meta.Sym.Simp.ControlFlow,Lean.Meta.Sym.Simp.Goal,Lean.Meta.Sym.Simp.Telescope,Lean.Meta.Sym.Simp.Attr,Lean.Meta.Sym.Simp.Variant,Lean.Meta.Sym.Simp.RegisterCommand,Lean.Meta.Sym.Simp.Arith,Lean.Meta.Sym.Simp.Reduce
 Lean.Meta.Sym.DSimp.DSimpM	Lean/Meta/Sym/DSimp/DSimpM.cs	1691	Lean.Meta.Sym.SymM,Lean.Meta.Sym.ExprPtr
@@ -1901,6 +1902,7 @@ Lean.Meta.Tactic.Grind.CheckResult	Lean/Meta/Tactic/Grind/CheckResult.cs	752	Ini
 Lean.Meta.Tactic.Grind.Types	Lean/Meta/Tactic/Grind/Types.cs	52747	Init.Data.Queue,Init.Grind.Config,Lean.Meta.Sym.SymM,Lean.Meta.Tactic.Grind.Attr,Lean.Meta.Tactic.Grind.CheckResult,Lean.Meta.Sym.Canon,Init.Data.String.Basic,Lean.Meta.AbstractNestedProofs,Lean.Meta.Match.MatchEqsExt,Init.Data.Nat.Internal.Linear,Init.Omega,Lean.Util.ShareCommon
 Lean.Meta.Tactic.Grind.MarkAccessible	Lean/Meta/Tactic/Grind/MarkAccessible.cs	1287	Lean.Meta.Tactic.Revert,Init.Data.Range.Polymorphic.Iterators
 Lean.Meta.Tactic.Grind.Proj	Lean/Meta/Tactic/Grind/Proj.cs	1419	Lean.Meta.Tactic.Grind.Types
+Lean.Meta.Tactic.Grind.ForallAnd	Lean/Meta/Tactic/Grind/ForallAnd.cs	2418	Lean.Meta.Basic,Init.Grind.Norm,Lean.Meta.InferType,Lean.Meta.AppBuilder
 Lean.Meta.Tactic.Grind.Arith.Util	Lean/Meta/Tactic/Grind/Arith/Util.cs	3169	Init.Grind.Ring.Basic,Lean.Meta.SynthInstance
 Lean.Meta.Tactic.Grind.Arith.CommRing.Types	Lean/Meta/Tactic/Grind/Arith/CommRing/Types.cs	2495	Init.Grind.Ring.CommSemiringAdapter,Lean.Meta.Tactic.Grind.Types,Lean.Meta.Sym.Arith.Types,Lean.Meta.Sym.Arith.Poly
 Lean.Meta.Tactic.Grind.Arith.Cutsat.Types	Lean/Meta/Tactic/Grind/Arith/Cutsat/Types.cs	2783	Init.Data.Int.Linear,Lean.Meta.Tactic.Grind.Arith.Util,Lean.Meta.Tactic.Grind.Arith.CommRing.Types
@@ -1923,10 +1925,10 @@ Lean.Meta.Tactic.Grind.Proof	Lean/Meta/Tactic/Grind/Proof.cs	9456	Lean.Meta.Tact
 Lean.Meta.Tactic.Grind.PropagatorAttr	Lean/Meta/Tactic/Grind/PropagatorAttr.cs	5875	Lean.Meta.Tactic.Grind.Proof,Init.Grind
 Lean.Meta.Tactic.Grind.MatchCond	Lean/Meta/Tactic/Grind/MatchCond.cs	12093	Init.Grind,Lean.Meta.Tactic.Contradiction,Lean.Meta.Tactic.Grind.ProveEq,Lean.Meta.Tactic.Grind.PropagatorAttr
 Lean.Meta.Tactic.Grind.PropagateInj	Lean/Meta/Tactic/Grind/PropagateInj.cs	3460	Lean.Meta.Tactic.Grind.Types,Init.Grind.Propagator,Init.Grind.Injective,Lean.Meta.Tactic.Grind.PropagatorAttr,Lean.Meta.Tactic.Grind.Simp
-Lean.Meta.Tactic.Grind.Internalize	Lean/Meta/Tactic/Grind/Internalize.cs	32519	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Tactic.Grind.Arith.IsRelevant,Lean.Meta.Tactic.Grind.Util,Lean.Meta.Tactic.Grind.Beta,Lean.Meta.Tactic.Grind.MatchCond,Lean.Meta.Tactic.Grind.Simp,Lean.Meta.Tactic.Grind.MarkNestedSubsingletons,Lean.Meta.Tactic.Grind.PropagateInj,Lean.Util.CollectLevelParams,Lean.Util.ForEachExpr,Lean.Meta.Tactic.Grind.EMatchTheorem,Init.Grind.Util
+Lean.Meta.Tactic.Grind.Internalize	Lean/Meta/Tactic/Grind/Internalize.cs	32614	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Tactic.Grind.Arith.IsRelevant,Lean.Meta.Tactic.Grind.Util,Lean.Meta.Tactic.Grind.Beta,Lean.Meta.Tactic.Grind.MatchCond,Lean.Meta.Tactic.Grind.Simp,Lean.Meta.Tactic.Grind.MarkNestedSubsingletons,Lean.Meta.Tactic.Grind.PropagateInj,Lean.Util.CollectLevelParams,Lean.Util.ForEachExpr,Lean.Meta.Tactic.Grind.EMatchTheorem,Init.Grind.Util
 Lean.Meta.Tactic.Grind.Anchor	Lean/Meta/Tactic/Grind/Anchor.cs	2751	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Tactic.Grind.MarkNestedSubsingletons,Init.Omega
 Lean.Meta.Tactic.Grind.EqResolution	Lean/Meta/Tactic/Grind/EqResolution.cs	5727	Lean.Meta.Basic,Lean.Meta.AppBuilder,Lean.Meta.MatchUtil,Lean.Util.ForEachExpr
-Lean.Meta.Tactic.Grind.ForallProp	Lean/Meta/Tactic/Grind/ForallProp.cs	10658	Init.Grind.Propagator,Init.Simproc,Init.Grind.Norm,Lean.Meta.Tactic.Grind.Internalize,Lean.Meta.Tactic.Grind.Anchor,Lean.Meta.Tactic.Grind.EqResolution,Lean.Meta.Tactic.Grind.SynthInstance,Lean.Meta.Tactic.Grind.PropagatorAttr,Init.Grind.Lemmas
+Lean.Meta.Tactic.Grind.ForallProp	Lean/Meta/Tactic/Grind/ForallProp.cs	10420	Init.Grind.Propagator,Init.Simproc,Init.Grind.Norm,Lean.Meta.Tactic.Grind.ForallAnd,Lean.Meta.Tactic.Grind.Internalize,Lean.Meta.Tactic.Grind.Anchor,Lean.Meta.Tactic.Grind.EqResolution,Lean.Meta.Tactic.Grind.SynthInstance,Lean.Meta.Tactic.Grind.PropagatorAttr,Init.Grind.Lemmas
 Lean.Meta.CtorIdxHInj	Lean/Meta/CtorIdxHInj.cs	2848	Lean.Meta.Basic,Lean.Meta.Tactic.Refl,Lean.Meta.Constructions.CtorIdx,Lean.Meta.Tactic.Subst
 Lean.Meta.Tactic.Grind.CtorIdx	Lean/Meta/Tactic/Grind/CtorIdx.cs	1700	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Constructions.CtorIdx,Lean.Meta.CtorIdxHInj
 Lean.Meta.Tactic.Grind.Action	Lean/Meta/Tactic/Grind/Action.cs	8022	Lean.Meta.Tactic.Grind.Types
@@ -1950,7 +1952,7 @@ Lean.Meta.Tactic.Grind.Arith.Cutsat.Model	Lean/Meta/Tactic/Grind/Arith/Cutsat/Mo
 Lean.Meta.Tactic.Grind.PP	Lean/Meta/Tactic/Grind/PP.cs	10390	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Sym.Arith.Types,Init.Grind.Util,Init.Grind.Injective,Init.Grind.PP,Lean.Meta.Tactic.Grind.Arith.CommRing.PP,Lean.Meta.Tactic.Grind.Arith.Linear.PP,Lean.Meta.Tactic.Grind.AC.PP,Lean.Meta.Tactic.Grind.CastLike,Lean.Meta.Tactic.Grind.Arith.Cutsat.Model
 Lean.Meta.Tactic.Grind.Ctor	Lean/Meta/Tactic/Grind/Ctor.cs	4639	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Injective,Lean.Meta.Tactic.Grind.Simp
 Lean.Meta.Tactic.Grind.Core	Lean/Meta/Tactic/Grind/Core.cs	16578	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Tactic.Grind.Inv,Lean.Meta.Tactic.Grind.PP,Lean.Meta.Tactic.Grind.Ctor,Lean.Meta.Tactic.Grind.Beta,Lean.Meta.Tactic.Grind.Simp,Lean.Meta.Tactic.Grind.Internalize,Init.Omega
-Lean.Meta.Tactic.Grind.Intro	Lean/Meta/Tactic/Grind/Intro.cs	13001	Init.Grind.Lemmas,Lean.Meta.Tactic.Grind.Action,Lean.Meta.Tactic.Apply,Lean.Meta.Tactic.Grind.Util,Lean.Meta.Tactic.Grind.CasesMatch,Lean.Meta.Tactic.Grind.Injection,Lean.Meta.Tactic.Grind.Core,Lean.Meta.Tactic.Grind.MarkAccessible,Init.Grind.Util
+Lean.Meta.Tactic.Grind.Intro	Lean/Meta/Tactic/Grind/Intro.cs	13492	Init.Grind.Lemmas,Lean.Meta.Tactic.Grind.Action,Lean.Meta.Tactic.Apply,Lean.Meta.Tactic.Grind.Util,Lean.Meta.Tactic.Grind.CasesMatch,Lean.Meta.Tactic.Grind.Injection,Lean.Meta.Tactic.Grind.Core,Lean.Meta.Tactic.Grind.Simp,Lean.Meta.Tactic.Grind.MarkAccessible,Init.Grind.Util
 Lean.Util.ParamMinimizer	Lean/Util/ParamMinimizer.cs	5686	Init.While,Init.Data.Range.Polymorphic
 Lean.Meta.Tactic.Grind.EMatch	Lean/Meta/Tactic/Grind/EMatch.cs	39805	Lean.Meta.Tactic.Grind.Types,Lean.Util.CollectLevelMVars,Lean.Meta.Tactic.Grind.Util,Lean.Meta.Tactic.Grind.CasesMatch,Lean.Meta.Tactic.Grind.MatchDiscrOnly,Lean.Meta.Tactic.Grind.ProveEq,Lean.Meta.Tactic.Grind.SynthInstance,Lean.Meta.Tactic.Grind.Simp,Lean.Meta.Sym.Arith.EvalNum,Init.Grind.Util,Init.Omega,Lean.Meta.HasAssignableMVar
 Lean.Meta.Tactic.Grind.EMatchTheoremParam	Lean/Meta/Tactic/Grind/EMatchTheoremParam.cs	10684	Lean.Meta.Tactic.Grind.Anchor
@@ -2032,7 +2034,7 @@ Lean.Meta.Tactic.BVDecide.LRAT.Cert	Lean/Meta/Tactic/BVDecide/LRAT/Cert.cs	8194	
 Lean.Meta.Tactic.BVDecide.Prover.Basic	Lean/Meta/Tactic/BVDecide/Prover/Basic.cs	5397	Lean.Meta.Tactic.BVDecide.Reflect,Lean.Meta.Tactic.BVDecide.Counterexample,Lean.Meta.Tactic.BVDecide.LRAT.Cert,Lean.Meta.Sym.SymM,Lean.Meta.Sym.Util
 Lean.Meta.Tactic.BVDecide.TacticContext	Lean/Meta/Tactic/BVDecide/TacticContext.cs	1171	Lean.Meta.Tactic.BVDecide.Attr
 Lean.Meta.Native	Lean/Meta/Native.cs	4277	Lean.Meta.Basic,Lean.Util.CollectLevelParams,Lean.Elab.DeclarationRange,Lean.Compiler.Options
-Lean.Meta.Tactic.BVDecide.Prover.Bitblast	Lean/Meta/Tactic/BVDecide/Prover/Bitblast.cs	15954	Lean.Meta.Tactic.BVDecide.Prover.Basic,Lean.Meta.Tactic.BVDecide.TacticContext,Lean.Meta.Native
+Lean.Meta.Tactic.BVDecide.Prover.Bitblast	Lean/Meta/Tactic/BVDecide/Prover/Bitblast.cs	16357	Lean.Meta.Tactic.BVDecide.Prover.Basic,Lean.Meta.Tactic.BVDecide.TacticContext,Lean.Meta.Native
 Lean.Meta.Tactic.BVDecide.Normalize.Simproc	Lean/Meta/Tactic/BVDecide/Normalize/Simproc.cs	49738	Std.Tactic.BVDecide.Normalize,Lean.Meta.Tactic.BVDecide.Attr,Init.Data.BitVec.Package,Init.Omega,Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.LitValues,Lean.Meta.Sym.DSimp.DSimpM,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.Simp.Result
 Lean.Meta.Tactic.BVDecide.Normalize.Rewrite	Lean/Meta/Tactic/BVDecide/Normalize/Rewrite.cs	5933	Lean.Meta.Tactic.BVDecide.Normalize.Basic,Lean.Meta.Tactic.BVDecide.Normalize.Simproc,Lean.Meta.Sym.Simp.Rewrite,Lean.Meta.Sym.Simp.EvalGround,Lean.Meta.Sym.DSimp,Lean.Meta.Sym.Simp.Forall,Lean.Meta.Sym.Simp.ControlFlow
 Lean.Meta.Tactic.BVDecide.Normalize.AndFlatten	Lean/Meta/Tactic/BVDecide/Normalize/AndFlatten.cs	3629	Std.Tactic.BVDecide.Normalize.Bool,Lean.Meta.Tactic.BVDecide.Normalize.Basic
@@ -2114,8 +2116,8 @@ Lean.Elab.Tactic.Grind.RegisterSymSimp	Lean/Elab/Tactic/Grind/RegisterSymSimp.cs
 Lean.Elab.Tactic.Grind.DSimprocDSLBuiltin	Lean/Elab/Tactic/Grind/DSimprocDSLBuiltin.cs	2625	Lean.Elab.Tactic.Grind.DSimprocDSL,Init.Sym.DSimp.DSimprocDSL,Lean.Meta.Sym.DSimp.Reduce,Lean.Meta.Sym.DSimp.DSimproc,Lean.Meta.Sym.DSimp.EvalGround,Lean.Meta.Sym.DSimp.Rewrite
 Lean.Elab.Tactic.Grind.RegisterSymDSimp	Lean/Elab/Tactic/Grind/RegisterSymDSimp.cs	2364	Init.Sym.DSimp.DSimprocDSL,Lean.Meta.Sym.DSimp.Variant,Lean.Elab.Tactic.Grind.DSimprocDSL,Lean.Elab.Tactic.Grind.WithGrindTacticM
 Lean.Elab.Tactic.Grind.BVDecide	Lean/Elab/Tactic/Grind/BVDecide.cs	5379	Lean.Elab.Tactic.Grind.Basic,Lean.Meta.Tactic.BVDecide.Main,Lean.Elab.Tactic.BVDecide,Lean.Meta.Tactic.BVDecide.Normalize,Lean.Meta.Tactic.Grind.BVDecide.Types
-Lean.Meta.Tactic.Grind.NormSymProcs	Lean/Meta/Tactic/Grind/NormSymProcs.cs	13894	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.InstantiateS,Lean.Meta.Sym.InferType,Lean.Meta.Sym.SynthInstance,Lean.Meta.AppBuilder,Lean.Meta.CtorRecognizer,Init.Grind.Norm,Init.Grind.Lemmas,Init.ByCases
-Lean.Meta.Tactic.Grind.NormSym	Lean/Meta/Tactic/Grind/NormSym.cs	11442	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Theorems,Lean.Meta.Tactic.Grind.Simp,Lean.Meta.Tactic.Grind.SimpUtil,Lean.Meta.Sym.Simp.Main,Lean.Meta.Sym.Simp.Simproc,Lean.Meta.Sym.Simp.Rewrite,Lean.Meta.Sym.Simp.EvalGround,Lean.Meta.Sym.Simp.Arith,Lean.Meta.Sym.Simp.Discharger,Lean.Meta.Tactic.Grind.NormSymProcs,Lean.Meta.Sym.Simp.Reduce,Lean.Meta.Sym.Util,Lean.Meta.DiscrTree
+Lean.Meta.Tactic.Grind.NormSymProcs	Lean/Meta/Tactic/Grind/NormSymProcs.cs	13438	Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Result,Lean.Meta.Sym.AlphaShareBuilder,Lean.Meta.Sym.InstantiateS,Lean.Meta.Sym.InferType,Lean.Meta.Sym.SynthInstance,Lean.Meta.AppBuilder,Lean.Meta.Tactic.Grind.ForallAnd,Lean.Meta.CtorRecognizer,Init.Grind.Norm,Init.Grind.Lemmas,Init.ByCases
+Lean.Meta.Tactic.Grind.NormSym	Lean/Meta/Tactic/Grind/NormSym.cs	11591	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Sym.Simp.SimpM,Lean.Meta.Sym.Simp.Theorems,Lean.Meta.Tactic.Grind.Simp,Lean.Meta.Tactic.Grind.SimpUtil,Lean.Meta.Tactic.Grind.Util,Lean.Meta.Sym.Simp.Main,Lean.Meta.Sym.Simp.Simproc,Lean.Meta.Sym.Simp.Rewrite,Lean.Meta.Sym.Simp.EvalGround,Lean.Meta.Sym.Simp.Arith,Lean.Meta.Sym.Simp.Discharger,Lean.Meta.Tactic.Grind.NormSymProcs,Lean.Meta.Sym.Simp.Reduce,Lean.Meta.Sym.Simp.ControlFlow,Lean.Meta.Sym.Util,Lean.Meta.DiscrTree
 Lean.Elab.Tactic.Grind.Norm	Lean/Elab/Tactic/Grind/Norm.cs	1736	Lean.Elab.Tactic.Grind.Config,Lean.Meta.Tactic.Grind.Main,Lean.Meta.Tactic.Grind.NormSym
 Lean.Elab.Tactic.Grind	Lean/Elab/Tactic/Grind.cs	139	Lean.Elab.Tactic.Grind.Main,Lean.Elab.Tactic.Grind.Basic,Lean.Elab.Tactic.Grind.BuiltinTactic,Lean.Elab.Tactic.Grind.ShowState,Lean.Elab.Tactic.Grind.Have,Lean.Elab.Tactic.Grind.Trace,Lean.Elab.Tactic.Grind.Config,Lean.Elab.Tactic.Grind.Lint,Lean.Elab.Tactic.Grind.LintExceptions,Lean.Elab.Tactic.Grind.Annotated,Lean.Elab.Tactic.Grind.Sym,Lean.Elab.Tactic.Grind.Rewrite,Lean.Elab.Tactic.Grind.DSimp,Lean.Elab.Tactic.Grind.Cbv,Lean.Elab.Tactic.Grind.LiftLet,Lean.Elab.Tactic.Grind.LetToHave,Lean.Elab.Tactic.Grind.SimprocDSL,Lean.Elab.Tactic.Grind.SimprocDSLBuiltin,Lean.Elab.Tactic.Grind.RegisterSymSimp,Lean.Elab.Tactic.Grind.DSimprocDSL,Lean.Elab.Tactic.Grind.DSimprocDSLBuiltin,Lean.Elab.Tactic.Grind.RegisterSymDSimp,Lean.Elab.Tactic.Grind.BVDecide,Lean.Elab.Tactic.Grind.Norm
 Lean.Meta.Tactic.Try.Collect	Lean/Meta/Tactic/Try/Collect.cs	8028	Init.Try,Lean.Meta.Tactic.LibrarySearch,Lean.Meta.Tactic.FunIndCollect
@@ -2216,7 +2218,7 @@ Lean.Meta.Tactic.Grind.Order.Proof	Lean/Meta/Tactic/Grind/Order/Proof.cs	6001	Le
 Lean.Meta.Tactic.Grind.Order.Assert	Lean/Meta/Tactic/Grind/Order/Assert.cs	16583	Lean.Meta.Tactic.Grind.Order.OrderM,Init.Grind.Propagator,Init.Grind.Order,Lean.Meta.Tactic.Grind.PropagatorAttr,Lean.Meta.Tactic.Grind.Order.Util,Lean.Meta.Tactic.Grind.Order.Proof
 Lean.Meta.Tactic.Grind.Order.Internalize	Lean/Meta/Tactic/Grind/Order/Internalize.cs	24148	Lean.Meta.Tactic.Grind.Order.OrderM,Init.Data.Int.OfNat,Init.Grind.Module.Envelope,Init.Grind.Order,Lean.Meta.Tactic.Grind.Arith.CommRing.SafePoly,Lean.Meta.Tactic.Grind.Arith.CommRing.Reify,Lean.Meta.Tactic.Grind.Arith.CommRing.DenoteExpr,Lean.Meta.Tactic.Grind.Arith.CommRing.Proof,Lean.Meta.Tactic.Grind.Arith.Cutsat.Nat,Lean.Meta.Tactic.Grind.Order.StructId,Lean.Meta.Tactic.Grind.Order.Util,Lean.Meta.Tactic.Grind.Order.Assert,Lean.Meta.Tactic.Grind.Order.Proof
 Lean.Meta.Tactic.Grind.Order	Lean/Meta/Tactic/Grind/Order.cs	1410	Lean.Meta.Tactic.Grind.Order.Types,Lean.Meta.Tactic.Grind.Order.Internalize,Lean.Meta.Tactic.Grind.Order.StructId,Lean.Meta.Tactic.Grind.Order.OrderM,Lean.Meta.Tactic.Grind.Order.Assert,Lean.Meta.Tactic.Grind.Order.Util
-Lean.Meta.Tactic.Grind.Homomorphism	Lean/Meta/Tactic/Grind/Homomorphism.cs	8275	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Tactic.Grind.Homo,Lean.Meta.Sym.Simp.SimpM,Init.Grind.Homo.Extra,Lean.Meta.NatInstTesters,Lean.Meta.Sym.LitValues,Lean.Meta.Tactic.Grind.Diseq,Lean.Meta.Sym.Simp.Rewrite,Lean.Meta.Sym.Simp.EvalGround
+Lean.Meta.Tactic.Grind.Homomorphism	Lean/Meta/Tactic/Grind/Homomorphism.cs	8278	Lean.Meta.Tactic.Grind.Types,Lean.Meta.Tactic.Grind.Homo,Lean.Meta.Sym.Simp.SimpM,Init.Grind.Homo.Extra,Lean.Meta.NatInstTesters,Lean.Meta.Sym.LitValues,Lean.Meta.Tactic.Grind.Diseq,Lean.Meta.Sym.Simp.Rewrite,Lean.Meta.Sym.Simp.EvalGround
 Lean.Meta.Tactic.Grind.RegisterCommand	Lean/Meta/Tactic/Grind/RegisterCommand.cs	1757	Lean.Meta.Tactic.Grind.Attr
 Lean.Meta.Tactic.Grind.BVDecide	Lean/Meta/Tactic/Grind/BVDecide.cs	24	Lean.Meta.Tactic.Grind.BVDecide.Types
 Lean.Meta.Tactic.Grind	Lean/Meta/Tactic/Grind.cs	4969	Lean.Meta.Tactic.Grind.Attr,Lean.Meta.Tactic.Grind.MarkAccessible,Lean.Meta.Tactic.Grind.Types,Lean.Meta.Tactic.Grind.Util,Lean.Meta.Tactic.Grind.Cases,Lean.Meta.Tactic.Grind.Injection,Lean.Meta.Tactic.Grind.Core,Lean.Meta.Tactic.Grind.MarkNestedSubsingletons,Lean.Meta.Tactic.Grind.Inv,Lean.Meta.Tactic.Grind.Proof,Lean.Meta.Tactic.Grind.Propagate,Lean.Meta.Tactic.Grind.BitVec,Lean.Meta.Tactic.Grind.PP,Lean.Meta.Tactic.Grind.Simp,Lean.Meta.Tactic.Grind.Ctor,Lean.Meta.Tactic.Grind.Parser,Lean.Meta.Tactic.Grind.EMatchTheorem,Lean.Meta.Tactic.Grind.EMatch,Lean.Meta.Tactic.Grind.Main,Lean.Meta.Tactic.Grind.CasesMatch,Lean.Meta.Tactic.Grind.Arith,Lean.Meta.Tactic.Grind.Ext,Lean.Meta.Tactic.Grind.MatchCond,Lean.Meta.Tactic.Grind.MatchDiscrOnly,Lean.Meta.Tactic.Grind.Diseq,Lean.Meta.Tactic.Grind.MBTC,Lean.Meta.Tactic.Grind.Lookahead,Lean.Meta.Tactic.Grind.LawfulEqCmp,Lean.Meta.Tactic.Grind.ReflCmp,Lean.Meta.Tactic.Grind.SynthInstance,Lean.Meta.Tactic.Grind.AC,Lean.Meta.Tactic.Grind.VarRename,Lean.Meta.Tactic.Grind.ProofUtil,Lean.Meta.Tactic.Grind.PropagateInj,Lean.Meta.Tactic.Grind.Order,Lean.Meta.Tactic.Grind.Homomorphism,Lean.Meta.Tactic.Grind.Anchor,Lean.Meta.Tactic.Grind.Action,Lean.Meta.Tactic.Grind.EMatchTheoremParam,Lean.Meta.Tactic.Grind.EMatchAction,Lean.Meta.Tactic.Grind.Filter,Lean.Meta.Tactic.Grind.CollectParams,Lean.Meta.Tactic.Grind.Finish,Lean.Meta.Tactic.Grind.RegisterCommand,Lean.Meta.Tactic.Grind.BVDecide

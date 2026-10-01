@@ -3955,7 +3955,7 @@ switch (lean_obj_tag(x_1)) {
 case 0:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_28 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_5 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertText(x_4, x_2, x_3);
 x_6 = lean_ctor_get(x_5, 0);
@@ -5430,7 +5430,7 @@ return x_615;
 case 12:
 {
 byte x_620 = 0; Obj x_621 = null; Obj x_622 = null; Obj x_623 = null; Obj x_624 = null; byte x_625 = 0; byte x_644 = 0; 
-x_620 = lean_ctor_get_uint8_s(x_1, 0);
+x_620 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_621 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertText(x_620, x_2, x_3);
 x_622 = lean_ctor_get(x_621, 0);
@@ -6027,7 +6027,7 @@ return x_873;
 case 16:
 {
 byte x_878 = 0; Obj x_879 = null; Obj x_880 = null; Obj x_881 = null; Obj x_882 = null; byte x_883 = 0; byte x_902 = 0; 
-x_878 = lean_ctor_get_uint8_s(x_1, 0);
+x_878 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_879 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertText(x_878, x_2, x_3);
 x_880 = lean_ctor_get(x_879, 0);
@@ -6096,7 +6096,7 @@ return x_898;
 case 17:
 {
 byte x_903 = 0; Obj x_904 = null; Obj x_905 = null; Obj x_906 = null; Obj x_907 = null; byte x_908 = 0; byte x_927 = 0; 
-x_903 = lean_ctor_get_uint8_s(x_1, 0);
+x_903 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_904 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertText(x_903, x_2, x_3);
 x_905 = lean_ctor_get(x_904, 0);
@@ -6165,7 +6165,7 @@ return x_923;
 case 18:
 {
 byte x_928 = 0; Obj x_929 = null; Obj x_930 = null; Obj x_931 = null; Obj x_932 = null; byte x_933 = 0; byte x_952 = 0; 
-x_928 = lean_ctor_get_uint8_s(x_1, 0);
+x_928 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_929 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertText(x_928, x_2, x_3);
 x_930 = lean_ctor_get(x_929, 0);
@@ -6934,7 +6934,7 @@ return x_1198;
 case 29:
 {
 byte x_1203 = 0; Obj x_1204 = null; Obj x_1205 = null; Obj x_1206 = null; Obj x_1207 = null; byte x_1208 = 0; byte x_1227 = 0; 
-x_1203 = lean_ctor_get_uint8_s(x_1, 0);
+x_1203 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_1204 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertZoneId(x_1203, x_2, x_3);
 x_1205 = lean_ctor_get(x_1204, 0);
@@ -7003,7 +7003,7 @@ return x_1223;
 case 30:
 {
 byte x_1228 = 0; Obj x_1229 = null; Obj x_1230 = null; Obj x_1231 = null; Obj x_1232 = null; byte x_1233 = 0; byte x_1252 = 0; 
-x_1228 = lean_ctor_get_uint8_s(x_1, 0);
+x_1228 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_1229 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertZoneName(x_1228, x_2, x_3);
 x_1230 = lean_ctor_get(x_1229, 0);
@@ -7072,7 +7072,7 @@ return x_1248;
 case 31:
 {
 byte x_1253 = 0; Obj x_1254 = null; Obj x_1255 = null; Obj x_1256 = null; Obj x_1257 = null; byte x_1258 = 0; byte x_1277 = 0; 
-x_1253 = lean_ctor_get_uint8_s(x_1, 0);
+x_1253 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_1254 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertZoneName(x_1253, x_2, x_3);
 x_1255 = lean_ctor_get(x_1254, 0);
@@ -7141,7 +7141,7 @@ return x_1273;
 case 32:
 {
 byte x_1278 = 0; Obj x_1279 = null; Obj x_1280 = null; Obj x_1281 = null; Obj x_1282 = null; byte x_1283 = 0; byte x_1302 = 0; 
-x_1278 = lean_ctor_get_uint8_s(x_1, 0);
+x_1278 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_1279 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertOffsetO(x_1278, x_2, x_3);
 x_1280 = lean_ctor_get(x_1279, 0);
@@ -7210,7 +7210,7 @@ return x_1298;
 case 33:
 {
 byte x_1303 = 0; Obj x_1304 = null; Obj x_1305 = null; Obj x_1306 = null; Obj x_1307 = null; byte x_1308 = 0; byte x_1327 = 0; 
-x_1303 = lean_ctor_get_uint8_s(x_1, 0);
+x_1303 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_1304 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertOffsetX(x_1303, x_2, x_3);
 x_1305 = lean_ctor_get(x_1304, 0);
@@ -7279,7 +7279,7 @@ return x_1323;
 case 34:
 {
 byte x_1328 = 0; Obj x_1329 = null; Obj x_1330 = null; Obj x_1331 = null; Obj x_1332 = null; byte x_1333 = 0; byte x_1352 = 0; 
-x_1328 = lean_ctor_get_uint8_s(x_1, 0);
+x_1328 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_1329 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertOffsetX(x_1328, x_2, x_3);
 x_1330 = lean_ctor_get(x_1329, 0);
@@ -7348,7 +7348,7 @@ return x_1348;
 default: 
 {
 byte x_1353 = 0; Obj x_1354 = null; Obj x_1355 = null; Obj x_1356 = null; Obj x_1357 = null; byte x_1358 = 0; byte x_1377 = 0; 
-x_1353 = lean_ctor_get_uint8_s(x_1, 0);
+x_1353 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_1354 = l___private_Std_Time_Notation_Spec_0__Std_Time_convertOffsetZ(x_1353, x_2, x_3);
 x_1355 = lean_ctor_get(x_1354, 0);
@@ -7452,7 +7452,7 @@ x_1 = M_Std_Time_Format_DateFormat.l_Std_Time_DateFormat_enUS;
 x_2 = (byte)0;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }

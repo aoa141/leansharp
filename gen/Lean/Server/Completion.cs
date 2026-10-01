@@ -559,7 +559,7 @@ block_43:
 Obj x_36 = null; Obj x_37 = null; 
 x_36 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_36, 0, x_34);
-lean_ctor_set_uint8_s(x_36, 0, x_35);
+lean_ctor_set_uint8(x_36, 8, x_35);
 if (x_33 == 0)
 {
 lean_ctor_set(x_32, 0, x_36);
@@ -765,7 +765,7 @@ x_31 = lean_ctor_get(x_24, 0);
 x_32 = lean_ctor_get(x_24, 1);
 x_33 = lean_ctor_get(x_30, 0);
 x_34 = lean_ctor_get(x_30, 1);
-x_35 = lean_ctor_get_uint8_s(x_30, 0);
+x_35 = lean_ctor_get_uint8(x_30, 32);
 x_36 = lean_ctor_get(x_30, 2);
 lean_inc(x_31);
 lean_inc(x_34);
@@ -1107,7 +1107,7 @@ case 7:
 {
 Obj x_87 = null; byte x_88 = 0; Obj x_89 = null; Obj x_90 = null; 
 x_87 = lean_ctor_get(x_30, 1);
-x_88 = lean_ctor_get_uint8_s(x_30, 0);
+x_88 = lean_ctor_get_uint8(x_30, 24);
 x_89 = lean_ctor_get(x_30, 2);
 lean_inc(x_89);
 lean_inc(x_87);

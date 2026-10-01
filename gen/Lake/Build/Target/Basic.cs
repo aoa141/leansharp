@@ -237,7 +237,7 @@ lean_ctor_set(x_8, 1, x_7);
 x_9 = (byte)0;
 x_10 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_10, 0, x_8);
-lean_ctor_set_uint8_s(x_10, 0, x_9);
+lean_ctor_set_uint8(x_10, 8, x_9);
 x_11 = M_Init_Data_Repr.l_Repr_addAppParen(x_10, x_2);
 return x_11;
 }

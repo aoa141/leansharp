@@ -83,7 +83,10 @@ static unsafe partial class Tests
 
     static void CompareWithExpected()
     {
-        string path = Path.Combine(AppContext.BaseDirectory, "expected.txt");
+        // The transcendental `Float` functions come from the platform's C library and differ in
+        // the last digit between macOS (expected.txt) and Linux/glibc (expected.linux.txt); both
+        // files were produced by native Lean on that platform.
+        string path = Path.Combine(AppContext.BaseDirectory, OperatingSystem.IsLinux() ? "expected.linux.txt" : "expected.txt");
         var expected = File.ReadAllLines(path);
         int mismatches = 0;
         if (expected.Length != s_out.Count)

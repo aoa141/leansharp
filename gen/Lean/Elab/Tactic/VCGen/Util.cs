@@ -1974,7 +1974,7 @@ public static Obj l_Lean_Elab_Tactic_VCGen_processHypotheses___redArg(Obj x_1, O
 _start:
 {
 byte x_13 = 0; 
-x_13 = lean_ctor_get_uint8_s(x_2, 3);
+x_13 = lean_ctor_get_uint8(x_2, 43);
 if (x_13 == 0)
 {
 Obj x_14 = null; 
@@ -5502,7 +5502,7 @@ x_17 = lean_ctor_get(x_16, 0);
 if (lean_obj_tag(x_17) == 0)
 {
 byte x_18 = 0; 
-x_18 = lean_ctor_get_uint8_s(x_4, 2);
+x_18 = lean_ctor_get_uint8(x_4, 42);
 if (x_18 == 0)
 {
 lean_dec(x_3);

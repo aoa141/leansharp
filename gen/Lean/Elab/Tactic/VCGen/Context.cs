@@ -1850,7 +1850,7 @@ lean_ctor_set(x_6, 0, x_5);
 lean_ctor_set(x_6, 1, x_4);
 lean_ctor_set(x_6, 2, x_3);
 lean_ctor_set(x_6, 3, x_2);
-lean_ctor_set_uint8_s(x_6, 0, x_1);
+lean_ctor_set_uint8(x_6, 32, x_1);
 return x_6;
 }
 }

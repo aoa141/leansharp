@@ -22,7 +22,7 @@ Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Ob
 x_2 = lean_ctor_get(x_1, 1);
 x_3 = lean_ctor_get(x_1, 2);
 x_4 = lean_ctor_get(x_1, 3);
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 192);
 x_6 = lean_ctor_get(x_1, 9);
 x_7 = lean_ctor_get(x_1, 10);
 x_8 = lean_ctor_get(x_1, 11);
@@ -75,7 +75,7 @@ lean_ctor_set(x_21, 14, x_16);
 lean_ctor_set(x_21, 15, x_17);
 lean_ctor_set(x_21, 16, x_18);
 lean_ctor_set(x_21, 17, x_19);
-lean_ctor_set_uint8_s(x_21, 0, x_5);
+lean_ctor_set_uint8(x_21, 144, x_5);
 return x_21;
 }
 }

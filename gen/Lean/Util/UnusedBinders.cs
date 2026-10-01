@@ -28,7 +28,7 @@ x_4 = lean_ctor_get(x_3, 1);
 lean_inc_ref(x_4);
 x_5 = lean_ctor_get(x_3, 2);
 lean_inc_ref(x_5);
-x_6 = lean_ctor_get_uint8_s(x_3, 8);
+x_6 = lean_ctor_get_uint8(x_3, 32);
 lean_dec_ref(x_3);
 x_7 = lean_box(x_6);
 lean_inc_ref(x_1);

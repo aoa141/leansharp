@@ -434,7 +434,7 @@ lean_dec_ref(x_6);
 if (lean_obj_tag(x_8) == 1)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 0);
 lean_dec_ref(x_8);
 return x_9;
 }
@@ -1208,7 +1208,7 @@ lean_ctor_set(x_31, 0, x_26);
 lean_ctor_set(x_31, 1, x_24);
 lean_ctor_set(x_31, 2, x_27);
 lean_ctor_set(x_31, 3, x_30);
-lean_ctor_set_uint8_s(x_31, 0, x_28);
+lean_ctor_set_uint8(x_31, 32, x_28);
 x_32 = lean_alloc_ctor(1, 1, 0);
 lean_ctor_set(x_32, 0, x_31);
 x_33 = (byte)1;

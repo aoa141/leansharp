@@ -45,7 +45,7 @@ _start:
 Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
 x_10 = lean_ctor_get(x_7, 0);
 x_11 = lean_ctor_get(x_10, 2);
-x_12 = lean_ctor_get_uint8_s(x_11, 0);
+x_12 = lean_ctor_get_uint8(x_11, 8);
 if (x_12 == 0)
 {
 Obj x_13 = null; Obj x_14 = null; 
@@ -649,7 +649,7 @@ if (lean_obj_tag(x_116) == 0)
 Obj x_117 = null; Obj x_118 = null; byte x_119 = 0; 
 x_117 = lean_ctor_get(x_109, 0);
 x_118 = lean_ctor_get(x_117, 2);
-x_119 = lean_ctor_get_uint8_s(x_118, 0);
+x_119 = lean_ctor_get_uint8(x_118, 8);
 if (x_119 == 0)
 {
 Obj x_120 = null; 
@@ -3416,7 +3416,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -3445,9 +3445,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00__private_Lean_Meta_Sym_Arith_Classify_0__Lean_Meta_Sym_Arith_tryCommRingQ_x3f_spec__0___redArg___closed__2;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -3469,7 +3469,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }
@@ -4981,7 +4981,7 @@ block_98:
 {
 Obj x_25 = null; byte x_26 = 0; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; 
 x_25 = lean_ctor_get(x_20, 11);
-x_26 = lean_ctor_get_uint8_s(x_21, 0);
+x_26 = lean_ctor_get_uint8(x_21, 8);
 x_27 = l___private_Lean_Meta_Sym_Arith_Classify_0__Lean_Meta_Sym_Arith_tryCommRingQ_x3f___closed__10;
 x_28 = M_Lean_Expr.l_Lean_mkConst(x_27, x_13);
 lean_inc(x_22);
@@ -6185,7 +6185,7 @@ Obj x_92 = null; byte x_93 = 0;
 x_92 = lean_ctor_get(x_91, 0);
 lean_inc(x_92);
 lean_dec_ref(x_91);
-x_93 = lean_ctor_get_uint8_s(x_92, 0);
+x_93 = lean_ctor_get_uint8(x_92, 0);
 lean_dec(x_92);
 if (x_93 == 0)
 {
@@ -7049,7 +7049,7 @@ return x_349;
 block_187:
 {
 byte x_174 = 0; 
-x_174 = lean_ctor_get_uint8_s(x_171, 0);
+x_174 = lean_ctor_get_uint8(x_171, 8);
 if (x_174 == 0)
 {
 x_33 = x_165;
@@ -10320,8 +10320,8 @@ lean_ctor_set(x_65, 11, x_56);
 lean_ctor_set(x_65, 12, x_57);
 lean_ctor_set(x_65, 13, x_50);
 lean_ctor_set(x_65, 14, x_51);
-lean_ctor_set_uint8_s(x_65, 0, x_58);
-lean_ctor_set_uint8_s(x_65, 1, x_55);
+lean_ctor_set_uint8(x_65, 120, x_58);
+lean_ctor_set_uint8(x_65, 121, x_55);
 x_66 = lean_alloc_closure((delegate*<Obj, Obj, Obj>)&l___private_Lean_Meta_Sym_Arith_Classify_0__Lean_Meta_Sym_Arith_tryOrder_x3f___lam__0, 2, 1);
 lean_closure_set(x_66, 0, x_65);
 x_67 = M_Lean_Meta_Sym_Arith_Types.l_Lean_Meta_Sym_Arith_arithExt;

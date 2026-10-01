@@ -20164,7 +20164,7 @@ Obj x_44 = null; Obj x_45 = null; Obj x_46 = null;
 x_44 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_44, 0, x_33);
 lean_ctor_set(x_44, 1, x_43);
-lean_ctor_set_uint8_s(x_44, 0, x_28);
+lean_ctor_set_uint8(x_44, 16, x_28);
 x_45 = lean_alloc_ctor(0, 1, 0);
 lean_ctor_set(x_45, 0, x_44);
 if (x_40 == 0)

@@ -289,7 +289,7 @@ goto block_20;
 block_20:
 {
 byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; 
-x_15 = lean_ctor_get_uint8_s(x_12, 0);
+x_15 = lean_ctor_get_uint8(x_12, 24);
 lean_dec(x_12);
 x_16 = lean_box(x_15);
 if (x_14 == 0)

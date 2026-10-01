@@ -343,7 +343,7 @@ public static Obj l_Lean_Meta_Grind_Arith_Linear_RingIneqCnstr_cleanupDenominato
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
-x_6 = lean_ctor_get_uint8_s(x_1, 0);
+x_6 = lean_ctor_get_uint8(x_1, 16);
 x_7 = lean_alloc_ctor(2, 4, 0);
 lean_ctor_set(x_7, 0, x_1);
 lean_ctor_set(x_7, 1, x_3);
@@ -352,7 +352,7 @@ lean_ctor_set(x_7, 3, x_5);
 x_8 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_8, 0, x_2);
 lean_ctor_set(x_8, 1, x_7);
-lean_ctor_set_uint8_s(x_8, 0, x_6);
+lean_ctor_set_uint8(x_8, 16, x_6);
 return x_8;
 }
 }

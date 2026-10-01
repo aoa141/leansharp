@@ -1576,7 +1576,7 @@ x_1 = (byte)0;
 x_2 = l_Std_Http_URI_Parser_parsePath___closed__2;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -7128,7 +7128,7 @@ lean_dec_ref(x_94);
 x_97 = lean_alloc_ctor(2, 0, 2);
 x_98 = (ushort)lean_unbox(x_96);
 lean_dec(x_96);
-lean_ctor_set_uint16_s(x_97, 0, x_98);
+lean_ctor_set_uint16(x_97, 0, x_98);
 x_3 = x_64;
 x_4 = x_61;
 x_5 = x_97;
@@ -11006,7 +11006,7 @@ lean_inc(x_23);
 lean_dec(x_19);
 x_24 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_24, 0, x_23);
-lean_ctor_set_uint8_s(x_24, 0, x_14);
+lean_ctor_set_uint8(x_24, 8, x_14);
 if (x_22 == 0)
 {
 lean_ctor_set(x_21, 1, x_24);
@@ -14820,7 +14820,7 @@ x_33 = lean_box(0);
 x_34 = lean_alloc_ctor(2, 0, 2);
 x_35 = (ushort)lean_unbox(x_30);
 lean_dec(x_30);
-lean_ctor_set_uint16_s(x_34, 0, x_35);
+lean_ctor_set_uint16(x_34, 0, x_35);
 x_36 = lean_alloc_ctor(0, 3, 0);
 lean_ctor_set(x_36, 0, x_33);
 lean_ctor_set(x_36, 1, x_5);
@@ -15124,7 +15124,7 @@ lean_dec_ref(x_57);
 x_60 = lean_alloc_ctor(2, 0, 2);
 x_61 = (ushort)lean_unbox(x_59);
 lean_dec(x_59);
-lean_ctor_set_uint16_s(x_60, 0, x_61);
+lean_ctor_set_uint16(x_60, 0, x_61);
 x_8 = x_60;
 x_9 = x_58;
 goto block_22;

@@ -620,7 +620,7 @@ x_5 = lean_alloc_ctor(10, 3, 1);
 lean_ctor_set(x_5, 0, x_4);
 lean_ctor_set(x_5, 1, x_3);
 lean_ctor_set(x_5, 2, x_2);
-lean_ctor_set_uint8_s(x_5, 0, x_1);
+lean_ctor_set_uint8(x_5, 24, x_1);
 return x_5;
 }
 }
@@ -6316,7 +6316,7 @@ _start:
 Obj x_1 = null; Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
 x_1 = l_Array_eraseIdx_x21___redArg___closed__1;
 x_2 = lean_unsigned_to_nat(7u);
-x_3 = lean_unsigned_to_nat(1949u);
+x_3 = lean_unsigned_to_nat(1956u);
 x_4 = l_Array_insertIdx_x21___redArg___closed__0;
 x_5 = l_Array_swapAt_x21___redArg___closed__0;
 x_6 = M_Init_Util.l_mkPanicMessageWithDecl(x_5, x_4, x_3, x_2, x_1);
@@ -7537,7 +7537,7 @@ _start:
 Obj x_1 = null; Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
 x_1 = l_Array_findSome_x21___redArg___closed__1;
 x_2 = lean_unsigned_to_nat(14u);
-x_3 = lean_unsigned_to_nat(1279u);
+x_3 = lean_unsigned_to_nat(1286u);
 x_4 = l_Array_findSome_x21___redArg___closed__0;
 x_5 = l_Array_swapAt_x21___redArg___closed__0;
 x_6 = M_Init_Util.l_mkPanicMessageWithDecl(x_5, x_4, x_3, x_2, x_1);
@@ -9476,7 +9476,7 @@ _start:
 Obj x_1 = null; Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
 x_1 = l_Array_eraseIdx_x21___redArg___closed__1;
 x_2 = lean_unsigned_to_nat(47u);
-x_3 = lean_unsigned_to_nat(1867u);
+x_3 = lean_unsigned_to_nat(1874u);
 x_4 = l_Array_eraseIdx_x21___redArg___closed__0;
 x_5 = l_Array_swapAt_x21___redArg___closed__0;
 x_6 = M_Init_Util.l_mkPanicMessageWithDecl(x_5, x_4, x_3, x_2, x_1);

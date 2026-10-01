@@ -586,7 +586,7 @@ x_69 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_69, 0, x_31);
 lean_ctor_set(x_69, 1, x_32);
 lean_ctor_set(x_69, 2, x_33);
-lean_ctor_set_uint8_s(x_69, 0, x_11);
+lean_ctor_set_uint8(x_69, 24, x_11);
 x_70 = (lean_array_push(x_64, x_69));
 if (x_67 == 0)
 {
@@ -976,7 +976,7 @@ x_156 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_156, 0, x_114);
 lean_ctor_set(x_156, 1, x_115);
 lean_ctor_set(x_156, 2, x_116);
-lean_ctor_set_uint8_s(x_156, 0, x_11);
+lean_ctor_set_uint8(x_156, 24, x_11);
 x_157 = (lean_array_push(x_151, x_156));
 if (x_154 == 0)
 {

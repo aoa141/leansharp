@@ -181,7 +181,7 @@ lean_ctor_set(x_15, 1, x_14);
 x_16 = (byte)0;
 x_17 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_17, 0, x_15);
-lean_ctor_set_uint8_s(x_17, 0, x_16);
+lean_ctor_set_uint8(x_17, 8, x_16);
 x_18 = lean_alloc_ctor(1, 2, 0);
 lean_ctor_set(x_18, 0, x_17);
 lean_ctor_set(x_18, 1, x_7);
@@ -2187,7 +2187,7 @@ byte x_30 = 0;
 lean_dec_ref(x_21);
 lean_dec_ref(x_14);
 lean_dec_ref(x_5);
-x_30 = lean_ctor_get_uint8_s(x_20, 0);
+x_30 = lean_ctor_get_uint8(x_20, 0);
 lean_dec_ref(x_20);
 if (x_30 == 0)
 {
@@ -2616,7 +2616,7 @@ return x_2;
 case 1:
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 if (x_3 == 0)
 {
@@ -2780,7 +2780,7 @@ lean_ctor_set(x_46, 1, x_45);
 x_47 = (byte)0;
 x_48 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_48, 0, x_46);
-lean_ctor_set_uint8_s(x_48, 0, x_47);
+lean_ctor_set_uint8(x_48, 8, x_47);
 return x_48;
 }
 default: 
@@ -2808,7 +2808,7 @@ lean_ctor_set(x_59, 1, x_58);
 x_60 = (byte)0;
 x_61 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_61, 0, x_59);
-lean_ctor_set_uint8_s(x_61, 0, x_60);
+lean_ctor_set_uint8(x_61, 8, x_60);
 return x_61;
 }
 }

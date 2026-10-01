@@ -475,7 +475,7 @@ goto block_67;
 block_67:
 {
 Obj x_63 = null; Obj x_64 = null; 
-lean_ctor_set_uint8_s(x_62, 0, x_12);
+lean_ctor_set_uint8(x_62, 336, x_12);
 x_63 = (lean_array_fset(x_61, x_1, x_62));
 if (x_14 == 0)
 {

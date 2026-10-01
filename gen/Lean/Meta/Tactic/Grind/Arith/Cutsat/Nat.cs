@@ -303,12 +303,12 @@ x_14 = lean_ctor_get(x_3, 10);
 x_15 = lean_ctor_get(x_3, 11);
 x_16 = lean_ctor_get(x_3, 12);
 x_17 = lean_ctor_get(x_3, 13);
-x_18 = lean_ctor_get_uint8_s(x_3, 0);
+x_18 = lean_ctor_get_uint8(x_3, 152);
 x_19 = lean_ctor_get(x_3, 14);
 x_20 = lean_ctor_get(x_3, 15);
 x_21 = lean_ctor_get(x_3, 16);
 x_22 = lean_ctor_get(x_3, 17);
-x_23 = lean_ctor_get_uint8_s(x_3, 1);
+x_23 = lean_ctor_get_uint8(x_3, 153);
 x_24 = lean_ctor_get(x_3, 18);
 x_32 = (byte)(lean_is_exclusive(x_3) ? 0 : 1);
 if (x_32 == 0)
@@ -376,8 +376,8 @@ lean_ctor_set(x_30, 15, x_20);
 lean_ctor_set(x_30, 16, x_21);
 lean_ctor_set(x_30, 17, x_22);
 lean_ctor_set(x_30, 18, x_24);
-lean_ctor_set_uint8_s(x_30, 0, x_18);
-lean_ctor_set_uint8_s(x_30, 1, x_23);
+lean_ctor_set_uint8(x_30, 152, x_18);
+lean_ctor_set_uint8(x_30, 153, x_23);
 x_28 = x_30;
 goto block_29;
 }

@@ -1142,9 +1142,9 @@ goto block_46;
 block_66:
 {
 byte x_58 = 0; byte x_59 = 0; byte x_60 = 0; Obj x_61 = null; byte x_62 = 0; byte x_63 = 0; 
-x_58 = lean_ctor_get_uint8_s(x_3, 0);
-x_59 = lean_ctor_get_uint8_s(x_3, 1);
-x_60 = lean_ctor_get_uint8_s(x_3, 2);
+x_58 = lean_ctor_get_uint8(x_3, 8);
+x_59 = lean_ctor_get_uint8(x_3, 9);
+x_60 = lean_ctor_get_uint8(x_3, 10);
 x_61 = lean_ctor_get(x_3, 0);
 x_62 = M_Lake_Util_Log.l_Lake_Log_maxLv(x_56);
 x_63 = M_Lake_Util_Log.l_Lake_instOrdLogLevel_ord(x_58, x_62);
@@ -1468,7 +1468,7 @@ x_6 = lean_box(1);
 x_7 = (byte)3;
 x_8 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_8, 0, x_2);
-lean_ctor_set_uint8_s(x_8, 0, x_7);
+lean_ctor_set_uint8(x_8, 8, x_7);
 x_9 = M_Lake_Util_Log.l_Lake_OutStream_logEntry(x_6, x_8, x_4, x_5);
 lean_dec_ref(x_8);
 x_10 = l_Lake_MainM_failure___redArg___boxed__const__1;
@@ -2234,8 +2234,8 @@ public static Obj l_Lake_MainM_runLoggerIO___redArg(Obj x_1, Obj x_2) {
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
-x_4 = lean_ctor_get_uint8_s(x_2, 1);
-x_5 = lean_ctor_get_uint8_s(x_2, 2);
+x_4 = lean_ctor_get_uint8(x_2, 9);
+x_5 = lean_ctor_get_uint8(x_2, 10);
 x_6 = lean_ctor_get(x_2, 0);
 x_7 = M_Lake_Util_Log.l_Lake_OutStream_get(x_6);
 lean_inc_ref(x_7);
@@ -3240,9 +3240,9 @@ goto block_45;
 block_65:
 {
 byte x_57 = 0; byte x_58 = 0; byte x_59 = 0; Obj x_60 = null; byte x_61 = 0; byte x_62 = 0; 
-x_57 = lean_ctor_get_uint8_s(x_2, 0);
-x_58 = lean_ctor_get_uint8_s(x_2, 1);
-x_59 = lean_ctor_get_uint8_s(x_2, 2);
+x_57 = lean_ctor_get_uint8(x_2, 8);
+x_58 = lean_ctor_get_uint8(x_2, 9);
+x_59 = lean_ctor_get_uint8(x_2, 10);
 x_60 = lean_ctor_get(x_2, 0);
 x_61 = M_Lake_Util_Log.l_Lake_Log_maxLv(x_55);
 x_62 = M_Lake_Util_Log.l_Lake_instOrdLogLevel_ord(x_57, x_61);
@@ -3285,7 +3285,7 @@ x_7 = lean_box(1);
 x_8 = (byte)3;
 x_9 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_9, 0, x_2);
-lean_ctor_set_uint8_s(x_9, 0, x_8);
+lean_ctor_set_uint8(x_9, 8, x_8);
 x_10 = M_Lake_Util_Log.l_Lake_OutStream_logEntry(x_7, x_9, x_5, x_6);
 lean_dec_ref(x_9);
 x_11 = lean_box_uint32(x_3);
@@ -3547,8 +3547,8 @@ public static Obj l_Lake_MainM_runLoggerIO(Obj x_1, Obj x_2, Obj x_3) {
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
-x_5 = lean_ctor_get_uint8_s(x_3, 1);
-x_6 = lean_ctor_get_uint8_s(x_3, 2);
+x_5 = lean_ctor_get_uint8(x_3, 9);
+x_6 = lean_ctor_get_uint8(x_3, 10);
 x_7 = lean_ctor_get(x_3, 0);
 x_8 = M_Lake_Util_Log.l_Lake_OutStream_get(x_7);
 lean_inc_ref(x_8);
@@ -3740,7 +3740,7 @@ x_19 = lean_box(1);
 x_20 = (byte)3;
 x_21 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_21, 0, x_16);
-lean_ctor_set_uint8_s(x_21, 0, x_20);
+lean_ctor_set_uint8(x_21, 8, x_20);
 x_22 = M_Lake_Util_Log.l_Lake_OutStream_logEntry(x_19, x_21, x_17, x_18);
 lean_dec_ref(x_21);
 x_23 = l_Lake_MainM_failure___redArg___boxed__const__1;
@@ -4030,7 +4030,7 @@ x_6 = lean_box(1);
 x_7 = (byte)3;
 x_8 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_8, 0, x_1);
-lean_ctor_set_uint8_s(x_8, 0, x_7);
+lean_ctor_set_uint8(x_8, 8, x_7);
 x_9 = M_Lake_Util_Log.l_Lake_OutStream_logEntry(x_6, x_8, x_4, x_5);
 lean_dec_ref(x_8);
 x_10 = lean_box_uint32(x_2);

@@ -369,7 +369,7 @@ lean_ctor_set(x_17, 0, x_2);
 lean_ctor_set(x_17, 1, x_12);
 lean_ctor_set(x_17, 2, x_14);
 lean_ctor_set(x_17, 3, x_16);
-lean_ctor_set_uint8_s(x_17, 0, x_15);
+lean_ctor_set_uint8(x_17, 32, x_15);
 x_18 = (lean_array_push(x_6, x_17));
 x_19 = 1UL;
 x_20 = (ulong)(lean_usize_add(x_4, x_19));
@@ -981,7 +981,7 @@ lean_ctor_set(x_28, 0, x_2);
 lean_ctor_set(x_28, 1, x_20);
 lean_ctor_set(x_28, 2, x_25);
 lean_ctor_set(x_28, 3, x_27);
-lean_ctor_set_uint8_s(x_28, 0, x_26);
+lean_ctor_set_uint8(x_28, 32, x_26);
 x_29 = (lean_array_push(x_1, x_28));
 if (x_23 == 0)
 {
@@ -1549,7 +1549,7 @@ lean_ctor_set(x_154, 0, x_2);
 lean_ctor_set(x_154, 1, x_147);
 lean_ctor_set(x_154, 2, x_151);
 lean_ctor_set(x_154, 3, x_153);
-lean_ctor_set_uint8_s(x_154, 0, x_152);
+lean_ctor_set_uint8(x_154, 32, x_152);
 x_155 = (lean_array_push(x_1, x_154));
 if (x_150 == 0)
 {
@@ -1808,7 +1808,7 @@ x_3 = lean_ctor_get(x_1, 1);
 lean_inc(x_3);
 x_4 = lean_ctor_get(x_1, 2);
 lean_inc(x_4);
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 32);
 lean_dec_ref(x_1);
 x_6 = lean_box(0);
 x_7 = M_Init_Prelude.l_Lean_replaceRef(x_2, x_6);
@@ -2174,7 +2174,7 @@ x_3 = lean_ctor_get(x_1, 1);
 lean_inc(x_3);
 x_4 = lean_ctor_get(x_1, 2);
 lean_inc(x_4);
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 32);
 x_6 = lean_ctor_get(x_1, 3);
 lean_inc(x_6);
 lean_dec_ref(x_1);
@@ -2189,7 +2189,7 @@ lean_ctor_set(x_12, 1, x_11);
 x_13 = (byte)0;
 x_14 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_14, 0, x_12);
-lean_ctor_set_uint8_s(x_14, 0, x_13);
+lean_ctor_set_uint8(x_14, 8, x_13);
 x_15 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_15, 0, x_8);
 lean_ctor_set(x_15, 1, x_14);
@@ -2215,7 +2215,7 @@ lean_ctor_set(x_25, 0, x_23);
 lean_ctor_set(x_25, 1, x_24);
 x_26 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_26, 0, x_25);
-lean_ctor_set_uint8_s(x_26, 0, x_13);
+lean_ctor_set_uint8(x_26, 8, x_13);
 x_27 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_27, 0, x_22);
 lean_ctor_set(x_27, 1, x_26);
@@ -2239,7 +2239,7 @@ lean_ctor_set(x_35, 0, x_33);
 lean_ctor_set(x_35, 1, x_34);
 x_36 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_36, 0, x_35);
-lean_ctor_set_uint8_s(x_36, 0, x_13);
+lean_ctor_set_uint8(x_36, 8, x_13);
 x_37 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_37, 0, x_32);
 lean_ctor_set(x_37, 1, x_36);
@@ -2262,7 +2262,7 @@ lean_ctor_set(x_44, 0, x_33);
 lean_ctor_set(x_44, 1, x_43);
 x_45 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_45, 0, x_44);
-lean_ctor_set_uint8_s(x_45, 0, x_13);
+lean_ctor_set_uint8(x_45, 8, x_13);
 x_46 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_46, 0, x_42);
 lean_ctor_set(x_46, 1, x_45);
@@ -2286,7 +2286,7 @@ lean_ctor_set(x_54, 0, x_52);
 lean_ctor_set(x_54, 1, x_53);
 x_55 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_55, 0, x_54);
-lean_ctor_set_uint8_s(x_55, 0, x_13);
+lean_ctor_set_uint8(x_55, 8, x_13);
 x_56 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_56, 0, x_51);
 lean_ctor_set(x_56, 1, x_55);
@@ -2304,7 +2304,7 @@ lean_ctor_set(x_62, 0, x_57);
 lean_ctor_set(x_62, 1, x_61);
 x_63 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_63, 0, x_62);
-lean_ctor_set_uint8_s(x_63, 0, x_13);
+lean_ctor_set_uint8(x_63, 8, x_13);
 return x_63;
 }
 }
@@ -2859,7 +2859,7 @@ lean_ctor_set(x_17, 0, x_2);
 lean_ctor_set(x_17, 1, x_12);
 lean_ctor_set(x_17, 2, x_14);
 lean_ctor_set(x_17, 3, x_16);
-lean_ctor_set_uint8_s(x_17, 0, x_15);
+lean_ctor_set_uint8(x_17, 32, x_15);
 x_18 = (lean_array_push(x_6, x_17));
 x_19 = 1UL;
 x_20 = (ulong)(lean_usize_add(x_4, x_19));
@@ -2940,7 +2940,7 @@ lean_ctor_set(x_4, 0, x_3);
 lean_ctor_set(x_4, 1, x_3);
 lean_ctor_set(x_4, 2, x_3);
 lean_ctor_set(x_4, 3, x_1);
-lean_ctor_set_uint8_s(x_4, 0, x_2);
+lean_ctor_set_uint8(x_4, 32, x_2);
 return x_4;
 }
 }
@@ -3231,7 +3231,7 @@ lean_ctor_set(x_17, 0, x_2);
 lean_ctor_set(x_17, 1, x_13);
 lean_ctor_set(x_17, 2, x_15);
 lean_ctor_set(x_17, 3, x_3);
-lean_ctor_set_uint8_s(x_17, 0, x_16);
+lean_ctor_set_uint8(x_17, 32, x_16);
 x_18 = (lean_array_push(x_7, x_17));
 x_19 = 1UL;
 x_20 = (ulong)(lean_usize_add(x_5, x_19));
@@ -3316,7 +3316,7 @@ public static Obj l_Lake_BinderSyntaxView_mkBinder(Obj x_1) {
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 32);
 switch (x_2) {
 case 0:
 {

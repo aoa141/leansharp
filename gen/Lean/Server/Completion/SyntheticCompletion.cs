@@ -503,7 +503,7 @@ lean_ctor_set(x_25, 0, x_19);
 lean_ctor_set(x_25, 1, x_21);
 lean_ctor_set(x_25, 2, x_23);
 lean_ctor_set(x_25, 3, x_24);
-lean_ctor_set_uint8_s(x_25, 0, x_20);
+lean_ctor_set_uint8(x_25, 32, x_20);
 x_26 = lean_alloc_ctor(0, 3, 0);
 lean_ctor_set(x_26, 0, x_22);
 lean_ctor_set(x_26, 1, x_5);

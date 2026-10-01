@@ -122,7 +122,7 @@ lean_dec(x_3);
 x_24 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_24, 0, x_23);
 lean_ctor_set(x_24, 1, x_18);
-lean_ctor_set_uint8_s(x_24, 0, x_8);
+lean_ctor_set_uint8(x_24, 16, x_8);
 return x_24;
 }
 else
@@ -141,7 +141,7 @@ lean_dec(x_18);
 x_29 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_29, 0, x_5);
 lean_ctor_set(x_29, 1, x_28);
-lean_ctor_set_uint8_s(x_29, 0, x_8);
+lean_ctor_set_uint8(x_29, 16, x_8);
 return x_29;
 }
 else
@@ -150,7 +150,7 @@ Obj x_30 = null;
 lean_dec(x_18);
 lean_dec(x_5);
 x_30 = lean_alloc_ctor(2, 0, 1);
-lean_ctor_set_uint8_s(x_30, 0, x_8);
+lean_ctor_set_uint8(x_30, 0, x_8);
 return x_30;
 }
 }
@@ -177,7 +177,7 @@ else
 {
 Obj x_35 = null; 
 x_35 = lean_alloc_ctor(0, 0, 1);
-lean_ctor_set_uint8_s(x_35, 0, x_8);
+lean_ctor_set_uint8(x_35, 0, x_8);
 return x_35;
 }
 }
@@ -282,7 +282,7 @@ switch (lean_obj_tag(x_2)) {
 case 0:
 {
 byte x_3 = 0; Obj x_4 = null; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 0);
 x_4 = l_Float_Model_UnpackedFloat_packedInfinity(x_1, x_3);
 lean_dec_ref(x_1);
 return x_4;
@@ -297,7 +297,7 @@ return x_5;
 case 2:
 {
 byte x_6 = 0; Obj x_7 = null; 
-x_6 = lean_ctor_get_uint8_s(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 0);
 x_7 = l_Float_Model_UnpackedFloat_packedZero(x_1, x_6);
 lean_dec_ref(x_1);
 return x_7;
@@ -305,7 +305,7 @@ return x_7;
 default: 
 {
 byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; 
-x_8 = lean_ctor_get_uint8_s(x_2, 0);
+x_8 = lean_ctor_get_uint8(x_2, 16);
 x_9 = lean_ctor_get(x_2, 0);
 x_10 = lean_ctor_get(x_2, 1);
 x_11 = lean_ctor_get(x_1, 0);

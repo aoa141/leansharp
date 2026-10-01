@@ -268,7 +268,7 @@ x_6 = lean_ctor_get(x_5, 2);
 if (lean_obj_tag(x_6) == 2)
 {
 ushort x_7 = 0; 
-x_7 = lean_ctor_get_uint16_s(x_6, 0);
+x_7 = lean_ctor_get_uint16(x_6, 0);
 return x_7;
 }
 else
@@ -787,7 +787,7 @@ x_1 = (byte)1;
 x_2 = l_Std_Http_RequestTarget_pathOrRoot___closed__0;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }

@@ -2123,7 +2123,7 @@ goto block_21;
 else
 {
 ulong x_23 = 0; 
-x_23 = lean_ctor_get_uint64_s(x_8, 0);
+x_23 = lean_ctor_get_uint64(x_8, 16);
 x_10 = x_23;
 goto block_21;
 }
@@ -2550,7 +2550,7 @@ goto block_8;
 else
 {
 ulong x_10 = 0; 
-x_10 = lean_ctor_get_uint64_s(x_2, 0);
+x_10 = lean_ctor_get_uint64(x_2, 16);
 x_4 = x_10;
 goto block_8;
 }
@@ -4240,7 +4240,7 @@ lean_inc(x_36);
 x_54 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_54, 0, x_36);
 lean_ctor_set(x_54, 1, x_53);
-lean_ctor_set_uint8_s(x_54, 0, x_50);
+lean_ctor_set_uint8(x_54, 16, x_50);
 x_55 = (lean_array_push(x_15, x_54));
 x_37 = x_55;
 goto block_47;

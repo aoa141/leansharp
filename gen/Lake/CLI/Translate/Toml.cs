@@ -873,7 +873,7 @@ if (lean_obj_tag(x_32) == 0)
 {
 Obj x_33 = null; byte x_34 = 0; Obj x_35 = null; byte x_36 = 0; byte x_49 = 0; 
 x_33 = lean_ctor_get(x_32, 0);
-x_34 = lean_ctor_get_uint8_s(x_32, 0);
+x_34 = lean_ctor_get_uint8(x_32, 8);
 x_49 = (byte)(lean_is_exclusive(x_32) ? 0 : 1);
 if (x_49 == 0)
 {
@@ -922,7 +922,7 @@ else
 Obj x_47 = null; 
 x_47 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_47, 0, x_39);
-lean_ctor_set_uint8_s(x_47, 0, x_34);
+lean_ctor_set_uint8(x_47, 8, x_34);
 x_44 = x_47;
 goto block_46;
 }
@@ -1549,7 +1549,7 @@ x_10 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_11 = lean_box(0);
 x_12 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_12, 0, x_11);
-lean_ctor_set_uint8_s(x_12, 0, x_8);
+lean_ctor_set_uint8(x_12, 8, x_8);
 x_13 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_10, x_7, x_12, x_9);
 return x_13;
 }
@@ -1611,7 +1611,7 @@ x_33 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_34 = lean_box(0);
 x_35 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_35, 0, x_34);
-lean_ctor_set_uint8_s(x_35, 0, x_31);
+lean_ctor_set_uint8(x_35, 8, x_31);
 x_36 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_33, x_30, x_35, x_32);
 x_15 = x_36;
 goto block_29;
@@ -1751,7 +1751,7 @@ x_94 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_95 = lean_box(0);
 x_96 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_96, 0, x_95);
-lean_ctor_set_uint8_s(x_96, 0, x_92);
+lean_ctor_set_uint8(x_96, 8, x_92);
 x_97 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_94, x_91, x_96, x_93);
 x_73 = x_97;
 goto block_90;
@@ -1838,7 +1838,7 @@ x_124 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_124, 0, x_123);
 x_125 = (byte)lean_unbox(x_122);
 lean_dec(x_122);
-lean_ctor_set_uint8_s(x_124, 0, x_125);
+lean_ctor_set_uint8(x_124, 8, x_125);
 x_126 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldOfBEqOfConfigField___redArg___lam__0___closed__0;
 x_127 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_126, x_114, x_124, x_115);
 x_99 = x_127;
@@ -2444,7 +2444,7 @@ x_398 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_399 = lean_box(0);
 x_400 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_400, 0, x_399);
-lean_ctor_set_uint8_s(x_400, 0, x_397);
+lean_ctor_set_uint8(x_400, 8, x_397);
 x_401 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_398, x_395, x_400, x_396);
 x_374 = x_401;
 goto block_394;
@@ -2554,7 +2554,7 @@ x_436 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_437 = lean_box(0);
 x_438 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_438, 0, x_437);
-lean_ctor_set_uint8_s(x_438, 0, x_434);
+lean_ctor_set_uint8(x_438, 8, x_434);
 x_439 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_436, x_433, x_438, x_435);
 x_422 = x_439;
 goto block_432;
@@ -2615,7 +2615,7 @@ x_456 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_457 = lean_box(0);
 x_458 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_458, 0, x_457);
-lean_ctor_set_uint8_s(x_458, 0, x_454);
+lean_ctor_set_uint8(x_458, 8, x_454);
 x_459 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_456, x_453, x_458, x_455);
 x_441 = x_459;
 goto block_452;
@@ -2764,7 +2764,7 @@ x_514 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_515 = lean_box(0);
 x_516 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_516, 0, x_515);
-lean_ctor_set_uint8_s(x_516, 0, x_513);
+lean_ctor_set_uint8(x_516, 8, x_513);
 x_517 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_514, x_511, x_516, x_512);
 x_496 = x_517;
 goto block_510;
@@ -3849,7 +3849,7 @@ public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___lam__1
 _start:
 {
 byte x_7 = 0; 
-x_7 = lean_ctor_get_uint8_s(x_4, 0);
+x_7 = lean_ctor_get_uint8(x_4, 16);
 if (x_7 == 0)
 {
 Obj x_8 = null; 
@@ -4808,7 +4808,7 @@ x_12 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_13 = lean_box(0);
 x_14 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_14, 0, x_13);
-lean_ctor_set_uint8_s(x_14, 0, x_10);
+lean_ctor_set_uint8(x_14, 8, x_10);
 x_15 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_12, x_9, x_14, x_11);
 return x_15;
 }
@@ -4894,12 +4894,12 @@ return x_4;
 case 1:
 {
 byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 0);
 lean_dec_ref(x_1);
 x_6 = lean_box(0);
 x_7 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_7, 0, x_6);
-lean_ctor_set_uint8_s(x_7, 0, x_5);
+lean_ctor_set_uint8(x_7, 8, x_5);
 return x_7;
 }
 default: 
@@ -5948,7 +5948,7 @@ x_22 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_23 = lean_box(0);
 x_24 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_24, 0, x_23);
-lean_ctor_set_uint8_s(x_24, 0, x_21);
+lean_ctor_set_uint8(x_24, 8, x_21);
 x_25 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_22, x_19, x_24, x_20);
 x_10 = x_25;
 goto block_18;
@@ -9063,7 +9063,7 @@ x_10 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_11 = lean_box(0);
 x_12 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_12, 0, x_11);
-lean_ctor_set_uint8_s(x_12, 0, x_8);
+lean_ctor_set_uint8(x_12, 8, x_8);
 x_13 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_10, x_7, x_12, x_9);
 return x_13;
 }
@@ -9125,7 +9125,7 @@ x_33 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_34 = lean_box(0);
 x_35 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_35, 0, x_34);
-lean_ctor_set_uint8_s(x_35, 0, x_32);
+lean_ctor_set_uint8(x_35, 8, x_32);
 x_36 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_33, x_30, x_35, x_31);
 x_15 = x_36;
 goto block_29;
@@ -9265,7 +9265,7 @@ x_94 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_95 = lean_box(0);
 x_96 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_96, 0, x_95);
-lean_ctor_set_uint8_s(x_96, 0, x_93);
+lean_ctor_set_uint8(x_96, 8, x_93);
 x_97 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_94, x_91, x_96, x_92);
 x_73 = x_97;
 goto block_90;
@@ -9352,7 +9352,7 @@ x_124 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_124, 0, x_123);
 x_125 = (byte)lean_unbox(x_122);
 lean_dec(x_122);
-lean_ctor_set_uint8_s(x_124, 0, x_125);
+lean_ctor_set_uint8(x_124, 8, x_125);
 x_126 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldOfBEqOfConfigField___redArg___lam__0___closed__0;
 x_127 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_126, x_114, x_124, x_115);
 x_99 = x_127;
@@ -9958,7 +9958,7 @@ x_398 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_399 = lean_box(0);
 x_400 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_400, 0, x_399);
-lean_ctor_set_uint8_s(x_400, 0, x_397);
+lean_ctor_set_uint8(x_400, 8, x_397);
 x_401 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_398, x_395, x_400, x_396);
 x_374 = x_401;
 goto block_394;
@@ -10339,7 +10339,7 @@ x_9 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldOf
 x_10 = lean_box(0);
 x_11 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_11, 0, x_10);
-lean_ctor_set_uint8_s(x_11, 0, x_8);
+lean_ctor_set_uint8(x_11, 8, x_8);
 x_12 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_9, x_6, x_11, x_7);
 return x_12;
 }
@@ -10397,7 +10397,7 @@ x_29 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_30 = lean_box(0);
 x_31 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_31, 0, x_30);
-lean_ctor_set_uint8_s(x_31, 0, x_27);
+lean_ctor_set_uint8(x_31, 8, x_27);
 x_32 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_29, x_26, x_31, x_28);
 x_14 = x_32;
 goto block_25;
@@ -10524,7 +10524,7 @@ x_81 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_82 = lean_box(0);
 x_83 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_83, 0, x_82);
-lean_ctor_set_uint8_s(x_83, 0, x_79);
+lean_ctor_set_uint8(x_83, 8, x_79);
 x_84 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_81, x_78, x_83, x_80);
 x_63 = x_84;
 goto block_77;
@@ -10602,7 +10602,7 @@ x_105 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_105, 0, x_104);
 x_106 = (byte)lean_unbox(x_103);
 lean_dec(x_103);
-lean_ctor_set_uint8_s(x_105, 0, x_106);
+lean_ctor_set_uint8(x_105, 8, x_106);
 x_107 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldOfBEqOfConfigField___redArg___lam__0___closed__0;
 x_108 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_107, x_98, x_105, x_99);
 x_86 = x_108;
@@ -11703,7 +11703,7 @@ if (x_14 == 0)
 {
 Obj x_15 = null; byte x_16 = 0; 
 x_15 = (lean_array_uget_borrowed(x_2, x_3));
-x_16 = lean_ctor_get_uint8_s(x_15, 0);
+x_16 = lean_ctor_get_uint8(x_15, 16);
 if (x_16 == 0)
 {
 x_8 = x_5;
@@ -15374,7 +15374,7 @@ x_10 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_11 = lean_box(0);
 x_12 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_12, 0, x_11);
-lean_ctor_set_uint8_s(x_12, 0, x_8);
+lean_ctor_set_uint8(x_12, 8, x_8);
 x_13 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_10, x_7, x_12, x_9);
 return x_13;
 }
@@ -15436,7 +15436,7 @@ x_33 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_34 = lean_box(0);
 x_35 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_35, 0, x_34);
-lean_ctor_set_uint8_s(x_35, 0, x_31);
+lean_ctor_set_uint8(x_35, 8, x_31);
 x_36 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_33, x_30, x_35, x_32);
 x_15 = x_36;
 goto block_29;
@@ -15576,7 +15576,7 @@ x_94 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldO
 x_95 = lean_box(0);
 x_96 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_96, 0, x_95);
-lean_ctor_set_uint8_s(x_96, 0, x_93);
+lean_ctor_set_uint8(x_96, 8, x_93);
 x_97 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_94, x_91, x_96, x_92);
 x_73 = x_97;
 goto block_90;
@@ -15663,7 +15663,7 @@ x_124 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_124, 0, x_123);
 x_125 = (byte)lean_unbox(x_122);
 lean_dec(x_122);
-lean_ctor_set_uint8_s(x_124, 0, x_125);
+lean_ctor_set_uint8(x_124, 8, x_125);
 x_126 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldOfBEqOfConfigField___redArg___lam__0___closed__0;
 x_127 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_126, x_114, x_124, x_115);
 x_99 = x_127;
@@ -16311,7 +16311,7 @@ x_417 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_418 = lean_box(0);
 x_419 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_419, 0, x_418);
-lean_ctor_set_uint8_s(x_419, 0, x_416);
+lean_ctor_set_uint8(x_419, 8, x_416);
 x_420 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_417, x_414, x_419, x_415);
 x_396 = x_420;
 goto block_413;
@@ -16444,7 +16444,7 @@ x_463 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_463, 0, x_462);
 x_464 = (byte)lean_unbox(x_461);
 lean_dec(x_461);
-lean_ctor_set_uint8_s(x_463, 0, x_464);
+lean_ctor_set_uint8(x_463, 8, x_464);
 x_465 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldOfBEqOfConfigField___redArg___lam__0___closed__0;
 x_466 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_465, x_456, x_463, x_457);
 x_445 = x_466;
@@ -16458,7 +16458,7 @@ x_471 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_472 = lean_box(0);
 x_473 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_473, 0, x_472);
-lean_ctor_set_uint8_s(x_473, 0, x_469);
+lean_ctor_set_uint8(x_473, 8, x_469);
 x_474 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_471, x_468, x_473, x_470);
 x_457 = x_474;
 goto block_467;
@@ -16519,7 +16519,7 @@ x_491 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_492 = lean_box(0);
 x_493 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_493, 0, x_492);
-lean_ctor_set_uint8_s(x_493, 0, x_490);
+lean_ctor_set_uint8(x_493, 8, x_490);
 x_494 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_491, x_488, x_493, x_489);
 x_476 = x_494;
 goto block_487;
@@ -16597,7 +16597,7 @@ x_515 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_515, 0, x_514);
 x_516 = (byte)lean_unbox(x_513);
 lean_dec(x_513);
-lean_ctor_set_uint8_s(x_515, 0, x_516);
+lean_ctor_set_uint8(x_515, 8, x_516);
 x_517 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldOfBEqOfConfigField___redArg___lam__0___closed__0;
 x_518 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_517, x_508, x_515, x_509);
 x_496 = x_518;
@@ -16628,7 +16628,7 @@ x_527 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_527, 0, x_526);
 x_528 = (byte)lean_unbox(x_525);
 lean_dec(x_525);
-lean_ctor_set_uint8_s(x_527, 0, x_528);
+lean_ctor_set_uint8(x_527, 8, x_528);
 x_529 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeFieldOfBEqOfConfigField___redArg___lam__0___closed__0;
 x_530 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_529, x_520, x_527, x_521);
 x_509 = x_530;
@@ -16642,7 +16642,7 @@ x_535 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_536 = lean_box(0);
 x_537 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_537, 0, x_536);
-lean_ctor_set_uint8_s(x_537, 0, x_533);
+lean_ctor_set_uint8(x_537, 8, x_533);
 x_538 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_535, x_532, x_537, x_534);
 x_521 = x_538;
 goto block_531;
@@ -17180,7 +17180,7 @@ x_748 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_749 = lean_box(0);
 x_750 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_750, 0, x_749);
-lean_ctor_set_uint8_s(x_750, 0, x_747);
+lean_ctor_set_uint8(x_750, 8, x_747);
 x_751 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_748, x_745, x_750, x_746);
 x_733 = x_751;
 goto block_744;
@@ -17576,7 +17576,7 @@ x_908 = l___private_Lake_CLI_Translate_Toml_0__Lake_instInsertFieldOfEncodeField
 x_909 = lean_box(0);
 x_910 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_910, 0, x_909);
-lean_ctor_set_uint8_s(x_910, 0, x_906);
+lean_ctor_set_uint8(x_910, 8, x_906);
 x_911 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_908, x_905, x_910, x_907);
 x_894 = x_911;
 goto block_904;
@@ -17691,7 +17691,7 @@ Obj x_956 = null; byte x_957 = 0; Obj x_958 = null;
 x_956 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_956, 0, x_952);
 x_957 = (byte)lean_unbox(x_955);
-lean_ctor_set_uint8_s(x_956, 0, x_957);
+lean_ctor_set_uint8(x_956, 8, x_957);
 x_958 = M_Lake_Toml_Data_Dict.l_Lake_Toml_RBDict_insert___redArg(x_949, x_947, x_956, x_954);
 x_936 = x_958;
 goto block_946;
@@ -17803,9 +17803,9 @@ lean_inc_ref(x_9);
 lean_dec_ref(x_1);
 x_10 = lean_ctor_get(x_3, 0);
 x_11 = lean_ctor_get(x_3, 1);
-x_12 = lean_ctor_get_uint8_s(x_3, 0);
+x_12 = lean_ctor_get_uint8(x_3, 224);
 x_13 = lean_ctor_get(x_3, 2);
-x_14 = lean_ctor_get_uint8_s(x_3, 1);
+x_14 = lean_ctor_get_uint8(x_3, 225);
 x_15 = lean_ctor_get(x_3, 3);
 x_16 = lean_ctor_get(x_3, 4);
 x_17 = lean_ctor_get(x_3, 5);
@@ -17815,7 +17815,7 @@ x_20 = lean_ctor_get(x_3, 8);
 x_21 = lean_ctor_get(x_3, 9);
 x_22 = lean_ctor_get(x_3, 10);
 x_23 = lean_ctor_get(x_3, 11);
-x_24 = lean_ctor_get_uint8_s(x_3, 2);
+x_24 = lean_ctor_get_uint8(x_3, 226);
 x_25 = lean_ctor_get(x_3, 13);
 x_26 = lean_ctor_get(x_3, 15);
 x_27 = lean_ctor_get(x_3, 16);
@@ -17826,14 +17826,14 @@ x_31 = lean_ctor_get(x_3, 20);
 x_32 = lean_ctor_get(x_3, 21);
 x_33 = lean_ctor_get(x_3, 22);
 x_34 = lean_ctor_get(x_3, 23);
-x_35 = lean_ctor_get_uint8_s(x_3, 3);
+x_35 = lean_ctor_get_uint8(x_3, 227);
 x_36 = lean_ctor_get(x_3, 24);
 x_37 = lean_ctor_get(x_3, 25);
-x_38 = lean_ctor_get_uint8_s(x_3, 4);
-x_39 = lean_ctor_get_uint8_s(x_3, 5);
+x_38 = lean_ctor_get_uint8(x_3, 228);
+x_39 = lean_ctor_get_uint8(x_3, 229);
 x_40 = lean_ctor_get(x_3, 26);
 x_41 = lean_ctor_get(x_3, 27);
-x_42 = lean_ctor_get_uint8_s(x_3, 6);
+x_42 = lean_ctor_get_uint8(x_3, 230);
 x_126 = (byte)(lean_is_exclusive(x_3) ? 0 : 1);
 if (x_126 == 0)
 {
@@ -17921,13 +17921,13 @@ lean_ctor_set(x_124, 24, x_36);
 lean_ctor_set(x_124, 25, x_37);
 lean_ctor_set(x_124, 26, x_40);
 lean_ctor_set(x_124, 27, x_41);
-lean_ctor_set_uint8_s(x_124, 0, x_12);
-lean_ctor_set_uint8_s(x_124, 1, x_14);
-lean_ctor_set_uint8_s(x_124, 2, x_24);
-lean_ctor_set_uint8_s(x_124, 3, x_35);
-lean_ctor_set_uint8_s(x_124, 4, x_38);
-lean_ctor_set_uint8_s(x_124, 5, x_39);
-lean_ctor_set_uint8_s(x_124, 6, x_42);
+lean_ctor_set_uint8(x_124, 224, x_12);
+lean_ctor_set_uint8(x_124, 225, x_14);
+lean_ctor_set_uint8(x_124, 226, x_24);
+lean_ctor_set_uint8(x_124, 227, x_35);
+lean_ctor_set_uint8(x_124, 228, x_38);
+lean_ctor_set_uint8(x_124, 229, x_39);
+lean_ctor_set_uint8(x_124, 230, x_42);
 x_45 = x_124;
 goto block_123;
 }

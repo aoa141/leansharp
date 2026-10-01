@@ -455,7 +455,7 @@ return x_3;
 else
 {
 ulong x_4 = 0; 
-x_4 = lean_ctor_get_uint64_s(x_2, 0);
+x_4 = lean_ctor_get_uint64(x_2, 16);
 return x_4;
 }
 }

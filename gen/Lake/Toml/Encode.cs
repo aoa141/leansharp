@@ -31,7 +31,7 @@ Obj x_2 = null; Obj x_3 = null;
 x_2 = lean_box(0);
 x_3 = lean_alloc_ctor(3, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -234,7 +234,7 @@ Obj x_2 = null; Obj x_3 = null;
 x_2 = lean_box(0);
 x_3 = lean_alloc_ctor(2, 1, 8);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_float_s(x_3, 0, x_1);
+lean_ctor_set_float(x_3, 8, x_1);
 return x_3;
 }
 }

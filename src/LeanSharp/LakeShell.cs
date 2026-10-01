@@ -18,11 +18,6 @@ public static unsafe class LakeShell
     static int Run(string[] argv)
     {
         LeanPaths.AppPath = LeanSysroot.LakeExe;
-        lock (typeof(LakeShell))
-        {
-            var r0 = M_LakeMain.initialize(1);
-            if (LeanRt.lean_io_result_is_error(r0)) { LeanRt.lean_io_result_show_error(r0); return 1; }
-        }
         LeanRt.lean_io_mark_end_initialization();
         Obj args = LeanRt.lean_box(0);
         for (int k = argv.Length - 1; k >= 0; k--)
@@ -30,6 +25,7 @@ public static unsafe class LakeShell
         try
         {
             Obj r = M_LakeMain._lean_main(args);
+            LeanRt.lean_finalize_task_manager(); // as in the C `main` emitted for Lean programs
             if (LeanRt.lean_io_result_is_ok(r))
                 return (int)LeanRt.lean_unbox_uint32(LeanRt.lean_io_result_get_value(r));
             LeanRt.lean_io_result_show_error(r);
@@ -38,6 +34,10 @@ public static unsafe class LakeShell
         catch (LeanExitException e)
         {
             return e.ExitCode;
+        }
+        catch (LeanPanicException)
+        {
+            return 1; // `lean_internal_panic`: the message has been printed
         }
     }
 

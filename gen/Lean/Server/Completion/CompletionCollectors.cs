@@ -14084,7 +14084,7 @@ x_12 = (byte)1;
 x_13 = M_Lean_ErrorExplanation.l_Lean_ErrorExplanation_summaryWithSeverity(x_5);
 x_14 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_14, 0, x_13);
-lean_ctor_set_uint8_s(x_14, 0, x_12);
+lean_ctor_set_uint8(x_14, 8, x_12);
 x_15 = lean_alloc_ctor(1, 1, 0);
 lean_ctor_set(x_15, 0, x_14);
 x_16 = l_Lean_Server_Completion_optionCompletion___lam__0___closed__2;
@@ -16610,7 +16610,7 @@ byte x_28 = 0; Obj x_29 = null; Obj x_30 = null;
 x_28 = (byte)1;
 x_29 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_29, 0, x_25);
-lean_ctor_set_uint8_s(x_29, 0, x_28);
+lean_ctor_set_uint8(x_29, 8, x_28);
 if (x_27 == 0)
 {
 lean_ctor_set(x_26, 0, x_29);

@@ -215,7 +215,7 @@ public static class LeanUtf8
 internal static class StrRtUtil
 {
     /// <summary>`should_abort_on_nonlinearity()`.</summary>
-    internal static readonly bool AbortOnNonlinearity = Environment.GetEnvironmentVariable("LEAN_ABORT_ON_NONLINEAR") != null;
+    internal static bool AbortOnNonlinearity => LeanContext.Proc.GetEnv("LEAN_ABORT_ON_NONLINEAR") != null;
 
     /// <summary>C pointer equality for `lean_object*` values (tagged scalars compare by value).</summary>
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

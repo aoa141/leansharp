@@ -53,9 +53,9 @@ Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ushort x_11 = 0; byte x_12 = 0;
 x_8 = lean_ctor_get(x_5, 0);
 x_9 = lean_ctor_get(x_5, 1);
 x_10 = lean_ctor_get(x_5, 2);
-x_11 = lean_ctor_get_uint16_s(x_5, 0);
-x_12 = lean_ctor_get_uint8_s(x_5, 2);
-x_13 = lean_ctor_get_uint8_s(x_5, 3);
+x_11 = lean_ctor_get_uint16(x_5, 24);
+x_12 = lean_ctor_get_uint8(x_5, 26);
+x_13 = lean_ctor_get_uint8(x_5, 27);
 x_14 = M_Init_Prelude.l_Lean_replaceRef(x_1, x_10);
 lean_inc(x_9);
 lean_inc_ref(x_8);
@@ -63,9 +63,9 @@ x_15 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_15, 0, x_8);
 lean_ctor_set(x_15, 1, x_9);
 lean_ctor_set(x_15, 2, x_14);
-lean_ctor_set_uint16_s(x_15, 0, x_11);
-lean_ctor_set_uint8_s(x_15, 2, x_12);
-lean_ctor_set_uint8_s(x_15, 3, x_13);
+lean_ctor_set_uint16(x_15, 24, x_11);
+lean_ctor_set_uint8(x_15, 26, x_12);
+lean_ctor_set_uint8(x_15, 27, x_13);
 x_16 = l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_throwUnknownIdentifierAt___at___00Lean_throwUnknownConstantAt___at___00Lean_Meta_getUnfoldableConst_x3f_spec__0_spec__0_spec__2_spec__4___redArg(x_2, x_3, x_4, x_15, x_6);
 lean_dec_ref(x_15);
 return x_16;
@@ -305,7 +305,7 @@ public static Obj l_Lean_Meta_canUnfoldDefault(Obj x_1, Obj x_2, Obj x_3, Obj x_
 _start:
 {
 byte x_6 = 0; 
-x_6 = lean_ctor_get_uint8_s(x_1, 9);
+x_6 = lean_ctor_get_uint8(x_1, 9);
 switch (x_6) {
 case 4:
 {
@@ -691,7 +691,7 @@ x_7 = M_Lean_Meta_Basic.l_Lean_Meta_Context_config(x_2);
 if (lean_obj_tag(x_6) == 0)
 {
 byte x_8 = 0; 
-x_8 = lean_ctor_get_uint8_s(x_7, 19);
+x_8 = lean_ctor_get_uint8(x_7, 19);
 if (x_8 == 0)
 {
 Obj x_9 = null; 
@@ -1473,7 +1473,7 @@ goto block_43;
 block_43:
 {
 byte x_14 = 0; 
-x_14 = lean_ctor_get_uint8_s(x_11, 0);
+x_14 = lean_ctor_get_uint8(x_11, 24);
 if (x_14 == 0)
 {
 Obj x_15 = null; Obj x_16 = null; 
@@ -1747,7 +1747,7 @@ x_8 = M_Lean_Data_Name.l_Lean_Name_isAnonymous(x_2);
 if (x_8 == 0)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_7, 0);
+x_9 = lean_ctor_get_uint8(x_7, 64);
 if (x_9 == 0)
 {
 Obj x_10 = null; 

@@ -3046,7 +3046,7 @@ Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Ob
 x_4 = lean_ctor_get(x_2, 0);
 x_5 = lean_alloc_ctor(1, 0, 1);
 x_6 = (byte)lean_unbox(x_4);
-lean_ctor_set_uint8_s(x_5, 0, x_6);
+lean_ctor_set_uint8(x_5, 0, x_6);
 x_7 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_7, 0, x_1);
 lean_ctor_set(x_7, 1, x_5);
@@ -3347,7 +3347,7 @@ lean_ctor_set(x_36, 2, x_33);
 lean_ctor_set(x_36, 3, x_30);
 lean_ctor_set(x_36, 4, x_27);
 lean_ctor_set(x_36, 5, x_35);
-lean_ctor_set_uint8_s(x_36, 0, x_32);
+lean_ctor_set_uint8(x_36, 48, x_32);
 if (x_29 == 0)
 {
 lean_ctor_set(x_28, 0, x_36);
@@ -4784,7 +4784,7 @@ x_5 = lean_ctor_get(x_1, 3);
 lean_inc(x_5);
 x_6 = lean_ctor_get(x_1, 4);
 lean_inc_ref(x_6);
-x_7 = lean_ctor_get_uint8_s(x_1, 0);
+x_7 = lean_ctor_get_uint8(x_1, 48);
 x_8 = lean_ctor_get(x_1, 5);
 lean_inc(x_8);
 lean_dec_ref(x_1);

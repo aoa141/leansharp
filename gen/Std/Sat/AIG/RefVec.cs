@@ -23,7 +23,7 @@ byte x_15 = 0; Obj x_16 = null;
 x_15 = (byte)1;
 x_16 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_16, 0, x_11);
-lean_ctor_set_uint8_s(x_16, 0, x_15);
+lean_ctor_set_uint8(x_16, 8, x_15);
 return x_16;
 }
 else
@@ -32,7 +32,7 @@ byte x_17 = 0; Obj x_18 = null;
 x_17 = (byte)0;
 x_18 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_18, 0, x_11);
-lean_ctor_set_uint8_s(x_18, 0, x_17);
+lean_ctor_set_uint8(x_18, 8, x_17);
 return x_18;
 }
 }
@@ -85,7 +85,7 @@ _start:
 {
 Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
 x_8 = lean_ctor_get(x_7, 0);
-x_9 = lean_ctor_get_uint8_s(x_7, 0);
+x_9 = lean_ctor_get_uint8(x_7, 8);
 x_10 = lean_unsigned_to_nat(2u);
 x_11 = (lean_nat_mul(x_8, x_10));
 x_12 = M_Init_Data_Bool.l_Bool_toNat(x_9);
@@ -411,7 +411,7 @@ if (x_15 == 0)
 Obj x_16 = null; 
 x_16 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_16, 0, x_12);
-lean_ctor_set_uint8_s(x_16, 0, x_9);
+lean_ctor_set_uint8(x_16, 8, x_9);
 return x_16;
 }
 else
@@ -420,7 +420,7 @@ byte x_17 = 0; Obj x_18 = null;
 x_17 = (byte)0;
 x_18 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_18, 0, x_12);
-lean_ctor_set_uint8_s(x_18, 0, x_17);
+lean_ctor_set_uint8(x_18, 8, x_17);
 return x_18;
 }
 }
@@ -451,7 +451,7 @@ if (x_11 == 0)
 Obj x_12 = null; 
 x_12 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_12, 0, x_8);
-lean_ctor_set_uint8_s(x_12, 0, x_5);
+lean_ctor_set_uint8(x_12, 8, x_5);
 return x_12;
 }
 else
@@ -460,7 +460,7 @@ byte x_13 = 0; Obj x_14 = null;
 x_13 = (byte)0;
 x_14 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_14, 0, x_8);
-lean_ctor_set_uint8_s(x_14, 0, x_13);
+lean_ctor_set_uint8(x_14, 8, x_13);
 return x_14;
 }
 }
@@ -540,7 +540,7 @@ byte x_9 = 0; Obj x_10 = null;
 x_9 = (byte)1;
 x_10 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_10, 0, x_5);
-lean_ctor_set_uint8_s(x_10, 0, x_9);
+lean_ctor_set_uint8(x_10, 8, x_9);
 return x_10;
 }
 else
@@ -549,7 +549,7 @@ byte x_11 = 0; Obj x_12 = null;
 x_11 = (byte)0;
 x_12 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_12, 0, x_5);
-lean_ctor_set_uint8_s(x_12, 0, x_11);
+lean_ctor_set_uint8(x_12, 8, x_11);
 return x_12;
 }
 }
@@ -588,7 +588,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 8);
 x_5 = lean_unsigned_to_nat(2u);
 x_6 = (lean_nat_mul(x_3, x_5));
 x_7 = M_Init_Data_Bool.l_Bool_toNat(x_4);

@@ -964,7 +964,7 @@ case 8:
 Obj x_17 = null; Obj x_18 = null; byte x_19 = 0; ulong x_20 = 0; 
 x_17 = lean_ctor_get(x_1, 2);
 x_18 = lean_ctor_get(x_1, 3);
-x_19 = lean_ctor_get_uint8_s(x_1, 8);
+x_19 = lean_ctor_get_uint8(x_1, 40);
 if (x_19 == 0)
 {
 ulong x_26 = 0; 
@@ -1014,7 +1014,7 @@ goto block_40;
 else
 {
 ulong x_42 = 0; 
-x_42 = lean_ctor_get_uint64_s(x_32, 0);
+x_42 = lean_ctor_get_uint64(x_32, 16);
 x_35 = x_42;
 goto block_40;
 }
@@ -1258,7 +1258,7 @@ public static byte l___private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_i
 _start:
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 8);
 if (x_3 == 0)
 {
 lean_dec(x_2);
@@ -1453,7 +1453,7 @@ Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; byte x_69 = 0; Obj x_70 = nul
 x_66 = lean_ctor_get(x_1, 0);
 x_67 = lean_ctor_get(x_1, 1);
 x_68 = lean_ctor_get(x_1, 2);
-x_69 = lean_ctor_get_uint8_s(x_1, 8);
+x_69 = lean_ctor_get_uint8(x_1, 32);
 x_70 = l___private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_dummy;
 x_71 = l___private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_alphaHash(x_1);
 x_72 = (ulong)(lean_uint64_to_usize(x_71));
@@ -1567,7 +1567,7 @@ Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; byte x_101 = 0; Obj x_102 = 
 x_98 = lean_ctor_get(x_1, 0);
 x_99 = lean_ctor_get(x_1, 1);
 x_100 = lean_ctor_get(x_1, 2);
-x_101 = lean_ctor_get_uint8_s(x_1, 8);
+x_101 = lean_ctor_get_uint8(x_1, 32);
 x_102 = l___private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_dummy;
 x_103 = l___private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_alphaHash(x_1);
 x_104 = (ulong)(lean_uint64_to_usize(x_103));
@@ -1682,7 +1682,7 @@ x_130 = lean_ctor_get(x_1, 0);
 x_131 = lean_ctor_get(x_1, 1);
 x_132 = lean_ctor_get(x_1, 2);
 x_133 = lean_ctor_get(x_1, 3);
-x_134 = lean_ctor_get_uint8_s(x_1, 8);
+x_134 = lean_ctor_get_uint8(x_1, 40);
 x_135 = l___private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_dummy;
 x_136 = l___private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_alphaHash(x_1);
 x_137 = (ulong)(lean_uint64_to_usize(x_136));
@@ -1914,7 +1914,7 @@ else
 {
 byte x_201 = 0; 
 lean_dec_ref(x_196);
-x_201 = lean_ctor_get_uint8_s(x_2, 1);
+x_201 = lean_ctor_get_uint8(x_2, 9);
 if (x_201 == 0)
 {
 Obj x_202 = null; 
@@ -2206,10 +2206,10 @@ if (lean_obj_tag(x_2) == 8)
 Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; Obj x_39 = null; Obj x_40 = null; byte x_41 = 0; 
 x_36 = lean_ctor_get(x_1, 2);
 x_37 = lean_ctor_get(x_1, 3);
-x_38 = lean_ctor_get_uint8_s(x_1, 8);
+x_38 = lean_ctor_get_uint8(x_1, 40);
 x_39 = lean_ctor_get(x_2, 2);
 x_40 = lean_ctor_get(x_2, 3);
-x_41 = lean_ctor_get_uint8_s(x_2, 8);
+x_41 = lean_ctor_get_uint8(x_2, 40);
 if (x_41 == 0)
 {
 if (x_38 == 0)
@@ -3434,7 +3434,7 @@ Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; byte x_88 = 0; Obj x_89 = nul
 x_85 = lean_ctor_get(x_1, 0);
 x_86 = lean_ctor_get(x_1, 1);
 x_87 = lean_ctor_get(x_1, 2);
-x_88 = lean_ctor_get_uint8_s(x_1, 8);
+x_88 = lean_ctor_get_uint8(x_1, 32);
 x_89 = lean_ctor_get(x_3, 0);
 x_90 = lean_ctor_get(x_3, 1);
 x_91 = l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_go_spec__1___redArg(x_89, x_1);
@@ -3564,7 +3564,7 @@ Obj x_122 = null; Obj x_123 = null; Obj x_124 = null; byte x_125 = 0; Obj x_126 
 x_122 = lean_ctor_get(x_1, 0);
 x_123 = lean_ctor_get(x_1, 1);
 x_124 = lean_ctor_get(x_1, 2);
-x_125 = lean_ctor_get_uint8_s(x_1, 8);
+x_125 = lean_ctor_get_uint8(x_1, 32);
 x_126 = lean_ctor_get(x_3, 0);
 x_127 = lean_ctor_get(x_3, 1);
 x_128 = l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_go_spec__1___redArg(x_126, x_1);
@@ -3695,7 +3695,7 @@ x_159 = lean_ctor_get(x_1, 0);
 x_160 = lean_ctor_get(x_1, 1);
 x_161 = lean_ctor_get(x_1, 2);
 x_162 = lean_ctor_get(x_1, 3);
-x_163 = lean_ctor_get_uint8_s(x_1, 8);
+x_163 = lean_ctor_get_uint8(x_1, 40);
 x_164 = lean_ctor_get(x_3, 0);
 x_165 = lean_ctor_get(x_3, 1);
 x_166 = l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_Lean_Meta_Sym_AlphaShareCommon_0__Lean_Meta_Sym_go_spec__1___redArg(x_164, x_1);
@@ -3981,7 +3981,7 @@ else
 {
 byte x_245 = 0; 
 lean_dec_ref(x_240);
-x_245 = lean_ctor_get_uint8_s(x_2, 1);
+x_245 = lean_ctor_get_uint8(x_2, 9);
 if (x_245 == 0)
 {
 Obj x_246 = null; 

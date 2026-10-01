@@ -77,7 +77,7 @@ else
 Obj x_46 = null; Obj x_47 = null; byte x_48 = 0; 
 x_46 = lean_ctor_get(x_5, 0);
 x_47 = lean_ctor_get(x_46, 2);
-x_48 = lean_ctor_get_uint8_s(x_47, 0);
+x_48 = lean_ctor_get_uint8(x_47, 8);
 if (x_48 == 0)
 {
 x_20 = x_5;
@@ -308,7 +308,7 @@ goto block_50;
 block_50:
 {
 ulong x_24 = 0; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; byte x_49 = 0; 
-x_24 = lean_ctor_get_uint64_s(x_12, 0);
+x_24 = lean_ctor_get_uint64(x_12, 8);
 x_25 = lean_ctor_get(x_12, 0);
 x_49 = (byte)(lean_is_exclusive(x_12) ? 0 : 1);
 if (x_49 == 0)
@@ -337,9 +337,9 @@ x_33 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_33, 0, x_1);
 lean_ctor_set(x_33, 1, x_29);
 lean_ctor_set(x_33, 2, x_32);
-lean_ctor_set_float_s(x_33, 0, x_30);
-lean_ctor_set_float_s(x_33, 8, x_30);
-lean_ctor_set_uint8_s(x_33, 16, x_31);
+lean_ctor_set_float(x_33, 24, x_30);
+lean_ctor_set_float(x_33, 32, x_30);
+lean_ctor_set_uint8(x_33, 40, x_31);
 x_34 = l_Lean_addTrace___at___00__private_Lean_Compiler_IR_Meta_0__Lean_IR_setClosureMeta_spec__0___closed__2;
 x_35 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_35, 0, x_33);
@@ -361,7 +361,7 @@ else
 Obj x_47 = null; 
 x_47 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_47, 0, x_37);
-lean_ctor_set_uint64_s(x_47, 0, x_24);
+lean_ctor_set_uint64(x_47, 8, x_24);
 x_38 = x_47;
 goto block_46;
 }
@@ -1106,7 +1106,7 @@ lean_inc_ref(x_6);
 lean_dec(x_5);
 x_7 = M_Lean_Environment.l_Lean_Environment_header(x_6);
 lean_dec_ref(x_6);
-x_8 = lean_ctor_get_uint8_s(x_7, 4);
+x_8 = lean_ctor_get_uint8(x_7, 60);
 lean_dec_ref(x_7);
 if (x_8 == 0)
 {
@@ -1588,7 +1588,7 @@ lean_inc(x_16);
 lean_dec_ref(x_15);
 x_51 = lean_ctor_get(x_3, 0);
 x_52 = lean_ctor_get(x_51, 2);
-x_53 = lean_ctor_get_uint8_s(x_52, 0);
+x_53 = lean_ctor_get_uint8(x_52, 8);
 if (x_53 == 0)
 {
 x_17 = x_3;

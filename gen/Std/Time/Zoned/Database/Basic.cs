@@ -28,7 +28,7 @@ else
 Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; byte x_16 = 0; Obj x_21 = null; byte x_22 = 0; Obj x_29 = null; Obj x_35 = null; byte x_36 = 0; 
 x_11 = (lean_array_fget_borrowed(x_4, x_1));
 x_12 = lean_ctor_get(x_11, 0);
-x_13 = lean_ctor_get_uint8_s(x_11, 0);
+x_13 = lean_ctor_get_uint8(x_11, 8);
 x_35 = (lean_array_get_size(x_5));
 x_36 = lean_u8(lean_nat_dec_lt(x_1, x_35));
 if (x_36 == 0)
@@ -56,9 +56,9 @@ x_18 = lean_alloc_ctor(0, 3, 3);
 lean_ctor_set(x_18, 0, x_12);
 lean_ctor_set(x_18, 1, x_15);
 lean_ctor_set(x_18, 2, x_3);
-lean_ctor_set_uint8_s(x_18, 0, x_13);
-lean_ctor_set_uint8_s(x_18, 1, x_14);
-lean_ctor_set_uint8_s(x_18, 2, x_17);
+lean_ctor_set_uint8(x_18, 24, x_13);
+lean_ctor_set_uint8(x_18, 25, x_14);
+lean_ctor_set_uint8(x_18, 26, x_17);
 x_19 = lean_alloc_ctor(1, 1, 0);
 lean_ctor_set(x_19, 0, x_18);
 return x_19;
@@ -127,7 +127,7 @@ _start:
 Obj x_3 = null; Obj x_4 = null; uint x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = lean_ctor_get(x_1, 1);
-x_5 = lean_ctor_get_uint32_s(x_3, 16);
+x_5 = lean_ctor_get_uint32(x_3, 16);
 x_6 = (lean_uint32_to_nat(x_5));
 x_7 = lean_unsigned_to_nat(0u);
 x_8 = l_Std_Time_TimeZone_convertTZifV1___closed__0;
@@ -502,7 +502,7 @@ goto block_48;
 block_48:
 {
 byte x_11 = 0; Obj x_12 = null; byte x_13 = 0; 
-x_11 = lean_ctor_get_uint8_s(x_6, 24);
+x_11 = lean_ctor_get_uint8(x_6, 24);
 lean_dec_ref(x_6);
 x_12 = l_Std_Time_TimeZone_convertTZifV2___closed__0;
 x_13 = lean_u8(lean_string_dec_eq(x_8, x_12));

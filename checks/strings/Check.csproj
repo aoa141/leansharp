@@ -5,8 +5,7 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../src/LeanSharp.Runtime/Core/**/*.cs" />
-    <Compile Include="../../src/LeanSharp.Runtime/Strings/**/*.cs" />
+    <Compile Include="../../src/LeanSharp.Runtime/**/*.cs" Exclude="../../src/LeanSharp.Runtime/bin/**;../../src/LeanSharp.Runtime/obj/**" />
     <Compile Include="Program.cs" />
     <Compile Include="SigCheck.cs" />
   </ItemGroup>

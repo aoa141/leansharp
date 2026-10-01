@@ -467,7 +467,7 @@ Obj x_33 = null; byte x_34 = 0;
 x_33 = lean_ctor_get(x_30, 0);
 lean_inc(x_33);
 lean_dec_ref(x_30);
-x_34 = lean_ctor_get_uint8_s(x_33, 3);
+x_34 = lean_ctor_get_uint8(x_33, 99);
 lean_dec(x_33);
 if (x_34 == 0)
 {
@@ -1470,7 +1470,7 @@ if (lean_obj_tag(x_71) == 0)
 Obj x_72 = null; Obj x_73 = null; byte x_74 = 0; 
 x_72 = lean_ctor_get(x_15, 0);
 x_73 = lean_ctor_get(x_72, 2);
-x_74 = lean_ctor_get_uint8_s(x_73, 0);
+x_74 = lean_ctor_get_uint8(x_73, 8);
 if (x_74 == 0)
 {
 Obj x_75 = null; 
@@ -2585,7 +2585,7 @@ public static Obj l_Lean_Meta_Grind_getEqcLambdas(Obj x_1, Obj x_2, Obj x_3, Obj
 _start:
 {
 byte x_13 = 0; 
-x_13 = lean_ctor_get_uint8_s(x_1, 3);
+x_13 = lean_ctor_get_uint8(x_1, 99);
 if (x_13 == 0)
 {
 Obj x_14 = null; Obj x_15 = null; 
@@ -2865,7 +2865,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -2894,9 +2894,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00Lean_Meta_Grind_propagateBetaEqs_spec__1___redArg___closed__2;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -2918,7 +2918,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }
@@ -3049,7 +3049,7 @@ Obj x_43 = null; byte x_44 = 0;
 x_43 = lean_ctor_get(x_42, 0);
 lean_inc(x_43);
 lean_dec_ref(x_42);
-x_44 = lean_ctor_get_uint8_s(x_43, 3);
+x_44 = lean_ctor_get_uint8(x_43, 99);
 if (x_44 == 0)
 {
 Obj x_45 = null; Obj x_46 = null; 

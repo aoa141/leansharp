@@ -380,7 +380,7 @@ x_1 = l_Lake_getUrl_x3f___closed__1;
 x_2 = (byte)3;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -928,9 +928,9 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(0, 0, 3);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
-lean_ctor_set_uint8_s(x_2, 2, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 2, x_1);
 return x_2;
 }
 }
@@ -1332,8 +1332,8 @@ lean_ctor_set(x_15, 1, x_6);
 lean_ctor_set(x_15, 2, x_9);
 lean_ctor_set(x_15, 3, x_10);
 lean_ctor_set(x_15, 4, x_12);
-lean_ctor_set_uint8_s(x_15, 0, x_13);
-lean_ctor_set_uint8_s(x_15, 1, x_14);
+lean_ctor_set_uint8(x_15, 40, x_13);
+lean_ctor_set_uint8(x_15, 41, x_14);
 x_16 = M_Lake_Util_Proc.l_Lake_captureProc_x27(x_15, x_7);
 if (lean_obj_tag(x_16) == 0)
 {
@@ -1788,7 +1788,7 @@ lean_dec_ref(x_11);
 x_14 = (byte)3;
 x_15 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_15, 0, x_13);
-lean_ctor_set_uint8_s(x_15, 0, x_14);
+lean_ctor_set_uint8(x_15, 8, x_14);
 x_16 = (lean_array_push(x_9, x_15));
 x_5 = x_10;
 x_6 = x_16;
@@ -1812,7 +1812,7 @@ lean_dec_ref(x_25);
 x_28 = (byte)3;
 x_29 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_29, 0, x_27);
-lean_ctor_set_uint8_s(x_29, 0, x_28);
+lean_ctor_set_uint8(x_29, 8, x_28);
 x_30 = (lean_array_push(x_23, x_29));
 x_5 = x_24;
 x_6 = x_30;
@@ -1876,7 +1876,7 @@ lean_dec_ref(x_44);
 x_51 = (byte)3;
 x_52 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_52, 0, x_50);
-lean_ctor_set_uint8_s(x_52, 0, x_51);
+lean_ctor_set_uint8(x_52, 8, x_51);
 x_53 = (lean_array_push(x_32, x_52));
 x_5 = x_34;
 x_6 = x_53;
@@ -2030,8 +2030,8 @@ lean_ctor_set(x_96, 1, x_88);
 lean_ctor_set(x_96, 2, x_90);
 lean_ctor_set(x_96, 3, x_91);
 lean_ctor_set(x_96, 4, x_93);
-lean_ctor_set_uint8_s(x_96, 0, x_94);
-lean_ctor_set_uint8_s(x_96, 1, x_95);
+lean_ctor_set_uint8(x_96, 40, x_94);
+lean_ctor_set_uint8(x_96, 41, x_95);
 x_97 = M_Lake_Util_Proc.l_Lake_captureProc_x27(x_96, x_3);
 if (lean_obj_tag(x_97) == 0)
 {

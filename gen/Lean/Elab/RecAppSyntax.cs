@@ -112,7 +112,7 @@ lean_inc(x_2);
 x_5 = lean_alloc_ctor(1, 2, 1);
 lean_ctor_set(x_5, 0, x_2);
 lean_ctor_set(x_5, 1, x_3);
-lean_ctor_set_uint8_s(x_5, 0, x_4);
+lean_ctor_set_uint8(x_5, 16, x_4);
 return x_5;
 }
 else

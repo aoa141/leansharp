@@ -139,7 +139,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; byte x_12 = 0; 
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 8);
 x_12 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_12 == 0)
 {
@@ -170,7 +170,7 @@ else
 Obj x_10 = null; 
 x_10 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_10, 0, x_7);
-lean_ctor_set_uint8_s(x_10, 0, x_4);
+lean_ctor_set_uint8(x_10, 8, x_4);
 x_8 = x_10;
 goto block_9;
 }
@@ -232,7 +232,7 @@ x_4 = l_Lake_InputDirConfig_filter___proj___redArg___lam__3___closed__0;
 x_5 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_5, 0, x_3);
 lean_ctor_set(x_5, 1, x_4);
-lean_ctor_set_uint8_s(x_5, 0, x_2);
+lean_ctor_set_uint8(x_5, 16, x_2);
 return x_5;
 }
 }
@@ -295,7 +295,7 @@ goto block_8;
 }
 block_8:
 {
-lean_ctor_set_uint8_s(x_7, 0, x_1);
+lean_ctor_set_uint8(x_7, 16, x_1);
 return x_7;
 }
 }
@@ -447,7 +447,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; byte x_14 = 0; 
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 8);
 x_14 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_14 == 0)
 {
@@ -485,7 +485,7 @@ block_11:
 {
 byte x_10 = 0; 
 x_10 = (byte)lean_unbox(x_8);
-lean_ctor_set_uint8_s(x_9, 0, x_10);
+lean_ctor_set_uint8(x_9, 8, x_10);
 return x_9;
 }
 }
@@ -681,8 +681,8 @@ x_3 = l_Lake_InputDirConfig___fields___closed__1;
 x_4 = lean_alloc_ctor(0, 2, 2);
 lean_ctor_set(x_4, 0, x_3);
 lean_ctor_set(x_4, 1, x_3);
-lean_ctor_set_uint8_s(x_4, 0, x_2);
-lean_ctor_set_uint8_s(x_4, 1, x_1);
+lean_ctor_set_uint8(x_4, 16, x_2);
+lean_ctor_set_uint8(x_4, 17, x_1);
 return x_4;
 }
 }
@@ -768,7 +768,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; byte x_11 = 0; 
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 16);
 x_11 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_11 == 0)
 {
@@ -802,7 +802,7 @@ Obj x_9 = null;
 x_9 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_9, 0, x_3);
 lean_ctor_set(x_9, 1, x_1);
-lean_ctor_set_uint8_s(x_9, 0, x_4);
+lean_ctor_set_uint8(x_9, 16, x_4);
 x_7 = x_9;
 goto block_8;
 }
@@ -845,8 +845,8 @@ x_3 = l_Lake_InputFileConfig___fields___closed__2;
 x_4 = lean_alloc_ctor(0, 2, 2);
 lean_ctor_set(x_4, 0, x_3);
 lean_ctor_set(x_4, 1, x_3);
-lean_ctor_set_uint8_s(x_4, 0, x_2);
-lean_ctor_set_uint8_s(x_4, 1, x_1);
+lean_ctor_set_uint8(x_4, 16, x_2);
+lean_ctor_set_uint8(x_4, 17, x_1);
 return x_4;
 }
 }
@@ -923,7 +923,7 @@ x_2 = (byte)0;
 x_3 = M_Init_Data_ToString_Name.l_Lean_Name_toString(x_1, x_2);
 x_4 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_4, 0, x_3);
-lean_ctor_set_uint8_s(x_4, 0, x_2);
+lean_ctor_set_uint8(x_4, 8, x_2);
 return x_4;
 }
 }
@@ -1195,7 +1195,7 @@ goto block_7;
 }
 block_7:
 {
-lean_ctor_set_uint8_s(x_6, 0, x_1);
+lean_ctor_set_uint8(x_6, 8, x_1);
 return x_6;
 }
 }
@@ -1278,7 +1278,7 @@ public static byte l_Lake_InputFileConfig_text___proj___redArg___lam__0(Obj x_1)
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 8);
 return x_2;
 }
 }
@@ -1335,7 +1335,7 @@ public static Obj l_Lake_InputFileConfig_path___proj___lam__1(Obj x_1, Obj x_2) 
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; byte x_5 = 0; byte x_10 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 8);
 x_10 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_10 == 0)
 {
@@ -1367,7 +1367,7 @@ else
 Obj x_8 = null; 
 x_8 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_8, 0, x_1);
-lean_ctor_set_uint8_s(x_8, 0, x_3);
+lean_ctor_set_uint8(x_8, 8, x_3);
 x_6 = x_8;
 goto block_7;
 }
@@ -1401,7 +1401,7 @@ public static byte l_Lake_InputDirConfig_text___proj___redArg___lam__0(Obj x_1) 
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 return x_2;
 }
 }
@@ -1433,7 +1433,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_15 = 0; 
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 16);
 x_5 = lean_ctor_get(x_2, 1);
 x_15 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_15 == 0)
@@ -1474,7 +1474,7 @@ block_12:
 {
 byte x_11 = 0; 
 x_11 = (byte)lean_unbox(x_9);
-lean_ctor_set_uint8_s(x_10, 0, x_11);
+lean_ctor_set_uint8(x_10, 16, x_11);
 return x_10;
 }
 }
@@ -1503,7 +1503,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_13 = 0; 
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 16);
 x_5 = lean_ctor_get(x_2, 1);
 x_13 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_13 == 0)
@@ -1537,7 +1537,7 @@ Obj x_11 = null;
 x_11 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_11, 0, x_8);
 lean_ctor_set(x_11, 1, x_5);
-lean_ctor_set_uint8_s(x_11, 0, x_4);
+lean_ctor_set_uint8(x_11, 16, x_4);
 x_9 = x_11;
 goto block_10;
 }
@@ -1598,7 +1598,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_13 = 0; 
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 16);
 x_5 = lean_ctor_get(x_2, 1);
 x_13 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_13 == 0)
@@ -1632,7 +1632,7 @@ Obj x_11 = null;
 x_11 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_11, 0, x_3);
 lean_ctor_set(x_11, 1, x_8);
-lean_ctor_set_uint8_s(x_11, 0, x_4);
+lean_ctor_set_uint8(x_11, 16, x_4);
 x_9 = x_11;
 goto block_10;
 }
@@ -1657,7 +1657,7 @@ public static Obj l_Lake_InputDirConfig_path___proj___lam__1(Obj x_1, Obj x_2) {
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_11 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 16);
 x_4 = lean_ctor_get(x_2, 1);
 x_11 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_11 == 0)
@@ -1692,7 +1692,7 @@ Obj x_9 = null;
 x_9 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_9, 0, x_1);
 lean_ctor_set(x_9, 1, x_4);
-lean_ctor_set_uint8_s(x_9, 0, x_3);
+lean_ctor_set_uint8(x_9, 16, x_3);
 x_7 = x_9;
 goto block_8;
 }
@@ -1843,8 +1843,8 @@ x_3 = l_Lake_InputFileConfig___fields___closed__6;
 x_4 = lean_alloc_ctor(0, 2, 2);
 lean_ctor_set(x_4, 0, x_3);
 lean_ctor_set(x_4, 1, x_3);
-lean_ctor_set_uint8_s(x_4, 0, x_2);
-lean_ctor_set_uint8_s(x_4, 1, x_1);
+lean_ctor_set_uint8(x_4, 16, x_2);
+lean_ctor_set_uint8(x_4, 17, x_1);
 return x_4;
 }
 }

@@ -1229,7 +1229,7 @@ goto block_27;
 else
 {
 byte x_44 = 0; 
-x_44 = lean_ctor_get_uint8_s(x_42, 2);
+x_44 = lean_ctor_get_uint8(x_42, 10);
 if (x_44 == 0)
 {
 goto block_27;
@@ -2238,7 +2238,7 @@ return x_123;
 else
 {
 ulong x_124 = 0; Obj x_125 = null; Obj x_126 = null; 
-x_124 = lean_ctor_get_uint64_s(x_121, 0);
+x_124 = lean_ctor_get_uint64(x_121, 16);
 lean_dec(x_121);
 x_125 = lean_box_uint64(x_124);
 x_126 = lean_alloc_ctor(0, 1, 0);
@@ -3251,7 +3251,7 @@ x_19 = lean_ctor_get(x_18, 0);
 lean_inc(x_19);
 lean_dec_ref(x_18);
 x_20 = M_Lean_Meta_Basic.l_Lean_Meta_Context_config(x_4);
-x_21 = lean_ctor_get_uint8_s(x_20, 9);
+x_21 = lean_ctor_get_uint8(x_20, 9);
 lean_dec_ref(x_20);
 x_22 = l_List_forIn_x27_loop___at___00Lean_Meta_Canonicalizer_canon_spec__1___redArg___closed__0;
 x_23 = M_Init_MetaTypes.l_Lean_Meta_instBEqTransparencyMode_beq(x_21, x_2);
@@ -3259,16 +3259,16 @@ if (x_23 == 0)
 {
 Obj x_24 = null; byte x_25 = 0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; byte x_32 = 0; byte x_33 = 0; byte x_34 = 0; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; 
 x_24 = lean_ctor_get(x_4, 0);
-x_25 = lean_ctor_get_uint8_s(x_4, 0);
+x_25 = lean_ctor_get_uint8(x_4, 56);
 x_26 = lean_ctor_get(x_4, 1);
 x_27 = lean_ctor_get(x_4, 2);
 x_28 = lean_ctor_get(x_4, 3);
 x_29 = lean_ctor_get(x_4, 4);
 x_30 = lean_ctor_get(x_4, 5);
 x_31 = lean_ctor_get(x_4, 6);
-x_32 = lean_ctor_get_uint8_s(x_4, 1);
-x_33 = lean_ctor_get_uint8_s(x_4, 2);
-x_34 = lean_ctor_get_uint8_s(x_4, 3);
+x_32 = lean_ctor_get_uint8(x_4, 57);
+x_33 = lean_ctor_get_uint8(x_4, 58);
+x_34 = lean_ctor_get_uint8(x_4, 59);
 lean_inc_ref(x_24);
 x_35 = M_Lean_Meta_Basic.l_Lean_Meta_ConfigWithKey_setTransparency(x_2, x_24);
 lean_inc(x_31);
@@ -3285,10 +3285,10 @@ lean_ctor_set(x_36, 3, x_28);
 lean_ctor_set(x_36, 4, x_29);
 lean_ctor_set(x_36, 5, x_30);
 lean_ctor_set(x_36, 6, x_31);
-lean_ctor_set_uint8_s(x_36, 0, x_25);
-lean_ctor_set_uint8_s(x_36, 1, x_32);
-lean_ctor_set_uint8_s(x_36, 2, x_33);
-lean_ctor_set_uint8_s(x_36, 3, x_34);
+lean_ctor_set_uint8(x_36, 56, x_25);
+lean_ctor_set_uint8(x_36, 57, x_32);
+lean_ctor_set_uint8(x_36, 58, x_33);
+lean_ctor_set_uint8(x_36, 59, x_34);
 lean_inc_ref(x_1);
 x_37 = l_List_forIn_x27_loop___at___00Lean_Meta_Canonicalizer_canon_spec__1___redArg(x_1, x_19, x_22, x_36, x_5, x_6, x_7);
 lean_dec_ref(x_36);

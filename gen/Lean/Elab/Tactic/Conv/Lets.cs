@@ -517,17 +517,17 @@ x_23 = M_Init_Prelude.l_Lean_Syntax_getArgs(x_22);
 lean_dec(x_22);
 x_24 = (byte)0;
 x_25 = lean_alloc_ctor(0, 0, 11);
-lean_ctor_set_uint8_s(x_25, 0, x_24);
-lean_ctor_set_uint8_s(x_25, 1, x_17);
-lean_ctor_set_uint8_s(x_25, 2, x_24);
-lean_ctor_set_uint8_s(x_25, 3, x_17);
-lean_ctor_set_uint8_s(x_25, 4, x_17);
-lean_ctor_set_uint8_s(x_25, 5, x_24);
-lean_ctor_set_uint8_s(x_25, 6, x_17);
-lean_ctor_set_uint8_s(x_25, 7, x_17);
-lean_ctor_set_uint8_s(x_25, 8, x_24);
-lean_ctor_set_uint8_s(x_25, 9, x_24);
-lean_ctor_set_uint8_s(x_25, 10, x_24);
+lean_ctor_set_uint8(x_25, 0, x_24);
+lean_ctor_set_uint8(x_25, 1, x_17);
+lean_ctor_set_uint8(x_25, 2, x_24);
+lean_ctor_set_uint8(x_25, 3, x_17);
+lean_ctor_set_uint8(x_25, 4, x_17);
+lean_ctor_set_uint8(x_25, 5, x_24);
+lean_ctor_set_uint8(x_25, 6, x_17);
+lean_ctor_set_uint8(x_25, 7, x_17);
+lean_ctor_set_uint8(x_25, 8, x_24);
+lean_ctor_set_uint8(x_25, 9, x_24);
+lean_ctor_set_uint8(x_25, 10, x_24);
 x_26 = M_Lean_Elab_Tactic_Lets.l_Lean_Elab_Tactic_elabExtractLetsConfig___redArg(x_15, x_25, x_17, x_2, x_8, x_9);
 if (lean_obj_tag(x_26) == 0)
 {
@@ -769,17 +769,17 @@ else
 byte x_19 = 0; Obj x_20 = null; Obj x_21 = null; 
 x_19 = (byte)0;
 x_20 = lean_alloc_ctor(0, 0, 11);
-lean_ctor_set_uint8_s(x_20, 0, x_19);
-lean_ctor_set_uint8_s(x_20, 1, x_17);
-lean_ctor_set_uint8_s(x_20, 2, x_19);
-lean_ctor_set_uint8_s(x_20, 3, x_17);
-lean_ctor_set_uint8_s(x_20, 4, x_17);
-lean_ctor_set_uint8_s(x_20, 5, x_19);
-lean_ctor_set_uint8_s(x_20, 6, x_17);
-lean_ctor_set_uint8_s(x_20, 7, x_17);
-lean_ctor_set_uint8_s(x_20, 8, x_19);
-lean_ctor_set_uint8_s(x_20, 9, x_17);
-lean_ctor_set_uint8_s(x_20, 10, x_17);
+lean_ctor_set_uint8(x_20, 0, x_19);
+lean_ctor_set_uint8(x_20, 1, x_17);
+lean_ctor_set_uint8(x_20, 2, x_19);
+lean_ctor_set_uint8(x_20, 3, x_17);
+lean_ctor_set_uint8(x_20, 4, x_17);
+lean_ctor_set_uint8(x_20, 5, x_19);
+lean_ctor_set_uint8(x_20, 6, x_17);
+lean_ctor_set_uint8(x_20, 7, x_17);
+lean_ctor_set_uint8(x_20, 8, x_19);
+lean_ctor_set_uint8(x_20, 9, x_17);
+lean_ctor_set_uint8(x_20, 10, x_17);
 x_21 = M_Lean_Elab_Tactic_Lets.l_Lean_Elab_Tactic_elabLiftLetsConfig___redArg(x_15, x_20, x_17, x_2, x_8, x_9);
 if (lean_obj_tag(x_21) == 0)
 {

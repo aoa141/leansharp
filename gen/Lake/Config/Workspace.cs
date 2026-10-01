@@ -124,7 +124,7 @@ x_2 = lean_ctor_get(x_1, 4);
 x_3 = lean_unsigned_to_nat(0u);
 x_4 = (lean_array_fget_borrowed(x_2, x_3));
 x_5 = lean_ctor_get(x_4, 6);
-x_6 = lean_ctor_get_uint8_s(x_5, 0);
+x_6 = lean_ctor_get_uint8(x_5, 224);
 return x_6;
 }
 }
@@ -367,7 +367,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
 x_3 = lean_ctor_get(x_1, 6);
-x_4 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_3, 224);
 if (x_4 == 0)
 {
 Obj x_5 = null; 
@@ -1536,7 +1536,7 @@ Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; byte x_47 = 0; Obj x_48 = nul
 x_44 = lean_unsigned_to_nat(0u);
 x_45 = (lean_array_fget_borrowed(x_4, x_44));
 x_46 = lean_ctor_get(x_45, 6);
-x_47 = lean_ctor_get_uint8_s(x_46, 0);
+x_47 = lean_ctor_get_uint8(x_46, 224);
 lean_inc_ref(x_41);
 x_48 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_48, 0, x_41);

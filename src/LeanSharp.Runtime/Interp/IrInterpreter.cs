@@ -171,9 +171,21 @@ internal sealed unsafe class IrInterpreter : IDisposable
     static readonly Dictionary<Obj, NativeEntry> s_nativeSymbolCache = new(NameComparer.Instance);
     static readonly object s_nativeLock = new();
 
-    // constants (lacking native declarations) initialized by `lean_run_init`
-    static readonly Dictionary<Obj, Obj> s_initGlobals = new(NameComparer.Instance);
-    static readonly object s_initGlobalsLock = new();
+    // Constants (lacking native declarations) initialized by `lean_run_init`. They are the
+    // global state of the interpreted code (`initialize foo : IO.Ref _ ← ...` of a user module),
+    // so each logical process has its own: natively every `lean` process runs the initializers
+    // of the modules it imports itself.
+    static Dictionary<Obj, Obj> InitGlobals
+    {
+        get
+        {
+            var p = LeanContext.Proc;
+            var d = (Dictionary<Obj, Obj>)p.InterpreterInitGlobals;
+            if (d != null) return d;
+            Interlocked.CompareExchange(ref p.InterpreterInitGlobals, new Dictionary<Obj, Obj>(NameComparer.Instance), null);
+            return (Dictionary<Obj, Obj>)p.InterpreterInitGlobals;
+        }
+    }
 
     public const bool DefaultPreferNative = true;
     static Obj s_preferNativeName;
@@ -921,7 +933,8 @@ internal sealed unsafe class IrInterpreter : IDisposable
         if (m_constantCache.TryGetValue(fn, out var cached)) return cached.Val;
         Obj g;
         bool found;
-        lock (s_initGlobalsLock) found = s_initGlobals.TryGetValue(fn, out g);
+        var initGlobals = InitGlobals;
+        lock (initGlobals) found = initGlobals.TryGetValue(fn, out g);
         if (found)
         {
             // persistent, so no `inc` needed
@@ -947,7 +960,31 @@ internal sealed unsafe class IrInterpreter : IDisposable
         // `Unreachable` can be from `mkDummyExternDecl`, which may mean that we failed to run the
         // initializer, suggesting some incorrect `meta` phase setup.
         if (Ir.BodyTag(body) == FnBodyKind.Unreachable)
+        {
+            // A `builtin_initialize x : T ← ...` constant of a module that has no compiled code.
+            // Natively such a module is only usable compiled (its initializer runs the
+            // `[builtin_init]` function); in LeanSharp user modules are always interpreted
+            // (interpreter-backed executables, "precompiled" modules), so the initializer is
+            // run on first use.
+            lean_inc(m_env); lean_inc(fn);
+            Obj anyInit = InterpExports.GetInitFnNameFor(m_env, fn);
+            if (!lean_is_scalar(anyInit) && !lean_is_scalar(lean_ctor_get(anyInit, 0)))
+            {
+                Obj initDecl = lean_ctor_get(anyInit, 0);
+                Obj res = RunInit(fn, initDecl);
+                lean_dec(anyInit);
+                bool ok = lean_io_result_is_ok(res);
+                lean_dec(res);
+                if (ok)
+                {
+                    lock (initGlobals) found = initGlobals.TryGetValue(fn, out g);
+                    if (found) return Ir.TypeIsScalar(t) ? UnboxT(g, t) : Value.Of(g);
+                }
+                throw new InterpreterException($"(interpreter) failed to run the initializer of '{IrName.ToString(fn)}'");
+            }
+            lean_dec(anyInit);
             throw new InterpreterException($"(interpreter) cannot evaluate constant '{IrName.ToString(fn)}': its IR body is `unreachable` (missing initializer?)");
+        }
         PushFrame(e.Decl, m_argSize);
         Value r = EvalBody(body);
         PopFrame();
@@ -1219,10 +1256,11 @@ internal sealed unsafe class IrInterpreter : IDisposable
                     e.Native.Field.SetValue(null, o);
                 else
                 {
-                    lock (s_initGlobalsLock)
+                    var initGlobals = InitGlobals;
+                    lock (initGlobals)
                     {
-                        if (!s_initGlobals.ContainsKey(decl)) lean_inc(decl);
-                        s_initGlobals[decl] = o;
+                        if (!initGlobals.ContainsKey(decl)) lean_inc(decl);
+                        initGlobals[decl] = o;
                     }
                 }
                 return lean_io_result_mk_ok(lean_box(0));

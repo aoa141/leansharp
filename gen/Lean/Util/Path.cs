@@ -805,9 +805,9 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(0, 0, 3);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
-lean_ctor_set_uint8_s(x_2, 2, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 2, x_1);
 return x_2;
 }
 }
@@ -1042,8 +1042,8 @@ lean_ctor_set(x_20, 1, x_1);
 lean_ctor_set(x_20, 2, x_14);
 lean_ctor_set(x_20, 3, x_15);
 lean_ctor_set(x_20, 4, x_17);
-lean_ctor_set_uint8_s(x_20, 0, x_18);
-lean_ctor_set_uint8_s(x_20, 1, x_19);
+lean_ctor_set_uint8(x_20, 40, x_18);
+lean_ctor_set_uint8(x_20, 41, x_19);
 x_21 = M_Init_System_IO.l_IO_Process_run(x_20, x_15);
 if (lean_obj_tag(x_21) == 0)
 {

@@ -317,9 +317,9 @@ x_19 = lean_alloc_ctor(0, 3, 3);
 lean_ctor_set(x_19, 0, x_10);
 lean_ctor_set(x_19, 1, x_18);
 lean_ctor_set(x_19, 2, x_9);
-lean_ctor_set_uint8_s(x_19, 0, x_8);
-lean_ctor_set_uint8_s(x_19, 1, x_14);
-lean_ctor_set_uint8_s(x_19, 2, x_11);
+lean_ctor_set_uint8(x_19, 24, x_8);
+lean_ctor_set_uint8(x_19, 25, x_14);
+lean_ctor_set_uint8(x_19, 26, x_11);
 x_20 = lean_alloc_ctor(1, 1, 0);
 lean_ctor_set(x_20, 0, x_19);
 return x_20;
@@ -1084,7 +1084,7 @@ Obj x_247 = null; byte x_248 = 0; Obj x_249 = null; Obj x_250 = null; Obj x_251 
 x_247 = lean_ctor_get(x_246, 0);
 lean_inc(x_247);
 lean_dec_ref(x_246);
-x_248 = lean_ctor_get_uint8_s(x_2, 0);
+x_248 = lean_ctor_get_uint8(x_2, 16);
 x_249 = lean_ctor_get(x_2, 0);
 x_250 = lean_ctor_get(x_2, 1);
 x_251 = lean_ctor_get(x_247, 0);
@@ -1166,7 +1166,7 @@ goto block_256;
 else
 {
 byte x_267 = 0; byte x_268 = 0; 
-x_267 = lean_ctor_get_uint8_s(x_2, 0);
+x_267 = lean_ctor_get_uint8(x_2, 16);
 x_268 = M_Std_Http_Data_Method.l_Std_Http_Method_isSafe(x_267);
 if (x_268 == 0)
 {
@@ -2591,7 +2591,7 @@ lean_ctor_set(x_5, 1, x_4);
 x_6 = (byte)0;
 x_7 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_7, 0, x_5);
-lean_ctor_set_uint8_s(x_7, 0, x_6);
+lean_ctor_set_uint8(x_7, 8, x_6);
 x_8 = M_Init_Data_Repr.l_Repr_addAppParen(x_7, x_2);
 return x_8;
 }
@@ -2606,7 +2606,7 @@ lean_ctor_set(x_12, 1, x_11);
 x_13 = (byte)0;
 x_14 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_14, 0, x_12);
-lean_ctor_set_uint8_s(x_14, 0, x_13);
+lean_ctor_set_uint8(x_14, 8, x_13);
 x_15 = M_Init_Data_Repr.l_Repr_addAppParen(x_14, x_2);
 return x_15;
 }
@@ -2938,11 +2938,11 @@ x_2 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_2);
 x_3 = lean_ctor_get(x_1, 1);
 lean_inc(x_3);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 24);
 x_5 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_5);
-x_6 = lean_ctor_get_uint8_s(x_1, 1);
-x_7 = lean_ctor_get_uint8_s(x_1, 2);
+x_6 = lean_ctor_get_uint8(x_1, 25);
+x_7 = lean_ctor_get_uint8(x_1, 26);
 lean_dec_ref(x_1);
 x_8 = l_Std_Http_Protocol_H1_instReprRedirectPlan_repr___redArg___closed__5;
 x_9 = l_Std_Http_Protocol_H1_instReprRedirectPlan_repr___redArg___closed__6;
@@ -2955,7 +2955,7 @@ lean_ctor_set(x_13, 1, x_12);
 x_14 = (byte)0;
 x_15 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_15, 0, x_13);
-lean_ctor_set_uint8_s(x_15, 0, x_14);
+lean_ctor_set_uint8(x_15, 8, x_14);
 x_16 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_16, 0, x_9);
 lean_ctor_set(x_16, 1, x_15);
@@ -2980,7 +2980,7 @@ lean_ctor_set(x_25, 0, x_10);
 lean_ctor_set(x_25, 1, x_24);
 x_26 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_26, 0, x_25);
-lean_ctor_set_uint8_s(x_26, 0, x_14);
+lean_ctor_set_uint8(x_26, 8, x_14);
 x_27 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_27, 0, x_23);
 lean_ctor_set(x_27, 1, x_26);
@@ -3003,7 +3003,7 @@ lean_ctor_set(x_34, 0, x_10);
 lean_ctor_set(x_34, 1, x_33);
 x_35 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_35, 0, x_34);
-lean_ctor_set_uint8_s(x_35, 0, x_14);
+lean_ctor_set_uint8(x_35, 8, x_14);
 x_36 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_36, 0, x_32);
 lean_ctor_set(x_36, 1, x_35);
@@ -3027,7 +3027,7 @@ lean_ctor_set(x_44, 0, x_42);
 lean_ctor_set(x_44, 1, x_43);
 x_45 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_45, 0, x_44);
-lean_ctor_set_uint8_s(x_45, 0, x_14);
+lean_ctor_set_uint8(x_45, 8, x_14);
 x_46 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_46, 0, x_41);
 lean_ctor_set(x_46, 1, x_45);
@@ -3051,7 +3051,7 @@ lean_ctor_set(x_54, 0, x_52);
 lean_ctor_set(x_54, 1, x_53);
 x_55 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_55, 0, x_54);
-lean_ctor_set_uint8_s(x_55, 0, x_14);
+lean_ctor_set_uint8(x_55, 8, x_14);
 x_56 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_56, 0, x_51);
 lean_ctor_set(x_56, 1, x_55);
@@ -3075,7 +3075,7 @@ lean_ctor_set(x_64, 0, x_62);
 lean_ctor_set(x_64, 1, x_63);
 x_65 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_65, 0, x_64);
-lean_ctor_set_uint8_s(x_65, 0, x_14);
+lean_ctor_set_uint8(x_65, 8, x_14);
 x_66 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_66, 0, x_61);
 lean_ctor_set(x_66, 1, x_65);
@@ -3093,7 +3093,7 @@ lean_ctor_set(x_72, 0, x_67);
 lean_ctor_set(x_72, 1, x_71);
 x_73 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_73, 0, x_72);
-lean_ctor_set_uint8_s(x_73, 0, x_14);
+lean_ctor_set_uint8(x_73, 8, x_14);
 return x_73;
 }
 }
@@ -3439,7 +3439,7 @@ x_63 = M_Std_Http_Data_URI_Basic.l_Std_Http_URI_Path_isEmpty(x_58);
 if (x_63 == 0)
 {
 byte x_66 = 0; 
-x_66 = lean_ctor_get_uint8_s(x_58, 0);
+x_66 = lean_ctor_get_uint8(x_58, 8);
 if (x_66 == 0)
 {
 Obj x_67 = null; Obj x_68 = null; 
@@ -3855,7 +3855,7 @@ lean_dec(x_6);
 if (lean_obj_tag(x_11) == 2)
 {
 ushort x_18 = 0; 
-x_18 = lean_ctor_get_uint16_s(x_11, 0);
+x_18 = lean_ctor_get_uint16(x_11, 0);
 lean_dec_ref(x_11);
 x_12 = x_18;
 goto block_17;
@@ -3874,7 +3874,7 @@ Obj x_13 = null; Obj x_14 = null;
 x_13 = lean_alloc_ctor(0, 2, 2);
 lean_ctor_set(x_13, 0, x_9);
 lean_ctor_set(x_13, 1, x_10);
-lean_ctor_set_uint16_s(x_13, 0, x_12);
+lean_ctor_set_uint16(x_13, 16, x_12);
 if (x_8 == 0)
 {
 lean_ctor_set(x_7, 0, x_13);
@@ -3953,7 +3953,7 @@ lean_dec(x_26);
 if (lean_obj_tag(x_30) == 2)
 {
 ushort x_45 = 0; 
-x_45 = lean_ctor_get_uint16_s(x_30, 0);
+x_45 = lean_ctor_get_uint16(x_30, 0);
 lean_dec_ref(x_30);
 x_31 = x_45;
 goto block_44;
@@ -4010,7 +4010,7 @@ goto block_39;
 block_39:
 {
 Obj x_36 = null; 
-lean_ctor_set_uint16_s(x_35, 0, x_31);
+lean_ctor_set_uint16(x_35, 16, x_31);
 if (x_28 == 0)
 {
 lean_ctor_set(x_27, 0, x_35);

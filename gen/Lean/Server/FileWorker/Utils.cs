@@ -43,7 +43,7 @@ x_12 = lean_alloc_ctor(0, 2, 9);
 lean_ctor_set(x_12, 0, x_10);
 lean_ctor_set(x_12, 1, x_10);
 lean_ctor_set_usize(x_12, 2, x_11);
-lean_ctor_set_uint8_s(x_12, 0, x_1);
+lean_ctor_set_uint8(x_12, 24, x_1);
 x_13 = lean_unsigned_to_nat(30000u);
 x_14 = (lean_nat_add(x_9, x_13));
 lean_dec(x_9);
@@ -324,7 +324,7 @@ goto block_20;
 block_20:
 {
 Obj x_18 = null; Obj x_19 = null; 
-lean_ctor_set_uint8_s(x_17, 0, x_16);
+lean_ctor_set_uint8(x_17, 24, x_16);
 x_18 = lean_box(0);
 x_19 = (lean_st_ref_swap(x_2, x_17));
 lean_dec(x_19);
@@ -627,7 +627,7 @@ x_13 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_13, 0, x_9);
 lean_ctor_set(x_13, 1, x_11);
 lean_ctor_set(x_13, 2, x_10);
-lean_ctor_set_uint8_s(x_13, 0, x_12);
+lean_ctor_set_uint8(x_13, 24, x_12);
 x_14 = M_Std_Sync_Mutex.l_Std_Mutex_new___redArg(x_13);
 lean_inc_ref(x_3);
 x_15 = l___private_Lean_Server_FileWorker_Utils_0__Lean_Server_FileWorker_mkCmdSnaps(x_3);
@@ -828,7 +828,7 @@ Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Ob
 x_4 = (lean_st_ref_take(x_2));
 x_5 = lean_ctor_get(x_4, 0);
 x_6 = lean_ctor_get(x_4, 1);
-x_7 = lean_ctor_get_uint8_s(x_4, 0);
+x_7 = lean_ctor_get_uint8(x_4, 24);
 x_8 = lean_ctor_get(x_4, 2);
 x_29 = (byte)(lean_is_exclusive(x_4) ? 0 : 1);
 if (x_29 == 0)
@@ -906,7 +906,7 @@ x_16 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_16, 0, x_5);
 lean_ctor_set(x_16, 1, x_12);
 lean_ctor_set(x_16, 2, x_8);
-lean_ctor_set_uint8_s(x_16, 0, x_7);
+lean_ctor_set_uint8(x_16, 24, x_7);
 x_13 = x_16;
 goto block_15;
 }
@@ -1368,7 +1368,7 @@ goto block_39;
 else
 {
 byte x_40 = 0; 
-x_40 = lean_ctor_get_uint8_s(x_17, 0);
+x_40 = lean_ctor_get_uint8(x_17, 24);
 x_18 = x_40;
 goto block_39;
 }
@@ -1450,7 +1450,7 @@ goto block_35;
 block_35:
 {
 Obj x_28 = null; 
-lean_ctor_set_uint8_s(x_27, 0, x_26);
+lean_ctor_set_uint8(x_27, 24, x_26);
 x_28 = (lean_st_ref_swap(x_4, x_27));
 lean_dec(x_28);
 if (x_18 == 0)

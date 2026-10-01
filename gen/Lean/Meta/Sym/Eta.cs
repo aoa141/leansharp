@@ -694,9 +694,9 @@ Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; ushort x_9 = 0; byte x_10 = 0; b
 x_6 = lean_ctor_get(x_3, 0);
 x_7 = lean_ctor_get(x_3, 1);
 x_8 = lean_ctor_get(x_3, 2);
-x_9 = lean_ctor_get_uint16_s(x_3, 0);
-x_10 = lean_ctor_get_uint8_s(x_3, 2);
-x_11 = lean_ctor_get_uint8_s(x_3, 3);
+x_9 = lean_ctor_get_uint16(x_3, 24);
+x_10 = lean_ctor_get_uint8(x_3, 26);
+x_11 = lean_ctor_get_uint8(x_3, 27);
 x_144 = lean_ctor_get(x_6, 3);
 x_145 = lean_unsigned_to_nat(0u);
 x_146 = lean_u8(lean_nat_dec_eq(x_144, x_145));
@@ -732,9 +732,9 @@ x_14 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_14, 0, x_6);
 lean_ctor_set(x_14, 1, x_13);
 lean_ctor_set(x_14, 2, x_8);
-lean_ctor_set_uint16_s(x_14, 0, x_9);
-lean_ctor_set_uint8_s(x_14, 2, x_10);
-lean_ctor_set_uint8_s(x_14, 3, x_11);
+lean_ctor_set_uint16(x_14, 24, x_9);
+lean_ctor_set_uint8(x_14, 26, x_10);
+lean_ctor_set_uint8(x_14, 27, x_11);
 x_15 = (lean_st_ref_get(x_2));
 x_16 = l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_Lean_Meta_Sym_Eta_0__Lean_Meta_Sym_etaReduceWithCache_visit_spec__0___redArg(x_15, x_1);
 lean_dec(x_15);
@@ -792,7 +792,7 @@ Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; byte x_28 = 0; Obj x_29 = nul
 x_25 = lean_ctor_get(x_1, 0);
 x_26 = lean_ctor_get(x_1, 1);
 x_27 = lean_ctor_get(x_1, 2);
-x_28 = lean_ctor_get_uint8_s(x_1, 8);
+x_28 = lean_ctor_get_uint8(x_1, 32);
 lean_inc_ref(x_26);
 x_29 = l___private_Lean_Meta_Sym_Eta_0__Lean_Meta_Sym_etaReduceWithCache_visit(x_26, x_2, x_14, x_4);
 if (lean_obj_tag(x_29) == 0)
@@ -879,7 +879,7 @@ Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; byte x_50 = 0; Obj x_51 = nul
 x_47 = lean_ctor_get(x_1, 0);
 x_48 = lean_ctor_get(x_1, 1);
 x_49 = lean_ctor_get(x_1, 2);
-x_50 = lean_ctor_get_uint8_s(x_1, 8);
+x_50 = lean_ctor_get_uint8(x_1, 32);
 x_51 = lean_unsigned_to_nat(0u);
 x_52 = l___private_Lean_Meta_Sym_Eta_0__Lean_Meta_Sym_etaReduce_go(x_1, x_1, x_51);
 x_53 = (ulong)(lean_ptr_addr(x_1));
@@ -997,7 +997,7 @@ x_77 = lean_ctor_get(x_1, 0);
 x_78 = lean_ctor_get(x_1, 1);
 x_79 = lean_ctor_get(x_1, 2);
 x_80 = lean_ctor_get(x_1, 3);
-x_81 = lean_ctor_get_uint8_s(x_1, 8);
+x_81 = lean_ctor_get_uint8(x_1, 40);
 lean_inc_ref(x_78);
 x_82 = l___private_Lean_Meta_Sym_Eta_0__Lean_Meta_Sym_etaReduceWithCache_visit(x_78, x_2, x_14, x_4);
 if (lean_obj_tag(x_82) == 0)

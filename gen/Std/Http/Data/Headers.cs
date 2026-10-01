@@ -1752,7 +1752,7 @@ lean_ctor_set(x_10, 1, x_9);
 x_11 = (byte)0;
 x_12 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_12, 0, x_10);
-lean_ctor_set_uint8_s(x_12, 0, x_11);
+lean_ctor_set_uint8(x_12, 8, x_11);
 return x_12;
 }
 }
@@ -2774,7 +2774,7 @@ lean_ctor_set(x_5, 1, x_4);
 x_6 = (byte)0;
 x_7 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_7, 0, x_5);
-lean_ctor_set_uint8_s(x_7, 0, x_6);
+lean_ctor_set_uint8(x_7, 8, x_6);
 x_8 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_8, 0, x_2);
 lean_ctor_set(x_8, 1, x_7);
@@ -2792,7 +2792,7 @@ lean_ctor_set(x_14, 0, x_9);
 lean_ctor_set(x_14, 1, x_13);
 x_15 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_15, 0, x_14);
-lean_ctor_set_uint8_s(x_15, 0, x_6);
+lean_ctor_set_uint8(x_15, 8, x_6);
 return x_15;
 }
 }
@@ -3614,7 +3614,7 @@ lean_ctor_set(x_19, 1, x_18);
 x_20 = (byte)0;
 x_21 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_21, 0, x_19);
-lean_ctor_set_uint8_s(x_21, 0, x_20);
+lean_ctor_set_uint8(x_21, 8, x_20);
 return x_21;
 }
 }
@@ -3760,7 +3760,7 @@ lean_ctor_set(x_19, 1, x_18);
 x_20 = (byte)0;
 x_21 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_21, 0, x_19);
-lean_ctor_set_uint8_s(x_21, 0, x_20);
+lean_ctor_set_uint8(x_21, 8, x_20);
 return x_21;
 }
 }
@@ -4238,7 +4238,7 @@ byte x_14 = 0; Obj x_15 = null; Obj x_16 = null;
 x_14 = (byte)0;
 x_15 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_15, 0, x_13);
-lean_ctor_set_uint8_s(x_15, 0, x_14);
+lean_ctor_set_uint8(x_15, 8, x_14);
 if (x_5 == 0)
 {
 lean_ctor_set_tag(x_4, 5);
@@ -4308,7 +4308,7 @@ lean_ctor_set(x_30, 0, x_11);
 lean_ctor_set(x_30, 1, x_29);
 x_31 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_31, 0, x_30);
-lean_ctor_set_uint8_s(x_31, 0, x_14);
+lean_ctor_set_uint8(x_31, 8, x_14);
 x_32 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_32, 0, x_23);
 lean_ctor_set(x_32, 1, x_31);
@@ -4343,7 +4343,7 @@ lean_ctor_set(x_45, 0, x_40);
 lean_ctor_set(x_45, 1, x_44);
 x_46 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_46, 0, x_45);
-lean_ctor_set_uint8_s(x_46, 0, x_14);
+lean_ctor_set_uint8(x_46, 8, x_14);
 return x_46;
 }
 }

@@ -83,7 +83,7 @@ if (x_27 == 0)
 Obj x_28 = null; 
 x_28 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_28, 0, x_24);
-lean_ctor_set_uint8_s(x_28, 0, x_10);
+lean_ctor_set_uint8(x_28, 8, x_10);
 x_18 = x_28;
 goto block_21;
 }
@@ -93,7 +93,7 @@ byte x_29 = 0; Obj x_30 = null;
 x_29 = (byte)0;
 x_30 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_30, 0, x_24);
-lean_ctor_set_uint8_s(x_30, 0, x_29);
+lean_ctor_set_uint8(x_30, 8, x_29);
 x_18 = x_30;
 goto block_21;
 }

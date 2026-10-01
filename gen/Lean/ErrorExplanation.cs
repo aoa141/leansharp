@@ -745,7 +745,7 @@ lean_ctor_set(x_88, 1, x_43);
 lean_ctor_set(x_88, 2, x_85);
 x_89 = (byte)lean_unbox(x_64);
 lean_dec(x_64);
-lean_ctor_set_uint8_s(x_88, 0, x_89);
+lean_ctor_set_uint8(x_88, 24, x_89);
 if (x_87 == 0)
 {
 lean_ctor_set(x_86, 0, x_88);
@@ -1591,7 +1591,7 @@ x_2 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_2);
 x_3 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_3);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 24);
 x_5 = lean_ctor_get(x_1, 2);
 lean_inc(x_5);
 lean_dec_ref(x_1);
@@ -1792,7 +1792,7 @@ _start:
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
 x_2 = lean_ctor_get(x_1, 1);
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 24);
 x_5 = l_Lean_ErrorExplanation_summaryWithSeverity___closed__0;
 x_6 = M_Lean_Message.l_Lean_MessageSeverity_toString(x_4);
 x_7 = (lean_string_append(x_5, x_6));

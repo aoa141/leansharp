@@ -126,7 +126,7 @@ return x_32;
 case 1:
 {
 byte x_33 = 0; 
-x_33 = lean_ctor_get_uint8_s(x_2, 0);
+x_33 = lean_ctor_get_uint8(x_2, 16);
 if (x_33 == 0)
 {
 Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; 
@@ -318,7 +318,7 @@ lean_ctor_set(x_49, 1, x_48);
 x_50 = (byte)0;
 x_51 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_51, 0, x_49);
-lean_ctor_set_uint8_s(x_51, 0, x_50);
+lean_ctor_set_uint8(x_51, 8, x_50);
 return x_51;
 }
 block_58:
@@ -470,7 +470,7 @@ lean_ctor_set(x_11, 1, x_10);
 x_12 = (byte)0;
 x_13 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_13, 0, x_11);
-lean_ctor_set_uint8_s(x_13, 0, x_12);
+lean_ctor_set_uint8(x_13, 8, x_12);
 return x_13;
 }
 }

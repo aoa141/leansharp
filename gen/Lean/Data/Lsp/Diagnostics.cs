@@ -5134,7 +5134,7 @@ Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Ob
 x_4 = lean_ctor_get(x_2, 0);
 x_5 = lean_alloc_ctor(1, 0, 1);
 x_6 = (byte)lean_unbox(x_4);
-lean_ctor_set_uint8_s(x_5, 0, x_6);
+lean_ctor_set_uint8(x_5, 0, x_6);
 x_7 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_7, 0, x_1);
 lean_ctor_set(x_7, 1, x_5);

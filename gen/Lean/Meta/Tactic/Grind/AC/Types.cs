@@ -920,7 +920,7 @@ lean_ctor_set(x_10, 13, x_5);
 lean_ctor_set(x_10, 14, x_3);
 lean_ctor_set(x_10, 15, x_2);
 lean_ctor_set(x_10, 16, x_5);
-lean_ctor_set_uint8_s(x_10, 0, x_1);
+lean_ctor_set_uint8(x_10, 136, x_1);
 return x_10;
 }
 }
@@ -1013,7 +1013,7 @@ return x_11;
 case 3:
 {
 byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
-x_12 = lean_ctor_get_uint8_s(x_1, 0);
+x_12 = lean_ctor_get_uint8(x_1, 16);
 x_13 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_13);
 x_14 = lean_ctor_get(x_1, 1);
@@ -1026,7 +1026,7 @@ return x_16;
 case 7:
 {
 byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
-x_17 = lean_ctor_get_uint8_s(x_1, 0);
+x_17 = lean_ctor_get_uint8(x_1, 32);
 x_18 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_18);
 x_19 = lean_ctor_get(x_1, 1);
@@ -1043,7 +1043,7 @@ return x_23;
 default: 
 {
 byte x_24 = 0; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; 
-x_24 = lean_ctor_get_uint8_s(x_1, 0);
+x_24 = lean_ctor_get_uint8(x_1, 24);
 x_25 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_25);
 x_26 = lean_ctor_get(x_1, 1);
@@ -1188,7 +1188,7 @@ return x_7;
 case 4:
 {
 byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
-x_8 = lean_ctor_get_uint8_s(x_1, 0);
+x_8 = lean_ctor_get_uint8(x_1, 16);
 x_9 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_9);
 x_10 = lean_ctor_get(x_1, 1);
@@ -1201,7 +1201,7 @@ return x_12;
 case 5:
 {
 byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
-x_13 = lean_ctor_get_uint8_s(x_1, 0);
+x_13 = lean_ctor_get_uint8(x_1, 24);
 x_14 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_14);
 x_15 = lean_ctor_get(x_1, 1);
@@ -1216,7 +1216,7 @@ return x_18;
 case 6:
 {
 byte x_19 = 0; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; 
-x_19 = lean_ctor_get_uint8_s(x_1, 0);
+x_19 = lean_ctor_get_uint8(x_1, 24);
 x_20 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_20);
 x_21 = lean_ctor_get(x_1, 1);
@@ -1231,7 +1231,7 @@ return x_24;
 case 7:
 {
 byte x_25 = 0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; 
-x_25 = lean_ctor_get_uint8_s(x_1, 0);
+x_25 = lean_ctor_get_uint8(x_1, 24);
 x_26 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_26);
 x_27 = lean_ctor_get(x_1, 1);
@@ -1246,7 +1246,7 @@ return x_30;
 case 8:
 {
 byte x_31 = 0; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; 
-x_31 = lean_ctor_get_uint8_s(x_1, 0);
+x_31 = lean_ctor_get_uint8(x_1, 32);
 x_32 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_32);
 x_33 = lean_ctor_get(x_1, 1);

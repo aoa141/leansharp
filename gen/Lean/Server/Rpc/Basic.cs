@@ -776,7 +776,7 @@ Obj x_3 = null; Obj x_8 = null; Obj x_9 = null; ulong x_10 = 0; byte x_11 = 0; O
 x_8 = lean_ctor_get(x_2, 0);
 x_9 = lean_ctor_get(x_2, 1);
 x_10 = lean_ctor_get_usize(x_2, 2);
-x_11 = lean_ctor_get_uint8_s(x_2, 0);
+x_11 = lean_ctor_get_uint8(x_2, 24);
 x_12 = l_Lean_PersistentHashMap_find_x3f___at___00Lean_Server_rpcReleaseRef_spec__0___redArg(x_8, x_1);
 if (lean_obj_tag(x_12) == 1)
 {
@@ -871,7 +871,7 @@ x_29 = lean_alloc_ctor(0, 2, 9);
 lean_ctor_set(x_29, 0, x_26);
 lean_ctor_set(x_29, 1, x_9);
 lean_ctor_set_usize(x_29, 2, x_10);
-lean_ctor_set_uint8_s(x_29, 0, x_11);
+lean_ctor_set_uint8(x_29, 24, x_11);
 x_27 = x_29;
 goto block_28;
 }
@@ -904,7 +904,7 @@ x_36 = lean_alloc_ctor(0, 2, 9);
 lean_ctor_set(x_36, 0, x_32);
 lean_ctor_set(x_36, 1, x_33);
 lean_ctor_set_usize(x_36, 2, x_10);
-lean_ctor_set_uint8_s(x_36, 0, x_11);
+lean_ctor_set_uint8(x_36, 24, x_11);
 x_34 = x_36;
 goto block_35;
 }
@@ -2004,7 +2004,7 @@ Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; ulo
 x_4 = lean_ctor_get(x_3, 0);
 x_5 = lean_ctor_get(x_3, 1);
 x_6 = lean_ctor_get_usize(x_3, 2);
-x_7 = lean_ctor_get_uint8_s(x_3, 0);
+x_7 = lean_ctor_get_uint8(x_3, 24);
 x_8 = lean_ctor_get(x_2, 0);
 x_9 = lean_ctor_get_usize(x_2, 1);
 x_10 = l_Lean_Server_rpcStoreRef___redArg___closed__0;
@@ -2069,7 +2069,7 @@ Obj x_32 = null;
 x_32 = lean_alloc_ctor(0, 2, 9);
 lean_ctor_set(x_32, 0, x_22);
 lean_ctor_set(x_32, 1, x_25);
-lean_ctor_set_uint8_s(x_32, 0, x_7);
+lean_ctor_set_uint8(x_32, 24, x_7);
 x_28 = x_32;
 goto block_31;
 }
@@ -2182,7 +2182,7 @@ x_54 = lean_alloc_ctor(0, 2, 9);
 lean_ctor_set(x_54, 0, x_50);
 lean_ctor_set(x_54, 1, x_5);
 lean_ctor_set_usize(x_54, 2, x_6);
-lean_ctor_set_uint8_s(x_54, 0, x_7);
+lean_ctor_set_uint8(x_54, 24, x_7);
 x_51 = x_54;
 goto block_53;
 }
@@ -2915,7 +2915,7 @@ goto block_24;
 block_24:
 {
 Obj x_9 = null; byte x_21 = 0; 
-x_21 = lean_ctor_get_uint8_s(x_6, 0);
+x_21 = lean_ctor_get_uint8(x_6, 24);
 if (x_21 == 0)
 {
 Obj x_22 = null; 
@@ -4078,7 +4078,7 @@ public static Obj l_Lean_Server_instRpcEncodableWithRpcRefOfTypeName_rpcDecode__
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
-x_4 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_3, 24);
 x_5 = l_Lean_Server_instRpcEncodableWithRpcRefOfTypeName_rpcDecode___redArg___closed__0;
 if (x_4 == 0)
 {

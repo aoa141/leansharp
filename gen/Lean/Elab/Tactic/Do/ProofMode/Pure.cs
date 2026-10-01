@@ -1461,7 +1461,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -1489,9 +1489,9 @@ x_34 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_34, 0, x_1);
 lean_ctor_set(x_34, 1, x_30);
 lean_ctor_set(x_34, 2, x_33);
-lean_ctor_set_float_s(x_34, 0, x_31);
-lean_ctor_set_float_s(x_34, 8, x_31);
-lean_ctor_set_uint8_s(x_34, 16, x_32);
+lean_ctor_set_float(x_34, 24, x_31);
+lean_ctor_set_float(x_34, 32, x_31);
+lean_ctor_set_uint8(x_34, 40, x_32);
 x_35 = l_Lean_addTrace___at___00Lean_MVarId_applyRflAndAndIntro_spec__1___closed__2;
 x_36 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_36, 0, x_34);
@@ -1513,7 +1513,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_38);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_39 = x_49;
 goto block_48;
 }
@@ -1796,7 +1796,7 @@ block_68:
 Obj x_57 = null; Obj x_58 = null; byte x_59 = 0; 
 x_57 = lean_ctor_get(x_4, 0);
 x_58 = lean_ctor_get(x_57, 2);
-x_59 = lean_ctor_get_uint8_s(x_58, 0);
+x_59 = lean_ctor_get_uint8(x_58, 8);
 if (x_59 == 0)
 {
 x_7 = x_56;
@@ -2374,7 +2374,7 @@ _start:
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
 x_7 = lean_ctor_get(x_4, 0);
 x_8 = lean_ctor_get(x_7, 2);
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 8);
 if (x_9 == 0)
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -3580,17 +3580,17 @@ lean_ctor_set(x_40, 4, x_38);
 lean_ctor_set(x_40, 5, x_38);
 lean_ctor_set(x_40, 6, x_35);
 lean_ctor_set(x_40, 7, x_39);
-lean_ctor_set_uint8_s(x_40, 0, x_37);
-lean_ctor_set_uint8_s(x_40, 1, x_37);
-lean_ctor_set_uint8_s(x_40, 2, x_37);
-lean_ctor_set_uint8_s(x_40, 3, x_37);
-lean_ctor_set_uint8_s(x_40, 4, x_26);
-lean_ctor_set_uint8_s(x_40, 5, x_26);
-lean_ctor_set_uint8_s(x_40, 6, x_26);
-lean_ctor_set_uint8_s(x_40, 7, x_26);
-lean_ctor_set_uint8_s(x_40, 8, x_37);
-lean_ctor_set_uint8_s(x_40, 9, x_26);
-lean_ctor_set_uint8_s(x_40, 10, x_37);
+lean_ctor_set_uint8(x_40, 64, x_37);
+lean_ctor_set_uint8(x_40, 65, x_37);
+lean_ctor_set_uint8(x_40, 66, x_37);
+lean_ctor_set_uint8(x_40, 67, x_37);
+lean_ctor_set_uint8(x_40, 68, x_26);
+lean_ctor_set_uint8(x_40, 69, x_26);
+lean_ctor_set_uint8(x_40, 70, x_26);
+lean_ctor_set_uint8(x_40, 71, x_26);
+lean_ctor_set_uint8(x_40, 72, x_37);
+lean_ctor_set_uint8(x_40, 73, x_26);
+lean_ctor_set_uint8(x_40, 74, x_37);
 x_41 = l_Lean_Elab_Tactic_Do_ProofMode_MGoal_pureTrivial___lam__1___closed__4;
 x_42 = M_Lean_Elab_Tactic_Meta.l_Lean_Elab_runTactic(x_21, x_34, x_40, x_41, x_2, x_3, x_4, x_5);
 if (lean_obj_tag(x_42) == 0)
@@ -5210,7 +5210,7 @@ Obj x_22 = null; Obj x_23 = null; byte x_24 = 0;
 lean_dec_ref(x_21);
 x_22 = lean_ctor_get(x_6, 0);
 x_23 = lean_ctor_get(x_22, 2);
-x_24 = lean_ctor_get_uint8_s(x_23, 0);
+x_24 = lean_ctor_get_uint8(x_23, 8);
 if (x_24 == 0)
 {
 lean_dec_ref(x_3);
@@ -5585,7 +5585,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -5614,9 +5614,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00Lean_MVarId_applyRflAndAndIntro_spec__1___closed__2;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -5638,7 +5638,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }

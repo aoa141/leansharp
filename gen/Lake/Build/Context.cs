@@ -105,7 +105,7 @@ public static byte l_Lake_getNoBuild___redArg___lam__0(Obj x_1) {
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 2);
+x_2 = lean_ctor_get_uint8(x_1, 42);
 return x_2;
 }
 }
@@ -230,7 +230,7 @@ public static byte l_Lake_getIsOldMode___redArg___lam__0(Obj x_1) {
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 40);
 return x_2;
 }
 }
@@ -341,7 +341,7 @@ public static byte l_Lake_getVerbosity___redArg___lam__0(Obj x_1) {
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 4);
+x_2 = lean_ctor_get_uint8(x_1, 44);
 return x_2;
 }
 }
@@ -390,8 +390,8 @@ public static byte l_Lake_BuildConfig_showProgress(Obj x_1) {
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; byte x_5 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 2);
-x_3 = lean_ctor_get_uint8_s(x_1, 4);
+x_2 = lean_ctor_get_uint8(x_1, 42);
+x_3 = lean_ctor_get_uint8(x_1, 44);
 x_4 = M_Lake_Util_Log.l_Lake_Verbosity_ctorIdx(x_3);
 if (x_2 == 0)
 {
@@ -677,7 +677,7 @@ public static byte l_Lake_getTrustHash___redArg___lam__0(Obj x_1) {
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 1);
+x_2 = lean_ctor_get_uint8(x_1, 41);
 return x_2;
 }
 }

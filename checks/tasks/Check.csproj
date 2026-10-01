@@ -5,8 +5,7 @@
     <Optimize>true</Optimize>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../src/LeanSharp.Runtime/Core/**/*.cs" />
-    <Compile Include="../../src/LeanSharp.Runtime/Tasks/**/*.cs" />
+    <Compile Include="../../src/LeanSharp.Runtime/**/*.cs" Exclude="../../src/LeanSharp.Runtime/bin/**;../../src/LeanSharp.Runtime/obj/**" />
     <Compile Include="Program.cs" />
   </ItemGroup>
 </Project>

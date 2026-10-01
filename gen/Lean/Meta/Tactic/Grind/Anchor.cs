@@ -218,7 +218,7 @@ _start:
 {
 Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; byte x_11 = 0; 
 x_3 = lean_ctor_get(x_1, 0);
-x_4 = lean_ctor_get_uint64_s(x_1, 0);
+x_4 = lean_ctor_get_uint64(x_1, 8);
 x_5 = 64UL;
 x_6 = (ulong)(lean_uint64_of_nat(x_3));
 x_7 = 2UL;
@@ -1364,7 +1364,7 @@ return x_6;
 else
 {
 ulong x_7 = 0; 
-x_7 = lean_ctor_get_uint64_s(x_1, 0);
+x_7 = lean_ctor_get_uint64(x_1, 16);
 lean_dec(x_1);
 return x_7;
 }
@@ -1390,7 +1390,7 @@ return x_10;
 else
 {
 ulong x_11 = 0; 
-x_11 = lean_ctor_get_uint64_s(x_9, 0);
+x_11 = lean_ctor_get_uint64(x_9, 16);
 lean_dec(x_9);
 return x_11;
 }
@@ -1625,7 +1625,7 @@ public static ulong l_Lean_Meta_Grind_instHasAnchorExprWithAnchor___lam__0(Obj x
 _start:
 {
 ulong x_2 = 0; 
-x_2 = lean_ctor_get_uint64_s(x_1, 0);
+x_2 = lean_ctor_get_uint64(x_1, 8);
 return x_2;
 }
 }

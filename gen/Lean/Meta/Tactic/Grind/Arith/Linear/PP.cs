@@ -34,9 +34,9 @@ x_6 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_6, 0, x_5);
 lean_ctor_set(x_6, 1, x_4);
 lean_ctor_set(x_6, 2, x_1);
-lean_ctor_set_float_s(x_6, 0, x_3);
-lean_ctor_set_float_s(x_6, 8, x_3);
-lean_ctor_set_uint8_s(x_6, 16, x_2);
+lean_ctor_set_float(x_6, 24, x_3);
+lean_ctor_set_float(x_6, 32, x_3);
+lean_ctor_set_uint8(x_6, 40, x_2);
 return x_6;
 }
 }
@@ -375,9 +375,9 @@ x_18 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_18, 0, x_14);
 lean_ctor_set(x_18, 1, x_15);
 lean_ctor_set(x_18, 2, x_17);
-lean_ctor_set_float_s(x_18, 0, x_16);
-lean_ctor_set_float_s(x_18, 8, x_16);
-lean_ctor_set_uint8_s(x_18, 16, x_6);
+lean_ctor_set_float(x_18, 24, x_16);
+lean_ctor_set_float(x_18, 32, x_16);
+lean_ctor_set_uint8(x_18, 40, x_6);
 x_19 = lean_ctor_get(x_10, 0);
 x_20 = lean_ctor_get(x_10, 1);
 x_49 = (byte)(lean_is_exclusive(x_10) ? 0 : 1);

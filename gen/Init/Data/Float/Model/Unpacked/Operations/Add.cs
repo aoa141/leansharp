@@ -23,7 +23,7 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(2, 0, 1);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
 return x_2;
 }
 }
@@ -42,8 +42,8 @@ return x_3;
 case 0:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
-x_5 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_2, 0);
+x_5 = lean_ctor_get_uint8(x_3, 0);
 lean_dec_ref(x_3);
 x_6 = M_Init_Data_Float_Model_Unpacked_Sign.l_Float_Model_UnpackedFloat_Sign_ctorIdx(x_4);
 x_7 = M_Init_Data_Float_Model_Unpacked_Sign.l_Float_Model_UnpackedFloat_Sign_ctorIdx(x_5);
@@ -79,8 +79,8 @@ case 2:
 if (lean_obj_tag(x_3) == 2)
 {
 byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
-x_10 = lean_ctor_get_uint8_s(x_2, 0);
-x_11 = lean_ctor_get_uint8_s(x_3, 0);
+x_10 = lean_ctor_get_uint8(x_2, 0);
+x_11 = lean_ctor_get_uint8(x_3, 0);
 lean_dec_ref(x_3);
 x_12 = M_Init_Data_Float_Model_Unpacked_Sign.l_Float_Model_UnpackedFloat_Sign_ctorIdx(x_10);
 x_13 = M_Init_Data_Float_Model_Unpacked_Sign.l_Float_Model_UnpackedFloat_Sign_ctorIdx(x_11);
@@ -112,7 +112,7 @@ case 2:
 {
 byte x_16 = 0; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; byte x_20 = 0; byte x_25 = 0; 
 lean_dec_ref(x_3);
-x_16 = lean_ctor_get_uint8_s(x_2, 0);
+x_16 = lean_ctor_get_uint8(x_2, 16);
 x_17 = lean_ctor_get(x_2, 0);
 x_18 = lean_ctor_get(x_2, 1);
 x_25 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
@@ -145,7 +145,7 @@ Obj x_23 = null;
 x_23 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_23, 0, x_17);
 lean_ctor_set(x_23, 1, x_18);
-lean_ctor_set_uint8_s(x_23, 0, x_16);
+lean_ctor_set_uint8(x_23, 16, x_16);
 x_21 = x_23;
 goto block_22;
 }
@@ -158,13 +158,13 @@ return x_21;
 case 3:
 {
 byte x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; byte x_45 = 0; 
-x_26 = lean_ctor_get_uint8_s(x_2, 0);
+x_26 = lean_ctor_get_uint8(x_2, 16);
 x_27 = lean_ctor_get(x_2, 0);
 lean_inc(x_27);
 x_28 = lean_ctor_get(x_2, 1);
 lean_inc(x_28);
 lean_dec_ref(x_2);
-x_29 = lean_ctor_get_uint8_s(x_3, 0);
+x_29 = lean_ctor_get_uint8(x_3, 16);
 x_30 = lean_ctor_get(x_3, 0);
 lean_inc(x_30);
 x_31 = lean_ctor_get(x_3, 1);

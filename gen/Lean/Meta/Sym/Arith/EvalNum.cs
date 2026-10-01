@@ -3591,7 +3591,7 @@ Obj x_35 = null; byte x_36 = 0;
 x_35 = lean_ctor_get(x_34, 0);
 lean_inc(x_35);
 lean_dec_ref(x_34);
-x_36 = lean_ctor_get_uint8_s(x_35, 0);
+x_36 = lean_ctor_get_uint8(x_35, 0);
 lean_dec(x_35);
 if (x_36 == 0)
 {

@@ -1035,6 +1035,7 @@ M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Lemmas_Pred.__RegisterExports();
 M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Lemmas.__RegisterExports();
 M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit.__RegisterExports();
 M_Std_Tactic_BVDecide_Bitblast_BVExpr.__RegisterExports();
+M_Std_Tactic_BVDecide_Bitblast_EfficientEval.__RegisterExports();
 M_Std_Tactic_BVDecide_Bitblast.__RegisterExports();
 M_Std_Tactic_BVDecide_LRAT_Actions.__RegisterExports();
 M_Std_Tactic_BVDecide_LRAT_Internal_Basic.__RegisterExports();
@@ -1907,6 +1908,7 @@ M_Lean_Meta_Tactic_Grind_CheckResult.__RegisterExports();
 M_Lean_Meta_Tactic_Grind_Types.__RegisterExports();
 M_Lean_Meta_Tactic_Grind_MarkAccessible.__RegisterExports();
 M_Lean_Meta_Tactic_Grind_Proj.__RegisterExports();
+M_Lean_Meta_Tactic_Grind_ForallAnd.__RegisterExports();
 M_Lean_Meta_Tactic_Grind_Arith_Util.__RegisterExports();
 M_Lean_Meta_Tactic_Grind_Arith_CommRing_Types.__RegisterExports();
 M_Lean_Meta_Tactic_Grind_Arith_Cutsat_Types.__RegisterExports();
@@ -3592,6 +3594,7 @@ case "Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas.Pred": return &M_Std_Ta
 case "Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas": return &M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Lemmas.initialize;
 case "Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit": return &M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit.initialize;
 case "Std.Tactic.BVDecide.Bitblast.BVExpr": return &M_Std_Tactic_BVDecide_Bitblast_BVExpr.initialize;
+case "Std.Tactic.BVDecide.Bitblast.EfficientEval": return &M_Std_Tactic_BVDecide_Bitblast_EfficientEval.initialize;
 case "Std.Tactic.BVDecide.Bitblast": return &M_Std_Tactic_BVDecide_Bitblast.initialize;
 case "Std.Tactic.BVDecide.LRAT.Actions": return &M_Std_Tactic_BVDecide_LRAT_Actions.initialize;
 case "Std.Tactic.BVDecide.LRAT.Internal.Basic": return &M_Std_Tactic_BVDecide_LRAT_Internal_Basic.initialize;
@@ -4464,6 +4467,7 @@ case "Lean.Meta.Tactic.Grind.CheckResult": return &M_Lean_Meta_Tactic_Grind_Chec
 case "Lean.Meta.Tactic.Grind.Types": return &M_Lean_Meta_Tactic_Grind_Types.initialize;
 case "Lean.Meta.Tactic.Grind.MarkAccessible": return &M_Lean_Meta_Tactic_Grind_MarkAccessible.initialize;
 case "Lean.Meta.Tactic.Grind.Proj": return &M_Lean_Meta_Tactic_Grind_Proj.initialize;
+case "Lean.Meta.Tactic.Grind.ForallAnd": return &M_Lean_Meta_Tactic_Grind_ForallAnd.initialize;
 case "Lean.Meta.Tactic.Grind.Arith.Util": return &M_Lean_Meta_Tactic_Grind_Arith_Util.initialize;
 case "Lean.Meta.Tactic.Grind.Arith.CommRing.Types": return &M_Lean_Meta_Tactic_Grind_Arith_CommRing_Types.initialize;
 case "Lean.Meta.Tactic.Grind.Arith.Cutsat.Types": return &M_Lean_Meta_Tactic_Grind_Arith_Cutsat_Types.initialize;
@@ -6151,6 +6155,7 @@ case "Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas.Pred": return typeof(M_
 case "Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas": return typeof(M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Lemmas);
 case "Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit": return typeof(M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit);
 case "Std.Tactic.BVDecide.Bitblast.BVExpr": return typeof(M_Std_Tactic_BVDecide_Bitblast_BVExpr);
+case "Std.Tactic.BVDecide.Bitblast.EfficientEval": return typeof(M_Std_Tactic_BVDecide_Bitblast_EfficientEval);
 case "Std.Tactic.BVDecide.Bitblast": return typeof(M_Std_Tactic_BVDecide_Bitblast);
 case "Std.Tactic.BVDecide.LRAT.Actions": return typeof(M_Std_Tactic_BVDecide_LRAT_Actions);
 case "Std.Tactic.BVDecide.LRAT.Internal.Basic": return typeof(M_Std_Tactic_BVDecide_LRAT_Internal_Basic);
@@ -7023,6 +7028,7 @@ case "Lean.Meta.Tactic.Grind.CheckResult": return typeof(M_Lean_Meta_Tactic_Grin
 case "Lean.Meta.Tactic.Grind.Types": return typeof(M_Lean_Meta_Tactic_Grind_Types);
 case "Lean.Meta.Tactic.Grind.MarkAccessible": return typeof(M_Lean_Meta_Tactic_Grind_MarkAccessible);
 case "Lean.Meta.Tactic.Grind.Proj": return typeof(M_Lean_Meta_Tactic_Grind_Proj);
+case "Lean.Meta.Tactic.Grind.ForallAnd": return typeof(M_Lean_Meta_Tactic_Grind_ForallAnd);
 case "Lean.Meta.Tactic.Grind.Arith.Util": return typeof(M_Lean_Meta_Tactic_Grind_Arith_Util);
 case "Lean.Meta.Tactic.Grind.Arith.CommRing.Types": return typeof(M_Lean_Meta_Tactic_Grind_Arith_CommRing_Types);
 case "Lean.Meta.Tactic.Grind.Arith.Cutsat.Types": return typeof(M_Lean_Meta_Tactic_Grind_Arith_Cutsat_Types);
@@ -8708,6 +8714,7 @@ public static readonly string[] ModuleNames = {
 "Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit.Lemmas",
 "Std.Tactic.BVDecide.Bitblast.BVExpr.Circuit",
 "Std.Tactic.BVDecide.Bitblast.BVExpr",
+"Std.Tactic.BVDecide.Bitblast.EfficientEval",
 "Std.Tactic.BVDecide.Bitblast",
 "Std.Tactic.BVDecide.LRAT.Actions",
 "Std.Tactic.BVDecide.LRAT.Internal.Basic",
@@ -9580,6 +9587,7 @@ public static readonly string[] ModuleNames = {
 "Lean.Meta.Tactic.Grind.Types",
 "Lean.Meta.Tactic.Grind.MarkAccessible",
 "Lean.Meta.Tactic.Grind.Proj",
+"Lean.Meta.Tactic.Grind.ForallAnd",
 "Lean.Meta.Tactic.Grind.Arith.Util",
 "Lean.Meta.Tactic.Grind.Arith.CommRing.Types",
 "Lean.Meta.Tactic.Grind.Arith.Cutsat.Types",

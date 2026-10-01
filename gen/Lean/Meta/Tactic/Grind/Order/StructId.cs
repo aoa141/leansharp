@@ -66,7 +66,7 @@ goto block_20;
 block_20:
 {
 byte x_14 = 0; 
-x_14 = lean_ctor_get_uint8_s(x_11, 28);
+x_14 = lean_ctor_get_uint8(x_11, 140);
 lean_dec(x_11);
 if (x_14 == 0)
 {

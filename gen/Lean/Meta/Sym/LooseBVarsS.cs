@@ -486,7 +486,7 @@ _start:
 {
 Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; 
 x_11 = (lean_st_ref_get(x_5));
-x_12 = lean_ctor_get_uint8_s(x_11, 0);
+x_12 = lean_ctor_get_uint8(x_11, 88);
 lean_dec(x_11);
 x_13 = (lean_st_ref_get(x_9));
 x_14 = lean_ctor_get(x_13, 0);
@@ -501,8 +501,8 @@ lean_closure_set(x_16, 3, x_15);
 x_17 = (byte)0;
 x_18 = lean_alloc_ctor(0, 1, 2);
 lean_ctor_set(x_18, 0, x_14);
-lean_ctor_set_uint8_s(x_18, 0, x_17);
-lean_ctor_set_uint8_s(x_18, 1, x_17);
+lean_ctor_set_uint8(x_18, 8, x_17);
+lean_ctor_set_uint8(x_18, 9, x_17);
 x_19 = M_Lean_Meta_Sym_SymM.l_Lean_Meta_Sym_runShareCommonM___redArg(x_16, x_18, x_5);
 if (lean_obj_tag(x_19) == 0)
 {
@@ -1360,7 +1360,7 @@ Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; byte x_46 = 0; Obj x_47 = nul
 x_43 = lean_ctor_get(x_3, 0);
 x_44 = lean_ctor_get(x_3, 1);
 x_45 = lean_ctor_get(x_3, 2);
-x_46 = lean_ctor_get_uint8_s(x_3, 8);
+x_46 = lean_ctor_get_uint8(x_3, 32);
 lean_inc(x_4);
 lean_inc_ref(x_44);
 x_47 = l___private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visitChild___at___00__private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visit___at___00Lean_Meta_Sym_liftLooseBVarsS_x27_spec__0_spec__0(x_1, x_2, x_44, x_4, x_5, x_6, x_7, x_8);
@@ -1524,7 +1524,7 @@ Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; byte x_84 = 0; Obj x_85 = nul
 x_81 = lean_ctor_get(x_3, 0);
 x_82 = lean_ctor_get(x_3, 1);
 x_83 = lean_ctor_get(x_3, 2);
-x_84 = lean_ctor_get_uint8_s(x_3, 8);
+x_84 = lean_ctor_get_uint8(x_3, 32);
 lean_inc(x_4);
 lean_inc_ref(x_82);
 x_85 = l___private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visitChild___at___00__private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visit___at___00Lean_Meta_Sym_liftLooseBVarsS_x27_spec__0_spec__0(x_1, x_2, x_82, x_4, x_5, x_6, x_7, x_8);
@@ -1689,7 +1689,7 @@ x_119 = lean_ctor_get(x_3, 0);
 x_120 = lean_ctor_get(x_3, 1);
 x_121 = lean_ctor_get(x_3, 2);
 x_122 = lean_ctor_get(x_3, 3);
-x_123 = lean_ctor_get_uint8_s(x_3, 8);
+x_123 = lean_ctor_get_uint8(x_3, 40);
 lean_inc(x_4);
 lean_inc_ref(x_120);
 x_124 = l___private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visitChild___at___00__private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visit___at___00Lean_Meta_Sym_liftLooseBVarsS_x27_spec__0_spec__0(x_1, x_2, x_120, x_4, x_5, x_6, x_7, x_8);
@@ -2807,7 +2807,7 @@ _start:
 {
 Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; 
 x_11 = (lean_st_ref_get(x_5));
-x_12 = lean_ctor_get_uint8_s(x_11, 0);
+x_12 = lean_ctor_get_uint8(x_11, 88);
 lean_dec(x_11);
 x_13 = (lean_st_ref_get(x_9));
 x_14 = lean_ctor_get(x_13, 0);
@@ -2822,8 +2822,8 @@ lean_closure_set(x_16, 3, x_15);
 x_17 = (byte)0;
 x_18 = lean_alloc_ctor(0, 1, 2);
 lean_ctor_set(x_18, 0, x_14);
-lean_ctor_set_uint8_s(x_18, 0, x_17);
-lean_ctor_set_uint8_s(x_18, 1, x_17);
+lean_ctor_set_uint8(x_18, 8, x_17);
+lean_ctor_set_uint8(x_18, 9, x_17);
 x_19 = M_Lean_Meta_Sym_SymM.l_Lean_Meta_Sym_runShareCommonM___redArg(x_16, x_18, x_5);
 if (lean_obj_tag(x_19) == 0)
 {
@@ -4126,7 +4126,7 @@ Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; byte x_46 = 0; Obj x_47 = nul
 x_43 = lean_ctor_get(x_3, 0);
 x_44 = lean_ctor_get(x_3, 1);
 x_45 = lean_ctor_get(x_3, 2);
-x_46 = lean_ctor_get_uint8_s(x_3, 8);
+x_46 = lean_ctor_get_uint8(x_3, 32);
 lean_inc(x_4);
 lean_inc_ref(x_44);
 x_47 = l___private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visitChild___at___00__private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visit___at___00Lean_Meta_Sym_lowerLooseBVarsS_x27_spec__1_spec__1(x_1, x_2, x_44, x_4, x_5, x_6, x_7, x_8);
@@ -4290,7 +4290,7 @@ Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; byte x_84 = 0; Obj x_85 = nul
 x_81 = lean_ctor_get(x_3, 0);
 x_82 = lean_ctor_get(x_3, 1);
 x_83 = lean_ctor_get(x_3, 2);
-x_84 = lean_ctor_get_uint8_s(x_3, 8);
+x_84 = lean_ctor_get_uint8(x_3, 32);
 lean_inc(x_4);
 lean_inc_ref(x_82);
 x_85 = l___private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visitChild___at___00__private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visit___at___00Lean_Meta_Sym_lowerLooseBVarsS_x27_spec__1_spec__1(x_1, x_2, x_82, x_4, x_5, x_6, x_7, x_8);
@@ -4455,7 +4455,7 @@ x_119 = lean_ctor_get(x_3, 0);
 x_120 = lean_ctor_get(x_3, 1);
 x_121 = lean_ctor_get(x_3, 2);
 x_122 = lean_ctor_get(x_3, 3);
-x_123 = lean_ctor_get_uint8_s(x_3, 8);
+x_123 = lean_ctor_get_uint8(x_3, 40);
 lean_inc(x_4);
 lean_inc_ref(x_120);
 x_124 = l___private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visitChild___at___00__private_Lean_Meta_Sym_ReplaceS_0__Lean_Meta_Sym_visit___at___00Lean_Meta_Sym_lowerLooseBVarsS_x27_spec__1_spec__1(x_1, x_2, x_120, x_4, x_5, x_6, x_7, x_8);

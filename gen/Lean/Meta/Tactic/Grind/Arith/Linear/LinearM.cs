@@ -396,7 +396,7 @@ x_17 = lean_unsigned_to_nat(0u);
 x_18 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_18, 0, x_13);
 lean_ctor_set(x_18, 1, x_17);
-lean_ctor_set_uint8_s(x_18, 0, x_16);
+lean_ctor_set_uint8(x_18, 16, x_16);
 x_19 = M_Lean_Meta_Tactic_Grind_Arith_CommRing_RingM.l_Lean_Meta_Grind_Arith_CommRing_RingM_getCommRing(x_18, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11);
 lean_dec_ref(x_18);
 if (lean_obj_tag(x_19) == 0)
@@ -1027,7 +1027,7 @@ x_19 = lean_unsigned_to_nat(0u);
 x_20 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_20, 0, x_17);
 lean_ctor_set(x_20, 1, x_19);
-lean_ctor_set_uint8_s(x_20, 0, x_18);
+lean_ctor_set_uint8(x_20, 16, x_18);
 lean_inc(x_12);
 lean_inc_ref(x_11);
 lean_inc(x_10);
@@ -1919,11 +1919,11 @@ x_6 = lean_ctor_get(x_2, 3);
 x_7 = lean_ctor_get(x_2, 4);
 x_8 = lean_ctor_get(x_2, 5);
 x_9 = lean_ctor_get(x_2, 6);
-x_10 = lean_ctor_get_uint8_s(x_2, 0);
+x_10 = lean_ctor_get_uint8(x_2, 80);
 x_11 = lean_ctor_get(x_2, 7);
 x_12 = lean_ctor_get(x_2, 8);
 x_13 = lean_ctor_get(x_2, 9);
-x_14 = lean_ctor_get_uint8_s(x_2, 1);
+x_14 = lean_ctor_get_uint8(x_2, 81);
 x_22 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_22 == 0)
 {
@@ -1972,8 +1972,8 @@ lean_ctor_set(x_20, 6, x_9);
 lean_ctor_set(x_20, 7, x_11);
 lean_ctor_set(x_20, 8, x_12);
 lean_ctor_set(x_20, 9, x_13);
-lean_ctor_set_uint8_s(x_20, 0, x_10);
-lean_ctor_set_uint8_s(x_20, 1, x_14);
+lean_ctor_set_uint8(x_20, 80, x_10);
+lean_ctor_set_uint8(x_20, 81, x_14);
 x_18 = x_20;
 goto block_19;
 }

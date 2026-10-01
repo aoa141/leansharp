@@ -38,7 +38,7 @@ lean_inc(x_5);
 x_8 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_8, 0, x_5);
 lean_ctor_set(x_8, 1, x_6);
-lean_ctor_set_uint8_s(x_8, 0, x_7);
+lean_ctor_set_uint8(x_8, 16, x_7);
 x_9 = lean_apply_2(x_1, lean_box(0), x_8);
 return x_9;
 }

@@ -252,9 +252,9 @@ x_1 = lean_unsigned_to_nat(16u);
 x_2 = (byte)1;
 x_3 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 1, x_2);
-lean_ctor_set_uint8_s(x_3, 2, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
+lean_ctor_set_uint8(x_3, 9, x_2);
+lean_ctor_set_uint8(x_3, 10, x_2);
 return x_3;
 }
 }
@@ -670,7 +670,7 @@ _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_19 = 0; 
 x_4 = lean_ctor_get(x_1, 0);
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 8);
 x_19 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_19 == 0)
 {
@@ -690,7 +690,7 @@ block_18:
 {
 Obj x_8 = null; Obj x_9 = null; 
 x_8 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_8, 0, x_3);
+lean_ctor_set_uint8(x_8, 0, x_3);
 lean_inc(x_2);
 x_9 = M_Lean_Data_NameMap_Basic.l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_NameMap_insert_spec__0___redArg(x_2, x_8, x_4);
 if (x_5 == 0)
@@ -715,7 +715,7 @@ goto block_13;
 }
 block_13:
 {
-lean_ctor_set_uint8_s(x_12, 0, x_11);
+lean_ctor_set_uint8(x_12, 8, x_11);
 return x_12;
 }
 }
@@ -734,7 +734,7 @@ else
 Obj x_17 = null; 
 x_17 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_17, 0, x_9);
-lean_ctor_set_uint8_s(x_17, 0, x_5);
+lean_ctor_set_uint8(x_17, 8, x_5);
 x_15 = x_17;
 goto block_16;
 }
@@ -1538,8 +1538,8 @@ Obj x_7 = null; byte x_8 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null;
 x_13 = lean_ctor_get(x_4, 0);
 x_14 = lean_ctor_get(x_4, 1);
 x_15 = lean_ctor_get(x_4, 2);
-x_16 = lean_ctor_get_uint8_s(x_4, 2);
-x_17 = lean_ctor_get_uint8_s(x_4, 3);
+x_16 = lean_ctor_get_uint8(x_4, 26);
+x_17 = lean_ctor_get_uint8(x_4, 27);
 x_18 = lean_ctor_get(x_13, 0);
 x_19 = lean_ctor_get(x_13, 1);
 x_20 = lean_ctor_get(x_13, 2);
@@ -1612,9 +1612,9 @@ x_50 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_50, 0, x_49);
 lean_ctor_set(x_50, 1, x_42);
 lean_ctor_set(x_50, 2, x_43);
-lean_ctor_set_uint16_s(x_50, 0, x_31);
-lean_ctor_set_uint8_s(x_50, 2, x_44);
-lean_ctor_set_uint8_s(x_50, 3, x_45);
+lean_ctor_set_uint16(x_50, 24, x_31);
+lean_ctor_set_uint8(x_50, 26, x_44);
+lean_ctor_set_uint8(x_50, 27, x_45);
 x_51 = M_Lean_Meta_Tactic_Refl.l_Lean_MVarId_refl(x_1, x_29, x_2, x_3, x_50, x_46);
 lean_dec_ref(x_50);
 if (lean_obj_tag(x_51) == 0)

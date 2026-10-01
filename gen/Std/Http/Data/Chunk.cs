@@ -51,7 +51,7 @@ lean_ctor_set(x_7, 1, x_6);
 x_8 = (byte)0;
 x_9 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_9, 0, x_7);
-lean_ctor_set_uint8_s(x_9, 0, x_8);
+lean_ctor_set_uint8(x_9, 8, x_8);
 x_10 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_10, 0, x_3);
 lean_ctor_set(x_10, 1, x_9);
@@ -88,7 +88,7 @@ lean_ctor_set(x_25, 0, x_20);
 lean_ctor_set(x_25, 1, x_24);
 x_26 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_26, 0, x_25);
-lean_ctor_set_uint8_s(x_26, 0, x_8);
+lean_ctor_set_uint8(x_26, 8, x_8);
 return x_26;
 }
 }
@@ -2909,7 +2909,7 @@ lean_ctor_set(x_7, 1, x_6);
 x_8 = (byte)0;
 x_9 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_9, 0, x_7);
-lean_ctor_set_uint8_s(x_9, 0, x_8);
+lean_ctor_set_uint8(x_9, 8, x_8);
 x_10 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_10, 0, x_3);
 lean_ctor_set(x_10, 1, x_9);
@@ -2946,7 +2946,7 @@ lean_ctor_set(x_25, 0, x_20);
 lean_ctor_set(x_25, 1, x_24);
 x_26 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_26, 0, x_25);
-lean_ctor_set_uint8_s(x_26, 0, x_8);
+lean_ctor_set_uint8(x_26, 8, x_8);
 return x_26;
 }
 }

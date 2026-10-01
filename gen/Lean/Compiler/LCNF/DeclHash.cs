@@ -75,7 +75,7 @@ goto block_20;
 else
 {
 ulong x_22 = 0; 
-x_22 = lean_ctor_get_uint64_s(x_3, 0);
+x_22 = lean_ctor_get_uint64(x_3, 16);
 x_12 = x_22;
 goto block_20;
 }
@@ -149,7 +149,7 @@ _start:
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; 
 x_3 = lean_ctor_get(x_2, 0);
 x_4 = lean_ctor_get(x_2, 1);
-x_5 = lean_ctor_get_uint8_s(x_2, 0);
+x_5 = lean_ctor_get_uint8(x_2, 24);
 x_6 = lean_ctor_get(x_2, 2);
 x_7 = 0UL;
 x_8 = l_Lean_Compiler_LCNF_instHashableSignature_hash___redArg(x_3);
@@ -535,8 +535,8 @@ case 11:
 Obj x_87 = null; Obj x_88 = null; byte x_89 = 0; byte x_90 = 0; Obj x_91 = null; ulong x_92 = 0; ulong x_93 = 0; ulong x_94 = 0; ulong x_95 = 0; ulong x_96 = 0; ulong x_102 = 0; 
 x_87 = lean_ctor_get(x_2, 0);
 x_88 = lean_ctor_get(x_2, 1);
-x_89 = lean_ctor_get_uint8_s(x_2, 0);
-x_90 = lean_ctor_get_uint8_s(x_2, 1);
+x_89 = lean_ctor_get_uint8(x_2, 24);
+x_90 = lean_ctor_get_uint8(x_2, 25);
 x_91 = lean_ctor_get(x_2, 2);
 x_92 = M_Lean_Expr.l_Lean_instHashableFVarId_hash(x_87);
 x_93 = (ulong)(lean_uint64_of_nat(x_88));
@@ -589,8 +589,8 @@ case 12:
 Obj x_108 = null; Obj x_109 = null; byte x_110 = 0; byte x_111 = 0; Obj x_112 = null; Obj x_113 = null; ulong x_114 = 0; ulong x_115 = 0; ulong x_116 = 0; ulong x_117 = 0; ulong x_118 = 0; ulong x_124 = 0; ulong x_125 = 0; ulong x_133 = 0; 
 x_108 = lean_ctor_get(x_2, 0);
 x_109 = lean_ctor_get(x_2, 1);
-x_110 = lean_ctor_get_uint8_s(x_2, 0);
-x_111 = lean_ctor_get_uint8_s(x_2, 1);
+x_110 = lean_ctor_get_uint8(x_2, 32);
+x_111 = lean_ctor_get_uint8(x_2, 33);
 x_112 = lean_ctor_get(x_2, 2);
 x_113 = lean_ctor_get(x_2, 3);
 x_114 = M_Lean_Expr.l_Lean_instHashableFVarId_hash(x_108);
@@ -800,7 +800,7 @@ goto block_8;
 else
 {
 ulong x_10 = 0; 
-x_10 = lean_ctor_get_uint64_s(x_3, 0);
+x_10 = lean_ctor_get_uint64(x_3, 16);
 x_5 = x_10;
 goto block_8;
 }
@@ -1014,7 +1014,7 @@ x_2 = lean_ctor_get(x_1, 0);
 x_3 = lean_ctor_get(x_1, 1);
 x_4 = lean_ctor_get(x_1, 2);
 x_5 = lean_ctor_get(x_1, 3);
-x_6 = lean_ctor_get_uint8_s(x_1, 0);
+x_6 = lean_ctor_get_uint8(x_1, 32);
 x_15 = 0UL;
 if (lean_obj_tag(x_2) == 0)
 {
@@ -1026,7 +1026,7 @@ goto block_29;
 else
 {
 ulong x_31 = 0; 
-x_31 = lean_ctor_get_uint64_s(x_2, 0);
+x_31 = lean_ctor_get_uint64(x_2, 16);
 x_16 = x_31;
 goto block_29;
 }

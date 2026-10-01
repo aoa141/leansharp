@@ -61,6 +61,8 @@ public static unsafe partial class LeanRt
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static uint lean_obj_tag(Obj o) => o.m_tag == LeanBoxTag ? (uint)Unsafe.As<Box>(o).m_value : o.m_tag;
 
+    public static Obj lean_obj_tag_nat(Obj o) => lean_box(lean_obj_tag(o));
+
     public static bool lean_is_ctor(Obj o) => o.m_tag <= LeanMaxCtorTag;
     public static bool lean_is_closure(Obj o) => o.m_tag == LeanClosure;
     public static bool lean_is_array(Obj o) => o.m_tag == LeanArray;
@@ -594,17 +596,29 @@ public static unsafe partial class LeanRt
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void lean_ctor_set_float32_s(Obj o, uint r, float v) => lean_ctor_set_uint32_s(o, r, BitConverter.SingleToUInt32Bits(v));
 
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static byte lean_ctor_get_uint8(Obj o, uint offset) => lean_ctor_get_uint8_s(o, ScalarRel(o, offset));
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static ushort lean_ctor_get_uint16(Obj o, uint offset) => lean_ctor_get_uint16_s(o, ScalarRel(o, offset));
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static uint lean_ctor_get_uint32(Obj o, uint offset) => lean_ctor_get_uint32_s(o, ScalarRel(o, offset));
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static ulong lean_ctor_get_uint64(Obj o, uint offset) => lean_ctor_get_uint64_s(o, ScalarRel(o, offset));
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static double lean_ctor_get_float(Obj o, uint offset) => lean_ctor_get_float_s(o, ScalarRel(o, offset));
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static float lean_ctor_get_float32(Obj o, uint offset) => lean_ctor_get_float32_s(o, ScalarRel(o, offset));
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void lean_ctor_set_uint8(Obj o, uint offset, byte v) => lean_ctor_set_uint8_s(o, ScalarRel(o, offset), v);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void lean_ctor_set_uint16(Obj o, uint offset, ushort v) => lean_ctor_set_uint16_s(o, ScalarRel(o, offset), v);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void lean_ctor_set_uint32(Obj o, uint offset, uint v) => lean_ctor_set_uint32_s(o, ScalarRel(o, offset), v);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void lean_ctor_set_uint64(Obj o, uint offset, ulong v) => lean_ctor_set_uint64_s(o, ScalarRel(o, offset), v);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void lean_ctor_set_float(Obj o, uint offset, double v) => lean_ctor_set_float_s(o, ScalarRel(o, offset), v);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static void lean_ctor_set_float32(Obj o, uint offset, float v) => lean_ctor_set_float32_s(o, ScalarRel(o, offset), v);
 
     /// <summary>`i` is a slot index (&gt;= number of object fields), as in C.</summary>
@@ -665,7 +679,12 @@ public static unsafe partial class LeanRt
     // ------------------------------------------------------------------
     // Refs
 
-    public static Obj lean_st_mk_ref(Obj a) => new RefObj { m_tag = LeanRef, m_value = a };
+    public static Obj lean_st_mk_ref(Obj a)
+    {
+        var r = new RefObj { m_tag = LeanRef, m_value = a };
+        if (LeanGlobalRefs.Recording) LeanGlobalRefs.Register(r);
+        return r;
+    }
 
     // ------------------------------------------------------------------
     // IO results

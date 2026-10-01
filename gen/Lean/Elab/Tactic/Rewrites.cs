@@ -2253,7 +2253,7 @@ Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; Obj x_19 = nul
 x_15 = lean_ctor_get(x_3, 0);
 x_16 = lean_ctor_get(x_3, 1);
 x_17 = lean_ctor_get(x_15, 0);
-x_18 = lean_ctor_get_uint8_s(x_15, 0);
+x_18 = lean_ctor_get_uint8(x_15, 32);
 x_19 = lean_ctor_get(x_15, 2);
 x_20 = lean_ctor_get(x_15, 3);
 x_21 = lean_box(0);

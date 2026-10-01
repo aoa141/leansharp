@@ -37,8 +37,8 @@ x_13 = (byte)0;
 x_14 = lean_alloc_ctor(0, 0, 2);
 x_15 = (byte)lean_unbox(x_10);
 lean_dec(x_10);
-lean_ctor_set_uint8_s(x_14, 0, x_15);
-lean_ctor_set_uint8_s(x_14, 1, x_13);
+lean_ctor_set_uint8(x_14, 0, x_15);
+lean_ctor_set_uint8(x_14, 1, x_13);
 if (x_12 == 0)
 {
 lean_ctor_set(x_11, 0, x_14);
@@ -293,7 +293,7 @@ _start:
 if (lean_obj_tag(x_1) == 0)
 {
 byte x_2 = 0; Obj x_3 = null; byte x_4 = 0; byte x_10 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 1);
+x_2 = lean_ctor_get_uint8(x_1, 1);
 x_10 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_10 == 0)
 {
@@ -321,13 +321,13 @@ else
 {
 Obj x_8 = null; 
 x_8 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_8, 1, x_2);
+lean_ctor_set_uint8(x_8, 1, x_2);
 x_6 = x_8;
 goto block_7;
 }
 block_7:
 {
-lean_ctor_set_uint8_s(x_6, 0, x_5);
+lean_ctor_set_uint8(x_6, 0, x_5);
 return x_6;
 }
 }
@@ -529,8 +529,8 @@ byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null;
 x_3 = l_Lean_Meta_Tactic_Cbv_isVal(x_1);
 x_4 = (byte)0;
 x_5 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_5, 0, x_3);
-lean_ctor_set_uint8_s(x_5, 1, x_4);
+lean_ctor_set_uint8(x_5, 0, x_3);
+lean_ctor_set_uint8(x_5, 1, x_4);
 x_6 = lean_alloc_ctor(0, 1, 0);
 lean_ctor_set(x_6, 0, x_5);
 return x_6;
@@ -1993,9 +1993,9 @@ lean_dec_ref(x_3);
 lean_dec_ref(x_2);
 x_16 = lean_alloc_ctor(0, 0, 2);
 x_17 = (byte)lean_unbox(x_14);
-lean_ctor_set_uint8_s(x_16, 0, x_17);
+lean_ctor_set_uint8(x_16, 0, x_17);
 x_18 = (byte)lean_unbox(x_14);
-lean_ctor_set_uint8_s(x_16, 1, x_18);
+lean_ctor_set_uint8(x_16, 1, x_18);
 x_19 = lean_alloc_ctor(0, 1, 0);
 lean_ctor_set(x_19, 0, x_16);
 return x_19;

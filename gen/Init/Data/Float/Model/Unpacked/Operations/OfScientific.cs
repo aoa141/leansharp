@@ -35,7 +35,7 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(0, 0, 1);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
 return x_2;
 }
 }
@@ -76,7 +76,7 @@ x_17 = (byte)1;
 x_18 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_18, 0, x_2);
 lean_ctor_set(x_18, 1, x_15);
-lean_ctor_set_uint8_s(x_18, 0, x_17);
+lean_ctor_set_uint8(x_18, 16, x_17);
 x_19 = lean_unsigned_to_nat(10u);
 x_20 = (lean_int_neg(x_3));
 x_21 = M_Init_Data_Int_Basic.l_Int_toNat(x_20);
@@ -86,7 +86,7 @@ lean_dec(x_21);
 x_23 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_23, 0, x_22);
 lean_ctor_set(x_23, 1, x_15);
-lean_ctor_set_uint8_s(x_23, 0, x_17);
+lean_ctor_set_uint8(x_23, 16, x_17);
 x_24 = M_Init_Data_Float_Model_Unpacked_Operations_Div.l_Float_Model_UnpackedFloat_div(x_1, x_18, x_23);
 return x_24;
 }
@@ -103,7 +103,7 @@ lean_dec(x_28);
 x_30 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_30, 0, x_27);
 lean_ctor_set(x_30, 1, x_29);
-lean_ctor_set_uint8_s(x_30, 0, x_25);
+lean_ctor_set_uint8(x_30, 16, x_25);
 x_31 = lean_unsigned_to_nat(10u);
 x_32 = M_Init_Data_Int_Basic.l_Int_toNat(x_3);
 x_33 = (lean_nat_pow(x_31, x_32));
@@ -111,7 +111,7 @@ lean_dec(x_32);
 x_34 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_34, 0, x_33);
 lean_ctor_set(x_34, 1, x_15);
-lean_ctor_set_uint8_s(x_34, 0, x_25);
+lean_ctor_set_uint8(x_34, 16, x_25);
 x_35 = M_Init_Data_Float_Model_Unpacked_Operations_Mul.l_Float_Model_UnpackedFloat_mul(x_1, x_30, x_34);
 return x_35;
 }
@@ -169,7 +169,7 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(2, 0, 1);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
 return x_2;
 }
 }

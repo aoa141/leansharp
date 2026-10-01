@@ -1910,7 +1910,7 @@ _start:
 {
 Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; byte x_12 = 0; 
 x_9 = lean_ctor_get(x_2, 1);
-x_10 = lean_ctor_get_uint8_s(x_2, 0);
+x_10 = lean_ctor_get_uint8(x_2, 16);
 x_11 = lean_unsigned_to_nat(0u);
 x_12 = lean_u8(lean_nat_dec_eq(x_9, x_11));
 if (x_12 == 0)

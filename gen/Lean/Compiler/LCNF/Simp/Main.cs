@@ -233,7 +233,7 @@ x_22 = lean_ctor_get(x_19, 0);
 x_23 = lean_ctor_get(x_19, 1);
 x_24 = lean_ctor_get(x_19, 2);
 x_25 = lean_ctor_get(x_19, 3);
-x_26 = lean_ctor_get_uint8_s(x_19, 2);
+x_26 = lean_ctor_get_uint8(x_19, 34);
 x_27 = (lean_array_get_size(x_25));
 x_28 = M_Lean_Compiler_LCNF_Simp_InlineCandidate.l_Lean_Compiler_LCNF_Simp_InlineCandidateInfo_arity(x_19);
 x_29 = lean_u8(lean_nat_dec_lt(x_27, x_28));
@@ -2027,7 +2027,7 @@ _start:
 {
 Obj x_13 = null; byte x_14 = 0; 
 x_13 = lean_ctor_get(x_2, 1);
-x_14 = lean_ctor_get_uint8_s(x_13, 0);
+x_14 = lean_ctor_get_uint8(x_13, 0);
 if (x_14 == 0)
 {
 Obj x_15 = null; Obj x_16 = null; 
@@ -3206,7 +3206,7 @@ goto block_8;
 else
 {
 ulong x_10 = 0; 
-x_10 = lean_ctor_get_uint64_s(x_2, 0);
+x_10 = lean_ctor_get_uint64(x_2, 16);
 x_4 = x_10;
 goto block_8;
 }
@@ -4903,7 +4903,7 @@ x_23 = lean_ctor_get(x_22, 0);
 x_24 = lean_ctor_get(x_22, 1);
 x_25 = lean_ctor_get(x_22, 2);
 x_26 = lean_ctor_get(x_22, 3);
-x_27 = lean_ctor_get_uint8_s(x_22, 0);
+x_27 = lean_ctor_get_uint8(x_22, 56);
 x_28 = lean_ctor_get(x_22, 4);
 x_29 = lean_ctor_get(x_22, 5);
 x_30 = lean_ctor_get(x_22, 6);
@@ -4950,7 +4950,7 @@ lean_ctor_set(x_40, 3, x_26);
 lean_ctor_set(x_40, 4, x_28);
 lean_ctor_set(x_40, 5, x_29);
 lean_ctor_set(x_40, 6, x_30);
-lean_ctor_set_uint8_s(x_40, 0, x_27);
+lean_ctor_set_uint8(x_40, 56, x_27);
 x_34 = x_40;
 goto block_39;
 }
@@ -5787,9 +5787,9 @@ Obj x_10 = null; Obj x_11 = null; Obj x_74 = null; byte x_75 = 0; Obj x_76 = nul
 x_924 = lean_ctor_get(x_7, 0);
 x_925 = lean_ctor_get(x_7, 1);
 x_926 = lean_ctor_get(x_7, 2);
-x_927 = lean_ctor_get_uint16_s(x_7, 0);
-x_928 = lean_ctor_get_uint8_s(x_7, 2);
-x_929 = lean_ctor_get_uint8_s(x_7, 3);
+x_927 = lean_ctor_get_uint16(x_7, 24);
+x_928 = lean_ctor_get_uint8(x_7, 26);
+x_929 = lean_ctor_get_uint8(x_7, 27);
 x_959 = lean_ctor_get(x_924, 3);
 x_960 = lean_unsigned_to_nat(0u);
 x_961 = lean_u8(lean_nat_dec_eq(x_959, x_960));
@@ -7909,7 +7909,7 @@ x_443 = lean_ctor_get(x_442, 0);
 x_444 = lean_ctor_get(x_442, 1);
 x_445 = lean_ctor_get(x_442, 2);
 x_446 = lean_ctor_get(x_442, 3);
-x_447 = lean_ctor_get_uint8_s(x_442, 0);
+x_447 = lean_ctor_get_uint8(x_442, 56);
 x_448 = lean_ctor_get(x_442, 4);
 x_449 = lean_ctor_get(x_442, 5);
 x_450 = lean_ctor_get(x_442, 6);
@@ -7955,7 +7955,7 @@ lean_ctor_set(x_467, 3, x_446);
 lean_ctor_set(x_467, 4, x_448);
 lean_ctor_set(x_467, 5, x_449);
 lean_ctor_set(x_467, 6, x_450);
-lean_ctor_set_uint8_s(x_467, 0, x_447);
+lean_ctor_set_uint8(x_467, 56, x_447);
 x_454 = x_467;
 goto block_466;
 }
@@ -10198,9 +10198,9 @@ x_932 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_932, 0, x_924);
 lean_ctor_set(x_932, 1, x_931);
 lean_ctor_set(x_932, 2, x_926);
-lean_ctor_set_uint16_s(x_932, 0, x_927);
-lean_ctor_set_uint8_s(x_932, 2, x_928);
-lean_ctor_set_uint8_s(x_932, 3, x_929);
+lean_ctor_set_uint16(x_932, 24, x_927);
+lean_ctor_set_uint8(x_932, 26, x_928);
+lean_ctor_set_uint8(x_932, 27, x_929);
 x_933 = M_Lean_Compiler_LCNF_Simp_SimpM.l_Lean_Compiler_LCNF_Simp_incVisited___redArg(x_3);
 if (lean_obj_tag(x_933) == 0)
 {
@@ -12064,7 +12064,7 @@ goto block_21;
 else
 {
 ulong x_23 = 0; 
-x_23 = lean_ctor_get_uint64_s(x_8, 0);
+x_23 = lean_ctor_get_uint64(x_8, 16);
 x_10 = x_23;
 goto block_21;
 }

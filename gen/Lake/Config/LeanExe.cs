@@ -767,10 +767,10 @@ lean_ctor_set(x_12, 5, x_5);
 lean_ctor_set(x_12, 6, x_6);
 lean_ctor_set(x_12, 7, x_11);
 lean_ctor_set(x_12, 8, x_7);
-lean_ctor_set_uint8_s(x_12, 0, x_10);
-lean_ctor_set_uint8_s(x_12, 1, x_10);
-lean_ctor_set_uint8_s(x_12, 2, x_10);
-lean_ctor_set_uint8_s(x_12, 3, x_10);
+lean_ctor_set_uint8(x_12, 72, x_10);
+lean_ctor_set_uint8(x_12, 73, x_10);
+lean_ctor_set_uint8(x_12, 74, x_10);
+lean_ctor_set_uint8(x_12, 75, x_10);
 return x_12;
 }
 }
@@ -1229,7 +1229,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 2);
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 56);
 return x_3;
 }
 }
@@ -1356,7 +1356,7 @@ if (x_2 == 0)
 {
 Obj x_3 = null; byte x_4 = 0; 
 x_3 = lean_ctor_get(x_1, 2);
-x_4 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_3, 56);
 if (x_4 == 0)
 {
 Obj x_5 = null; 
@@ -1383,7 +1383,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; 
 x_2 = lean_ctor_get(x_1, 2);
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 56);
 x_4 = M_Init_System_Platform.l_System_Platform_isWindows;
 x_5 = lean_u8(lean_strict_and(x_4, x_3));
 return x_5;

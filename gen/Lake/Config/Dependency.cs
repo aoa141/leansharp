@@ -835,7 +835,7 @@ if (lean_obj_tag(x_1) == 0)
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
 x_3 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_3);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 8);
 lean_dec_ref(x_1);
 x_5 = lean_box(x_4);
 x_6 = lean_apply_2(x_2, x_3, x_5);
@@ -1066,7 +1066,7 @@ lean_ctor_set(x_22, 1, x_21);
 x_23 = (byte)0;
 x_24 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_24, 0, x_22);
-lean_ctor_set_uint8_s(x_24, 0, x_23);
+lean_ctor_set_uint8(x_24, 8, x_23);
 x_25 = M_Init_Data_Repr.l_Repr_addAppParen(x_24, x_2);
 return x_25;
 }
@@ -1110,7 +1110,7 @@ lean_ctor_set(x_40, 1, x_39);
 x_41 = (byte)0;
 x_42 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_42, 0, x_40);
-lean_ctor_set_uint8_s(x_42, 0, x_41);
+lean_ctor_set_uint8(x_42, 8, x_41);
 x_43 = M_Init_Data_Repr.l_Repr_addAppParen(x_42, x_2);
 return x_43;
 }
@@ -1127,7 +1127,7 @@ lean_ctor_set(x_5, 1, x_4);
 x_6 = (byte)0;
 x_7 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_7, 0, x_5);
-lean_ctor_set_uint8_s(x_7, 0, x_6);
+lean_ctor_set_uint8(x_7, 8, x_6);
 x_8 = M_Init_Data_Repr.l_Repr_addAppParen(x_7, x_2);
 return x_8;
 }
@@ -1358,7 +1358,7 @@ x_1 = (byte)0;
 x_2 = l_Lake_instInhabitedDependencySrc_default___closed__0;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -1474,7 +1474,7 @@ if (lean_obj_tag(x_1) == 0)
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; byte x_32 = 0; 
 x_3 = lean_ctor_get(x_1, 0);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 8);
 x_32 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_32 == 0)
 {
@@ -1556,7 +1556,7 @@ goto block_24;
 block_24:
 {
 Obj x_23 = null; 
-lean_ctor_set_uint8_s(x_22, 0, x_21);
+lean_ctor_set_uint8(x_22, 8, x_21);
 x_23 = M_Init_Data_Repr.l_Repr_addAppParen(x_22, x_2);
 return x_23;
 }
@@ -1622,7 +1622,7 @@ lean_ctor_set(x_49, 1, x_48);
 x_50 = (byte)0;
 x_51 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_51, 0, x_49);
-lean_ctor_set_uint8_s(x_51, 0, x_50);
+lean_ctor_set_uint8(x_51, 8, x_50);
 x_52 = M_Init_Data_Repr.l_Repr_addAppParen(x_51, x_2);
 return x_52;
 }

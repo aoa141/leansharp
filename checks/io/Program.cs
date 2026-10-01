@@ -457,7 +457,7 @@ static unsafe class Program
         Eq(lean_unbox(lean_closure_max_args(lean_box(0))), 16UL, "closureMaxArgs");
         Eq(lean_unbox(lean_get_usize_size(lean_box(0))), 8UL, "usize size");
         Eq(lean_unbox(lean_get_max_ctor_tag(lean_box(0))), 243UL, "max ctor tag");
-        Eq(N(lean_get_githash(lean_box(0))), "67a8629274847c29155324086f6c0f49ba20ec8d", "githash");
+        Eq(N(lean_get_githash(lean_box(0))), "77f336f7ae6a60419d3882e0d5ca7ac3a2155528", "githash");
         Eq(lean_unbox(lean_version_get_minor(lean_box(0))), 36UL, "version minor");
         Eq(lean_system_platform_osx(lean_box(0)), Mac ? (byte)1 : (byte)0, "platform osx");
         Console.WriteLine("platform target: " + N(lean_system_platform_target(lean_box(0))));

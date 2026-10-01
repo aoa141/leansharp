@@ -3869,7 +3869,7 @@ _start:
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
 x_2 = l_Lean_Lsp_instToJsonSaveOptions_toJson___closed__0;
 x_3 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 0, x_1);
 x_4 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_4, 0, x_2);
 lean_ctor_set(x_4, 1, x_3);
@@ -4428,16 +4428,16 @@ x_109 = lean_alloc_ctor(0, 1, 4);
 lean_ctor_set(x_109, 0, x_106);
 x_110 = (byte)lean_unbox(x_22);
 lean_dec(x_22);
-lean_ctor_set_uint8_s(x_109, 0, x_110);
+lean_ctor_set_uint8(x_109, 8, x_110);
 x_111 = (byte)lean_unbox(x_43);
 lean_dec(x_43);
-lean_ctor_set_uint8_s(x_109, 1, x_111);
+lean_ctor_set_uint8(x_109, 9, x_111);
 x_112 = (byte)lean_unbox(x_64);
 lean_dec(x_64);
-lean_ctor_set_uint8_s(x_109, 2, x_112);
+lean_ctor_set_uint8(x_109, 10, x_112);
 x_113 = (byte)lean_unbox(x_85);
 lean_dec(x_85);
-lean_ctor_set_uint8_s(x_109, 3, x_113);
+lean_ctor_set_uint8(x_109, 11, x_113);
 if (x_108 == 0)
 {
 lean_ctor_set(x_107, 0, x_109);
@@ -4473,14 +4473,14 @@ public static Obj l_Lean_Lsp_instToJsonTextDocumentSyncOptions_toJson(Obj x_1) {
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
-x_3 = lean_ctor_get_uint8_s(x_1, 1);
-x_4 = lean_ctor_get_uint8_s(x_1, 2);
-x_5 = lean_ctor_get_uint8_s(x_1, 3);
+x_2 = lean_ctor_get_uint8(x_1, 8);
+x_3 = lean_ctor_get_uint8(x_1, 9);
+x_4 = lean_ctor_get_uint8(x_1, 10);
+x_5 = lean_ctor_get_uint8(x_1, 11);
 x_6 = lean_ctor_get(x_1, 0);
 x_7 = l_Lean_Lsp_instToJsonTextDocumentSyncOptions_toJson___closed__0;
 x_8 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_8, 0, x_2);
+lean_ctor_set_uint8(x_8, 0, x_2);
 x_9 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_9, 0, x_7);
 lean_ctor_set(x_9, 1, x_8);
@@ -4524,7 +4524,7 @@ lean_ctor_set(x_15, 0, x_14);
 lean_ctor_set(x_15, 1, x_10);
 x_16 = l_Lean_Lsp_instToJsonTextDocumentSyncOptions_toJson___closed__2;
 x_17 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_17, 0, x_4);
+lean_ctor_set_uint8(x_17, 0, x_4);
 x_18 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_18, 0, x_16);
 lean_ctor_set(x_18, 1, x_17);
@@ -4533,7 +4533,7 @@ lean_ctor_set(x_19, 0, x_18);
 lean_ctor_set(x_19, 1, x_10);
 x_20 = l_Lean_Lsp_instToJsonTextDocumentSyncOptions_toJson___closed__3;
 x_21 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_21, 0, x_5);
+lean_ctor_set_uint8(x_21, 0, x_5);
 x_22 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_22, 0, x_20);
 lean_ctor_set(x_22, 1, x_21);
@@ -5035,7 +5035,7 @@ x_46 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_46, 0, x_22);
 x_47 = (byte)lean_unbox(x_43);
 lean_dec(x_43);
-lean_ctor_set_uint8_s(x_46, 0, x_47);
+lean_ctor_set_uint8(x_46, 8, x_47);
 if (x_45 == 0)
 {
 lean_ctor_set(x_44, 0, x_46);

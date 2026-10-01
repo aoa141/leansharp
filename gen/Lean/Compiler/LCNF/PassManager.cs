@@ -79,7 +79,7 @@ x_1 = l_Lean_Compiler_LCNF_instInhabitedPassInstaller_default___closed__0;
 x_2 = (byte)0;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -503,9 +503,9 @@ x_6 = lean_alloc_ctor(0, 3, 3);
 lean_ctor_set(x_6, 0, x_5);
 lean_ctor_set(x_6, 1, x_2);
 lean_ctor_set(x_6, 2, x_1);
-lean_ctor_set_uint8_s(x_6, 0, x_4);
-lean_ctor_set_uint8_s(x_6, 1, x_4);
-lean_ctor_set_uint8_s(x_6, 2, x_3);
+lean_ctor_set_uint8(x_6, 24, x_4);
+lean_ctor_set_uint8(x_6, 25, x_4);
+lean_ctor_set_uint8(x_6, 26, x_3);
 return x_6;
 }
 }
@@ -594,7 +594,7 @@ lean_closure_set(x_5, 1, x_3);
 lean_closure_set(x_5, 2, x_4);
 x_6 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_6, 0, x_5);
-lean_ctor_set_uint8_s(x_6, 0, x_1);
+lean_ctor_set_uint8(x_6, 8, x_1);
 return x_6;
 }
 }
@@ -993,7 +993,7 @@ x_3 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj, Obj, Obj>)&l_Lean_Compil
 lean_closure_set(x_3, 0, x_2);
 x_4 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_4, 0, x_3);
-lean_ctor_set_uint8_s(x_4, 0, x_1);
+lean_ctor_set_uint8(x_4, 8, x_1);
 return x_4;
 }
 }
@@ -1140,7 +1140,7 @@ x_3 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj, Obj, Obj>)&l_Lean_Compil
 lean_closure_set(x_3, 0, x_2);
 x_4 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_4, 0, x_3);
-lean_ctor_set_uint8_s(x_4, 0, x_1);
+lean_ctor_set_uint8(x_4, 8, x_1);
 return x_4;
 }
 }
@@ -1257,7 +1257,7 @@ public static Obj l_Lean_Compiler_LCNF_PassInstaller_run(Obj x_1, Obj x_2, Obj x
 _start:
 {
 byte x_6 = 0; 
-x_6 = lean_ctor_get_uint8_s(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 8);
 switch (x_6) {
 case 0:
 {
@@ -1740,7 +1740,7 @@ Obj x_34 = null; byte x_35 = 0; Obj x_36 = null; Obj x_37 = null; Obj x_38 = nul
 lean_inc_ref(x_2);
 lean_inc(x_4);
 x_34 = lean_apply_1(x_2, x_4);
-x_35 = lean_ctor_get_uint8_s(x_34, 0);
+x_35 = lean_ctor_get_uint8(x_34, 8);
 x_36 = lean_ctor_get(x_34, 0);
 lean_inc_ref(x_36);
 lean_dec_ref(x_34);
@@ -2224,7 +2224,7 @@ lean_closure_set(x_6, 2, x_2);
 lean_closure_set(x_6, 3, x_4);
 x_7 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_7, 0, x_6);
-lean_ctor_set_uint8_s(x_7, 0, x_1);
+lean_ctor_set_uint8(x_7, 8, x_1);
 return x_7;
 }
 }
@@ -3316,7 +3316,7 @@ else
 {
 Obj x_16 = null; byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; 
 x_16 = (lean_array_uget_borrowed(x_2, x_4));
-x_17 = lean_ctor_get_uint8_s(x_16, 0);
+x_17 = lean_ctor_get_uint8(x_16, 24);
 x_18 = lean_ctor_get(x_16, 1);
 x_19 = lean_box(0);
 x_27 = M_Lean_Compiler_LCNF_CompilerM.l_Lean_Compiler_LCNF_Phase_ctorIdx(x_17);
@@ -3702,7 +3702,7 @@ lean_closure_set(x_5, 1, x_4);
 lean_closure_set(x_5, 2, x_3);
 x_6 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_6, 0, x_5);
-lean_ctor_set_uint8_s(x_6, 0, x_1);
+lean_ctor_set_uint8(x_6, 8, x_1);
 return x_6;
 }
 }
@@ -3884,7 +3884,7 @@ lean_closure_set(x_6, 2, x_2);
 lean_closure_set(x_6, 3, x_4);
 x_7 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_7, 0, x_6);
-lean_ctor_set_uint8_s(x_7, 0, x_1);
+lean_ctor_set_uint8(x_7, 8, x_1);
 return x_7;
 }
 }
@@ -3917,9 +3917,9 @@ x_7 = lean_alloc_ctor(0, 3, 3);
 lean_ctor_set(x_7, 0, x_4);
 lean_ctor_set(x_7, 1, x_1);
 lean_ctor_set(x_7, 2, x_5);
-lean_ctor_set_uint8_s(x_7, 0, x_2);
-lean_ctor_set_uint8_s(x_7, 1, x_2);
-lean_ctor_set_uint8_s(x_7, 2, x_6);
+lean_ctor_set_uint8(x_7, 24, x_2);
+lean_ctor_set_uint8(x_7, 25, x_2);
+lean_ctor_set_uint8(x_7, 26, x_6);
 return x_7;
 }
 }

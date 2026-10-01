@@ -489,7 +489,7 @@ x_24 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_24, 0, x_14);
 lean_ctor_set(x_24, 1, x_15);
 lean_ctor_set(x_24, 2, x_18);
-lean_ctor_set_uint8_s(x_24, 0, x_5);
+lean_ctor_set_uint8(x_24, 24, x_5);
 x_25 = lean_box(0);
 x_26 = l_Lean_Meta_Tactic_BVDecide_ReifiedBVPred_mkBinPred___redArg___closed__2;
 x_27 = M_Lean_Expr.l_Lean_mkNatLit(x_14);

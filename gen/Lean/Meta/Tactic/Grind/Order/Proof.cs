@@ -303,11 +303,11 @@ _start:
 {
 Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_25 = null; byte x_26 = 0; Obj x_27 = null; Obj x_28 = null; Obj x_41 = null; 
 x_25 = lean_ctor_get(x_5, 0);
-x_26 = lean_ctor_get_uint8_s(x_5, 0);
+x_26 = lean_ctor_get_uint8(x_5, 8);
 if (x_26 == 0)
 {
 byte x_57 = 0; 
-x_57 = lean_ctor_get_uint8_s(x_3, 0);
+x_57 = lean_ctor_get_uint8(x_3, 8);
 if (x_57 == 0)
 {
 Obj x_58 = null; 
@@ -326,7 +326,7 @@ goto block_56;
 else
 {
 byte x_60 = 0; 
-x_60 = lean_ctor_get_uint8_s(x_3, 0);
+x_60 = lean_ctor_get_uint8(x_3, 8);
 if (x_60 == 0)
 {
 Obj x_61 = null; 
@@ -692,8 +692,8 @@ public static Obj l___private_Lean_Meta_Tactic_Grind_Order_Proof_0__Lean_Meta_Gr
 _start:
 {
 byte x_19 = 0; byte x_20 = 0; Obj x_21 = null; 
-x_19 = lean_ctor_get_uint8_s(x_3, 0);
-x_20 = lean_ctor_get_uint8_s(x_5, 0);
+x_19 = lean_ctor_get_uint8(x_3, 8);
+x_20 = lean_ctor_get_uint8(x_5, 8);
 lean_inc_ref_n(x_1, 2);
 x_21 = l___private_Lean_Meta_Tactic_Grind_Order_Proof_0__Lean_Meta_Grind_Order_mkTransCoreProof(x_1, x_2, x_1, x_19, x_20, x_4, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17);
 if (lean_obj_tag(x_21) == 0)
@@ -1251,14 +1251,14 @@ block_76:
 Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; Obj x_30 = null; byte x_31 = 0; Obj x_32 = null; Obj x_33 = null; byte x_34 = 0; Obj x_35 = null; Obj x_36 = null; 
 x_30 = lean_ctor_get(x_2, 1);
 lean_inc_ref(x_30);
-x_31 = lean_ctor_get_uint8_s(x_17, 0);
+x_31 = lean_ctor_get_uint8(x_17, 8);
 lean_dec_ref(x_17);
 x_32 = lean_ctor_get(x_2, 0);
 lean_inc(x_32);
 x_33 = lean_ctor_get(x_2, 2);
 lean_inc_ref(x_33);
 lean_dec_ref(x_2);
-x_34 = lean_ctor_get_uint8_s(x_30, 0);
+x_34 = lean_ctor_get_uint8(x_30, 8);
 lean_dec_ref(x_30);
 x_35 = M_Lean_Expr.l_Lean_instInhabitedExpr;
 x_36 = M_Lean_Meta_Tactic_Grind_Order_OrderM.l_Lean_Meta_Grind_Order_getStruct___redArg(x_4, x_5, x_13);
@@ -1457,7 +1457,7 @@ Obj x_24 = null; Obj x_25 = null;
 lean_inc(x_21);
 x_24 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_24, 0, x_21);
-lean_ctor_set_uint8_s(x_24, 0, x_23);
+lean_ctor_set_uint8(x_24, 8, x_23);
 if (x_20 == 0)
 {
 lean_ctor_set(x_19, 2, x_22);
@@ -1569,7 +1569,7 @@ _start:
 {
 Obj x_15 = null; Obj x_16 = null; Obj x_21 = null; byte x_22 = 0; Obj x_23 = null; 
 x_21 = lean_ctor_get(x_2, 0);
-x_22 = lean_ctor_get_uint8_s(x_2, 0);
+x_22 = lean_ctor_get_uint8(x_2, 8);
 if (x_22 == 0)
 {
 Obj x_38 = null; 
@@ -1949,11 +1949,11 @@ block_54:
 {
 Obj x_23 = null; Obj x_24 = null; Obj x_31 = null; byte x_32 = 0; Obj x_33 = null; 
 x_31 = lean_ctor_get(x_3, 0);
-x_32 = lean_ctor_get_uint8_s(x_3, 0);
+x_32 = lean_ctor_get_uint8(x_3, 8);
 if (x_32 == 0)
 {
 byte x_52 = 0; 
-x_52 = lean_ctor_get_uint8_s(x_5, 0);
+x_52 = lean_ctor_get_uint8(x_5, 8);
 if (x_52 == 0)
 {
 Obj x_53 = null; 
@@ -2189,11 +2189,11 @@ _start:
 {
 Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_61 = null; byte x_62 = 0; Obj x_63 = null; 
 x_61 = lean_ctor_get(x_4, 0);
-x_62 = lean_ctor_get_uint8_s(x_4, 0);
+x_62 = lean_ctor_get_uint8(x_4, 8);
 if (x_62 == 0)
 {
 byte x_78 = 0; 
-x_78 = lean_ctor_get_uint8_s(x_5, 0);
+x_78 = lean_ctor_get_uint8(x_5, 8);
 if (x_78 == 0)
 {
 Obj x_79 = null; Obj x_80 = null; 
@@ -2246,7 +2246,7 @@ return x_83;
 else
 {
 byte x_85 = 0; 
-x_85 = lean_ctor_get_uint8_s(x_5, 0);
+x_85 = lean_ctor_get_uint8(x_5, 8);
 if (x_85 == 0)
 {
 Obj x_86 = null; Obj x_87 = null; 
@@ -3168,8 +3168,8 @@ public static Obj l___private_Lean_Meta_Tactic_Grind_Order_Proof_0__Lean_Meta_Gr
 _start:
 {
 byte x_21 = 0; byte x_22 = 0; 
-x_21 = lean_ctor_get_uint8_s(x_3, 0);
-x_22 = lean_ctor_get_uint8_s(x_5, 0);
+x_21 = lean_ctor_get_uint8(x_3, 8);
+x_22 = lean_ctor_get_uint8(x_5, 8);
 if (x_22 == 0)
 {
 if (x_21 == 0)
@@ -3329,7 +3329,7 @@ _start:
 {
 Obj x_15 = null; Obj x_16 = null; Obj x_21 = null; byte x_22 = 0; Obj x_23 = null; 
 x_21 = lean_ctor_get(x_2, 0);
-x_22 = lean_ctor_get_uint8_s(x_2, 0);
+x_22 = lean_ctor_get_uint8(x_2, 8);
 if (x_22 == 0)
 {
 Obj x_38 = null; 
@@ -3415,7 +3415,7 @@ lean_dec(x_16);
 if (x_17 == 0)
 {
 byte x_18 = 0; 
-x_18 = lean_ctor_get_uint8_s(x_2, 0);
+x_18 = lean_ctor_get_uint8(x_2, 8);
 if (x_18 == 0)
 {
 Obj x_19 = null; 
@@ -3857,7 +3857,7 @@ lean_dec(x_16);
 if (x_17 == 0)
 {
 byte x_18 = 0; 
-x_18 = lean_ctor_get_uint8_s(x_2, 0);
+x_18 = lean_ctor_get_uint8(x_2, 8);
 if (x_18 == 0)
 {
 Obj x_19 = null; Obj x_20 = null; 
@@ -4107,7 +4107,7 @@ _start:
 {
 Obj x_16 = null; Obj x_17 = null; Obj x_22 = null; byte x_23 = 0; Obj x_24 = null; 
 x_22 = lean_ctor_get(x_2, 0);
-x_23 = lean_ctor_get_uint8_s(x_2, 0);
+x_23 = lean_ctor_get_uint8(x_2, 8);
 if (x_23 == 0)
 {
 Obj x_39 = null; 
@@ -4306,11 +4306,11 @@ _start:
 {
 Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_25 = null; byte x_26 = 0; Obj x_27 = null; Obj x_28 = null; Obj x_41 = null; 
 x_25 = lean_ctor_get(x_5, 0);
-x_26 = lean_ctor_get_uint8_s(x_5, 0);
+x_26 = lean_ctor_get_uint8(x_5, 8);
 if (x_26 == 0)
 {
 byte x_57 = 0; 
-x_57 = lean_ctor_get_uint8_s(x_3, 0);
+x_57 = lean_ctor_get_uint8(x_3, 8);
 if (x_57 == 0)
 {
 Obj x_58 = null; 
@@ -4329,7 +4329,7 @@ goto block_56;
 else
 {
 byte x_60 = 0; 
-x_60 = lean_ctor_get_uint8_s(x_3, 0);
+x_60 = lean_ctor_get_uint8(x_3, 8);
 if (x_60 == 0)
 {
 Obj x_61 = null; 
@@ -4571,11 +4571,11 @@ lean_inc(x_40);
 lean_dec_ref(x_39);
 x_41 = lean_ctor_get(x_17, 0);
 lean_inc(x_41);
-x_42 = lean_ctor_get_uint8_s(x_17, 0);
+x_42 = lean_ctor_get_uint8(x_17, 8);
 lean_dec_ref(x_17);
 x_43 = lean_ctor_get(x_31, 0);
 lean_inc(x_43);
-x_44 = lean_ctor_get_uint8_s(x_31, 0);
+x_44 = lean_ctor_get_uint8(x_31, 8);
 lean_dec_ref(x_31);
 x_45 = (lean_int_add(x_41, x_43));
 lean_dec(x_43);
@@ -4743,7 +4743,7 @@ block_29:
 Obj x_24 = null; Obj x_25 = null; 
 x_24 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_24, 0, x_21);
-lean_ctor_set_uint8_s(x_24, 0, x_23);
+lean_ctor_set_uint8(x_24, 8, x_23);
 if (x_20 == 0)
 {
 lean_ctor_set(x_19, 2, x_22);
@@ -5073,11 +5073,11 @@ public static Obj l___private_Lean_Meta_Tactic_Grind_Order_Proof_0__Lean_Meta_Gr
 _start:
 {
 Obj x_18 = null; byte x_30 = 0; 
-x_30 = lean_ctor_get_uint8_s(x_5, 0);
+x_30 = lean_ctor_get_uint8(x_5, 8);
 if (x_30 == 0)
 {
 byte x_31 = 0; 
-x_31 = lean_ctor_get_uint8_s(x_3, 0);
+x_31 = lean_ctor_get_uint8(x_3, 8);
 if (x_31 == 0)
 {
 Obj x_32 = null; Obj x_33 = null; 
@@ -5097,7 +5097,7 @@ goto block_29;
 else
 {
 byte x_35 = 0; 
-x_35 = lean_ctor_get_uint8_s(x_3, 0);
+x_35 = lean_ctor_get_uint8(x_3, 8);
 if (x_35 == 0)
 {
 Obj x_36 = null; 

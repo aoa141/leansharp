@@ -4,6 +4,7 @@
 
 using System.Diagnostics;
 using System.Globalization;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
@@ -89,15 +90,13 @@ public static unsafe partial class LeanRt
 
     /// <summary>
     /// Called by the `main` of every Lean program right before the program proper starts (as in
-    /// the C `main` functions emitted by Lean). Besides ending the initialization phase, this
-    /// marks the start of a program for the per-process state that LeanSharp keeps per *logical*
-    /// process (see <see cref="LeanContext.BeginProgram"/>): hosts that run several programs in
-    /// one OS process get a fresh logical process for each.
+    /// the C `main` functions emitted by Lean). The per-process state that LeanSharp keeps per
+    /// *logical* process is set up earlier, when the host enters the program
+    /// (see <see cref="LeanProgramState.BeginProgram"/>).
     /// </summary>
     public static void lean_io_mark_end_initialization()
     {
         g_io_initializing = false;
-        LeanContext.BeginProgram();
     }
 
     /* IO.initializing : BaseIO Bool */
@@ -223,8 +222,15 @@ public static unsafe partial class LeanRt
     public static Obj lean_io_force_exit(byte code)
     {
         IoFlushStd();
-        System.Environment.Exit(code);
-        return lean_box(0);
+        // Natively this ends the OS process without running finalizers. A program that shares
+        // the OS process with its host (an in-process child, a program run by a test worker or
+        // through `LeanProject`) must only end itself: its logical process is marked as exiting
+        // (its tasks stop, threads blocked in task operations are released) and the calling
+        // thread unwinds like for `IO.Process.exit`.
+        var p = LeanContext.Proc;
+        if (p.OwnsOsProcess) System.Environment.Exit(code);
+        LeanTaskManager.RequestExit(code);
+        throw new LeanExitException(code);
     }
 
     // ------------------------------------------------------------------
@@ -374,7 +380,7 @@ public static unsafe partial class LeanRt
     // ------------------------------------------------------------------
     // Runtime / build information
 
-    public const string LEAN_GITHASH = "67a8629274847c29155324086f6c0f49ba20ec8d";
+    public const string LEAN_GITHASH = "77f336f7ae6a60419d3882e0d5ca7ac3a2155528";
     public const uint LEAN_VERSION_MAJOR = 4;
     public const uint LEAN_VERSION_MINOR = 36;
     public const uint LEAN_VERSION_PATCH = 0;
@@ -465,15 +471,70 @@ public static unsafe partial class LeanRt
     // Dynamic libraries (library/dynlib.cpp): not supported.
 
     /* Dynlib.load : @& System.FilePath -> IO Dynlib */
-    public static Obj lean_dynlib_load(Obj path) =>
-        LeanIOErrors.UserErrorResult("error loading library, dynamic libraries are not supported by LeanSharp: " + lean_string_to_net(path));
+    public static Obj lean_dynlib_load(Obj path)
+    {
+        string p = lean_string_to_net(path);
+        // A "shared library" produced by LeanSharp's managed toolchain from Lean modules is a
+        // text stub: its code is run by the interpreter, so loading it is a no-op.
+        try
+        {
+            string full = LeanContext.ResolvePath(p);
+            if (File.Exists(full))
+            {
+                string text;
+                using (var f = File.OpenRead(full))
+                {
+                    var head = new byte[ManagedLibMagic.Length];
+                    if (f.Read(head, 0, head.Length) != head.Length || System.Text.Encoding.ASCII.GetString(head) != ManagedLibMagic)
+                        text = null;
+                    else
+                        text = ManagedLibMagic + new StreamReader(f).ReadToEnd();
+                }
+                if (text != null)
+                {
+                    // A stub without module entries stands for a library of LeanSharp itself
+                    // (`libLake_shared` etc. in the sysroot): its code is compiled in and
+                    // already initialized.
+                    bool builtIn = !text.Contains("\nobj\t", StringComparison.Ordinal);
+                    return lean_io_result_mk_ok(new ExternalObj { m_tag = (byte)LeanExternal, m_class = s_dynlibClass, m_data = new ManagedDynlib(full, builtIn) });
+                }
+            }
+        }
+        catch (Exception) { }
+        return LeanIOErrors.UserErrorResult("error loading library, dynamic libraries are not supported by LeanSharp: " + p);
+    }
+
+    sealed record ManagedDynlib(string Path, bool BuiltIn);
+
+    /// <summary>First bytes of a stub library written by the host's managed toolchain.</summary>
+    public const string ManagedLibMagic = "!<leansharp-lib>";
+    static readonly ExternalClass s_dynlibClass = new ExternalClass(_ => { }, (_, _) => { });
 
     /* Dynlib.get? : (dynlib : @& Dynlib) -> @& String -> Option dynlib.Symbol */
-    public static Obj lean_dynlib_get(Obj dynlib, Obj name) => lean_mk_option_none();
+    public static Obj lean_dynlib_get(Obj dynlib, Obj name)
+    {
+        // "Loading a stub library as a plugin" finds its module initializer, and running it is a
+        // no-op:
+        //  * the initializers of a library that is part of LeanSharp (`libLake_shared`) have
+        //    already run;
+        //  * Lake passes the precompiled modules of a package as plugins to the `lean` runs that
+        //    import them (`precompileModules`). Natively that makes their compiled code
+        //    available; here the modules are interpreted, and their initializers run when they
+        //    are imported.
+        // A plugin whose modules are *not* imported by the file (e.g. a linter loaded only with
+        // `--plugin`) is therefore silently ineffective: running its initializers would need
+        // the modules to be imported and interpreted here.
+        if (Unsafe.As<ExternalObj>(dynlib).m_data is ManagedDynlib
+            && lean_string_to_net(name).StartsWith("initialize_", StringComparison.Ordinal))
+            return lean_mk_option_some(new ExternalObj { m_tag = (byte)LeanExternal, m_class = s_dynlibClass, m_data = "initializer" });
+        return lean_mk_option_none();
+    }
 
     /* Dynlib.Symbol.runAsInit : {Dynlib} -> Symbol -> IO Unit */
     public static Obj lean_dynlib_symbol_run_as_init(Obj dynlib, Obj sym) =>
-        LeanIOErrors.UserErrorResult("dynamic libraries are not supported by LeanSharp");
+        Unsafe.As<ExternalObj>(dynlib).m_data is ManagedDynlib
+            ? lean_io_result_mk_ok(lean_box(0))
+            : LeanIOErrors.UserErrorResult("dynamic libraries are not supported by LeanSharp");
 
     // ------------------------------------------------------------------
     // C math functions used by `Float` / `Float32`

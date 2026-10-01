@@ -35,7 +35,7 @@ public static byte l_Lake_getTryCache___redArg___lam__0(Obj x_1) {
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 160);
 if (x_2 == 0)
 {
 byte x_3 = 0; 
@@ -1786,7 +1786,7 @@ public static byte l_Lake_getNoCache___redArg___lam__0(Obj x_1) {
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 160);
 return x_2;
 }
 }

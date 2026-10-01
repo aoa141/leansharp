@@ -1016,10 +1016,10 @@ x_1 = (byte)0;
 x_2 = (byte)1;
 x_3 = (byte)0;
 x_4 = lean_alloc_ctor(0, 0, 4);
-lean_ctor_set_uint8_s(x_4, 0, x_3);
-lean_ctor_set_uint8_s(x_4, 1, x_2);
-lean_ctor_set_uint8_s(x_4, 2, x_1);
-lean_ctor_set_uint8_s(x_4, 3, x_2);
+lean_ctor_set_uint8(x_4, 0, x_3);
+lean_ctor_set_uint8(x_4, 1, x_2);
+lean_ctor_set_uint8(x_4, 2, x_1);
+lean_ctor_set_uint8(x_4, 3, x_2);
 return x_4;
 }
 }

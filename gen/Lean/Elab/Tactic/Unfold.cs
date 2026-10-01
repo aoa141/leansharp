@@ -835,9 +835,9 @@ Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ushort x_17 = 0; byte x_18 = 
 x_14 = lean_ctor_get(x_11, 0);
 x_15 = lean_ctor_get(x_11, 1);
 x_16 = lean_ctor_get(x_11, 2);
-x_17 = lean_ctor_get_uint16_s(x_11, 0);
-x_18 = lean_ctor_get_uint8_s(x_11, 2);
-x_19 = lean_ctor_get_uint8_s(x_11, 3);
+x_17 = lean_ctor_get_uint16(x_11, 24);
+x_18 = lean_ctor_get_uint8(x_11, 26);
+x_19 = lean_ctor_get_uint8(x_11, 27);
 x_91 = (byte)(lean_is_exclusive(x_11) ? 0 : 1);
 if (x_91 == 0)
 {
@@ -873,9 +873,9 @@ x_89 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_89, 0, x_14);
 lean_ctor_set(x_89, 1, x_15);
 lean_ctor_set(x_89, 2, x_22);
-lean_ctor_set_uint16_s(x_89, 0, x_17);
-lean_ctor_set_uint8_s(x_89, 2, x_18);
-lean_ctor_set_uint8_s(x_89, 3, x_19);
+lean_ctor_set_uint16(x_89, 24, x_17);
+lean_ctor_set_uint8(x_89, 26, x_18);
+lean_ctor_set_uint8(x_89, 27, x_19);
 x_23 = x_89;
 goto block_88;
 }

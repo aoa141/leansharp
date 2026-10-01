@@ -20,7 +20,7 @@ Obj x_6 = null; Obj x_7 = null;
 x_6 = lean_unsigned_to_nat(0u);
 x_7 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_7, 0, x_6);
-lean_ctor_set_uint8_s(x_7, 0, x_5);
+lean_ctor_set_uint8(x_7, 8, x_5);
 return x_7;
 }
 else
@@ -38,7 +38,7 @@ if (x_13 == 0)
 Obj x_14 = null; 
 x_14 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_14, 0, x_10);
-lean_ctor_set_uint8_s(x_14, 0, x_5);
+lean_ctor_set_uint8(x_14, 8, x_5);
 return x_14;
 }
 else
@@ -47,7 +47,7 @@ byte x_15 = 0; Obj x_16 = null;
 x_15 = (byte)0;
 x_16 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_16, 0, x_10);
-lean_ctor_set_uint8_s(x_16, 0, x_15);
+lean_ctor_set_uint8(x_16, 8, x_15);
 return x_16;
 }
 }

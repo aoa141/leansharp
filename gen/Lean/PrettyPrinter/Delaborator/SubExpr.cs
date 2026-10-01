@@ -430,7 +430,7 @@ x_9 = lean_ctor_get(x_6, 2);
 lean_inc_ref(x_9);
 x_10 = lean_ctor_get(x_6, 3);
 lean_inc_ref(x_10);
-x_11 = lean_ctor_get_uint8_s(x_6, 8);
+x_11 = lean_ctor_get_uint8(x_6, 40);
 lean_dec_ref(x_6);
 x_12 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj, Obj>)&l_Lean_PrettyPrinter_Delaborator_SubExpr_withLetBody___redArg___lam__0___boxed, 4, 3);
 lean_closure_set(x_12, 0, x_10);
@@ -492,7 +492,7 @@ _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_18 = 0; 
 x_4 = lean_ctor_get(x_1, 0);
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 8);
 x_18 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_18 == 0)
 {
@@ -535,7 +535,7 @@ goto block_12;
 }
 block_12:
 {
-lean_ctor_set_uint8_s(x_11, 0, x_10);
+lean_ctor_set_uint8(x_11, 8, x_10);
 return x_11;
 }
 }
@@ -554,7 +554,7 @@ else
 Obj x_16 = null; 
 x_16 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_16, 0, x_8);
-lean_ctor_set_uint8_s(x_16, 0, x_5);
+lean_ctor_set_uint8(x_16, 8, x_5);
 x_14 = x_16;
 goto block_15;
 }

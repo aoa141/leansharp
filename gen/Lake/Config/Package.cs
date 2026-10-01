@@ -253,7 +253,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
-x_3 = lean_ctor_get_uint8_s(x_2, 1);
+x_3 = lean_ctor_get_uint8(x_2, 225);
 return x_3;
 }
 }
@@ -330,7 +330,7 @@ _start:
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
 x_3 = lean_ctor_get(x_2, 1);
-x_4 = lean_ctor_get_uint8_s(x_3, 2);
+x_4 = lean_ctor_get_uint8(x_3, 106);
 return x_4;
 }
 }
@@ -349,7 +349,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
-x_3 = lean_ctor_get_uint8_s(x_2, 2);
+x_3 = lean_ctor_get_uint8(x_2, 226);
 return x_3;
 }
 }
@@ -367,7 +367,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
-x_3 = lean_ctor_get_uint8_s(x_2, 5);
+x_3 = lean_ctor_get_uint8(x_2, 229);
 return x_3;
 }
 }
@@ -484,7 +484,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
-x_3 = lean_ctor_get_uint8_s(x_2, 3);
+x_3 = lean_ctor_get_uint8(x_2, 227);
 return x_3;
 }
 }
@@ -493,7 +493,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 224);
 if (x_3 == 0)
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -559,7 +559,7 @@ return x_3;
 else
 {
 ulong x_4 = 0; 
-x_4 = lean_ctor_get_uint64_s(x_2, 0);
+x_4 = lean_ctor_get_uint64(x_2, 16);
 return x_4;
 }
 }
@@ -1076,7 +1076,7 @@ _start:
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
 x_3 = lean_ctor_get(x_2, 1);
-x_4 = lean_ctor_get_uint8_s(x_3, 1);
+x_4 = lean_ctor_get_uint8(x_3, 105);
 return x_4;
 }
 }
@@ -1780,7 +1780,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
-x_3 = lean_ctor_get_uint8_s(x_2, 6);
+x_3 = lean_ctor_get_uint8(x_2, 230);
 return x_3;
 }
 }
@@ -1860,7 +1860,7 @@ _start:
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
 x_3 = lean_ctor_get(x_2, 1);
-x_4 = lean_ctor_get_uint8_s(x_3, 3);
+x_4 = lean_ctor_get_uint8(x_3, 107);
 return x_4;
 }
 }
@@ -3467,7 +3467,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 224);
 return x_3;
 }
 }
@@ -3757,7 +3757,7 @@ _start:
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
 x_3 = lean_ctor_get(x_2, 1);
-x_4 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_3, 104);
 return x_4;
 }
 }
@@ -3921,7 +3921,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
-x_3 = lean_ctor_get_uint8_s(x_2, 4);
+x_3 = lean_ctor_get_uint8(x_2, 228);
 return x_3;
 }
 }
@@ -4016,7 +4016,7 @@ _start:
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
 x_2 = lean_ctor_get(x_1, 6);
 x_3 = lean_ctor_get(x_2, 1);
-x_4 = lean_ctor_get_uint8_s(x_3, 4);
+x_4 = lean_ctor_get_uint8(x_3, 108);
 return x_4;
 }
 }

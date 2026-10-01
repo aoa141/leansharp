@@ -1584,7 +1584,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -1613,9 +1613,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00Lean_Elab_Tactic_Omega_lookup_spec__4___redArg___closed__2;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -1637,7 +1637,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }
@@ -3951,7 +3951,7 @@ else
 if (lean_obj_tag(x_364) == 0)
 {
 byte x_380 = 0; Obj x_381 = null; Obj x_382 = null; Obj x_383 = null; Obj x_384 = null; Obj x_385 = null; Obj x_386 = null; Obj x_387 = null; Obj x_388 = null; Obj x_389 = null; Obj x_398 = null; Obj x_399 = null; Obj x_408 = null; 
-x_380 = lean_ctor_get_uint8_s(x_2, 1);
+x_380 = lean_ctor_get_uint8(x_2, 1);
 x_381 = lean_unsigned_to_nat(2u);
 x_382 = (lean_array_fget(x_30, x_381));
 lean_dec(x_30);
@@ -5796,7 +5796,7 @@ Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; Obj x_34 = nul
 x_30 = lean_ctor_get(x_9, 0);
 x_31 = lean_ctor_get(x_30, 2);
 x_32 = lean_ctor_get(x_30, 11);
-x_33 = lean_ctor_get_uint8_s(x_31, 0);
+x_33 = lean_ctor_get_uint8(x_31, 8);
 x_34 = l_Lean_Elab_Tactic_Omega_lookup___closed__1;
 if (x_33 == 0)
 {
@@ -5908,7 +5908,7 @@ if (lean_obj_tag(x_44) == 0)
 Obj x_45 = null; Obj x_46 = null; byte x_47 = 0; 
 x_45 = lean_ctor_get(x_42, 0);
 x_46 = lean_ctor_get(x_45, 2);
-x_47 = lean_ctor_get_uint8_s(x_46, 0);
+x_47 = lean_ctor_get_uint8(x_46, 8);
 if (x_47 == 0)
 {
 Obj x_48 = null; 

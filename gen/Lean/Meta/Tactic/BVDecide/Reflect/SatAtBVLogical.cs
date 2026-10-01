@@ -1251,7 +1251,7 @@ x_18 = (byte)0;
 x_19 = lean_alloc_ctor(3, 2, 1);
 lean_ctor_set(x_19, 0, x_10);
 lean_ctor_set(x_19, 1, x_13);
-lean_ctor_set_uint8_s(x_19, 0, x_18);
+lean_ctor_set_uint8(x_19, 16, x_18);
 x_20 = l_Lean_Meta_Tactic_BVDecide_SatAtBVLogical_and___redArg___closed__0;
 x_21 = l_Lean_Meta_Tactic_BVDecide_SatAtBVLogical_and___redArg___closed__1;
 x_22 = l_Lean_Meta_Tactic_BVDecide_SatAtBVLogical_and___redArg___closed__2;

@@ -810,7 +810,7 @@ Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; Obj x_28 = nul
 x_24 = lean_ctor_get(x_1, 0);
 x_25 = lean_ctor_get(x_1, 1);
 x_26 = lean_ctor_get(x_1, 2);
-x_27 = lean_ctor_get_uint8_s(x_1, 8);
+x_27 = lean_ctor_get_uint8(x_1, 32);
 lean_inc_ref(x_25);
 x_28 = l___private_Lean_Meta_BinderNameHint_0__Lean_Expr_resolveBinderNameHint_go(x_25, x_2, x_3, x_4, x_5);
 if (lean_obj_tag(x_28) == 0)
@@ -905,7 +905,7 @@ Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; byte x_51 = 0; Obj x_52 = nul
 x_48 = lean_ctor_get(x_1, 0);
 x_49 = lean_ctor_get(x_1, 1);
 x_50 = lean_ctor_get(x_1, 2);
-x_51 = lean_ctor_get_uint8_s(x_1, 8);
+x_51 = lean_ctor_get_uint8(x_1, 32);
 lean_inc_ref(x_49);
 x_52 = l___private_Lean_Meta_BinderNameHint_0__Lean_Expr_resolveBinderNameHint_go(x_49, x_2, x_3, x_4, x_5);
 if (lean_obj_tag(x_52) == 0)
@@ -1001,7 +1001,7 @@ x_72 = lean_ctor_get(x_1, 0);
 x_73 = lean_ctor_get(x_1, 1);
 x_74 = lean_ctor_get(x_1, 2);
 x_75 = lean_ctor_get(x_1, 3);
-x_76 = lean_ctor_get_uint8_s(x_1, 8);
+x_76 = lean_ctor_get_uint8(x_1, 40);
 lean_inc_ref(x_73);
 x_77 = l___private_Lean_Meta_BinderNameHint_0__Lean_Expr_resolveBinderNameHint_go(x_73, x_2, x_3, x_4, x_5);
 if (lean_obj_tag(x_77) == 0)
@@ -1460,7 +1460,7 @@ x_181 = lean_ctor_get(x_179, 1);
 lean_inc_ref(x_181);
 x_182 = lean_ctor_get(x_179, 2);
 lean_inc_ref(x_182);
-x_183 = lean_ctor_get_uint8_s(x_179, 8);
+x_183 = lean_ctor_get_uint8(x_179, 32);
 lean_dec_ref(x_179);
 x_184 = l___private_Lean_Meta_BinderNameHint_0__Lean_Expr_resolveBinderNameHint_go___lam__1(x_177, x_178, x_180, x_181, x_182, x_183, x_2, x_176, x_4, x_5);
 lean_dec_ref(x_182);
@@ -1479,7 +1479,7 @@ x_186 = lean_ctor_get(x_179, 1);
 lean_inc_ref(x_186);
 x_187 = lean_ctor_get(x_179, 2);
 lean_inc_ref(x_187);
-x_188 = lean_ctor_get_uint8_s(x_179, 8);
+x_188 = lean_ctor_get_uint8(x_179, 32);
 lean_dec_ref(x_179);
 x_189 = l___private_Lean_Meta_BinderNameHint_0__Lean_Expr_resolveBinderNameHint_go___lam__1(x_177, x_178, x_185, x_186, x_187, x_188, x_2, x_176, x_4, x_5);
 lean_dec_ref(x_187);

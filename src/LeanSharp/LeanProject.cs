@@ -73,7 +73,12 @@ public sealed class LeanProject
     /// <summary>Runs `lean` with arbitrary arguments, feeding <paramref name="stdin"/> to its standard input (e.g. with `--stdin`).</summary>
     public LeanResult LeanWithInput(string stdin, params string[] args) => Run("lean", args, stdin);
 
-    LeanResult Run(string tool, string[] args, string stdin)
+    /// <summary>
+    /// Runs `lean` or `lake` in the project directory. <paramref name="onOutputLine"/>, if given,
+    /// receives every line of standard output and standard error as it is produced (from two
+    /// reader threads).
+    /// </summary>
+    internal LeanResult Run(string tool, string[] args, string stdin, Action<string> onOutputLine = null)
     {
         LeanHost.RunWithLargeStack(() => { LeanHost.Initialize(); return 0; });
         var req = new SpawnRequest
@@ -88,8 +93,8 @@ public sealed class LeanProject
         };
         var child = LeanProcess.Spawn(req);
         string so = "", se = "";
-        var t1 = new Thread(() => so = ReadAll(child.StdoutPipe));
-        var t2 = new Thread(() => se = ReadAll(child.StderrPipe));
+        var t1 = new Thread(() => so = ReadAll(child.StdoutPipe, onOutputLine));
+        var t2 = new Thread(() => se = ReadAll(child.StderrPipe, onOutputLine));
         t1.Start(); t2.Start();
         if (stdin != null)
         {
@@ -102,11 +107,23 @@ public sealed class LeanProject
         return new LeanResult(code, so, se);
     }
 
-    static string ReadAll(Stream s)
+    static string ReadAll(Stream s, Action<string> onLine)
     {
         if (s == null) return "";
-        using var ms = new MemoryStream();
-        s.CopyTo(ms);
-        return Encoding.UTF8.GetString(ms.ToArray());
+        if (onLine == null)
+        {
+            using var ms = new MemoryStream();
+            s.CopyTo(ms);
+            return Encoding.UTF8.GetString(ms.ToArray());
+        }
+        var sb = new StringBuilder();
+        using var r = new StreamReader(s, new UTF8Encoding(false));
+        string line;
+        while ((line = r.ReadLine()) != null)
+        {
+            sb.Append(line).Append('\n');
+            lock (onLine) onLine(line);
+        }
+        return sb.ToString();
     }
 }

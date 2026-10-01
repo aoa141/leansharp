@@ -25,10 +25,10 @@ byte x_1 = 0; byte x_2 = 0; Obj x_3 = null;
 x_1 = (byte)1;
 x_2 = (byte)0;
 x_3 = lean_alloc_ctor(0, 0, 4);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 1, x_2);
-lean_ctor_set_uint8_s(x_3, 2, x_2);
-lean_ctor_set_uint8_s(x_3, 3, x_1);
+lean_ctor_set_uint8(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 1, x_2);
+lean_ctor_set_uint8(x_3, 2, x_2);
+lean_ctor_set_uint8(x_3, 3, x_1);
 return x_3;
 }
 }

@@ -12,7 +12,7 @@ _start:
 if (lean_obj_tag(x_1) == 0)
 {
 double x_3 = 0.0; Obj x_4 = null; Obj x_5 = null; 
-x_3 = lean_ctor_get_float_s(x_1, 0);
+x_3 = lean_ctor_get_float(x_1, 0);
 lean_dec_ref(x_1);
 x_4 = lean_box_float(x_3);
 x_5 = lean_apply_1(x_2, x_4);
@@ -610,7 +610,7 @@ _start:
 if (lean_obj_tag(x_1) == 0)
 {
 double x_2 = 0.0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
-x_2 = lean_ctor_get_float_s(x_1, 0);
+x_2 = lean_ctor_get_float(x_1, 0);
 lean_dec_ref(x_1);
 x_3 = l_Lean_Linter_CodeQuality_instToJsonValue_toJson___closed__0;
 x_4 = l_Lean_Linter_CodeQuality_instToJsonValue_toJson___closed__1;

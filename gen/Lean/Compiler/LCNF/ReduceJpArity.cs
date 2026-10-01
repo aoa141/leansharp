@@ -2949,7 +2949,7 @@ _start:
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_36 = 0; 
 x_7 = lean_ctor_get(x_1, 0);
 x_8 = lean_ctor_get(x_1, 1);
-x_9 = lean_ctor_get_uint8_s(x_1, 0);
+x_9 = lean_ctor_get_uint8(x_1, 24);
 x_10 = lean_ctor_get(x_1, 2);
 x_36 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_36 == 0)
@@ -3009,7 +3009,7 @@ x_24 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_24, 0, x_7);
 lean_ctor_set(x_24, 1, x_16);
 lean_ctor_set(x_24, 2, x_10);
-lean_ctor_set_uint8_s(x_24, 0, x_9);
+lean_ctor_set_uint8(x_24, 24, x_9);
 x_19 = x_24;
 goto block_23;
 }

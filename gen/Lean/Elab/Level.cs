@@ -191,7 +191,7 @@ x_4 = lean_ctor_get(x_2, 0);
 lean_inc_ref_n(x_4, 2);
 x_5 = lean_ctor_get(x_2, 1);
 lean_inc(x_5);
-x_6 = lean_ctor_get_uint8_s(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 16);
 lean_dec_ref(x_2);
 lean_inc(x_1);
 x_7 = M_Init_Prelude.l_Lean_Syntax_getKind(x_1);
@@ -202,7 +202,7 @@ lean_dec(x_5);
 x_11 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_11, 0, x_4);
 lean_ctor_set(x_11, 1, x_10);
-lean_ctor_set_uint8_s(x_11, 0, x_6);
+lean_ctor_set_uint8(x_11, 16, x_6);
 if (x_9 == 0)
 {
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -1113,12 +1113,12 @@ _start:
 {
 Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; 
 x_6 = lean_ctor_get(x_4, 0);
-x_7 = lean_ctor_get_uint8_s(x_4, 0);
+x_7 = lean_ctor_get_uint8(x_4, 16);
 lean_inc_ref(x_6);
 x_8 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_8, 0, x_6);
 lean_ctor_set(x_8, 1, x_2);
-lean_ctor_set_uint8_s(x_8, 0, x_7);
+lean_ctor_set_uint8(x_8, 16, x_7);
 x_9 = lean_apply_2(x_3, x_8, x_5);
 return x_9;
 }
@@ -1783,7 +1783,7 @@ lean_dec_ref(x_6);
 if (lean_obj_tag(x_8) == 1)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 0);
 lean_dec_ref(x_8);
 return x_9;
 }

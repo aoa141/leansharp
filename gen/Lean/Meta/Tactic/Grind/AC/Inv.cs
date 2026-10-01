@@ -1110,7 +1110,7 @@ public static Obj l_Lean_Meta_Grind_AC_checkInvariants(Obj x_1, Obj x_2, Obj x_3
 _start:
 {
 byte x_12 = 0; 
-x_12 = lean_ctor_get_uint8_s(x_3, 2);
+x_12 = lean_ctor_get_uint8(x_3, 66);
 if (x_12 == 0)
 {
 Obj x_13 = null; Obj x_14 = null; 

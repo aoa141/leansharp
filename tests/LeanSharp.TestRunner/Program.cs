@@ -18,10 +18,19 @@ static class Program
 {
     static int Main(string[] args)
     {
+        // the launcher scripts in `<sysroot>/bin` (used by the script-driven piles) start this program
+        LeanSysroot.LauncherAssembly = typeof(Program).Assembly.Location;
+        if (args.Length > 0 && (args[0] == "lean" || args[0] == "lake"))
+        {
+            LeanProgramState.TopLevelProgramOwnsProcess = true;
+            return args[0] == "lean" ? LeanShell.Main(args[1..]) : LakeShell.Main(args[1..]);
+        }
         if (args.Length > 0 && args[0] == "worker") return Worker.Run(args[1..]);
         if (args.Length > 0 && args[0] == "run") return Coordinator.Run(args[1..]);
         if (args.Length > 0 && args[0] == "one") return Worker.RunOneCli(args[1..]);
-        Console.Error.WriteLine("usage: LeanSharp.TestRunner run --tests DIR --pile elab|elab_fail [--filter RE] [-j N] [--timeout S] [--results FILE] [--show-diffs]");
+        Console.Error.WriteLine("usage: LeanSharp.TestRunner run --tests DIR --pile PILE [--filter RE] [-j N] [--mem GB] [--timeout S] [--results FILE] [--rerun FILE] [--show-diffs]");
+        Console.Error.WriteLine("       piles run in-process: elab elab_fail elab_bench compile compile_bench docparse server server_interactive");
+        Console.Error.WriteLine("       piles run through their shell scripts: pkg misc misc_dir lake");
         Console.Error.WriteLine("       LeanSharp.TestRunner one --tests DIR --pile elab FILE.lean");
         return 2;
     }
@@ -36,7 +45,8 @@ static class Piles
     {
         public Dictionary<string, string> Env = new();   // null value = unset
         public string Exit;                               // null, "nonzero" or a number
-        public List<string> Args = new();
+        public List<string> Args = new();                 // TEST_ARGS: arguments of the program
+        public List<string> LeanArgs = new();             // TEST_LEAN_ARGS: extra `lean` options
     }
 
     public static Init ReadInit(string testFile)
@@ -44,9 +54,17 @@ static class Piles
         var r = new Init();
         var f = testFile + ".init.sh";
         if (!File.Exists(f)) return r;
+        int skipDepth = 0; // inside `if [[ -n $TEST_BENCH ]]; then ... fi` (benchmark-only settings)
         foreach (var raw in File.ReadAllLines(f))
         {
             var l = raw.Trim();
+            if (l.StartsWith("if "))
+            {
+                if (skipDepth > 0 || l.Contains("$TEST_BENCH")) skipDepth++;
+                continue;
+            }
+            if (l == "fi") { if (skipDepth > 0) skipDepth--; continue; }
+            if (skipDepth > 0) continue;
             if (l.StartsWith("export ") && l.Contains('='))
             {
                 var kv = l.Substring(7).Split('=', 2);
@@ -55,7 +73,9 @@ static class Piles
             else if (l.StartsWith("unset ")) r.Env[l.Substring(6).Trim()] = null;
             else if (l.StartsWith("TEST_EXIT=")) r.Exit = l.Substring(10).Trim();
             else if (l.StartsWith("TEST_ARGS=("))
-                r.Args.AddRange(l.Substring(11).TrimEnd(')').Split(' ', StringSplitOptions.RemoveEmptyEntries));
+                r.Args = l.Substring(11).TrimEnd(')').Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList();
+            else if (l.StartsWith("TEST_LEAN_ARGS=("))
+                r.LeanArgs = l.Substring(16).TrimEnd(')').Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList();
         }
         return r;
     }
@@ -63,12 +83,20 @@ static class Piles
     /// <summary>File pattern of the tests of a pile.</summary>
     public static string Pattern(string pile) => pile == "docparse" ? "*.txt" : "*.lean";
 
+    /// <summary>The pile whose `run_test.sh` conventions `pile` follows.</summary>
+    static string Kind(string pile) => pile switch
+    {
+        "elab_bench" => "elab",
+        "compile_bench" => "compile",
+        _ => pile,
+    };
+
     public static bool Skip(string pile, string f)
     {
         if (File.Exists(f + ".no_test")) return true;
         var name = Path.GetFileName(f);
-        if (pile == "docparse" || pile == "server") { if (name == "run_test.lean") return true; }
-        if (pile == "compile")
+        if (pile == "docparse" || pile == "server" || pile == "server_interactive") { if (name == "run_test.lean") return true; }
+        if (Kind(pile) == "compile")
         {
             if (File.Exists(f + ".do_interpret_test")) return false;
             if (File.Exists(f + ".no_interpret_test")) return true;
@@ -82,10 +110,11 @@ static class Piles
     public static string[] LeanArgs(string pile, string testFile, Init init)
     {
         string name = Path.GetFileName(testFile);
-        switch (pile)
+        switch (Kind(pile))
         {
-            case "elab": return new[] { "--root=..", "-DprintMessageEndPos=true", "-Dlinter.all=false", "-DElab.inServer=true", "-Dcompiler.postponeCompile=false", name };
-            case "elab_fail": return new[] { "--root=..", "-DprintMessageEndPos=true", "-Dlinter.all=false", "-DElab.inServer=true", name };
+            case "server_interactive": return new[] { "-Dlinter.all=false", "--run", "run_test.lean", name };
+            case "elab": return new[] { "--root=..", "-DprintMessageEndPos=true", "-Dlinter.all=false", "-DElab.inServer=true", "-Dcompiler.postponeCompile=false" }.Concat(init.LeanArgs).Append(name).ToArray();
+            case "elab_fail": return new[] { "--root=..", "-DprintMessageEndPos=true", "-Dlinter.all=false", "-DElab.inServer=true" }.Concat(init.LeanArgs).Append(name).ToArray();
             case "compile": return new[] { "-Dlinter.all=false", "--run", name }.Concat(init.Args).ToArray();
             case "server": return new[] { "-Dlinter.all=false", "--run", name };
             case "docparse": return new[] { "-Dlinter.all=false", "--run", "run_test.lean", name };
@@ -96,12 +125,12 @@ static class Piles
     public static bool ExitOk(string pile, Init init, int exit)
     {
         if (pile == "elab_fail") return exit != 0;
-        if (pile == "compile" && init.Exit != null)
+        if ((Kind(pile) == "compile" || pile == "server_interactive") && init.Exit != null)
             return init.Exit == "nonzero" ? exit != 0 : exit == int.Parse(init.Exit);
         return exit == 0;
     }
 
-    public static bool NormalizeElab(string pile) => pile == "elab" || pile == "elab_fail";
+    public static bool NormalizeElab(string pile) => Kind(pile) == "elab" || pile == "elab_fail" || pile == "server_interactive";
 
     static readonly Regex s_mvar = new(@"(\?(\w|_\w+))\.[0-9]+", RegexOptions.Compiled);
     static readonly Regex s_ref = new(@"https://lean-lang\.org/doc/reference/(v?[0-9.]+(-rc[0-9]+)?|latest)", RegexOptions.Compiled);
@@ -149,10 +178,12 @@ static class Worker
     public static int Run(string[] args)
     {
         string testsDir = null, pile = null;
+        long recycleAt = 0;
         for (int i = 0; i < args.Length; i++)
         {
             if (args[i] == "--tests") testsDir = args[++i];
             else if (args[i] == "--pile") pile = args[++i];
+            else if (args[i] == "--recycle-at") recycleAt = long.Parse(args[++i]);
         }
         var pileDir = Path.Combine(testsDir, pile);
         Directory.SetCurrentDirectory(pileDir);
@@ -168,7 +199,11 @@ static class Worker
         {
             if (line.Length == 0) continue;
             var (exit, output, secs) = RunOne(pile, line);
-            writer.WriteLine($"RESULT\t{secs:F2}\t{exit}\t{Convert.ToBase64String(Encoding.UTF8.GetBytes(output))}");
+            // heap size after the test (after a full collection if it looks large), so the
+            // coordinator can replace a worker that has grown too much
+            long heap = GC.GetTotalMemory(false);
+            if (recycleAt > 0 && heap > recycleAt) heap = GC.GetTotalMemory(true);
+            writer.WriteLine($"RESULT\t{secs.ToString("F2", System.Globalization.CultureInfo.InvariantCulture)}\t{exit}\t{Convert.ToBase64String(Encoding.UTF8.GetBytes(output))}\t{heap}");
         }
         return 0;
     }
@@ -180,11 +215,7 @@ static class Worker
         int exit;
         try
         {
-            if (File.Exists(testFile + ".before.sh"))
-            {
-                var p = Process.Start(new ProcessStartInfo("bash", new[] { "--", testFile + ".before.sh" }) { RedirectStandardOutput = true, RedirectStandardError = true });
-                p.WaitForExit();
-            }
+            RunHook(testFile + ".before.sh");
             var init = Piles.ReadInit(testFile);
             var args = Piles.LeanArgs(pile, testFile, init);
             var saved = init.Env.Keys.ToDictionary(k => k, k => Environment.GetEnvironmentVariable(k));
@@ -201,6 +232,7 @@ static class Worker
             {
                 foreach (var kv in saved) Environment.SetEnvironmentVariable(kv.Key, kv.Value);
             }
+            RunHook(testFile + ".after.sh");
         }
         catch (Exception e)
         {
@@ -209,6 +241,20 @@ static class Worker
             exit = 255;
         }
         return (exit, outStream.GetText(), sw.Elapsed.TotalSeconds);
+    }
+
+    /// <summary>Runs a test's `.before.sh`/`.after.sh` script, if it exists.</summary>
+    static void RunHook(string script)
+    {
+        if (!File.Exists(script)) return;
+        var psi = new ProcessStartInfo("bash", new[] { "--", script }) { RedirectStandardOutput = true, RedirectStandardError = true };
+        // `lean`/`lake` in the script are the launchers of the sysroot
+        psi.Environment["PATH"] = LeanSysroot.BinDir + Path.PathSeparator + Path.GetDirectoryName(Environment.ProcessPath) + Path.PathSeparator + Environment.GetEnvironmentVariable("PATH");
+        psi.Environment["LEANSHARP_SYSROOT"] = LeanSysroot.Root;
+        var p = Process.Start(psi);
+        p.OutputDataReceived += (_, _) => { }; p.ErrorDataReceived += (_, _) => { };
+        p.BeginOutputReadLine(); p.BeginErrorReadLine();
+        p.WaitForExit();
     }
 
     public static int RunOneCli(string[] args)
@@ -230,9 +276,11 @@ static class Worker
         if (r.Status != "PASS")
         {
             var expected = Piles.Expected(full, out _);
-            File.WriteAllText("/tmp/leansharp.expected", expected);
-            File.WriteAllText("/tmp/leansharp.produced", Piles.Normalize(output, pile));
-            Console.WriteLine("(diff: diff /tmp/leansharp.expected /tmp/leansharp.produced)");
+            var exp = Path.Combine(Path.GetTempPath(), "leansharp.expected");
+            var got = Path.Combine(Path.GetTempPath(), "leansharp.produced");
+            File.WriteAllText(exp, expected);
+            File.WriteAllText(got, Piles.Normalize(output, pile));
+            Console.WriteLine($"(diff: diff {exp} {got})");
         }
         return r.Status == "PASS" ? 0 : 1;
     }
@@ -259,7 +307,12 @@ static class Coordinator
     public static int Run(string[] args)
     {
         string testsDir = null, pile = "elab", filter = null, resultsFile = null;
-        int jobs = Math.Max(1, Environment.ProcessorCount / 2);
+        // every worker holds a Lean process image (several GB once tests `import Lean`): the
+        // default number of workers is bounded by memory as well as by cores. Exhausting the
+        // machine's memory can take down the whole machine (it did under WSL).
+        long totalMem = GC.GetGCMemoryInfo().TotalAvailableMemoryBytes;
+        int jobs = (int)Math.Max(1, Math.Min(Environment.ProcessorCount / 2, totalMem / (6L << 30)));
+        double memGb = 0; // per worker; 0 = derive from the machine's memory
         double timeout = 300;
         bool showDiffs = false;
         string rerun = null;
@@ -275,6 +328,7 @@ static class Coordinator
                 case "--results": resultsFile = args[++i]; break;
                 case "--show-diffs": showDiffs = true; break;
                 case "--rerun": rerun = args[++i]; break;
+                case "--mem": memGb = double.Parse(args[++i], System.Globalization.CultureInfo.InvariantCulture); break;
             }
         }
         testsDir = Path.GetFullPath(testsDir);
@@ -282,12 +336,17 @@ static class Coordinator
         var re = filter == null ? null : new Regex(filter);
         // --rerun FILE: only the tests that did not pass in a previous results file
         HashSet<string> only = rerun == null ? null : File.ReadAllLines(rerun).Select(l => l.Split('\t')).Where(p => p.Length > 1 && p[1] != "PASS").Select(p => p[0]).ToHashSet();
+        if (ScriptPiles.IsScriptPile(pile))
+            return ScriptPiles.Run(testsDir, pile, re, only, jobs, timeout, resultsFile, showDiffs);
         var tests = Directory.GetFiles(pileDir, Piles.Pattern(pile))
             .Where(f => !Piles.Skip(pile, f))
             .Where(f => re == null || re.IsMatch(Path.GetFileName(f)))
             .Where(f => only == null || only.Contains(Path.GetFileName(f)))
             .OrderBy(f => f, StringComparer.Ordinal).ToList();
-        Console.WriteLine($"{tests.Count} tests in {pile}, {jobs} workers");
+        // hard limit of a worker's managed heap (it fails with an out-of-memory error instead of
+        // starving the machine); a worker is replaced once its live heap exceeds 70% of it
+        long memLimit = memGb > 0 ? (long)(memGb * (1L << 30)) : Math.Max(3L << 30, (long)(totalMem * 0.75) / jobs);
+        Console.WriteLine($"{tests.Count} tests in {pile}, {jobs} workers, {memLimit / (double)(1L << 30):F1} GB per worker");
         var queue = new System.Collections.Concurrent.ConcurrentQueue<string>(tests);
         var results = new System.Collections.Concurrent.ConcurrentBag<TestResult>();
         int done = 0;
@@ -297,7 +356,7 @@ static class Coordinator
             WorkerProc w = null;
             while (queue.TryDequeue(out var t))
             {
-                w ??= new WorkerProc(testsDir, pile);
+                w ??= new WorkerProc(testsDir, pile, memLimit);
                 var r = w.RunTest(t, timeout, out bool workerDead);
                 if (workerDead) { w.Dispose(); w = null; }
                 results.Add(r);
@@ -307,6 +366,7 @@ static class Coordinator
                 else if (n % 50 == 0)
                     Console.WriteLine($"[{n}/{tests.Count}] ... {sw.Elapsed.TotalMinutes:F1} min");
                 if (showDiffs && r.Status == "FAIL") Console.WriteLine(w?.LastDiff ?? "");
+                if (w != null && w.LastHeap > memLimit * 7 / 10) { w.Dispose(); w = null; }
             }
             w?.Dispose();
         }, 16 * 1024 * 1024)).ToList();
@@ -326,8 +386,9 @@ static class Coordinator
         readonly string m_pile;
         readonly System.Collections.Concurrent.BlockingCollection<string> m_lines = new();
         public string LastDiff;
+        public long LastHeap;
 
-        public WorkerProc(string testsDir, string pile)
+        public WorkerProc(string testsDir, string pile, long memLimit)
         {
             m_pile = pile;
             var self = Environment.ProcessPath;
@@ -336,6 +397,8 @@ static class Coordinator
             if (Path.GetFileNameWithoutExtension(self) == "dotnet") psi.ArgumentList.Add(entry);
             psi.ArgumentList.Add("worker"); psi.ArgumentList.Add("--tests"); psi.ArgumentList.Add(testsDir);
             psi.ArgumentList.Add("--pile"); psi.ArgumentList.Add(pile);
+            psi.ArgumentList.Add("--recycle-at"); psi.ArgumentList.Add((memLimit * 7 / 10).ToString());
+            psi.Environment["DOTNET_GCHeapHardLimit"] = "0x" + memLimit.ToString("x");
             m_proc = Process.Start(psi);
             m_proc.ErrorDataReceived += (_, _) => { };
             m_proc.BeginErrorReadLine();
@@ -369,6 +432,7 @@ static class Coordinator
                 var parts = l.Split('\t');
                 double secs = double.Parse(parts[1], System.Globalization.CultureInfo.InvariantCulture);
                 int exit = int.Parse(parts[2]);
+                LastHeap = parts.Length > 4 ? long.Parse(parts[4]) : 0;
                 var output = Encoding.UTF8.GetString(Convert.FromBase64String(parts[3]));
                 var r = Piles.Check(m_pile, test, output, exit, secs);
                 if (r.Status != "PASS")
@@ -393,5 +457,145 @@ static class Coordinator
             try { if (!m_proc.HasExited) m_proc.Kill(true); } catch { }
             m_proc.Dispose();
         }
+    }
+}
+
+/// <summary>
+/// Piles and test directories that are driven by shell scripts (`pkg`, `misc`, `misc_dir`, `lake`):
+/// the scripts are run with `bash` exactly like Lean's CMake test suite does, with the `lean` and
+/// `lake` launchers of the LeanSharp sysroot first on `PATH`. A test passes if its script exits
+/// with 0.
+/// </summary>
+static class ScriptPiles
+{
+    public static bool IsScriptPile(string pile) => pile is "pkg" or "misc" or "misc_dir" or "lake";
+
+    /// <summary>(test name, working directory, bash command) of every test of the pile.</summary>
+    static IEnumerable<(string name, string dir, string cmd)> Enumerate(string testsDir, string pile)
+    {
+        var pileDir = Path.Combine(testsDir, pile);
+        switch (pile)
+        {
+            case "misc":
+                foreach (var f in Directory.GetFiles(pileDir, "*.sh").OrderBy(f => f, StringComparer.Ordinal))
+                {
+                    var name = Path.GetFileName(f);
+                    if (name == "run_test.sh" || File.Exists(f + ".no_test")) continue;
+                    yield return (name, pileDir, $"source \"$TEST_DIR/util.sh\"; source run_test.sh {Quote(name)}");
+                }
+                break;
+            case "pkg":
+            case "misc_dir":
+                foreach (var d in Directory.GetDirectories(pileDir).OrderBy(d => d, StringComparer.Ordinal))
+                {
+                    if (!File.Exists(Path.Combine(d, "run_test.sh"))) continue;
+                    // excluded in tests/CMakeLists.txt as flaky/nondeterministic
+                    if (pile == "pkg" && Path.GetFileName(d) is "signal" or "test_extern" or "user_ext") continue;
+                    yield return (Path.GetFileName(d), d, "source \"$TEST_DIR/util.sh\"; source run_test.sh");
+                }
+                break;
+            case "lake":
+                foreach (var sub in new[] { "examples", "tests" })
+                {
+                    var root = Path.Combine(pileDir, sub);
+                    if (!Directory.Exists(root)) continue;
+                    foreach (var f in Directory.GetFiles(root, "test.sh", SearchOption.AllDirectories).OrderBy(f => f, StringComparer.Ordinal))
+                    {
+                        // as in tests/CMakeLists.txt
+                        if (Regex.IsMatch(f, "lake-packages|bootstrap|toolchain|online")) continue;
+                        var d = Path.GetDirectoryName(f);
+                        yield return (Path.GetRelativePath(pileDir, d).Replace('\\', '/'), d, "set -eu; LAKE=lake ./test.sh");
+                    }
+                }
+                break;
+        }
+    }
+
+    static string Quote(string s) => "'" + s.Replace("'", "'\\''") + "'";
+
+    public static int Run(string testsDir, string pile, Regex filter, HashSet<string> only, int jobs, double timeout, string resultsFile, bool showOutput)
+    {
+        var tests = Enumerate(testsDir, pile)
+            .Where(t => filter == null || filter.IsMatch(t.name))
+            .Where(t => only == null || only.Contains(t.name)).ToList();
+        // make sure the launchers exist and point to this program
+        var bin = LeanSysroot.BinDir;
+        _ = LeanSysroot.Root; LeanSysroot.Root = LeanSysroot.Root;
+        var dotnetDir = Path.GetDirectoryName(Environment.ProcessPath);
+        Console.WriteLine($"{tests.Count} tests in {pile}, {jobs} at a time, sysroot {LeanSysroot.Root}");
+        var queue = new System.Collections.Concurrent.ConcurrentQueue<(string name, string dir, string cmd)>(tests);
+        var results = new System.Collections.Concurrent.ConcurrentBag<TestResult>();
+        var outputs = new System.Collections.Concurrent.ConcurrentDictionary<string, string>();
+        int done = 0;
+        var sw = Stopwatch.StartNew();
+        var threads = Enumerable.Range(0, jobs).Select(_ => new Thread(() =>
+        {
+            while (queue.TryDequeue(out var t))
+            {
+                var r = RunOne(testsDir, bin, dotnetDir, t, timeout, out string output);
+                results.Add(r);
+                outputs[t.name] = output;
+                int n = Interlocked.Increment(ref done);
+                Console.WriteLine($"[{n}/{tests.Count}] {r.Status} {r.Name} ({r.Seconds:F1}s) {r.Detail}");
+                if (showOutput && r.Status != "PASS")
+                {
+                    var lines = output.Split('\n');
+                    Console.WriteLine(string.Join("\n", lines.Skip(Math.Max(0, lines.Length - 40)).Select(l => "   | " + l)));
+                }
+            }
+        })).ToList();
+        threads.ForEach(t => t.Start());
+        threads.ForEach(t => t.Join());
+        var all = results.OrderBy(r => r.Name, StringComparer.Ordinal).ToList();
+        Console.WriteLine($"Done in {sw.Elapsed.TotalMinutes:F1} min. " + string.Join(", ", all.GroupBy(r => r.Status).Select(g => $"{g.Key}: {g.Count()}")));
+        if (resultsFile != null)
+        {
+            File.WriteAllLines(resultsFile, all.Select(r => $"{r.Name}\t{r.Status}\t{r.Seconds:F2}\t{r.Detail}"));
+            var outDir = resultsFile + ".out";
+            Directory.CreateDirectory(outDir);
+            foreach (var kv in outputs) File.WriteAllText(Path.Combine(outDir, kv.Key.Replace('/', '_') + ".txt"), kv.Value);
+        }
+        return all.All(r => r.Status == "PASS") ? 0 : 1;
+    }
+
+    static TestResult RunOne(string testsDir, string bin, string dotnetDir, (string name, string dir, string cmd) t, double timeout, out string output)
+    {
+        var sw = Stopwatch.StartNew();
+        var psi = new ProcessStartInfo("bash") { WorkingDirectory = t.dir, RedirectStandardOutput = true, RedirectStandardError = true, RedirectStandardInput = true, UseShellExecute = false };
+        psi.ArgumentList.Add("-c");
+        psi.ArgumentList.Add(t.cmd + " 2>&1");
+        var env = psi.Environment;
+        string sysroot = LeanSysroot.Root;
+        env["PATH"] = bin + Path.PathSeparator + dotnetDir + Path.PathSeparator + Environment.GetEnvironmentVariable("PATH");
+        env["LEANSHARP_SYSROOT"] = sysroot;
+        // the variables of `tests/with_env.sh.in`
+        env["STAGE"] = "1";
+        env["TEST_DIR"] = testsDir;
+        env["SRC_DIR"] = Path.GetFullPath(Path.Combine(testsDir, "..", "src"));
+        env["SCRIPT_DIR"] = Path.GetFullPath(Path.Combine(testsDir, "..", "script"));
+        env["BUILD_DIR"] = sysroot;
+        env["LEAN_CC"] = "cc";
+        env["LEANC_OPTS"] = "";
+        env["CXX"] = "c++";
+        env.Remove("LEAN_PATH"); env.Remove("LEAN_SYSROOT"); env.Remove("LAKE"); env.Remove("LAKE_HOME"); env.Remove("ELAN_TOOLCHAIN");
+        var sb = new StringBuilder();
+        using var p = Process.Start(psi);
+        p.StandardInput.Close();
+        p.OutputDataReceived += (_, e) => { if (e.Data != null) lock (sb) sb.Append(e.Data).Append('\n'); };
+        p.ErrorDataReceived += (_, e) => { if (e.Data != null) lock (sb) sb.Append(e.Data).Append('\n'); };
+        p.BeginOutputReadLine(); p.BeginErrorReadLine();
+        bool exited = p.WaitForExit(TimeSpan.FromSeconds(timeout));
+        if (!exited)
+        {
+            try { p.Kill(true); } catch { }
+            p.WaitForExit(5000);
+            lock (sb) output = sb.ToString();
+            return new TestResult(t.name, "TIMEOUT", sw.Elapsed.TotalSeconds, "");
+        }
+        p.WaitForExit();
+        lock (sb) output = sb.ToString();
+        return p.ExitCode == 0
+            ? new TestResult(t.name, "PASS", sw.Elapsed.TotalSeconds, "")
+            : new TestResult(t.name, "FAIL", sw.Elapsed.TotalSeconds, $"exit code {p.ExitCode}");
     }
 }

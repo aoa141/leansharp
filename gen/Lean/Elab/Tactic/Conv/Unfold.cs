@@ -24,9 +24,9 @@ Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; ushort x_19 = 0; byte x_20 = 
 x_16 = lean_ctor_get(x_11, 0);
 x_17 = lean_ctor_get(x_11, 1);
 x_18 = lean_ctor_get(x_11, 2);
-x_19 = lean_ctor_get_uint16_s(x_11, 0);
-x_20 = lean_ctor_get_uint8_s(x_11, 2);
-x_21 = lean_ctor_get_uint8_s(x_11, 3);
+x_19 = lean_ctor_get_uint16(x_11, 24);
+x_20 = lean_ctor_get_uint8(x_11, 26);
+x_21 = lean_ctor_get_uint8(x_11, 27);
 x_22 = lean_box(0);
 x_28 = (lean_array_uget_borrowed(x_1, x_3));
 x_29 = (byte)0;
@@ -42,9 +42,9 @@ x_33 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_33, 0, x_16);
 lean_ctor_set(x_33, 1, x_17);
 lean_ctor_set(x_33, 2, x_32);
-lean_ctor_set_uint16_s(x_33, 0, x_19);
-lean_ctor_set_uint8_s(x_33, 2, x_20);
-lean_ctor_set_uint8_s(x_33, 3, x_21);
+lean_ctor_set_uint16(x_33, 24, x_19);
+lean_ctor_set_uint8(x_33, 26, x_20);
+lean_ctor_set_uint8(x_33, 27, x_21);
 x_34 = M_Lean_Elab_Tactic_Basic.l_Lean_Elab_Tactic_withoutRecover___redArg(x_31, x_5, x_6, x_7, x_8, x_9, x_10, x_33, x_12);
 if (lean_obj_tag(x_34) == 0)
 {

@@ -7029,7 +7029,7 @@ lean_ctor_set(x_76, 1, x_73);
 lean_ctor_set(x_76, 2, x_72);
 lean_ctor_set(x_76, 3, x_75);
 lean_ctor_set(x_76, 4, x_75);
-lean_ctor_set_uint8_s(x_76, 0, x_74);
+lean_ctor_set_uint8(x_76, 40, x_74);
 x_77 = (lean_array_push(x_14, x_76));
 x_78 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_78, 0, x_13);

@@ -534,11 +534,11 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_11 = 0; 
 x_3 = lean_ctor_get(x_1, 0);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
-x_5 = lean_ctor_get_uint8_s(x_1, 1);
+x_4 = lean_ctor_get_uint8(x_1, 8);
+x_5 = lean_ctor_get_uint8(x_1, 9);
 x_6 = lean_ctor_get(x_2, 0);
-x_7 = lean_ctor_get_uint8_s(x_2, 0);
-x_8 = lean_ctor_get_uint8_s(x_2, 1);
+x_7 = lean_ctor_get_uint8(x_2, 8);
+x_8 = lean_ctor_get_uint8(x_2, 9);
 x_11 = lean_u8(lean_expr_eqv(x_3, x_6));
 if (x_11 == 0)
 {
@@ -623,7 +623,7 @@ lean_inc_ref_n(x_16, 2);
 lean_dec(x_15);
 x_17 = l_Lean_Meta_auxLemmasExt;
 x_18 = lean_ctor_get(x_17, 2);
-x_19 = lean_ctor_get_uint8_s(x_16, 0);
+x_19 = lean_ctor_get_uint8(x_16, 64);
 x_20 = lean_box(0);
 x_243 = M_Lean_Environment.l___private_Lean_Environment_0__Lean_EnvExtension_getStateUnsafe___redArg(x_14, x_17, x_16, x_18, x_20);
 if (x_19 == 0)
@@ -1019,7 +1019,7 @@ lean_ctor_set(x_127, 0, x_122);
 lean_ctor_set(x_127, 1, x_3);
 lean_ctor_set(x_127, 2, x_123);
 lean_ctor_set(x_127, 3, x_126);
-lean_ctor_set_uint8_s(x_127, 0, x_124);
+lean_ctor_set_uint8(x_127, 32, x_124);
 x_128 = lean_alloc_ctor(1, 1, 0);
 lean_ctor_set(x_128, 0, x_127);
 x_81 = x_109;
@@ -1448,7 +1448,7 @@ lean_ctor_set(x_240, 0, x_235);
 lean_ctor_set(x_240, 1, x_3);
 lean_ctor_set(x_240, 2, x_236);
 lean_ctor_set(x_240, 3, x_239);
-lean_ctor_set_uint8_s(x_240, 0, x_237);
+lean_ctor_set_uint8(x_240, 32, x_237);
 x_241 = lean_alloc_ctor(1, 1, 0);
 lean_ctor_set(x_241, 0, x_240);
 x_202 = x_229;
@@ -1478,8 +1478,8 @@ x_251 = (byte)0;
 lean_inc_ref(x_2);
 x_252 = lean_alloc_ctor(0, 1, 2);
 lean_ctor_set(x_252, 0, x_2);
-lean_ctor_set_uint8_s(x_252, 0, x_251);
-lean_ctor_set_uint8_s(x_252, 1, x_8);
+lean_ctor_set_uint8(x_252, 8, x_251);
+lean_ctor_set_uint8(x_252, 9, x_8);
 x_253 = l_Lean_PersistentHashMap_find_x3f___at___00Lean_Meta_mkAuxLemma_spec__3___redArg(x_243, x_252);
 lean_dec_ref(x_252);
 lean_dec(x_243);
@@ -1701,8 +1701,8 @@ Obj x_288 = null;
 lean_inc_ref(x_2);
 x_288 = lean_alloc_ctor(0, 1, 2);
 lean_ctor_set(x_288, 0, x_2);
-lean_ctor_set_uint8_s(x_288, 0, x_287);
-lean_ctor_set_uint8_s(x_288, 1, x_8);
+lean_ctor_set_uint8(x_288, 8, x_287);
+lean_ctor_set_uint8(x_288, 9, x_8);
 if (lean_obj_tag(x_4) == 0)
 {
 Obj x_289 = null; 
@@ -2426,8 +2426,8 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; byte x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; 
 x_2 = lean_ctor_get(x_1, 0);
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
-x_4 = lean_ctor_get_uint8_s(x_1, 1);
+x_3 = lean_ctor_get_uint8(x_1, 8);
+x_4 = lean_ctor_get_uint8(x_1, 9);
 x_5 = 0UL;
 x_6 = M_Lean_Expr.l_Lean_Expr_hash(x_2);
 x_7 = (ulong)(lean_uint64_mix_hash(x_5, x_6));

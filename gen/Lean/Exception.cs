@@ -1363,7 +1363,7 @@ x_6 = M_Lean_Data_Name.l_Lean_Name_isAnonymous(x_1);
 if (x_6 == 0)
 {
 byte x_7 = 0; 
-x_7 = lean_ctor_get_uint8_s(x_5, 0);
+x_7 = lean_ctor_get_uint8(x_5, 64);
 if (x_7 == 0)
 {
 Obj x_8 = null; 

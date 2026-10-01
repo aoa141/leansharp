@@ -236,7 +236,7 @@ goto block_111;
 else
 {
 byte x_142 = 0; 
-x_142 = lean_ctor_get_uint8_s(x_27, 0);
+x_142 = lean_ctor_get_uint8(x_27, 40);
 if (x_142 == 0)
 {
 Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; Obj x_146 = null; Obj x_147 = null; Obj x_148 = null; byte x_149 = 0; 
@@ -1938,7 +1938,7 @@ goto block_111;
 else
 {
 byte x_142 = 0; 
-x_142 = lean_ctor_get_uint8_s(x_27, 0);
+x_142 = lean_ctor_get_uint8(x_27, 40);
 if (x_142 == 0)
 {
 Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; Obj x_146 = null; Obj x_147 = null; Obj x_148 = null; byte x_149 = 0; 
@@ -2832,7 +2832,7 @@ goto block_108;
 else
 {
 byte x_139 = 0; 
-x_139 = lean_ctor_get_uint8_s(x_24, 0);
+x_139 = lean_ctor_get_uint8(x_24, 40);
 if (x_139 == 0)
 {
 Obj x_140 = null; Obj x_141 = null; Obj x_142 = null; Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; byte x_146 = 0; 
@@ -4278,7 +4278,7 @@ goto block_108;
 else
 {
 byte x_139 = 0; 
-x_139 = lean_ctor_get_uint8_s(x_24, 0);
+x_139 = lean_ctor_get_uint8(x_24, 40);
 if (x_139 == 0)
 {
 Obj x_140 = null; Obj x_141 = null; Obj x_142 = null; Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; byte x_146 = 0; 

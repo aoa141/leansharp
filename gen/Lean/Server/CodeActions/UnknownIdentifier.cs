@@ -2185,7 +2185,7 @@ goto block_27;
 else
 {
 ulong x_29 = 0; 
-x_29 = lean_ctor_get_uint64_s(x_3, 0);
+x_29 = lean_ctor_get_uint64(x_3, 16);
 x_9 = x_29;
 goto block_27;
 }
@@ -2909,7 +2909,7 @@ if (x_13 == 0)
 {
 byte x_14 = 0; 
 lean_dec(x_11);
-x_14 = lean_ctor_get_uint8_s(x_12, 0);
+x_14 = lean_ctor_get_uint8(x_12, 64);
 lean_dec_ref(x_12);
 if (x_14 == 0)
 {
@@ -4156,7 +4156,7 @@ else
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; 
 x_12 = (lean_array_uget_borrowed(x_2, x_4));
 x_13 = lean_ctor_get(x_12, 1);
-x_14 = lean_ctor_get_uint8_s(x_12, 0);
+x_14 = lean_ctor_get_uint8(x_12, 16);
 x_15 = lean_box(0);
 x_16 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Server_FileWorker_handleResolveImportAllUnknownIdentifiersCodeAction_x3f_spec__0___closed__0;
 if (x_14 == 0)
@@ -4533,7 +4533,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }
@@ -4752,7 +4752,7 @@ x_13 = (lean_string_append(x_12, x_6));
 lean_dec(x_6);
 x_14 = lean_alloc_ctor(1, 1, 1);
 lean_ctor_set(x_14, 0, x_13);
-lean_ctor_set_uint8_s(x_14, 0, x_7);
+lean_ctor_set_uint8(x_14, 8, x_7);
 return x_14;
 }
 else
@@ -4786,7 +4786,7 @@ return x_16;
 else
 {
 byte x_21 = 0; Obj x_22 = null; Obj x_23 = null; byte x_24 = 0; byte x_29 = 0; 
-x_21 = lean_ctor_get_uint8_s(x_1, 0);
+x_21 = lean_ctor_get_uint8(x_1, 8);
 x_22 = lean_ctor_get(x_1, 0);
 x_29 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_29 == 0)
@@ -4816,7 +4816,7 @@ else
 Obj x_27 = null; 
 x_27 = lean_alloc_ctor(1, 1, 1);
 lean_ctor_set(x_27, 0, x_22);
-lean_ctor_set_uint8_s(x_27, 0, x_21);
+lean_ctor_set_uint8(x_27, 8, x_21);
 x_25 = x_27;
 goto block_26;
 }
@@ -5228,7 +5228,7 @@ x_21 = lean_ctor_get(x_1, 1);
 x_22 = lean_ctor_get(x_21, 0);
 x_23 = lean_ctor_get(x_20, 0);
 x_24 = lean_ctor_get(x_20, 1);
-x_25 = lean_ctor_get_uint8_s(x_20, 0);
+x_25 = lean_ctor_get_uint8(x_20, 16);
 x_26 = lean_ctor_get(x_11, 0);
 x_27 = lean_ctor_get(x_11, 1);
 x_115 = (byte)(lean_is_exclusive(x_11) ? 0 : 1);
@@ -6866,7 +6866,7 @@ goto block_44;
 else
 {
 ulong x_46 = 0; 
-x_46 = lean_ctor_get_uint64_s(x_2, 0);
+x_46 = lean_ctor_get_uint64(x_2, 16);
 x_7 = x_46;
 goto block_44;
 }

@@ -1115,7 +1115,7 @@ _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
 x_5 = lean_ctor_get(x_2, 1);
-x_6 = lean_ctor_get_uint8_s(x_5, 2);
+x_6 = lean_ctor_get_uint8(x_5, 2);
 if (x_6 == 0)
 {
 Obj x_7 = null; Obj x_8 = null; 

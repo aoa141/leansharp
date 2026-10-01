@@ -10,5 +10,6 @@
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/LeanSharp.TestRunner/LeanSharp.TestRunner.csproj" />
+    <Project Path="tests/LeanSharp.Tests/LeanSharp.Tests.csproj" />
   </Folder>
 </Solution>

@@ -1033,7 +1033,7 @@ x_20 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_20, 0, x_3);
 lean_ctor_set(x_20, 1, x_17);
 lean_ctor_set(x_20, 2, x_5);
-lean_ctor_set_uint8_s(x_20, 0, x_4);
+lean_ctor_set_uint8(x_20, 24, x_4);
 if (x_19 == 0)
 {
 lean_ctor_set(x_18, 0, x_20);
@@ -2009,7 +2009,7 @@ x_8 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_8);
 x_9 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_9);
-x_10 = lean_ctor_get_uint8_s(x_1, 0);
+x_10 = lean_ctor_get_uint8(x_1, 24);
 x_11 = lean_ctor_get(x_1, 2);
 lean_inc(x_11);
 lean_dec_ref(x_1);

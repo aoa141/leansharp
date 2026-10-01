@@ -476,7 +476,7 @@ goto block_21;
 else
 {
 byte x_22 = 0; 
-x_22 = lean_ctor_get_uint8_s(x_1, 1);
+x_22 = lean_ctor_get_uint8(x_1, 9);
 if (x_22 == 0)
 {
 x_17 = x_3;
@@ -506,7 +506,7 @@ return x_8;
 block_16:
 {
 byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; 
-x_11 = lean_ctor_get_uint8_s(x_1, 0);
+x_11 = lean_ctor_get_uint8(x_1, 8);
 x_12 = l_Lake_ppImport___closed__0;
 x_13 = (lean_string_append(x_10, x_12));
 if (x_11 == 0)
@@ -526,7 +526,7 @@ goto block_9;
 block_21:
 {
 byte x_18 = 0; 
-x_18 = lean_ctor_get_uint8_s(x_1, 2);
+x_18 = lean_ctor_get_uint8(x_1, 10);
 if (x_18 == 0)
 {
 x_10 = x_17;
@@ -810,7 +810,7 @@ _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; 
 x_2 = lean_ctor_get(x_1, 0);
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 8);
 if (x_3 == 0)
 {
 Obj x_16 = null; 

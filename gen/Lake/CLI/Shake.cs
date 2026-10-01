@@ -76,8 +76,8 @@ public static ulong l___private_Lake_CLI_Shake_0__Lake_Shake_instHashableNeedsKi
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
-x_3 = lean_ctor_get_uint8_s(x_1, 1);
+x_2 = lean_ctor_get_uint8(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 1);
 x_4 = 0UL;
 if (x_2 == 0)
 {
@@ -123,8 +123,8 @@ byte x_1 = 0; byte x_2 = 0; Obj x_3 = null;
 x_1 = (byte)0;
 x_2 = (byte)1;
 x_3 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 1, x_1);
+lean_ctor_set_uint8(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 1, x_1);
 return x_3;
 }
 }
@@ -682,11 +682,11 @@ x_32 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_31, x_4, x_12);
 if (x_32 == 0)
 {
 byte x_33 = 0; byte x_34 = 0; Obj x_35 = null; byte x_36 = 0; 
-x_33 = lean_ctor_get_uint8_s(x_4, 0);
+x_33 = lean_ctor_get_uint8(x_4, 0);
 x_34 = (byte)1;
 x_35 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_35, 0, x_33);
-lean_ctor_set_uint8_s(x_35, 1, x_34);
+lean_ctor_set_uint8(x_35, 0, x_33);
+lean_ctor_set_uint8(x_35, 1, x_34);
 x_36 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_31, x_35, x_12);
 lean_dec_ref(x_35);
 x_14 = x_36;
@@ -712,10 +712,10 @@ x_15 = (byte)0;
 lean_inc(x_6);
 x_16 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_16, 0, x_6);
-lean_ctor_set_uint8_s(x_16, 0, x_15);
-lean_ctor_set_uint8_s(x_16, 1, x_14);
-lean_ctor_set_uint8_s(x_16, 2, x_15);
-x_17 = lean_ctor_get_uint8_s(x_4, 1);
+lean_ctor_set_uint8(x_16, 8, x_15);
+lean_ctor_set_uint8(x_16, 9, x_14);
+lean_ctor_set_uint8(x_16, 10, x_15);
+x_17 = lean_ctor_get_uint8(x_4, 1);
 x_29 = (byte)(lean_is_exclusive(x_4) ? 0 : 1);
 if (x_29 == 0)
 {
@@ -745,22 +745,22 @@ else
 {
 Obj x_27 = null; 
 x_27 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_27, 1, x_17);
+lean_ctor_set_uint8(x_27, 1, x_17);
 x_22 = x_27;
 goto block_26;
 }
 block_26:
 {
 byte x_23 = 0; 
-lean_ctor_set_uint8_s(x_22, 0, x_14);
+lean_ctor_set_uint8(x_22, 0, x_14);
 x_23 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_21, x_22, x_3);
 lean_dec_ref(x_22);
 if (x_23 == 0)
 {
 Obj x_24 = null; byte x_25 = 0; 
 x_24 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_24, 0, x_14);
-lean_ctor_set_uint8_s(x_24, 1, x_15);
+lean_ctor_set_uint8(x_24, 0, x_14);
+lean_ctor_set_uint8(x_24, 1, x_15);
 x_25 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_21, x_24, x_3);
 lean_dec_ref(x_24);
 lean_dec_ref(x_21);
@@ -837,9 +837,9 @@ lean_inc(x_4);
 lean_dec_ref(x_2);
 x_5 = lean_ctor_get(x_3, 0);
 lean_inc(x_5);
-x_6 = lean_ctor_get_uint8_s(x_3, 0);
-x_7 = lean_ctor_get_uint8_s(x_3, 1);
-x_8 = lean_ctor_get_uint8_s(x_3, 2);
+x_6 = lean_ctor_get_uint8(x_3, 8);
+x_7 = lean_ctor_get_uint8(x_3, 9);
+x_8 = lean_ctor_get_uint8(x_3, 10);
 lean_dec(x_3);
 x_9 = l_List_foldl___at___00List_toString___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__20_spec__26___closed__0;
 x_10 = (lean_string_append(x_1, x_9));
@@ -1005,8 +1005,8 @@ if (x_24 == 0)
 {
 Obj x_25 = null; 
 x_25 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_25, 0, x_24);
-lean_ctor_set_uint8_s(x_25, 1, x_24);
+lean_ctor_set_uint8(x_25, 0, x_24);
+lean_ctor_set_uint8(x_25, 1, x_24);
 x_16 = x_21;
 x_17 = x_23;
 x_18 = x_25;
@@ -1016,8 +1016,8 @@ else
 {
 Obj x_26 = null; 
 x_26 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_26, 0, x_24);
-lean_ctor_set_uint8_s(x_26, 1, x_22);
+lean_ctor_set_uint8(x_26, 0, x_24);
+lean_ctor_set_uint8(x_26, 1, x_22);
 x_16 = x_21;
 x_17 = x_23;
 x_18 = x_26;
@@ -1031,8 +1031,8 @@ lean_inc_n(x_15, 2);
 lean_inc_ref(x_1);
 x_30 = l___private_Lake_CLI_Shake_0__Lake_Shake_isDeclMeta_x27(x_1, x_15);
 x_31 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_31, 0, x_29);
-lean_ctor_set_uint8_s(x_31, 1, x_30);
+lean_ctor_set_uint8(x_31, 0, x_29);
+lean_ctor_set_uint8(x_31, 1, x_30);
 x_32 = M_Lean_Declaration.l_Lean_ConstantInfo_type(x_14);
 lean_inc_ref(x_31);
 lean_inc(x_3);
@@ -1406,7 +1406,7 @@ _start:
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_10 = null; byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; Obj x_17 = null; byte x_18 = 0; byte x_19 = 0; 
 x_17 = lean_ctor_get(x_2, 0);
 lean_inc(x_17);
-x_18 = lean_ctor_get_uint8_s(x_2, 1);
+x_18 = lean_ctor_get_uint8(x_2, 9);
 lean_dec_ref(x_2);
 if (x_18 == 0)
 {
@@ -1480,7 +1480,7 @@ goto block_9;
 block_23:
 {
 byte x_20 = 0; Obj x_21 = null; 
-x_20 = lean_ctor_get_uint8_s(x_3, 1);
+x_20 = lean_ctor_get_uint8(x_3, 9);
 x_21 = M_Init_Data_ToString_Name.l_Lean_Name_toString(x_17, x_1);
 if (x_20 == 0)
 {
@@ -2399,7 +2399,7 @@ goto block_27;
 else
 {
 ulong x_29 = 0; 
-x_29 = lean_ctor_get_uint64_s(x_3, 0);
+x_29 = lean_ctor_get_uint64(x_3, 16);
 x_9 = x_29;
 goto block_27;
 }
@@ -2582,8 +2582,8 @@ Obj x_18 = null; byte x_19 = 0; byte x_20 = 0; Obj x_21 = null; byte x_22 = 0; b
 x_18 = lean_ctor_get(x_17, 0);
 lean_inc(x_18);
 lean_dec_ref(x_17);
-x_19 = lean_ctor_get_uint8_s(x_3, 0);
-x_20 = lean_ctor_get_uint8_s(x_3, 1);
+x_19 = lean_ctor_get_uint8(x_3, 0);
+x_20 = lean_ctor_get_uint8(x_3, 1);
 x_38 = (byte)(lean_is_exclusive(x_3) ? 0 : 1);
 if (x_38 == 0)
 {
@@ -2641,14 +2641,14 @@ else
 {
 Obj x_33 = null; 
 x_33 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_33, 0, x_19);
+lean_ctor_set_uint8(x_33, 0, x_19);
 x_25 = x_33;
 goto block_32;
 }
 block_32:
 {
 Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; 
-lean_ctor_set_uint8_s(x_25, 1, x_23);
+lean_ctor_set_uint8(x_25, 1, x_23);
 x_26 = lean_unsigned_to_nat(1u);
 x_27 = (lean_nat_shiftl(x_26, x_18));
 lean_dec(x_18);
@@ -2801,8 +2801,8 @@ byte x_30 = 0; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = nul
 lean_inc_ref(x_1);
 x_30 = l___private_Lake_CLI_Shake_0__Lake_Shake_isDeclMeta_x27(x_1, x_27);
 x_31 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_31, 0, x_29);
-lean_ctor_set_uint8_s(x_31, 1, x_30);
+lean_ctor_set_uint8(x_31, 0, x_29);
+lean_ctor_set_uint8(x_31, 1, x_30);
 x_32 = M_Lean_Declaration.l_Lean_ConstantInfo_type(x_26);
 lean_inc_ref(x_31);
 lean_inc(x_3);
@@ -2907,8 +2907,8 @@ if (x_21 == 0)
 {
 Obj x_22 = null; 
 x_22 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_22, 0, x_21);
-lean_ctor_set_uint8_s(x_22, 1, x_21);
+lean_ctor_set_uint8(x_22, 0, x_21);
+lean_ctor_set_uint8(x_22, 1, x_21);
 x_13 = x_18;
 x_14 = x_20;
 x_15 = x_22;
@@ -2918,8 +2918,8 @@ else
 {
 Obj x_23 = null; 
 x_23 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_23, 0, x_21);
-lean_ctor_set_uint8_s(x_23, 1, x_19);
+lean_ctor_set_uint8(x_23, 0, x_21);
+lean_ctor_set_uint8(x_23, 1, x_19);
 x_13 = x_18;
 x_14 = x_20;
 x_15 = x_23;
@@ -3450,11 +3450,11 @@ goto block_21;
 block_21:
 {
 byte x_14 = 0; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; 
-x_14 = lean_ctor_get_uint8_s(x_12, 0);
-x_15 = lean_ctor_get_uint8_s(x_12, 1);
+x_14 = lean_ctor_get_uint8(x_12, 8);
+x_15 = lean_ctor_get_uint8(x_12, 9);
 x_16 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_16, 0, x_14);
-lean_ctor_set_uint8_s(x_16, 1, x_15);
+lean_ctor_set_uint8(x_16, 0, x_14);
+lean_ctor_set_uint8(x_16, 1, x_15);
 x_17 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_17, 0, x_13);
 lean_ctor_set(x_17, 1, x_16);
@@ -3657,7 +3657,7 @@ goto block_47;
 else
 {
 ulong x_49 = 0; 
-x_49 = lean_ctor_get_uint64_s(x_2, 0);
+x_49 = lean_ctor_get_uint64(x_2, 16);
 x_9 = x_49;
 goto block_47;
 }
@@ -4191,14 +4191,14 @@ goto block_788;
 block_788:
 {
 byte x_761 = 0; byte x_762 = 0; Obj x_763 = null; 
-x_761 = lean_ctor_get_uint8_s(x_6, 3);
-x_762 = lean_ctor_get_uint8_s(x_6, 7);
+x_761 = lean_ctor_get_uint8(x_6, 19);
+x_762 = lean_ctor_get_uint8(x_6, 23);
 if (x_761 == 0)
 {
 Obj x_785 = null; 
 x_785 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_785, 0, x_761);
-lean_ctor_set_uint8_s(x_785, 1, x_761);
+lean_ctor_set_uint8(x_785, 0, x_761);
+lean_ctor_set_uint8(x_785, 1, x_761);
 x_763 = x_785;
 goto block_784;
 }
@@ -4207,8 +4207,8 @@ else
 byte x_786 = 0; Obj x_787 = null; 
 x_786 = (byte)0;
 x_787 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_787, 0, x_761);
-lean_ctor_set_uint8_s(x_787, 1, x_786);
+lean_ctor_set_uint8(x_787, 0, x_761);
+lean_ctor_set_uint8(x_787, 1, x_786);
 x_763 = x_787;
 goto block_784;
 }
@@ -4410,7 +4410,7 @@ goto block_77;
 block_77:
 {
 byte x_42 = 0; Obj x_43 = null; Obj x_44 = null; 
-x_42 = lean_ctor_get_uint8_s(x_6, 6);
+x_42 = lean_ctor_get_uint8(x_6, 22);
 x_43 = (lean_array_set(x_33, x_3, x_29));
 if (x_41 == 0)
 {
@@ -4951,7 +4951,7 @@ return x_165;
 block_228:
 {
 byte x_187 = 0; 
-x_187 = lean_ctor_get_uint8_s(x_6, 5);
+x_187 = lean_ctor_get_uint8(x_6, 21);
 if (x_187 == 0)
 {
 lean_dec(x_2);
@@ -5485,7 +5485,7 @@ return x_302;
 block_320:
 {
 byte x_319 = 0; 
-x_319 = lean_ctor_get_uint8_s(x_6, 6);
+x_319 = lean_ctor_get_uint8(x_6, 22);
 if (x_319 == 0)
 {
 x_229 = x_308;
@@ -6400,16 +6400,16 @@ block_553:
 {
 Obj x_548 = null; Obj x_549 = null; Obj x_550 = null; Obj x_551 = null; Obj x_552 = null; 
 x_548 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_548, 0, x_545);
-lean_ctor_set_uint8_s(x_548, 1, x_541);
+lean_ctor_set_uint8(x_548, 0, x_545);
+lean_ctor_set_uint8(x_548, 1, x_541);
 x_549 = (lean_nat_shiftl(x_546, x_547));
 lean_dec(x_547);
 lean_inc(x_549);
 x_550 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_544, x_548, x_549);
 lean_dec_ref(x_548);
 x_551 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_551, 0, x_545);
-lean_ctor_set_uint8_s(x_551, 1, x_545);
+lean_ctor_set_uint8(x_551, 0, x_545);
+lean_ctor_set_uint8(x_551, 1, x_545);
 x_552 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_550, x_551, x_549);
 lean_dec_ref(x_551);
 x_405 = x_537;
@@ -7177,7 +7177,7 @@ goto block_687;
 else
 {
 byte x_734 = 0; 
-x_734 = lean_ctor_get_uint8_s(x_6, 3);
+x_734 = lean_ctor_get_uint8(x_6, 19);
 if (x_734 == 0)
 {
 Obj x_735 = null; Obj x_736 = null; Obj x_737 = null; Obj x_738 = null; Obj x_739 = null; Obj x_740 = null; Obj x_741 = null; Obj x_742 = null; Obj x_743 = null; 
@@ -7199,8 +7199,8 @@ x_742 = lean_ctor_get(x_709, 7);
 lean_inc_ref(x_742);
 lean_dec_ref(x_709);
 x_743 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_743, 0, x_734);
-lean_ctor_set_uint8_s(x_743, 1, x_734);
+lean_ctor_set_uint8(x_743, 0, x_734);
+lean_ctor_set_uint8(x_743, 1, x_734);
 x_688 = x_719;
 x_689 = x_721;
 x_690 = x_710;
@@ -7240,8 +7240,8 @@ x_751 = lean_ctor_get(x_709, 7);
 lean_inc_ref(x_751);
 lean_dec_ref(x_709);
 x_752 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_752, 0, x_734);
-lean_ctor_set_uint8_s(x_752, 1, x_721);
+lean_ctor_set_uint8(x_752, 0, x_734);
+lean_ctor_set_uint8(x_752, 1, x_721);
 x_688 = x_719;
 x_689 = x_721;
 x_690 = x_710;
@@ -7990,11 +7990,11 @@ public static Obj l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_set(Obj x_1, Ob
 _start:
 {
 byte x_4 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 0);
 if (x_4 == 0)
 {
 byte x_5 = 0; 
-x_5 = lean_ctor_get_uint8_s(x_2, 1);
+x_5 = lean_ctor_get_uint8(x_2, 1);
 if (x_5 == 0)
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_15 = 0; 
@@ -8103,7 +8103,7 @@ return x_22;
 else
 {
 byte x_28 = 0; 
-x_28 = lean_ctor_get_uint8_s(x_2, 1);
+x_28 = lean_ctor_get_uint8(x_2, 1);
 if (x_28 == 0)
 {
 Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; byte x_38 = 0; 
@@ -8356,9 +8356,9 @@ Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_26 = null; Obj x_27 = n
 x_21 = lean_ctor_get(x_1, 0);
 x_22 = (lean_array_uget_borrowed(x_6, x_8));
 x_48 = lean_ctor_get(x_22, 0);
-x_49 = lean_ctor_get_uint8_s(x_22, 0);
-x_50 = lean_ctor_get_uint8_s(x_22, 1);
-x_51 = lean_ctor_get_uint8_s(x_22, 2);
+x_49 = lean_ctor_get_uint8(x_22, 8);
+x_50 = lean_ctor_get_uint8(x_22, 9);
+x_51 = lean_ctor_get_uint8(x_22, 10);
 x_197 = (byte)0;
 x_208 = M_Lean_Environment.l_Lean_Environment_getModuleIdx_x3f(x_21, x_48);
 if (lean_obj_tag(x_208) == 0)
@@ -8810,7 +8810,7 @@ goto block_159;
 block_181:
 {
 byte x_168 = 0; Obj x_169 = null; byte x_170 = 0; byte x_180 = 0; 
-x_168 = lean_ctor_get_uint8_s(x_167, 1);
+x_168 = lean_ctor_get_uint8(x_167, 1);
 x_180 = (byte)(lean_is_exclusive(x_167) ? 0 : 1);
 if (x_180 == 0)
 {
@@ -8837,14 +8837,14 @@ else
 {
 Obj x_178 = null; 
 x_178 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_178, 1, x_168);
+lean_ctor_set_uint8(x_178, 1, x_168);
 x_171 = x_178;
 goto block_177;
 }
 block_177:
 {
 byte x_172 = 0; 
-lean_ctor_set_uint8_s(x_171, 0, x_2);
+lean_ctor_set_uint8(x_171, 0, x_2);
 x_172 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_3, x_171, x_166);
 lean_dec(x_166);
 lean_dec_ref(x_171);
@@ -8857,7 +8857,7 @@ goto block_17;
 else
 {
 byte x_173 = 0; 
-x_173 = lean_ctor_get_uint8_s(x_4, 7);
+x_173 = lean_ctor_get_uint8(x_4, 23);
 if (x_173 == 0)
 {
 x_23 = x_10;
@@ -8936,7 +8936,7 @@ if (x_190 == 0)
 byte x_191 = 0; 
 lean_dec_ref(x_188);
 lean_dec(x_187);
-x_191 = lean_ctor_get_uint8_s(x_4, 7);
+x_191 = lean_ctor_get_uint8(x_4, 23);
 if (x_191 == 0)
 {
 x_45 = x_10;
@@ -8969,7 +8969,7 @@ goto block_134;
 else
 {
 byte x_195 = 0; 
-x_195 = lean_ctor_get_uint8_s(x_188, 0);
+x_195 = lean_ctor_get_uint8(x_188, 0);
 if (x_195 == 0)
 {
 x_182 = x_187;
@@ -8991,8 +8991,8 @@ goto block_186;
 block_207:
 {
 byte x_199 = 0; byte x_200 = 0; Obj x_201 = null; 
-x_199 = lean_ctor_get_uint8_s(x_4, 0);
-x_200 = lean_ctor_get_uint8_s(x_4, 7);
+x_199 = lean_ctor_get_uint8(x_4, 16);
+x_200 = lean_ctor_get_uint8(x_4, 23);
 x_201 = l___private_Lake_CLI_Shake_0__Lake_Shake_NeedsKind_ofImport(x_22);
 if (x_199 == 0)
 {
@@ -9167,17 +9167,17 @@ goto block_14;
 else
 {
 byte x_20 = 0; byte x_21 = 0; byte x_22 = 0; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; ulong x_28 = 0; ulong x_29 = 0; Obj x_30 = null; 
-x_20 = lean_ctor_get_uint8_s(x_18, 0);
-x_21 = lean_ctor_get_uint8_s(x_18, 1);
+x_20 = lean_ctor_get_uint8(x_18, 0);
+x_21 = lean_ctor_get_uint8(x_18, 1);
 x_22 = (byte)0;
 x_23 = l___private_Lake_CLI_Shake_0__Lake_Shake_NeedsKind_all;
 x_24 = l_Lake_Shake_instInhabitedNeeds_default;
 x_25 = lean_box(0);
 x_26 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_26, 0, x_25);
-lean_ctor_set_uint8_s(x_26, 0, x_22);
-lean_ctor_set_uint8_s(x_26, 1, x_20);
-lean_ctor_set_uint8_s(x_26, 2, x_21);
+lean_ctor_set_uint8(x_26, 8, x_22);
+lean_ctor_set_uint8(x_26, 9, x_20);
+lean_ctor_set_uint8(x_26, 10, x_21);
 x_27 = l___private_Lake_CLI_Shake_0__Lake_Shake_addTransitiveImps(x_24, x_26, x_1, x_2);
 lean_dec_ref(x_26);
 x_28 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__26___closed__0;
@@ -9394,8 +9394,8 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
 return x_2;
 }
 }
@@ -9450,7 +9450,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }
@@ -9947,7 +9947,7 @@ lean_dec_ref(x_101);
 if (lean_obj_tag(x_102) == 0)
 {
 byte x_103 = 0; 
-x_103 = lean_ctor_get_uint8_s(x_4, 3);
+x_103 = lean_ctor_get_uint8(x_4, 19);
 if (x_103 == 0)
 {
 x_26 = x_88;
@@ -9958,10 +9958,10 @@ goto block_87;
 else
 {
 byte x_104 = 0; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; 
-x_104 = lean_ctor_get_uint8_s(x_88, 1);
+x_104 = lean_ctor_get_uint8(x_88, 1);
 x_105 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_105, 0, x_24);
-lean_ctor_set_uint8_s(x_105, 1, x_104);
+lean_ctor_set_uint8(x_105, 0, x_24);
+lean_ctor_set_uint8(x_105, 1, x_104);
 lean_inc(x_89);
 x_106 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_106, 0, x_89);
@@ -10030,7 +10030,7 @@ return x_111;
 block_128:
 {
 byte x_122 = 0; Obj x_123 = null; Obj x_124 = null; Obj x_125 = null; 
-x_122 = lean_ctor_get_uint8_s(x_22, 0);
+x_122 = lean_ctor_get_uint8(x_22, 8);
 lean_inc_ref(x_118);
 x_123 = (lean_string_append(x_118, x_121));
 x_124 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__5___closed__0;
@@ -10061,7 +10061,7 @@ goto block_116;
 block_136:
 {
 byte x_133 = 0; 
-x_133 = lean_ctor_get_uint8_s(x_22, 2);
+x_133 = lean_ctor_get_uint8(x_22, 10);
 if (x_133 == 0)
 {
 Obj x_134 = null; 
@@ -10088,7 +10088,7 @@ goto block_128;
 block_143:
 {
 byte x_138 = 0; Obj x_139 = null; Obj x_140 = null; 
-x_138 = lean_ctor_get_uint8_s(x_22, 1);
+x_138 = lean_ctor_get_uint8(x_22, 9);
 x_139 = l___private_Lake_CLI_Shake_0__Lake_Shake_NeedsKind_ofImport(x_22);
 x_140 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__18_spec__22___closed__6;
 if (x_138 == 0)
@@ -10158,8 +10158,8 @@ byte x_1 = 0; byte x_2 = 0; Obj x_3 = null;
 x_1 = (byte)1;
 x_2 = (byte)0;
 x_3 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 1, x_1);
+lean_ctor_set_uint8(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 1, x_1);
 return x_3;
 }
 }
@@ -11875,9 +11875,9 @@ byte x_7 = 0; Obj x_8 = null;
 x_7 = (byte)0;
 x_8 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_8, 0, x_4);
-lean_ctor_set_uint8_s(x_8, 0, x_5);
-lean_ctor_set_uint8_s(x_8, 1, x_6);
-lean_ctor_set_uint8_s(x_8, 2, x_7);
+lean_ctor_set_uint8(x_8, 8, x_5);
+lean_ctor_set_uint8(x_8, 9, x_6);
+lean_ctor_set_uint8(x_8, 10, x_7);
 return x_8;
 }
 else
@@ -11886,9 +11886,9 @@ Obj x_9 = null;
 lean_dec_ref(x_2);
 x_9 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_9, 0, x_4);
-lean_ctor_set_uint8_s(x_9, 0, x_5);
-lean_ctor_set_uint8_s(x_9, 1, x_6);
-lean_ctor_set_uint8_s(x_9, 2, x_3);
+lean_ctor_set_uint8(x_9, 8, x_5);
+lean_ctor_set_uint8(x_9, 9, x_6);
+lean_ctor_set_uint8(x_9, 10, x_3);
 return x_9;
 }
 }
@@ -12747,7 +12747,7 @@ lean_dec_ref(x_101);
 if (lean_obj_tag(x_102) == 0)
 {
 byte x_103 = 0; 
-x_103 = lean_ctor_get_uint8_s(x_4, 3);
+x_103 = lean_ctor_get_uint8(x_4, 19);
 if (x_103 == 0)
 {
 x_25 = x_88;
@@ -12758,10 +12758,10 @@ goto block_86;
 else
 {
 byte x_104 = 0; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; 
-x_104 = lean_ctor_get_uint8_s(x_88, 1);
+x_104 = lean_ctor_get_uint8(x_88, 1);
 x_105 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_105, 0, x_87);
-lean_ctor_set_uint8_s(x_105, 1, x_104);
+lean_ctor_set_uint8(x_105, 0, x_87);
+lean_ctor_set_uint8(x_105, 1, x_104);
 lean_inc(x_90);
 x_106 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_106, 0, x_90);
@@ -12830,7 +12830,7 @@ return x_111;
 block_128:
 {
 byte x_122 = 0; Obj x_123 = null; Obj x_124 = null; Obj x_125 = null; 
-x_122 = lean_ctor_get_uint8_s(x_22, 0);
+x_122 = lean_ctor_get_uint8(x_22, 8);
 lean_inc_ref(x_120);
 x_123 = (lean_string_append(x_120, x_121));
 x_124 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__5___closed__0;
@@ -12861,7 +12861,7 @@ goto block_116;
 block_136:
 {
 byte x_133 = 0; 
-x_133 = lean_ctor_get_uint8_s(x_22, 2);
+x_133 = lean_ctor_get_uint8(x_22, 10);
 if (x_133 == 0)
 {
 Obj x_134 = null; 
@@ -12888,7 +12888,7 @@ goto block_128;
 block_143:
 {
 byte x_138 = 0; Obj x_139 = null; Obj x_140 = null; 
-x_138 = lean_ctor_get_uint8_s(x_22, 1);
+x_138 = lean_ctor_get_uint8(x_22, 9);
 x_139 = l___private_Lake_CLI_Shake_0__Lake_Shake_NeedsKind_ofImport(x_22);
 x_140 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__18_spec__22___closed__6;
 if (x_138 == 0)
@@ -13360,8 +13360,8 @@ x_53 = lean_ctor_get(x_1, 0);
 x_54 = lean_ctor_get(x_1, 1);
 x_55 = (lean_array_uget(x_6, x_8));
 x_56 = lean_ctor_get(x_55, 0);
-x_57 = lean_ctor_get_uint8_s(x_55, 0);
-x_58 = lean_ctor_get_uint8_s(x_55, 1);
+x_57 = lean_ctor_get_uint8(x_55, 8);
+x_58 = lean_ctor_get_uint8(x_55, 9);
 x_59 = l_Lake_Shake_instInhabitedNeeds_default;
 x_147 = M_Lean_Environment.l_Lean_Environment_getModuleIdx_x3f(x_53, x_56);
 if (lean_obj_tag(x_147) == 0)
@@ -13726,16 +13726,16 @@ else
 Obj x_142 = null; 
 x_142 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_142, 0, x_56);
-lean_ctor_set_uint8_s(x_142, 0, x_57);
-lean_ctor_set_uint8_s(x_142, 1, x_58);
+lean_ctor_set_uint8(x_142, 8, x_57);
+lean_ctor_set_uint8(x_142, 9, x_58);
 x_128 = x_142;
 goto block_141;
 }
 block_141:
 {
 byte x_129 = 0; Obj x_130 = null; byte x_131 = 0; byte x_140 = 0; 
-lean_ctor_set_uint8_s(x_128, 2, x_57);
-x_129 = lean_ctor_get_uint8_s(x_120, 0);
+lean_ctor_set_uint8(x_128, 10, x_57);
+x_129 = lean_ctor_get_uint8(x_120, 0);
 x_140 = (byte)(lean_is_exclusive(x_120) ? 0 : 1);
 if (x_140 == 0)
 {
@@ -13753,7 +13753,7 @@ goto block_139;
 block_139:
 {
 byte x_132 = 0; Obj x_133 = null; 
-x_132 = lean_ctor_get_uint8_s(x_4, 7);
+x_132 = lean_ctor_get_uint8(x_4, 23);
 if (x_131 == 0)
 {
 x_133 = x_130;
@@ -13763,13 +13763,13 @@ else
 {
 Obj x_138 = null; 
 x_138 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_138, 0, x_129);
+lean_ctor_set_uint8(x_138, 0, x_129);
 x_133 = x_138;
 goto block_137;
 }
 block_137:
 {
-lean_ctor_set_uint8_s(x_133, 1, x_57);
+lean_ctor_set_uint8(x_133, 1, x_57);
 if (x_132 == 0)
 {
 lean_dec(x_56);
@@ -13977,8 +13977,8 @@ if (x_59 == 0)
 {
 Obj x_60 = null; byte x_61 = 0; 
 x_60 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_60, 0, x_5);
-lean_ctor_set_uint8_s(x_60, 1, x_36);
+lean_ctor_set_uint8(x_60, 0, x_5);
+lean_ctor_set_uint8(x_60, 1, x_36);
 x_61 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_30, x_60, x_1);
 lean_dec_ref(x_60);
 if (x_61 == 0)
@@ -14002,8 +14002,8 @@ block_53:
 {
 Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; 
 x_40 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_40, 0, x_39);
-lean_ctor_set_uint8_s(x_40, 1, x_36);
+lean_ctor_set_uint8(x_40, 0, x_39);
+lean_ctor_set_uint8(x_40, 1, x_36);
 x_41 = lean_unsigned_to_nat(1u);
 x_42 = (lean_nat_shiftl(x_41, x_1));
 x_43 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_21, x_40, x_42);
@@ -14030,7 +14030,7 @@ goto block_17;
 block_57:
 {
 byte x_55 = 0; 
-x_55 = lean_ctor_get_uint8_s(x_33, 0);
+x_55 = lean_ctor_get_uint8(x_33, 0);
 if (x_55 == 0)
 {
 x_38 = x_54;
@@ -14040,7 +14040,7 @@ goto block_53;
 else
 {
 byte x_56 = 0; 
-x_56 = lean_ctor_get_uint8_s(x_3, 3);
+x_56 = lean_ctor_get_uint8(x_3, 19);
 x_38 = x_54;
 x_39 = x_56;
 goto block_53;
@@ -14120,11 +14120,11 @@ goto block_18;
 block_18:
 {
 byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; ulong x_15 = 0; ulong x_16 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_7, 0);
-x_10 = lean_ctor_get_uint8_s(x_7, 1);
+x_9 = lean_ctor_get_uint8(x_7, 8);
+x_10 = lean_ctor_get_uint8(x_7, 9);
 x_11 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_11, 0, x_9);
-lean_ctor_set_uint8_s(x_11, 1, x_10);
+lean_ctor_set_uint8(x_11, 0, x_9);
+lean_ctor_set_uint8(x_11, 1, x_10);
 x_12 = lean_unsigned_to_nat(1u);
 x_13 = (lean_nat_shiftl(x_12, x_8));
 lean_dec(x_8);
@@ -14504,7 +14504,7 @@ lean_ctor_set(x_6, 1, x_5);
 x_7 = (byte)0;
 x_8 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_8, 0, x_6);
-lean_ctor_set_uint8_s(x_8, 0, x_7);
+lean_ctor_set_uint8(x_8, 8, x_7);
 x_9 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_9, 0, x_2);
 lean_ctor_set(x_9, 1, x_8);
@@ -14522,7 +14522,7 @@ lean_ctor_set(x_15, 0, x_10);
 lean_ctor_set(x_15, 1, x_14);
 x_16 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_16, 0, x_15);
-lean_ctor_set_uint8_s(x_16, 0, x_7);
+lean_ctor_set_uint8(x_16, 8, x_7);
 return x_16;
 }
 }
@@ -14841,7 +14841,7 @@ lean_ctor_set(x_10, 1, x_9);
 x_11 = (byte)0;
 x_12 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_12, 0, x_10);
-lean_ctor_set_uint8_s(x_12, 0, x_11);
+lean_ctor_set_uint8(x_12, 8, x_11);
 x_13 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_13, 0, x_7);
 lean_ctor_set(x_13, 1, x_12);
@@ -14867,7 +14867,7 @@ lean_ctor_set(x_23, 0, x_21);
 lean_ctor_set(x_23, 1, x_22);
 x_24 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_24, 0, x_23);
-lean_ctor_set_uint8_s(x_24, 0, x_11);
+lean_ctor_set_uint8(x_24, 8, x_11);
 x_25 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_25, 0, x_20);
 lean_ctor_set(x_25, 1, x_24);
@@ -14891,7 +14891,7 @@ lean_ctor_set(x_33, 0, x_31);
 lean_ctor_set(x_33, 1, x_32);
 x_34 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_34, 0, x_33);
-lean_ctor_set_uint8_s(x_34, 0, x_11);
+lean_ctor_set_uint8(x_34, 8, x_11);
 x_35 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_35, 0, x_30);
 lean_ctor_set(x_35, 1, x_34);
@@ -14915,7 +14915,7 @@ lean_ctor_set(x_43, 0, x_41);
 lean_ctor_set(x_43, 1, x_42);
 x_44 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_44, 0, x_43);
-lean_ctor_set_uint8_s(x_44, 0, x_11);
+lean_ctor_set_uint8(x_44, 8, x_11);
 x_45 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_45, 0, x_40);
 lean_ctor_set(x_45, 1, x_44);
@@ -14933,7 +14933,7 @@ lean_ctor_set(x_51, 0, x_46);
 lean_ctor_set(x_51, 1, x_50);
 x_52 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_52, 0, x_51);
-lean_ctor_set_uint8_s(x_52, 0, x_11);
+lean_ctor_set_uint8(x_52, 8, x_11);
 return x_52;
 }
 }
@@ -16424,7 +16424,7 @@ public static Obj l_Lake_Shake_run(Obj x_1, Obj x_2) {
 _start:
 {
 Obj x_4 = null; byte x_23 = 0; Obj x_24 = null; Obj x_25 = null; ulong x_26 = 0; ulong x_27 = 0; Obj x_28 = null; Obj x_29 = null; byte x_30 = 0; Obj x_31 = null; byte x_32 = 0; byte x_33 = 0; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; 
-x_23 = lean_ctor_get_uint8_s(x_1, 8);
+x_23 = lean_ctor_get_uint8(x_1, 24);
 x_24 = lean_ctor_get(x_1, 0);
 x_25 = l_Lake_Shake_run___closed__1;
 x_26 = (ulong)(lean_array_size(x_24));
@@ -17422,10 +17422,10 @@ public static byte l___private_Lake_CLI_Shake_0__Lake_Shake_instBEqNeedsKind_beq
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
-x_4 = lean_ctor_get_uint8_s(x_1, 1);
-x_5 = lean_ctor_get_uint8_s(x_2, 0);
-x_6 = lean_ctor_get_uint8_s(x_2, 1);
+x_3 = lean_ctor_get_uint8(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 1);
+x_5 = lean_ctor_get_uint8(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 1);
 if (x_5 == 0)
 {
 if (x_3 == 0)
@@ -17881,9 +17881,9 @@ public static Obj l___private_Lake_CLI_Shake_0__Lake_Shake_addTransitiveImps(Obj
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; byte x_20 = 0; byte x_21 = 0; byte x_22 = 0; Obj x_23 = null; Obj x_36 = null; Obj x_49 = null; 
-x_20 = lean_ctor_get_uint8_s(x_2, 0);
-x_21 = lean_ctor_get_uint8_s(x_2, 1);
-x_22 = lean_ctor_get_uint8_s(x_2, 2);
+x_20 = lean_ctor_get_uint8(x_2, 8);
+x_21 = lean_ctor_get_uint8(x_2, 9);
+x_22 = lean_ctor_get_uint8(x_2, 10);
 if (x_21 == 0)
 {
 x_49 = x_1;
@@ -17895,8 +17895,8 @@ if (x_22 == 0)
 {
 Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; 
 x_62 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_62, 0, x_21);
-lean_ctor_set_uint8_s(x_62, 1, x_22);
+lean_ctor_set_uint8(x_62, 0, x_21);
+lean_ctor_set_uint8(x_62, 1, x_22);
 x_63 = lean_unsigned_to_nat(1u);
 x_64 = (lean_nat_shiftl(x_63, x_3));
 x_65 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_1, x_62, x_64);
@@ -17918,11 +17918,11 @@ if (x_7 == 0)
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
 x_9 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_9, 0, x_7);
-lean_ctor_set_uint8_s(x_9, 1, x_6);
+lean_ctor_set_uint8(x_9, 0, x_7);
+lean_ctor_set_uint8(x_9, 1, x_6);
 x_10 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_10, 0, x_6);
-lean_ctor_set_uint8_s(x_10, 1, x_6);
+lean_ctor_set_uint8(x_10, 0, x_6);
+lean_ctor_set_uint8(x_10, 1, x_6);
 x_11 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(x_4, x_10);
 lean_dec_ref(x_10);
 x_12 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_8, x_9, x_11);
@@ -17933,11 +17933,11 @@ else
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
 x_13 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_13, 0, x_5);
-lean_ctor_set_uint8_s(x_13, 1, x_7);
+lean_ctor_set_uint8(x_13, 0, x_5);
+lean_ctor_set_uint8(x_13, 1, x_7);
 x_14 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_14, 0, x_7);
-lean_ctor_set_uint8_s(x_14, 1, x_7);
+lean_ctor_set_uint8(x_14, 0, x_7);
+lean_ctor_set_uint8(x_14, 1, x_7);
 x_15 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(x_4, x_14);
 lean_dec_ref(x_14);
 x_16 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(x_4, x_13);
@@ -17967,19 +17967,19 @@ else
 {
 Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; 
 x_25 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_25, 0, x_21);
-lean_ctor_set_uint8_s(x_25, 1, x_22);
+lean_ctor_set_uint8(x_25, 0, x_21);
+lean_ctor_set_uint8(x_25, 1, x_22);
 x_26 = lean_unsigned_to_nat(1u);
 x_27 = (lean_nat_shiftl(x_26, x_3));
 x_28 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_23, x_25, x_27);
 x_29 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_29, 0, x_22);
-lean_ctor_set_uint8_s(x_29, 1, x_21);
+lean_ctor_set_uint8(x_29, 0, x_22);
+lean_ctor_set_uint8(x_29, 1, x_21);
 x_30 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(x_4, x_29);
 lean_dec_ref(x_29);
 x_31 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_31, 0, x_22);
-lean_ctor_set_uint8_s(x_31, 1, x_22);
+lean_ctor_set_uint8(x_31, 0, x_22);
+lean_ctor_set_uint8(x_31, 1, x_22);
 x_32 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(x_4, x_31);
 lean_dec_ref(x_31);
 x_33 = (lean_nat_lor(x_30, x_32));
@@ -18010,8 +18010,8 @@ else
 {
 Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; 
 x_37 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_37, 0, x_21);
-lean_ctor_set_uint8_s(x_37, 1, x_21);
+lean_ctor_set_uint8(x_37, 0, x_21);
+lean_ctor_set_uint8(x_37, 1, x_21);
 x_38 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(x_4, x_37);
 lean_inc(x_38);
 x_39 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_36, x_37, x_38);
@@ -18030,8 +18030,8 @@ x_41 = (lean_nat_shiftl(x_40, x_3));
 x_42 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_39, x_37, x_41);
 x_43 = (byte)0;
 x_44 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_44, 0, x_22);
-lean_ctor_set_uint8_s(x_44, 1, x_43);
+lean_ctor_set_uint8(x_44, 0, x_22);
+lean_ctor_set_uint8(x_44, 1, x_43);
 x_45 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(x_4, x_44);
 lean_dec_ref(x_44);
 x_46 = (lean_nat_lor(x_45, x_38));
@@ -18053,14 +18053,14 @@ if (x_22 == 0)
 byte x_50 = 0; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; 
 x_50 = (byte)1;
 x_51 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_51, 0, x_22);
-lean_ctor_set_uint8_s(x_51, 1, x_22);
+lean_ctor_set_uint8(x_51, 0, x_22);
+lean_ctor_set_uint8(x_51, 1, x_22);
 x_52 = lean_unsigned_to_nat(1u);
 x_53 = (lean_nat_shiftl(x_52, x_3));
 x_54 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_49, x_51, x_53);
 x_55 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_55, 0, x_50);
-lean_ctor_set_uint8_s(x_55, 1, x_22);
+lean_ctor_set_uint8(x_55, 0, x_50);
+lean_ctor_set_uint8(x_55, 1, x_22);
 x_56 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(x_4, x_55);
 lean_dec_ref(x_55);
 lean_inc(x_56);
@@ -18181,8 +18181,8 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)0;
 x_2 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
 return x_2;
 }
 }
@@ -18518,11 +18518,11 @@ goto block_51;
 else
 {
 byte x_55 = 0; byte x_56 = 0; Obj x_57 = null; byte x_58 = 0; 
-x_55 = lean_ctor_get_uint8_s(x_52, 0);
-x_56 = lean_ctor_get_uint8_s(x_52, 1);
+x_55 = lean_ctor_get_uint8(x_52, 0);
+x_56 = lean_ctor_get_uint8(x_52, 1);
 x_57 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_57, 0, x_2);
-lean_ctor_set_uint8_s(x_57, 1, x_56);
+lean_ctor_set_uint8(x_57, 0, x_2);
+lean_ctor_set_uint8(x_57, 1, x_56);
 x_58 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_35, x_57, x_1);
 if (x_58 == 0)
 {
@@ -18534,18 +18534,18 @@ lean_del_object(x_27);
 x_59 = lean_ctor_get(x_3, 1);
 x_60 = lean_ctor_get(x_3, 2);
 x_61 = lean_ctor_get(x_3, 7);
-x_62 = lean_ctor_get_uint8_s(x_5, 1);
-x_63 = lean_ctor_get_uint8_s(x_5, 3);
-x_64 = lean_ctor_get_uint8_s(x_5, 7);
+x_62 = lean_ctor_get_uint8(x_5, 17);
+x_63 = lean_ctor_get_uint8(x_5, 19);
+x_64 = lean_ctor_get_uint8(x_5, 23);
 x_65 = l_Lake_Shake_instInhabitedNeeds_default;
 x_171 = lean_box(0);
 x_203 = (lean_array_get_borrowed(x_171, x_61, x_1));
 lean_inc(x_203);
 x_235 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_235, 0, x_203);
-lean_ctor_set_uint8_s(x_235, 0, x_58);
-lean_ctor_set_uint8_s(x_235, 1, x_55);
-lean_ctor_set_uint8_s(x_235, 2, x_56);
+lean_ctor_set_uint8(x_235, 8, x_58);
+lean_ctor_set_uint8(x_235, 9, x_55);
+lean_ctor_set_uint8(x_235, 10, x_56);
 if (x_64 == 0)
 {
 x_236 = x_12;
@@ -18885,9 +18885,9 @@ else
 {
 Obj x_177 = null; byte x_178 = 0; byte x_179 = 0; byte x_180 = 0; Obj x_181 = null; 
 x_177 = lean_ctor_get(x_174, 0);
-x_178 = lean_ctor_get_uint8_s(x_174, 0);
-x_179 = lean_ctor_get_uint8_s(x_174, 1);
-x_180 = lean_ctor_get_uint8_s(x_174, 2);
+x_178 = lean_ctor_get_uint8(x_174, 8);
+x_179 = lean_ctor_get_uint8(x_174, 9);
+x_180 = lean_ctor_get_uint8(x_174, 10);
 lean_inc_ref(x_173);
 x_181 = l___private_Lake_CLI_Shake_0__Lake_Shake_visitModule_tryPrefix(x_6, x_3, x_1, x_173, x_177);
 if (lean_obj_tag(x_181) == 1)
@@ -18931,9 +18931,9 @@ else
 Obj x_191 = null; 
 x_191 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_191, 0, x_185);
-lean_ctor_set_uint8_s(x_191, 0, x_178);
-lean_ctor_set_uint8_s(x_191, 1, x_179);
-lean_ctor_set_uint8_s(x_191, 2, x_180);
+lean_ctor_set_uint8(x_191, 8, x_178);
+lean_ctor_set_uint8(x_191, 9, x_179);
+lean_ctor_set_uint8(x_191, 10, x_180);
 x_186 = x_191;
 goto block_190;
 }
@@ -19112,9 +19112,9 @@ Obj x_229 = null;
 lean_inc(x_203);
 x_229 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_229, 0, x_203);
-lean_ctor_set_uint8_s(x_229, 0, x_58);
-lean_ctor_set_uint8_s(x_229, 1, x_2);
-lean_ctor_set_uint8_s(x_229, 2, x_56);
+lean_ctor_set_uint8(x_229, 8, x_58);
+lean_ctor_set_uint8(x_229, 9, x_2);
+lean_ctor_set_uint8(x_229, 10, x_56);
 if (x_64 == 0)
 {
 x_197 = x_229;
@@ -19175,8 +19175,8 @@ if (x_238 == 0)
 {
 Obj x_239 = null; byte x_240 = 0; 
 x_239 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_239, 0, x_2);
-lean_ctor_set_uint8_s(x_239, 1, x_2);
+lean_ctor_set_uint8(x_239, 0, x_2);
+lean_ctor_set_uint8(x_239, 1, x_2);
 x_240 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_237, x_239, x_1);
 lean_dec_ref(x_239);
 if (x_240 == 0)
@@ -19759,7 +19759,7 @@ lean_dec_ref(x_102);
 if (lean_obj_tag(x_103) == 0)
 {
 byte x_104 = 0; 
-x_104 = lean_ctor_get_uint8_s(x_5, 3);
+x_104 = lean_ctor_get_uint8(x_5, 19);
 if (x_104 == 0)
 {
 x_27 = x_90;
@@ -19770,10 +19770,10 @@ goto block_88;
 else
 {
 byte x_105 = 0; Obj x_106 = null; Obj x_107 = null; Obj x_108 = null; 
-x_105 = lean_ctor_get_uint8_s(x_90, 1);
+x_105 = lean_ctor_get_uint8(x_90, 1);
 x_106 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_106, 0, x_24);
-lean_ctor_set_uint8_s(x_106, 1, x_105);
+lean_ctor_set_uint8(x_106, 0, x_24);
+lean_ctor_set_uint8(x_106, 1, x_105);
 lean_inc(x_92);
 x_107 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_107, 0, x_92);
@@ -19842,7 +19842,7 @@ return x_112;
 block_129:
 {
 byte x_123 = 0; Obj x_124 = null; Obj x_125 = null; Obj x_126 = null; 
-x_123 = lean_ctor_get_uint8_s(x_23, 0);
+x_123 = lean_ctor_get_uint8(x_23, 8);
 lean_inc_ref(x_118);
 x_124 = (lean_string_append(x_118, x_122));
 x_125 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__5___closed__0;
@@ -19873,7 +19873,7 @@ goto block_117;
 block_137:
 {
 byte x_134 = 0; 
-x_134 = lean_ctor_get_uint8_s(x_23, 2);
+x_134 = lean_ctor_get_uint8(x_23, 10);
 if (x_134 == 0)
 {
 Obj x_135 = null; 
@@ -19900,7 +19900,7 @@ goto block_129;
 block_144:
 {
 byte x_139 = 0; Obj x_140 = null; Obj x_141 = null; 
-x_139 = lean_ctor_get_uint8_s(x_23, 1);
+x_139 = lean_ctor_get_uint8(x_23, 9);
 x_140 = l___private_Lake_CLI_Shake_0__Lake_Shake_NeedsKind_ofImport(x_23);
 x_141 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__18_spec__22___closed__6;
 if (x_139 == 0)
@@ -20050,7 +20050,7 @@ x_22 = l_Std_DHashMap_Internal_Raw_u2080_contains___at___00Lake_Shake_run_spec__
 if (x_22 == 0)
 {
 byte x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_39 = null; Obj x_40 = null; Obj x_48 = null; 
-x_23 = lean_ctor_get_uint8_s(x_21, 1);
+x_23 = lean_ctor_get_uint8(x_21, 9);
 x_24 = lean_box(0);
 lean_inc(x_21);
 x_25 = l_Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00Lake_Shake_run_spec__7___redArg(x_18, x_21, x_24);
@@ -20107,7 +20107,7 @@ goto block_13;
 block_47:
 {
 byte x_41 = 0; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; 
-x_41 = lean_ctor_get_uint8_s(x_21, 0);
+x_41 = lean_ctor_get_uint8(x_21, 8);
 lean_inc_ref(x_39);
 x_42 = (lean_string_append(x_39, x_40));
 x_43 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__5___closed__0;
@@ -20132,7 +20132,7 @@ goto block_38;
 block_52:
 {
 byte x_49 = 0; 
-x_49 = lean_ctor_get_uint8_s(x_21, 2);
+x_49 = lean_ctor_get_uint8(x_21, 10);
 if (x_49 == 0)
 {
 Obj x_50 = null; 
@@ -20372,7 +20372,7 @@ _start:
 Obj x_2 = null; byte x_3 = 0; byte x_4 = 0; 
 x_2 = lean_ctor_get(x_1, 0);
 lean_inc(x_2);
-x_3 = lean_ctor_get_uint8_s(x_1, 1);
+x_3 = lean_ctor_get_uint8(x_1, 9);
 lean_dec_ref(x_1);
 if (x_3 == 0)
 {
@@ -20555,8 +20555,8 @@ public static Obj l___private_Lake_CLI_Shake_0__Lake_Shake_instReprNeedsKind_rep
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
-x_3 = lean_ctor_get_uint8_s(x_1, 1);
+x_2 = lean_ctor_get_uint8(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 1);
 x_4 = l___private_Lake_CLI_Shake_0__Lake_Shake_instReprBitset_repr___redArg___closed__5;
 x_5 = l___private_Lake_CLI_Shake_0__Lake_Shake_instReprNeedsKind_repr___redArg___closed__3;
 x_6 = l___private_Lake_CLI_Shake_0__Lake_Shake_instReprNeedsKind_repr___redArg___closed__4;
@@ -20567,7 +20567,7 @@ lean_ctor_set(x_8, 1, x_7);
 x_9 = (byte)0;
 x_10 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_10, 0, x_8);
-lean_ctor_set_uint8_s(x_10, 0, x_9);
+lean_ctor_set_uint8(x_10, 8, x_9);
 x_11 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_11, 0, x_5);
 lean_ctor_set(x_11, 1, x_10);
@@ -20593,7 +20593,7 @@ lean_ctor_set(x_21, 0, x_19);
 lean_ctor_set(x_21, 1, x_20);
 x_22 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_22, 0, x_21);
-lean_ctor_set_uint8_s(x_22, 0, x_9);
+lean_ctor_set_uint8(x_22, 8, x_9);
 x_23 = lean_alloc_ctor(5, 2, 0);
 lean_ctor_set(x_23, 0, x_18);
 lean_ctor_set(x_23, 1, x_22);
@@ -20611,7 +20611,7 @@ lean_ctor_set(x_29, 0, x_24);
 lean_ctor_set(x_29, 1, x_28);
 x_30 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_30, 0, x_29);
-lean_ctor_set_uint8_s(x_30, 0, x_9);
+lean_ctor_set_uint8(x_30, 8, x_9);
 return x_30;
 }
 }
@@ -20998,7 +20998,7 @@ goto block_19;
 else
 {
 ulong x_21 = 0; 
-x_21 = lean_ctor_get_uint64_s(x_2, 0);
+x_21 = lean_ctor_get_uint64(x_2, 16);
 x_5 = x_21;
 goto block_19;
 }
@@ -21084,7 +21084,7 @@ goto block_44;
 else
 {
 ulong x_46 = 0; 
-x_46 = lean_ctor_get_uint64_s(x_2, 0);
+x_46 = lean_ctor_get_uint64(x_2, 16);
 x_7 = x_46;
 goto block_44;
 }
@@ -21490,9 +21490,9 @@ lean_inc(x_4);
 lean_dec_ref(x_1);
 x_5 = lean_ctor_get(x_4, 0);
 lean_inc(x_5);
-x_6 = lean_ctor_get_uint8_s(x_4, 0);
-x_7 = lean_ctor_get_uint8_s(x_4, 1);
-x_8 = lean_ctor_get_uint8_s(x_4, 2);
+x_6 = lean_ctor_get_uint8(x_4, 8);
+x_7 = lean_ctor_get_uint8(x_4, 9);
+x_8 = lean_ctor_get_uint8(x_4, 10);
 lean_dec(x_4);
 x_9 = l_List_toString___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__20___closed__1;
 if (x_7 == 0)
@@ -21576,9 +21576,9 @@ lean_inc(x_34);
 lean_dec_ref(x_1);
 x_35 = lean_ctor_get(x_34, 0);
 lean_inc(x_35);
-x_36 = lean_ctor_get_uint8_s(x_34, 0);
-x_37 = lean_ctor_get_uint8_s(x_34, 1);
-x_38 = lean_ctor_get_uint8_s(x_34, 2);
+x_36 = lean_ctor_get_uint8(x_34, 8);
+x_37 = lean_ctor_get_uint8(x_34, 9);
+x_38 = lean_ctor_get_uint8(x_34, 10);
 lean_dec(x_34);
 x_39 = l_List_toString___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__20___closed__1;
 if (x_37 == 0)
@@ -21819,46 +21819,46 @@ public static Obj l___private_Lake_CLI_Shake_0__Lake_Shake_NeedsKind_ofImport(Ob
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 1);
+x_2 = lean_ctor_get_uint8(x_1, 9);
 if (x_2 == 0)
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_1, 2);
+x_3 = lean_ctor_get_uint8(x_1, 10);
 if (x_3 == 0)
 {
 Obj x_4 = null; 
 x_4 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_4, 0, x_3);
-lean_ctor_set_uint8_s(x_4, 1, x_3);
+lean_ctor_set_uint8(x_4, 0, x_3);
+lean_ctor_set_uint8(x_4, 1, x_3);
 return x_4;
 }
 else
 {
 Obj x_5 = null; 
 x_5 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_5, 0, x_2);
-lean_ctor_set_uint8_s(x_5, 1, x_3);
+lean_ctor_set_uint8(x_5, 0, x_2);
+lean_ctor_set_uint8(x_5, 1, x_3);
 return x_5;
 }
 }
 else
 {
 byte x_6 = 0; 
-x_6 = lean_ctor_get_uint8_s(x_1, 2);
+x_6 = lean_ctor_get_uint8(x_1, 10);
 if (x_6 == 0)
 {
 Obj x_7 = null; 
 x_7 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_7, 0, x_2);
-lean_ctor_set_uint8_s(x_7, 1, x_6);
+lean_ctor_set_uint8(x_7, 0, x_2);
+lean_ctor_set_uint8(x_7, 1, x_6);
 return x_7;
 }
 else
 {
 Obj x_8 = null; 
 x_8 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_8, 0, x_6);
-lean_ctor_set_uint8_s(x_8, 1, x_6);
+lean_ctor_set_uint8(x_8, 0, x_6);
+lean_ctor_set_uint8(x_8, 1, x_6);
 return x_8;
 }
 }
@@ -22620,8 +22620,8 @@ else
 Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; byte x_39 = 0; Obj x_40 = null; byte x_41 = 0; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_57 = null; Obj x_58 = null; byte x_59 = 0; Obj x_60 = null; Obj x_79 = null; byte x_80 = 0; Obj x_81 = null; byte x_95 = 0; 
 x_36 = lean_ctor_get(x_2, 1);
 x_37 = lean_ctor_get(x_2, 7);
-x_38 = lean_ctor_get_uint8_s(x_28, 0);
-x_39 = lean_ctor_get_uint8_s(x_28, 1);
+x_38 = lean_ctor_get_uint8(x_28, 0);
+x_39 = lean_ctor_get_uint8(x_28, 1);
 x_40 = lean_box(0);
 x_41 = (byte)0;
 x_42 = l_Lake_Shake_instInhabitedNeeds_default;
@@ -22629,9 +22629,9 @@ x_43 = (lean_array_get_borrowed(x_40, x_37, x_1));
 lean_inc(x_43);
 x_44 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_44, 0, x_43);
-lean_ctor_set_uint8_s(x_44, 0, x_41);
-lean_ctor_set_uint8_s(x_44, 1, x_38);
-lean_ctor_set_uint8_s(x_44, 2, x_39);
+lean_ctor_set_uint8(x_44, 8, x_41);
+lean_ctor_set_uint8(x_44, 9, x_38);
+lean_ctor_set_uint8(x_44, 10, x_39);
 x_95 = l_Array_contains___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__4(x_25, x_44);
 if (x_95 == 0)
 {
@@ -22647,8 +22647,8 @@ if (x_96 == 0)
 {
 Obj x_97 = null; byte x_98 = 0; 
 x_97 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_97, 0, x_4);
-lean_ctor_set_uint8_s(x_97, 1, x_39);
+lean_ctor_set_uint8(x_97, 0, x_4);
+lean_ctor_set_uint8(x_97, 1, x_39);
 x_98 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_has(x_24, x_97, x_1);
 lean_dec_ref(x_97);
 if (x_98 == 0)
@@ -22815,7 +22815,7 @@ goto block_78;
 block_89:
 {
 byte x_85 = 0; 
-x_85 = lean_ctor_get_uint8_s(x_3, 7);
+x_85 = lean_ctor_get_uint8(x_3, 23);
 if (x_85 == 0)
 {
 x_45 = x_9;
@@ -23524,7 +23524,7 @@ else
 {
 Obj x_29 = null; byte x_30 = 0; byte x_36 = 0; 
 x_29 = (lean_array_fget_borrowed(x_3, x_5));
-x_36 = lean_ctor_get_uint8_s(x_29, 1);
+x_36 = lean_ctor_get_uint8(x_29, 9);
 if (x_36 == 0)
 {
 x_30 = x_20;
@@ -23541,7 +23541,7 @@ block_35:
 {
 Obj x_31 = null; byte x_32 = 0; Obj x_33 = null; 
 x_31 = lean_ctor_get(x_29, 0);
-x_32 = lean_ctor_get_uint8_s(x_2, 1);
+x_32 = lean_ctor_get_uint8(x_2, 9);
 lean_inc(x_31);
 x_33 = M_Init_Data_ToString_Name.l_Lean_Name_toString(x_31, x_20);
 if (x_32 == 0)
@@ -23658,7 +23658,7 @@ if (x_4 == 0)
 {
 Obj x_5 = null; byte x_6 = 0; 
 x_5 = (lean_array_uget_borrowed(x_1, x_2));
-x_6 = lean_ctor_get_uint8_s(x_5, 0);
+x_6 = lean_ctor_get_uint8(x_5, 40);
 if (x_6 == 0)
 {
 byte x_7 = 0; 
@@ -23733,9 +23733,9 @@ x_7 = (lean_array_uset(x_3, x_2, x_6));
 x_8 = (byte)0;
 x_9 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_9, 0, x_5);
-lean_ctor_set_uint8_s(x_9, 0, x_8);
-lean_ctor_set_uint8_s(x_9, 1, x_4);
-lean_ctor_set_uint8_s(x_9, 2, x_8);
+lean_ctor_set_uint8(x_9, 8, x_8);
+lean_ctor_set_uint8(x_9, 9, x_4);
+lean_ctor_set_uint8(x_9, 10, x_8);
 x_10 = 1UL;
 x_11 = (ulong)(lean_usize_add(x_2, x_10));
 x_12 = (lean_array_uset(x_7, x_2, x_9));
@@ -23902,11 +23902,11 @@ public static Obj l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_get(Obj x_1, Ob
 _start:
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
+x_3 = lean_ctor_get_uint8(x_2, 0);
 if (x_3 == 0)
 {
 byte x_4 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_2, 1);
+x_4 = lean_ctor_get_uint8(x_2, 1);
 if (x_4 == 0)
 {
 Obj x_5 = null; 
@@ -23925,7 +23925,7 @@ return x_6;
 else
 {
 byte x_7 = 0; 
-x_7 = lean_ctor_get_uint8_s(x_2, 1);
+x_7 = lean_ctor_get_uint8(x_2, 1);
 if (x_7 == 0)
 {
 Obj x_8 = null; 
@@ -24283,7 +24283,7 @@ lean_dec_ref(x_102);
 if (lean_obj_tag(x_103) == 0)
 {
 byte x_104 = 0; 
-x_104 = lean_ctor_get_uint8_s(x_5, 3);
+x_104 = lean_ctor_get_uint8(x_5, 19);
 if (x_104 == 0)
 {
 x_27 = x_89;
@@ -24294,10 +24294,10 @@ goto block_88;
 else
 {
 byte x_105 = 0; Obj x_106 = null; Obj x_107 = null; Obj x_108 = null; 
-x_105 = lean_ctor_get_uint8_s(x_92, 1);
+x_105 = lean_ctor_get_uint8(x_92, 1);
 x_106 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_106, 0, x_24);
-lean_ctor_set_uint8_s(x_106, 1, x_105);
+lean_ctor_set_uint8(x_106, 0, x_24);
+lean_ctor_set_uint8(x_106, 1, x_105);
 lean_inc(x_89);
 x_107 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_107, 0, x_89);
@@ -24366,7 +24366,7 @@ return x_112;
 block_129:
 {
 byte x_123 = 0; Obj x_124 = null; Obj x_125 = null; Obj x_126 = null; 
-x_123 = lean_ctor_get_uint8_s(x_23, 0);
+x_123 = lean_ctor_get_uint8(x_23, 8);
 lean_inc_ref(x_120);
 x_124 = (lean_string_append(x_120, x_122));
 x_125 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__5___closed__0;
@@ -24397,7 +24397,7 @@ goto block_117;
 block_137:
 {
 byte x_134 = 0; 
-x_134 = lean_ctor_get_uint8_s(x_23, 2);
+x_134 = lean_ctor_get_uint8(x_23, 10);
 if (x_134 == 0)
 {
 Obj x_135 = null; 
@@ -24424,7 +24424,7 @@ goto block_129;
 block_144:
 {
 byte x_139 = 0; Obj x_140 = null; Obj x_141 = null; 
-x_139 = lean_ctor_get_uint8_s(x_23, 1);
+x_139 = lean_ctor_get_uint8(x_23, 9);
 x_140 = l___private_Lake_CLI_Shake_0__Lake_Shake_NeedsKind_ofImport(x_23);
 x_141 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__18_spec__22___closed__6;
 if (x_139 == 0)
@@ -24816,7 +24816,7 @@ return x_47;
 block_65:
 {
 byte x_59 = 0; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; 
-x_59 = lean_ctor_get_uint8_s(x_26, 0);
+x_59 = lean_ctor_get_uint8(x_26, 8);
 lean_inc_ref(x_55);
 x_60 = (lean_string_append(x_55, x_58));
 x_61 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__5___closed__0;
@@ -24849,7 +24849,7 @@ goto block_52;
 block_74:
 {
 byte x_71 = 0; 
-x_71 = lean_ctor_get_uint8_s(x_26, 2);
+x_71 = lean_ctor_get_uint8(x_26, 10);
 if (x_71 == 0)
 {
 Obj x_72 = null; 
@@ -24878,7 +24878,7 @@ goto block_65;
 block_89:
 {
 byte x_78 = 0; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; 
-x_78 = lean_ctor_get_uint8_s(x_1, 7);
+x_78 = lean_ctor_get_uint8(x_1, 23);
 x_79 = lean_unsigned_to_nat(1u);
 x_80 = (lean_nat_shiftl(x_79, x_75));
 x_81 = l___private_Lake_CLI_Shake_0__Lake_Shake_Needs_union(x_20, x_76, x_80);
@@ -24902,7 +24902,7 @@ goto block_16;
 else
 {
 byte x_85 = 0; Obj x_86 = null; 
-x_85 = lean_ctor_get_uint8_s(x_26, 1);
+x_85 = lean_ctor_get_uint8(x_26, 9);
 x_86 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Shake_0__Lake_Shake_visitModule_spec__9___closed__1;
 if (x_85 == 0)
 {
@@ -24957,7 +24957,7 @@ goto block_89;
 block_102:
 {
 byte x_97 = 0; 
-x_97 = lean_ctor_get_uint8_s(x_1, 2);
+x_97 = lean_ctor_get_uint8(x_1, 18);
 if (x_97 == 0)
 {
 x_90 = x_95;
@@ -24967,7 +24967,7 @@ goto block_94;
 else
 {
 byte x_98 = 0; 
-x_98 = lean_ctor_get_uint8_s(x_26, 1);
+x_98 = lean_ctor_get_uint8(x_26, 9);
 if (x_98 == 0)
 {
 x_90 = x_95;
@@ -25220,8 +25220,8 @@ Obj x_23 = null; byte x_24 = 0; byte x_25 = 0; byte x_26 = 0;
 x_23 = lean_ctor_get(x_22, 0);
 lean_inc(x_23);
 lean_dec_ref(x_22);
-x_24 = lean_ctor_get_uint8_s(x_3, 0);
-x_25 = lean_ctor_get_uint8_s(x_3, 1);
+x_24 = lean_ctor_get_uint8(x_3, 0);
+x_25 = lean_ctor_get_uint8(x_3, 1);
 if (x_25 == 0)
 {
 lean_dec_ref(x_6);
@@ -25250,8 +25250,8 @@ block_29:
 {
 Obj x_27 = null; Obj x_28 = null; 
 x_27 = lean_alloc_ctor(0, 0, 2);
-lean_ctor_set_uint8_s(x_27, 0, x_24);
-lean_ctor_set_uint8_s(x_27, 1, x_26);
+lean_ctor_set_uint8(x_27, 0, x_24);
+lean_ctor_set_uint8(x_27, 1, x_26);
 lean_inc(x_10);
 lean_inc(x_4);
 x_28 = l___private_Lake_CLI_Shake_0__Lake_Shake_getExplanations_addExplanation(x_23, x_27, x_4, x_10, x_8);

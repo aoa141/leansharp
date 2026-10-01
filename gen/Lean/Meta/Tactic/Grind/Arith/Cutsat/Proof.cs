@@ -4616,11 +4616,11 @@ x_13 = lean_ctor_get(x_2, 10);
 x_14 = lean_ctor_get(x_2, 11);
 x_15 = lean_ctor_get(x_2, 12);
 x_16 = lean_ctor_get(x_2, 13);
-x_17 = lean_ctor_get_uint8_s(x_2, 0);
+x_17 = lean_ctor_get_uint8(x_2, 152);
 x_18 = lean_ctor_get(x_2, 14);
 x_19 = lean_ctor_get(x_2, 16);
 x_20 = lean_ctor_get(x_2, 17);
-x_21 = lean_ctor_get_uint8_s(x_2, 1);
+x_21 = lean_ctor_get_uint8(x_2, 153);
 x_22 = lean_ctor_get(x_2, 18);
 x_30 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_30 == 0)
@@ -4691,8 +4691,8 @@ lean_ctor_set(x_28, 15, x_25);
 lean_ctor_set(x_28, 16, x_19);
 lean_ctor_set(x_28, 17, x_20);
 lean_ctor_set(x_28, 18, x_22);
-lean_ctor_set_uint8_s(x_28, 0, x_17);
-lean_ctor_set_uint8_s(x_28, 1, x_21);
+lean_ctor_set_uint8(x_28, 152, x_17);
+lean_ctor_set_uint8(x_28, 153, x_21);
 x_26 = x_28;
 goto block_27;
 }
@@ -5058,7 +5058,7 @@ _start:
 Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_69 = null; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_84 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_88 = null; Obj x_117 = null; Obj x_118 = null; Obj x_119 = null; Obj x_120 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; Obj x_124 = null; Obj x_125 = null; Obj x_126 = null; Obj x_131 = null; Obj x_132 = null; Obj x_133 = null; Obj x_134 = null; Obj x_135 = null; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_139 = null; Obj x_140 = null; Obj x_141 = null; Obj x_160 = null; Obj x_161 = null; Obj x_162 = null; Obj x_163 = null; Obj x_164 = null; Obj x_165 = null; Obj x_166 = null; Obj x_167 = null; Obj x_168 = null; Obj x_169 = null; Obj x_170 = null; Obj x_171 = null; Obj x_172 = null; Obj x_173 = null; Obj x_174 = null; Obj x_175 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_208 = null; Obj x_209 = null; Obj x_210 = null; Obj x_211 = null; Obj x_212 = null; Obj x_213 = null; Obj x_214 = null; Obj x_215 = null; Obj x_220 = null; Obj x_221 = null; Obj x_222 = null; Obj x_223 = null; Obj x_224 = null; Obj x_225 = null; Obj x_226 = null; Obj x_227 = null; Obj x_228 = null; Obj x_229 = null; Obj x_230 = null; Obj x_231 = null; Obj x_232 = null; Obj x_233 = null; Obj x_234 = null; Obj x_235 = null; Obj x_236 = null; Obj x_237 = null; Obj x_238 = null; Obj x_264 = null; Obj x_265 = null; Obj x_266 = null; Obj x_267 = null; Obj x_268 = null; Obj x_269 = null; Obj x_270 = null; Obj x_271 = null; Obj x_272 = null; Obj x_273 = null; Obj x_278 = null; Obj x_279 = null; Obj x_280 = null; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_284 = null; Obj x_285 = null; Obj x_286 = null; Obj x_287 = null; Obj x_288 = null; Obj x_289 = null; Obj x_308 = null; Obj x_309 = null; Obj x_310 = null; Obj x_311 = null; Obj x_312 = null; Obj x_313 = null; Obj x_314 = null; Obj x_319 = null; Obj x_320 = null; Obj x_321 = null; Obj x_322 = null; Obj x_323 = null; Obj x_324 = null; Obj x_325 = null; Obj x_330 = null; Obj x_331 = null; Obj x_332 = null; Obj x_333 = null; Obj x_334 = null; Obj x_335 = null; Obj x_336 = null; Obj x_337 = null; Obj x_338 = null; Obj x_357 = null; Obj x_358 = null; Obj x_359 = null; Obj x_360 = null; Obj x_361 = null; Obj x_362 = null; Obj x_363 = null; Obj x_364 = null; Obj x_365 = null; Obj x_366 = null; Obj x_371 = null; Obj x_372 = null; Obj x_373 = null; Obj x_374 = null; Obj x_375 = null; Obj x_376 = null; Obj x_377 = null; Obj x_378 = null; Obj x_379 = null; Obj x_380 = null; Obj x_381 = null; Obj x_382 = null; Obj x_401 = null; Obj x_402 = null; Obj x_403 = null; Obj x_404 = null; Obj x_405 = null; Obj x_406 = null; Obj x_407 = null; Obj x_408 = null; Obj x_409 = null; Obj x_410 = null; Obj x_411 = null; Obj x_412 = null; Obj x_431 = null; Obj x_432 = null; Obj x_433 = null; Obj x_434 = null; Obj x_435 = null; Obj x_436 = null; Obj x_437 = null; Obj x_438 = null; Obj x_439 = null; Obj x_440 = null; Obj x_441 = null; Obj x_442 = null; Obj x_443 = null; Obj x_444 = null; Obj x_445 = null; Obj x_446 = null; Obj x_447 = null; Obj x_448 = null; Obj x_449 = null; Obj x_450 = null; Obj x_451 = null; Obj x_452 = null; Obj x_453 = null; Obj x_454 = null; Obj x_455 = null; Obj x_471 = null; Obj x_472 = null; Obj x_473 = null; Obj x_474 = null; Obj x_475 = null; Obj x_476 = null; Obj x_477 = null; Obj x_478 = null; Obj x_479 = null; Obj x_480 = null; Obj x_481 = null; Obj x_482 = null; Obj x_483 = null; Obj x_484 = null; Obj x_485 = null; Obj x_486 = null; Obj x_487 = null; Obj x_488 = null; Obj x_489 = null; Obj x_490 = null; Obj x_491 = null; Obj x_492 = null; Obj x_493 = null; Obj x_494 = null; Obj x_495 = null; Obj x_496 = null; Obj x_497 = null; Obj x_516 = null; Obj x_517 = null; Obj x_518 = null; Obj x_519 = null; Obj x_520 = null; Obj x_521 = null; Obj x_522 = null; Obj x_523 = null; Obj x_524 = null; Obj x_525 = null; Obj x_526 = null; Obj x_527 = null; Obj x_528 = null; Obj x_529 = null; Obj x_530 = null; Obj x_531 = null; Obj x_532 = null; Obj x_533 = null; Obj x_534 = null; Obj x_535 = null; Obj x_536 = null; Obj x_537 = null; Obj x_538 = null; Obj x_539 = null; Obj x_540 = null; Obj x_541 = null; Obj x_542 = null; Obj x_561 = null; Obj x_562 = null; Obj x_563 = null; Obj x_564 = null; Obj x_565 = null; Obj x_566 = null; Obj x_567 = null; Obj x_568 = null; Obj x_569 = null; Obj x_570 = null; Obj x_571 = null; Obj x_572 = null; Obj x_573 = null; Obj x_574 = null; Obj x_575 = null; Obj x_576 = null; Obj x_577 = null; Obj x_578 = null; Obj x_579 = null; Obj x_580 = null; Obj x_581 = null; Obj x_582 = null; Obj x_583 = null; Obj x_584 = null; Obj x_585 = null; Obj x_586 = null; Obj x_587 = null; Obj x_606 = null; Obj x_607 = null; Obj x_608 = null; Obj x_609 = null; Obj x_610 = null; Obj x_611 = null; Obj x_612 = null; Obj x_613 = null; Obj x_614 = null; Obj x_615 = null; Obj x_616 = null; Obj x_617 = null; Obj x_618 = null; Obj x_619 = null; Obj x_620 = null; Obj x_621 = null; Obj x_622 = null; Obj x_623 = null; Obj x_624 = null; Obj x_625 = null; Obj x_626 = null; Obj x_627 = null; Obj x_628 = null; Obj x_629 = null; Obj x_630 = null; Obj x_631 = null; Obj x_632 = null; Obj x_651 = null; Obj x_652 = null; Obj x_653 = null; Obj x_654 = null; Obj x_655 = null; Obj x_656 = null; Obj x_657 = null; Obj x_658 = null; Obj x_659 = null; Obj x_660 = null; Obj x_661 = null; Obj x_662 = null; Obj x_663 = null; Obj x_664 = null; Obj x_665 = null; Obj x_666 = null; Obj x_667 = null; Obj x_668 = null; Obj x_669 = null; Obj x_670 = null; Obj x_671 = null; Obj x_672 = null; Obj x_673 = null; Obj x_674 = null; Obj x_675 = null; Obj x_676 = null; Obj x_677 = null; Obj x_696 = null; Obj x_697 = null; Obj x_698 = null; Obj x_699 = null; Obj x_700 = null; Obj x_701 = null; Obj x_702 = null; Obj x_703 = null; Obj x_708 = null; Obj x_709 = null; Obj x_710 = null; Obj x_711 = null; Obj x_712 = null; Obj x_713 = null; Obj x_714 = null; Obj x_715 = null; Obj x_716 = null; Obj x_717 = null; Obj x_736 = null; Obj x_737 = null; Obj x_738 = null; Obj x_739 = null; Obj x_740 = null; Obj x_741 = null; Obj x_742 = null; Obj x_743 = null; Obj x_744 = null; Obj x_745 = null; Obj x_764 = null; Obj x_765 = null; Obj x_766 = null; Obj x_767 = null; Obj x_768 = null; Obj x_769 = null; Obj x_770 = null; Obj x_771 = null; Obj x_772 = null; Obj x_773 = null; Obj x_774 = null; Obj x_775 = null; Obj x_776 = null; Obj x_777 = null; Obj x_778 = null; Obj x_779 = null; Obj x_780 = null; Obj x_781 = null; Obj x_805 = null; Obj x_806 = null; Obj x_807 = null; Obj x_808 = null; Obj x_809 = null; Obj x_810 = null; Obj x_815 = null; Obj x_816 = null; Obj x_817 = null; Obj x_818 = null; Obj x_819 = null; Obj x_820 = null; Obj x_825 = null; Obj x_826 = null; Obj x_827 = null; Obj x_828 = null; Obj x_829 = null; Obj x_830 = null; Obj x_831 = null; Obj x_832 = null; Obj x_833 = null; Obj x_834 = null; Obj x_835 = null; Obj x_836 = null; Obj x_1191 = null; Obj x_1192 = null; byte x_1193 = 0; 
 x_1191 = lean_ctor_get(x_13, 0);
 x_1192 = lean_ctor_get(x_1191, 2);
-x_1193 = lean_ctor_get_uint8_s(x_1192, 0);
+x_1193 = lean_ctor_get_uint8(x_1192, 8);
 if (x_1193 == 0)
 {
 lean_dec(x_2);
@@ -8281,7 +8281,7 @@ x_1091 = lean_ctor_get(x_1090, 2);
 if (lean_obj_tag(x_1091) == 0)
 {
 byte x_1092 = 0; 
-x_1092 = lean_ctor_get_uint8_s(x_1090, 0);
+x_1092 = lean_ctor_get_uint8(x_1090, 24);
 if (x_1092 == 0)
 {
 Obj x_1093 = null; Obj x_1094 = null; Obj x_1095 = null; Obj x_1096 = null; Obj x_1097 = null; Obj x_1098 = null; Obj x_1099 = null; Obj x_1100 = null; 
@@ -8362,7 +8362,7 @@ goto block_263;
 else
 {
 byte x_1109 = 0; 
-x_1109 = lean_ctor_get_uint8_s(x_1090, 0);
+x_1109 = lean_ctor_get_uint8(x_1090, 24);
 if (x_1109 == 0)
 {
 Obj x_1110 = null; Obj x_1111 = null; Obj x_1112 = null; Obj x_1113 = null; Obj x_1114 = null; Obj x_1115 = null; Obj x_1116 = null; Obj x_1117 = null; Obj x_1118 = null; 
@@ -8457,7 +8457,7 @@ x_1130 = lean_ctor_get(x_1129, 2);
 if (lean_obj_tag(x_1130) == 1)
 {
 byte x_1131 = 0; 
-x_1131 = lean_ctor_get_uint8_s(x_1129, 0);
+x_1131 = lean_ctor_get_uint8(x_1129, 24);
 if (x_1131 == 0)
 {
 Obj x_1132 = null; Obj x_1133 = null; Obj x_1134 = null; Obj x_1135 = null; Obj x_1136 = null; Obj x_1137 = null; Obj x_1138 = null; Obj x_1139 = null; Obj x_1140 = null; 
@@ -9264,7 +9264,7 @@ _start:
 Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_68 = null; Obj x_69 = null; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_453 = null; Obj x_454 = null; byte x_455 = 0; 
 x_453 = lean_ctor_get(x_13, 0);
 x_454 = lean_ctor_get(x_453, 2);
-x_455 = lean_ctor_get_uint8_s(x_454, 0);
+x_455 = lean_ctor_get_uint8(x_454, 8);
 if (x_455 == 0)
 {
 lean_dec(x_2);
@@ -12106,7 +12106,7 @@ Obj x_15 = null; byte x_16 = 0;
 x_15 = lean_ctor_get(x_14, 0);
 lean_inc(x_15);
 lean_dec_ref(x_14);
-x_16 = lean_ctor_get_uint8_s(x_15, 0);
+x_16 = lean_ctor_get_uint8(x_15, 152);
 lean_dec(x_15);
 if (x_16 == 0)
 {
@@ -17991,7 +17991,7 @@ goto block_105;
 block_105:
 {
 byte x_18 = 0; 
-x_18 = lean_ctor_get_uint8_s(x_15, 1);
+x_18 = lean_ctor_get_uint8(x_15, 153);
 lean_dec(x_15);
 if (x_18 == 0)
 {
@@ -18053,7 +18053,7 @@ x_28 = lean_unsigned_to_nat(0u);
 x_29 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_29, 0, x_26);
 lean_ctor_set(x_29, 1, x_28);
-lean_ctor_set_uint8_s(x_29, 0, x_27);
+lean_ctor_set_uint8(x_29, 16, x_27);
 x_30 = M_Lean_Meta_Tactic_Grind_Arith_CommRing_RingM.l_Lean_Meta_Grind_Arith_CommRing_RingM_getCommRingState___redArg(x_29, x_4, x_9);
 lean_dec_ref(x_29);
 if (lean_obj_tag(x_30) == 0)
@@ -21525,7 +21525,7 @@ _start:
 Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_83 = null; Obj x_84 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_88 = null; Obj x_89 = null; Obj x_90 = null; Obj x_91 = null; Obj x_92 = null; Obj x_93 = null; Obj x_94 = null; Obj x_95 = null; Obj x_96 = null; Obj x_97 = null; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; Obj x_101 = null; Obj x_102 = null; Obj x_131 = null; Obj x_132 = null; Obj x_133 = null; Obj x_134 = null; Obj x_135 = null; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; Obj x_146 = null; Obj x_147 = null; Obj x_148 = null; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_154 = null; Obj x_155 = null; Obj x_156 = null; Obj x_157 = null; Obj x_158 = null; Obj x_159 = null; Obj x_160 = null; Obj x_161 = null; Obj x_187 = null; Obj x_188 = null; Obj x_189 = null; Obj x_190 = null; Obj x_191 = null; Obj x_192 = null; byte x_193 = 0; Obj x_194 = null; Obj x_195 = null; Obj x_196 = null; Obj x_197 = null; Obj x_198 = null; Obj x_199 = null; Obj x_200 = null; Obj x_201 = null; Obj x_202 = null; Obj x_203 = null; Obj x_204 = null; Obj x_205 = null; Obj x_206 = null; Obj x_214 = null; Obj x_215 = null; Obj x_216 = null; Obj x_217 = null; Obj x_218 = null; Obj x_219 = null; Obj x_220 = null; Obj x_221 = null; Obj x_222 = null; Obj x_223 = null; Obj x_224 = null; Obj x_225 = null; Obj x_226 = null; Obj x_227 = null; Obj x_228 = null; Obj x_229 = null; Obj x_230 = null; Obj x_231 = null; Obj x_257 = null; Obj x_258 = null; Obj x_259 = null; Obj x_260 = null; Obj x_261 = null; Obj x_262 = null; Obj x_263 = null; Obj x_264 = null; Obj x_269 = null; Obj x_270 = null; Obj x_271 = null; Obj x_272 = null; Obj x_273 = null; Obj x_274 = null; Obj x_279 = null; Obj x_280 = null; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_284 = null; Obj x_285 = null; Obj x_286 = null; Obj x_287 = null; Obj x_288 = null; Obj x_289 = null; Obj x_290 = null; Obj x_291 = null; Obj x_292 = null; Obj x_293 = null; Obj x_294 = null; Obj x_295 = null; Obj x_316 = null; Obj x_317 = null; Obj x_318 = null; Obj x_319 = null; Obj x_320 = null; Obj x_321 = null; Obj x_322 = null; Obj x_323 = null; Obj x_324 = null; Obj x_325 = null; Obj x_326 = null; Obj x_327 = null; Obj x_695 = null; Obj x_696 = null; byte x_697 = 0; 
 x_695 = lean_ctor_get(x_13, 0);
 x_696 = lean_ctor_get(x_695, 2);
-x_697 = lean_ctor_get_uint8_s(x_696, 0);
+x_697 = lean_ctor_get_uint8(x_696, 8);
 if (x_697 == 0)
 {
 lean_dec(x_2);
@@ -22672,7 +22672,7 @@ return x_336;
 case 2:
 {
 byte x_356 = 0; 
-x_356 = lean_ctor_get_uint8_s(x_328, 0);
+x_356 = lean_ctor_get_uint8(x_328, 32);
 if (x_356 == 0)
 {
 Obj x_357 = null; Obj x_358 = null; Obj x_359 = null; Obj x_360 = null; Obj x_361 = null; Obj x_362 = null; 
@@ -23879,7 +23879,7 @@ x_581 = lean_ctor_get(x_328, 0);
 lean_inc_ref(x_581);
 lean_dec_ref(x_328);
 x_582 = lean_ctor_get(x_581, 0);
-x_583 = lean_ctor_get_uint8_s(x_582, 0);
+x_583 = lean_ctor_get_uint8(x_582, 24);
 if (x_583 == 0)
 {
 Obj x_584 = null; Obj x_585 = null; Obj x_586 = null; Obj x_587 = null; Obj x_588 = null; Obj x_589 = null; Obj x_590 = null; Obj x_591 = null; 
@@ -32897,7 +32897,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -32926,9 +32926,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00__private_Lean_Meta_Tactic_Grind_Arith_Cutsat_Proof_0__Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_toExprProof_spec__0___redArg___closed__1;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -32950,7 +32950,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }
@@ -36005,7 +36005,7 @@ goto block_353;
 block_353:
 {
 byte x_30 = 0; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_78 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_84 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_88 = null; Obj x_89 = null; Obj x_90 = null; Obj x_91 = null; Obj x_116 = null; Obj x_117 = null; Obj x_118 = null; Obj x_119 = null; Obj x_120 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; Obj x_124 = null; Obj x_125 = null; Obj x_126 = null; Obj x_127 = null; Obj x_128 = null; Obj x_132 = null; Obj x_133 = null; Obj x_134 = null; Obj x_135 = null; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_139 = null; Obj x_140 = null; Obj x_141 = null; Obj x_142 = null; Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; Obj x_146 = null; Obj x_147 = null; Obj x_148 = null; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_154 = null; Obj x_155 = null; Obj x_170 = null; Obj x_171 = null; Obj x_172 = null; Obj x_173 = null; Obj x_174 = null; Obj x_175 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_180 = null; Obj x_181 = null; Obj x_182 = null; Obj x_183 = null; Obj x_184 = null; Obj x_215 = null; Obj x_216 = null; Obj x_217 = null; Obj x_218 = null; Obj x_219 = null; Obj x_220 = null; Obj x_221 = null; Obj x_222 = null; Obj x_223 = null; Obj x_224 = null; Obj x_225 = null; Obj x_226 = null; Obj x_227 = null; Obj x_228 = null; Obj x_232 = null; Obj x_233 = null; Obj x_234 = null; Obj x_235 = null; Obj x_236 = null; Obj x_237 = null; Obj x_238 = null; Obj x_239 = null; Obj x_240 = null; Obj x_241 = null; Obj x_242 = null; Obj x_243 = null; Obj x_251 = null; Obj x_252 = null; Obj x_253 = null; byte x_254 = 0; 
-x_30 = lean_ctor_get_uint8_s(x_2, 0);
+x_30 = lean_ctor_get_uint8(x_2, 24);
 x_31 = lean_ctor_get(x_2, 2);
 lean_inc(x_31);
 x_32 = lean_ctor_get(x_25, 0);

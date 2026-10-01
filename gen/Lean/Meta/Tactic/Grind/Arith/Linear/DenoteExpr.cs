@@ -3716,7 +3716,7 @@ _start:
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; 
 x_5 = lean_ctor_get(x_4, 0);
 lean_inc(x_5);
-x_6 = lean_ctor_get_uint8_s(x_4, 0);
+x_6 = lean_ctor_get_uint8(x_4, 16);
 lean_dec_ref(x_4);
 x_7 = l___private_Lean_Meta_Tactic_Grind_Arith_Linear_DenoteExpr_0__Lean_Meta_Grind_Arith_Linear_denoteIneq___redArg(x_1, x_2, x_3, x_5, x_6);
 return x_7;

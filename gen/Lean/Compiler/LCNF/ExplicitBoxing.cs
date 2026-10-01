@@ -1853,9 +1853,9 @@ x_6 = lean_alloc_ctor(0, 3, 3);
 lean_ctor_set(x_6, 0, x_5);
 lean_ctor_set(x_6, 1, x_2);
 lean_ctor_set(x_6, 2, x_1);
-lean_ctor_set_uint8_s(x_6, 0, x_4);
-lean_ctor_set_uint8_s(x_6, 1, x_4);
-lean_ctor_set_uint8_s(x_6, 2, x_3);
+lean_ctor_set_uint8(x_6, 24, x_4);
+lean_ctor_set_uint8(x_6, 25, x_4);
+lean_ctor_set_uint8(x_6, 26, x_3);
 return x_6;
 }
 }
@@ -2258,7 +2258,7 @@ lean_ctor_set(x_46, 0, x_43);
 lean_ctor_set(x_46, 1, x_44);
 lean_ctor_set(x_46, 2, x_3);
 lean_ctor_set(x_46, 3, x_45);
-lean_ctor_set_uint8_s(x_46, 0, x_12);
+lean_ctor_set_uint8(x_46, 32, x_12);
 x_47 = lean_alloc_ctor(0, 1, 0);
 lean_ctor_set(x_47, 0, x_35);
 x_48 = lean_box(0);
@@ -2266,7 +2266,7 @@ x_49 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_49, 0, x_46);
 lean_ctor_set(x_49, 1, x_47);
 lean_ctor_set(x_49, 2, x_48);
-lean_ctor_set_uint8_s(x_49, 0, x_11);
+lean_ctor_set_uint8(x_49, 24, x_11);
 lean_inc_ref(x_49);
 x_50 = M_Lean_Compiler_LCNF_AuxDeclCache.l_Lean_Compiler_LCNF_cacheAuxDecl___redArg(x_24, x_49, x_8, x_9);
 if (lean_obj_tag(x_50) == 0)
@@ -3056,7 +3056,7 @@ if (x_4 == 0)
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_16 = 0; 
 x_5 = (lean_array_uget_borrowed(x_1, x_2));
 x_6 = lean_ctor_get(x_5, 2);
-x_7 = lean_ctor_get_uint8_s(x_5, 0);
+x_7 = lean_ctor_get_uint8(x_5, 24);
 x_8 = (byte)1;
 x_16 = M_Lean_Compiler_LCNF_Types.l_Lean_Compiler_LCNF_ImpureType_Lean_Expr_isScalar(x_6);
 if (x_16 == 0)
@@ -5859,7 +5859,7 @@ goto block_44;
 block_44:
 {
 Obj x_23 = null; byte x_24 = 0; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; 
-lean_ctor_set_uint8_s(x_22, 0, x_21);
+lean_ctor_set_uint8(x_22, 32, x_21);
 x_23 = lean_alloc_ctor(0, 1, 0);
 lean_ctor_set(x_23, 0, x_16);
 x_24 = (byte)0;
@@ -5868,7 +5868,7 @@ x_26 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_26, 0, x_22);
 lean_ctor_set(x_26, 1, x_23);
 lean_ctor_set(x_26, 2, x_25);
-lean_ctor_set_uint8_s(x_26, 0, x_24);
+lean_ctor_set_uint8(x_26, 24, x_24);
 lean_inc_ref(x_26);
 x_27 = M_Lean_Compiler_LCNF_PhaseExt.l_Lean_Compiler_LCNF_Decl_saveImpure___redArg(x_26, x_17);
 if (lean_obj_tag(x_27) == 0)
@@ -9906,7 +9906,7 @@ if (lean_obj_tag(x_17) == 0)
 {
 Obj x_18 = null; byte x_19 = 0; Obj x_20 = null; Obj x_21 = null; byte x_22 = 0; byte x_65 = 0; 
 x_18 = lean_ctor_get(x_16, 0);
-x_19 = lean_ctor_get_uint8_s(x_16, 0);
+x_19 = lean_ctor_get_uint8(x_16, 24);
 x_20 = lean_ctor_get(x_16, 2);
 x_65 = (byte)(lean_is_exclusive(x_16) ? 0 : 1);
 if (x_65 == 0)
@@ -10004,7 +10004,7 @@ x_51 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_51, 0, x_18);
 lean_ctor_set(x_51, 1, x_37);
 lean_ctor_set(x_51, 2, x_20);
-lean_ctor_set_uint8_s(x_51, 0, x_19);
+lean_ctor_set_uint8(x_51, 24, x_19);
 x_38 = x_51;
 goto block_50;
 }

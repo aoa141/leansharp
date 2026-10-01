@@ -438,7 +438,7 @@ goto block_30;
 block_30:
 {
 Obj x_25 = null; byte x_26 = 0; 
-lean_ctor_set_uint8_s(x_24, 0, x_21);
+lean_ctor_set_uint8(x_24, 56, x_21);
 x_25 = (lean_array_get_size(x_13));
 x_26 = lean_u8(lean_nat_dec_lt(x_11, x_25));
 if (x_26 == 0)
@@ -1151,7 +1151,7 @@ public static Obj l_Lean_Elab_Tactic_Omega_Problem_addConstraint(Obj x_1, Obj x_
 _start:
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 56);
 if (x_3 == 0)
 {
 lean_dec_ref(x_2);
@@ -3004,8 +3004,8 @@ lean_ctor_set(x_4, 0, x_3);
 lean_ctor_set(x_4, 1, x_2);
 lean_ctor_set(x_4, 2, x_2);
 lean_ctor_set(x_4, 3, x_2);
-lean_ctor_set_uint8_s(x_4, 0, x_1);
-lean_ctor_set_uint8_s(x_4, 1, x_1);
+lean_ctor_set_uint8(x_4, 32, x_1);
+lean_ctor_set_uint8(x_4, 33, x_1);
 return x_4;
 }
 }
@@ -3274,7 +3274,7 @@ _start:
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
 x_7 = lean_ctor_get(x_4, 0);
 x_8 = lean_ctor_get(x_7, 2);
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 8);
 if (x_9 == 0)
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -4074,7 +4074,7 @@ public static Obj l_Lean_Elab_Tactic_Omega_Problem_elimination(Obj x_1, Obj x_2,
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_25 = 0; 
-x_25 = lean_ctor_get_uint8_s(x_1, 0);
+x_25 = lean_ctor_get_uint8(x_1, 56);
 if (x_25 == 0)
 {
 Obj x_26 = null; 
@@ -4092,7 +4092,7 @@ if (x_28 == 0)
 Obj x_29 = null; Obj x_30 = null; byte x_31 = 0; 
 x_29 = lean_ctor_get(x_9, 0);
 x_30 = lean_ctor_get(x_29, 2);
-x_31 = lean_ctor_get_uint8_s(x_30, 0);
+x_31 = lean_ctor_get_uint8(x_30, 8);
 if (x_31 == 0)
 {
 x_12 = x_2;
@@ -5242,7 +5242,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -5271,9 +5271,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00Lean_Elab_Tactic_Omega_Problem_fourierMotzkinSelect_spec__0___closed__1;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -5295,7 +5295,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }
@@ -5431,7 +5431,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -5460,9 +5460,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00Lean_Elab_Tactic_Omega_Problem_fourierMotzkinSelect_spec__0___closed__1;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -5484,7 +5484,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }
@@ -5642,8 +5642,8 @@ x_10 = lean_ctor_get(x_6, 0);
 x_11 = lean_ctor_get(x_6, 1);
 x_12 = lean_ctor_get(x_6, 2);
 x_13 = lean_ctor_get(x_6, 3);
-x_14 = lean_ctor_get_uint8_s(x_6, 0);
-x_15 = lean_ctor_get_uint8_s(x_6, 1);
+x_14 = lean_ctor_get_uint8(x_6, 32);
+x_15 = lean_ctor_get_uint8(x_6, 33);
 x_32 = (byte)(lean_is_exclusive(x_6) ? 0 : 1);
 if (x_32 == 0)
 {
@@ -5706,13 +5706,13 @@ lean_ctor_set(x_22, 0, x_10);
 lean_ctor_set(x_22, 1, x_11);
 lean_ctor_set(x_22, 2, x_12);
 lean_ctor_set(x_22, 3, x_19);
-lean_ctor_set_uint8_s(x_22, 0, x_14);
+lean_ctor_set_uint8(x_22, 32, x_14);
 x_20 = x_22;
 goto block_21;
 }
 block_21:
 {
-lean_ctor_set_uint8_s(x_20, 1, x_4);
+lean_ctor_set_uint8(x_20, 33, x_4);
 return x_20;
 }
 }
@@ -5738,13 +5738,13 @@ lean_ctor_set(x_28, 0, x_10);
 lean_ctor_set(x_28, 1, x_11);
 lean_ctor_set(x_28, 2, x_12);
 lean_ctor_set(x_28, 3, x_19);
-lean_ctor_set_uint8_s(x_28, 0, x_14);
+lean_ctor_set_uint8(x_28, 32, x_14);
 x_26 = x_28;
 goto block_27;
 }
 block_27:
 {
-lean_ctor_set_uint8_s(x_26, 1, x_25);
+lean_ctor_set_uint8(x_26, 33, x_25);
 return x_26;
 }
 }
@@ -6018,7 +6018,7 @@ goto block_26;
 block_26:
 {
 Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; 
-lean_ctor_set_uint8_s(x_22, 0, x_19);
+lean_ctor_set_uint8(x_22, 56, x_19);
 x_23 = l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_Omega_Problem_fourierMotzkin_spec__1___redArg(x_10, x_22);
 lean_dec(x_10);
 x_24 = lean_ctor_get(x_23, 0);
@@ -7994,7 +7994,7 @@ x_6 = lean_ctor_get(x_1, 1);
 x_7 = lean_ctor_get(x_1, 2);
 x_8 = lean_ctor_get(x_1, 3);
 x_9 = lean_ctor_get(x_1, 4);
-x_10 = lean_ctor_get_uint8_s(x_1, 0);
+x_10 = lean_ctor_get_uint8(x_1, 56);
 x_11 = lean_ctor_get(x_1, 5);
 x_12 = lean_ctor_get(x_1, 6);
 x_13 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>)&l_Lean_Elab_Tactic_Omega_Problem_addInequality___lam__0___boxed, 11, 1);
@@ -8022,7 +8022,7 @@ lean_ctor_set(x_17, 3, x_8);
 lean_ctor_set(x_17, 4, x_9);
 lean_ctor_set(x_17, 5, x_11);
 lean_ctor_set(x_17, 6, x_12);
-lean_ctor_set_uint8_s(x_17, 0, x_10);
+lean_ctor_set_uint8(x_17, 56, x_10);
 x_18 = (lean_int_neg(x_2));
 lean_dec(x_2);
 x_19 = lean_alloc_ctor(1, 1, 0);
@@ -8176,8 +8176,8 @@ x_27 = lean_ctor_get(x_16, 0);
 x_28 = lean_ctor_get(x_16, 1);
 x_29 = lean_ctor_get(x_16, 2);
 x_30 = lean_ctor_get(x_16, 3);
-x_31 = lean_ctor_get_uint8_s(x_16, 0);
-x_32 = lean_ctor_get_uint8_s(x_16, 1);
+x_31 = lean_ctor_get_uint8(x_16, 32);
+x_32 = lean_ctor_get_uint8(x_16, 33);
 x_47 = (byte)(lean_is_exclusive(x_16) ? 0 : 1);
 if (x_47 == 0)
 {
@@ -8239,14 +8239,14 @@ lean_ctor_set(x_41, 0, x_27);
 lean_ctor_set(x_41, 1, x_28);
 lean_ctor_set(x_41, 2, x_36);
 lean_ctor_set(x_41, 3, x_30);
-lean_ctor_set_uint8_s(x_41, 1, x_32);
+lean_ctor_set_uint8(x_41, 33, x_32);
 x_38 = x_41;
 goto block_40;
 }
 block_40:
 {
 Obj x_39 = null; 
-lean_ctor_set_uint8_s(x_38, 0, x_37);
+lean_ctor_set_uint8(x_38, 32, x_37);
 lean_inc_ref(x_4);
 x_39 = l_WellFounded_opaqueFix_u2083___at___00Lean_Elab_Tactic_Omega_Problem_fourierMotzkinData_spec__0___redArg___lam__0(x_24, x_4, x_15, x_23, x_17, x_38);
 x_19 = x_39;
@@ -8264,8 +8264,8 @@ x_48 = lean_ctor_get(x_16, 0);
 x_49 = lean_ctor_get(x_16, 1);
 x_50 = lean_ctor_get(x_16, 2);
 x_51 = lean_ctor_get(x_16, 3);
-x_52 = lean_ctor_get_uint8_s(x_16, 0);
-x_53 = lean_ctor_get_uint8_s(x_16, 1);
+x_52 = lean_ctor_get_uint8(x_16, 32);
+x_53 = lean_ctor_get_uint8(x_16, 33);
 x_61 = (byte)(lean_is_exclusive(x_16) ? 0 : 1);
 if (x_61 == 0)
 {
@@ -8305,8 +8305,8 @@ lean_ctor_set(x_59, 0, x_48);
 lean_ctor_set(x_59, 1, x_56);
 lean_ctor_set(x_59, 2, x_50);
 lean_ctor_set(x_59, 3, x_51);
-lean_ctor_set_uint8_s(x_59, 0, x_52);
-lean_ctor_set_uint8_s(x_59, 1, x_53);
+lean_ctor_set_uint8(x_59, 32, x_52);
+lean_ctor_set_uint8(x_59, 33, x_53);
 x_57 = x_59;
 goto block_58;
 }
@@ -8920,7 +8920,7 @@ x_8 = lean_ctor_get(x_1, 1);
 x_9 = lean_ctor_get(x_1, 2);
 x_10 = lean_ctor_get(x_1, 3);
 x_11 = lean_ctor_get(x_1, 4);
-x_12 = lean_ctor_get_uint8_s(x_1, 0);
+x_12 = lean_ctor_get_uint8(x_1, 56);
 x_13 = lean_ctor_get(x_1, 5);
 x_14 = lean_ctor_get(x_1, 6);
 x_32 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
@@ -8990,7 +8990,7 @@ lean_ctor_set(x_22, 3, x_10);
 lean_ctor_set(x_22, 4, x_11);
 lean_ctor_set(x_22, 5, x_13);
 lean_ctor_set(x_22, 6, x_14);
-lean_ctor_set_uint8_s(x_22, 0, x_12);
+lean_ctor_set_uint8(x_22, 56, x_12);
 x_20 = x_22;
 goto block_21;
 }
@@ -9023,7 +9023,7 @@ lean_ctor_set(x_27, 3, x_24);
 lean_ctor_set(x_27, 4, x_11);
 lean_ctor_set(x_27, 5, x_13);
 lean_ctor_set(x_27, 6, x_14);
-lean_ctor_set_uint8_s(x_27, 0, x_12);
+lean_ctor_set_uint8(x_27, 56, x_12);
 x_25 = x_27;
 goto block_26;
 }
@@ -9112,7 +9112,7 @@ goto block_46;
 }
 block_46:
 {
-lean_ctor_set_uint8_s(x_45, 0, x_41);
+lean_ctor_set_uint8(x_45, 56, x_41);
 return x_45;
 }
 }
@@ -9204,7 +9204,7 @@ _start:
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; 
 x_27 = lean_ctor_get(x_9, 0);
 x_28 = lean_ctor_get(x_27, 2);
-x_29 = lean_ctor_get_uint8_s(x_28, 0);
+x_29 = lean_ctor_get_uint8(x_28, 8);
 if (x_29 == 0)
 {
 x_12 = x_2;
@@ -9242,7 +9242,7 @@ else
 {
 Obj x_34 = null; byte x_35 = 0; Obj x_36 = null; Obj x_37 = null; 
 x_34 = lean_ctor_get(x_1, 2);
-x_35 = lean_ctor_get_uint8_s(x_1, 0);
+x_35 = lean_ctor_get_uint8(x_1, 56);
 x_36 = l_Lean_Elab_Tactic_Omega_Problem_runOmega___closed__1;
 if (x_35 == 0)
 {
@@ -9368,7 +9368,7 @@ return x_45;
 block_26:
 {
 byte x_21 = 0; 
-x_21 = lean_ctor_get_uint8_s(x_1, 0);
+x_21 = lean_ctor_get_uint8(x_1, 56);
 if (x_21 == 0)
 {
 Obj x_22 = null; 
@@ -9625,7 +9625,7 @@ Obj x_72 = null; Obj x_73 = null; byte x_74 = 0;
 lean_dec(x_66);
 x_72 = lean_ctor_get(x_7, 0);
 x_73 = lean_ctor_get(x_72, 2);
-x_74 = lean_ctor_get_uint8_s(x_73, 0);
+x_74 = lean_ctor_get_uint8(x_73, 8);
 if (x_74 == 0)
 {
 goto block_64;
@@ -10997,7 +10997,7 @@ x_6 = lean_ctor_get(x_1, 1);
 x_7 = lean_ctor_get(x_1, 2);
 x_8 = lean_ctor_get(x_1, 3);
 x_9 = lean_ctor_get(x_1, 4);
-x_10 = lean_ctor_get_uint8_s(x_1, 0);
+x_10 = lean_ctor_get_uint8(x_1, 56);
 x_11 = lean_ctor_get(x_1, 5);
 x_12 = lean_ctor_get(x_1, 6);
 x_13 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>)&l_Lean_Elab_Tactic_Omega_Problem_addInequality___lam__0___boxed, 11, 1);
@@ -11025,7 +11025,7 @@ lean_ctor_set(x_17, 3, x_8);
 lean_ctor_set(x_17, 4, x_9);
 lean_ctor_set(x_17, 5, x_11);
 lean_ctor_set(x_17, 6, x_12);
-lean_ctor_set_uint8_s(x_17, 0, x_10);
+lean_ctor_set_uint8(x_17, 56, x_10);
 x_18 = (lean_int_neg(x_2));
 lean_dec(x_2);
 x_19 = lean_alloc_ctor(1, 1, 0);
@@ -12111,7 +12111,7 @@ public static Obj l_Lean_Elab_Tactic_Omega_Problem_solveEqualities(Obj x_1, Obj 
 _start:
 {
 byte x_12 = 0; 
-x_12 = lean_ctor_get_uint8_s(x_1, 0);
+x_12 = lean_ctor_get_uint8(x_1, 56);
 if (x_12 == 0)
 {
 Obj x_13 = null; 
@@ -14299,8 +14299,8 @@ lean_ctor_set(x_7, 0, x_3);
 lean_ctor_set(x_7, 1, x_5);
 lean_ctor_set(x_7, 2, x_5);
 lean_ctor_set(x_7, 3, x_5);
-lean_ctor_set_uint8_s(x_7, 0, x_6);
-lean_ctor_set_uint8_s(x_7, 1, x_6);
+lean_ctor_set_uint8(x_7, 32, x_6);
+lean_ctor_set_uint8(x_7, 33, x_6);
 x_8 = (lean_array_push(x_1, x_7));
 x_1 = x_8;
 x_2 = x_4;
@@ -14416,7 +14416,7 @@ public static Obj l_Lean_Elab_Tactic_Omega_Problem_instToString___lam__3(Obj x_1
 _start:
 {
 byte x_4 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_3, 56);
 if (x_4 == 0)
 {
 Obj x_5 = null; 
@@ -14741,11 +14741,11 @@ public static byte l_Lean_Elab_Tactic_Omega_Problem_FourierMotzkinData_exact(Obj
 _start:
 {
 byte x_2 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 32);
 if (x_2 == 0)
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_1, 1);
+x_3 = lean_ctor_get_uint8(x_1, 33);
 return x_3;
 }
 else

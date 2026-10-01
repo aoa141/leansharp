@@ -145,9 +145,18 @@ public sealed class LeanHandle
         return Stream;
     }
 
+    // The standard input handle is one object for all programs running in this OS process, but
+    // each of them has its own stream (the logical call context). Reading must not share a
+    // lock or a read buffer between them: a child blocked in `getLine` on its own stdin would
+    // block every other program reading its stdin. Each stream gets its own reader.
+    static readonly ConditionalWeakTable<Stream, LeanHandle> s_stdReaders = new();
+
+    LeanHandle StdReader() => s_stdReaders.GetValue(Stream, static s => new LeanHandle(s, null, false, ownsStream: false));
+
     /// <summary>Read up to `n` bytes; blocks until `n` bytes are available or EOF (like `fread`).</summary>
     public int Read(byte[] dst, int n)
     {
+        if (m_std != StdKind.None) return StdReader().Read(dst, n);
         lock (m_lock)
         {
             var s = Checked();
@@ -191,6 +200,7 @@ public sealed class LeanHandle
     /// <summary>Read a line including the terminating `\n` (empty at EOF).</summary>
     public byte[] GetLine()
     {
+        if (m_std != StdKind.None) return StdReader().GetLine();
         lock (m_lock)
         {
             var s = Checked();

@@ -848,7 +848,7 @@ Obj x_17 = null; byte x_18 = 0; byte x_19 = 0; byte x_20 = 0;
 x_17 = lean_ctor_get(x_16, 0);
 lean_inc(x_17);
 lean_dec_ref(x_16);
-x_18 = lean_ctor_get_uint8_s(x_17, 16);
+x_18 = lean_ctor_get_uint8(x_17, 32);
 lean_dec(x_17);
 x_19 = (byte)0;
 x_20 = M_Init_System_IO.l_IO_FS_instBEqFileType_beq(x_18, x_19);

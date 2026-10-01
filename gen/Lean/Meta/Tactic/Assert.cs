@@ -317,7 +317,7 @@ x_7 = (ulong)(lean_usize_sub(x_2, x_6));
 x_8 = (lean_array_uget_borrowed(x_1, x_7));
 x_9 = lean_ctor_get(x_8, 0);
 x_10 = lean_ctor_get(x_8, 1);
-x_11 = lean_ctor_get_uint8_s(x_8, 0);
+x_11 = lean_ctor_get_uint8(x_8, 24);
 lean_inc_ref(x_10);
 lean_inc(x_9);
 x_12 = M_Lean_Expr.l_Lean_Expr_forallE___override(x_9, x_10, x_4, x_11);
@@ -4179,7 +4179,7 @@ x_4 = (lean_st_ref_get(x_2));
 x_5 = lean_ctor_get(x_4, 8);
 lean_inc_ref(x_5);
 lean_dec(x_4);
-x_6 = lean_ctor_get_uint8_s(x_5, 0);
+x_6 = lean_ctor_get_uint8(x_5, 24);
 lean_dec_ref(x_5);
 if (x_6 == 0)
 {
@@ -4231,7 +4231,7 @@ goto block_40;
 block_40:
 {
 byte x_22 = 0; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; byte x_39 = 0; 
-x_22 = lean_ctor_get_uint8_s(x_10, 0);
+x_22 = lean_ctor_get_uint8(x_10, 24);
 x_23 = lean_ctor_get(x_10, 0);
 x_24 = lean_ctor_get(x_10, 1);
 x_25 = lean_ctor_get(x_10, 2);
@@ -4270,7 +4270,7 @@ x_37 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_37, 0, x_23);
 lean_ctor_set(x_37, 1, x_24);
 lean_ctor_set(x_37, 2, x_29);
-lean_ctor_set_uint8_s(x_37, 0, x_22);
+lean_ctor_set_uint8(x_37, 24, x_22);
 x_30 = x_37;
 goto block_36;
 }
@@ -5103,7 +5103,7 @@ else
 {
 Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; 
 x_12 = (lean_array_fget_borrowed(x_2, x_4));
-x_13 = lean_ctor_get_uint8_s(x_12, 1);
+x_13 = lean_ctor_get_uint8(x_12, 25);
 x_14 = M_Lean_LocalContext.l_Lean_LocalDeclKind_ctorIdx(x_13);
 x_15 = l_WellFounded_opaqueFix_u2083___at___00Lean_MVarId_assertHypotheses_spec__0___redArg___closed__0;
 x_16 = lean_u8(lean_nat_dec_eq(x_14, x_15));
@@ -5442,7 +5442,7 @@ x_7 = (lean_st_ref_get(x_5));
 x_8 = lean_ctor_get(x_7, 8);
 lean_inc_ref(x_8);
 lean_dec(x_7);
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 24);
 lean_dec_ref(x_8);
 if (x_9 == 0)
 {

@@ -937,7 +937,7 @@ x_1 = (byte)0;
 x_2 = l_Lean_Parser_Tactic_guardExpr___closed__5;
 x_3 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -1312,7 +1312,7 @@ x_1 = (byte)0;
 x_2 = l_Lean_Parser_Tactic_guardHyp___closed__2;
 x_3 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -1375,7 +1375,7 @@ x_1 = (byte)0;
 x_2 = l_Lean_Parser_Tactic_guardTarget___closed__2;
 x_3 = lean_alloc_ctor(6, 1, 1);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 0, x_1);
+lean_ctor_set_uint8(x_3, 8, x_1);
 return x_3;
 }
 }

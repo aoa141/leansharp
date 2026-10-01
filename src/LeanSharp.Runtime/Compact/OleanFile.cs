@@ -11,7 +11,7 @@ public static class OleanFile
     /// <summary>Version string written into new files (`get_short_version_string()`).</summary>
     public static string LeanVersion = "4.36.0-pre";
     /// <summary>Githash written into new files (`LEAN_GITHASH`).</summary>
-    public static string GitHash = "67a8629274847c29155324086f6c0f49ba20ec8d";
+    public static string GitHash = "77f336f7ae6a60419d3882e0d5ca7ac3a2155528";
     /// <summary>Write big numbers in the GMP layout (flags bit 0), as the native release build does.</summary>
     public static bool UseGmpLayout = true;
 

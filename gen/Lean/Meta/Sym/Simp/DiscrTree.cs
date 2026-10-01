@@ -1247,11 +1247,11 @@ else
 {
 Obj x_5 = null; byte x_6 = 0; 
 x_5 = (lean_array_fget_borrowed(x_1, x_2));
-x_6 = lean_ctor_get_uint8_s(x_5, 1);
+x_6 = lean_ctor_get_uint8(x_5, 1);
 if (x_6 == 0)
 {
 byte x_7 = 0; 
-x_7 = lean_ctor_get_uint8_s(x_5, 0);
+x_7 = lean_ctor_get_uint8(x_5, 0);
 return x_7;
 }
 else

@@ -49,7 +49,7 @@ Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_12 = 0; b
 x_8 = lean_ctor_get(x_1, 0);
 x_9 = lean_ctor_get(x_1, 1);
 x_10 = lean_ctor_get(x_1, 2);
-x_11 = lean_ctor_get_uint8_s(x_1, 8);
+x_11 = lean_ctor_get_uint8(x_1, 32);
 x_12 = (byte)1;
 x_13 = M_Lean_Expr.l_Lean_instBEqBinderInfo_beq(x_11, x_12);
 if (x_13 == 0)
@@ -176,7 +176,7 @@ byte x_2 = 0; Obj x_3 = null; Obj x_4 = null;
 x_2 = (byte)1;
 x_3 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 8, x_2);
 x_4 = lean_alloc_ctor(1, 1, 0);
 lean_ctor_set(x_4, 0, x_3);
 return x_4;

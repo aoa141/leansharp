@@ -60,7 +60,7 @@ x_3 = lean_box(4);
 x_4 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_4, 0, x_3);
 lean_ctor_set(x_4, 1, x_1);
-lean_ctor_set_uint8_s(x_4, 0, x_2);
+lean_ctor_set_uint8(x_4, 16, x_2);
 return x_4;
 }
 }
@@ -908,13 +908,13 @@ _start:
 if (x_1 == 0)
 {
 byte x_3 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_2, 1);
+x_3 = lean_ctor_get_uint8(x_2, 17);
 return x_3;
 }
 else
 {
 byte x_4 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 16);
 return x_4;
 }
 }
@@ -1282,8 +1282,8 @@ _start:
 if (x_1 == 0)
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_13 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
-x_5 = lean_ctor_get_uint8_s(x_2, 1);
+x_4 = lean_ctor_get_uint8(x_2, 16);
+x_5 = lean_ctor_get_uint8(x_2, 17);
 x_6 = lean_ctor_get(x_2, 0);
 x_13 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_13 == 0)
@@ -1318,8 +1318,8 @@ Obj x_11 = null;
 x_11 = lean_alloc_ctor(0, 2, 2);
 lean_ctor_set(x_11, 0, x_6);
 lean_ctor_set(x_11, 1, x_3);
-lean_ctor_set_uint8_s(x_11, 0, x_4);
-lean_ctor_set_uint8_s(x_11, 1, x_5);
+lean_ctor_set_uint8(x_11, 16, x_4);
+lean_ctor_set_uint8(x_11, 17, x_5);
 x_9 = x_11;
 goto block_10;
 }
@@ -1333,7 +1333,7 @@ else
 {
 Obj x_15 = null; byte x_16 = 0; Obj x_17 = null; byte x_18 = 0; byte x_23 = 0; 
 x_15 = lean_ctor_get(x_2, 0);
-x_16 = lean_ctor_get_uint8_s(x_2, 0);
+x_16 = lean_ctor_get_uint8(x_2, 16);
 x_23 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_23 == 0)
 {
@@ -1367,7 +1367,7 @@ Obj x_21 = null;
 x_21 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_21, 0, x_15);
 lean_ctor_set(x_21, 1, x_3);
-lean_ctor_set_uint8_s(x_21, 0, x_16);
+lean_ctor_set_uint8(x_21, 16, x_16);
 x_19 = x_21;
 goto block_20;
 }
@@ -2523,8 +2523,8 @@ x_4 = (byte)8;
 x_5 = lean_alloc_ctor(0, 2, 2);
 lean_ctor_set(x_5, 0, x_2);
 lean_ctor_set(x_5, 1, x_1);
-lean_ctor_set_uint8_s(x_5, 0, x_4);
-lean_ctor_set_uint8_s(x_5, 1, x_3);
+lean_ctor_set_uint8(x_5, 16, x_4);
+lean_ctor_set_uint8(x_5, 17, x_3);
 return x_5;
 }
 }
@@ -2583,7 +2583,7 @@ _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 0);
+x_4 = lean_ctor_get_uint8(x_2, 16);
 x_5 = lean_ctor_get(x_2, 1);
 x_6 = l_Std_Http_Protocol_H1_instEncodeV11Head___aux__3___closed__0;
 switch (x_4) {
@@ -3174,8 +3174,8 @@ public static Obj l_Std_Http_Protocol_H1_instEncodeV11Head___aux__1(Obj x_1, Obj
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_92 = null; Obj x_93 = null; Obj x_94 = null; Obj x_95 = null; Obj x_96 = null; Obj x_97 = null; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; Obj x_108 = null; Obj x_109 = null; Obj x_110 = null; Obj x_111 = null; Obj x_112 = null; Obj x_113 = null; Obj x_114 = null; Obj x_115 = null; Obj x_116 = null; Obj x_125 = null; Obj x_126 = null; Obj x_127 = null; Obj x_128 = null; Obj x_129 = null; Obj x_130 = null; Obj x_134 = null; Obj x_135 = null; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_139 = null; Obj x_140 = null; Obj x_141 = null; Obj x_142 = null; Obj x_154 = null; Obj x_155 = null; Obj x_156 = null; Obj x_157 = null; Obj x_158 = null; Obj x_159 = null; Obj x_160 = null; Obj x_161 = null; Obj x_162 = null; Obj x_163 = null; Obj x_164 = null; Obj x_165 = null; Obj x_170 = null; Obj x_171 = null; Obj x_172 = null; Obj x_173 = null; Obj x_174 = null; Obj x_175 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_180 = null; Obj x_181 = null; Obj x_190 = null; Obj x_191 = null; Obj x_192 = null; Obj x_193 = null; Obj x_194 = null; Obj x_195 = null; Obj x_196 = null; Obj x_197 = null; Obj x_198 = null; Obj x_199 = null; Obj x_200 = null; Obj x_201 = null; Obj x_212 = null; 
-x_3 = lean_ctor_get_uint8_s(x_2, 0);
-x_4 = lean_ctor_get_uint8_s(x_2, 1);
+x_3 = lean_ctor_get_uint8(x_2, 16);
+x_4 = lean_ctor_get_uint8(x_2, 17);
 x_5 = lean_ctor_get(x_2, 0);
 lean_inc(x_5);
 x_6 = lean_ctor_get(x_2, 1);
@@ -3630,7 +3630,7 @@ goto block_59;
 default: 
 {
 ushort x_69 = 0; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; 
-x_69 = lean_ctor_get_uint16_s(x_61, 0);
+x_69 = lean_ctor_get_uint16(x_61, 0);
 lean_dec_ref(x_61);
 x_70 = l_Std_Http_Protocol_H1_instEncodeV11Head___aux__1___closed__8;
 x_71 = (lean_uint16_to_nat(x_69));
@@ -3788,7 +3788,7 @@ block_153:
 Obj x_143 = null; byte x_144 = 0; Obj x_145 = null; Obj x_146 = null; ulong x_147 = 0; ulong x_148 = 0; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; 
 x_143 = lean_ctor_get(x_139, 0);
 lean_inc_ref(x_143);
-x_144 = lean_ctor_get_uint8_s(x_139, 0);
+x_144 = lean_ctor_get_uint8(x_139, 8);
 lean_dec_ref(x_139);
 x_145 = l_Std_Http_Protocol_H1_instEncodeV11Head___aux__1___closed__12;
 x_146 = l_Std_Http_Protocol_H1_instEncodeV11Head___aux__1___closed__22;
@@ -3890,7 +3890,7 @@ goto block_169;
 default: 
 {
 ushort x_184 = 0; Obj x_185 = null; Obj x_186 = null; Obj x_187 = null; Obj x_188 = null; 
-x_184 = lean_ctor_get_uint16_s(x_172, 0);
+x_184 = lean_ctor_get_uint16(x_172, 0);
 lean_dec_ref(x_172);
 x_185 = l_Std_Http_Protocol_H1_instEncodeV11Head___aux__1___closed__8;
 x_186 = (lean_uint16_to_nat(x_184));
@@ -4018,7 +4018,7 @@ lean_inc(x_224);
 lean_dec_ref(x_5);
 x_225 = lean_ctor_get(x_223, 0);
 lean_inc_ref(x_225);
-x_226 = lean_ctor_get_uint8_s(x_223, 0);
+x_226 = lean_ctor_get_uint8(x_223, 8);
 lean_dec_ref(x_223);
 x_227 = l_Std_Http_Protocol_H1_instEncodeV11Head___aux__1___closed__12;
 x_228 = l_Std_Http_Protocol_H1_instEncodeV11Head___aux__1___closed__22;

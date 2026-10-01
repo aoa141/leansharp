@@ -998,8 +998,8 @@ lean_ctor_set(x_14, 1, x_5);
 lean_ctor_set(x_14, 2, x_9);
 lean_ctor_set(x_14, 3, x_10);
 lean_ctor_set(x_14, 4, x_11);
-lean_ctor_set_uint8_s(x_14, 0, x_12);
-lean_ctor_set_uint8_s(x_14, 1, x_13);
+lean_ctor_set_uint8(x_14, 40, x_12);
+lean_ctor_set_uint8(x_14, 41, x_13);
 x_15 = M_Init_System_IO.l_IO_Process_output(x_14, x_10);
 if (lean_obj_tag(x_15) == 0)
 {
@@ -1023,7 +1023,7 @@ goto block_35;
 block_35:
 {
 uint x_19 = 0; uint x_20 = 0; byte x_21 = 0; 
-x_19 = lean_ctor_get_uint32_s(x_16, 0);
+x_19 = lean_ctor_get_uint32(x_16, 16);
 lean_dec(x_16);
 x_20 = 0u;
 x_21 = lean_u8(lean_uint32_dec_eq(x_19, x_20));
@@ -2662,9 +2662,9 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)1;
 x_2 = lean_alloc_ctor(0, 0, 3);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
-lean_ctor_set_uint8_s(x_2, 2, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 2, x_1);
 return x_2;
 }
 }
@@ -4386,8 +4386,8 @@ lean_ctor_set(x_75, 1, x_3);
 lean_ctor_set(x_75, 2, x_71);
 lean_ctor_set(x_75, 3, x_72);
 lean_ctor_set(x_75, 4, x_4);
-lean_ctor_set_uint8_s(x_75, 0, x_73);
-lean_ctor_set_uint8_s(x_75, 1, x_74);
+lean_ctor_set_uint8(x_75, 40, x_73);
+lean_ctor_set_uint8(x_75, 41, x_74);
 x_76 = (lean_io_process_spawn(x_75));
 if (lean_obj_tag(x_76) == 0)
 {
@@ -4511,8 +4511,8 @@ lean_ctor_set(x_120, 1, x_103);
 lean_ctor_set(x_120, 2, x_118);
 lean_ctor_set(x_120, 3, x_72);
 lean_ctor_set(x_120, 4, x_119);
-lean_ctor_set_uint8_s(x_120, 0, x_73);
-lean_ctor_set_uint8_s(x_120, 1, x_74);
+lean_ctor_set_uint8(x_120, 40, x_73);
+lean_ctor_set_uint8(x_120, 41, x_74);
 x_121 = (lean_io_process_spawn(x_120));
 if (lean_obj_tag(x_121) == 0)
 {
@@ -4552,8 +4552,8 @@ lean_ctor_set(x_135, 1, x_7);
 lean_ctor_set(x_135, 2, x_134);
 lean_ctor_set(x_135, 3, x_72);
 lean_ctor_set(x_135, 4, x_119);
-lean_ctor_set_uint8_s(x_135, 0, x_73);
-lean_ctor_set_uint8_s(x_135, 1, x_74);
+lean_ctor_set_uint8(x_135, 40, x_73);
+lean_ctor_set_uint8(x_135, 41, x_74);
 x_136 = M_Init_System_IO.l_IO_Process_run(x_135, x_72);
 if (lean_obj_tag(x_136) == 0)
 {
@@ -4617,8 +4617,8 @@ lean_ctor_set(x_160, 1, x_147);
 lean_ctor_set(x_160, 2, x_159);
 lean_ctor_set(x_160, 3, x_72);
 lean_ctor_set(x_160, 4, x_119);
-lean_ctor_set_uint8_s(x_160, 0, x_73);
-lean_ctor_set_uint8_s(x_160, 1, x_74);
+lean_ctor_set_uint8(x_160, 40, x_73);
+lean_ctor_set_uint8(x_160, 41, x_74);
 x_161 = M_Lean_Data_Json_Printer.l_Lean_Json_compress(x_145);
 if (x_144 == 0)
 {
@@ -4681,8 +4681,8 @@ lean_ctor_set(x_177, 1, x_7);
 lean_ctor_set(x_177, 2, x_176);
 lean_ctor_set(x_177, 3, x_72);
 lean_ctor_set(x_177, 4, x_119);
-lean_ctor_set_uint8_s(x_177, 0, x_73);
-lean_ctor_set_uint8_s(x_177, 1, x_74);
+lean_ctor_set_uint8(x_177, 40, x_73);
+lean_ctor_set_uint8(x_177, 41, x_74);
 x_178 = M_Init_System_IO.l_IO_Process_run(x_177, x_72);
 if (lean_obj_tag(x_178) == 0)
 {
@@ -7650,7 +7650,7 @@ lean_ctor_set(x_49, 0, x_42);
 x_50 = M_Lean_Data_Json_Basic.l_Lean_Json_setObjVal_x21(x_1, x_23, x_49);
 x_51 = l___private_Lake_CLI_Samply_0__Lake_Samply_applySymbols___closed__6;
 x_52 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_52, 0, x_38);
+lean_ctor_set_uint8(x_52, 0, x_38);
 x_53 = M_Lean_Data_Json_Basic.l_Lean_Json_setObjVal_x21(x_46, x_51, x_52);
 x_54 = M_Lean_Data_Json_Basic.l_Lean_Json_setObjVal_x21(x_50, x_43, x_53);
 if (x_48 == 0)
@@ -8406,9 +8406,9 @@ _start:
 byte x_1 = 0; Obj x_2 = null; 
 x_1 = (byte)2;
 x_2 = lean_alloc_ctor(0, 0, 3);
-lean_ctor_set_uint8_s(x_2, 0, x_1);
-lean_ctor_set_uint8_s(x_2, 1, x_1);
-lean_ctor_set_uint8_s(x_2, 2, x_1);
+lean_ctor_set_uint8(x_2, 0, x_1);
+lean_ctor_set_uint8(x_2, 1, x_1);
+lean_ctor_set_uint8(x_2, 2, x_1);
 return x_2;
 }
 }

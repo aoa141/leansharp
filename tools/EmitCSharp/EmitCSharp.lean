@@ -206,18 +206,20 @@ def emitSet (x : VarId) (i : Nat) (y : Arg) : M Unit := do
 def emitUSet (x : VarId) (n : Nat) (y : VarId) : M Unit := do
   emit "lean_ctor_set_usize("; emit x; emit ", "; emit n; emit ", "; emit y; emitLn ");"
 
-/-- Scalar fields are accessed with offsets relative to the start of the scalar area
-(i.e. `offset` without the `sizeof(void*)*n` part). -/
-def emitSSet (x : VarId) (_n : Nat) (offset : Nat) (y : VarId) (t : IRType) : M Unit := do
+/-- Scalar fields are accessed as in C: the offset `sizeof(void*)*n + offset` counts from the first
+field, where `n` is the number of object fields *plus the number of `USize` fields* (which precede
+the other scalars). The runtime subtracts the object fields. (Passing only `offset` is wrong for
+structures that have both `USize` and smaller scalar fields.) -/
+def emitSSet (x : VarId) (n : Nat) (offset : Nat) (y : VarId) (t : IRType) : M Unit := do
   match t with
-  | .float   => emit "lean_ctor_set_float_s"
-  | .float32 => emit "lean_ctor_set_float32_s"
-  | .uint8   => emit "lean_ctor_set_uint8_s"
-  | .uint16  => emit "lean_ctor_set_uint16_s"
-  | .uint32  => emit "lean_ctor_set_uint32_s"
-  | .uint64  => emit "lean_ctor_set_uint64_s"
+  | .float   => emit "lean_ctor_set_float"
+  | .float32 => emit "lean_ctor_set_float32"
+  | .uint8   => emit "lean_ctor_set_uint8"
+  | .uint16  => emit "lean_ctor_set_uint16"
+  | .uint32  => emit "lean_ctor_set_uint32"
+  | .uint64  => emit "lean_ctor_set_uint64"
   | _        => throw "invalid instruction"
-  emit "("; emit x; emit ", "; emit offset; emit ", "; emit y; emitLn ");"
+  emit "("; emit x; emit ", "; emit (8 * n + offset); emit ", "; emit y; emitLn ");"
 
 def getJPParams (j : JoinPointId) : M (Array Param) := do
   match (← read).jpMap[j]? with
@@ -280,17 +282,17 @@ def emitProj (z : VarId) (i : Nat) (x : VarId) : M Unit := do
 def emitUProj (z : VarId) (i : Nat) (x : VarId) : M Unit := do
   emitLhs z; emit "lean_ctor_get_usize("; emit x; emit ", "; emit i; emitLn ");"
 
-def emitSProj (z : VarId) (t : IRType) (_n offset : Nat) (x : VarId) : M Unit := do
+def emitSProj (z : VarId) (t : IRType) (n offset : Nat) (x : VarId) : M Unit := do
   emitLhs z
   match t with
-  | .float    => emit "lean_ctor_get_float_s"
-  | .float32  => emit "lean_ctor_get_float32_s"
-  | .uint8    => emit "lean_ctor_get_uint8_s"
-  | .uint16   => emit "lean_ctor_get_uint16_s"
-  | .uint32   => emit "lean_ctor_get_uint32_s"
-  | .uint64   => emit "lean_ctor_get_uint64_s"
+  | .float    => emit "lean_ctor_get_float"
+  | .float32  => emit "lean_ctor_get_float32"
+  | .uint8    => emit "lean_ctor_get_uint8"
+  | .uint16   => emit "lean_ctor_get_uint16"
+  | .uint32   => emit "lean_ctor_get_uint32"
+  | .uint64   => emit "lean_ctor_get_uint64"
   | _         => throw "invalid instruction"
-  emit "("; emit x; emit ", "; emit offset; emitLn ");"
+  emit "("; emit x; emit ", "; emit (8 * n + offset); emitLn ");"
 
 def toStringArgs (ys : Array Arg) : List String :=
   ys.toList.map argToCS

@@ -2386,9 +2386,9 @@ byte x_1 = 0; byte x_2 = 0; Obj x_3 = null;
 x_1 = (byte)0;
 x_2 = (byte)2;
 x_3 = lean_alloc_ctor(0, 0, 3);
-lean_ctor_set_uint8_s(x_3, 0, x_2);
-lean_ctor_set_uint8_s(x_3, 1, x_1);
-lean_ctor_set_uint8_s(x_3, 2, x_1);
+lean_ctor_set_uint8(x_3, 0, x_2);
+lean_ctor_set_uint8(x_3, 1, x_1);
+lean_ctor_set_uint8(x_3, 2, x_1);
 return x_3;
 }
 }
@@ -2435,7 +2435,7 @@ public static Obj l_Lean_Lsp_ImportCompletion_addCompletionItemData(Obj x_1, Obj
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_15 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_3, 8);
 x_5 = lean_ctor_get(x_3, 0);
 x_15 = (byte)(lean_is_exclusive(x_3) ? 0 : 1);
 if (x_15 == 0)
@@ -2469,7 +2469,7 @@ else
 Obj x_13 = null; 
 x_13 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_13, 0, x_10);
-lean_ctor_set_uint8_s(x_13, 0, x_4);
+lean_ctor_set_uint8(x_13, 8, x_4);
 x_11 = x_13;
 goto block_12;
 }
@@ -2797,7 +2797,7 @@ x_12 = 0UL;
 x_13 = l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Lsp_ImportCompletion_find_spec__0(x_11, x_12, x_10);
 x_14 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_14, 0, x_13);
-lean_ctor_set_uint8_s(x_14, 0, x_9);
+lean_ctor_set_uint8(x_14, 8, x_9);
 x_15 = l_Lean_Lsp_ImportCompletion_addCompletionItemData(x_1, x_2, x_14);
 return x_15;
 }
@@ -2812,7 +2812,7 @@ x_18 = 0UL;
 x_19 = l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Lsp_ImportCompletion_find_spec__1(x_9, x_17, x_18, x_16);
 x_20 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_20, 0, x_19);
-lean_ctor_set_uint8_s(x_20, 0, x_8);
+lean_ctor_set_uint8(x_20, 8, x_8);
 x_21 = l_Lean_Lsp_ImportCompletion_addCompletionItemData(x_1, x_2, x_20);
 return x_21;
 }
@@ -2829,7 +2829,7 @@ x_25 = l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_L
 x_26 = (byte)0;
 x_27 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_27, 0, x_25);
-lean_ctor_set_uint8_s(x_27, 0, x_26);
+lean_ctor_set_uint8(x_27, 8, x_26);
 x_28 = l_Lean_Lsp_ImportCompletion_addCompletionItemData(x_1, x_2, x_27);
 return x_28;
 }
@@ -3509,8 +3509,8 @@ lean_ctor_set(x_11, 1, x_3);
 lean_ctor_set(x_11, 2, x_5);
 lean_ctor_set(x_11, 3, x_6);
 lean_ctor_set(x_11, 4, x_8);
-lean_ctor_set_uint8_s(x_11, 0, x_9);
-lean_ctor_set_uint8_s(x_11, 1, x_10);
+lean_ctor_set_uint8(x_11, 40, x_9);
+lean_ctor_set_uint8(x_11, 41, x_10);
 x_12 = (lean_io_process_spawn(x_11));
 if (lean_obj_tag(x_12) == 0)
 {

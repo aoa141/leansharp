@@ -264,7 +264,7 @@ x_34 = lean_ctor_get(x_33, 0);
 lean_inc(x_34);
 lean_dec_ref(x_33);
 x_56 = lean_ctor_get(x_34, 0);
-x_57 = lean_ctor_get_uint8_s(x_34, 1);
+x_57 = lean_ctor_get_uint8(x_34, 97);
 lean_inc_ref(x_56);
 x_58 = l___private_Lean_Meta_Tactic_Grind_Inv_0__Lean_Meta_Grind_checkParents(x_56, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
 if (lean_obj_tag(x_58) == 0)
@@ -3287,7 +3287,7 @@ lean_dec_ref(x_6);
 if (lean_obj_tag(x_8) == 1)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 0);
 lean_dec_ref(x_8);
 return x_9;
 }
@@ -3442,7 +3442,7 @@ public static Obj l_Lean_Meta_Grind_checkInvariants(byte x_1, Obj x_2, Obj x_3, 
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; byte x_43 = 0; 
-x_43 = lean_ctor_get_uint8_s(x_4, 2);
+x_43 = lean_ctor_get_uint8(x_4, 66);
 if (x_43 == 0)
 {
 x_16 = x_2;
@@ -4854,7 +4854,7 @@ x_34 = lean_ctor_get(x_33, 0);
 lean_inc(x_34);
 lean_dec_ref(x_33);
 x_56 = lean_ctor_get(x_34, 0);
-x_57 = lean_ctor_get_uint8_s(x_34, 1);
+x_57 = lean_ctor_get_uint8(x_34, 97);
 lean_inc_ref(x_56);
 x_58 = l___private_Lean_Meta_Tactic_Grind_Inv_0__Lean_Meta_Grind_checkParents(x_56, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
 if (lean_obj_tag(x_58) == 0)
@@ -5543,7 +5543,7 @@ x_34 = lean_ctor_get(x_33, 0);
 lean_inc(x_34);
 lean_dec_ref(x_33);
 x_56 = lean_ctor_get(x_34, 0);
-x_57 = lean_ctor_get_uint8_s(x_34, 1);
+x_57 = lean_ctor_get_uint8(x_34, 97);
 lean_inc_ref(x_56);
 x_58 = l___private_Lean_Meta_Tactic_Grind_Inv_0__Lean_Meta_Grind_checkParents(x_56, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
 if (lean_obj_tag(x_58) == 0)
@@ -6069,7 +6069,7 @@ x_25 = lean_ctor_get(x_22, 0);
 lean_inc(x_25);
 lean_dec_ref(x_22);
 x_26 = lean_ctor_get(x_23, 11);
-x_27 = lean_ctor_get_uint8_s(x_24, 0);
+x_27 = lean_ctor_get_uint8(x_24, 8);
 x_28 = l_List_forIn_x27_loop___at___00__private_Lean_Meta_Tactic_Grind_Inv_0__Lean_Meta_Grind_checkProofs_spec__1___redArg___closed__3;
 if (x_27 == 0)
 {
@@ -6166,7 +6166,7 @@ Obj x_41 = null; Obj x_42 = null; byte x_43 = 0;
 lean_dec_ref(x_40);
 x_41 = lean_ctor_get(x_37, 0);
 x_42 = lean_ctor_get(x_41, 2);
-x_43 = lean_ctor_get_uint8_s(x_42, 0);
+x_43 = lean_ctor_get_uint8(x_42, 8);
 if (x_43 == 0)
 {
 lean_dec(x_25);
@@ -7400,7 +7400,7 @@ x_34 = lean_ctor_get(x_33, 0);
 lean_inc(x_34);
 lean_dec_ref(x_33);
 x_56 = lean_ctor_get(x_34, 0);
-x_57 = lean_ctor_get_uint8_s(x_34, 1);
+x_57 = lean_ctor_get_uint8(x_34, 97);
 lean_inc_ref(x_56);
 x_58 = l___private_Lean_Meta_Tactic_Grind_Inv_0__Lean_Meta_Grind_checkParents(x_56, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
 if (lean_obj_tag(x_58) == 0)
@@ -8144,7 +8144,7 @@ public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Le
 _start:
 {
 Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_70 = 0; 
-x_70 = lean_ctor_get_uint8_s(x_1, 4);
+x_70 = lean_ctor_get_uint8(x_1, 100);
 if (x_70 == 0)
 {
 Obj x_71 = null; 
@@ -8645,7 +8645,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -8674,9 +8674,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00__private_Lean_Meta_Tactic_Grind_Inv_0__Lean_Meta_Grind_checkProofs_spec__0___redArg___closed__2;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -8698,7 +8698,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }

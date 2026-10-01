@@ -422,7 +422,7 @@ x_4 = lean_ctor_get(x_1, 2);
 lean_inc_ref(x_4);
 x_5 = lean_ctor_get(x_1, 3);
 lean_inc_ref(x_5);
-x_12 = lean_ctor_get_float_s(x_2, 0);
+x_12 = lean_ctor_get_float(x_2, 24);
 x_13 = l___private_Lean_PostprocessTraces_Postprocessors_0__Lean_PostprocessTraces_selfTime_go___closed__0;
 x_14 = lean_u8(lean_float_beq(x_12, x_13));
 if (x_14 == 0)
@@ -1791,8 +1791,8 @@ _start:
 Obj x_3 = null; Obj x_4 = null; double x_5 = 0.0; double x_6 = 0.0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_14 = 0; 
 x_3 = lean_ctor_get(x_2, 0);
 x_4 = lean_ctor_get(x_2, 1);
-x_5 = lean_ctor_get_float_s(x_2, 0);
-x_6 = lean_ctor_get_float_s(x_2, 8);
+x_5 = lean_ctor_get_float(x_2, 24);
+x_6 = lean_ctor_get_float(x_2, 32);
 x_7 = lean_ctor_get(x_2, 2);
 x_14 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_14 == 0)
@@ -1826,14 +1826,14 @@ x_12 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_12, 0, x_3);
 lean_ctor_set(x_12, 1, x_4);
 lean_ctor_set(x_12, 2, x_7);
-lean_ctor_set_float_s(x_12, 0, x_5);
-lean_ctor_set_float_s(x_12, 8, x_6);
+lean_ctor_set_float(x_12, 24, x_5);
+lean_ctor_set_float(x_12, 32, x_6);
 x_10 = x_12;
 goto block_11;
 }
 block_11:
 {
-lean_ctor_set_uint8_s(x_10, 16, x_1);
+lean_ctor_set_uint8(x_10, 40, x_1);
 return x_10;
 }
 }

@@ -209,7 +209,7 @@ public static Obj l_Lean_Lsp_ResolvableCompletionList_compressFast(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 8);
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = l_Lean_Lsp_ResolvableCompletionList_compressFast___closed__0;
 if (x_2 == 0)
@@ -811,7 +811,7 @@ if (lean_obj_tag(x_234) == 1)
 {
 Obj x_235 = null; byte x_236 = 0; Obj x_237 = null; Obj x_238 = null; Obj x_239 = null; 
 x_235 = lean_ctor_get(x_234, 0);
-x_236 = lean_ctor_get_uint8_s(x_235, 0);
+x_236 = lean_ctor_get_uint8(x_235, 8);
 x_237 = lean_ctor_get(x_235, 0);
 x_238 = l___private_Lean_Server_Completion_CompletionItemCompression_0__Lean_Lsp_ResolvableCompletionList_compressItemFast___closed__5;
 x_239 = (lean_string_append(x_233, x_238));
@@ -1765,7 +1765,7 @@ Obj x_230 = null; byte x_231 = 0; Obj x_232 = null; Obj x_233 = null; Obj x_234 
 x_230 = lean_ctor_get(x_13, 0);
 lean_inc(x_230);
 lean_dec_ref(x_13);
-x_231 = lean_ctor_get_uint8_s(x_230, 0);
+x_231 = lean_ctor_get_uint8(x_230, 8);
 x_232 = lean_ctor_get(x_230, 0);
 lean_inc_ref(x_232);
 lean_dec(x_230);
@@ -2154,7 +2154,7 @@ public static Obj l___private_Lean_Server_Completion_CompletionItemCompression_0
 _start:
 {
 Obj x_3 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; 
-x_7 = lean_ctor_get_uint8_s(x_2, 0);
+x_7 = lean_ctor_get_uint8(x_2, 8);
 x_8 = lean_ctor_get(x_2, 0);
 lean_inc_ref(x_8);
 lean_dec_ref(x_2);

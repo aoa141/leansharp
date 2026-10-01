@@ -115,9 +115,9 @@ lean_ctor_set(x_12, 1, x_7);
 lean_ctor_set(x_12, 2, x_9);
 lean_ctor_set(x_12, 3, x_11);
 lean_ctor_set(x_12, 4, x_3);
-lean_ctor_set_uint8_s(x_12, 0, x_10);
-lean_ctor_set_uint8_s(x_12, 1, x_4);
-lean_ctor_set_uint8_s(x_12, 2, x_10);
+lean_ctor_set_uint8(x_12, 40, x_10);
+lean_ctor_set_uint8(x_12, 41, x_4);
+lean_ctor_set_uint8(x_12, 42, x_10);
 return x_12;
 }
 }

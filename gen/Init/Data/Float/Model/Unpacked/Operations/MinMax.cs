@@ -27,7 +27,7 @@ return x_1;
 case 2:
 {
 byte x_7 = 0; 
-x_7 = lean_ctor_get_uint8_s(x_1, 0);
+x_7 = lean_ctor_get_uint8(x_1, 0);
 if (x_7 == 0)
 {
 lean_inc_ref(x_1);
@@ -108,7 +108,7 @@ return x_2;
 case 2:
 {
 byte x_7 = 0; 
-x_7 = lean_ctor_get_uint8_s(x_1, 0);
+x_7 = lean_ctor_get_uint8(x_1, 0);
 if (x_7 == 0)
 {
 lean_inc_ref(x_1);
@@ -180,7 +180,7 @@ return x_1;
 case 2:
 {
 byte x_7 = 0; 
-x_7 = lean_ctor_get_uint8_s(x_1, 0);
+x_7 = lean_ctor_get_uint8(x_1, 0);
 if (x_7 == 0)
 {
 lean_inc_ref(x_2);
@@ -251,7 +251,7 @@ return x_2;
 case 2:
 {
 byte x_7 = 0; 
-x_7 = lean_ctor_get_uint8_s(x_1, 0);
+x_7 = lean_ctor_get_uint8(x_1, 0);
 if (x_7 == 0)
 {
 lean_inc_ref(x_2);

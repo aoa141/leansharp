@@ -58,22 +58,34 @@ public static unsafe partial class LeanRt
     static readonly bool s_cacheRegions = Environment.GetEnvironmentVariable("LEANSHARP_OLEAN_CACHE") != "0";
     static readonly System.Collections.Concurrent.ConcurrentDictionary<string, (DateTime time, long len, CompactedRegionData[] deps, CompactedRegionData region)> s_regionCache = new();
 
-    static CompactedRegionData ReadCached(string fname, CompactedRegionData[] deps, out bool hit)
+    static readonly System.Collections.Concurrent.ConcurrentDictionary<string, object> s_regionLocks = new();
+
+    /// <summary>Reads (or finds in the cache) the region of `fname` and registers it.</summary>
+    static CompactedRegionData ReadCached(string fname, CompactedRegionData[] deps)
     {
-        hit = false;
-        if (!s_cacheRegions) return OleanFile.ReadForLean(fname, deps);
-        string key = Path.GetFullPath(fname);
-        var fi = new FileInfo(key);
-        DateTime t = fi.LastWriteTimeUtc;
-        long len = fi.Length;
-        if (s_regionCache.TryGetValue(key, out var e) && e.time == t && e.len == len && SameDeps(e.deps, deps))
+        if (!s_cacheRegions)
         {
-            hit = true;
-            return e.region;
+            var r0 = OleanFile.ReadForLean(fname, deps);
+            CompactedRegionData.Register(r0);
+            return r0;
         }
-        var r = OleanFile.ReadForLean(fname, deps);
-        s_regionCache[key] = (t, len, deps, r);
-        return r;
+        string key = Path.GetFullPath(fname);
+        // Programs importing the same file concurrently (Lake's `lean` children, a host running
+        // several programs) must end up sharing one region: one of them reads, the others wait.
+        // The region is registered before it becomes visible in the cache, so that a program that
+        // gets it from the cache can pass it as a dependency right away.
+        lock (s_regionLocks.GetOrAdd(key, _ => new object()))
+        {
+            var fi = new FileInfo(key);
+            DateTime t = fi.LastWriteTimeUtc;
+            long len = fi.Length;
+            if (s_regionCache.TryGetValue(key, out var e) && e.time == t && e.len == len && SameDeps(e.deps, deps))
+                return e.region;
+            var r = OleanFile.ReadForLean(fname, deps);
+            CompactedRegionData.Register(r);
+            s_regionCache[key] = (t, len, deps, r);
+            return r;
+        }
     }
 
     static bool SameDeps(CompactedRegionData[] a, CompactedRegionData[] b)
@@ -88,14 +100,13 @@ public static unsafe partial class LeanRt
     {
         string fname = lean_string_to_net(ofname);
         CompactedRegionData r;
-        bool hit;
         try
         {
             var deps = DepRegionsOf(odep_regions);
             string path = LeanContext.ResolvePath(fname);
             if (!File.Exists(path))
                 return CompactIoUserError($"failed to open file '{fname}': No such file or directory");
-            r = ReadCached(path, deps.ToArray(), out hit);
+            r = ReadCached(path, deps.ToArray());
         }
         catch (OleanFormatException ex)
         {
@@ -116,7 +127,6 @@ public static unsafe partial class LeanRt
         {
             return CompactIoUserError($"failed to read '{fname}': {ex.Message}");
         }
-        if (!hit) CompactedRegionData.Register(r);
         var pair = lean_alloc_ctor(0, 2, 0);
         lean_ctor_set(pair, 0, r.Root);
         lean_ctor_set(pair, 1, MkCompactedRegion(ofname, r));

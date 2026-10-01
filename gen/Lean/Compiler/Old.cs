@@ -252,7 +252,7 @@ goto block_20;
 block_20:
 {
 byte x_10 = 0; 
-x_10 = lean_ctor_get_uint8_s(x_7, 0);
+x_10 = lean_ctor_get_uint8(x_7, 24);
 lean_dec(x_7);
 switch (x_10) {
 case 0:

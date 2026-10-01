@@ -249,7 +249,7 @@ x_2 = lean_ctor_get(x_1, 1);
 lean_inc(x_2);
 x_3 = lean_ctor_get(x_1, 3);
 lean_inc_ref(x_3);
-x_4 = lean_ctor_get_uint8_s(x_1, 0);
+x_4 = lean_ctor_get_uint8(x_1, 32);
 lean_dec_ref(x_1);
 switch (x_4) {
 case 0:

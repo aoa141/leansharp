@@ -193,7 +193,7 @@ lean_ctor_set(x_12, 4, x_6);
 lean_ctor_set(x_12, 5, x_7);
 lean_ctor_set(x_12, 6, x_9);
 lean_ctor_set(x_12, 7, x_10);
-lean_ctor_set_uint8_s(x_12, 0, x_11);
+lean_ctor_set_uint8(x_12, 64, x_11);
 x_13 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_13, 0, x_12);
 lean_ctor_set(x_13, 1, x_8);

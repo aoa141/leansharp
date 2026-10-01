@@ -1393,7 +1393,7 @@ x_67 = lean_ctor_get(x_1, 3);
 lean_inc_ref(x_67);
 x_68 = lean_ctor_get(x_1, 4);
 lean_inc_ref(x_68);
-x_69 = lean_ctor_get_uint8_s(x_1, 0);
+x_69 = lean_ctor_get_uint8(x_1, 40);
 lean_dec_ref(x_1);
 if (x_3 == 0)
 {

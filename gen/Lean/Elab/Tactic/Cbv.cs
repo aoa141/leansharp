@@ -31,10 +31,10 @@ x_27 = l_Lean_Elab_Tactic_Cbv_evalDecideCbv___lam__1___closed__1;
 x_28 = (byte)0;
 x_29 = (byte)0;
 x_30 = lean_alloc_ctor(0, 0, 4);
-lean_ctor_set_uint8_s(x_30, 0, x_28);
-lean_ctor_set_uint8_s(x_30, 1, x_1);
-lean_ctor_set_uint8_s(x_30, 2, x_29);
-lean_ctor_set_uint8_s(x_30, 3, x_1);
+lean_ctor_set_uint8(x_30, 0, x_28);
+lean_ctor_set_uint8(x_30, 1, x_1);
+lean_ctor_set_uint8(x_30, 2, x_29);
+lean_ctor_set_uint8(x_30, 3, x_1);
 x_31 = M_Lean_Meta_Tactic_Apply.l_Lean_MVarId_applyConst(x_26, x_27, x_30, x_7, x_8, x_9, x_10);
 if (lean_obj_tag(x_31) == 0)
 {
@@ -1076,7 +1076,7 @@ lean_dec_ref(x_6);
 if (lean_obj_tag(x_8) == 1)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 0);
 lean_dec_ref(x_8);
 return x_9;
 }
@@ -1884,9 +1884,9 @@ lean_ctor_set(x_23, 1, x_14);
 lean_ctor_set(x_23, 2, x_13);
 lean_ctor_set(x_23, 3, x_12);
 lean_ctor_set(x_23, 4, x_22);
-lean_ctor_set_uint8_s(x_23, 0, x_16);
-lean_ctor_set_uint8_s(x_23, 1, x_11);
-lean_ctor_set_uint8_s(x_23, 2, x_4);
+lean_ctor_set_uint8(x_23, 40, x_16);
+lean_ctor_set_uint8(x_23, 41, x_11);
+lean_ctor_set_uint8(x_23, 42, x_4);
 x_24 = (lean_st_ref_take(x_18));
 x_25 = lean_ctor_get(x_24, 0);
 x_26 = lean_ctor_get(x_24, 1);
@@ -2097,7 +2097,7 @@ block_97:
 Obj x_87 = null; Obj x_88 = null; byte x_89 = 0; Obj x_90 = null; Obj x_91 = null; Obj x_92 = null; Obj x_93 = null; Obj x_94 = null; 
 x_87 = lean_ctor_get(x_7, 0);
 x_88 = lean_ctor_get(x_7, 2);
-x_89 = lean_ctor_get_uint8_s(x_7, 2);
+x_89 = lean_ctor_get_uint8(x_7, 26);
 x_90 = lean_box(x_89);
 x_91 = lean_box(x_84);
 x_92 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj>)&l_Lean_logAt___at___00Lean_logWarningAt___at___00Lean_Elab_Tactic_Cbv_evalCbv_spec__3_spec__5___redArg___lam__0___boxed, 3, 2);

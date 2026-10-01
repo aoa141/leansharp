@@ -1762,23 +1762,23 @@ _start:
 {
 Obj x_9 = null; Obj x_27 = null; byte x_28 = 0; byte x_29 = 0; 
 x_27 = M_Lean_Meta_Basic.l_Lean_Meta_Context_config(x_4);
-x_28 = lean_ctor_get_uint8_s(x_27, 9);
+x_28 = lean_ctor_get_uint8(x_27, 9);
 lean_dec_ref(x_27);
 x_29 = M_Init_MetaTypes.l_Lean_Meta_instBEqTransparencyMode_beq(x_28, x_1);
 if (x_29 == 0)
 {
 Obj x_30 = null; byte x_31 = 0; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; byte x_39 = 0; byte x_40 = 0; Obj x_41 = null; byte x_42 = 0; byte x_49 = 0; 
 x_30 = lean_ctor_get(x_4, 0);
-x_31 = lean_ctor_get_uint8_s(x_4, 0);
+x_31 = lean_ctor_get_uint8(x_4, 56);
 x_32 = lean_ctor_get(x_4, 1);
 x_33 = lean_ctor_get(x_4, 2);
 x_34 = lean_ctor_get(x_4, 3);
 x_35 = lean_ctor_get(x_4, 4);
 x_36 = lean_ctor_get(x_4, 5);
 x_37 = lean_ctor_get(x_4, 6);
-x_38 = lean_ctor_get_uint8_s(x_4, 1);
-x_39 = lean_ctor_get_uint8_s(x_4, 2);
-x_40 = lean_ctor_get_uint8_s(x_4, 3);
+x_38 = lean_ctor_get_uint8(x_4, 57);
+x_39 = lean_ctor_get_uint8(x_4, 58);
+x_40 = lean_ctor_get_uint8(x_4, 59);
 x_49 = (byte)(lean_is_exclusive(x_4) ? 0 : 1);
 if (x_49 == 0)
 {
@@ -1821,10 +1821,10 @@ lean_ctor_set(x_47, 3, x_34);
 lean_ctor_set(x_47, 4, x_35);
 lean_ctor_set(x_47, 5, x_36);
 lean_ctor_set(x_47, 6, x_37);
-lean_ctor_set_uint8_s(x_47, 0, x_31);
-lean_ctor_set_uint8_s(x_47, 1, x_38);
-lean_ctor_set_uint8_s(x_47, 2, x_39);
-lean_ctor_set_uint8_s(x_47, 3, x_40);
+lean_ctor_set_uint8(x_47, 56, x_31);
+lean_ctor_set_uint8(x_47, 57, x_38);
+lean_ctor_set_uint8(x_47, 58, x_39);
+lean_ctor_set_uint8(x_47, 59, x_40);
 x_44 = x_47;
 goto block_46;
 }
@@ -7188,7 +7188,7 @@ _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_56 = null; byte x_57 = 0; 
 x_56 = M_Lean_Meta_Basic.l_Lean_Meta_Context_config(x_3);
-x_57 = lean_ctor_get_uint8_s(x_56, 8);
+x_57 = lean_ctor_get_uint8(x_56, 8);
 lean_dec_ref(x_56);
 if (x_57 == 0)
 {

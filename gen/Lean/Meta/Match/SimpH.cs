@@ -3219,7 +3219,7 @@ _start:
 {
 Obj x_8 = null; Obj x_26 = null; byte x_27 = 0; Obj x_28 = null; byte x_29 = 0; byte x_30 = 0; 
 x_26 = M_Lean_Meta_Basic.l_Lean_Meta_Context_config(x_3);
-x_27 = lean_ctor_get_uint8_s(x_26, 9);
+x_27 = lean_ctor_get_uint8(x_26, 9);
 lean_dec_ref(x_26);
 lean_inc(x_2);
 x_28 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj, Obj>)&l_Lean_Meta_Match_simpH___lam__0___boxed, 8, 1);
@@ -3230,16 +3230,16 @@ if (x_30 == 0)
 {
 Obj x_31 = null; byte x_32 = 0; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; byte x_39 = 0; byte x_40 = 0; byte x_41 = 0; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; 
 x_31 = lean_ctor_get(x_3, 0);
-x_32 = lean_ctor_get_uint8_s(x_3, 0);
+x_32 = lean_ctor_get_uint8(x_3, 56);
 x_33 = lean_ctor_get(x_3, 1);
 x_34 = lean_ctor_get(x_3, 2);
 x_35 = lean_ctor_get(x_3, 3);
 x_36 = lean_ctor_get(x_3, 4);
 x_37 = lean_ctor_get(x_3, 5);
 x_38 = lean_ctor_get(x_3, 6);
-x_39 = lean_ctor_get_uint8_s(x_3, 1);
-x_40 = lean_ctor_get_uint8_s(x_3, 2);
-x_41 = lean_ctor_get_uint8_s(x_3, 3);
+x_39 = lean_ctor_get_uint8(x_3, 57);
+x_40 = lean_ctor_get_uint8(x_3, 58);
+x_41 = lean_ctor_get_uint8(x_3, 59);
 lean_inc_ref(x_31);
 x_42 = M_Lean_Meta_Basic.l_Lean_Meta_ConfigWithKey_setTransparency(x_29, x_31);
 lean_inc(x_38);
@@ -3256,10 +3256,10 @@ lean_ctor_set(x_43, 3, x_35);
 lean_ctor_set(x_43, 4, x_36);
 lean_ctor_set(x_43, 5, x_37);
 lean_ctor_set(x_43, 6, x_38);
-lean_ctor_set_uint8_s(x_43, 0, x_32);
-lean_ctor_set_uint8_s(x_43, 1, x_39);
-lean_ctor_set_uint8_s(x_43, 2, x_40);
-lean_ctor_set_uint8_s(x_43, 3, x_41);
+lean_ctor_set_uint8(x_43, 56, x_32);
+lean_ctor_set_uint8(x_43, 57, x_39);
+lean_ctor_set_uint8(x_43, 58, x_40);
+lean_ctor_set_uint8(x_43, 59, x_41);
 x_44 = l_Lean_Meta_Match_simpH___lam__3(x_1, x_28, x_2, x_43, x_4, x_5, x_6);
 lean_dec_ref(x_43);
 x_8 = x_44;
@@ -4101,9 +4101,9 @@ x_2 = (byte)0;
 x_3 = (byte)1;
 x_4 = lean_alloc_ctor(0, 1, 3);
 lean_ctor_set(x_4, 0, x_1);
-lean_ctor_set_uint8_s(x_4, 0, x_3);
-lean_ctor_set_uint8_s(x_4, 1, x_2);
-lean_ctor_set_uint8_s(x_4, 2, x_2);
+lean_ctor_set_uint8(x_4, 8, x_3);
+lean_ctor_set_uint8(x_4, 9, x_2);
+lean_ctor_set_uint8(x_4, 10, x_2);
 return x_4;
 }
 }

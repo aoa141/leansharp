@@ -814,7 +814,7 @@ else
 Obj x_30 = null; Obj x_31 = null; 
 lean_dec_ref(x_1);
 x_30 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_30, 0, x_27);
+lean_ctor_set_uint8(x_30, 0, x_27);
 x_31 = l___private_Lean_Elab_SetOption_0__Lean_Elab_elabSetOption_setOption___redArg(x_3, x_6, x_4, x_5, x_7, x_30);
 return x_31;
 }
@@ -824,7 +824,7 @@ else
 Obj x_32 = null; Obj x_33 = null; 
 lean_dec_ref(x_1);
 x_32 = lean_alloc_ctor(1, 0, 1);
-lean_ctor_set_uint8_s(x_32, 0, x_27);
+lean_ctor_set_uint8(x_32, 0, x_27);
 x_33 = l___private_Lean_Elab_SetOption_0__Lean_Elab_elabSetOption_setOption___redArg(x_3, x_6, x_4, x_5, x_7, x_32);
 return x_33;
 }
@@ -1233,7 +1233,7 @@ x_6 = lean_ctor_get(x_2, 1);
 x_7 = lean_ctor_get(x_2, 2);
 x_8 = lean_alloc_ctor(1, 0, 1);
 x_9 = (byte)lean_unbox(x_5);
-lean_ctor_set_uint8_s(x_8, 0, x_9);
+lean_ctor_set_uint8(x_8, 0, x_9);
 lean_inc(x_7);
 lean_inc_ref(x_6);
 lean_inc_n(x_1, 2);
@@ -1550,7 +1550,7 @@ goto block_28;
 case 1:
 {
 byte x_40 = 0; 
-x_40 = lean_ctor_get_uint8_s(x_4, 0);
+x_40 = lean_ctor_get_uint8(x_4, 0);
 lean_dec_ref(x_4);
 if (x_40 == 0)
 {

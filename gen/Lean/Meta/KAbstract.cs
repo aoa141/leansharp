@@ -848,7 +848,7 @@ x_82 = lean_ctor_get(x_5, 0);
 x_83 = lean_ctor_get(x_5, 1);
 x_84 = lean_ctor_get(x_5, 2);
 x_85 = lean_ctor_get(x_5, 3);
-x_86 = lean_ctor_get_uint8_s(x_5, 8);
+x_86 = lean_ctor_get_uint8(x_5, 40);
 lean_inc(x_6);
 lean_inc_ref(x_83);
 lean_inc_ref(x_1);
@@ -1046,7 +1046,7 @@ Obj x_123 = null; Obj x_124 = null; Obj x_125 = null; byte x_126 = 0; Obj x_127 
 x_123 = lean_ctor_get(x_5, 0);
 x_124 = lean_ctor_get(x_5, 1);
 x_125 = lean_ctor_get(x_5, 2);
-x_126 = lean_ctor_get_uint8_s(x_5, 8);
+x_126 = lean_ctor_get_uint8(x_5, 32);
 lean_inc(x_6);
 lean_inc_ref(x_124);
 lean_inc_ref(x_1);
@@ -1221,7 +1221,7 @@ Obj x_159 = null; Obj x_160 = null; Obj x_161 = null; byte x_162 = 0; Obj x_163 
 x_159 = lean_ctor_get(x_5, 0);
 x_160 = lean_ctor_get(x_5, 1);
 x_161 = lean_ctor_get(x_5, 2);
-x_162 = lean_ctor_get_uint8_s(x_5, 8);
+x_162 = lean_ctor_get_uint8(x_5, 32);
 lean_inc(x_6);
 lean_inc_ref(x_160);
 lean_inc_ref(x_1);

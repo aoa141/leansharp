@@ -2312,7 +2312,7 @@ Obj x_38 = null; Obj x_39 = null; Obj x_40 = null;
 x_38 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_38, 0, x_36);
 lean_ctor_set(x_38, 1, x_37);
-lean_ctor_set_uint8_s(x_38, 0, x_16);
+lean_ctor_set_uint8(x_38, 16, x_16);
 x_39 = lean_alloc_ctor(0, 1, 0);
 lean_ctor_set(x_39, 0, x_38);
 if (x_23 == 0)
@@ -9784,7 +9784,7 @@ Obj x_41 = null; Obj x_42 = null; Obj x_43 = null;
 x_41 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_41, 0, x_39);
 lean_ctor_set(x_41, 1, x_40);
-lean_ctor_set_uint8_s(x_41, 0, x_15);
+lean_ctor_set_uint8(x_41, 16, x_15);
 x_42 = lean_alloc_ctor(0, 1, 0);
 lean_ctor_set(x_42, 0, x_41);
 if (x_23 == 0)

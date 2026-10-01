@@ -351,7 +351,7 @@ else
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; Obj x_12 = null; 
 x_5 = (lean_array_uget_borrowed(x_3, x_2));
-x_6 = lean_ctor_get_uint8_s(x_5, 1);
+x_6 = lean_ctor_get_uint8(x_5, 1);
 x_7 = lean_unsigned_to_nat(0u);
 x_8 = (lean_array_uset(x_3, x_2, x_7));
 x_9 = 1UL;

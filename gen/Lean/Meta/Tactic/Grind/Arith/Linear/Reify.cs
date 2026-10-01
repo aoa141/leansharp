@@ -2062,7 +2062,7 @@ goto block_22;
 block_22:
 {
 byte x_16 = 0; 
-x_16 = lean_ctor_get_uint8_s(x_13, 0);
+x_16 = lean_ctor_get_uint8(x_13, 0);
 lean_dec(x_13);
 if (x_16 == 0)
 {

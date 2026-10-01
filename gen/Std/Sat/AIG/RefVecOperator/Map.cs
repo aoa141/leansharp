@@ -110,7 +110,7 @@ if (x_29 == 0)
 Obj x_30 = null; 
 x_30 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_30, 0, x_26);
-lean_ctor_set_uint8_s(x_30, 0, x_22);
+lean_ctor_set_uint8(x_30, 8, x_22);
 x_7 = x_30;
 goto block_21;
 }
@@ -120,7 +120,7 @@ byte x_31 = 0; Obj x_32 = null;
 x_31 = (byte)0;
 x_32 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_32, 0, x_26);
-lean_ctor_set_uint8_s(x_32, 0, x_31);
+lean_ctor_set_uint8(x_32, 8, x_31);
 x_7 = x_32;
 goto block_21;
 }
@@ -137,7 +137,7 @@ lean_inc_ref(x_10);
 lean_dec_ref(x_8);
 x_11 = lean_ctor_get(x_9, 0);
 lean_inc(x_11);
-x_12 = lean_ctor_get_uint8_s(x_9, 0);
+x_12 = lean_ctor_get_uint8(x_9, 8);
 lean_dec_ref(x_9);
 x_13 = lean_unsigned_to_nat(1u);
 x_14 = (lean_nat_add(x_3, x_13));

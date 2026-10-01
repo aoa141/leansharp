@@ -16,7 +16,7 @@ x_1 = 14043757810349425459UL;
 x_2 = l_Lean_errorDescriptionWidget___closed__0;
 x_3 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint64_s(x_3, 0, x_1);
+lean_ctor_set_uint64(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -245,7 +245,7 @@ block_33:
 {
 Obj x_7 = null; ulong x_8 = 0; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
 x_7 = l_Lean_errorDescriptionWidget;
-x_8 = lean_ctor_get_uint64_s(x_7, 0);
+x_8 = lean_ctor_get_uint64(x_7, 8);
 x_9 = M_Lean_DocString_Links.l_Lean_manualRoot;
 x_10 = l___private_Lean_Log_0__Lean_MessageData_appendDescriptionWidgetIfNamed___closed__3;
 x_11 = (byte)1;
@@ -296,7 +296,7 @@ lean_closure_set(x_26, 0, x_25);
 x_27 = lean_alloc_ctor(0, 2, 8);
 lean_ctor_set(x_27, 0, x_15);
 lean_ctor_set(x_27, 1, x_26);
-lean_ctor_set_uint64_s(x_27, 0, x_8);
+lean_ctor_set_uint64(x_27, 16, x_8);
 x_28 = M_Lean_Message.l_Lean_MessageData_nil;
 x_29 = lean_alloc_ctor(2, 2, 0);
 lean_ctor_set(x_29, 0, x_27);
@@ -359,7 +359,7 @@ x_6 = lean_ctor_get(x_2, 1);
 x_7 = lean_ctor_get(x_2, 2);
 x_8 = lean_alloc_ctor(1, 0, 1);
 x_9 = (byte)lean_unbox(x_5);
-lean_ctor_set_uint8_s(x_8, 0, x_9);
+lean_ctor_set_uint8(x_8, 0, x_9);
 lean_inc(x_7);
 lean_inc_ref(x_6);
 lean_inc_n(x_1, 2);
@@ -652,9 +652,9 @@ lean_ctor_set(x_14, 1, x_10);
 lean_ctor_set(x_14, 2, x_12);
 lean_ctor_set(x_14, 3, x_13);
 lean_ctor_set(x_14, 4, x_7);
-lean_ctor_set_uint8_s(x_14, 0, x_4);
-lean_ctor_set_uint8_s(x_14, 1, x_5);
-lean_ctor_set_uint8_s(x_14, 2, x_6);
+lean_ctor_set_uint8(x_14, 40, x_4);
+lean_ctor_set_uint8(x_14, 41, x_5);
+lean_ctor_set_uint8(x_14, 42, x_6);
 x_15 = lean_apply_1(x_8, x_14);
 return x_15;
 }

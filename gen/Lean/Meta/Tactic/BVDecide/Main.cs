@@ -206,7 +206,7 @@ lean_ctor_set(x_18, 0, x_14);
 lean_ctor_set(x_18, 1, x_15);
 lean_ctor_set(x_18, 2, x_1);
 lean_ctor_set(x_18, 3, x_16);
-lean_ctor_set_uint8_s(x_18, 0, x_17);
+lean_ctor_set_uint8(x_18, 32, x_17);
 x_19 = (lean_st_mk_ref(x_18));
 x_24 = M_Lean_Meta_Tactic_BVDecide_Normalize.l_Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize(x_13, x_19, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11);
 lean_dec_ref(x_13);

@@ -136,7 +136,7 @@ x_1 = l_Lake_Toml_loadToml___closed__13;
 x_2 = 0UL;
 x_3 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_3, 0, x_1);
-lean_ctor_set_uint64_s(x_3, 0, x_2);
+lean_ctor_set_uint64(x_3, 8, x_2);
 return x_3;
 }
 }
@@ -408,7 +408,7 @@ x_56 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_56, 0, x_51);
 lean_ctor_set(x_56, 1, x_51);
 lean_ctor_set(x_56, 2, x_49);
-lean_ctor_set_uint8_s(x_56, 0, x_31);
+lean_ctor_set_uint8(x_56, 24, x_31);
 x_57 = lean_alloc_ctor(0, 10, 0);
 lean_ctor_set(x_57, 0, x_6);
 lean_ctor_set(x_57, 1, x_46);
@@ -477,9 +477,9 @@ x_75 = lean_alloc_ctor(0, 3, 4);
 lean_ctor_set(x_75, 0, x_74);
 lean_ctor_set(x_75, 1, x_69);
 lean_ctor_set(x_75, 2, x_70);
-lean_ctor_set_uint16_s(x_75, 0, x_44);
-lean_ctor_set_uint8_s(x_75, 2, x_71);
-lean_ctor_set_uint8_s(x_75, 3, x_72);
+lean_ctor_set_uint16(x_75, 24, x_44);
+lean_ctor_set_uint8(x_75, 26, x_71);
+lean_ctor_set_uint8(x_75, 27, x_72);
 x_76 = M_Lake_Toml_Elab_Expression.l_Lake_Toml_elabToml(x_39, x_75, x_58);
 lean_dec_ref(x_75);
 if (lean_obj_tag(x_76) == 0)

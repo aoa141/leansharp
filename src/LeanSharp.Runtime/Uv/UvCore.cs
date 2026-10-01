@@ -10,7 +10,6 @@
 
 using System.Diagnostics;
 using System.Net.Sockets;
-using System.Reflection;
 using System.Runtime.CompilerServices;
 using static LeanSharp.Runtime.LeanRt;
 
@@ -33,96 +32,29 @@ internal static class UvLoop
     public static void Unroot(object h) => s_active.Remove(h);
 }
 
-/// <summary>
-/// Single place through which the uv code creates and resolves `IO.Promise`s.
-///
-/// If the runtime contains the task manager's `LeanRt.lean_io_promise_new()` /
-/// `LeanRt.lean_io_promise_resolve(value, promise)` (area Tasks), they are found by reflection at
-/// first use and used. Otherwise (e.g. in `checks/uv`) a minimal fallback is used: a promise is a
-/// `PromiseObj` whose `m_result` is a `TaskObj` with `m_value == null` until resolved; resolving
-/// stores `some value` into `m_value` (first resolution wins) and pulses the task's monitor.
-/// </summary>
+/// <summary>Single place through which the uv code creates and resolves `IO.Promise`s.</summary>
 internal static unsafe class UvPromise
 {
-    static readonly delegate*<Obj> s_new;
-    static readonly delegate*<Obj, Obj, Obj> s_resolve;
-    static readonly delegate*<Obj, byte> s_taskState;
-
-    static UvPromise()
-    {
-        const BindingFlags bf = BindingFlags.Public | BindingFlags.Static;
-        try
-        {
-            var mNew = typeof(LeanRt).GetMethod("lean_io_promise_new", bf, Type.EmptyTypes);
-            var mRes = typeof(LeanRt).GetMethod("lean_io_promise_resolve", bf, new[] { typeof(Obj), typeof(Obj) });
-            if (mNew != null && mRes != null && mNew.ReturnType == typeof(Obj) && mRes.ReturnType == typeof(Obj))
-            {
-                s_new = (delegate*<Obj>)mNew.MethodHandle.GetFunctionPointer();
-                s_resolve = (delegate*<Obj, Obj, Obj>)mRes.MethodHandle.GetFunctionPointer();
-            }
-            var mState = typeof(LeanRt).GetMethod("lean_io_get_task_state", bf, new[] { typeof(Obj) });
-            if (mState != null && mState.ReturnType == typeof(byte))
-                s_taskState = (delegate*<Obj, byte>)mState.MethodHandle.GetFunctionPointer();
-        }
-        catch
-        {
-            s_new = null; s_resolve = null; s_taskState = null;
-        }
-    }
-
-    /// <summary>True if the task manager's implementation is used (false: local fallback).</summary>
-    public static bool UsesTaskManager => s_new != null;
-
     /// <summary>`lean_promise_new()` followed by `mark_mt` (the loop resolves it from another thread).</summary>
     public static Obj New()
     {
-        Obj p = s_new != null ? s_new() : FallbackNew();
+        Obj p = lean_io_promise_new();
         lean_mark_mt(p);
         return p;
     }
 
     /// <summary>`lean_promise_resolve(value, promise)`: takes `value`, borrows `promise`.</summary>
-    public static void Resolve(Obj value, Obj promise)
-    {
-        if (s_resolve != null) lean_dec(s_resolve(value, promise));
-        else FallbackResolve(value, promise);
-    }
+    public static void Resolve(Obj value, Obj promise) => lean_dec(lean_io_promise_resolve(value, promise));
 
     /// <summary>`promise_is_resolved(p)` (object.h).</summary>
-    public static bool IsResolved(Obj promise)
-    {
-        var t = Unsafe.As<PromiseObj>(promise).m_result;
-        if (s_taskState != null) return s_taskState(t) == 2;
-        return t.m_value != null;
-    }
+    public static bool IsResolved(Obj promise) =>
+        lean_io_get_task_state(Unsafe.As<PromiseObj>(promise).m_result) == 2;
 
     /// <summary>`lean_promise_resolve_with_code(status, promise)` (event_loop.cpp).</summary>
     public static void ResolveWithCode(int status, Obj promise)
     {
         Obj res = status == 0 ? UvUtil.ExceptOk(lean_box(0)) : UvUtil.ExceptErr(UvErr.Decode(status));
         Resolve(res, promise);
-    }
-
-    // ------------------------------------------------------------------
-    // Fallback implementation (used only when the task manager is not compiled in)
-
-    static Obj FallbackNew()
-    {
-        var t = new TaskObj { m_tag = LeanTask, m_value = null };
-        return new PromiseObj { m_tag = LeanPromise, m_result = t };
-    }
-
-    static void FallbackResolve(Obj value, Obj promise)
-    {
-        var t = Unsafe.As<PromiseObj>(promise).m_result;
-        lock (t)
-        {
-            if (t.m_value != null) { lean_dec(value); return; }
-            lean_mark_mt(value);
-            t.m_value = lean_mk_option_some(value);
-            lean_mark_mt(t.m_value);
-            Monitor.PulseAll(t);
-        }
     }
 }
 

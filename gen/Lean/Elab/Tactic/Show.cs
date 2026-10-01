@@ -1047,7 +1047,7 @@ x_65 = M_Init_Data_List_Basic.l_List_isEmpty___redArg(x_4);
 if (x_65 == 0)
 {
 byte x_66 = 0; 
-x_66 = lean_ctor_get_uint8_s(x_5, 0);
+x_66 = lean_ctor_get_uint8(x_5, 8);
 if (x_66 == 0)
 {
 x_43 = x_64;

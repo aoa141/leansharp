@@ -17,15 +17,132 @@ lean_dec_ref(x_2);
 return x_9;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
 _start:
 {
-Obj x_9 = null; 
-x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_9;
+Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_48 = 0; 
+x_9 = lean_ctor_get(x_4, 0);
+x_10 = lean_ctor_get(x_4, 1);
+x_48 = (byte)(lean_is_exclusive(x_4) ? 0 : 1);
+if (x_48 == 0)
+{
+x_11 = x_4;
+x_12 = x_48;
+goto block_47;
+}
+else
+{
+lean_inc(x_10);
+lean_inc(x_9);
+lean_dec(x_4);
+x_11 = lean_box(0);
+x_12 = x_48;
+goto block_47;
+}
+block_47:
+{
+Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; byte x_18 = 0; byte x_19 = 0; byte x_27 = 0; byte x_28 = 0; byte x_35 = 0; Obj x_42 = null; Obj x_43 = null; byte x_44 = 0; 
+x_13 = lean_unsigned_to_nat(1u);
+x_14 = (lean_nat_shiftr(x_5, x_13));
+x_15 = (lean_nat_shiftr(x_6, x_13));
+x_16 = (lean_nat_shiftr(x_7, x_13));
+x_42 = (lean_nat_land(x_13, x_5));
+x_43 = lean_unsigned_to_nat(0u);
+x_44 = lean_u8(lean_nat_dec_eq(x_42, x_43));
+lean_dec(x_42);
+if (x_44 == 0)
+{
+byte x_45 = 0; 
+x_45 = (byte)1;
+x_35 = x_45;
+goto block_41;
+}
+else
+{
+byte x_46 = 0; 
+x_46 = (byte)0;
+x_35 = x_46;
+goto block_41;
+}
+block_26:
+{
+Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
+x_20 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4_spec__8___redArg(x_10, x_5, x_6, x_7, x_8);
+x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF___redArg(x_8, x_14, x_15, x_16, x_17, x_18, x_19);
+x_22 = M_Init_Data_Array_Basic.l_Array_append___redArg(x_9, x_21);
+lean_dec_ref(x_21);
+if (x_12 == 0)
+{
+lean_ctor_set(x_11, 1, x_20);
+lean_ctor_set(x_11, 0, x_22);
+x_23 = x_11;
+goto block_24;
+}
+else
+{
+Obj x_25 = null; 
+x_25 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_25, 0, x_22);
+lean_ctor_set(x_25, 1, x_20);
+x_23 = x_25;
+goto block_24;
+}
+block_24:
+{
+return x_23;
+}
+}
+block_34:
+{
+Obj x_29 = null; Obj x_30 = null; byte x_31 = 0; 
+x_29 = (lean_nat_land(x_13, x_7));
+x_30 = lean_unsigned_to_nat(0u);
+x_31 = lean_u8(lean_nat_dec_eq(x_29, x_30));
+lean_dec(x_29);
+if (x_31 == 0)
+{
+byte x_32 = 0; 
+x_32 = (byte)1;
+x_17 = x_27;
+x_18 = x_28;
+x_19 = x_32;
+goto block_26;
+}
+else
+{
+byte x_33 = 0; 
+x_33 = (byte)0;
+x_17 = x_27;
+x_18 = x_28;
+x_19 = x_33;
+goto block_26;
+}
+}
+block_41:
+{
+Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; 
+x_36 = (lean_nat_land(x_13, x_6));
+x_37 = lean_unsigned_to_nat(0u);
+x_38 = lean_u8(lean_nat_dec_eq(x_36, x_37));
+lean_dec(x_36);
+if (x_38 == 0)
+{
+byte x_39 = 0; 
+x_39 = (byte)1;
+x_27 = x_35;
+x_28 = x_39;
+goto block_34;
+}
+else
+{
+byte x_40 = 0; 
+x_40 = (byte)0;
+x_27 = x_35;
+x_28 = x_40;
+goto block_34;
+}
+}
+}
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___redArg___boxed(Obj x_1, Obj x_2) {
@@ -37,22 +154,13 @@ lean_dec(x_2);
 return x_3;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+public static Obj l_Std_Sat_AIG_toCNF_State_empty___redArg___boxed(Obj x_1) {
 _start:
 {
-Obj x_8 = null; 
-x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(x_2, x_3, x_4, x_5, x_7);
-return x_8;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2_spec__3___redArg(Obj x_1, Obj x_2) {
-_start:
-{
-byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
-x_3 = (byte)1;
-x_4 = lean_box(x_3);
-x_5 = (lean_array_fset(x_1, x_2, x_4));
-return x_5;
+Obj x_2 = null; 
+x_2 = l_Std_Sat_AIG_toCNF_State_empty___redArg(x_1);
+lean_dec_ref(x_1);
+return x_2;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
@@ -68,44 +176,13 @@ lean_dec_ref(x_2);
 return x_15;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go_match__81_splitter___redArg(Obj x_1, Obj x_2, Obj x_3) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1_spec__3___redArg___boxed(Obj x_1, Obj x_2) {
 _start:
 {
-if (lean_obj_tag(x_1) == 0)
-{
-Obj x_4 = null; 
+Obj x_3 = null; 
+x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1_spec__3___redArg(x_1, x_2);
 lean_dec(x_2);
-x_4 = lean_apply_1(x_3, lean_box(0));
-return x_4;
-}
-else
-{
-Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
-lean_dec(x_3);
-x_5 = lean_ctor_get(x_1, 0);
-lean_inc(x_5);
-lean_dec_ref(x_1);
-x_6 = lean_ctor_get(x_5, 1);
-lean_inc(x_6);
-x_7 = lean_ctor_get(x_5, 0);
-lean_inc(x_7);
-lean_dec(x_5);
-x_8 = lean_ctor_get(x_6, 0);
-lean_inc(x_8);
-x_9 = lean_ctor_get(x_6, 1);
-lean_inc(x_9);
-lean_dec(x_6);
-x_10 = lean_apply_4(x_2, x_7, x_8, x_9, lean_box(0));
-return x_10;
-}
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
-_start:
-{
-Obj x_8 = null; 
-x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg(x_4, x_5, x_7);
-return x_8;
+return x_3;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
@@ -114,24 +191,6 @@ _start:
 Obj x_11 = null; 
 x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___redArg(x_7, x_8);
 return x_11;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3_spec__5___redArg(Obj x_1, Obj x_2) {
-_start:
-{
-byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
-x_3 = (byte)1;
-x_4 = lean_box(x_3);
-x_5 = (lean_array_fset(x_1, x_2, x_4));
-return x_5;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
-_start:
-{
-Obj x_10 = null; 
-x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3___redArg(x_2, x_3, x_4, x_5, x_6, x_7);
-return x_10;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
@@ -144,64 +203,12 @@ lean_dec(x_3);
 return x_5;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__52_splitter___redArg(Obj x_1, Obj x_2) {
 _start:
 {
-Obj x_9 = null; 
-x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2___redArg(x_2, x_3, x_4, x_5, x_6);
-return x_9;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
-_start:
-{
-Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_17 = 0; 
-x_6 = lean_ctor_get(x_4, 0);
-x_7 = lean_ctor_get(x_4, 1);
-x_17 = (byte)(lean_is_exclusive(x_4) ? 0 : 1);
-if (x_17 == 0)
-{
-x_8 = x_4;
-x_9 = x_17;
-goto block_16;
-}
-else
-{
-lean_inc(x_7);
-lean_inc(x_6);
-lean_dec(x_4);
-x_8 = lean_box(0);
-x_9 = x_17;
-goto block_16;
-}
-block_16:
-{
-Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
-x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2_spec__3___redArg(x_7, x_5);
-x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_falseToCNF___redArg(x_5);
-x_12 = M_Init_Data_Array_Basic.l_Array_append___redArg(x_6, x_11);
-lean_dec_ref(x_11);
-if (x_9 == 0)
-{
-lean_ctor_set(x_8, 1, x_10);
-lean_ctor_set(x_8, 0, x_12);
-x_13 = x_8;
-goto block_14;
-}
-else
-{
-Obj x_15 = null; 
-x_15 = lean_alloc_ctor(0, 2, 0);
-lean_ctor_set(x_15, 0, x_12);
-lean_ctor_set(x_15, 1, x_10);
-x_13 = x_15;
-goto block_14;
-}
-block_14:
-{
-return x_13;
-}
-}
+Obj x_3 = null; 
+x_3 = lean_apply_2(x_2, x_1, lean_box(0));
+return x_3;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte_match__4_splitter___redArg(Obj x_1, Obj x_2, Obj x_3) {
@@ -228,47 +235,17 @@ return x_7;
 }
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go_match__81_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__45_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
 _start:
 {
-if (lean_obj_tag(x_2) == 0)
-{
-Obj x_5 = null; 
-lean_dec(x_3);
-x_5 = lean_apply_1(x_4, lean_box(0));
-return x_5;
-}
-else
-{
-Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
-lean_dec(x_4);
-x_6 = lean_ctor_get(x_2, 0);
-lean_inc(x_6);
-lean_dec_ref(x_2);
-x_7 = lean_ctor_get(x_6, 1);
-lean_inc(x_7);
-x_8 = lean_ctor_get(x_6, 0);
-lean_inc(x_8);
-lean_dec(x_6);
-x_9 = lean_ctor_get(x_7, 0);
-lean_inc(x_9);
-x_10 = lean_ctor_get(x_7, 1);
-lean_inc(x_10);
-lean_dec(x_7);
-x_11 = lean_apply_4(x_3, x_8, x_9, x_10, lean_box(0));
-return x_11;
-}
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
-_start:
-{
-Obj x_5 = null; 
-x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0_spec__0(x_1, x_2, x_3, x_4);
+Obj x_11 = null; 
+x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__45_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec_ref(x_7);
+lean_dec(x_5);
 lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_5;
+return x_11;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_gateToCNF(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, byte x_6) {
@@ -279,67 +256,7 @@ x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_gateToCNF___redArg(x_2, x_
 return x_7;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0_spec__0___redArg(Obj x_1) {
-_start:
-{
-Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
-x_2 = lean_ctor_get(x_1, 0);
-x_3 = (lean_array_get_size(x_2));
-x_4 = (byte)0;
-x_5 = lean_box(x_4);
-x_6 = (lean_mk_array(x_3, x_5));
-return x_6;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6_spec__10___boxed(Obj[] _args) {
-Obj x_1 = _args[0];
-Obj x_2 = _args[1];
-Obj x_3 = _args[2];
-Obj x_4 = _args[3];
-Obj x_5 = _args[4];
-Obj x_6 = _args[5];
-Obj x_7 = _args[6];
-Obj x_8 = _args[7];
-Obj x_9 = _args[8];
-Obj x_10 = _args[9];
-Obj x_11 = _args[10];
-Obj x_12 = _args[11];
-Obj x_13 = _args[12];
-Obj x_14 = _args[13];
-Obj x_15 = _args[14];
-Obj x_16 = _args[15];
-Obj x_17 = _args[16];
-Obj x_18 = _args[17];
-Obj x_19 = _args[18];
-Obj x_20 = _args[19];
-Obj x_21 = _args[20];
-_start:
-{
-Obj x_22 = null; 
-x_22 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6_spec__10(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18, x_19, x_20, x_21);
-lean_dec(x_10);
-lean_dec(x_9);
-lean_dec(x_8);
-lean_dec(x_7);
-lean_dec_ref(x_5);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_22;
-}
-}
-static Obj l_Std_Sat_AIG_toCNF___redArg___closed__0_cell;
-public static Obj l_Std_Sat_AIG_toCNF___redArg___closed__0 => l_Std_Sat_AIG_toCNF___redArg___closed__0_cell ?? lean_obj_once(ref l_Std_Sat_AIG_toCNF___redArg___closed__0_cell, &_init_l_Std_Sat_AIG_toCNF___redArg___closed__0);
-public static Obj _init_l_Std_Sat_AIG_toCNF___redArg___closed__0() {
-_start:
-{
-Obj x_1 = null; Obj x_2 = null; 
-x_1 = lean_unsigned_to_nat(0u);
-x_2 = (lean_mk_empty_array_with_capacity(x_1));
-return x_2;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -355,14 +272,14 @@ switch (lean_obj_tag(x_10)) {
 case 0:
 {
 Obj x_11 = null; 
-x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2___redArg(x_1, x_2, x_3, x_5, x_4);
+x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0___redArg(x_1, x_2, x_3, x_5, x_4);
 return x_11;
 }
 case 1:
 {
 Obj x_12 = null; Obj x_13 = null; 
 x_12 = lean_ctor_get(x_10, 0);
-x_13 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3___redArg(x_1, x_2, x_3, x_12, x_5, x_4);
+x_13 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1___redArg(x_1, x_2, x_3, x_12, x_5, x_4);
 lean_dec(x_4);
 return x_13;
 }
@@ -371,16 +288,16 @@ default:
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
 x_14 = lean_ctor_get(x_10, 0);
 x_15 = lean_ctor_get(x_10, 1);
-x_16 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__4___redArg(x_3, x_4);
+x_16 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__2___redArg(x_3, x_4);
 if (lean_obj_tag(x_16) == 0)
 {
 Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; 
 x_17 = lean_unsigned_to_nat(1u);
 x_18 = (lean_nat_shiftr(x_14, x_17));
-x_19 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(x_1, x_2, x_3, x_18, x_5);
+x_19 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(x_1, x_2, x_3, x_18, x_5);
 x_20 = (lean_nat_shiftr(x_15, x_17));
-x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(x_1, x_2, x_3, x_20, x_19);
-x_22 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5___redArg(x_1, x_2, x_3, x_14, x_15, x_21, x_4);
+x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(x_1, x_2, x_3, x_20, x_19);
+x_22 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3___redArg(x_1, x_2, x_3, x_14, x_15, x_21, x_4);
 return x_22;
 }
 else
@@ -401,12 +318,12 @@ lean_inc(x_27);
 lean_dec(x_24);
 x_28 = lean_unsigned_to_nat(1u);
 x_29 = (lean_nat_shiftr(x_25, x_28));
-x_30 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(x_1, x_2, x_3, x_29, x_5);
+x_30 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(x_1, x_2, x_3, x_29, x_5);
 x_31 = (lean_nat_shiftr(x_26, x_28));
-x_32 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(x_1, x_2, x_3, x_31, x_30);
+x_32 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(x_1, x_2, x_3, x_31, x_30);
 x_33 = (lean_nat_shiftr(x_27, x_28));
-x_34 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(x_1, x_2, x_3, x_33, x_32);
-x_35 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6___redArg(x_1, x_2, x_3, x_34, x_25, x_26, x_27, x_4);
+x_34 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(x_1, x_2, x_3, x_33, x_32);
+x_35 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4___redArg(x_1, x_2, x_3, x_34, x_25, x_26, x_27, x_4);
 lean_dec(x_27);
 lean_dec(x_26);
 lean_dec(x_25);
@@ -422,38 +339,58 @@ return x_5;
 }
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__50_splitter___redArg(Obj x_1, Obj x_2) {
 _start:
 {
-Obj x_5 = null; 
-x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0_spec__0___redArg(x_4);
-return x_5;
+Obj x_3 = null; 
+x_3 = lean_apply_2(x_2, x_1, lean_box(0));
+return x_3;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+public static Obj l_Std_Sat_AIG_toCNF_State_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
 _start:
 {
-Obj x_10 = null; 
-x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2_spec__3(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
-lean_dec(x_7);
+Obj x_8 = null; 
+x_8 = l_Std_Sat_AIG_toCNF_State_cast(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
 lean_dec_ref(x_5);
 lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_10;
+return x_8;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__56_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
 _start:
 {
-Obj x_7 = null; 
-x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3___redArg(x_1, x_2, x_3, x_4, x_5, x_6);
-lean_dec(x_6);
-lean_dec(x_4);
+Obj x_14 = null; 
+x_14 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__56_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec_ref(x_7);
+lean_dec(x_5);
+lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-lean_dec_ref(x_1);
-return x_7;
+return x_14;
+}
+}
+static Obj l_Std_Sat_AIG_toCNF___redArg___closed__0_cell;
+public static Obj l_Std_Sat_AIG_toCNF___redArg___closed__0 => l_Std_Sat_AIG_toCNF___redArg___closed__0_cell ?? lean_obj_once(ref l_Std_Sat_AIG_toCNF___redArg___closed__0_cell, &_init_l_Std_Sat_AIG_toCNF___redArg___closed__0);
+public static Obj _init_l_Std_Sat_AIG_toCNF___redArg___closed__0() {
+_start:
+{
+Obj x_1 = null; Obj x_2 = null; 
+x_1 = lean_unsigned_to_nat(0u);
+x_2 = (lean_mk_empty_array_with_capacity(x_1));
+return x_2;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+_start:
+{
+Obj x_8 = null; 
+x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(x_2, x_3, x_4, x_5, x_7);
+return x_8;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
@@ -464,15 +401,14 @@ x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___redArg(x
 return x_15;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
 _start:
 {
-Obj x_6 = null; 
-x_6 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(x_1, x_2, x_3, x_4, x_5);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-lean_dec_ref(x_1);
-return x_6;
+byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
+x_5 = (byte)1;
+x_6 = lean_box(x_5);
+x_7 = (lean_array_fset(x_3, x_4, x_6));
+return x_7;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
@@ -484,14 +420,6 @@ x_9 = (byte)lean_unbox(x_6);
 x_10 = (byte)lean_unbox(x_7);
 x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF___redArg(x_1, x_2, x_3, x_4, x_8, x_9, x_10);
 return x_11;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6_spec__10(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20, Obj x_21) {
-_start:
-{
-Obj x_22 = null; 
-x_22 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6_spec__10___redArg(x_6, x_7, x_8, x_9, x_10);
-return x_22;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_falseToCNF(Obj x_1, Obj x_2) {
@@ -550,28 +478,42 @@ return x_8;
 }
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__54_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
 _start:
 {
-Obj x_10 = null; 
-x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2_spec__3___redArg(x_6, x_7);
-return x_10;
+Obj x_14 = null; 
+x_14 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__54_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13);
+lean_dec_ref(x_10);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_14;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4_spec__8___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+_start:
+{
+Obj x_6 = null; 
+x_6 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4_spec__8___redArg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_6;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3_spec__6___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
 _start:
 {
 Obj x_5 = null; 
-x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___redArg(x_4);
+x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3_spec__6___redArg(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+lean_dec(x_1);
 return x_5;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__48_splitter___redArg(Obj x_1, Obj x_2) {
-_start:
-{
-Obj x_3 = null; 
-x_3 = lean_apply_2(x_2, x_1, lean_box(0));
-return x_3;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_cast(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
@@ -582,59 +524,35 @@ x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_cast___redArg(x_6, 
 return x_9;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__50_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
 _start:
 {
-Obj x_7 = null; 
-x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__4(x_1, x_2, x_3, x_4, x_5, x_6);
-lean_dec(x_5);
+Obj x_15 = null; 
+x_15 = lean_apply_2(x_14, x_13, lean_box(0));
+return x_15;
+}
+}
+public static Obj l_Std_Sat_AIG_toCNF_State_empty___redArg(Obj x_1) {
+_start:
+{
+Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
+x_2 = l_Std_Sat_AIG_toCNF_State_empty___redArg___closed__0;
+x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___redArg(x_1);
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_2);
+lean_ctor_set(x_4, 1, x_3);
+return x_4;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+_start:
+{
+Obj x_8 = null; 
+x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
 lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_7;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3_spec__5___redArg___boxed(Obj x_1, Obj x_2) {
-_start:
-{
-Obj x_3 = null; 
-x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3_spec__5___redArg(x_1, x_2);
-lean_dec(x_2);
-return x_3;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6___boxed(Obj[] _args) {
-Obj x_1 = _args[0];
-Obj x_2 = _args[1];
-Obj x_3 = _args[2];
-Obj x_4 = _args[3];
-Obj x_5 = _args[4];
-Obj x_6 = _args[5];
-Obj x_7 = _args[6];
-Obj x_8 = _args[7];
-Obj x_9 = _args[8];
-Obj x_10 = _args[9];
-Obj x_11 = _args[10];
-Obj x_12 = _args[11];
-Obj x_13 = _args[12];
-Obj x_14 = _args[13];
-Obj x_15 = _args[14];
-Obj x_16 = _args[15];
-Obj x_17 = _args[16];
-Obj x_18 = _args[17];
-Obj x_19 = _args[18];
-Obj x_20 = _args[19];
-_start:
-{
-Obj x_21 = null; 
-x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18, x_19, x_20);
-lean_dec(x_8);
-lean_dec(x_7);
-lean_dec(x_6);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_21;
+return x_8;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_cnfSatAssignment___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
@@ -646,12 +564,12 @@ x_5 = lean_box(x_4);
 return x_5;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__56_splitter___redArg(Obj x_1, Obj x_2) {
+public static Obj l_Std_Sat_AIG_toCNF_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
 _start:
 {
-Obj x_3 = null; 
-x_3 = lean_apply_2(x_2, x_1, lean_box(0));
-return x_3;
+Obj x_6 = null; 
+x_6 = l_Std_Sat_AIG_toCNF_x27___redArg(x_2, x_3, x_4, x_5);
+return x_6;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_projectLeftAssign___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
@@ -664,41 +582,161 @@ x_8 = lean_box(x_7);
 return x_8;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
 _start:
 {
-Obj x_10 = null; 
-x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
-lean_dec(x_7);
+Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_37 = 0; 
+x_8 = lean_ctor_get(x_6, 0);
+x_9 = lean_ctor_get(x_6, 1);
+x_37 = (byte)(lean_is_exclusive(x_6) ? 0 : 1);
+if (x_37 == 0)
+{
+x_10 = x_6;
+x_11 = x_37;
+goto block_36;
+}
+else
+{
+lean_inc(x_9);
+lean_inc(x_8);
+lean_dec(x_6);
+x_10 = lean_box(0);
+x_11 = x_37;
+goto block_36;
+}
+block_36:
+{
+Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_16 = 0; byte x_24 = 0; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; 
+x_12 = lean_unsigned_to_nat(1u);
+x_13 = (lean_nat_shiftr(x_4, x_12));
+x_14 = (lean_nat_shiftr(x_5, x_12));
+x_31 = (lean_nat_land(x_12, x_4));
+x_32 = lean_unsigned_to_nat(0u);
+x_33 = lean_u8(lean_nat_dec_eq(x_31, x_32));
+lean_dec(x_31);
+if (x_33 == 0)
+{
+byte x_34 = 0; 
+x_34 = (byte)1;
+x_24 = x_34;
+goto block_30;
+}
+else
+{
+byte x_35 = 0; 
+x_35 = (byte)0;
+x_24 = x_35;
+goto block_30;
+}
+block_23:
+{
+Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 
+x_17 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3_spec__6___redArg(x_4, x_5, x_9, x_7);
+x_18 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_gateToCNF___redArg(x_7, x_13, x_14, x_15, x_16);
+x_19 = M_Init_Data_Array_Basic.l_Array_append___redArg(x_8, x_18);
+lean_dec_ref(x_18);
+if (x_11 == 0)
+{
+lean_ctor_set(x_10, 1, x_17);
+lean_ctor_set(x_10, 0, x_19);
+x_20 = x_10;
+goto block_21;
+}
+else
+{
+Obj x_22 = null; 
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_19);
+lean_ctor_set(x_22, 1, x_17);
+x_20 = x_22;
+goto block_21;
+}
+block_21:
+{
+return x_20;
+}
+}
+block_30:
+{
+Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; 
+x_25 = (lean_nat_land(x_12, x_5));
+x_26 = lean_unsigned_to_nat(0u);
+x_27 = lean_u8(lean_nat_dec_eq(x_25, x_26));
+lean_dec(x_25);
+if (x_27 == 0)
+{
+byte x_28 = 0; 
+x_28 = (byte)1;
+x_15 = x_24;
+x_16 = x_28;
+goto block_23;
+}
+else
+{
+byte x_29 = 0; 
+x_29 = (byte)0;
+x_15 = x_24;
+x_16 = x_29;
+goto block_23;
+}
+}
+}
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4_spec__8(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20, Obj x_21) {
+_start:
+{
+Obj x_22 = null; 
+x_22 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4_spec__8___redArg(x_6, x_7, x_8, x_9, x_10);
+return x_22;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+_start:
+{
+Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_16 = 0; 
+x_7 = lean_ctor_get(x_5, 0);
+x_8 = lean_ctor_get(x_5, 1);
+x_16 = (byte)(lean_is_exclusive(x_5) ? 0 : 1);
+if (x_16 == 0)
+{
+x_9 = x_5;
+x_10 = x_16;
+goto block_15;
+}
+else
+{
+lean_inc(x_8);
+lean_inc(x_7);
 lean_dec(x_5);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_10;
+x_9 = lean_box(0);
+x_10 = x_16;
+goto block_15;
 }
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__48_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
-_start:
+block_15:
 {
-Obj x_15 = null; 
-x_15 = lean_apply_2(x_14, x_13, lean_box(0));
-return x_15;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__50_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
-_start:
+Obj x_11 = null; Obj x_12 = null; 
+x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1_spec__3___redArg(x_8, x_6);
+if (x_10 == 0)
 {
-Obj x_15 = null; 
-x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__50_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
-lean_dec_ref(x_11);
-lean_dec(x_9);
-lean_dec(x_8);
-lean_dec(x_7);
-lean_dec(x_5);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_15;
+lean_ctor_set(x_9, 1, x_11);
+x_12 = x_9;
+goto block_13;
+}
+else
+{
+Obj x_14 = null; 
+x_14 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_14, 0, x_7);
+lean_ctor_set(x_14, 1, x_11);
+x_12 = x_14;
+goto block_13;
+}
+block_13:
+{
+return x_12;
+}
+}
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
@@ -802,17 +840,6 @@ goto block_20;
 }
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
-_start:
-{
-Obj x_8 = null; 
-x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_8;
-}
-}
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
 _start:
 {
@@ -834,6 +861,42 @@ x_5 = (lean_array_fset(x_1, x_2, x_4));
 return x_5;
 }
 }
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3_spec__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+_start:
+{
+Obj x_16 = null; 
+x_16 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3_spec__6(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15);
+lean_dec(x_11);
+lean_dec(x_7);
+lean_dec(x_6);
+lean_dec_ref(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_16;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__45_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+_start:
+{
+Obj x_11 = null; 
+x_11 = lean_apply_2(x_10, x_9, lean_box(0));
+return x_11;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+_start:
+{
+Obj x_10 = null; 
+x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_7);
+lean_dec(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_10;
+}
+}
 public static byte l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_projectLeftAssign___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
 _start:
 {
@@ -853,18 +916,64 @@ lean_dec(x_1);
 return x_5;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
 _start:
 {
-Obj x_9 = null; 
-x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6___redArg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
-lean_dec(x_7);
-lean_dec(x_6);
-lean_dec(x_5);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-lean_dec_ref(x_1);
-return x_9;
+Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_17 = 0; 
+x_6 = lean_ctor_get(x_4, 0);
+x_7 = lean_ctor_get(x_4, 1);
+x_17 = (byte)(lean_is_exclusive(x_4) ? 0 : 1);
+if (x_17 == 0)
+{
+x_8 = x_4;
+x_9 = x_17;
+goto block_16;
+}
+else
+{
+lean_inc(x_7);
+lean_inc(x_6);
+lean_dec(x_4);
+x_8 = lean_box(0);
+x_9 = x_17;
+goto block_16;
+}
+block_16:
+{
+Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
+x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0_spec__1___redArg(x_7, x_5);
+x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_falseToCNF___redArg(x_5);
+x_12 = M_Init_Data_Array_Basic.l_Array_append___redArg(x_6, x_11);
+lean_dec_ref(x_11);
+if (x_9 == 0)
+{
+lean_ctor_set(x_8, 1, x_10);
+lean_ctor_set(x_8, 0, x_12);
+x_13 = x_8;
+goto block_14;
+}
+else
+{
+Obj x_15 = null; 
+x_15 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_15, 0, x_12);
+lean_ctor_set(x_15, 1, x_10);
+x_13 = x_15;
+goto block_14;
+}
+block_14:
+{
+return x_13;
+}
+}
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+_start:
+{
+Obj x_15 = null; 
+x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3___redArg(x_2, x_3, x_4, x_5, x_6, x_7, x_10);
+return x_15;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
@@ -873,14 +982,6 @@ _start:
 Obj x_9 = null; 
 x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___redArg(x_5, x_6);
 return x_9;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__52_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
-_start:
-{
-Obj x_15 = null; 
-x_15 = lean_apply_2(x_14, x_13, lean_box(0));
-return x_15;
 }
 }
 public static byte l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_cnfSatAssignment___redArg(Obj x_1, Obj x_2, Obj x_3) {
@@ -903,7 +1004,7 @@ byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0;
 x_7 = (byte)0;
 x_8 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_8, 0, x_3);
-lean_ctor_set_uint8_s(x_8, 0, x_7);
+lean_ctor_set_uint8(x_8, 8, x_7);
 x_9 = lean_alloc_ctor(0, 2, 0);
 lean_ctor_set(x_9, 0, x_1);
 lean_ctor_set(x_9, 1, x_8);
@@ -913,254 +1014,12 @@ return x_10;
 }
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__45_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
 _start:
 {
-Obj x_11 = null; 
-x_11 = lean_apply_2(x_10, x_9, lean_box(0));
-return x_11;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
-_start:
-{
-Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_37 = 0; 
-x_8 = lean_ctor_get(x_6, 0);
-x_9 = lean_ctor_get(x_6, 1);
-x_37 = (byte)(lean_is_exclusive(x_6) ? 0 : 1);
-if (x_37 == 0)
-{
-x_10 = x_6;
-x_11 = x_37;
-goto block_36;
-}
-else
-{
-lean_inc(x_9);
-lean_inc(x_8);
-lean_dec(x_6);
-x_10 = lean_box(0);
-x_11 = x_37;
-goto block_36;
-}
-block_36:
-{
-Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_16 = 0; byte x_24 = 0; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; 
-x_12 = lean_unsigned_to_nat(1u);
-x_13 = (lean_nat_shiftr(x_4, x_12));
-x_14 = (lean_nat_shiftr(x_5, x_12));
-x_31 = (lean_nat_land(x_12, x_4));
-x_32 = lean_unsigned_to_nat(0u);
-x_33 = lean_u8(lean_nat_dec_eq(x_31, x_32));
-lean_dec(x_31);
-if (x_33 == 0)
-{
-byte x_34 = 0; 
-x_34 = (byte)1;
-x_24 = x_34;
-goto block_30;
-}
-else
-{
-byte x_35 = 0; 
-x_35 = (byte)0;
-x_24 = x_35;
-goto block_30;
-}
-block_23:
-{
-Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 
-x_17 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5_spec__8___redArg(x_4, x_5, x_9, x_7);
-x_18 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_gateToCNF___redArg(x_7, x_13, x_14, x_15, x_16);
-x_19 = M_Init_Data_Array_Basic.l_Array_append___redArg(x_8, x_18);
-lean_dec_ref(x_18);
-if (x_11 == 0)
-{
-lean_ctor_set(x_10, 1, x_17);
-lean_ctor_set(x_10, 0, x_19);
-x_20 = x_10;
-goto block_21;
-}
-else
-{
-Obj x_22 = null; 
-x_22 = lean_alloc_ctor(0, 2, 0);
-lean_ctor_set(x_22, 0, x_19);
-lean_ctor_set(x_22, 1, x_17);
-x_20 = x_22;
-goto block_21;
-}
-block_21:
-{
-return x_20;
-}
-}
-block_30:
-{
-Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; 
-x_25 = (lean_nat_land(x_12, x_5));
-x_26 = lean_unsigned_to_nat(0u);
-x_27 = lean_u8(lean_nat_dec_eq(x_25, x_26));
-lean_dec(x_25);
-if (x_27 == 0)
-{
-byte x_28 = 0; 
-x_28 = (byte)1;
-x_15 = x_24;
-x_16 = x_28;
-goto block_23;
-}
-else
-{
-byte x_29 = 0; 
-x_29 = (byte)0;
-x_15 = x_24;
-x_16 = x_29;
-goto block_23;
-}
-}
-}
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__45_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
-_start:
-{
-Obj x_11 = null; 
-x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__45_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
-lean_dec_ref(x_7);
-lean_dec(x_5);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_11;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
-_start:
-{
-Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_48 = 0; 
-x_9 = lean_ctor_get(x_4, 0);
-x_10 = lean_ctor_get(x_4, 1);
-x_48 = (byte)(lean_is_exclusive(x_4) ? 0 : 1);
-if (x_48 == 0)
-{
-x_11 = x_4;
-x_12 = x_48;
-goto block_47;
-}
-else
-{
-lean_inc(x_10);
-lean_inc(x_9);
-lean_dec(x_4);
-x_11 = lean_box(0);
-x_12 = x_48;
-goto block_47;
-}
-block_47:
-{
-Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; byte x_18 = 0; byte x_19 = 0; byte x_27 = 0; byte x_28 = 0; byte x_35 = 0; Obj x_42 = null; Obj x_43 = null; byte x_44 = 0; 
-x_13 = lean_unsigned_to_nat(1u);
-x_14 = (lean_nat_shiftr(x_5, x_13));
-x_15 = (lean_nat_shiftr(x_6, x_13));
-x_16 = (lean_nat_shiftr(x_7, x_13));
-x_42 = (lean_nat_land(x_13, x_5));
-x_43 = lean_unsigned_to_nat(0u);
-x_44 = lean_u8(lean_nat_dec_eq(x_42, x_43));
-lean_dec(x_42);
-if (x_44 == 0)
-{
-byte x_45 = 0; 
-x_45 = (byte)1;
-x_35 = x_45;
-goto block_41;
-}
-else
-{
-byte x_46 = 0; 
-x_46 = (byte)0;
-x_35 = x_46;
-goto block_41;
-}
-block_26:
-{
-Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
-x_20 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6_spec__10___redArg(x_10, x_5, x_6, x_7, x_8);
-x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF___redArg(x_8, x_14, x_15, x_16, x_18, x_17, x_19);
-x_22 = M_Init_Data_Array_Basic.l_Array_append___redArg(x_9, x_21);
-lean_dec_ref(x_21);
-if (x_12 == 0)
-{
-lean_ctor_set(x_11, 1, x_20);
-lean_ctor_set(x_11, 0, x_22);
-x_23 = x_11;
-goto block_24;
-}
-else
-{
-Obj x_25 = null; 
-x_25 = lean_alloc_ctor(0, 2, 0);
-lean_ctor_set(x_25, 0, x_22);
-lean_ctor_set(x_25, 1, x_20);
-x_23 = x_25;
-goto block_24;
-}
-block_24:
-{
-return x_23;
-}
-}
-block_34:
-{
-Obj x_29 = null; Obj x_30 = null; byte x_31 = 0; 
-x_29 = (lean_nat_land(x_13, x_7));
-x_30 = lean_unsigned_to_nat(0u);
-x_31 = lean_u8(lean_nat_dec_eq(x_29, x_30));
-lean_dec(x_29);
-if (x_31 == 0)
-{
-byte x_32 = 0; 
-x_32 = (byte)1;
-x_17 = x_28;
-x_18 = x_27;
-x_19 = x_32;
-goto block_26;
-}
-else
-{
-byte x_33 = 0; 
-x_33 = (byte)0;
-x_17 = x_28;
-x_18 = x_27;
-x_19 = x_33;
-goto block_26;
-}
-}
-block_41:
-{
-Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; 
-x_36 = (lean_nat_land(x_13, x_6));
-x_37 = lean_unsigned_to_nat(0u);
-x_38 = lean_u8(lean_nat_dec_eq(x_36, x_37));
-lean_dec(x_36);
-if (x_38 == 0)
-{
-byte x_39 = 0; 
-x_39 = (byte)1;
-x_27 = x_35;
-x_28 = x_39;
-goto block_34;
-}
-else
-{
-byte x_40 = 0; 
-x_40 = (byte)0;
-x_27 = x_35;
-x_28 = x_40;
-goto block_34;
-}
-}
-}
+Obj x_7 = null; 
+x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__2___redArg(x_4, x_5);
+return x_7;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
@@ -1174,94 +1033,30 @@ x_12 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF(x_1, x_2, x_3, x
 return x_12;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+public static Obj l_Std_Sat_AIG_toCNF_State_cast___redArg___boxed(Obj x_1, Obj x_2) {
 _start:
 {
-Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
-x_4 = lean_ctor_get(x_3, 1);
-x_5 = (lean_array_fget_borrowed(x_4, x_2));
-x_6 = (byte)lean_unbox(x_5);
-if (x_6 == 0)
-{
-Obj x_7 = null; Obj x_8 = null; 
-x_7 = lean_ctor_get(x_1, 0);
-x_8 = (lean_array_fget_borrowed(x_7, x_2));
-switch (lean_obj_tag(x_8)) {
-case 0:
-{
-Obj x_9 = null; 
-x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___redArg(x_3, x_2);
-return x_9;
-}
-case 1:
-{
-Obj x_10 = null; 
-x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___redArg(x_3, x_2);
-lean_dec(x_2);
-return x_10;
-}
-default: 
-{
-Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
-x_11 = lean_ctor_get(x_8, 0);
-x_12 = lean_ctor_get(x_8, 1);
-x_13 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___redArg(x_1, x_2);
-if (lean_obj_tag(x_13) == 0)
-{
-Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
-x_14 = lean_unsigned_to_nat(1u);
-x_15 = (lean_nat_shiftr(x_11, x_14));
-x_16 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg(x_1, x_15, x_3);
-x_17 = (lean_nat_shiftr(x_12, x_14));
-x_18 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg(x_1, x_17, x_16);
-x_19 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___redArg(x_11, x_12, x_18, x_2);
-return x_19;
-}
-else
-{
-Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; 
-x_20 = lean_ctor_get(x_13, 0);
-lean_inc(x_20);
-lean_dec_ref(x_13);
-x_21 = lean_ctor_get(x_20, 1);
-lean_inc(x_21);
-x_22 = lean_ctor_get(x_20, 0);
-lean_inc(x_22);
-lean_dec(x_20);
-x_23 = lean_ctor_get(x_21, 0);
-lean_inc(x_23);
-x_24 = lean_ctor_get(x_21, 1);
-lean_inc(x_24);
-lean_dec(x_21);
-x_25 = lean_unsigned_to_nat(1u);
-x_26 = (lean_nat_shiftr(x_22, x_25));
-x_27 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg(x_1, x_26, x_3);
-x_28 = (lean_nat_shiftr(x_23, x_25));
-x_29 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg(x_1, x_28, x_27);
-x_30 = (lean_nat_shiftr(x_24, x_25));
-x_31 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg(x_1, x_30, x_29);
-x_32 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___redArg(x_31, x_22, x_23, x_24, x_2);
-lean_dec(x_24);
-lean_dec(x_23);
-lean_dec(x_22);
-return x_32;
-}
-}
-}
-}
-else
-{
-lean_dec(x_2);
+Obj x_3 = null; 
+x_3 = l_Std_Sat_AIG_toCNF_State_cast___redArg(x_1, x_2);
+lean_dec_ref(x_1);
 return x_3;
 }
 }
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
 _start:
 {
-Obj x_21 = null; 
-x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6___redArg(x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
-return x_21;
+Obj x_4 = null; 
+x_4 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg(x_1, x_2, x_3);
+lean_dec_ref(x_1);
+return x_4;
+}
+}
+public static Obj l_Std_Sat_AIG_toCNF_State_cast(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+_start:
+{
+Obj x_8 = null; 
+x_8 = l_Std_Sat_AIG_toCNF_State_cast___redArg(x_5, x_6);
+return x_8;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___boxed(Obj[] _args) {
@@ -1301,50 +1096,55 @@ lean_dec_ref(x_2);
 return x_22;
 }
 }
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__48_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+_start:
+{
+Obj x_15 = null; 
+x_15 = lean_apply_2(x_14, x_13, lean_box(0));
+return x_15;
+}
+}
 public static Obj l_Std_Sat_AIG_toCNF___redArg(Obj x_1, Obj x_2, Obj x_3) {
 _start:
 {
-Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_28 = 0; 
-x_4 = lean_ctor_get(x_3, 1);
-lean_inc_ref(x_4);
-x_5 = lean_ctor_get(x_3, 0);
-lean_inc_ref_n(x_5, 2);
-lean_dec_ref(x_3);
-x_6 = lean_ctor_get(x_4, 0);
-lean_inc_n(x_6, 2);
-x_7 = lean_ctor_get_uint8_s(x_4, 0);
-lean_dec_ref(x_4);
-x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0___redArg(x_1, x_2, x_5);
-x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___redArg(x_1, x_2, x_5, x_6, x_8);
-lean_dec_ref(x_5);
-x_10 = lean_ctor_get(x_9, 0);
-x_28 = (byte)(lean_is_exclusive(x_9) ? 0 : 1);
+Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_28 = 0; 
+x_4 = lean_ctor_get(x_3, 0);
+x_5 = lean_ctor_get(x_3, 1);
+lean_inc_ref(x_5);
+x_6 = l_Std_Sat_AIG_toCNF_State_empty___redArg(x_4);
+x_7 = l_Std_Sat_AIG_toCNF_x27___redArg(x_1, x_2, x_3, x_6);
+x_8 = lean_ctor_get(x_7, 0);
+x_28 = (byte)(lean_is_exclusive(x_7) ? 0 : 1);
 if (x_28 == 0)
 {
 Obj x_29 = null; 
-x_29 = lean_ctor_get(x_9, 1);
+x_29 = lean_ctor_get(x_7, 1);
 lean_dec(x_29);
-x_11 = x_9;
-x_12 = x_28;
+x_9 = x_7;
+x_10 = x_28;
 goto block_27;
 }
 else
 {
-lean_inc(x_10);
-lean_dec(x_9);
-x_11 = lean_box(0);
-x_12 = x_28;
+lean_inc(x_8);
+lean_dec(x_7);
+x_9 = lean_box(0);
+x_10 = x_28;
 goto block_27;
 }
 block_27:
 {
-Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; 
+Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; 
+x_11 = lean_ctor_get(x_5, 0);
+lean_inc(x_11);
+x_12 = lean_ctor_get_uint8(x_5, 8);
+lean_dec_ref(x_5);
 x_13 = l_Std_Sat_AIG_toCNF___redArg___closed__0;
 x_14 = M_Init_Prelude.l_ByteArray_empty;
-if (x_7 == 0)
+if (x_12 == 0)
 {
 Obj x_23 = null; byte x_24 = 0; 
-x_23 = (lean_array_push(x_13, x_6));
+x_23 = (lean_array_push(x_13, x_11));
 x_24 = (byte)1;
 x_15 = x_23;
 x_16 = x_24;
@@ -1353,7 +1153,7 @@ goto block_22;
 else
 {
 Obj x_25 = null; byte x_26 = 0; 
-x_25 = (lean_array_push(x_13, x_6));
+x_25 = (lean_array_push(x_13, x_11));
 x_26 = (byte)0;
 x_15 = x_25;
 x_16 = x_26;
@@ -1363,11 +1163,11 @@ block_22:
 {
 Obj x_17 = null; Obj x_18 = null; 
 x_17 = (lean_byte_array_push(x_14, x_16));
-if (x_12 == 0)
+if (x_10 == 0)
 {
-lean_ctor_set(x_11, 1, x_17);
-lean_ctor_set(x_11, 0, x_15);
-x_18 = x_11;
+lean_ctor_set(x_9, 1, x_17);
+lean_ctor_set(x_9, 0, x_15);
+x_18 = x_9;
 goto block_20;
 }
 else
@@ -1382,27 +1182,120 @@ goto block_20;
 block_20:
 {
 Obj x_19 = null; 
-x_19 = (lean_array_push(x_10, x_18));
+x_19 = (lean_array_push(x_8, x_18));
 return x_19;
 }
 }
 }
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
 _start:
 {
-Obj x_11 = null; 
-x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3_spec__5___redArg(x_7, x_8);
-return x_11;
+Obj x_6 = null; 
+x_6 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0___redArg(x_1, x_2, x_3, x_4, x_5);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+lean_dec_ref(x_1);
+return x_6;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__54_splitter___redArg(Obj x_1, Obj x_2) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__2___redArg(Obj x_1, Obj x_2) {
 _start:
 {
-Obj x_3 = null; 
-x_3 = lean_apply_2(x_2, x_1, lean_box(0));
-return x_3;
+Obj x_3 = null; Obj x_4 = null; 
+x_3 = lean_ctor_get(x_1, 0);
+x_4 = (lean_array_fget_borrowed(x_3, x_2));
+if (lean_obj_tag(x_4) == 2)
+{
+Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
+x_5 = lean_ctor_get(x_4, 0);
+x_6 = lean_ctor_get(x_4, 1);
+x_7 = lean_unsigned_to_nat(1u);
+x_8 = (lean_nat_land(x_7, x_5));
+x_9 = lean_unsigned_to_nat(0u);
+x_10 = lean_u8(lean_nat_dec_eq(x_8, x_9));
+lean_dec(x_8);
+if (x_10 == 0)
+{
+Obj x_11 = null; byte x_12 = 0; 
+x_11 = (lean_nat_land(x_7, x_6));
+x_12 = lean_u8(lean_nat_dec_eq(x_11, x_9));
+lean_dec(x_11);
+if (x_12 == 0)
+{
+Obj x_13 = null; Obj x_14 = null; 
+x_13 = (lean_nat_shiftr(x_5, x_7));
+x_14 = (lean_array_fget_borrowed(x_3, x_13));
+lean_dec(x_13);
+if (lean_obj_tag(x_14) == 2)
+{
+Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
+x_15 = lean_ctor_get(x_14, 0);
+x_16 = lean_ctor_get(x_14, 1);
+x_17 = (lean_nat_shiftr(x_6, x_7));
+x_18 = (lean_array_fget_borrowed(x_3, x_17));
+lean_dec(x_17);
+if (lean_obj_tag(x_18) == 2)
+{
+Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
+x_19 = lean_ctor_get(x_18, 0);
+x_20 = lean_ctor_get(x_18, 1);
+lean_inc(x_16);
+lean_inc(x_15);
+x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte_go___redArg(x_15, x_16, x_19, x_20);
+return x_21;
+}
+else
+{
+Obj x_22 = null; 
+x_22 = lean_box(0);
+return x_22;
+}
+}
+else
+{
+Obj x_23 = null; 
+x_23 = lean_box(0);
+return x_23;
+}
+}
+else
+{
+Obj x_24 = null; 
+x_24 = lean_box(0);
+return x_24;
+}
+}
+else
+{
+Obj x_25 = null; 
+x_25 = lean_box(0);
+return x_25;
+}
+}
+else
+{
+Obj x_26 = null; 
+x_26 = lean_box(0);
+return x_26;
+}
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__50_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+_start:
+{
+Obj x_15 = null; 
+x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__50_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
+lean_dec_ref(x_11);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_15;
 }
 }
 static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_falseToCNF___redArg___closed__0_cell;
@@ -1414,22 +1307,6 @@ Obj x_1 = null; Obj x_2 = null;
 x_1 = lean_unsigned_to_nat(0u);
 x_2 = (lean_mk_empty_array_with_capacity(x_1));
 return x_2;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__52_splitter___redArg(Obj x_1, Obj x_2) {
-_start:
-{
-Obj x_3 = null; 
-x_3 = lean_apply_2(x_2, x_1, lean_box(0));
-return x_3;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
-_start:
-{
-Obj x_15 = null; 
-x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5___redArg(x_2, x_3, x_4, x_5, x_6, x_7, x_10);
-return x_15;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
@@ -1444,86 +1321,23 @@ lean_dec(x_2);
 return x_6;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6_spec__10___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
 _start:
 {
-byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
-x_6 = (byte)1;
-x_7 = lean_box(x_6);
-x_8 = (lean_array_fset(x_1, x_5, x_7));
+Obj x_8 = null; 
+x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg(x_4, x_5, x_7);
 return x_8;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_cast___redArg___boxed(Obj x_1, Obj x_2) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
 _start:
 {
-Obj x_3 = null; 
-x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_cast___redArg(x_1, x_2);
-lean_dec_ref(x_1);
-return x_3;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__56_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
-_start:
-{
-Obj x_14 = null; 
-x_14 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__56_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13);
-lean_dec(x_9);
-lean_dec(x_8);
-lean_dec_ref(x_7);
-lean_dec(x_5);
+Obj x_8 = null; 
+x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
 lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_14;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
-_start:
-{
-Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_16 = 0; 
-x_7 = lean_ctor_get(x_5, 0);
-x_8 = lean_ctor_get(x_5, 1);
-x_16 = (byte)(lean_is_exclusive(x_5) ? 0 : 1);
-if (x_16 == 0)
-{
-x_9 = x_5;
-x_10 = x_16;
-goto block_15;
-}
-else
-{
-lean_inc(x_8);
-lean_inc(x_7);
-lean_dec(x_5);
-x_9 = lean_box(0);
-x_10 = x_16;
-goto block_15;
-}
-block_15:
-{
-Obj x_11 = null; Obj x_12 = null; 
-x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3_spec__5___redArg(x_8, x_6);
-if (x_10 == 0)
-{
-lean_ctor_set(x_9, 1, x_11);
-x_12 = x_9;
-goto block_13;
-}
-else
-{
-Obj x_14 = null; 
-x_14 = lean_alloc_ctor(0, 2, 0);
-lean_ctor_set(x_14, 0, x_7);
-lean_ctor_set(x_14, 1, x_11);
-x_12 = x_14;
-goto block_13;
-}
-block_13:
-{
-return x_12;
-}
-}
+return x_8;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_eval___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
@@ -1547,6 +1361,48 @@ x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___redArg(x_4);
 return x_5;
 }
 }
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go_match__81_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+_start:
+{
+if (lean_obj_tag(x_2) == 0)
+{
+Obj x_5 = null; 
+lean_dec(x_3);
+x_5 = lean_apply_1(x_4, lean_box(0));
+return x_5;
+}
+else
+{
+Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
+lean_dec(x_4);
+x_6 = lean_ctor_get(x_2, 0);
+lean_inc(x_6);
+lean_dec_ref(x_2);
+x_7 = lean_ctor_get(x_6, 1);
+lean_inc(x_7);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+lean_dec(x_6);
+x_9 = lean_ctor_get(x_7, 0);
+lean_inc(x_9);
+x_10 = lean_ctor_get(x_7, 1);
+lean_inc(x_10);
+lean_dec(x_7);
+x_11 = lean_apply_4(x_3, x_8, x_9, x_10, lean_box(0));
+return x_11;
+}
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1_spec__3___redArg(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
+x_3 = (byte)1;
+x_4 = lean_box(x_3);
+x_5 = (lean_array_fset(x_1, x_2, x_4));
+return x_5;
+}
+}
 public static byte l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_eval___redArg(Obj x_1, Obj x_2) {
 _start:
 {
@@ -1554,18 +1410,6 @@ Obj x_3 = null; byte x_4 = 0;
 x_3 = lean_ctor_get(x_2, 0);
 x_4 = M_Std_Sat_CNF_Sat.l_Std_Sat_CNF_eval___redArg(x_1, x_3);
 return x_4;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6_spec__10___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
-_start:
-{
-Obj x_6 = null; 
-x_6 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__6_spec__10___redArg(x_1, x_2, x_3, x_4, x_5);
-lean_dec(x_5);
-lean_dec(x_4);
-lean_dec(x_3);
-lean_dec(x_2);
-return x_6;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_eval___redArg___boxed(Obj x_1, Obj x_2) {
@@ -1578,14 +1422,20 @@ x_4 = lean_box(x_3);
 return x_4;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5_spec__8___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
 _start:
 {
-byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
-x_5 = (byte)1;
-x_6 = lean_box(x_5);
-x_7 = (lean_array_fset(x_3, x_4, x_6));
-return x_7;
+Obj x_10 = null; 
+x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1___redArg(x_2, x_3, x_4, x_5, x_6, x_7);
+return x_10;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__45_splitter___redArg(Obj x_1, Obj x_2) {
+_start:
+{
+Obj x_3 = null; 
+x_3 = lean_apply_2(x_2, x_1, lean_box(0));
+return x_3;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___boxed(Obj[] _args) {
@@ -1634,54 +1484,6 @@ lean_dec_ref(x_2);
 return x_7;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0_spec__0___redArg___boxed(Obj x_1) {
-_start:
-{
-Obj x_2 = null; 
-x_2 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0_spec__0___redArg(x_1);
-lean_dec_ref(x_1);
-return x_2;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go_match__103_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
-_start:
-{
-switch (lean_obj_tag(x_3)) {
-case 0:
-{
-Obj x_7 = null; 
-lean_dec(x_6);
-lean_dec(x_5);
-x_7 = lean_apply_1(x_4, lean_box(0));
-return x_7;
-}
-case 1:
-{
-Obj x_8 = null; Obj x_9 = null; 
-lean_dec(x_6);
-lean_dec(x_4);
-x_8 = lean_ctor_get(x_3, 0);
-lean_inc(x_8);
-lean_dec_ref(x_3);
-x_9 = lean_apply_2(x_5, x_8, lean_box(0));
-return x_9;
-}
-default: 
-{
-Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
-lean_dec(x_5);
-lean_dec(x_4);
-x_10 = lean_ctor_get(x_3, 0);
-lean_inc(x_10);
-x_11 = lean_ctor_get(x_3, 1);
-lean_inc(x_11);
-lean_dec_ref(x_3);
-x_12 = lean_apply_3(x_6, x_10, x_11, lean_box(0));
-return x_12;
-}
-}
-}
-}
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___redArg___boxed(Obj x_1, Obj x_2) {
 _start:
 {
@@ -1689,6 +1491,22 @@ Obj x_3 = null;
 x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___redArg(x_1, x_2);
 lean_dec(x_2);
 return x_3;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__54_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+_start:
+{
+Obj x_14 = null; 
+x_14 = lean_apply_2(x_13, x_12, lean_box(0));
+return x_14;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20) {
+_start:
+{
+Obj x_21 = null; 
+x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4___redArg(x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+return x_21;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___redArg(Obj x_1, Obj x_2) {
@@ -1711,32 +1529,29 @@ x_7 = lean_box(x_6);
 return x_7;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
-_start:
-{
-Obj x_5 = null; 
-x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0(x_1, x_2, x_3, x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_5;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
-_start:
-{
-Obj x_4 = null; 
-x_4 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0___redArg(x_1, x_2, x_3);
-lean_dec_ref(x_2);
-lean_dec_ref(x_1);
-return x_4;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
 _start:
 {
 Obj x_7 = null; 
-x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__4___redArg(x_4, x_5);
+x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__2(x_1, x_2, x_3, x_4, x_5, x_6);
+lean_dec(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
 return x_7;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+_start:
+{
+Obj x_15 = null; 
+x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
+lean_dec(x_6);
+lean_dec(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_15;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_projectLeftAssign___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
@@ -1751,9 +1566,86 @@ return x_5;
 public static Obj l_Std_Sat_AIG_toCNF(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
 _start:
 {
-Obj x_5 = null; 
-x_5 = l_Std_Sat_AIG_toCNF___redArg(x_2, x_3, x_4);
-return x_5;
+Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_29 = 0; 
+x_5 = lean_ctor_get(x_4, 0);
+x_6 = lean_ctor_get(x_4, 1);
+lean_inc_ref(x_6);
+x_7 = l_Std_Sat_AIG_toCNF_State_empty___redArg(x_5);
+x_8 = l_Std_Sat_AIG_toCNF_x27___redArg(x_2, x_3, x_4, x_7);
+x_9 = lean_ctor_get(x_8, 0);
+x_29 = (byte)(lean_is_exclusive(x_8) ? 0 : 1);
+if (x_29 == 0)
+{
+Obj x_30 = null; 
+x_30 = lean_ctor_get(x_8, 1);
+lean_dec(x_30);
+x_10 = x_8;
+x_11 = x_29;
+goto block_28;
+}
+else
+{
+lean_inc(x_9);
+lean_dec(x_8);
+x_10 = lean_box(0);
+x_11 = x_29;
+goto block_28;
+}
+block_28:
+{
+Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
+x_12 = lean_ctor_get(x_6, 0);
+lean_inc(x_12);
+x_13 = lean_ctor_get_uint8(x_6, 8);
+lean_dec_ref(x_6);
+x_14 = l_Std_Sat_AIG_toCNF___redArg___closed__0;
+x_15 = M_Init_Prelude.l_ByteArray_empty;
+if (x_13 == 0)
+{
+Obj x_24 = null; byte x_25 = 0; 
+x_24 = (lean_array_push(x_14, x_12));
+x_25 = (byte)1;
+x_16 = x_24;
+x_17 = x_25;
+goto block_23;
+}
+else
+{
+Obj x_26 = null; byte x_27 = 0; 
+x_26 = (lean_array_push(x_14, x_12));
+x_27 = (byte)0;
+x_16 = x_26;
+x_17 = x_27;
+goto block_23;
+}
+block_23:
+{
+Obj x_18 = null; Obj x_19 = null; 
+x_18 = (lean_byte_array_push(x_15, x_17));
+if (x_11 == 0)
+{
+lean_ctor_set(x_10, 1, x_18);
+lean_ctor_set(x_10, 0, x_16);
+x_19 = x_10;
+goto block_21;
+}
+else
+{
+Obj x_22 = null; 
+x_22 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_22, 0, x_16);
+lean_ctor_set(x_22, 1, x_18);
+x_19 = x_22;
+goto block_21;
+}
+block_21:
+{
+Obj x_20 = null; 
+x_20 = (lean_array_push(x_9, x_19));
+return x_20;
+}
+}
+}
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
@@ -1855,6 +1747,25 @@ return x_29;
 }
 }
 }
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+_start:
+{
+Obj x_9 = null; 
+x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0___redArg(x_2, x_3, x_4, x_5, x_6);
+return x_9;
+}
+}
+static Obj l_Std_Sat_AIG_toCNF_State_empty___redArg___closed__0_cell;
+public static Obj l_Std_Sat_AIG_toCNF_State_empty___redArg___closed__0 => l_Std_Sat_AIG_toCNF_State_empty___redArg___closed__0_cell ?? lean_obj_once(ref l_Std_Sat_AIG_toCNF_State_empty___redArg___closed__0_cell, &_init_l_Std_Sat_AIG_toCNF_State_empty___redArg___closed__0);
+public static Obj _init_l_Std_Sat_AIG_toCNF_State_empty___redArg___closed__0() {
+_start:
+{
+Obj x_1 = null; Obj x_2 = null; 
+x_1 = lean_unsigned_to_nat(0u);
+x_2 = (lean_mk_empty_array_with_capacity(x_1));
+return x_2;
+}
+}
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
 _start:
 {
@@ -1865,33 +1776,23 @@ x_8 = (lean_array_fset(x_1, x_5, x_7));
 return x_8;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
 _start:
 {
-Obj x_15 = null; 
-x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
-lean_dec(x_6);
-lean_dec(x_5);
+Obj x_9 = null; 
+x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
 lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_15;
+return x_9;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_cast(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__48_splitter___redArg(Obj x_1, Obj x_2) {
 _start:
 {
-Obj x_8 = null; 
-x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_cast___redArg(x_5, x_6);
-return x_8;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__54_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
-_start:
-{
-Obj x_14 = null; 
-x_14 = lean_apply_2(x_13, x_12, lean_box(0));
-return x_14;
+Obj x_3 = null; 
+x_3 = lean_apply_2(x_2, x_1, lean_box(0));
+return x_3;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___redArg___boxed(Obj x_1, Obj x_2) {
@@ -1899,29 +1800,6 @@ _start:
 {
 Obj x_3 = null; 
 x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___redArg(x_1, x_2);
-lean_dec(x_2);
-lean_dec_ref(x_1);
-return x_3;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
-_start:
-{
-Obj x_8 = null; 
-x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5___redArg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
-lean_dec(x_5);
-lean_dec(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-lean_dec_ref(x_1);
-return x_8;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__4___redArg___boxed(Obj x_1, Obj x_2) {
-_start:
-{
-Obj x_3 = null; 
-x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__4___redArg(x_1, x_2);
 lean_dec(x_2);
 lean_dec_ref(x_1);
 return x_3;
@@ -1966,6 +1844,37 @@ return x_13;
 }
 }
 }
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+_start:
+{
+Obj x_11 = null; 
+x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1_spec__3(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
+lean_dec(x_8);
+lean_dec(x_6);
+lean_dec_ref(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_11;
+}
+}
+public static Obj l_Std_Sat_AIG_toCNF_x27___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+_start:
+{
+Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
+x_5 = lean_ctor_get(x_3, 1);
+lean_inc_ref(x_5);
+x_6 = lean_ctor_get(x_3, 0);
+lean_inc_ref(x_6);
+lean_dec_ref(x_3);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec_ref(x_5);
+x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(x_1, x_2, x_6, x_7, x_4);
+lean_dec_ref(x_6);
+return x_8;
+}
+}
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20) {
 _start:
 {
@@ -1981,6 +1890,144 @@ Obj x_2 = null;
 x_2 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___redArg(x_1);
 lean_dec_ref(x_1);
 return x_2;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+_start:
+{
+Obj x_11 = null; 
+x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1_spec__3___redArg(x_7, x_8);
+return x_11;
+}
+}
+public static Obj l_Std_Sat_AIG_toCNF_State_cast___redArg(Obj x_1, Obj x_2) {
+_start:
+{
+Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_12 = 0; 
+x_3 = lean_ctor_get(x_2, 0);
+x_4 = lean_ctor_get(x_2, 1);
+x_12 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
+if (x_12 == 0)
+{
+x_5 = x_2;
+x_6 = x_12;
+goto block_11;
+}
+else
+{
+lean_inc(x_4);
+lean_inc(x_3);
+lean_dec(x_2);
+x_5 = lean_box(0);
+x_6 = x_12;
+goto block_11;
+}
+block_11:
+{
+Obj x_7 = null; Obj x_8 = null; 
+x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_cast___redArg(x_1, x_4);
+if (x_6 == 0)
+{
+lean_ctor_set(x_5, 1, x_7);
+x_8 = x_5;
+goto block_9;
+}
+else
+{
+Obj x_10 = null; 
+x_10 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_10, 0, x_3);
+lean_ctor_set(x_10, 1, x_7);
+x_8 = x_10;
+goto block_9;
+}
+block_9:
+{
+return x_8;
+}
+}
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+_start:
+{
+Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
+x_4 = lean_ctor_get(x_3, 1);
+x_5 = (lean_array_fget_borrowed(x_4, x_2));
+x_6 = (byte)lean_unbox(x_5);
+if (x_6 == 0)
+{
+Obj x_7 = null; Obj x_8 = null; 
+x_7 = lean_ctor_get(x_1, 0);
+x_8 = (lean_array_fget_borrowed(x_7, x_2));
+switch (lean_obj_tag(x_8)) {
+case 0:
+{
+Obj x_9 = null; 
+x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___redArg(x_3, x_2);
+return x_9;
+}
+case 1:
+{
+Obj x_10 = null; 
+x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___redArg(x_3, x_2);
+lean_dec(x_2);
+return x_10;
+}
+default: 
+{
+Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
+x_11 = lean_ctor_get(x_8, 0);
+x_12 = lean_ctor_get(x_8, 1);
+x_13 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___redArg(x_1, x_2);
+if (lean_obj_tag(x_13) == 0)
+{
+Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
+x_14 = lean_unsigned_to_nat(1u);
+x_15 = (lean_nat_shiftr(x_11, x_14));
+x_16 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg(x_1, x_15, x_3);
+x_17 = (lean_nat_shiftr(x_12, x_14));
+x_18 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg(x_1, x_17, x_16);
+x_19 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___redArg(x_11, x_12, x_18, x_2);
+return x_19;
+}
+else
+{
+Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; 
+x_20 = lean_ctor_get(x_13, 0);
+lean_inc(x_20);
+lean_dec_ref(x_13);
+x_21 = lean_ctor_get(x_20, 1);
+lean_inc(x_21);
+x_22 = lean_ctor_get(x_20, 0);
+lean_inc(x_22);
+lean_dec(x_20);
+x_23 = lean_ctor_get(x_21, 0);
+lean_inc(x_23);
+x_24 = lean_ctor_get(x_21, 1);
+lean_inc(x_24);
+lean_dec(x_21);
+x_25 = lean_unsigned_to_nat(1u);
+x_26 = (lean_nat_shiftr(x_22, x_25));
+x_27 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg(x_1, x_26, x_3);
+x_28 = (lean_nat_shiftr(x_23, x_25));
+x_29 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg(x_1, x_28, x_27);
+x_30 = (lean_nat_shiftr(x_24, x_25));
+x_31 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___redArg(x_1, x_30, x_29);
+x_32 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___redArg(x_31, x_22, x_23, x_24, x_2);
+lean_dec(x_24);
+lean_dec(x_23);
+lean_dec(x_22);
+return x_32;
+}
+}
+}
+}
+else
+{
+lean_dec(x_2);
+return x_3;
+}
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
@@ -2269,14 +2316,6 @@ goto block_61;
 }
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__56_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
-_start:
-{
-Obj x_14 = null; 
-x_14 = lean_apply_2(x_13, x_12, lean_box(0));
-return x_14;
-}
-}
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_cast___redArg___boxed(Obj x_1, Obj x_2) {
 _start:
 {
@@ -2284,54 +2323,6 @@ Obj x_3 = null;
 x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_cast___redArg(x_1, x_2);
 lean_dec_ref(x_1);
 return x_3;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_cast___redArg(Obj x_1, Obj x_2) {
-_start:
-{
-Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_12 = 0; 
-x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get(x_2, 1);
-x_12 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
-if (x_12 == 0)
-{
-x_5 = x_2;
-x_6 = x_12;
-goto block_11;
-}
-else
-{
-lean_inc(x_4);
-lean_inc(x_3);
-lean_dec(x_2);
-x_5 = lean_box(0);
-x_6 = x_12;
-goto block_11;
-}
-block_11:
-{
-Obj x_7 = null; Obj x_8 = null; 
-x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_cast___redArg(x_1, x_4);
-if (x_6 == 0)
-{
-lean_ctor_set(x_5, 1, x_7);
-x_8 = x_5;
-goto block_9;
-}
-else
-{
-Obj x_10 = null; 
-x_10 = lean_alloc_ctor(0, 2, 0);
-lean_ctor_set(x_10, 0, x_3);
-lean_ctor_set(x_10, 1, x_7);
-x_8 = x_10;
-goto block_9;
-}
-block_9:
-{
-return x_8;
-}
-}
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
@@ -2347,12 +2338,24 @@ lean_dec_ref(x_2);
 return x_10;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__50_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__2___redArg___boxed(Obj x_1, Obj x_2) {
 _start:
 {
-Obj x_15 = null; 
-x_15 = lean_apply_2(x_14, x_13, lean_box(0));
-return x_15;
+Obj x_3 = null; 
+x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__2___redArg(x_1, x_2);
+lean_dec(x_2);
+lean_dec_ref(x_1);
+return x_3;
+}
+}
+public static Obj l_Std_Sat_AIG_toCNF_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+_start:
+{
+Obj x_5 = null; 
+x_5 = l_Std_Sat_AIG_toCNF_x27___redArg(x_1, x_2, x_3, x_4);
+lean_dec_ref(x_2);
+lean_dec_ref(x_1);
+return x_5;
 }
 }
 static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_falseToCNF___redArg___closed__1_cell;
@@ -2365,6 +2368,30 @@ x_1 = (byte)0;
 x_2 = M_Init_Prelude.l_ByteArray_empty;
 x_3 = (lean_byte_array_push(x_2, x_1));
 return x_3;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__52_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+_start:
+{
+Obj x_15 = null; 
+x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__52_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
+lean_dec(x_10);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec_ref(x_7);
+lean_dec(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_15;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__56_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+_start:
+{
+Obj x_14 = null; 
+x_14 = lean_apply_2(x_13, x_12, lean_box(0));
+return x_14;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
@@ -2448,7 +2475,7 @@ block_23:
 {
 Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 
 x_17 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___redArg(x_7, x_2, x_3, x_4, x_5);
-x_18 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF___redArg(x_5, x_11, x_12, x_13, x_14, x_15, x_16);
+x_18 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF___redArg(x_5, x_11, x_12, x_13, x_15, x_14, x_16);
 x_19 = M_Init_Data_Array_Basic.l_Array_append___redArg(x_6, x_18);
 lean_dec_ref(x_18);
 if (x_9 == 0)
@@ -2483,8 +2510,8 @@ if (x_28 == 0)
 {
 byte x_29 = 0; 
 x_29 = (byte)1;
-x_14 = x_24;
-x_15 = x_25;
+x_14 = x_25;
+x_15 = x_24;
 x_16 = x_29;
 goto block_23;
 }
@@ -2492,8 +2519,8 @@ else
 {
 byte x_30 = 0; 
 x_30 = (byte)0;
-x_14 = x_24;
-x_15 = x_25;
+x_14 = x_25;
+x_15 = x_24;
 x_16 = x_30;
 goto block_23;
 }
@@ -2525,6 +2552,45 @@ goto block_31;
 }
 }
 }
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go_match__103_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+_start:
+{
+switch (lean_obj_tag(x_3)) {
+case 0:
+{
+Obj x_7 = null; 
+lean_dec(x_6);
+lean_dec(x_5);
+x_7 = lean_apply_1(x_4, lean_box(0));
+return x_7;
+}
+case 1:
+{
+Obj x_8 = null; Obj x_9 = null; 
+lean_dec(x_6);
+lean_dec(x_4);
+x_8 = lean_ctor_get(x_3, 0);
+lean_inc(x_8);
+lean_dec_ref(x_3);
+x_9 = lean_apply_2(x_5, x_8, lean_box(0));
+return x_9;
+}
+default: 
+{
+Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
+lean_dec(x_5);
+lean_dec(x_4);
+x_10 = lean_ctor_get(x_3, 0);
+lean_inc(x_10);
+x_11 = lean_ctor_get(x_3, 1);
+lean_inc(x_11);
+lean_dec_ref(x_3);
+x_12 = lean_apply_3(x_6, x_10, x_11, lean_box(0));
+return x_12;
+}
+}
+}
+}
 public static byte l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_cnfSatAssignment(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
 _start:
 {
@@ -2533,12 +2599,59 @@ x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_cnfSatAssignment___redArg
 return x_7;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__48_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
 _start:
 {
+Obj x_15 = null; 
+x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__48_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
+lean_dec_ref(x_11);
+lean_dec(x_9);
+lean_dec(x_8);
+lean_dec(x_7);
+lean_dec(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_15;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go_match__103_splitter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+_start:
+{
+switch (lean_obj_tag(x_1)) {
+case 0:
+{
 Obj x_5 = null; 
-x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0___redArg(x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_3);
+x_5 = lean_apply_1(x_2, lean_box(0));
 return x_5;
+}
+case 1:
+{
+Obj x_6 = null; Obj x_7 = null; 
+lean_dec(x_4);
+lean_dec(x_2);
+x_6 = lean_ctor_get(x_1, 0);
+lean_inc(x_6);
+lean_dec_ref(x_1);
+x_7 = lean_apply_2(x_3, x_6, lean_box(0));
+return x_7;
+}
+default: 
+{
+Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
+lean_dec(x_3);
+lean_dec(x_2);
+x_8 = lean_ctor_get(x_1, 0);
+lean_inc(x_8);
+x_9 = lean_ctor_get(x_1, 1);
+lean_inc(x_9);
+lean_dec_ref(x_1);
+x_10 = lean_apply_3(x_4, x_8, x_9, lean_box(0));
+return x_10;
+}
+}
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
@@ -2551,60 +2664,29 @@ lean_dec(x_1);
 return x_5;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
 _start:
 {
-Obj x_5 = null; 
-x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty(x_1, x_2, x_3, x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_5;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5_spec__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
-_start:
-{
-Obj x_16 = null; 
-x_16 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5_spec__8(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15);
-lean_dec(x_11);
+Obj x_9 = null; 
+x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4___redArg(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8);
 lean_dec(x_7);
 lean_dec(x_6);
-lean_dec_ref(x_5);
-lean_dec_ref(x_4);
+lean_dec(x_5);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_16;
+lean_dec_ref(x_1);
+return x_9;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__52_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
 _start:
 {
-Obj x_15 = null; 
-x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__52_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
-lean_dec(x_10);
-lean_dec(x_9);
-lean_dec(x_8);
-lean_dec_ref(x_7);
-lean_dec(x_5);
-lean_dec_ref(x_4);
+Obj x_6 = null; 
+x_6 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0___redArg(x_1, x_2, x_3, x_4, x_5);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_15;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__54_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
-_start:
-{
-Obj x_14 = null; 
-x_14 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__54_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13);
-lean_dec_ref(x_10);
-lean_dec(x_8);
-lean_dec(x_7);
-lean_dec(x_5);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_14;
+lean_dec_ref(x_1);
+return x_6;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
@@ -2633,12 +2715,17 @@ x_6 = (lean_mk_array(x_3, x_5));
 return x_6;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__45_splitter___redArg(Obj x_1, Obj x_2) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
 _start:
 {
-Obj x_3 = null; 
-x_3 = lean_apply_2(x_2, x_1, lean_box(0));
-return x_3;
+Obj x_8 = null; 
+x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3___redArg(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
+lean_dec(x_5);
+lean_dec(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+lean_dec_ref(x_1);
+return x_8;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_cnfSatAssignment___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
@@ -2690,85 +2777,35 @@ x_3 = (lean_byte_array_push(x_2, x_1));
 return x_3;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__4___redArg(Obj x_1, Obj x_2) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go_match__81_splitter___redArg(Obj x_1, Obj x_2, Obj x_3) {
 _start:
 {
-Obj x_3 = null; Obj x_4 = null; 
-x_3 = lean_ctor_get(x_1, 0);
-x_4 = (lean_array_fget_borrowed(x_3, x_2));
-if (lean_obj_tag(x_4) == 2)
+if (lean_obj_tag(x_1) == 0)
 {
-Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
-x_5 = lean_ctor_get(x_4, 0);
-x_6 = lean_ctor_get(x_4, 1);
-x_7 = lean_unsigned_to_nat(1u);
-x_8 = (lean_nat_land(x_7, x_5));
-x_9 = lean_unsigned_to_nat(0u);
-x_10 = lean_u8(lean_nat_dec_eq(x_8, x_9));
-lean_dec(x_8);
-if (x_10 == 0)
-{
-Obj x_11 = null; byte x_12 = 0; 
-x_11 = (lean_nat_land(x_7, x_6));
-x_12 = lean_u8(lean_nat_dec_eq(x_11, x_9));
-lean_dec(x_11);
-if (x_12 == 0)
-{
-Obj x_13 = null; Obj x_14 = null; 
-x_13 = (lean_nat_shiftr(x_5, x_7));
-x_14 = (lean_array_fget_borrowed(x_3, x_13));
-lean_dec(x_13);
-if (lean_obj_tag(x_14) == 2)
-{
-Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
-x_15 = lean_ctor_get(x_14, 0);
-x_16 = lean_ctor_get(x_14, 1);
-x_17 = (lean_nat_shiftr(x_6, x_7));
-x_18 = (lean_array_fget_borrowed(x_3, x_17));
-lean_dec(x_17);
-if (lean_obj_tag(x_18) == 2)
-{
-Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
-x_19 = lean_ctor_get(x_18, 0);
-x_20 = lean_ctor_get(x_18, 1);
-lean_inc(x_16);
-lean_inc(x_15);
-x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte_go___redArg(x_15, x_16, x_19, x_20);
-return x_21;
+Obj x_4 = null; 
+lean_dec(x_2);
+x_4 = lean_apply_1(x_3, lean_box(0));
+return x_4;
 }
 else
 {
-Obj x_22 = null; 
-x_22 = lean_box(0);
-return x_22;
-}
-}
-else
-{
-Obj x_23 = null; 
-x_23 = lean_box(0);
-return x_23;
-}
-}
-else
-{
-Obj x_24 = null; 
-x_24 = lean_box(0);
-return x_24;
-}
-}
-else
-{
-Obj x_25 = null; 
-x_25 = lean_box(0);
-return x_25;
-}
-}
-else
-{
-Obj x_26 = null; 
-x_26 = lean_box(0);
-return x_26;
+Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
+lean_dec(x_3);
+x_5 = lean_ctor_get(x_1, 0);
+lean_inc(x_5);
+lean_dec_ref(x_1);
+x_6 = lean_ctor_get(x_5, 1);
+lean_inc(x_6);
+x_7 = lean_ctor_get(x_5, 0);
+lean_inc(x_7);
+lean_dec(x_5);
+x_8 = lean_ctor_get(x_6, 0);
+lean_inc(x_8);
+x_9 = lean_ctor_get(x_6, 1);
+lean_inc(x_9);
+lean_dec(x_6);
+x_10 = lean_apply_4(x_2, x_7, x_8, x_9, lean_box(0));
+return x_10;
 }
 }
 }
@@ -2825,17 +2862,6 @@ x_6 = (lean_array_push(x_2, x_5));
 return x_6;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
-_start:
-{
-Obj x_8 = null; 
-x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_8;
-}
-}
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_gateToCNF___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
 _start:
 {
@@ -2846,7 +2872,15 @@ x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_gateToCNF(x_1, x_2, x_3, x
 return x_9;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__50_splitter___redArg(Obj x_1, Obj x_2) {
+public static Obj l_Std_Sat_AIG_toCNF_State_empty(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+_start:
+{
+Obj x_5 = null; 
+x_5 = l_Std_Sat_AIG_toCNF_State_empty___redArg(x_4);
+return x_5;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__56_splitter___redArg(Obj x_1, Obj x_2) {
 _start:
 {
 Obj x_3 = null; 
@@ -2862,71 +2896,59 @@ x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_projectLeftAssign___redAr
 return x_7;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4___boxed(Obj[] _args) {
+Obj x_1 = _args[0];
+Obj x_2 = _args[1];
+Obj x_3 = _args[2];
+Obj x_4 = _args[3];
+Obj x_5 = _args[4];
+Obj x_6 = _args[5];
+Obj x_7 = _args[6];
+Obj x_8 = _args[7];
+Obj x_9 = _args[8];
+Obj x_10 = _args[9];
+Obj x_11 = _args[10];
+Obj x_12 = _args[11];
+Obj x_13 = _args[12];
+Obj x_14 = _args[13];
+Obj x_15 = _args[14];
+Obj x_16 = _args[15];
+Obj x_17 = _args[16];
+Obj x_18 = _args[17];
+Obj x_19 = _args[18];
+Obj x_20 = _args[19];
 _start:
 {
-Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_16 = 0; 
-x_4 = lean_ctor_get(x_3, 0);
-x_5 = (lean_array_get_size(x_4));
-x_6 = lean_unsigned_to_nat(2u);
-x_7 = (lean_nat_mul(x_5, x_6));
-x_8 = (lean_mk_empty_array_with_capacity(x_7));
+Obj x_21 = null; 
+x_21 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18, x_19, x_20);
+lean_dec(x_8);
 lean_dec(x_7);
-x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___at___00Std_Sat_AIG_toCNF_spec__0_spec__0___redArg(x_3);
-x_16 = (byte)(lean_is_exclusive(x_3) ? 0 : 1);
-if (x_16 == 0)
-{
-Obj x_17 = null; Obj x_18 = null; 
-x_17 = lean_ctor_get(x_3, 1);
-lean_dec(x_17);
-x_18 = lean_ctor_get(x_3, 0);
-lean_dec(x_18);
-x_10 = x_3;
-x_11 = x_16;
-goto block_15;
-}
-else
-{
-lean_dec(x_3);
-x_10 = lean_box(0);
-x_11 = x_16;
-goto block_15;
-}
-block_15:
-{
-Obj x_12 = null; 
-if (x_11 == 0)
-{
-lean_ctor_set(x_10, 1, x_9);
-lean_ctor_set(x_10, 0, x_8);
-x_12 = x_10;
-goto block_13;
-}
-else
-{
-Obj x_14 = null; 
-x_14 = lean_alloc_ctor(0, 2, 0);
-lean_ctor_set(x_14, 0, x_8);
-lean_ctor_set(x_14, 1, x_9);
-x_12 = x_14;
-goto block_13;
-}
-block_13:
-{
-return x_12;
-}
-}
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
-_start:
-{
-Obj x_6 = null; 
-x_6 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2___redArg(x_1, x_2, x_3, x_4, x_5);
+lean_dec(x_6);
+lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-lean_dec_ref(x_1);
-return x_6;
+return x_21;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+_start:
+{
+Obj x_10 = null; 
+x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0_spec__1(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
+lean_dec(x_7);
+lean_dec_ref(x_5);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_10;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+_start:
+{
+Obj x_16 = null; 
+x_16 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__3_spec__6___redArg(x_6, x_7, x_8, x_11);
+return x_16;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20, Obj x_21) {
@@ -2945,85 +2967,27 @@ x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_eval___redArg(x_5, 
 return x_7;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5_spec__8___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
 _start:
 {
-Obj x_5 = null; 
-x_5 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5_spec__8___redArg(x_1, x_2, x_3, x_4);
-lean_dec(x_4);
-lean_dec(x_2);
-lean_dec(x_1);
-return x_5;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_empty___redArg(Obj x_1) {
-_start:
-{
-Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_14 = 0; 
-x_2 = lean_ctor_get(x_1, 0);
-x_3 = (lean_array_get_size(x_2));
-x_4 = lean_unsigned_to_nat(2u);
-x_5 = (lean_nat_mul(x_3, x_4));
-x_6 = (lean_mk_empty_array_with_capacity(x_5));
-lean_dec(x_5);
-x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_init___redArg(x_1);
-x_14 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
-if (x_14 == 0)
-{
-Obj x_15 = null; Obj x_16 = null; 
-x_15 = lean_ctor_get(x_1, 1);
-lean_dec(x_15);
-x_16 = lean_ctor_get(x_1, 0);
-lean_dec(x_16);
-x_8 = x_1;
-x_9 = x_14;
-goto block_13;
-}
-else
-{
-lean_dec(x_1);
-x_8 = lean_box(0);
-x_9 = x_14;
-goto block_13;
-}
-block_13:
-{
-Obj x_10 = null; 
-if (x_9 == 0)
-{
-lean_ctor_set(x_8, 1, x_7);
-lean_ctor_set(x_8, 0, x_6);
-x_10 = x_8;
-goto block_11;
-}
-else
-{
-Obj x_12 = null; 
-x_12 = lean_alloc_ctor(0, 2, 0);
-lean_ctor_set(x_12, 0, x_6);
-lean_ctor_set(x_12, 1, x_7);
-x_10 = x_12;
-goto block_11;
-}
-block_11:
-{
-return x_10;
-}
-}
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
-_start:
-{
-Obj x_11 = null; 
-x_11 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__3_spec__5(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10);
-lean_dec(x_8);
+Obj x_7 = null; 
+x_7 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__1___redArg(x_1, x_2, x_3, x_4, x_5, x_6);
 lean_dec(x_6);
-lean_dec_ref(x_5);
-lean_dec_ref(x_4);
+lean_dec(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_11;
+lean_dec_ref(x_1);
+return x_7;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2) {
+_start:
+{
+byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
+x_3 = (byte)1;
+x_4 = lean_box(x_3);
+x_5 = (lean_array_fset(x_1, x_2, x_4));
+return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_toCNF___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
@@ -3046,13 +3010,12 @@ lean_dec_ref(x_2);
 return x_5;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__52_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
 _start:
 {
-Obj x_4 = null; 
-x_4 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___redArg(x_1, x_2, x_3);
-lean_dec_ref(x_1);
-return x_4;
+Obj x_15 = null; 
+x_15 = lean_apply_2(x_14, x_13, lean_box(0));
+return x_15;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_gateToCNF___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4, byte x_5) {
@@ -3211,41 +3174,49 @@ return x_9;
 }
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2_spec__3___redArg___boxed(Obj x_1, Obj x_2) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4_spec__8___boxed(Obj[] _args) {
+Obj x_1 = _args[0];
+Obj x_2 = _args[1];
+Obj x_3 = _args[2];
+Obj x_4 = _args[3];
+Obj x_5 = _args[4];
+Obj x_6 = _args[5];
+Obj x_7 = _args[6];
+Obj x_8 = _args[7];
+Obj x_9 = _args[8];
+Obj x_10 = _args[9];
+Obj x_11 = _args[10];
+Obj x_12 = _args[11];
+Obj x_13 = _args[12];
+Obj x_14 = _args[13];
+Obj x_15 = _args[14];
+Obj x_16 = _args[15];
+Obj x_17 = _args[16];
+Obj x_18 = _args[17];
+Obj x_19 = _args[18];
+Obj x_20 = _args[19];
+Obj x_21 = _args[20];
 _start:
 {
-Obj x_3 = null; 
-x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__2_spec__3___redArg(x_1, x_2);
-lean_dec(x_2);
-return x_3;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__48_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
-_start:
-{
-Obj x_15 = null; 
-x_15 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_match__48_splitter(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14);
-lean_dec_ref(x_11);
+Obj x_22 = null; 
+x_22 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4_spec__8(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18, x_19, x_20, x_21);
+lean_dec(x_10);
 lean_dec(x_9);
 lean_dec(x_8);
 lean_dec(x_7);
-lean_dec(x_5);
-lean_dec_ref(x_4);
-lean_dec_ref(x_3);
-lean_dec_ref(x_2);
-return x_15;
-}
-}
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
-_start:
-{
-Obj x_8 = null; 
-x_8 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_cast(x_1, x_2, x_3, x_4, x_5, x_6, x_7);
 lean_dec_ref(x_5);
 lean_dec_ref(x_4);
 lean_dec_ref(x_3);
 lean_dec_ref(x_2);
-return x_8;
+return x_22;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_match__54_splitter___redArg(Obj x_1, Obj x_2) {
+_start:
+{
+Obj x_3 = null; 
+x_3 = lean_apply_2(x_2, x_1, lean_box(0));
+return x_3;
 }
 }
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_detectIte_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
@@ -3380,6 +3351,17 @@ return x_15;
 }
 }
 }
+public static Obj l_Std_Sat_AIG_toCNF_State_empty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+_start:
+{
+Obj x_5 = null; 
+x_5 = l_Std_Sat_AIG_toCNF_State_empty(x_1, x_2, x_3, x_4);
+lean_dec_ref(x_4);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_5;
+}
+}
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addAtom___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
 _start:
 {
@@ -3393,14 +3375,6 @@ lean_dec_ref(x_2);
 return x_10;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5_spec__8(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
-_start:
-{
-Obj x_16 = null; 
-x_16 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addGate___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go___at___00Std_Sat_AIG_toCNF_spec__1_spec__5_spec__8___redArg(x_6, x_7, x_8, x_11);
-return x_16;
-}
-}
 public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, byte x_7, byte x_8) {
 _start:
 {
@@ -3409,43 +3383,41 @@ x_9 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_Decl_iteToCNF___redArg(x_2, x_3
 return x_9;
 }
 }
-public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_go_match__103_splitter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0_spec__1___redArg___boxed(Obj x_1, Obj x_2) {
 _start:
 {
-switch (lean_obj_tag(x_1)) {
-case 0:
-{
-Obj x_5 = null; 
-lean_dec(x_4);
-lean_dec(x_3);
-x_5 = lean_apply_1(x_2, lean_box(0));
-return x_5;
-}
-case 1:
-{
-Obj x_6 = null; Obj x_7 = null; 
-lean_dec(x_4);
+Obj x_3 = null; 
+x_3 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0_spec__1___redArg(x_1, x_2);
 lean_dec(x_2);
-x_6 = lean_ctor_get(x_1, 0);
-lean_inc(x_6);
-lean_dec_ref(x_1);
-x_7 = lean_apply_2(x_3, x_6, lean_box(0));
-return x_7;
+return x_3;
 }
-default: 
+}
+public static Obj l_Std_Sat_AIG_toCNF_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+_start:
 {
-Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
-lean_dec(x_3);
-lean_dec(x_2);
-x_8 = lean_ctor_get(x_1, 0);
-lean_inc(x_8);
-x_9 = lean_ctor_get(x_1, 1);
-lean_inc(x_9);
-lean_dec_ref(x_1);
-x_10 = lean_apply_3(x_4, x_8, x_9, lean_box(0));
+Obj x_6 = null; 
+x_6 = l_Std_Sat_AIG_toCNF_x27(x_1, x_2, x_3, x_4, x_5);
+lean_dec_ref(x_3);
+lean_dec_ref(x_2);
+return x_6;
+}
+}
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+_start:
+{
+Obj x_10 = null; 
+x_10 = l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addFalse___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__0_spec__1___redArg(x_6, x_7);
 return x_10;
 }
 }
+public static Obj l___private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_Cache_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_State_addIte___at___00__private_Std_Sat_AIG_CNF_0__Std_Sat_AIG_toCNF_x27_go___at___00Std_Sat_AIG_toCNF_x27_spec__0_spec__4_spec__8___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+_start:
+{
+byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
+x_6 = (byte)1;
+x_7 = lean_box(x_6);
+x_8 = (lean_array_fset(x_1, x_5, x_7));
+return x_8;
 }
 }
 static bool _G_initialized;

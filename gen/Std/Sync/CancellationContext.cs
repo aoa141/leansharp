@@ -56,7 +56,7 @@ Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null
 x_8 = M_Std_Sync_CancellationToken.l_Std_CancellationToken_new();
 x_9 = (lean_st_ref_get(x_5));
 x_10 = lean_ctor_get(x_9, 0);
-x_11 = lean_ctor_get_uint64_s(x_9, 0);
+x_11 = lean_ctor_get_uint64(x_9, 8);
 x_28 = (byte)(lean_is_exclusive(x_9) ? 0 : 1);
 if (x_28 == 0)
 {
@@ -101,7 +101,7 @@ goto block_25;
 block_25:
 {
 Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; 
-lean_ctor_set_uint64_s(x_20, 0, x_19);
+lean_ctor_set_uint64(x_20, 8, x_19);
 x_21 = (lean_st_ref_swap(x_5, x_20));
 lean_dec(x_21);
 x_22 = lean_box_uint64(x_2);
@@ -111,7 +111,7 @@ x_24 = lean_alloc_ctor(0, 3, 8);
 lean_ctor_set(x_24, 0, x_3);
 lean_ctor_set(x_24, 1, x_8);
 lean_ctor_set(x_24, 2, x_23);
-lean_ctor_set_uint64_s(x_24, 0, x_11);
+lean_ctor_set_uint64(x_24, 24, x_11);
 return x_24;
 }
 }
@@ -1776,7 +1776,7 @@ else
 Obj x_12 = null; Obj x_13 = null; ulong x_14 = 0; Obj x_15 = null; byte x_16 = 0; byte x_23 = 0; 
 x_12 = lean_ctor_get(x_3, 0);
 x_13 = lean_ctor_get(x_7, 0);
-x_14 = lean_ctor_get_uint64_s(x_7, 0);
+x_14 = lean_ctor_get_uint64(x_7, 8);
 x_23 = (byte)(lean_is_exclusive(x_7) ? 0 : 1);
 if (x_23 == 0)
 {
@@ -1808,7 +1808,7 @@ else
 Obj x_21 = null; 
 x_21 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_21, 0, x_18);
-lean_ctor_set_uint64_s(x_21, 0, x_14);
+lean_ctor_set_uint64(x_21, 8, x_14);
 x_19 = x_21;
 goto block_20;
 }
@@ -2054,7 +2054,7 @@ x_3 = lean_ctor_get(x_1, 0);
 lean_inc_ref_n(x_3, 2);
 x_4 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_4);
-x_5 = lean_ctor_get_uint64_s(x_1, 0);
+x_5 = lean_ctor_get_uint64(x_1, 24);
 x_6 = lean_box_uint64(x_5);
 x_7 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj, Obj, Obj, Obj>)&l_Std_CancellationContext_fork___lam__0___boxed, 6, 4);
 lean_closure_set(x_7, 0, x_4);
@@ -2121,7 +2121,7 @@ x_12 = l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00
 lean_dec(x_9);
 x_13 = M_Std_Sync_CancellationToken.l_Std_CancellationToken_cancel(x_8, x_3);
 x_14 = lean_ctor_get(x_12, 0);
-x_15 = lean_ctor_get_uint64_s(x_12, 0);
+x_15 = lean_ctor_get_uint64(x_12, 8);
 x_23 = (byte)(lean_is_exclusive(x_12) ? 0 : 1);
 if (x_23 == 0)
 {
@@ -2152,7 +2152,7 @@ else
 Obj x_21 = null; 
 x_21 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_21, 0, x_18);
-lean_ctor_set_uint64_s(x_21, 0, x_15);
+lean_ctor_set_uint64(x_21, 8, x_15);
 x_19 = x_21;
 goto block_20;
 }
@@ -5347,7 +5347,7 @@ x_4 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_4);
 x_5 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_5);
-x_6 = lean_ctor_get_uint64_s(x_1, 0);
+x_6 = lean_ctor_get_uint64(x_1, 24);
 x_7 = lean_ctor_get(x_1, 2);
 lean_inc(x_7);
 lean_dec_ref(x_1);
@@ -5379,7 +5379,7 @@ _start:
 Obj x_3 = null; ulong x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
 x_3 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_3);
-x_4 = lean_ctor_get_uint64_s(x_1, 0);
+x_4 = lean_ctor_get_uint64(x_1, 24);
 lean_dec_ref(x_1);
 x_5 = lean_box_uint64(x_4);
 x_6 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj>)&l_Std_CancellationContext_countAliveTokens___lam__0___boxed, 3, 1);
@@ -5426,14 +5426,14 @@ x_7 = l_Std_DTreeMap_Internal_Impl_insert___at___00Std_CancellationContext_new_s
 x_8 = 1UL;
 x_9 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_9, 0, x_7);
-lean_ctor_set_uint64_s(x_9, 0, x_8);
+lean_ctor_set_uint64(x_9, 8, x_8);
 x_10 = M_Std_Sync_Mutex.l_Std_Mutex_new___redArg(x_9);
 x_11 = lean_box(0);
 x_12 = lean_alloc_ctor(0, 3, 8);
 lean_ctor_set(x_12, 0, x_10);
 lean_ctor_set(x_12, 1, x_2);
 lean_ctor_set(x_12, 2, x_11);
-lean_ctor_set_uint64_s(x_12, 0, x_4);
+lean_ctor_set_uint64(x_12, 24, x_4);
 return x_12;
 }
 }

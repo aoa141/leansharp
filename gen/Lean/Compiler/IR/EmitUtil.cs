@@ -1933,7 +1933,7 @@ if (x_9 == 0)
 Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; 
 x_10 = (lean_array_uget_borrowed(x_2, x_3));
 x_11 = lean_ctor_get(x_10, 0);
-x_12 = lean_ctor_get_uint8_s(x_10, 0);
+x_12 = lean_ctor_get_uint8(x_10, 8);
 x_13 = (byte)1;
 x_14 = M_Lean_Setup.l_Lean_instBEqIRPhases_beq(x_12, x_13);
 if (x_14 == 0)

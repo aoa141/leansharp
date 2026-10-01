@@ -264,8 +264,8 @@ lean_ctor_set(x_8, 15, x_2);
 lean_ctor_set(x_8, 16, x_6);
 lean_ctor_set(x_8, 17, x_1);
 lean_ctor_set(x_8, 18, x_6);
-lean_ctor_set_uint8_s(x_8, 0, x_3);
-lean_ctor_set_uint8_s(x_8, 1, x_3);
+lean_ctor_set_uint8(x_8, 152, x_3);
+lean_ctor_set_uint8(x_8, 153, x_3);
 return x_8;
 }
 }
@@ -470,7 +470,7 @@ case 2:
 Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
 x_6 = lean_ctor_get(x_1, 0);
 lean_inc_ref(x_6);
-x_7 = lean_ctor_get_uint8_s(x_1, 0);
+x_7 = lean_ctor_get_uint8(x_1, 32);
 x_8 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_8);
 x_9 = lean_ctor_get(x_1, 2);
@@ -1689,7 +1689,7 @@ x_4 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_4, 0, x_2);
 lean_ctor_set(x_4, 1, x_2);
 lean_ctor_set(x_4, 2, x_1);
-lean_ctor_set_uint8_s(x_4, 0, x_3);
+lean_ctor_set_uint8(x_4, 24, x_3);
 return x_4;
 }
 }

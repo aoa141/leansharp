@@ -72,10 +72,10 @@ public static byte l_Lean_Elab_Command_instBEqAssertExists_beq(Obj x_1, Obj x_2)
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 16);
 x_4 = lean_ctor_get(x_1, 0);
 x_5 = lean_ctor_get(x_1, 1);
-x_6 = lean_ctor_get_uint8_s(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 16);
 x_7 = lean_ctor_get(x_2, 0);
 x_8 = lean_ctor_get(x_2, 1);
 if (x_6 == 0)
@@ -824,10 +824,10 @@ return x_18;
 else
 {
 byte x_19 = 0; Obj x_20 = null; Obj x_21 = null; byte x_22 = 0; byte x_28 = 0; byte x_29 = 0; 
-x_19 = lean_ctor_get_uint8_s(x_2, 0);
+x_19 = lean_ctor_get_uint8(x_2, 16);
 x_20 = lean_ctor_get(x_2, 0);
 x_21 = (lean_array_fget_borrowed(x_3, x_5));
-x_28 = lean_ctor_get_uint8_s(x_21, 0);
+x_28 = lean_ctor_get_uint8(x_21, 16);
 x_29 = M_Init_Data_Bool.l_Bool_instDecidableLt(x_19, x_28);
 if (x_29 == 0)
 {
@@ -1689,7 +1689,7 @@ x_8 = M_Lean_Data_Name.l_Lean_Name_isAnonymous(x_2);
 if (x_8 == 0)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_7, 0);
+x_9 = lean_ctor_get_uint8(x_7, 64);
 if (x_9 == 0)
 {
 Obj x_10 = null; 
@@ -2216,7 +2216,7 @@ lean_dec_ref(x_6);
 if (lean_obj_tag(x_8) == 1)
 {
 byte x_9 = 0; 
-x_9 = lean_ctor_get_uint8_s(x_8, 0);
+x_9 = lean_ctor_get_uint8(x_8, 0);
 lean_dec_ref(x_8);
 return x_9;
 }
@@ -2323,7 +2323,7 @@ block_79:
 {
 Obj x_23 = null; byte x_24 = 0; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; byte x_28 = 0; Obj x_29 = null; Obj x_53 = null; Obj x_54 = null; byte x_55 = 0; byte x_56 = 0; Obj x_62 = null; byte x_63 = 0; Obj x_64 = null; Obj x_68 = null; byte x_69 = 0; Obj x_73 = null; 
 x_23 = (lean_array_uget_borrowed(x_4, x_6));
-x_24 = lean_ctor_get_uint8_s(x_23, 0);
+x_24 = lean_ctor_get_uint8(x_23, 16);
 x_25 = lean_ctor_get(x_23, 0);
 x_26 = lean_ctor_get(x_23, 1);
 if (x_24 == 0)
@@ -2542,11 +2542,11 @@ public static byte l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort__
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; byte x_8 = 0; byte x_13 = 0; 
-x_4 = lean_ctor_get_uint8_s(x_3, 0);
+x_4 = lean_ctor_get_uint8(x_3, 16);
 x_5 = lean_ctor_get(x_3, 0);
 lean_inc(x_5);
 lean_dec_ref(x_3);
-x_6 = lean_ctor_get_uint8_s(x_2, 0);
+x_6 = lean_ctor_get_uint8(x_2, 16);
 x_7 = lean_ctor_get(x_2, 0);
 lean_inc(x_7);
 lean_dec_ref(x_2);
@@ -4391,9 +4391,9 @@ lean_ctor_set(x_26, 1, x_14);
 lean_ctor_set(x_26, 2, x_11);
 lean_ctor_set(x_26, 3, x_12);
 lean_ctor_set(x_26, 4, x_25);
-lean_ctor_set_uint8_s(x_26, 0, x_13);
-lean_ctor_set_uint8_s(x_26, 1, x_8);
-lean_ctor_set_uint8_s(x_26, 2, x_4);
+lean_ctor_set_uint8(x_26, 40, x_13);
+lean_ctor_set_uint8(x_26, 41, x_8);
+lean_ctor_set_uint8(x_26, 42, x_4);
 x_27 = (lean_st_ref_take(x_15));
 x_28 = lean_ctor_get(x_27, 0);
 x_29 = lean_ctor_get(x_27, 1);
@@ -4588,7 +4588,7 @@ block_100:
 Obj x_78 = null; Obj x_79 = null; byte x_80 = 0; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_84 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; byte x_88 = 0; byte x_99 = 0; 
 x_78 = lean_ctor_get(x_5, 0);
 x_79 = lean_ctor_get(x_5, 1);
-x_80 = lean_ctor_get_uint8_s(x_5, 0);
+x_80 = lean_ctor_get_uint8(x_5, 80);
 x_81 = lean_box(x_80);
 x_82 = lean_box(x_73);
 x_83 = lean_alloc_closure((delegate*<Obj, Obj, Obj, Obj>)&l_Lean_logAt___at___00Lean_logInfoAt___at___00Lean_Elab_Command_elabImportPath_spec__1_spec__3___lam__0___boxed, 3, 2);
@@ -5205,7 +5205,7 @@ public static ulong l_Lean_Elab_Command_instHashableAssertExists_hash(Obj x_1) {
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; ulong x_6 = 0; ulong x_13 = 0; ulong x_14 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 16);
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = lean_ctor_get(x_1, 1);
 x_13 = 0UL;
@@ -5237,7 +5237,7 @@ return x_9;
 else
 {
 ulong x_10 = 0; ulong x_11 = 0; 
-x_10 = lean_ctor_get_uint64_s(x_4, 0);
+x_10 = lean_ctor_get_uint64(x_4, 16);
 x_11 = (ulong)(lean_uint64_mix_hash(x_7, x_10));
 return x_11;
 }
@@ -5257,7 +5257,7 @@ goto block_12;
 else
 {
 ulong x_17 = 0; 
-x_17 = lean_ctor_get_uint64_s(x_3, 0);
+x_17 = lean_ctor_get_uint64(x_3, 16);
 x_5 = x_15;
 x_6 = x_17;
 goto block_12;
@@ -5343,7 +5343,7 @@ x_25 = lean_box(0);
 x_26 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_26, 0, x_2);
 lean_ctor_set(x_26, 1, x_3);
-lean_ctor_set_uint8_s(x_26, 0, x_1);
+lean_ctor_set_uint8(x_26, 16, x_1);
 x_27 = lean_box(0);
 x_28 = M_Lean_Environment.l_Lean_PersistentEnvExtension_addEntry___redArg(x_22, x_7, x_26, x_24, x_27);
 if (x_21 == 0)
@@ -6127,7 +6127,7 @@ x_13 = lean_ctor_get(x_3, 5);
 x_14 = lean_ctor_get(x_3, 6);
 x_15 = lean_ctor_get(x_3, 8);
 x_16 = lean_ctor_get(x_3, 9);
-x_17 = lean_ctor_get_uint8_s(x_3, 0);
+x_17 = lean_ctor_get_uint8(x_3, 80);
 x_18 = M_Init_Prelude.l_Lean_replaceRef(x_1, x_7);
 lean_dec(x_7);
 lean_inc(x_16);
@@ -6150,7 +6150,7 @@ lean_ctor_set(x_19, 6, x_14);
 lean_ctor_set(x_19, 7, x_18);
 lean_ctor_set(x_19, 8, x_15);
 lean_ctor_set(x_19, 9, x_16);
-lean_ctor_set_uint8_s(x_19, 0, x_17);
+lean_ctor_set_uint8(x_19, 80, x_17);
 x_20 = l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_throwUnknownIdentifierAt___at___00Lean_throwUnknownConstantAt___at___00Lean_throwUnknownConstant___at___00Lean_getConstVal___at___00Lean_mkConstWithLevelParams___at___00Lean_Elab_Command_elabImportPath_spec__0_spec__0_spec__1_spec__3_spec__8_spec__10_spec__12___redArg(x_2, x_19, x_4);
 lean_dec_ref(x_19);
 return x_20;

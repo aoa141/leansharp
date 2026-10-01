@@ -5,6 +5,7 @@
     <RootNamespace>InterpCheck</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="../../src/LeanSharp.Runtime/**/*.cs" Exclude="../../src/LeanSharp.Runtime/bin/**;../../src/LeanSharp.Runtime/obj/**" />
     <!-- Core now depends on other areas (IO, Strings, ...): compile the whole runtime -->
     <Compile Include="../../src/LeanSharp.Runtime/**/*.cs" Exclude="../../src/LeanSharp.Runtime/bin/**;../../src/LeanSharp.Runtime/obj/**" />
     <Compile Include="*.cs" />

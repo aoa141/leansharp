@@ -650,7 +650,7 @@ return x_2;
 else
 {
 ulong x_3 = 0; 
-x_3 = lean_ctor_get_uint64_s(x_1, 0);
+x_3 = lean_ctor_get_uint64(x_1, 16);
 lean_dec(x_1);
 return x_3;
 }
@@ -1691,7 +1691,7 @@ goto block_14;
 else
 {
 ulong x_19 = 0; 
-x_19 = lean_ctor_get_uint64_s(x_1, 0);
+x_19 = lean_ctor_get_uint64(x_1, 16);
 x_11 = x_19;
 goto block_14;
 }
@@ -1743,7 +1743,7 @@ goto block_10;
 else
 {
 ulong x_13 = 0; 
-x_13 = lean_ctor_get_uint64_s(x_2, 0);
+x_13 = lean_ctor_get_uint64(x_2, 16);
 x_3 = x_11;
 x_4 = x_13;
 goto block_10;

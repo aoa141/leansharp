@@ -567,7 +567,7 @@ goto block_52;
 block_52:
 {
 ulong x_26 = 0; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_51 = 0; 
-x_26 = lean_ctor_get_uint64_s(x_14, 0);
+x_26 = lean_ctor_get_uint64(x_14, 8);
 x_27 = lean_ctor_get(x_14, 0);
 x_51 = (byte)(lean_is_exclusive(x_14) ? 0 : 1);
 if (x_51 == 0)
@@ -596,9 +596,9 @@ x_35 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_35, 0, x_1);
 lean_ctor_set(x_35, 1, x_31);
 lean_ctor_set(x_35, 2, x_34);
-lean_ctor_set_float_s(x_35, 0, x_32);
-lean_ctor_set_float_s(x_35, 8, x_32);
-lean_ctor_set_uint8_s(x_35, 16, x_33);
+lean_ctor_set_float(x_35, 24, x_32);
+lean_ctor_set_float(x_35, 32, x_32);
+lean_ctor_set_uint8(x_35, 40, x_33);
 x_36 = l_Lean_addTrace___at___00Lean_Elab_Tactic_Do_ProofMode_mSpecializeImpStateful_spec__1___redArg___closed__2;
 x_37 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_37, 0, x_35);
@@ -620,7 +620,7 @@ else
 Obj x_49 = null; 
 x_49 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_49, 0, x_39);
-lean_ctor_set_uint64_s(x_49, 0, x_26);
+lean_ctor_set_uint64(x_49, 8, x_26);
 x_40 = x_49;
 goto block_48;
 }
@@ -2142,7 +2142,7 @@ Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; byte x_69 = 0; Obj x_70 = nul
 x_66 = lean_ctor_get(x_10, 0);
 x_67 = lean_ctor_get(x_66, 2);
 x_68 = lean_ctor_get(x_66, 11);
-x_69 = lean_ctor_get_uint8_s(x_67, 0);
+x_69 = lean_ctor_get_uint8(x_67, 8);
 x_70 = l_Lean_Elab_Tactic_Do_ProofMode_mSpecializeForall___closed__1;
 lean_inc_ref(x_36);
 x_71 = M_Lean_Expr.l_Lean_mkConst(x_70, x_36);
@@ -4738,7 +4738,7 @@ Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; byte x_74 = 0; Obj x_75 = nul
 x_71 = lean_ctor_get(x_10, 0);
 x_72 = lean_ctor_get(x_71, 2);
 x_73 = lean_ctor_get(x_71, 11);
-x_74 = lean_ctor_get_uint8_s(x_72, 0);
+x_74 = lean_ctor_get_uint8(x_72, 8);
 x_75 = l_Lean_Elab_Tactic_Do_ProofMode_mSpecializeImpStateful___closed__4;
 lean_inc_ref(x_39);
 x_76 = M_Lean_Expr.l_Lean_mkConst(x_75, x_39);
@@ -6291,7 +6291,7 @@ lean_dec_ref(x_93);
 x_94 = lean_ctor_get(x_83, 0);
 x_95 = lean_ctor_get(x_94, 2);
 x_96 = lean_ctor_get(x_94, 11);
-x_97 = lean_ctor_get_uint8_s(x_95, 0);
+x_97 = lean_ctor_get_uint8(x_95, 8);
 x_98 = l_Lean_Elab_Tactic_Do_ProofMode_mSpecializeImpPure___closed__8;
 lean_inc_ref(x_47);
 x_99 = M_Lean_Expr.l_Lean_mkConst(x_98, x_47);

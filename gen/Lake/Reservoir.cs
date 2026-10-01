@@ -400,7 +400,7 @@ lean_dec(x_14);
 x_21 = (byte)3;
 x_22 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_22, 0, x_20);
-lean_ctor_set_uint8_s(x_22, 0, x_21);
+lean_ctor_set_uint8(x_22, 8, x_21);
 x_23 = (lean_array_get_size(x_10));
 x_24 = (lean_array_push(x_10, x_22));
 x_25 = l_Lake_Reservoir_fetchPkg_x3f___closed__1;
@@ -419,7 +419,7 @@ lean_dec_ref(x_31);
 x_33 = (byte)0;
 x_34 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_34, 0, x_32);
-lean_ctor_set_uint8_s(x_34, 0, x_33);
+lean_ctor_set_uint8(x_34, 8, x_33);
 x_35 = (lean_array_push(x_24, x_34));
 if (x_12 == 0)
 {
@@ -467,7 +467,7 @@ lean_dec(x_41);
 x_48 = (byte)3;
 x_49 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_49, 0, x_47);
-lean_ctor_set_uint8_s(x_49, 0, x_48);
+lean_ctor_set_uint8(x_49, 8, x_48);
 x_50 = (lean_array_get_size(x_10));
 x_51 = (lean_array_push(x_10, x_49));
 x_52 = l_Lake_Reservoir_fetchPkg_x3f___closed__1;
@@ -486,7 +486,7 @@ lean_dec_ref(x_58);
 x_60 = (byte)0;
 x_61 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_61, 0, x_59);
-lean_ctor_set_uint8_s(x_61, 0, x_60);
+lean_ctor_set_uint8(x_61, 8, x_60);
 x_62 = (lean_array_push(x_51, x_61));
 if (x_12 == 0)
 {
@@ -567,7 +567,7 @@ lean_dec_ref(x_72);
 x_83 = (byte)3;
 x_84 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_84, 0, x_82);
-lean_ctor_set_uint8_s(x_84, 0, x_83);
+lean_ctor_set_uint8(x_84, 8, x_83);
 x_85 = (lean_array_get_size(x_10));
 x_86 = (lean_array_push(x_10, x_84));
 if (x_12 == 0)
@@ -628,7 +628,7 @@ x_100 = (lean_string_append(x_98, x_99));
 x_101 = (byte)3;
 x_102 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_102, 0, x_100);
-lean_ctor_set_uint8_s(x_102, 0, x_101);
+lean_ctor_set_uint8(x_102, 8, x_101);
 x_103 = (lean_array_push(x_93, x_102));
 if (x_95 == 0)
 {
@@ -2781,7 +2781,7 @@ lean_dec(x_14);
 x_21 = (byte)3;
 x_22 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_22, 0, x_20);
-lean_ctor_set_uint8_s(x_22, 0, x_21);
+lean_ctor_set_uint8(x_22, 8, x_21);
 x_23 = (lean_array_get_size(x_10));
 x_24 = (lean_array_push(x_10, x_22));
 x_25 = l_Lake_Reservoir_fetchPkg_x3f___closed__1;
@@ -2800,7 +2800,7 @@ lean_dec_ref(x_31);
 x_33 = (byte)0;
 x_34 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_34, 0, x_32);
-lean_ctor_set_uint8_s(x_34, 0, x_33);
+lean_ctor_set_uint8(x_34, 8, x_33);
 x_35 = (lean_array_push(x_24, x_34));
 if (x_12 == 0)
 {
@@ -2848,7 +2848,7 @@ lean_dec(x_41);
 x_48 = (byte)3;
 x_49 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_49, 0, x_47);
-lean_ctor_set_uint8_s(x_49, 0, x_48);
+lean_ctor_set_uint8(x_49, 8, x_48);
 x_50 = (lean_array_get_size(x_10));
 x_51 = (lean_array_push(x_10, x_49));
 x_52 = l_Lake_Reservoir_fetchPkg_x3f___closed__1;
@@ -2867,7 +2867,7 @@ lean_dec_ref(x_58);
 x_60 = (byte)0;
 x_61 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_61, 0, x_59);
-lean_ctor_set_uint8_s(x_61, 0, x_60);
+lean_ctor_set_uint8(x_61, 8, x_60);
 x_62 = (lean_array_push(x_51, x_61));
 if (x_12 == 0)
 {
@@ -2984,7 +2984,7 @@ lean_dec_ref(x_79);
 x_88 = (byte)3;
 x_89 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_89, 0, x_87);
-lean_ctor_set_uint8_s(x_89, 0, x_88);
+lean_ctor_set_uint8(x_89, 8, x_88);
 x_90 = (lean_array_get_size(x_10));
 x_91 = (lean_array_push(x_10, x_89));
 if (x_12 == 0)
@@ -3072,7 +3072,7 @@ x_109 = (lean_string_append(x_107, x_108));
 x_110 = (byte)3;
 x_111 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_111, 0, x_109);
-lean_ctor_set_uint8_s(x_111, 0, x_110);
+lean_ctor_set_uint8(x_111, 8, x_110);
 x_112 = (lean_array_push(x_102, x_111));
 if (x_104 == 0)
 {

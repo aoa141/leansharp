@@ -145,7 +145,7 @@ Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; byte x_44 = 0; Obj x_45 = nul
 x_41 = (lean_array_fget_borrowed(x_2, x_3));
 x_42 = lean_ctor_get(x_41, 0);
 x_43 = lean_ctor_get(x_41, 1);
-x_44 = lean_ctor_get_uint8_s(x_41, 0);
+x_44 = lean_ctor_get_uint8(x_41, 16);
 if (lean_obj_tag(x_42) == 1)
 {
 if (x_44 == 0)
@@ -579,7 +579,7 @@ goto block_31;
 block_31:
 {
 Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; 
-lean_ctor_set_uint8_s(x_26, 0, x_11);
+lean_ctor_set_uint8(x_26, 16, x_11);
 x_27 = (lean_array_fset(x_3, x_4, x_26));
 x_28 = lean_unsigned_to_nat(1u);
 x_29 = (lean_nat_add(x_4, x_28));
@@ -1182,7 +1182,7 @@ x_18 = (byte)0;
 x_19 = lean_alloc_ctor(0, 2, 1);
 lean_ctor_set(x_19, 0, x_11);
 lean_ctor_set(x_19, 1, x_17);
-lean_ctor_set_uint8_s(x_19, 0, x_18);
+lean_ctor_set_uint8(x_19, 16, x_18);
 x_20 = 1UL;
 x_21 = (ulong)(lean_usize_add(x_2, x_20));
 x_22 = (lean_array_uset(x_13, x_2, x_19));

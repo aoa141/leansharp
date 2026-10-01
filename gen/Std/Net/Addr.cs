@@ -415,7 +415,7 @@ if (lean_obj_tag(x_1) == 0)
 Obj x_2 = null; Obj x_3 = null; ushort x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
 x_2 = lean_ctor_get(x_1, 0);
 x_3 = lean_ctor_get(x_2, 0);
-x_4 = lean_ctor_get_uint16_s(x_2, 0);
+x_4 = lean_ctor_get_uint16(x_2, 8);
 x_5 = (lean_uv_ntop_v4(x_3));
 x_6 = l_Std_Net_SocketAddressV4_instToString___lam__0___closed__0;
 x_7 = (lean_string_append(x_5, x_6));
@@ -430,7 +430,7 @@ else
 Obj x_11 = null; Obj x_12 = null; ushort x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
 x_11 = lean_ctor_get(x_1, 0);
 x_12 = lean_ctor_get(x_11, 0);
-x_13 = lean_ctor_get_uint16_s(x_11, 0);
+x_13 = lean_ctor_get_uint16(x_11, 8);
 x_14 = l_Std_Net_SocketAddressV6_instToString___lam__0___closed__0;
 x_15 = (lean_uv_ntop_v6(x_12));
 x_16 = (lean_string_append(x_14, x_15));
@@ -451,12 +451,12 @@ _start:
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_17 = 0; 
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = lean_ctor_get(x_1, 1);
-x_5 = lean_ctor_get_uint8_s(x_1, 0);
+x_5 = lean_ctor_get_uint8(x_1, 32);
 x_6 = lean_ctor_get(x_1, 2);
 x_7 = lean_ctor_get(x_1, 3);
 x_8 = lean_ctor_get(x_2, 0);
 x_9 = lean_ctor_get(x_2, 1);
-x_10 = lean_ctor_get_uint8_s(x_2, 0);
+x_10 = lean_ctor_get_uint8(x_2, 32);
 x_11 = lean_ctor_get(x_2, 2);
 x_12 = lean_ctor_get(x_2, 3);
 x_17 = lean_u8(lean_string_dec_eq(x_3, x_8));
@@ -693,7 +693,7 @@ x_1 = (ushort)0;
 x_2 = l_Std_Net_instInhabitedIPv6Addr_default;
 x_3 = lean_alloc_ctor(0, 1, 2);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint16_s(x_3, 0, x_1);
+lean_ctor_set_uint16(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -865,7 +865,7 @@ lean_ctor_set(x_5, 0, x_4);
 lean_ctor_set(x_5, 1, x_3);
 lean_ctor_set(x_5, 2, x_1);
 lean_ctor_set(x_5, 3, x_1);
-lean_ctor_set_uint8_s(x_5, 0, x_2);
+lean_ctor_set_uint8(x_5, 32, x_2);
 return x_5;
 }
 }
@@ -917,9 +917,9 @@ _start:
 {
 Obj x_3 = null; ushort x_4 = 0; Obj x_5 = null; ushort x_6 = 0; byte x_7 = 0; 
 x_3 = lean_ctor_get(x_1, 0);
-x_4 = lean_ctor_get_uint16_s(x_1, 0);
+x_4 = lean_ctor_get_uint16(x_1, 8);
 x_5 = lean_ctor_get(x_2, 0);
-x_6 = lean_ctor_get_uint16_s(x_2, 0);
+x_6 = lean_ctor_get_uint16(x_2, 8);
 x_7 = l_Std_Net_instDecidableEqIPv4Addr_decEq(x_3, x_5);
 if (x_7 == 0)
 {
@@ -960,7 +960,7 @@ x_1 = (ushort)0;
 x_2 = l_Std_Net_instInhabitedIPv4Addr_default;
 x_3 = lean_alloc_ctor(0, 1, 2);
 lean_ctor_set(x_3, 0, x_2);
-lean_ctor_set_uint16_s(x_3, 0, x_1);
+lean_ctor_set_uint16(x_3, 8, x_1);
 return x_3;
 }
 }
@@ -1508,9 +1508,9 @@ _start:
 {
 Obj x_3 = null; ushort x_4 = 0; Obj x_5 = null; ushort x_6 = 0; byte x_7 = 0; 
 x_3 = lean_ctor_get(x_1, 0);
-x_4 = lean_ctor_get_uint16_s(x_1, 0);
+x_4 = lean_ctor_get_uint16(x_1, 8);
 x_5 = lean_ctor_get(x_2, 0);
-x_6 = lean_ctor_get_uint16_s(x_2, 0);
+x_6 = lean_ctor_get_uint16(x_2, 8);
 x_7 = l_Std_Net_instDecidableEqIPv6Addr_decEq(x_3, x_5);
 if (x_7 == 0)
 {
@@ -1633,7 +1633,7 @@ _start:
 {
 Obj x_2 = null; ushort x_3 = 0; 
 x_2 = lean_ctor_get(x_1, 0);
-x_3 = lean_ctor_get_uint16_s(x_2, 0);
+x_3 = lean_ctor_get_uint16(x_2, 8);
 return x_3;
 }
 }
@@ -1660,7 +1660,7 @@ _start:
 {
 Obj x_2 = null; ushort x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
 x_2 = lean_ctor_get(x_1, 0);
-x_3 = lean_ctor_get_uint16_s(x_1, 0);
+x_3 = lean_ctor_get_uint16(x_1, 8);
 x_4 = (lean_uv_ntop_v4(x_2));
 x_5 = l_Std_Net_SocketAddressV4_instToString___lam__0___closed__0;
 x_6 = (lean_string_append(x_4, x_5));
@@ -1748,7 +1748,7 @@ _start:
 {
 Obj x_2 = null; ushort x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
 x_2 = lean_ctor_get(x_1, 0);
-x_3 = lean_ctor_get_uint16_s(x_1, 0);
+x_3 = lean_ctor_get_uint16(x_1, 8);
 x_4 = l_Std_Net_SocketAddressV6_instToString___lam__0___closed__0;
 x_5 = (lean_uv_ntop_v6(x_2));
 x_6 = (lean_string_append(x_4, x_5));

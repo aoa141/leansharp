@@ -12,7 +12,7 @@ _start:
 Obj x_3 = null; ulong x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_22 = 0; 
 x_3 = lean_ctor_get(x_1, 0);
 lean_inc(x_3);
-x_4 = lean_ctor_get_uint64_s(x_1, 0);
+x_4 = lean_ctor_get_uint64(x_1, 16);
 x_5 = lean_ctor_get(x_1, 1);
 lean_inc_ref(x_5);
 lean_dec_ref(x_1);
@@ -525,7 +525,7 @@ lean_ctor_set(x_38, 0, x_24);
 lean_ctor_set(x_38, 1, x_37);
 x_39 = (ulong)lean_unbox_uint64(x_34);
 lean_dec(x_34);
-lean_ctor_set_uint64_s(x_38, 0, x_39);
+lean_ctor_set_uint64(x_38, 16, x_39);
 if (x_36 == 0)
 {
 lean_ctor_set(x_35, 0, x_38);

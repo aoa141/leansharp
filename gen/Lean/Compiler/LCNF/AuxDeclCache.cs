@@ -1108,7 +1108,7 @@ _start:
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_68 = 0; 
 x_6 = lean_ctor_get(x_2, 0);
 x_7 = lean_ctor_get(x_2, 1);
-x_8 = lean_ctor_get_uint8_s(x_2, 0);
+x_8 = lean_ctor_get_uint8(x_2, 24);
 x_9 = lean_ctor_get(x_2, 2);
 x_68 = (byte)(lean_is_exclusive(x_2) ? 0 : 1);
 if (x_68 == 0)
@@ -1134,7 +1134,7 @@ x_12 = lean_ctor_get(x_6, 0);
 x_13 = lean_ctor_get(x_6, 1);
 x_14 = lean_ctor_get(x_6, 2);
 x_15 = lean_ctor_get(x_6, 3);
-x_16 = lean_ctor_get_uint8_s(x_6, 0);
+x_16 = lean_ctor_get_uint8(x_6, 32);
 x_66 = (byte)(lean_is_exclusive(x_6) ? 0 : 1);
 if (x_66 == 0)
 {
@@ -1171,7 +1171,7 @@ lean_ctor_set(x_64, 0, x_19);
 lean_ctor_set(x_64, 1, x_13);
 lean_ctor_set(x_64, 2, x_14);
 lean_ctor_set(x_64, 3, x_15);
-lean_ctor_set_uint8_s(x_64, 0, x_16);
+lean_ctor_set_uint8(x_64, 32, x_16);
 x_20 = x_64;
 goto block_63;
 }
@@ -1191,7 +1191,7 @@ x_62 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_62, 0, x_20);
 lean_ctor_set(x_62, 1, x_7);
 lean_ctor_set(x_62, 2, x_9);
-lean_ctor_set_uint8_s(x_62, 0, x_8);
+lean_ctor_set_uint8(x_62, 24, x_8);
 x_21 = x_62;
 goto block_61;
 }
@@ -1207,7 +1207,7 @@ lean_inc(x_23);
 lean_dec_ref(x_22);
 x_24 = lean_alloc_ctor(0, 1, 1);
 lean_ctor_set(x_24, 0, x_23);
-lean_ctor_set_uint8_s(x_24, 0, x_1);
+lean_ctor_set_uint8(x_24, 8, x_1);
 x_25 = l_Lean_Compiler_LCNF_auxDeclCacheExt;
 x_26 = l_Lean_Compiler_LCNF_CacheExtension_find_x3f___at___00Lean_Compiler_LCNF_cacheAuxDecl_spec__0___redArg(x_25, x_24, x_4);
 x_27 = lean_ctor_get(x_26, 0);
@@ -1480,7 +1480,7 @@ public static ulong l_Lean_Compiler_LCNF_instHashableAuxDeclCacheKey_hash(Obj x_
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; 
-x_2 = lean_ctor_get_uint8_s(x_1, 0);
+x_2 = lean_ctor_get_uint8(x_1, 8);
 x_3 = lean_ctor_get(x_1, 0);
 x_4 = 0UL;
 x_5 = M_Lean_Compiler_LCNF_Basic.l_Lean_Compiler_LCNF_instHashablePurity_hash(x_2);
@@ -1494,9 +1494,9 @@ public static byte l_Lean_Compiler_LCNF_instBEqAuxDeclCacheKey_beq(Obj x_1, Obj 
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
-x_3 = lean_ctor_get_uint8_s(x_1, 0);
+x_3 = lean_ctor_get_uint8(x_1, 8);
 x_4 = lean_ctor_get(x_1, 0);
-x_5 = lean_ctor_get_uint8_s(x_2, 0);
+x_5 = lean_ctor_get_uint8(x_2, 8);
 x_6 = lean_ctor_get(x_2, 0);
 x_7 = M_Lean_Compiler_LCNF_Basic.l_Lean_Compiler_LCNF_Purity_ctorIdx(x_3);
 x_8 = M_Lean_Compiler_LCNF_Basic.l_Lean_Compiler_LCNF_Purity_ctorIdx(x_5);

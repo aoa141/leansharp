@@ -461,6 +461,13 @@ internal sealed unsafe class TaskManager
         finally { UnlockIfHeld(); }
     }
 
+    /// <summary>Lets the workers exit once the queue is empty, without waiting for them.</summary>
+    public void BeginShutdown()
+    {
+        lock (m_mutex) m_shutting_down = true;
+        m_queue_cv.NotifyAll();
+    }
+
     /// <summary>`~task_manager`: waits for all queued tasks and dedicated workers.</summary>
     public void Shutdown()
     {
@@ -678,22 +685,39 @@ public static class LeanTaskManager
 
     [ThreadStatic] internal static TaskObj t_current_task;
 
-    static readonly object s_initLock = new();
-    static volatile TaskManager s_tm;
-    /// <summary>Tasks are run synchronously when spawned (C: no task manager; `-j0` or after finalization).</summary>
-    static volatile bool s_syncSpawn;
-    static int s_configuredWorkers;
+    /// <summary>
+    /// The task manager of one logical process. Natively every program has its own pool of
+    /// worker threads; a shared pool deadlocks as soon as all workers of a parent (Lake waiting
+    /// for the output of its `lean` children) are blocked while the children need workers.
+    /// </summary>
+    internal sealed class ProcessState
+    {
+        public readonly object initLock = new();
+        public volatile TaskManager tm;
+        /// <summary>Tasks are run synchronously when spawned (C: no task manager; `-j0` or after finalization).</summary>
+        public volatile bool syncSpawn;
+        public int configuredWorkers;
+
+        /// <summary>The program has ended: let the worker threads exit once the queue is empty.</summary>
+        public void EndProgram()
+        {
+            lock (initLock) syncSpawn = true;
+            tm?.BeginShutdown();
+        }
+    }
+
+    static ProcessState S => LeanContext.Proc.Tasks;
 
     /// <summary>The task currently executed by this thread (null on non-task threads).</summary>
     public static TaskObj CurrentTask => t_current_task;
 
-    public static bool IsInitialized => s_tm != null && !s_tm.shutting_down();
+    public static bool IsInitialized => S.tm != null && !S.tm.shutting_down();
 
     /// <summary>Maximum number of standard worker threads currently allowed (grows while workers are blocked in `Task.get`).</summary>
-    public static int MaxWorkers => s_tm?.MaxStdWorkers ?? 0;
+    public static int MaxWorkers => S.tm?.MaxStdWorkers ?? 0;
 
     /// <summary>Number of standard worker threads that have been created.</summary>
-    public static int NumWorkerThreads => s_tm?.NumStdWorkers ?? 0;
+    public static int NumWorkerThreads => S.tm?.NumStdWorkers ?? 0;
 
     /// <summary>The exit code requested by a task of the current logical process, if any.</summary>
     public static int? PendingExitCode
@@ -732,65 +756,65 @@ public static class LeanTaskManager
     /// <summary>The manager used to spawn tasks, or null if tasks must run synchronously.</summary>
     internal static TaskManager SpawnManager()
     {
-        if (s_syncSpawn) return null;
-        return s_tm ?? CreateLazily();
+        if (S.syncSpawn) return null;
+        return S.tm ?? CreateLazily();
     }
 
     /// <summary>The manager (created lazily if needed); used for promises and dependencies.</summary>
-    internal static TaskManager Manager() => s_tm ?? CreateLazily();
+    internal static TaskManager Manager() => S.tm ?? CreateLazily();
 
     /// <summary>The manager if it exists.</summary>
-    internal static TaskManager Existing => s_tm;
+    internal static TaskManager Existing => S.tm;
 
     static TaskManager CreateLazily()
     {
-        lock (s_initLock)
+        lock (S.initLock)
         {
             InstallHooks();
-            if (s_tm == null)
+            if (S.tm == null)
             {
                 int n = DefaultNumThreads();
-                s_configuredWorkers = Math.Max(1, n);
-                s_tm = new TaskManager(s_configuredWorkers);
+                S.configuredWorkers = Math.Max(1, n);
+                S.tm = new TaskManager(S.configuredWorkers);
             }
-            return s_tm;
+            return S.tm;
         }
     }
 
     internal static void Init(int num_workers)
     {
         TaskManager old = null;
-        lock (s_initLock)
+        lock (S.initLock)
         {
             InstallHooks();
             if (num_workers <= 0)
             {
                 // C: no task manager, tasks are executed synchronously.
-                s_syncSpawn = true;
+                S.syncSpawn = true;
                 return;
             }
-            s_syncSpawn = false;
-            if (s_tm != null && !s_tm.shutting_down())
+            S.syncSpawn = false;
+            if (S.tm != null && !S.tm.shutting_down())
             {
                 // Already created lazily: adjust the number of workers.
-                s_tm.AdjustMaxStdWorkers(num_workers - s_configuredWorkers);
-                s_configuredWorkers = num_workers;
+                S.tm.AdjustMaxStdWorkers(num_workers - S.configuredWorkers);
+                S.configuredWorkers = num_workers;
                 return;
             }
-            s_configuredWorkers = num_workers;
-            s_tm = new TaskManager(num_workers);
+            S.configuredWorkers = num_workers;
+            S.tm = new TaskManager(num_workers);
         }
     }
 
     internal static void FinalizeManager()
     {
         TaskManager tm;
-        lock (s_initLock)
+        lock (S.initLock)
         {
-            tm = s_tm;
+            tm = S.tm;
             // C sets `g_task_manager = nullptr`: later spawns run synchronously. We keep the
             // (shut down) manager for operations on existing tasks and promises.
-            s_syncSpawn = true;
+            S.syncSpawn = true;
         }
         tm?.Shutdown();
     }
@@ -817,7 +841,7 @@ public static class LeanTaskManager
     {
         LeanContext.Proc.RequestExit(code);
         ExitHandler?.Invoke(code);
-        s_tm?.WakeAllWaiters();
+        S.tm?.WakeAllWaiters();
     }
 
     static readonly ConditionalWeakTable<Exception, object> s_reported = new();
@@ -828,8 +852,17 @@ public static class LeanTaskManager
         {
             RequestExit(ex.ExitCode);
         }
+        else if (e is LeanPanicException)
+        {
+            // `lean_internal_panic` has printed the message; natively the process exits with 1
+            RequestExit(1);
+        }
         else if (ReportTaskExceptions)
         {
+            // Natively an exception escaping a task (e.g. an interpreter error outside of
+            // `evalConst`) terminates the process. Without this, a thread waiting for a promise
+            // the failed task was going to resolve would wait forever.
+            RequestExit(1);
             bool first;
             lock (s_reported) first = s_reported.TryAdd(e, null);
             if (first)

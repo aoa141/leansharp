@@ -2805,7 +2805,7 @@ block_38:
 Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_37 = 0; 
 x_9 = lean_ctor_get(x_1, 0);
 x_10 = lean_ctor_get(x_1, 1);
-x_11 = lean_ctor_get_uint8_s(x_1, 0);
+x_11 = lean_ctor_get_uint8(x_1, 24);
 x_12 = lean_ctor_get(x_1, 2);
 x_37 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_37 == 0)
@@ -2865,7 +2865,7 @@ x_25 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_25, 0, x_9);
 lean_ctor_set(x_25, 1, x_17);
 lean_ctor_set(x_25, 2, x_12);
-lean_ctor_set_uint8_s(x_25, 0, x_11);
+lean_ctor_set_uint8(x_25, 24, x_11);
 x_20 = x_25;
 goto block_24;
 }
@@ -3157,7 +3157,7 @@ block_69:
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_41 = null; Obj x_42 = null; byte x_43 = 0; 
 x_41 = lean_ctor_get(x_4, 0);
 x_42 = lean_ctor_get(x_41, 2);
-x_43 = lean_ctor_get_uint8_s(x_42, 0);
+x_43 = lean_ctor_get_uint8(x_42, 8);
 if (x_43 == 0)
 {
 x_11 = x_2;
@@ -8262,7 +8262,7 @@ goto block_64;
 block_64:
 {
 ulong x_38 = 0; Obj x_39 = null; Obj x_40 = null; byte x_41 = 0; byte x_63 = 0; 
-x_38 = lean_ctor_get_uint64_s(x_26, 0);
+x_38 = lean_ctor_get_uint64(x_26, 8);
 x_39 = lean_ctor_get(x_26, 0);
 x_63 = (byte)(lean_is_exclusive(x_26) ? 0 : 1);
 if (x_63 == 0)
@@ -8291,9 +8291,9 @@ x_47 = lean_alloc_ctor(0, 3, 17);
 lean_ctor_set(x_47, 0, x_1);
 lean_ctor_set(x_47, 1, x_43);
 lean_ctor_set(x_47, 2, x_46);
-lean_ctor_set_float_s(x_47, 0, x_44);
-lean_ctor_set_float_s(x_47, 8, x_44);
-lean_ctor_set_uint8_s(x_47, 16, x_45);
+lean_ctor_set_float(x_47, 24, x_44);
+lean_ctor_set_float(x_47, 32, x_44);
+lean_ctor_set_uint8(x_47, 40, x_45);
 x_48 = l_Lean_addTrace___at___00Lean_Compiler_LCNF_Decl_findJoinPoints_x3f_spec__0___closed__5;
 x_49 = lean_alloc_ctor(9, 3, 0);
 lean_ctor_set(x_49, 0, x_47);
@@ -8315,7 +8315,7 @@ else
 Obj x_61 = null; 
 x_61 = lean_alloc_ctor(0, 1, 8);
 lean_ctor_set(x_61, 0, x_51);
-lean_ctor_set_uint64_s(x_61, 0, x_38);
+lean_ctor_set_uint64(x_61, 8, x_38);
 x_52 = x_61;
 goto block_60;
 }
@@ -9652,7 +9652,7 @@ Obj x_190 = null; Obj x_191 = null; byte x_192 = 0; Obj x_193 = null; Obj x_194 
 x_190 = lean_ctor_get(x_3, 0);
 x_191 = lean_ctor_get(x_3, 1);
 lean_inc_ref(x_191);
-x_192 = lean_ctor_get_uint8_s(x_3, 0);
+x_192 = lean_ctor_get_uint8(x_3, 24);
 x_193 = lean_ctor_get(x_3, 2);
 lean_inc_ref(x_2);
 lean_inc(x_10);
@@ -10313,7 +10313,7 @@ _start:
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_50 = 0; 
 x_7 = lean_ctor_get(x_1, 0);
 x_8 = lean_ctor_get(x_1, 1);
-x_9 = lean_ctor_get_uint8_s(x_1, 0);
+x_9 = lean_ctor_get_uint8(x_1, 24);
 x_10 = lean_ctor_get(x_1, 2);
 x_50 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_50 == 0)
@@ -10388,7 +10388,7 @@ x_30 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_30, 0, x_7);
 lean_ctor_set(x_30, 1, x_22);
 lean_ctor_set(x_30, 2, x_10);
-lean_ctor_set_uint8_s(x_30, 0, x_9);
+lean_ctor_set_uint8(x_30, 24, x_9);
 x_25 = x_30;
 goto block_29;
 }
@@ -13647,7 +13647,7 @@ _start:
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_36 = 0; 
 x_7 = lean_ctor_get(x_1, 0);
 x_8 = lean_ctor_get(x_1, 1);
-x_9 = lean_ctor_get_uint8_s(x_1, 0);
+x_9 = lean_ctor_get_uint8(x_1, 24);
 x_10 = lean_ctor_get(x_1, 2);
 x_36 = (byte)(lean_is_exclusive(x_1) ? 0 : 1);
 if (x_36 == 0)
@@ -13701,7 +13701,7 @@ x_26 = lean_alloc_ctor(0, 3, 1);
 lean_ctor_set(x_26, 0, x_7);
 lean_ctor_set(x_26, 1, x_20);
 lean_ctor_set(x_26, 2, x_10);
-lean_ctor_set_uint8_s(x_26, 0, x_9);
+lean_ctor_set_uint8(x_26, 24, x_9);
 x_23 = x_26;
 goto block_25;
 }
@@ -16368,7 +16368,7 @@ Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; byte x_68 = 0; Obj x_69 = nul
 x_65 = lean_ctor_get(x_2, 0);
 x_66 = lean_ctor_get(x_2, 1);
 x_67 = lean_ctor_get(x_2, 2);
-x_68 = lean_ctor_get_uint8_s(x_2, 8);
+x_68 = lean_ctor_get_uint8(x_2, 32);
 lean_inc_ref(x_66);
 lean_inc_ref(x_1);
 x_69 = l_Lean_Compiler_LCNF_Expr_mapFVarM___at___00Lean_Compiler_LCNF_Arg_mapFVarM___at___00__private_Lean_Compiler_LCNF_JoinPoints_0__Lean_Compiler_LCNF_JoinPointContextExtender_extend_go_spec__3_spec__4(x_1, x_66, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
@@ -16538,7 +16538,7 @@ Obj x_99 = null; Obj x_100 = null; Obj x_101 = null; byte x_102 = 0; Obj x_103 =
 x_99 = lean_ctor_get(x_2, 0);
 x_100 = lean_ctor_get(x_2, 1);
 x_101 = lean_ctor_get(x_2, 2);
-x_102 = lean_ctor_get_uint8_s(x_2, 8);
+x_102 = lean_ctor_get_uint8(x_2, 32);
 lean_inc_ref(x_100);
 lean_inc_ref(x_1);
 x_103 = l_Lean_Compiler_LCNF_Expr_mapFVarM___at___00Lean_Compiler_LCNF_Arg_mapFVarM___at___00__private_Lean_Compiler_LCNF_JoinPoints_0__Lean_Compiler_LCNF_JoinPointContextExtender_extend_go_spec__3_spec__4(x_1, x_100, x_3, x_4, x_5, x_6, x_7, x_8, x_9);

@@ -1132,7 +1132,7 @@ Obj x_20 = null; Obj x_21 = null; Obj x_22 = null;
 x_20 = l_Lean_Elab_Tactic_evalSymm___closed__9;
 x_21 = lean_alloc_ctor(1, 1, 1);
 lean_ctor_set(x_21, 0, x_20);
-lean_ctor_set_uint8_s(x_21, 0, x_12);
+lean_ctor_set_uint8(x_21, 8, x_12);
 x_22 = M_Lean_Elab_Tactic_Location.l_Lean_Elab_Tactic_withLocation(x_21, x_16, x_14, x_15, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9);
 lean_dec_ref(x_21);
 return x_22;
