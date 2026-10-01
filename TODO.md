@@ -27,8 +27,7 @@ the standard library **built by LeanSharp itself** (`artifacts/selfhost`). Comma
 API tests (`dotnet test tests/LeanSharp.Tests`): 9 / 9. Runtime check programs
 (`tools/run-checks.sh`): 9 / 9.
 
-The `lake` figure combines a full run (82 / 94) with a rerun of the two tests fixed afterwards
-(`tests/lean`, `tests/precompileModules-importLake`). The 10 `lake` failures, by cause:
+The 10 `lake` failures, by cause:
 
 - Need the Rust tool `leantar` (Lake's artifact cache format): `tests/cache`,
   `tests/cacheTransfer`, `tests/ltar`, `tests/ltarStable`. Would need a managed port of
@@ -192,12 +191,9 @@ most Lake/package tests on Linux.
 
 ### What was verified in the Linux session (2026-10-01)
 
-* All numbers in section 1. `elab` (27 min with 3 workers), `elab_fail`, `elab_bench`, `compile`,
-  `compile_bench`, `docparse`, `server`, `server_interactive`, `misc`, `misc_dir`, `pkg` and
-  `lake` were all rerun after the emitter fix and the per-program state changes; the last few
-  runtime changes (plugin stubs, lazy `builtin_initialize`, `--run` argument handling, fatal task
-  exceptions) were followed by a rerun of `compile`, `server`, `misc`, `misc_dir`, `pkg`, the
-  affected `lake` tests and an `elab` subset only.
+* All numbers in section 1 come from one build (commit `26055fb`): every pile was rerun on it
+  after the plugin and initializer changes. The script-driven piles run without elan on `PATH`,
+  so no native Lean tool can take part.
 * A from-scratch `build-stdlib` (7 min 42 s, 12 GB peak) gives the same 15,352 files byte for
   byte as an earlier one made before the emitter fix.
 * The self-built standard library: for sampled modules of every library the native `lean` of the
