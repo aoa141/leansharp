@@ -2,7 +2,7 @@
 // runtime/object.cpp ("ByteArray & FloatArray") and runtime/byteslice.cpp.
 //
 // Note: the `lean_float_array_*` externs (FloatArray.push/set/get/...) are assigned to the
-// numbers area (Docs/externs-numbers.txt) and are not defined here.
+// numbers area (docs/externs-numbers.txt) and are not defined here.
 
 using System.Runtime.CompilerServices;
 

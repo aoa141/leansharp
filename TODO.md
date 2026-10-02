@@ -1,7 +1,7 @@
 # LeanSharp TODO
 
-State as of 2026-10-01 (Linux/WSL session). See [Docs/RUNNING.md](Docs/RUNNING.md) for how to
-build and run, and [Docs/DESIGN.md](Docs/DESIGN.md) for the architecture.
+State as of 2026-10-01 (Linux/WSL session). See [docs/RUNNING.md](docs/RUNNING.md) for how to
+build and run, and [docs/DESIGN.md](docs/DESIGN.md) for the architecture.
 
 ## 1. Test status
 
@@ -57,7 +57,7 @@ No test that is run fails.
 - [ ] Decide how to version `gen/` (440 MB of generated C#): commit as is (current state),
       compress, or generate in CI from a native Lean build.
 - [ ] `gen/` in the repository comes from a native stage 1 build. Regenerating it with LeanSharp
-      alone works (Docs/RUNNING.md, "Regenerating"; a build from the self-generated code passed
+      alone works (docs/RUNNING.md, "Regenerating"; a build from the self-generated code passed
       `elab_fail`, `compile` and 644 `elab` tests), but the full test suite has not been run on
       such a build, and moving to a *new* Lean version this way (build the new sources with the
       old LeanSharp, emit, rebuild) has not been tried.
@@ -130,13 +130,13 @@ No test that is run fails.
 
 - [ ] `.gitignore` ends with a few generic names (`bin`, `env`, `tmp`, `toolchains`, ...) that
       look like they were added by accident; they could hide real directories.
-- [ ] `Docs/externs-*.txt` are the per-area extern lists of the porting phase; they are not
-      regenerated (`Docs/runtime-externs.txt` is the current list).
+- [ ] `docs/externs-*.txt` are the per-area extern lists of the porting phase; they are not
+      regenerated (`docs/runtime-externs.txt` is the current list).
 
 ## 6. Handoff notes for a new session (human or AI assistant)
 
-Everything needed to continue is in this file, `RESUME.md`, `Docs/RUNNING.md`, `Docs/DESIGN.md`
-and `Docs/PORTING.md`.
+Everything needed to continue is in this file, `RESUME.md`, `docs/RUNNING.md`, `docs/DESIGN.md`
+and `docs/PORTING.md`.
 
 ### Goal (from the project owner)
 
@@ -157,7 +157,7 @@ most Lake/package tests on Linux.
 * .NET SDK: `~/.dotnet` on the WSL machine (not on `PATH` by default).
 * `artifacts/` is git-ignored: `artifacts/selfhost` (the sysroot built by `build-stdlib`),
   `artifacts/lakeproj` (tiny Lake project used for smoke tests), `artifacts/logs`, result files
-  (`*.tsv`). Recreate them on a new machine (Docs/RUNNING.md).
+  (`*.tsv`). Recreate them on a new machine (docs/RUNNING.md).
 * Do not use the `lean` found on `PATH` via elan for generation: the emitter must read the
   stage1 build (an early bug came from `findSysroot` picking up elan's 4.34.1).
 
@@ -169,21 +169,21 @@ most Lake/package tests on Linux.
 * `src/LeanSharp.Runtime/Core` is the contract everything depends on (`Obj.cs`,
   `LeanRt.Object.cs`, `LeanRt.Basics.cs`, generated `LeanRt.Apply.cs` from `tools/gen_apply.py`).
   The other areas (`Numbers`, `Strings`, `IO`, `Tasks`, `Kernel`, `Compact`, `Interp`, `Uv`,
-  `Cadical`) were ported one per directory, following `Docs/PORTING.md` and the exact
-  signatures in `Docs/externs-*.txt`.
-* Runtime → Lean calls go through `LeanExports` (names in `Docs/lean-exports.txt`); the host
+  `Cadical`) were ported one per directory, following `docs/PORTING.md` and the exact
+  signatures in `docs/externs-*.txt`.
+* Runtime → Lean calls go through `LeanExports` (names in `docs/lean-exports.txt`); the host
   wires hooks in `src/LeanSharp/HostHooks.cs` (process spawn interception for `lean`, `lake`,
   `cadical`, compiler/linker steps and launchers; interpreter access to compiled modules;
   heartbeat hooks).
 * Everything that is per OS process natively is per *logical process* here
   (`src/LeanSharp.Runtime/IO/LeanLogicalProcess.cs`, `IO/LeanGlobalRefs.cs`): see
-  Docs/DESIGN.md, "Subprocesses and logical processes".
+  docs/DESIGN.md, "Subprocesses and logical processes".
 
 ### Practical lessons
 
 * **Memory is the hazard.** Exhausting RAM kills the WSL VM and the session (it happened twice
   with `-j 8`). Never build while tests run; run piles with `tools/run-pile.sh <pile> 3`; keep
-  logs on disk. See Docs/RUNNING.md, "Memory".
+  logs on disk. See docs/RUNNING.md, "Memory".
 * Changing the public surface of `LeanSharp.Runtime` recompiles the generated assembly
   (~1 minute on the 24-core machine, 5–10 on a laptop). Prefer `internal` members while debugging.
 * When a test passes alone but fails in a full run, or fails only under Lake's parallelism,

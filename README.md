@@ -12,7 +12,7 @@ sources: it compiles Lean's standard library itself.
 Lean is mostly written in Lean. LeanSharp translates Lean's compiled intermediate representation
 (IR) of `Init`, `Std`, `Lean` and `Lake` to C# (`gen/`, ~12.8M lines), and ports the C/C++ parts
 (runtime, kernel, IR interpreter, `.olean` serialization, CaDiCaL, libuv) by hand to
-`src/LeanSharp.Runtime`. See [Docs/DESIGN.md](Docs/DESIGN.md).
+`src/LeanSharp.Runtime`. See [docs/DESIGN.md](docs/DESIGN.md).
 
 | Project | Contents |
 |---------|----------|
@@ -26,7 +26,7 @@ Lean is mostly written in Lean. LeanSharp translates Lean's compiled intermediat
 
 Requirements: the .NET 10 SDK, 32 GB of RAM for the build, and a checkout of the Lean sources at
 Lean 4.36.0-pre (commit `77f336f7ae`) — only the sources: nothing native is built or run. Full
-instructions: [Docs/RUNNING.md](Docs/RUNNING.md).
+instructions: [docs/RUNNING.md](docs/RUNNING.md).
 
 ```sh
 dotnet build src/LeanSharp.Cli -c Release            # first build: 1-10 minutes
@@ -102,8 +102,8 @@ hand-ported runtime derive from [Lean 4](https://github.com/leanprover/lean4) (A
 
 ## Documentation
 
-* [Docs/RUNNING.md](Docs/RUNNING.md) — building, sysroot setup, CLI, C# API, running the tests,
+* [docs/RUNNING.md](docs/RUNNING.md) — building, sysroot setup, CLI, C# API, running the tests,
   regenerating the C#.
-* [Docs/DESIGN.md](Docs/DESIGN.md) — architecture.
-* [Docs/PORTING.md](Docs/PORTING.md) — conventions of the hand-ported runtime.
+* [docs/DESIGN.md](docs/DESIGN.md) — architecture.
+* [docs/PORTING.md](docs/PORTING.md) — conventions of the hand-ported runtime.
 * [TODO.md](TODO.md) — open work and known limitations.

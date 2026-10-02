@@ -1,4 +1,4 @@
-// Generated from Docs/externs-numbers.txt: checks that every extern exists with the exact signature.
+// Generated from docs/externs-numbers.txt: checks that every extern exists with the exact signature.
 using LeanSharp.Runtime;
 
 static unsafe class SigCheck

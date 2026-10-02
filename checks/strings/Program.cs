@@ -454,7 +454,7 @@ unsafe
         Check(ReferenceEquals(lean_ctor_get(r2, 0), lean_ctor_get(r2, 1)), "State.shareCommon shares equal subterms");
     }
 
-    Eq(SigCheck.Run(), File.ReadAllLines(Path.Combine(Environment.GetEnvironmentVariable("HOME"), "Repos/leansharp/Docs/externs-strings_arrays.txt")).Count(l => l.Trim().Length > 0), "all externs present");
+    Eq(SigCheck.Run(), File.ReadAllLines(Path.Combine(Environment.GetEnvironmentVariable("HOME"), "Repos/leansharp/docs/externs-strings_arrays.txt")).Count(l => l.Trim().Length > 0), "all externs present");
     Console.WriteLine($"{checks - failures}/{checks} checks passed");
     return failures == 0 ? 0 : 1;
 }

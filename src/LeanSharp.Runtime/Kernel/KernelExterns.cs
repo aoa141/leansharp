@@ -1,4 +1,4 @@
-// The kernel externs called by the generated code (Docs/externs-kernel.txt), and the port of
+// The kernel externs called by the generated code (docs/externs-kernel.txt), and the port of
 // library/expr_lt.cpp.
 
 using LeanSharp.Kernel;

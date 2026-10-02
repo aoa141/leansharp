@@ -17,7 +17,7 @@ those sources.
   destructive updates. When in doubt, mirror the C code line by line.
 * All externs are `public static` methods of `public static unsafe partial class LeanRt`
   (namespace `LeanSharp.Runtime`), named exactly like the C function.
-* **Signatures must match `Docs/externs-<area>.txt` exactly** (these are the C# signatures the
+* **Signatures must match `docs/externs-<area>.txt` exactly** (these are the C# signatures the
   generated code calls). Type mapping: `uint8_t`→`byte` (also for `bool` results!), `uint16_t`→
   `ushort`, `uint32_t`→`uint`, `uint64_t`/`size_t`→`ulong`, `double`→`double`, `float`→`float`,
   `lean_object*`→`Obj`. Erased and `void` (IO world) parameters have already been removed from
@@ -88,7 +88,7 @@ those sources.
 
 ## Calling Lean code from the runtime
 
-Functions implemented in Lean and marked `@[export sym]` are listed in `Docs/lean-exports.txt`
+Functions implemented in Lean and marked `@[export sym]` are listed in `docs/lean-exports.txt`
 (`sym`, C# function-pointer type, Lean name, defining class). The runtime cannot reference the
 generated assemblies directly; use the export table and cache the pointer:
 

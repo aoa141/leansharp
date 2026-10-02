@@ -1,4 +1,4 @@
-// Generated: checks that every extern of Docs/externs-strings_arrays.txt exists with the exact signature.
+// Generated: checks that every extern of docs/externs-strings_arrays.txt exists with the exact signature.
 using LeanSharp.Runtime;
 static unsafe class SigCheck {
   public static int Run() {

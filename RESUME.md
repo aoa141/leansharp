@@ -13,7 +13,7 @@ the work up again; [TODO.md](TODO.md) has the current status and open items.
 
 ## 2. Set up the new machine
 
-1. Install the **.NET 10 SDK** (per-user install is fine, see Docs/RUNNING.md). Have 32 GB of RAM
+1. Install the **.NET 10 SDK** (per-user install is fine, see docs/RUNNING.md). Have 32 GB of RAM
    for the build if possible.
 2. Get a **`lean4` checkout at commit `77f336f7ae`** (Lean 4.36.0-pre), assumed at `~/Repos/lean4`.
    Only its sources and tests are needed. A native build of it (`build/release/stage1`) is needed
@@ -26,7 +26,7 @@ the work up again; [TODO.md](TODO.md) has the current status and open items.
    export LEANSHARP_SYSROOT=$PWD/artifacts/selfhost
    ```
 
-Details: [Docs/RUNNING.md](Docs/RUNNING.md).
+Details: [docs/RUNNING.md](docs/RUNNING.md).
 
 ## 3. First steps
 
@@ -37,14 +37,14 @@ tools/run-pile.sh elab 3 --filter '^1[0-9]{4}\.lean$'              # 61 tests, ~
 tools/run-pile.sh elab 3                                           # full pile, ~60 min
 ```
 
-Read the "Memory" section of Docs/RUNNING.md before running anything bigger: exhausting RAM takes
+Read the "Memory" section of docs/RUNNING.md before running anything bigger: exhausting RAM takes
 the machine (or the WSL VM) down. Build one thing at a time and never while tests are running.
 
 ## 4. Continuing with an AI assistant
 
 Start a new session in the repository root and give it this prompt:
 
-> Read `RESUME.md`, `TODO.md`, `Docs/RUNNING.md`, `Docs/DESIGN.md` and `Docs/PORTING.md`. Then
+> Read `RESUME.md`, `TODO.md`, `docs/RUNNING.md`, `docs/DESIGN.md` and `docs/PORTING.md`. Then
 > continue the LeanSharp work with the open items of `TODO.md`.
 
 What each file gives it:
@@ -52,9 +52,9 @@ What each file gives it:
 | File | Contents |
 |---|---|
 | [TODO.md](TODO.md) | Test status, unfinished work, performance ideas, known limitations, and handoff notes (goal, assumed paths, how the code is organised, practical lessons, what was verified) |
-| [Docs/RUNNING.md](Docs/RUNNING.md) | Build, sysroot, command line, C# API, tests, memory, regenerating `gen/` |
-| [Docs/DESIGN.md](Docs/DESIGN.md) | Architecture |
-| [Docs/PORTING.md](Docs/PORTING.md) | Conventions of the hand-ported runtime |
+| [docs/RUNNING.md](docs/RUNNING.md) | Build, sysroot, command line, C# API, tests, memory, regenerating `gen/` |
+| [docs/DESIGN.md](docs/DESIGN.md) | Architecture |
+| [docs/PORTING.md](docs/PORTING.md) | Conventions of the hand-ported runtime |
 
 ## 5. Where things stand
 

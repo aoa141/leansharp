@@ -195,7 +195,7 @@ same Lean commit (`cmake --preset release && make -C build/release -j` in the le
 
 ```sh
 LEAN4=~/Repos/lean4 tools/regen.sh gen          # ~1 minute
-mv gen/externs.txt Docs/runtime-externs.txt; mv gen/exports.txt Docs/lean-exports.txt; mv gen/manifest.tsv Docs/modules.tsv
+mv gen/externs.txt docs/runtime-externs.txt; mv gen/exports.txt docs/lean-exports.txt; mv gen/manifest.tsv docs/modules.tsv
 ```
 
 or run it with LeanSharp on a sysroot built by `build-stdlib` (no native Lean involved; ~2 minutes,
@@ -215,8 +215,8 @@ modules because native stage 1 files are compiled by the older stage 0 compiler.
 
 Then update the commit hash in `src/LeanSharp.Runtime/IO/LeanRt.IO.Misc.cs` and
 `src/LeanSharp.Runtime/Compact/OleanFile.cs`, and implement any new function listed in
-`Docs/runtime-externs.txt`. `Docs/runtime-externs.txt` lists every runtime function the generated
-code calls (the surface `src/LeanSharp.Runtime` must implement); `Docs/lean-exports.txt` lists the
+`docs/runtime-externs.txt`. `docs/runtime-externs.txt` lists every runtime function the generated
+code calls (the surface `src/LeanSharp.Runtime` must implement); `docs/lean-exports.txt` lists the
 Lean functions the runtime may call back. See [PORTING.md](PORTING.md) for the runtime conventions.
 
 ## Repository layout
@@ -233,5 +233,5 @@ Lean functions the runtime may call back. See [PORTING.md](PORTING.md) for the r
 | `tests/LeanSharp.TestRunner` | Runner for Lean's test piles |
 | `examples/ProjectDemo` | `LeanProject` API example |
 | `checks/` | Per-area check programs from the porting phase |
-| `Docs/` | Design, porting guide, extern/export lists, this file |
+| `docs/` | Design, porting guide, extern/export lists, this file |
 | `artifacts/` | Git-ignored: sysroot, logs, test results |

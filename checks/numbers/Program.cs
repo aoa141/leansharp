@@ -1,5 +1,5 @@
 // Check program for the numbers area.
-//  1. SigCheck: every extern of Docs/externs-numbers.txt exists with the exact C# signature.
+//  1. SigCheck: every extern of docs/externs-numbers.txt exists with the exact C# signature.
 //  2. Generated tests (gen_tests.py): differential tests against the real Lean toolchain
 //     (expected.txt was produced by `lean --run ref_tests.lean`).
 //  3. Hand-written tests: reference counting, representation invariants, FloatArray, boxing, panics.
