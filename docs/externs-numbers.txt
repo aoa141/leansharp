@@ -51,6 +51,7 @@ standard Obj lean_nat_shiftl(Obj, Obj)  -- Nat.shiftLeft
 standard Obj lean_nat_shiftr(Obj, Obj)  -- Nat.shiftRight
 standard Obj lean_nat_sub(Obj, Obj)  -- Nat.sub
 standard Obj lean_nat_to_int(Obj)  -- Int.ofNat
+standard Obj lean_obj_tag_nat(Obj)  -- getObjTagNat
 standard Obj lean_uint16_to_nat(ushort)  -- UInt16.toNat
 standard Obj lean_uint32_to_nat(uint)  -- UInt32.toNat
 standard Obj lean_uint64_to_nat(ulong)  -- UInt64.toNat

@@ -24,18 +24,34 @@ public static unsafe class LeanHost
         {
             if (s_initialized) return;
             s_initialized = true;
+            // LEANSHARP_TRACE_STARTUP=1: time of each initialization step on stderr
+            bool trace = Environment.GetEnvironmentVariable("LEANSHARP_TRACE_STARTUP") == "1";
+            var sw = System.Diagnostics.Stopwatch.StartNew();
+            void Step(string what)
+            {
+                if (trace) Console.Error.WriteLine($"[startup] {what}: {sw.Elapsed.TotalMilliseconds:F0} ms");
+                sw.Restart();
+            }
             LeanModules.RegisterExports();
+            Step("register exports");
             HostHooks.Install();
+            Step("install hooks");
             const byte builtin = 1;
             Check(M_Init.initialize(builtin), "Init");
+            Step("initialize Init");
             Check(M_Std.initialize(builtin), "Std");
+            Step("initialize Std");
             Check(M_Lean.initialize(builtin), "Lean");
+            Step("initialize Lean");
             Check(M_Lake.initialize(builtin), "Lake");
+            Step("initialize Lake");
             Check(M_LakeMain.initialize(builtin), "LakeMain");
             HostHooks.AfterModuleInitialization();
             InitTimeEnvironment.CaptureBase();
+            Step("LakeMain, hooks");
             // from here on every program gets its own copy of the libraries' global state
             LeanProgramState.FreezeInitialState();
+            Step("freeze global state");
         }
     }
 

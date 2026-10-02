@@ -32,6 +32,31 @@ The first build takes 1–10 minutes depending on the machine (almost all of it 
 which recompiles the generated assembly. Do not run several builds at once, and do not build while
 tests are running (see "Memory").
 
+### Faster startup: precompiled build
+
+A plain build is pure IL, and a large part of every start is JIT compilation (the initializers
+of 2,500 modules, then the elaborator). `tools/publish.sh` publishes the command-line tool and
+the test runner with ReadyToRun precompilation into `artifacts/publish`:
+
+```sh
+tools/publish.sh                                    # ~40 s; linux-x64, win-x64, osx-arm64, ... as first argument
+dotnet artifacts/publish/cli/LeanSharp.Cli.dll --version
+```
+
+| | plain build | precompiled | native Lean |
+|---|---|---|---|
+| `lean --version` | 1.5 s | 0.4 s | |
+| a one-line file | 3.9 s | 1.9 s | 1.2 s |
+| a file with `import Lean` | 9.6 s | 7.7 s | 3.7 s |
+
+The precompiled assemblies are still .NET assemblies run by the .NET runtime, but they contain
+machine code for one platform (generated from the IL by the .NET SDK) and are twice as large;
+whether that is acceptable where "managed code only" is required is a policy question, so it is
+opt-in. To run the test piles with the precompiled runner:
+`LEANSHARP_RUNNER=$PWD/artifacts/publish/testrunner/LeanSharp.TestRunner.dll tools/run-pile.sh pkg 3`.
+
+`LEANSHARP_TRACE_STARTUP=1` prints the time of each initialization step.
+
 ## Sysroot (the Lean library files)
 
 `import` needs the compiled library files of `Init`, `Std`, `Lean` and `Lake`. LeanSharp looks for
@@ -228,7 +253,7 @@ Lean functions the runtime may call back. See [PORTING.md](PORTING.md) for the r
 | `src/LeanSharp` | Host: initialization, `lean`/`lake` entry points, `LeanProject`, `LeanStdlib`, in-process subprocesses |
 | `src/LeanSharp.Cli` | Command-line tool |
 | `gen/` | Generated C# (do not edit) |
-| `tools/` | `EmitCSharp` (IR → C# emitter, a Lean program), `regen.sh`, `run-pile.sh`, `stacks.sh` |
+| `tools/` | `EmitCSharp` (IR → C# emitter, a Lean program), `regen.sh`, `run-pile.sh`, `run-checks.sh`, `publish.sh`, `stacks.sh` |
 | `tests/LeanSharp.Tests` | API tests (xunit) |
 | `tests/LeanSharp.TestRunner` | Runner for Lean's test piles |
 | `examples/ProjectDemo` | `LeanProject` API example |

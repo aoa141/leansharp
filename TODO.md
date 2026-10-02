@@ -75,10 +75,12 @@ No test that is run fails.
 - [ ] **Compiling `LeanSharp.Lean`** peaks at ~22 GB in the C# compiler on a 24-core machine
       (about one minute). Options: split the generated code into several assemblies, or freeze a
       thin public runtime API.
-- [ ] **Startup.** ~1.5 s for `--version`, ~4 s for a trivial file vs 0.3 s native (JIT of the
-      module initializers). Options: ReadyToRun compilation of `LeanSharp.Lean`, lazy module
-      initialization. This dominates the script-driven piles (every `lean`/`lake` call in a test
-      script is a new process).
+- [ ] **Startup.** With a plain build, `--version` takes 1.5 s and a trivial file 3.9 s (native:
+      1.2 s for the same file), most of it JIT compilation of the module initializers and of the
+      elaborator. `tools/publish.sh` precompiles the assemblies (ReadyToRun): 0.4 s and 1.9 s.
+      What remains is decoding the library files object by object (about 1.5 s for `Init`,
+      7.7 s versus 3.7 s natively for `import Lean`): the fix is lazy or deferred `.olean`
+      decoding, which is also the main memory item.
 - [ ] **Snapshots (`--incr-save`, `--incr-header-save`, `--incr-load`)** work, also across
       processes, but bring no speed-up: saving the header snapshot of `import Lean` takes 15 s
       (native: 1.9 s) and loading it 14 s, more than importing without a snapshot (9.5 s),
@@ -131,14 +133,7 @@ No test that is run fails.
 - The kernel rejects some forged values that native Lean's kernel accepts through undefined
   behavior (see `tests/challenge-olean-issue` above).
 
-## 5. Cleanup
-
-- [ ] `.gitignore` ends with a few generic names (`bin`, `env`, `tmp`, `toolchains`, ...) that
-      look like they were added by accident; they could hide real directories.
-- [ ] `docs/externs-*.txt` are the per-area extern lists of the porting phase; they are not
-      regenerated (`docs/runtime-externs.txt` is the current list).
-
-## 6. Handoff notes for a new session (human or AI assistant)
+## 5. Handoff notes for a new session (human or AI assistant)
 
 Everything needed to continue is in this file, `RESUME.md`, `docs/RUNNING.md`, `docs/DESIGN.md`
 and `docs/PORTING.md`.
