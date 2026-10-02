@@ -171,7 +171,7 @@ public sealed unsafe class ObjectCompactor
             // from every object to its logical address.
             var rest = m_depRegions.Where(r => !r.IdsAreAddresses).ToList();
             int n = 0;
-            foreach (var r in rest) n += r.m_count;
+            foreach (var r in rest) n += r.ObjectCount;
             var d = new Dictionary<Obj, ulong>(n, ReferenceEqualityComparer.Instance);
             foreach (var r in rest)
                 foreach (var (a, x) in r.Objects()) d.TryAdd(x, a);

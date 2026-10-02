@@ -187,6 +187,43 @@ produces byte-identical `.olean`, `.olean.server`, `.olean.private`, `.ir` and `
 files of a native *stage 1* build differ in a few hundred modules because those are produced by
 the older stage 0 compiler.) Files from a native build of the same commit can be used as well.
 
+### Lazy decoding
+
+Native Lean maps an `.olean` file into memory and uses the objects in place, so data that is never
+looked at (most proofs and definition bodies) costs nothing. LeanSharp's objects are managed
+objects, so they have to be created from the file contents, but this happens on demand
+(`Compact/LazyRegion.cs`):
+
+* The file stays mapped (read-only) for the lifetime of the process. On Windows, where a mapped
+  file cannot be replaced or deleted, it is copied into native memory instead
+  (`LEANSHARP_OLEAN_MMAP=0/1` overrides the default).
+* A constructor object is created as a *shell*: tag, scalar fields and identity are set, the
+  object fields are null. `lean_ctor_get` treats a null field as "not read yet" and calls
+  `lean_ctor_force`, which finds the region and the file position from the object's identity
+  (`m_id`, its logical address), creates the field's object and stores it in the field. All
+  constructor fields are read through `lean_ctor_get`, so nothing else had to change; the cost
+  for ordinary objects is one null check per field read.
+* All other objects are created complete. Strings, scalar arrays and big numbers are copied.
+  The elements of an array are created together with the array (as shells if they are
+  constructor objects), so the code that accesses array storage directly is unaffected. The
+  same holds for the values of thunks, tasks, refs, promises and closures.
+* Every object is created at most once: each region has a table from file offset to object
+  (lock-free lookup, insertion under a lock per region), so sharing and pointer equality are
+  the same as with eager decoding. Compacting a lazily decoded graph reproduces the file byte
+  for byte (`checks/compact`).
+
+A file can only be read this way if its address range is free in the process. If it is taken
+(the file was rebuilt and is read a second time, or two files have the same base address), the
+eager reader (`Compact/RegionReader.cs`) is used, which converts all objects in one pass; it is
+also what the managed API `OleanFile.Read` uses. `LEANSHARP_OLEAN_LAZY=0` selects the eager
+reader everywhere, and `LEANSHARP_TRACE_OLEAN=1` prints the number of regions and created
+objects at exit.
+
+Differences with eager decoding: a malformed file is detected when the bad object is reached,
+not when the file is read (native Lean does not check at all); and, as natively, a mapped file
+must not be truncated in place while a program still uses its objects (Lean and Lake replace
+files by renaming, which is safe).
+
 ## Regenerating the C#
 
 ```

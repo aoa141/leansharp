@@ -47,7 +47,10 @@ public sealed class CompactedRegionData
     internal volatile Obj[] m_dense;
     internal int m_denseThread;
 
-    public int ObjectCount => m_count;
+    /// <summary>Set for a lazily decoded region (see LazyRegion.cs).</summary>
+    internal LazyRegion m_lazy;
+
+    public int ObjectCount => m_count >= 0 ? m_count : (m_count = m_lazy.CountObjects());
     public ulong End => BaseAddr + Size;
 
     /// <summary>Whether logical address `addr` lies inside this region (file).</summary>
@@ -91,6 +94,13 @@ public sealed class CompactedRegionData
         {
             if (m_objs != null) return m_objs;
             if (Root == null) throw new OleanFormatException($"compacted region '{FilePath}' has been freed");
+            if (m_lazy != null)
+            {
+                var all = m_lazy.MaterializeAll();
+                m_count = all.Length;
+                SetIndex(all);
+                return m_objs;
+            }
             SetIndex(TraverseFileOrder());
             return m_objs;
         }
@@ -99,21 +109,38 @@ public sealed class CompactedRegionData
     /// <summary>Post-order DFS from the root, skipping scalars and objects of dependency regions.</summary>
     internal Obj[] TraverseFileOrder()
     {
-        var result = new Obj[m_count];
+        int count = ObjectCount;
+        var result = new Obj[count];
         int n = 0;
-        if (m_count == 0) return result;
+        if (count == 0) return result;
+        // Objects of dependency regions are recognised by their address (id) if the region has
+        // address ids, otherwise by a set of all its objects.
         HashSet<Obj> depObjs = null;
+        var addrDeps = new List<CompactedRegionData>();
         if (m_deps != null && m_deps.Length > 0)
         {
             int total = 0;
-            foreach (var d in m_deps) total += d.m_count;
-            depObjs = new HashSet<Obj>(total, ReferenceEqualityComparer.Instance);
-            foreach (var d in m_deps) foreach (var o in d.EnsureIndex()) depObjs.Add(o);
+            foreach (var d in m_deps)
+                if (d.IdsAreAddresses) addrDeps.Add(d); else total += d.ObjectCount;
+            if (total > 0)
+            {
+                depObjs = new HashSet<Obj>(total, ReferenceEqualityComparer.Instance);
+                foreach (var d in m_deps)
+                    if (!d.IdsAreAddresses) foreach (var o in d.EnsureIndex()) depObjs.Add(o);
+            }
         }
-        var visited = new HashSet<Obj>(m_count, ReferenceEqualityComparer.Instance);
+        bool InAddrDep(Obj o)
+        {
+            ulong id = (ulong)o.m_id;
+            if (id == 0) return false;
+            foreach (var d in addrDeps) if (d.Contains(id)) return true;
+            return false;
+        }
+        var visited = new HashSet<Obj>(count, ReferenceEqualityComparer.Instance);
         var stack = new Stack<(Obj, long)>();
         bool Enter(Obj o) =>
-            o != null && o.m_tag != LeanRt.LeanBoxTag && (depObjs == null || !depObjs.Contains(o)) && visited.Add(o);
+            o != null && o.m_tag != LeanRt.LeanBoxTag && (depObjs == null || !depObjs.Contains(o)) &&
+            (addrDeps.Count == 0 || !InAddrDep(o)) && visited.Add(o);
         if (Enter(Root)) stack.Push((Root, 0));
         while (stack.Count > 0)
         {
@@ -166,6 +193,7 @@ public sealed class CompactedRegionData
     internal Obj Lookup(ulong addr)
     {
         ulong off = addr - BaseAddr;
+        if (m_lazy != null && off < Size) return m_lazy.Materialize((long)off);
         if (off >= Size || (off & 7) != 0 || m_count == 0)
             throw new OleanFormatException($"invalid pointer 0x{addr:x} into region '{FilePath}'");
         uint word = (uint)(off >> 3);
@@ -195,6 +223,7 @@ public sealed class CompactedRegionData
     internal void Release()
     {
         m_dense = null;
+        m_lazy?.DropObjects();
         m_objs = null;
         m_checkpoints = null;
         m_deps = null;

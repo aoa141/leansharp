@@ -41,7 +41,24 @@ public static class OleanFile
     /// `PrefetchImports` is enabled).
     /// </summary>
     public static CompactedRegionData ReadForLean(string path, params CompactedRegionData[] deps) =>
-        OleanPrefetcher.Read(path, deps);
+        LazyRegion.Enabled && !OleanPrefetcher.Enabled ? LazyRegion.Open(path, deps) : OleanPrefetcher.Read(path, deps);
+
+    /// <summary>
+    /// Decode the regions read by Lean on demand (see LazyRegion.cs). On by default; also turned
+    /// off by the environment variable LEANSHARP_OLEAN_LAZY=0.
+    /// </summary>
+    public static bool LazyDecoding { get => LazyRegion.Enabled; set => LazyRegion.Enabled = value; }
+
+    /// <summary>
+    /// Opens a compacted region for decoding on demand: the file stays mapped, and objects are
+    /// created when they are first reached. Falls back to `Read` if the address range of the
+    /// file is already in use in this process.
+    /// </summary>
+    public static CompactedRegionData ReadLazy(string path, params CompactedRegionData[] deps) =>
+        LazyRegion.Open(path, deps);
+
+    /// <summary>Number of lazily decoded regions, their total size and the objects created so far.</summary>
+    public static (int Regions, long Bytes, long Objects) LazyStatistics => LazyRegion.Stats();
 
     public static OleanHeader ReadHeader(string path)
     {

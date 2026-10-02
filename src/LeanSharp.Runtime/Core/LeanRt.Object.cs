@@ -454,19 +454,27 @@ public static unsafe partial class LeanRt
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static Obj lean_ctor_get(Obj o, uint i)
     {
+        // (a null field is a field of a lazily decoded region object that was not read yet)
         switch (i)
         {
-            case 0: return Unsafe.As<Ctor1>(o).f0;
-            case 1: return Unsafe.As<Ctor2>(o).f1;
-            case 2: return Unsafe.As<Ctor3>(o).f2;
-            case 3: return Unsafe.As<Ctor4>(o).f3;
-            case 4: return Unsafe.As<Ctor5>(o).f4;
-            case 5: return Unsafe.As<Ctor6>(o).f5;
-            case 6: return Unsafe.As<Ctor7>(o).f6;
-            case 7: return Unsafe.As<Ctor8>(o).f7;
-            default: return Unsafe.As<CtorN>(o).rest[i - 8];
+            case 0: return Unsafe.As<Ctor1>(o).f0 ?? lean_ctor_force(o, i);
+            case 1: return Unsafe.As<Ctor2>(o).f1 ?? lean_ctor_force(o, i);
+            case 2: return Unsafe.As<Ctor3>(o).f2 ?? lean_ctor_force(o, i);
+            case 3: return Unsafe.As<Ctor4>(o).f3 ?? lean_ctor_force(o, i);
+            case 4: return Unsafe.As<Ctor5>(o).f4 ?? lean_ctor_force(o, i);
+            case 5: return Unsafe.As<Ctor6>(o).f5 ?? lean_ctor_force(o, i);
+            case 6: return Unsafe.As<Ctor7>(o).f6 ?? lean_ctor_force(o, i);
+            case 7: return Unsafe.As<Ctor8>(o).f7 ?? lean_ctor_force(o, i);
+            default: return Unsafe.As<CtorN>(o).rest[i - 8] ?? lean_ctor_force(o, i);
         }
     }
+
+    /// <summary>
+    /// Slow path of `lean_ctor_get`: object field `i` of `o` is null. Objects of lazily decoded
+    /// `.olean` regions get their fields on first use (Compact/LazyRegion.cs).
+    /// </summary>
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    public static Obj lean_ctor_force(Obj o, uint i) => Compact.LazyRegion.ForceField(o, i);
 
     public static Obj lean_ctor_get_core(Obj o, int i) => lean_ctor_get(o, (uint)i);
 
@@ -698,9 +706,9 @@ public static unsafe partial class LeanRt
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static bool lean_io_result_is_error(Obj r) => r.m_tag == 1;
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static Obj lean_io_result_get_value(Obj r) => Unsafe.As<Ctor1>(r).f0;
+    public static Obj lean_io_result_get_value(Obj r) => lean_ctor_get(r, 0);
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static Obj lean_io_result_get_error(Obj r) => Unsafe.As<Ctor1>(r).f0;
+    public static Obj lean_io_result_get_error(Obj r) => lean_ctor_get(r, 0);
 
     public static Obj lean_io_result_take_value(Obj r)
     {

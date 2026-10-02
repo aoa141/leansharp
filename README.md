@@ -43,7 +43,7 @@ $CLI lake build           # like `lake build`, everything in-process
 $CLI lake exe myprog      # executables are run by the interpreter
 ```
 
-`tools/publish.sh` produces a precompiled (ReadyToRun) build that starts about four times faster;
+`tools/publish.sh` produces a precompiled (ReadyToRun) build that starts about three times faster;
 see [docs/RUNNING.md](docs/RUNNING.md).
 
 From C#:

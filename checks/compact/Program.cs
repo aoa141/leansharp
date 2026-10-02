@@ -53,6 +53,7 @@ static unsafe class Program
             return 0;
         }
         if (perfOnly) { ReadPerf(lib, "Init"); if (all) ReadPerf(lib, null); return 0; }
+        TestLazy(lib);
         TestPrelude(lib);
         TestErrors(lib);
         TestExterns(lib);
@@ -128,6 +129,150 @@ static unsafe class Program
     // ------------------------------------------------------------------
 
     static string ModFile(string lib, string mod) => Path.Combine(lib, mod.Replace('.', '/') + ".olean");
+
+    /// <summary>
+    /// Lazily decoded regions (LazyRegion.cs). Must run first: a file can only be read lazily
+    /// while its address range is free.
+    /// </summary>
+    static void TestLazy(string lib)
+    {
+        Console.WriteLine("== lazy decoding");
+        // 1. Open, look at a few things, then compact the lazy graph again: must give the files.
+        foreach (var mod in new[] { "Lean.Meta.WHNF", "Init.Data.Nat.Basic" })
+        {
+            string f = ModFile(lib, mod);
+            foreach (var group in PartGroups(f))
+            {
+                var before = OleanFile.LazyStatistics;
+                var regions = new List<CompactedRegionData>();
+                foreach (var p in group) regions.Add(OleanFile.ReadLazy(p, regions.ToArray()));
+                var opened = OleanFile.LazyStatistics;
+                Check(opened.Regions == before.Regions + group.Count, $"{mod}: {group.Count} parts opened lazily");
+                Check(regions.All(r => r.IdsAreAddresses), $"{mod}: objects are identified by address");
+                long total = regions.Sum(r => (long)r.ObjectCount);
+                Check(opened.Objects - before.Objects < total / 10 + 16, $"{mod}: opening creates few objects ({opened.Objects - before.Objects} of {total})");
+                if (group[0].EndsWith(".olean"))
+                {
+                    Obj md = regions[0].Root;
+                    Check(md.m_tag == 0 && md.m_other == 5, $"{mod}: ModuleData shape");
+                    var names = Unsafe.As<ArrayObj>(LeanRt.lean_ctor_get(md, 1));
+                    var consts = Unsafe.As<ArrayObj>(LeanRt.lean_ctor_get(md, 2));
+                    Check(ReferenceEquals(LeanRt.lean_ctor_get(md, 1), names), $"{mod}: a field read twice gives the same object");
+                    int mism = 0;
+                    for (long i = 0; i < names.m_size; i++)
+                    {
+                        Obj cv = LeanRt.lean_ctor_get(LeanRt.lean_ctor_get(consts.m_data[i], 0), 0);
+                        if (!ReferenceEquals(LeanRt.lean_ctor_get(cv, 0), names.m_data[i])) mism++;
+                    }
+                    Check(names.m_size > 0 && mism == 0, $"{mod}: ConstantInfo names are shared with constNames ({mism} mismatches of {names.m_size})");
+                    var partial = OleanFile.LazyStatistics;
+                    Check(partial.Objects - before.Objects < total, $"{mod}: looking at the names creates part of the objects ({partial.Objects - before.Objects} of {total})");
+                }
+                var h = regions[0].Header;
+                string savedGit = OleanFile.GitHash, savedVer = OleanFile.LeanVersion;
+                OleanFile.GitHash = h.GitHash; OleanFile.LeanVersion = h.LeanVersion;
+                Obj key = MkName(group[0].EndsWith(".ir.sig") ? mod + ".ir" : mod);
+                var c = new ObjectCompactor(OleanFile.BaseAddrForKey(key), null, false, h.Gmp);
+                bool same = true;
+                foreach (var (r, path) in regions.Zip(group))
+                    same &= OleanFile.SavePart(c, r.Root).AsSpan().SequenceEqual(File.ReadAllBytes(path));
+                OleanFile.GitHash = savedGit; OleanFile.LeanVersion = savedVer;
+                Check(same, $"{mod}: compacting the lazily decoded graph reproduces {group.Count} file(s)");
+                var after = OleanFile.LazyStatistics;
+                Check(after.Objects - before.Objects == total, $"{mod}: every object created exactly once ({after.Objects - before.Objects} of {total})");
+                // the eager reader gives an equal graph (without address ids: the range is taken)
+                var eager = new List<CompactedRegionData>();
+                foreach (var p in group) eager.Add(OleanFile.Read(p, eager.ToArray()));
+                Check(!eager[0].IdsAreAddresses && regions.Zip(eager).All(x => DeepEq(x.First.Root, x.Second.Root)), $"{mod}: equal to the eagerly decoded graph");
+                // pointers from an eagerly read part into a lazily read one, and the index
+                if (group.Count > 1)
+                {
+                    var mixed = OleanFile.Read(group[1], regions[0]);
+                    Check(DeepEq(mixed.Root, regions[1].Root), $"{mod}: eager part on top of a lazy part");
+                }
+                Check(regions[0].EnsureIndex().Length == regions[0].ObjectCount, $"{mod}: index of a lazy region");
+            }
+        }
+        // 2. Many threads walking the same fresh graph must agree on every object.
+        {
+            string mod = "Lean.Elab.Do.Legacy";
+            string f = ModFile(lib, mod);
+            if (!File.Exists(f)) { mod = "Lean.Meta.Tactic.Simp.Rewrite"; f = ModFile(lib, mod); }
+            var before = OleanFile.LazyStatistics;
+            var main = OleanFile.ReadLazy(f);
+            var roots = new Obj[8][];
+            var threads = new Thread[8];
+            Exception err = null;
+            for (int t = 0; t < threads.Length; t++)
+            {
+                int tt = t;
+                threads[t] = new Thread(() =>
+                {
+                    try
+                    {
+                        // depth first, children in a thread-specific order
+                        var seen = new HashSet<Obj>(ReferenceEqualityComparer.Instance);
+                        var st = new Stack<Obj>();
+                        st.Push(main.Root);
+                        while (st.Count > 0)
+                        {
+                            var o = st.Pop();
+                            if (o.m_tag == LeanRt.LeanBoxTag || !seen.Add(o)) continue;
+                            if (o.m_tag <= LeanRt.LeanMaxCtorTag)
+                                for (uint i = 0; i < o.m_other; i++) st.Push(LeanRt.lean_ctor_get(o, (tt & 1) == 0 ? i : (uint)(o.m_other - 1 - i)));
+                            else if (o.m_tag == LeanRt.LeanArray)
+                            {
+                                var a = Unsafe.As<ArrayObj>(o);
+                                for (long i = 0; i < a.m_size; i++) st.Push(a.m_data[(i + tt) % a.m_size]);
+                            }
+                            else if (o.m_tag == LeanRt.LeanThunk) st.Push(Unsafe.As<ThunkObj>(o).m_value);
+                        }
+                        roots[tt] = seen.OrderBy(o => o.m_id).ToArray();
+                    }
+                    catch (Exception e) { err = e; }
+                }, 256 << 20);
+                threads[t].Start();
+            }
+            foreach (var t in threads) t.Join();
+            Check(err == null, $"{mod}: concurrent traversal ({err?.Message})");
+            bool agree = roots.All(r => r != null && r.Length == roots[0].Length);
+            for (int t = 1; agree && t < roots.Length; t++)
+                for (int i = 0; agree && i < roots[0].Length; i++) agree = ReferenceEquals(roots[0][i], roots[t][i]);
+            Check(agree, $"{mod}: all threads see the same {roots[0]?.Length} objects");
+            if (!agree || roots[0].Length != main.ObjectCount)
+            {
+                Console.WriteLine("  lengths: " + string.Join(" ", roots.Select(r => r?.Length)));
+                var have = new HashSet<Obj>(roots[0], ReferenceEqualityComparer.Instance);
+                Console.WriteLine("  missing tags: " + string.Join(" ", main.EnsureIndex().Where(o => !have.Contains(o)).GroupBy(o => o.m_tag).Select(g => $"{g.Key}x{g.Count()}")));
+            }
+            var after = OleanFile.LazyStatistics;
+            Check(after.Objects - before.Objects == main.ObjectCount && roots[0].Length == main.ObjectCount, $"{mod}: every object created exactly once ({after.Objects - before.Objects} of {main.ObjectCount})");
+        }
+        // 3. Errors: a pointer outside of the file is found when it is followed.
+        {
+            string f = ModFile(lib, "Lean.Meta.DiscrTree");
+            if (File.Exists(f + ".server"))
+            {
+                bool thrown = false;
+                try
+                {
+                    var orphan = OleanFile.ReadLazy(f + ".server");
+                    var st = new Stack<Obj>();
+                    var seen = new HashSet<Obj>(ReferenceEqualityComparer.Instance);
+                    st.Push(orphan.Root);
+                    while (st.Count > 0)
+                    {
+                        var o = st.Pop();
+                        if (o.m_tag == LeanRt.LeanBoxTag || !seen.Add(o)) continue;
+                        if (o.m_tag <= LeanRt.LeanMaxCtorTag) for (uint i = 0; i < o.m_other; i++) st.Push(LeanRt.lean_ctor_get(o, i));
+                        else if (o.m_tag == LeanRt.LeanArray) foreach (var x in Unsafe.As<ArrayObj>(o).m_data) st.Push(x);
+                    }
+                }
+                catch (OleanFormatException) { thrown = true; }
+                Check(thrown, "pointer into a missing dependency region is reported when followed");
+            }
+        }
+    }
 
     static void TestPrelude(string lib)
     {

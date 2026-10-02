@@ -10,6 +10,15 @@ using System.Runtime.InteropServices;
 
 namespace LeanSharp.Runtime.Compact;
 
+/// <summary>Where the parts of a compacted region file are.</summary>
+internal struct RegionLayout
+{
+    public OleanHeader Header;
+    public long DataOff, DataSize;
+    public bool ClosuresOk;
+    public nint[] Functions;
+}
+
 internal sealed unsafe class RegionReader
 {
     // Per-thread scratch buffers, reused across reads (importing reads thousands of files).
@@ -55,9 +64,10 @@ internal sealed unsafe class RegionReader
         return Parse(path, buf, len, deps);
     }
 
-    public static CompactedRegionData Parse(string path, byte[] buf, long len, IReadOnlyList<CompactedRegionData> deps)
+    /// <summary>Checks the header and locates the object data and the function table.</summary>
+    internal static RegionLayout ParseLayout(byte* buf, long len)
     {
-        if (!OleanHeader.TryParse(buf.AsSpan(0, (int)Math.Min(len, OleanHeader.Size)), out var hdr))
+        if (!OleanHeader.TryParse(new ReadOnlySpan<byte>(buf, (int)Math.Min(len, OleanHeader.Size)), out var hdr))
             throw new OleanFormatException("invalid header");
         if (hdr.Version != 2 && hdr.Version != 3)
             throw new OleanFormatException("incompatible header");
@@ -67,17 +77,16 @@ internal sealed unsafe class RegionReader
         long dataOff = OleanHeader.Size;
         long dataSize = len - OleanHeader.Size;
         bool closuresOk = true;
-        long numClosures = 0;
         nint[] functions = null;
         if (hdr.Version == 3)
         {
             if (len < OleanHeader.Size + 8) throw new OleanFormatException("truncated file");
-            dataSize = (long)BitConverter.ToUInt64(buf, OleanHeader.Size);
+            dataSize = (long)*(ulong*)(buf + OleanHeader.Size);
             dataOff = OleanHeader.Size + 8;
             if (dataSize < 0 || dataSize > len - dataOff) throw new OleanFormatException("invalid data size");
             long p = dataOff + dataSize;
-            uint U32(long at) => at + 4 <= len ? BitConverter.ToUInt32(buf, (int)at) : throw new OleanFormatException("truncated file");
-            numClosures = U32(p);
+            uint U32(long at) => at >= 0 && at + 4 <= len ? *(uint*)(buf + at) : throw new OleanFormatException("truncated file");
+            long numClosures = U32(p);
             p += 4 + 8 * numClosures;
             if (numClosures > 0)
             {
@@ -92,7 +101,7 @@ internal sealed unsafe class RegionReader
                     long idLen = U32(p);
                     p += 4;
                     if (p + idLen > len) throw new OleanFormatException("truncated file");
-                    string id = System.Text.Encoding.UTF8.GetString(buf, (int)p, (int)idLen);
+                    string id = System.Text.Encoding.UTF8.GetString(buf + p, (int)idLen);
                     p += idLen;
                     functions[i] = (nint)FunctionTable.Resolve(id);
                     if (functions[i] == 0) closuresOk = false;
@@ -100,6 +109,17 @@ internal sealed unsafe class RegionReader
             }
         }
         if (dataSize < 8) throw new OleanFormatException("truncated file");
+        return new RegionLayout { Header = hdr, DataOff = dataOff, DataSize = dataSize, ClosuresOk = closuresOk, Functions = functions };
+    }
+
+    public static CompactedRegionData Parse(string path, byte[] buf, long len, IReadOnlyList<CompactedRegionData> deps)
+    {
+        RegionLayout layout;
+        fixed (byte* p0 = buf) layout = ParseLayout(p0, len);
+        var hdr = layout.Header;
+        long dataOff = layout.DataOff, dataSize = layout.DataSize;
+        bool closuresOk = layout.ClosuresOk;
+        nint[] functions = layout.Functions;
 
         var r = new RegionReader
         {
@@ -250,9 +270,11 @@ internal sealed unsafe class RegionReader
         s.NWords = 0;
     }
 
-    void SetDeps(IReadOnlyList<CompactedRegionData> deps)
+    void SetDeps(IReadOnlyList<CompactedRegionData> deps) => m_deps = SortDeps(deps);
+
+    internal static CompactedRegionData[] SortDeps(IReadOnlyList<CompactedRegionData> deps)
     {
-        if (deps == null || deps.Count == 0) { m_deps = Array.Empty<CompactedRegionData>(); return; }
+        if (deps == null || deps.Count == 0) return Array.Empty<CompactedRegionData>();
         var l = new List<CompactedRegionData>(deps.Count);
         foreach (var d in deps)
             if (d != null && !l.Contains(d)) l.Add(d);
@@ -260,7 +282,7 @@ internal sealed unsafe class RegionReader
         for (int i = 1; i < l.Count; i++)
             if (l[i - 1].BaseAddr + l[i - 1].Size > l[i].BaseAddr)
                 throw new OleanFormatException("region_reader: dep regions have overlapping `base_addr` ranges");
-        m_deps = l.ToArray();
+        return l.ToArray();
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -472,7 +494,7 @@ internal sealed unsafe class RegionReader
         return count;
     }
 
-    static long MinSize(int tag) => tag switch
+    internal static long MinSize(int tag) => tag switch
     {
         <= LeanRt.LeanMaxCtorTag => 8,
         LeanRt.LeanArray or LeanRt.LeanScalarArray or LeanRt.LeanClosure or LeanRt.LeanMPZ or LeanRt.LeanThunk or LeanRt.LeanTask => 24,
@@ -524,7 +546,7 @@ internal sealed unsafe class RegionReader
 internal static class RegionAddressSpace
 {
     /// <summary>Ids from the counter stay below this (2^36 objects would be needed to reach it).</summary>
-    const ulong MinBase = 1UL << 40;
+    internal const ulong MinBase = 1UL << 40;
 
     static readonly object s_lock = new();
     static readonly SortedList<ulong, ulong> s_ranges = new(); // base -> end

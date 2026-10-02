@@ -68,23 +68,26 @@ No test that is run fails.
       `.ltar` archives are about 7% larger than native `leantar`'s (which uses `zstd -19`), and
       level 19 runs at 10-30 MB/s. An optimal parser would close the gap.
 
-- [ ] **Memory.** `import Lean` allocates ~4.4 GB (native: ~2 GB mmap); a test worker reaches
-      5–8 GB on a 30 GB machine. Ideas: remove `m_id` (8 bytes on every object; use a side table
-      for `ptrAddrUnsafe`), move the scalar fields `s0`/`sx` out of constructor objects that have
-      no scalars, lazy/deferred `.olean` decoding.
+- [ ] **Memory.** `.olean` files are decoded lazily (docs/DESIGN.md, "Lazy decoding"): after
+      `import Lean` the managed heap is 0.76 GB instead of 4.2 GB (4.3 of about 55 million
+      objects are created), plus 1.9 GB of mapped files (shared, reclaimable page cache, as
+      natively). Further ideas: remove `m_id` (8 bytes on every object; use a side table for
+      `ptrAddrUnsafe`, though lazy decoding relies on it for region objects), move the scalar
+      fields `s0`/`sx` out of constructor objects that have no scalars, make array elements
+      lazy too. Objects created from a region are never released while the process lives.
 - [ ] **Compiling `LeanSharp.Lean`** peaks at ~22 GB in the C# compiler on a 24-core machine
       (about one minute). Options: split the generated code into several assemblies, or freeze a
       thin public runtime API.
-- [ ] **Startup.** With a plain build, `--version` takes 1.5 s and a trivial file 3.9 s (native:
-      1.2 s for the same file), most of it JIT compilation of the module initializers and of the
-      elaborator. `tools/publish.sh` precompiles the assemblies (ReadyToRun): 0.4 s and 1.9 s.
-      What remains is decoding the library files object by object (about 1.5 s for `Init`,
-      7.7 s versus 3.7 s natively for `import Lean`): the fix is lazy or deferred `.olean`
-      decoding, which is also the main memory item.
-- [ ] **Snapshots (`--incr-save`, `--incr-header-save`, `--incr-load`)** work, also across
-      processes, but bring no speed-up: saving the header snapshot of `import Lean` takes 15 s
-      (native: 1.9 s) and loading it 14 s, more than importing without a snapshot (9.5 s),
-      because the regions the snapshot depends on are still decoded object by object.
+- [ ] **Startup.** A one-line file takes 3.3 s with a plain build and 1.1 s with the
+      precompiled one (`tools/publish.sh`; native: 1.2 s); a file with `import Lean` 5.4 s and
+      3.3 s (native: 3.7 s). What remains for the plain build is JIT compilation; making the
+      precompiled build the default is a policy decision (see docs/RUNNING.md).
+- [ ] **Snapshots (`--incr-save`, `--incr-header-save`, `--incr-load`)**: loading the header
+      snapshot of `import Lean` takes 2.0 s (import without snapshot: 3.3 s, precompiled build);
+      saving it takes 6.2 s (native: 1.9 s).
+- [ ] On Windows the `.olean` files are copied into native memory instead of being mapped
+      (untested, like everything on Windows): 1.9 GB for `import Lean`, not shared between
+      processes.
 - [ ] Scalar field access in generated code now goes through `lean_ctor_get_uint8(o, offset)`
       (which reads the number of object fields) instead of the `_s` variants; the emitter could
       keep the fast variants for constructors without `USize` fields when it knows the layout.
@@ -94,8 +97,9 @@ No test that is run fails.
 - [ ] Generated code size: long mangled names; could shorten symbols with a name table.
 - [ ] CaDiCaL port is ~1–3× slower than native; the arena clause mover is not ported.
 - [ ] Kernel externs leak one reference count on results (performance only).
-- [ ] The test runner replaces a worker when its live heap exceeds 70% of its limit; with 4
-      workers on 30 GB that happens after almost every test that imports `Lean`.
+- [ ] The test runner replaces a worker when its live heap exceeds 70% of its limit. This was
+      frequent before lazy decoding (almost every test that imports `Lean`); how often it still
+      happens has not been measured.
 
 ## 4. Known limitations (documented, low priority)
 
@@ -198,7 +202,11 @@ most Lake/package tests on Linux.
   `tools/run-pile.sh elab 3 --filter '^1[0-9]{4}\.lean$'` (61 tests, ~1.5 min);
   `tools/run-pile.sh pkg 3` (5 min; exercises Lake, executables, tools).
 
-### What was verified in the Linux session (2026-10-01)
+### What was verified in the Linux session (2026-10-01/02)
+
+* After lazy `.olean` decoding was added (2026-10-02), every pile was rerun and passes as
+  listed in section 1; the full `elab` pile takes 26.5 min with 3 workers (60 min before),
+  `lake` 25 min (44 min; run it with `--timeout 900`: `tests/cache` needs 400 s).
 
 * After the last runtime change (stack probes in generated code, heartbeat counting), every
   pile was rerun on one build (commit `4ffeee2`) and passes as listed in section 1. The

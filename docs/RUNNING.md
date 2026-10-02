@@ -16,7 +16,7 @@ work for the library and the in-process test piles but has not been run yet.
   that checkout has to be built; a native Lean is only needed to *regenerate* `gen/`.
 * **RAM:** 32 GB recommended. Compiling the generated `LeanSharp.Lean` assembly (12.8M lines)
   peaks at about 22 GB in the C# compiler on a 24-core machine; a Lean process that
-  `import`s `Lean` uses 2–5 GB. See "Memory" below.
+  `import`s `Lean` uses 1–3 GB. See "Memory" below.
 
 ## Build
 
@@ -46,8 +46,8 @@ dotnet artifacts/publish/cli/LeanSharp.Cli.dll --version
 | | plain build | precompiled | native Lean |
 |---|---|---|---|
 | `lean --version` | 1.5 s | 0.4 s | |
-| a one-line file | 3.9 s | 1.9 s | 1.2 s |
-| a file with `import Lean` | 9.6 s | 7.7 s | 3.7 s |
+| a one-line file | 3.3 s | 1.1 s | 1.2 s |
+| a file with `import Lean` | 5.4 s | 3.3 s | 3.7 s |
 
 The precompiled assemblies are still .NET assemblies run by the .NET runtime, but they contain
 machine code for one platform (generated from the IL by the .NET SDK) and are twice as large;
@@ -136,7 +136,10 @@ Host process settings that matter (see `src/LeanSharp.Cli/LeanSharp.Cli.csproj`)
   call `LeanShell.RunOnCurrentThread` yourself, use `LeanHost.RunWithLargeStack`.
 
 Environment variables: `LEANSHARP_SYSROOT`, `LEANSHARP_OLEAN_CACHE=0` (disable the in-process
-cache of decoded `.olean` files), `LEAN_NUM_THREADS`.
+cache of `.olean` files), `LEANSHARP_OLEAN_LAZY=0` (convert every object of an `.olean` file
+when it is read instead of on demand; see DESIGN.md, "Lazy decoding"), `LEANSHARP_OLEAN_MMAP=0/1`
+(copy the files into memory / map them; mapping is the default except on Windows),
+`LEANSHARP_TRACE_OLEAN=1` (regions, created objects and memory at exit), `LEAN_NUM_THREADS`.
 
 Example program:
 
