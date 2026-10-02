@@ -25,8 +25,25 @@ public sealed unsafe class ObjectCompactor
     readonly Dictionary<Obj, ulong> m_objTable = new(1 << 16, ReferenceEqualityComparer.Instance);
     readonly MaxSharingTable m_maxSharing;
     readonly List<CompactedRegionData> m_depRegions;
-    Dictionary<Obj, ulong> m_depAddr;   // built on first use
+    Dictionary<Obj, ulong> m_depAddr;   // built on first use, for dep regions without address ids
+    CompactedRegionData[] m_depsByAddr;  // dep regions whose object ids are addresses, sorted by base
     readonly List<long> m_closureOffsets = new();
+    readonly List<nint> m_functions = new();
+    readonly Dictionary<nint, int> m_functionIndex = new();
+
+    /// <summary>The functions of the closures compacted so far (a closure's `m_fun` slot holds the index).</summary>
+    internal List<nint> Functions => m_functions;
+
+    int FunctionIndex(nint fn)
+    {
+        if (!m_functionIndex.TryGetValue(fn, out int i))
+        {
+            i = m_functions.Count;
+            m_functions.Add(fn);
+            m_functionIndex.Add(fn, i);
+        }
+        return i;
+    }
 
     // Explicit traversal stack.
     ulong[] m_tmp = new ulong[1024];
@@ -147,21 +164,43 @@ public sealed unsafe class ObjectCompactor
 
     bool TryDep(Obj o, out ulong off)
     {
-        if (m_depAddr == null)
+        if (m_depsByAddr == null)
         {
-            // Map every object of the dependency regions to its logical address.
+            m_depsByAddr = m_depRegions.Where(r => r.IdsAreAddresses).OrderBy(r => r.BaseAddr).ToArray();
+            // The other dependency regions (read while their address range was taken) need a map
+            // from every object to its logical address.
+            var rest = m_depRegions.Where(r => !r.IdsAreAddresses).ToList();
             int n = 0;
-            foreach (var r in m_depRegions) n += r.m_count;
+            foreach (var r in rest) n += r.m_count;
             var d = new Dictionary<Obj, ulong>(n, ReferenceEqualityComparer.Instance);
-            foreach (var r in m_depRegions)
+            foreach (var r in rest)
                 foreach (var (a, x) in r.Objects()) d.TryAdd(x, a);
             m_depAddr = d;
         }
-        if (m_depAddr.TryGetValue(o, out off))
+        // An object of a region with address ids: the id says which region and where.
+        ulong id = (ulong)o.m_id;
+        if (id != 0)
+        {
+            var deps = m_depsByAddr;
+            int lo = 0, hi = deps.Length;
+            while (lo < hi)
+            {
+                int mid = (lo + hi) >> 1;
+                if (deps[mid].BaseAddr <= id) lo = mid + 1; else hi = mid;
+            }
+            if (lo > 0 && deps[lo - 1].Contains(id))
+            {
+                off = id;
+                m_objTable[o] = off;
+                return true;
+            }
+        }
+        if (m_depAddr.Count != 0 && m_depAddr.TryGetValue(o, out off))
         {
             m_objTable[o] = off;
             return true;
         }
+        off = 0;
         return false;
     }
 
@@ -319,7 +358,8 @@ public sealed unsafe class ObjectCompactor
                 long sz = OleanLayout.ClosureHeader + 8L * n;
                 long at = Alloc(sz);
                 WriteHeader(at, sz, LeanRt.LeanClosure, o.m_other);
-                WriteU64(at + 8, (ulong)c.m_fun);
+                // the index of the function in the file's function table (see `FunctionTable`)
+                WriteU64(at + 8, (ulong)FunctionIndex((nint)c.m_fun));
                 WriteU16(at + 16, c.m_arity);
                 WriteU16(at + 18, c.m_num_fixed);
                 for (int i = 0; i < n; i++) WriteU64(at + OleanLayout.ClosureHeader + 8 * i, m_tmp[bas + i]);

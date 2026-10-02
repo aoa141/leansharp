@@ -31,6 +31,9 @@ public sealed class CompactedRegionData
     /// <summary>Raw root pointer as stored in the file (logical address or tagged scalar).</summary>
     public ulong RootAddr { get; internal set; }
 
+    /// <summary>Whether the identity (`m_id`) of every object of this region is its logical address (see `RegionAddressSpace`).</summary>
+    internal bool IdsAreAddresses;
+
     internal bool m_gmp;
     internal int m_count;           // number of objects in the file
     internal ulong m_firstObjOffset;

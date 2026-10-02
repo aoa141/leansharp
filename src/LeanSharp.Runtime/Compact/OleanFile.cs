@@ -147,16 +147,20 @@ public static class OleanFile
                 compactor.Alloc(8L * fileOffs.Count);
                 foreach (var o in fileOffs) ms.Write(BitConverter.GetBytes(o));
             }
-            // Relocation table: closures refer to code of this process only.
-            var id = Encoding.UTF8.GetBytes(RegionReader.ProcessLibId);
-            int nlibs = fileOffs.Count > 0 ? 1 : 0;
-            compactor.Alloc(4 + nlibs * (8 + 4 + id.Length));
-            ms.Write(BitConverter.GetBytes((uint)nlibs));
-            if (nlibs > 0)
+            // "Library" table: natively the shared libraries the closures' functions live in;
+            // here one entry per function, by name (entry i: u64 i, u32 length, name).
+            unsafe
             {
-                ms.Write(BitConverter.GetBytes(0UL));
-                ms.Write(BitConverter.GetBytes((uint)id.Length));
-                ms.Write(id);
+                var funs = fileOffs.Count > 0 ? compactor.Functions : new List<nint>();
+                var names = funs.Select(f => FunctionTable.Encode(FunctionTable.NameOf((void*)f))).ToList();
+                compactor.Alloc(4 + names.Sum(n => 8L + 4 + n.Length));
+                ms.Write(BitConverter.GetBytes((uint)names.Count));
+                for (int i = 0; i < names.Count; i++)
+                {
+                    ms.Write(BitConverter.GetBytes((ulong)i));
+                    ms.Write(BitConverter.GetBytes((uint)names[i].Length));
+                    ms.Write(names[i]);
+                }
             }
         }
         return ms.ToArray();

@@ -35,7 +35,14 @@ from the C files of the native build (the `.ir` files don't record declaration o
 See `src/LeanSharp.Runtime/Core/Obj.cs`. Every Lean value is an `Obj`. Tagged pointers become
 cached `Box` objects; constructor objects store up to 8 fields inline. Reference counts are kept
 exactly as in C because Lean relies on them for in-place updates; memory itself is reclaimed by
-the .NET GC. `ptrAddrUnsafe` is emulated with a lazily assigned unique id per object.
+the .NET GC. `ptrAddrUnsafe` is emulated with a unique id per object (`m_id`): the logical address for objects
+read from an `.olean` file (as natively, where the file is mapped at that address; this also lets
+the compactor recognise objects of dependency regions by a range check), and a lazily assigned
+counter value for all others.
+
+Closures can be saved (`--incr-save` snapshots): the file lists the static methods the closures
+point to by assembly, type and name (`Compact/FunctionTable.cs`), the managed counterpart of the
+native library-relative function addresses.
 
 ## Calls between runtime and generated code
 

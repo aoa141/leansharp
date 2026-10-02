@@ -97,6 +97,8 @@ static class Piles
     {
         if (File.Exists(f + ".no_test")) return true;
         var name = Path.GetFileName(f);
+        // files some tests create next to themselves (e.g. `compile_bench/incr_header_load`)
+        if (name.StartsWith("_tmp_", StringComparison.Ordinal)) return true;
         if (pile == "docparse" || pile == "server" || pile == "server_interactive") { if (name == "run_test.lean") return true; }
         if (Kind(pile) == "compile")
         {

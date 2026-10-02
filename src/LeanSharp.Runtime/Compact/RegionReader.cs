@@ -22,9 +22,6 @@ internal sealed unsafe class RegionReader
     /// <summary>Scratch buffers larger than this are not kept after a read.</summary>
     const long KeepScratchBytes = 256L << 20;
 
-    /// <summary>Identity of this process for closure relocation tables (see `ObjectCompactor`).</summary>
-    internal static readonly string ProcessLibId = "LeanSharp:" + Guid.NewGuid().ToString("N");
-
     Obj[] m_byWord;
     ulong m_base;
     ulong m_fileSize;
@@ -32,6 +29,8 @@ internal sealed unsafe class RegionReader
     string m_path;
     bool m_gmp;
     bool m_closuresOk;
+    bool m_assignIds;
+    nint[] m_functions;   // function table of the file (closures)
     int m_thread = Environment.CurrentManagedThreadId;
 
     public static CompactedRegionData ReadFile(string path, IReadOnlyList<CompactedRegionData> deps)
@@ -69,6 +68,7 @@ internal sealed unsafe class RegionReader
         long dataSize = len - OleanHeader.Size;
         bool closuresOk = true;
         long numClosures = 0;
+        nint[] functions = null;
         if (hdr.Version == 3)
         {
             if (len < OleanHeader.Size + 8) throw new OleanFormatException("truncated file");
@@ -81,9 +81,11 @@ internal sealed unsafe class RegionReader
             p += 4 + 8 * numClosures;
             if (numClosures > 0)
             {
-                // Closure function pointers are only meaningful in the process that wrote them.
+                // The functions of the closures, by name (see `FunctionTable`).
                 uint nlibs = U32(p);
                 p += 4;
+                if (nlibs > (len - p) / 12) throw new OleanFormatException("truncated file");
+                functions = new nint[nlibs];
                 for (uint i = 0; i < nlibs; i++)
                 {
                     p += 8;
@@ -92,7 +94,8 @@ internal sealed unsafe class RegionReader
                     if (p + idLen > len) throw new OleanFormatException("truncated file");
                     string id = System.Text.Encoding.UTF8.GetString(buf, (int)p, (int)idLen);
                     p += idLen;
-                    if (id != ProcessLibId) closuresOk = false;
+                    functions[i] = (nint)FunctionTable.Resolve(id);
+                    if (functions[i] == 0) closuresOk = false;
                 }
             }
         }
@@ -105,6 +108,11 @@ internal sealed unsafe class RegionReader
             m_path = path,
             m_gmp = hdr.Gmp,
             m_closuresOk = closuresOk,
+            m_functions = functions,
+            // Give the objects their logical address as identity (`ptrAddrUnsafe`), as natively,
+            // unless the address range is already taken (the file was read before, or two
+            // files happen to overlap): then they get ids from the counter as usual.
+            m_assignIds = RegionAddressSpace.TryReserve(hdr.BaseAddr, (ulong)len),
         };
         r.SetDeps(deps);
 
@@ -142,6 +150,7 @@ internal sealed unsafe class RegionReader
                     m_firstObjOffset = (ulong)(dataOff + 8),
                 };
                 region.m_dataEnd = (ulong)(dataOff + dataSize);
+                region.IdsAreAddresses = r.m_assignIds;
                 region.m_deps = r.m_deps;
                 if (EagerIndex)
                 {
@@ -166,7 +175,11 @@ internal sealed unsafe class RegionReader
                 Array.Clear(ordered, 0, ok ? count : ordered.Length);
                 t_ordered = ordered.LongLength * 8 <= KeepScratchBytes ? ordered : null;
             }
-            if (!ok) ReleaseDenseSlot(slot);
+            if (!ok)
+            {
+                ReleaseDenseSlot(slot);
+                if (r.m_assignIds) RegionAddressSpace.Release(hdr.BaseAddr);
+            }
         }
     }
 
@@ -309,6 +322,8 @@ internal sealed unsafe class RegionReader
         bool keepOrder = ordered != null;
         ref Obj ordered0 = ref keepOrder ? ref MemoryMarshal.GetArrayDataReference(ordered) : ref Unsafe.NullRef<Obj>();
         bool gmp = m_gmp;
+        bool assignIds = m_assignIds;
+        ulong baseAddr = m_base;
         while (pos < end)
         {
             byte* q = p + pos;
@@ -426,8 +441,10 @@ internal sealed unsafe class RegionReader
                     case LeanRt.LeanClosure:
                     {
                         if (!m_closuresOk)
-                            throw new OleanFormatException("library required for closure relocation is not loaded in this process (closures can only be loaded by the LeanSharp process that saved them)");
-                        void* fun = (void*)*(ulong*)(q + 8);
+                            throw new OleanFormatException("library required for closure relocation is not loaded in this process (the file was saved by a different LeanSharp build)");
+                        ulong funIndex = *(ulong*)(q + 8);
+                        if (m_functions == null || funIndex >= (ulong)m_functions.Length) throw Corrupt(pos, "bad closure function");
+                        void* fun = (void*)m_functions[funIndex];
                         ushort arity = *(ushort*)(q + 16);
                         ushort nfixed = *(ushort*)(q + 18);
                         sz = OleanLayout.ClosureHeader + 8L * nfixed;
@@ -442,6 +459,8 @@ internal sealed unsafe class RegionReader
                 }
             }
             Unsafe.Add(ref byWord0, (nint)(pos >> 3)) = o;
+            // (a small big number is read as a shared boxed scalar: no identity)
+            if (assignIds && o.m_tag != LeanRt.LeanBoxTag) o.m_id = (long)(baseAddr + (ulong)pos);
             if (keepOrder)
             {
                 if ((ulong)count >= (ulong)ordered.Length) throw Corrupt(pos, "too many objects");
@@ -491,5 +510,48 @@ internal sealed unsafe class RegionReader
                 return new CtorN { f0 = R(f), f1 = R(f + 8), f2 = R(f + 16), f3 = R(f + 24), f4 = R(f + 32), f5 = R(f + 40), f6 = R(f + 48), f7 = R(f + 56), rest = rest };
             }
         }
+    }
+}
+
+/// <summary>
+/// Address ranges of the loaded regions whose objects use their logical address as identity
+/// (`Obj.m_id`). Ranges never overlap, and they lie above the ids handed out by the counter in
+/// `LeanRt.lean_ptr_addr`, so an id identifies an object, and for these regions also its region
+/// and file offset (used by `ObjectCompactor` to refer to objects of dependency regions).
+/// A range stays reserved for the lifetime of the process: objects with those ids may live on
+/// after the region is released.
+/// </summary>
+internal static class RegionAddressSpace
+{
+    /// <summary>Ids from the counter stay below this (2^36 objects would be needed to reach it).</summary>
+    const ulong MinBase = 1UL << 40;
+
+    static readonly object s_lock = new();
+    static readonly SortedList<ulong, ulong> s_ranges = new(); // base -> end
+
+    public static bool TryReserve(ulong baseAddr, ulong size)
+    {
+        if (baseAddr < MinBase || size == 0 || baseAddr + size < baseAddr || (long)(baseAddr + size) < 0) return false;
+        ulong end = baseAddr + size;
+        lock (s_lock)
+        {
+            // first range with base >= baseAddr, and the one before it
+            int lo = 0, hi = s_ranges.Count;
+            while (lo < hi)
+            {
+                int mid = (lo + hi) >> 1;
+                if (s_ranges.Keys[mid] < baseAddr) lo = mid + 1; else hi = mid;
+            }
+            if (lo < s_ranges.Count && s_ranges.Keys[lo] < end) return false;
+            if (lo > 0 && s_ranges.Values[lo - 1] > baseAddr) return false;
+            s_ranges.Add(baseAddr, end);
+            return true;
+        }
+    }
+
+    /// <summary>Gives a range back (only for a read that failed: none of its objects escaped).</summary>
+    public static void Release(ulong baseAddr)
+    {
+        lock (s_lock) s_ranges.Remove(baseAddr);
     }
 }

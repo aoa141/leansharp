@@ -15,7 +15,7 @@ the standard library **built by LeanSharp itself** (`artifacts/selfhost`). Comma
 | `elab_fail` | 315 / 315 | |
 | `elab_bench` | 70 / 70 | |
 | `compile` (interpreter half) | 82 / 82 | |
-| `compile_bench` (interpreter half) | 27 / 29 | `incr_header_save` (needs `--mem 16`, see 3), `incr_header_load` (snapshot with closures, see 4) |
+| `compile_bench` (interpreter half) | 29 / 29 | |
 | `docparse` | 303 / 303 | |
 | `server` | 4 / 4 | |
 | `server_interactive` | 154 / 154 | |
@@ -40,7 +40,7 @@ Tests of scenarios LeanSharp does not support by design are **not run** by the t
   LeanSharp's kernel already rejects it during the build. The scenario is handled, soundly, but
   the output differs.
 
-The only failing tests are the two snapshot tests of `compile_bench` (sections 3 and 4).
+No test that is run fails.
 
 ## 2. Not done yet
 
@@ -79,11 +79,10 @@ The only failing tests are the two snapshot tests of `compile_bench` (sections 3
       module initializers). Options: ReadyToRun compilation of `LeanSharp.Lean`, lazy module
       initialization. This dominates the script-driven piles (every `lean`/`lake` call in a test
       script is a new process).
-- [ ] **Snapshots (`--incr-save`, `--incr-header-save`).** Saving maps every object of every
-      imported region through one big dictionary (`ObjectCompactor.TryDep`): 29 s and 8.4 GB for
-      `import Lean` vs 1.9 s natively. Idea: store the logical address of region objects in
-      `m_id` when reading (unless the region's address range overlaps another one), so that the
-      lookup is a range check.
+- [ ] **Snapshots (`--incr-save`, `--incr-header-save`, `--incr-load`)** work, also across
+      processes, but bring no speed-up: saving the header snapshot of `import Lean` takes 15 s
+      (native: 1.9 s) and loading it 14 s, more than importing without a snapshot (9.5 s),
+      because the regions the snapshot depends on are still decoded object by object.
 - [ ] Scalar field access in generated code now goes through `lean_ctor_get_uint8(o, offset)`
       (which reads the number of object fields) instead of the `_s` variants; the emitter could
       keep the fast variants for constructors without `USize` fields when it knows the layout.
@@ -121,8 +120,9 @@ The only failing tests are the two snapshot tests of `compile_bench` (sections 3
 - `Lean.manualRoot` (computed from `LEAN_MANUAL_ROOT` at initialization) is shared by the
   programs running concurrently in one OS process; all other global state of the Lean libraries
   is per program.
-- `.olean` files with closures (format v3, used by `--incr-save` snapshots) are only readable by
-  the process that wrote them.
+- `.olean` files with closures (format v3, used by `--incr-save` snapshots) name the closures'
+  functions (static methods of the LeanSharp assemblies) instead of using library-relative
+  addresses: they can be read by any process of the same LeanSharp build, not by native Lean.
 - The kernel rejects some forged values that native Lean's kernel accepts through undefined
   behavior (see `tests/challenge-olean-issue` above).
 
@@ -200,11 +200,10 @@ most Lake/package tests on Linux.
 
 ### What was verified in the Linux session (2026-10-01)
 
-* All piles were run on commit `26055fb` (after the plugin and initializer changes). After the
-  `leantar` port and the launcher change, `compile`, `misc`, `misc_dir`, `pkg`, the full `lake`
-  pile, the API tests and a 437-test `elab` subset were rerun; the other in-process piles were
-  not (the change does not touch the runtime). The script-driven piles run without elan on
-  `PATH`, so no native Lean tool can take part.
+* After the last runtime change (object identity of library objects, closures saved by name),
+  every pile except `lake` was rerun on one build and passes as listed in section 1; `lake` was
+  last run in full on the build before that change (88 of the 88 supported tests). The
+  script-driven piles run without elan on `PATH`, so no native Lean tool can take part.
 * `leantar`: the lgz encoder's output is byte-identical to the native tool's on 60 modules;
   archives of 51 modules were packed and unpacked with the native and the managed tool in every
   combination; `tools/run-checks.sh zstd leantar` cross-checks the Zstandard codec against

@@ -73,7 +73,7 @@ Linux x64, using the standard library built by LeanSharp itself:
 | `elab_fail` | 315 / 315 |
 | `elab_bench` | 70 / 70 |
 | `compile` (interpreter half) | 82 / 82 |
-| `compile_bench` (interpreter half) | 27 / 29 |
+| `compile_bench` (interpreter half) | 29 / 29 |
 | `docparse` | 303 / 303 |
 | `server`, `server_interactive` (LSP) | 4 / 4, 154 / 154 |
 | `misc`, `misc_dir` | 5 / 5, 2 / 2 |
