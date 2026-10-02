@@ -201,8 +201,7 @@ most Lake/package tests on Linux.
 ### What was verified in the Linux session (2026-10-01)
 
 * After the last runtime change (object identity of library objects, closures saved by name),
-  every pile except `lake` was rerun on one build and passes as listed in section 1; `lake` was
-  last run in full on the build before that change (88 of the 88 supported tests). The
+  every pile was rerun on one build (commit `2579892`) and passes as listed in section 1. The
   script-driven piles run without elan on `PATH`, so no native Lean tool can take part.
 * `leantar`: the lgz encoder's output is byte-identical to the native tool's on 60 modules;
   archives of 51 modules were packed and unpacked with the native and the managed tool in every
