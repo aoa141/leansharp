@@ -51,6 +51,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_Body_Empty_recvSelector___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -61,6 +62,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_Body_Empty_recv(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -69,6 +71,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Body_Empty_isClosed___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -77,6 +80,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Body_instEmpty___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -111,6 +115,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Body_instCoeContextAsyncResponseEmptyAny___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -146,6 +151,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Body_instEmpty___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -155,6 +161,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Body_Empty_recvSelector___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -184,6 +191,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Body_Empty_tryRecv___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -192,6 +200,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Body_instCoeContextAsyncResponseEmptyAny___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -476,6 +485,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Body_instBEqEmpty_beq___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -514,6 +524,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Body_Empty_recvSelector___redArg___lam__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -546,6 +557,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Body_Empty_close(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -602,6 +614,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Body_instCoeAsyncResponseEmptyContextAsyncAny___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -773,6 +786,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Body_Empty_close___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -789,6 +803,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Body_Empty_recvSelector(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -863,6 +878,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Body_instReplayableEmpty___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -988,6 +1004,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Body_instEmpty___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

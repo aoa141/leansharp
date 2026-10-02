@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Option_Coe {
 public static Obj l_optionCoe___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23,6 +24,7 @@ return x_2;
 }
 }
 public static Obj l_optionCoe(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

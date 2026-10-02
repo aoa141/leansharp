@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Float_Model_Unpacked_Operations_Status {
 public static Obj l_Float_Model_UnpackedFloat_isNaN___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -17,6 +18,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_isFinite___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

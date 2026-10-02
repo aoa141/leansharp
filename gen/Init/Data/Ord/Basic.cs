@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Ord_Basic {
 public static Obj l_Ordering_lt_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -49,6 +50,7 @@ return x_2;
 }
 }
 public static Obj l_instOrdFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -68,6 +70,7 @@ return x_1;
 }
 }
 public static Obj l_Ordering_isEq___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -140,6 +143,7 @@ return x_2;
 }
 }
 public static byte l_instDecidableEqOrdering(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -152,6 +156,7 @@ return x_5;
 }
 }
 public static Obj l_Ord_toLE___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -215,6 +220,7 @@ return x_15;
 }
 }
 public static Obj l_instDecidableRelLe___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -224,6 +230,7 @@ return x_6;
 }
 }
 public static Obj l_Ord_opposite___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -254,6 +261,7 @@ return x_8;
 }
 }
 public static Obj l_instReprOrdering_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; 
@@ -376,6 +384,7 @@ return x_5;
 }
 }
 public static Obj l_compareOfLessAndBEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -386,6 +395,7 @@ return x_7;
 }
 }
 public static Obj l_ltOfOrd___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -425,6 +435,7 @@ return x_7;
 }
 }
 public static Obj l_Ordering_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -435,6 +446,7 @@ return x_3;
 }
 }
 public static Obj l_lexOrd___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -596,6 +608,7 @@ return x_11;
 }
 }
 public static Obj l_Ordering_gt_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -605,6 +618,7 @@ return x_2;
 }
 }
 public static Obj l_List_compareLex___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -630,6 +644,7 @@ return x_2;
 }
 }
 public static Obj l_compareOfLessAndEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -675,6 +690,7 @@ return x_1;
 }
 }
 public static Obj l_instOrdBitVec___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -719,6 +735,7 @@ return x_1;
 }
 }
 public static Obj l_compareOfLessAndBEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -799,6 +816,7 @@ return x_8;
 }
 }
 public static Obj l_Ord_toLE___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -807,6 +825,7 @@ return x_2;
 }
 }
 public static Obj l_compareOn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -931,6 +950,7 @@ return x_5;
 }
 }
 public static Obj l_List_compareLex___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -957,6 +977,7 @@ return x_3;
 }
 }
 public static Obj l_instOrdBool___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -989,6 +1010,7 @@ return x_7;
 }
 }
 public static Obj l_Ordering_gt_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1043,6 +1065,7 @@ return x_6;
 }
 }
 public static Obj l_leOfOrd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1112,6 +1135,7 @@ return x_11;
 }
 }
 public static Obj l_instOrdChar___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1234,6 +1258,7 @@ return x_2;
 }
 }
 public static Obj l_Ordering_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1291,6 +1316,7 @@ return x_2;
 }
 }
 public static Obj l_Ordering_isGE___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1309,6 +1335,7 @@ return x_2;
 }
 }
 public static Obj l_Ordering_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1334,6 +1361,7 @@ return x_2;
 }
 }
 public static Obj l_instOrdBitVec___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1384,6 +1412,7 @@ return x_7;
 }
 }
 public static Obj l_Ordering_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1403,6 +1432,7 @@ return x_3;
 }
 }
 public static Obj l_Ordering_instDecidableForallOfDecidablePred___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1412,6 +1442,7 @@ return x_4;
 }
 }
 public static Obj l_Ordering_isGT___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1452,6 +1483,7 @@ return x_7;
 }
 }
 public static Obj l_Ordering_isLE___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1521,6 +1553,7 @@ return x_2;
 }
 }
 public static Obj l_Ordering_instDecidableForallOfDecidablePred___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1610,6 +1643,7 @@ return x_6;
 }
 }
 public static Obj l_compareLex___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1779,6 +1813,7 @@ return x_10;
 }
 }
 public static Obj l_instOrdFin___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1796,6 +1831,7 @@ return x_8;
 }
 }
 public static Obj l_Ordering_instDecidableExistsOfDecidablePred___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1996,6 +2032,7 @@ return x_4;
 }
 }
 public static byte l_List_compareLex___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

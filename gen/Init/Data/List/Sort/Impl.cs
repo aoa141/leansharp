@@ -131,6 +131,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -266,6 +267,7 @@ goto _start;
 }
 }
 public static Obj l_List_MergeSort_Internal_splitRevInTwo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -308,6 +310,7 @@ return x_1;
 }
 }
 public static Obj l_List_MergeSort_Internal_mergeTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -429,6 +432,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_u2082_run___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -466,6 +470,7 @@ return x_3;
 }
 }
 public static Obj l_List_MergeSort_Internal_splitRevAt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -474,6 +479,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_u2082_run_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -492,6 +498,7 @@ return x_5;
 }
 }
 public static Obj l_List_MergeSort_Internal_splitRevInTwo(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -511,6 +518,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_u2082_run_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -564,6 +572,7 @@ return x_20;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_run_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -581,6 +590,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_u2082_run___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -648,6 +658,7 @@ return x_5;
 }
 }
 public static Obj l_List_MergeSort_Internal_splitRevInTwo_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -656,6 +667,7 @@ return x_4;
 }
 }
 public static Obj l_List_MergeSort_Internal_splitRevAt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -665,6 +677,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_run___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -935,6 +948,7 @@ return x_1;
 }
 }
 public static Obj l_List_MergeSort_Internal_mergeSortTR_u2082(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -963,6 +977,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_splitRevAt_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -981,6 +996,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_run___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1047,6 +1063,7 @@ return x_3;
 }
 }
 public static Obj l_List_MergeSort_Internal_mergeSortTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1216,6 +1233,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_splitRevAt_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -1412,6 +1430,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_run(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1683,6 +1702,7 @@ return x_16;
 }
 }
 public static Obj l___private_Init_Data_List_Sort_Impl_0__List_MergeSort_Internal_mergeSortTR_run___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

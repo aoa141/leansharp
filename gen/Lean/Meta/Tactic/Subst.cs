@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Subst {
 public static Obj l_Lean_Meta_heqToEq___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -16,6 +17,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_substVars(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -135,6 +137,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__1_spec__4(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -408,6 +411,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Meta_substCore_spec__8(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -432,6 +436,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_LocalContext_findDeclM_x3f___at___00Lean_Meta_substVar_spec__0_spec__0_spec__2_spec__4(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; byte x_16 = 0; 
@@ -962,6 +967,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_heqToEq___lam__0(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1536,6 +1542,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_exprDependsOn___at___00Lean_Meta_substCore_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_27 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; byte x_36 = 0; 
@@ -1662,6 +1669,7 @@ goto block_26;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_foldM_loop___at___00Lean_Meta_substCore_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -1702,6 +1710,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_substSomeVar_x3f___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1850,6 +1859,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_substEq___lam__0(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2551,6 +2561,7 @@ return x_133;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_LocalContext_findDeclM_x3f___at___00Lean_Meta_substVar_spec__0_spec__0_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; byte x_16 = 0; 
@@ -3080,6 +3091,7 @@ return x_14;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_findSomeMAux___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_LocalContext_findDeclM_x3f___at___00Lean_Meta_substVar_spec__0_spec__0_spec__1_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -3231,6 +3243,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_substCore_spec__9(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3291,6 +3304,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -3563,6 +3577,7 @@ return x_21;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -3581,6 +3596,7 @@ return x_14;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2_spec__2___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; 
@@ -3591,6 +3607,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_subst___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3617,6 +3634,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3733,6 +3751,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3780,6 +3799,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3788,6 +3808,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_withLocalDecl___at___00Lean_Meta_withLocalDeclD___at___00Lean_Meta_substCore_spec__5_spec__7___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3812,6 +3833,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Subst_0__Lean_Meta_initFn_00___x40_Lean_Meta_Tactic_Subst_1630641459____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3841,6 +3863,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_introSubstEq___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -3864,6 +3887,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4_spec__5_spec__8_spec__13(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3925,6 +3949,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_observing_x3f___at___00Lean_Meta_substVar_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3945,6 +3970,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3953,6 +3979,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_substCore___lam__3(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, byte x_6, byte x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_51 = null; 
@@ -5896,6 +5923,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6165,6 +6193,7 @@ return x_63;
 }
 }
 public static Obj l_Lean_Meta_withLocalDeclD___at___00Lean_Meta_substCore_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6173,6 +6202,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_addTrace___at___00Lean_Meta_substCore_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6185,6 +6215,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_PersistentArray_findSomeM_x3f___at___00Lean_LocalContext_findDeclM_x3f___at___00Lean_Meta_substVar_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6198,6 +6229,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_commitIfNoEx___at___00Lean_Meta_introSubstEq_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6228,6 +6260,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_substCore___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6240,6 +6273,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2_spec__2_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -6288,6 +6322,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_substCore___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -6329,6 +6364,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4_spec__5_spec__8___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -6341,6 +6377,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_Meta_substCore_spec__7___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6363,6 +6400,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_introSubstEq_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6379,6 +6417,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_substCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; 
@@ -6418,6 +6457,7 @@ Obj x_21 = _args[20];
 Obj x_22 = _args[21];
 Obj x_23 = _args[22];
 Obj x_24 = _args[23];
+lean_stack_probe();
 _start:
 {
 byte x_25 = 0; byte x_26 = 0; byte x_27 = 0; byte x_28 = 0; byte x_29 = 0; Obj x_30 = null; 
@@ -6462,6 +6502,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_substSomeVar_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -6473,6 +6514,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_observing_x3f___at___00Lean_Meta_substVar_x3f_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6496,6 +6538,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_exprDependsOn___at___00Lean_Meta_substCore_spec__3___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -6539,6 +6582,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_trySubst(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6683,6 +6727,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_addMessageContextFull___at___00Lean_addTrace___at___00Lean_Meta_substCore_spec__2_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6695,6 +6740,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4_spec__5_spec__8_spec__14___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -6731,6 +6777,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_heqToEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -6790,6 +6837,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4_spec__5_spec__8_spec__13_spec__14___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -6919,6 +6967,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4_spec__5_spec__8_spec__14(Obj x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -7002,6 +7051,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4_spec__5_spec__8___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7278,6 +7328,7 @@ return x_57;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__0_spec__2_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -7307,6 +7358,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_subst___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -7319,6 +7371,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_withLocalDeclD___at___00Lean_Meta_substCore_spec__5___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -7331,6 +7384,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_substVar___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -7343,6 +7397,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_PersistentArray_findSomeMAux___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_LocalContext_findDeclM_x3f___at___00Lean_Meta_substVar_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -7376,6 +7431,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_exprDependsOn___at___00Lean_Meta_substCore_spec__3___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7387,6 +7443,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_introSubstEq_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7399,6 +7456,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentArray_findSomeM_x3f___at___00Lean_LocalContext_findDeclM_x3f___at___00Lean_Meta_substVar_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -7559,6 +7617,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_substCore(Obj x_1, Obj x_2, byte x_3, Obj x_4, byte x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -7824,6 +7883,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_substVar(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -7856,6 +7916,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_substEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -7918,6 +7979,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_substCore_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; 
@@ -7933,6 +7995,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_withLocalDecl___at___00Lean_Meta_withLocalDeclD___at___00Lean_Meta_substCore_spec__5_spec__7(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -7941,6 +8004,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7950,6 +8014,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8157,6 +8222,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_substVar_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -8169,6 +8235,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_LocalContext_findDeclM_x3f___at___00Lean_Meta_substVar_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -8412,6 +8479,7 @@ return x_5;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2_spec__2_spec__3_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8457,6 +8525,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__0_spec__2_spec__3(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -8733,6 +8802,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_substCore_x3f(Obj x_1, Obj x_2, byte x_3, Obj x_4, byte x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -8784,6 +8854,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_withLocalDeclD___at___00Lean_Meta_substCore_spec__5___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; 
@@ -9086,6 +9157,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_trySubstVar(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -9217,6 +9289,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_introSubstEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -9230,6 +9303,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2_spec__2_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -9243,6 +9317,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_introSubstEq___lam__0(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -10329,6 +10404,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Lean_Meta_substCore_spec__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -10341,6 +10417,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2_spec__2_spec__3_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -10387,6 +10464,7 @@ return x_6;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2_spec__2_spec__3___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10524,6 +10602,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_withLocalDecl___at___00Lean_Meta_withLocalDeclD___at___00Lean_Meta_substCore_spec__5_spec__7___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; byte x_12 = 0; Obj x_13 = null; 
@@ -10570,6 +10649,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__0_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -11049,6 +11129,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_MVarId_isAssigned___at___00Lean_Meta_introSubstEq_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11163,6 +11244,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_introSubstEq___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -11187,6 +11269,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_introSubstEq___lam__1(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_41 = null; Obj x_42 = null; byte x_43 = 0; 
@@ -11682,6 +11765,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Meta_substCore_spec__4_spec__5_spec__8_spec__14___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -11727,6 +11811,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_substSomeVar_x3f_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; 
@@ -11927,6 +12012,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_subst_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -12094,6 +12180,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_subst___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -12563,6 +12650,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_substCore___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9, byte x_10, byte x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, byte x_17, byte x_18, Obj x_19, Obj x_20, Obj x_21, Obj x_22, Obj x_23) {
+lean_stack_probe();
 _start:
 {
 Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_95 = null; Obj x_96 = null; Obj x_97 = null; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; Obj x_101 = null; byte x_125 = 0; Obj x_126 = null; Obj x_127 = null; Obj x_128 = null; Obj x_129 = null; Obj x_130 = null; Obj x_131 = null; Obj x_132 = null; Obj x_133 = null; byte x_166 = 0; Obj x_167 = null; Obj x_168 = null; Obj x_169 = null; Obj x_181 = null; 

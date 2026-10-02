@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_CtorIdx {
 public static Obj l_Lean_Expr_withAppAux___at___00Lean_Meta_Grind_propagateCtorIdxUp_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -25,6 +26,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_propagateCtorIdxUp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -77,6 +79,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Lean_Meta_Grind_propagateCtorIdxUp_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -105,6 +108,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_withAppAux___at___00Lean_Meta_Grind_propagateCtorIdxUp_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 5)

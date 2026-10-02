@@ -63,6 +63,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Grind_Fin_instCommRingFinOfNeZeroNat___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

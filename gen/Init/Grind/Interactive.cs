@@ -596,6 +596,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__grindTry____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -739,6 +740,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__grindExact____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3710,6 +3712,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__use__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4317,6 +4320,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__grindAdmit__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4422,6 +4426,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__grind___x3c_x3b_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4975,6 +4980,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__grind_xb7____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6884,6 +6890,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__symIntroLight__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8075,6 +8082,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__grindRepeat____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9147,6 +9155,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__use__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9523,6 +9532,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Tactic_Grind___aux__Init__Grind__Interactive______macroRules__Lean__Parser__Tactic__Grind__symIntrosLight__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

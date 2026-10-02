@@ -104,6 +104,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_DocScope_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -247,6 +248,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_DocScope_local_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -323,6 +325,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_instFromDocArgDocScope___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -337,6 +340,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_instFromDocArgDocScope___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; byte x_30 = 0; byte x_181 = 0; 
@@ -1033,6 +1037,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_DocScope_import_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1327,6 +1332,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instFromDocArgDocScope___private__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1455,6 +1461,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instFromDocArgDocScope___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; byte x_28 = 0; byte x_179 = 0; 

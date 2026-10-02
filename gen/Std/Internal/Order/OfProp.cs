@@ -110,6 +110,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__OfProp______unexpand__Lean__Order__CompleteLattice__ofProp__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -167,6 +168,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__OfProp______unexpand__Lean__Order__CompleteLattice__ofProp__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -386,6 +388,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__OfProp______macroRules__Lean__Order__term_u231c___u231d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

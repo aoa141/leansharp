@@ -31,6 +31,7 @@ return x_8;
 }
 }
 public static Obj l_List_flatMapMTR___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -64,6 +65,7 @@ return x_11;
 }
 }
 public static Obj l_List_flatMapMTR_loop___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -75,6 +77,7 @@ return x_7;
 }
 }
 public static Obj l_List_flatMapMTR_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -83,6 +86,7 @@ return x_8;
 }
 }
 public static Obj l_List_flatMapMTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -116,6 +120,7 @@ return x_8;
 }
 }
 public static Obj l_List_flatMapMTR_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

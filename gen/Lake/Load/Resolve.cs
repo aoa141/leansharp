@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Load_Resolve {
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Workspace_materializeDeps_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -31,6 +32,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldl___at___00Lean_NameMap_toJson___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__5_spec__7(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -39,6 +41,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_updateAndMaterializeDep(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; Obj x_39 = null; Obj x_40 = null; 
@@ -323,6 +326,7 @@ return x_33;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore___elam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -474,6 +478,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateToolchain_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -488,6 +493,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateDepPkgs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_26 = 0; 
@@ -642,6 +648,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_addDependencyEntries_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -656,6 +663,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -666,6 +674,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_forInStep___at___00__private_Lake_Load_Resolve_0__Lake_reuseManifest_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -776,6 +785,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_NameMap_toJson___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__5(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -787,6 +797,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateToolchain___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__7(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_33 = null; byte x_34 = 0; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; byte x_52 = 0; byte x_53 = 0; Obj x_54 = null; Obj x_55 = null; Obj x_198 = null; byte x_199 = 0; Obj x_204 = null; Obj x_205 = null; 
@@ -1756,6 +1767,7 @@ goto block_197;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateToolchain___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1781,6 +1793,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1791,6 +1804,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1824,6 +1838,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_validateManifest_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -1857,6 +1872,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___redArg___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1868,6 +1884,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_validateManifest_spec__0___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1878,6 +1895,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_addFacetDecls(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1919,6 +1937,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00Lake_Workspace_materializeDeps_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, ulong x_8, ulong x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; 
@@ -2445,6 +2464,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_reuseManifest_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -2480,6 +2500,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_Load_Resolve_0__Lake_reuseManifest_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -2510,6 +2531,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_reuseManifest___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2522,6 +2544,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_reuseManifest___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__3___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2758,6 +2781,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__4_spec__4___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2779,6 +2803,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_mkDepLoadConfig___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2789,6 +2814,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00Lake_Workspace_materializeDeps_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_24 = null; Obj x_25 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; byte x_35 = 0; 
@@ -3032,6 +3058,7 @@ goto block_23;
 }
 }
 public static Obj l___private_Init_Data_Vector_Basic_0__Vector_mapM_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__6___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -3053,6 +3080,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_reuseManifest_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3233,6 +3261,7 @@ return x_7;
 }
 }
 public static Obj l_Nat_foldRev___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateDepPkgs_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3253,6 +3282,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Workspace_updateAndMaterialize_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -3290,6 +3320,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_addDependencyEntries_spec__0___redArg(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_14 = null; Obj x_15 = null; byte x_19 = 0; 
@@ -3515,6 +3546,7 @@ goto block_13;
 }
 }
 public static Obj l_Lake_Workspace_materializeDeps___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -3526,6 +3558,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_addDependencyEntries___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore___elam__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3534,6 +3567,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -4104,6 +4138,7 @@ return x_132;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_validateManifest(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -4172,6 +4207,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_Workspace_updateAndMaterialize(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4475,6 +4511,7 @@ return x_69;
 }
 }
 public static Obj l_Nat_foldRev___at___00Nat_foldRev___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateDepPkgs_spec__1_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -4622,6 +4659,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_setDepIdxs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4630,6 +4668,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__4(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -4668,6 +4707,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_setDepIdxs___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; byte x_28 = 0; byte x_49 = 0; 
@@ -4845,6 +4885,7 @@ return x_41;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_reuseManifest_spec__4___redArg(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; byte x_16 = 0; 
@@ -4911,6 +4952,7 @@ goto block_13;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_addDependencyEntries(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_68 = null; Obj x_69 = null; Obj x_70 = null; Obj x_71 = null; Obj x_87 = null; 
@@ -5345,6 +5387,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_writeManifest___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5355,6 +5398,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00Lake_Workspace_materializeDeps_spec__0_spec__0_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, ulong x_8, ulong x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -5363,6 +5407,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___redArg___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; 
@@ -5372,6 +5417,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__4___redArg(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; byte x_36 = 0; 
@@ -5663,6 +5709,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Package_runPostUpdateHooks_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_14 = null; byte x_17 = 0; 
@@ -5840,6 +5887,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_ResolveState_newDep(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_39 = 0; 
@@ -6259,6 +6307,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_writeManifest(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; byte x_24 = 0; 
@@ -6360,6 +6409,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateDepPkgs_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -6400,6 +6450,7 @@ return x_7;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__9___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -6477,6 +6528,7 @@ return x_16;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__4_spec__4___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -6492,6 +6544,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -6502,6 +6555,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateToolchain_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -6577,6 +6631,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert_x21___at___00Lean_NameMap_toJson___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__5_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -8324,6 +8379,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_reuseManifest___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8334,6 +8390,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__4_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; Obj x_15 = null; 
@@ -8389,6 +8446,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_validateManifest_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_13 = null; byte x_16 = 0; 
@@ -8589,6 +8647,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_mkDepLoadConfig(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; 
@@ -8696,6 +8755,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_addDepPackage_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -8705,6 +8765,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_addDepPackage_x27_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -10140,6 +10201,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; Obj x_13 = null; 
@@ -10149,6 +10211,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go_match__6_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10190,6 +10253,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_reuseManifest_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -10293,6 +10357,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_updateAndMaterializeDep___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore___elam__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -10586,6 +10651,7 @@ return x_33;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_ResolveState_newDep___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_38 = 0; 
@@ -10729,6 +10795,7 @@ return x_32;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateToolchain_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -10823,6 +10890,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_reuseManifest(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; byte x_83 = 0; Obj x_84 = null; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; Obj x_129 = null; Obj x_130 = null; byte x_135 = 0; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_205 = null; Obj x_206 = null; Obj x_207 = null; Obj x_222 = null; 
@@ -11749,6 +11817,7 @@ return x_216;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_reuseManifest_spec__3(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -11798,6 +11867,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateToolchain_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_13 = 0; 
@@ -12250,6 +12320,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__9___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -12409,6 +12480,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__4_spec__4___redArg(Obj x_1, Obj x_2, byte x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -12851,6 +12923,7 @@ return x_112;
 }
 }
 public static Obj l___private_Init_Data_Vector_Basic_0__Vector_mapM_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -12873,6 +12946,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore___at___00Lake_Workspace_updateAndMaterialize_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -13453,6 +13527,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_updateAndAddDep___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -13493,6 +13568,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateDepPkgs_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -13600,6 +13676,7 @@ return x_28;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__9(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -13616,6 +13693,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_writeManifest_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -13655,6 +13733,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Workspace_materializeDeps_spec__1_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -13680,6 +13759,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__9___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; byte x_16 = 0; 
@@ -14537,6 +14617,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_addDependencyEntries___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore___elam__0_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_79 = null; 
@@ -14954,6 +15035,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_Load_Resolve_0__Lake_reuseManifest_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -14977,6 +15059,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___at___00Lake_Workspace_materializeDeps_spec__0_spec__0_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, ulong x_7, ulong x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; 
@@ -15538,6 +15621,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_validateManifest_spec__0___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -15569,6 +15653,7 @@ return x_21;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_reuseManifest___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; byte x_83 = 0; Obj x_84 = null; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; byte x_129 = 0; Obj x_130 = null; Obj x_131 = null; Obj x_132 = null; Obj x_197 = null; Obj x_198 = null; Obj x_199 = null; Obj x_214 = null; 
@@ -16612,6 +16697,7 @@ return x_22;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00Std_DTreeMap_Internal_Impl_foldl___at___00Lean_NameMap_toJson___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__5_spec__7_spec__10(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -16651,6 +16737,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_foldRev___at___00Nat_foldRev___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateDepPkgs_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16871,6 +16958,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__8(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16990,6 +17078,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_updateToolchain(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; byte x_36 = 0; Obj x_37 = null; Obj x_38 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; byte x_52 = 0; byte x_53 = 0; Obj x_54 = null; Obj x_55 = null; Obj x_196 = null; byte x_197 = 0; Obj x_202 = null; Obj x_203 = null; 
@@ -17992,6 +18081,7 @@ goto block_195;
 }
 }
 public static Obj l___private_Lake_Load_Resolve_0__Lake_Workspace_resolveDepsCore_go___redArg___lam__6(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -18128,6 +18218,7 @@ return x_45;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__8___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18484,6 +18575,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_writeManifest_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -18666,6 +18758,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_addFacetDecls_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -19054,6 +19147,7 @@ return x_72;
 }
 }
 public static Obj l___private_Init_Data_Vector_Basic_0__Vector_mapM_go___at___00__private_Lake_Load_Resolve_0__Lake_Workspace_updateAndMaterializeCore_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 

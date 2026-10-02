@@ -141,6 +141,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00__private_Lean_Meta_Sym_DSimp_App_0__Lean_Meta_Sym_DSimp_dsimpAppArgs_go_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -160,6 +161,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Sym_Internal_mkAppS___at___00__private_Lean_Meta_Sym_DSimp_App_0__Lean_Meta_Sym_DSimp_dsimpAppArgs_go_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -201,6 +203,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_dsimpAppArgs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -339,6 +342,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_DSimp_App_0__Lean_Meta_Sym_DSimp_dsimpAppArgs_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -422,6 +426,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_DSimp_App_0__Lean_Meta_Sym_DSimp_dsimpAppArgs_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; byte x_15 = 0; Obj x_16 = null; Obj x_20 = null; Obj x_31 = null; Obj x_35 = null; Obj x_46 = null; Obj x_50 = null; 

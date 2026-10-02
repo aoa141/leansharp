@@ -192,6 +192,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Do_SPred_Notation_unpack___at___00Std_Do_unexpandTriple_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -246,6 +247,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Do_SPred_Notation_unpack___at___00Std_Do_unexpandTriple_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1001,6 +1003,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Do_unexpandTriple(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

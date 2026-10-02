@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_Tactic_Basic {
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0_spec__2_spec__4___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -27,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tagUntaggedGoals(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; byte x_19 = 0; byte x_43 = 0; 
@@ -173,6 +175,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withSuppressedMessages(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -211,6 +214,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Elab_Tactic_ensureHasNoMVars___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -225,6 +229,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -233,6 +238,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getMainModule(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -262,6 +268,7 @@ return x_1;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -322,6 +329,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tryCatchRestore(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -488,6 +496,7 @@ return x_34;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withRestoreOrSaveFull___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -498,6 +507,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -799,6 +809,7 @@ goto block_50;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_log___at___00Lean_logError___at___00Lean_Elab_Term_reportUnsolvedGoals_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -814,6 +825,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -947,6 +959,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getCurrMacroScope___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -963,6 +976,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_Tactic_saveTacticInfoForToken___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -979,6 +993,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_logException___at___00Lean_Elab_Tactic_closeUsingOrAdmit_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1122,6 +1137,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1138,6 +1154,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withRestoreOrSaveFull___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -1154,6 +1171,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getMainDecl___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1275,6 +1293,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_withMacroExpansionInfo___at___00Lean_Elab_Tactic_adaptExpander_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; 
@@ -1286,6 +1305,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Elab_Tactic_saveTacticInfoForToken___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1325,6 +1345,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_MVarId_isAssigned___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1335,6 +1356,7 @@ return x_4;
 }
 }
 public static Obj l_List_forM___at___00Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1355,6 +1377,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getMainTarget___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1393,6 +1416,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getMainGoal___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1416,6 +1440,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_withInfoTreeContext___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1424,6 +1449,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Elab_Tactic_instMonadBacktrackSavedStateTacticM___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -1433,6 +1459,7 @@ return x_12;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1441,6 +1468,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Options_toLinterOptions___at___00Lean_Linter_getLinterOptions___at___00Lean_Linter_logLintIf___at___00Lean_Elab_checkDeprecatedSyntax___at___00Lean_Elab_Tactic_evalTactic_spec__2_spec__6_spec__10_spec__16___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1450,6 +1478,7 @@ return x_4;
 }
 }
 public static byte l_List_any___at___00Lean_Elab_Tactic_hasErrorMessages_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1580,6 +1609,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -1606,6 +1636,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_throwMaxRecDepthAt___at___00Lean_Elab_Tactic_evalTactic_spec__6___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1625,6 +1656,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1641,6 +1673,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_Tactic_ensureHasNoMVars(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1671,6 +1704,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaMAtMain(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; 
@@ -1681,6 +1715,7 @@ return x_13;
 }
 }
 public static Obj l_List_forM___at___00Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1772,6 +1807,7 @@ Obj x_14 = _args[13];
 Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
+lean_stack_probe();
 _start:
 {
 Obj x_18 = null; 
@@ -1788,6 +1824,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Elab_Tactic_instOrElseTacticM(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1796,6 +1833,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_SavedState_restore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; Obj x_13 = null; 
@@ -1813,6 +1851,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Elab_getResetInfoTrees___at___00Lean_Elab_withInfoTreeContext___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__4_spec__7___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1922,6 +1961,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0_spec__2_spec__3_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -2040,6 +2080,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Elab_Tactic_focusAndDone___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -2168,6 +2209,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval___lam__0(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -2268,6 +2310,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Linter_logLint___at___00Lean_Linter_logLintIf___at___00Lean_Elab_checkDeprecatedSyntax___at___00Lean_Elab_Tactic_evalTactic_spec__2_spec__6_spec__11(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_31 = 0; 
@@ -2343,6 +2386,7 @@ return x_27;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tryTactic_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -2414,6 +2458,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_throwUnsupportedSyntax___at___00Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -2422,6 +2467,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_ExtraModUses_0__Lean_recordExtraModUseCore___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__3_spec__5_spec__8_spec__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2446,6 +2492,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Elab_Tactic_getMainTarget_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2455,6 +2502,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tryTactic___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -2504,6 +2552,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTacticAt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; 
@@ -2639,6 +2688,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Elab_Tactic_throwOrLogError(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; 
@@ -2648,6 +2698,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_isIncrementalElab___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -2676,6 +2727,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_ExtraModUses_0__Lean_recordExtraModUseCore___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__3_spec__5_spec__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -2689,6 +2741,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Tactic_run___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2775,6 +2828,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_tacticElabAttribute___regBuiltin_Lean_Elab_Tactic_tacticElabAttribute_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2783,6 +2837,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_addTrace___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2796,6 +2851,7 @@ return x_8;
 }
 public static Obj l_Lean_Elab_Tactic_tacticElabAttribute;
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__5___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -2913,6 +2969,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Linter_logLintIf___at___00Lean_Elab_checkDeprecatedSyntax___at___00Lean_Elab_Tactic_evalTactic_spec__2_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; byte x_24 = 0; 
@@ -2975,6 +3032,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_throwExs_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3029,6 +3087,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_mkTacticInfo(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; byte x_41 = 0; 
@@ -3251,6 +3310,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3261,6 +3321,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getMainModule___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3280,6 +3341,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_instMonadTacticM___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -3296,6 +3358,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withCaseRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3306,6 +3369,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_appendGoals(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -3314,6 +3378,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_log___at___00Lean_logError___at___00Lean_Elab_logException___at___00Lean_Elab_Tactic_closeUsingOrAdmit_spec__0_spec__1_spec__2___redArg(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -3323,6 +3388,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0_spec__2_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; Obj x_9 = null; 
@@ -3385,6 +3451,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_initFn_00___x40_Lean_Elab_Tactic_Basic_1336121563____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3393,6 +3460,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_pushGoal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -3409,6 +3477,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__0_spec__0_spec__1_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -3421,6 +3490,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Elab_Tactic_getMainTarget_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -3443,6 +3513,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_Elab_admitGoal_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3455,6 +3526,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_MVarId_isAssigned___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -3472,6 +3544,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3493,6 +3566,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getMainGoal(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3501,6 +3575,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_Term_withoutTacticIncrementality___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__5___redArg(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; byte x_20 = 0; byte x_21 = 0; byte x_22 = 0; byte x_23 = 0; byte x_24 = 0; byte x_25 = 0; Obj x_26 = null; byte x_27 = 0; byte x_28 = 0; byte x_29 = 0; Obj x_30 = null; Obj x_31 = null; byte x_35 = 0; 
@@ -3731,6 +3806,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_logWarningAt___at___00Lean_Linter_logLint___at___00Lean_Linter_logLintIf___at___00Lean_Elab_checkDeprecatedSyntax___at___00Lean_Elab_Tactic_evalTactic_spec__2_spec__6_spec__11_spec__18_spec__20(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -3756,6 +3832,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_Tactic_focus(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -3862,6 +3939,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_throwNoGoalsToBeSolved___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -3871,6 +3949,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_Elab_Tactic_run_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3899,6 +3978,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withCapturedMessages(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -3926,6 +4006,7 @@ return x_1;
 }
 }
 public static Obj l_List_filterAuxM___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -3942,6 +4023,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; byte x_15 = 0; byte x_32 = 0; 
@@ -4056,6 +4138,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withMacroExpansion___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -4072,6 +4155,7 @@ return x_13;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4080,6 +4164,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_logWarningAt___at___00Lean_Linter_logLint___at___00Lean_Linter_logLintIf___at___00Lean_Elab_checkDeprecatedSyntax___at___00Lean_Elab_Tactic_evalTactic_spec__2_spec__6_spec__11_spec__18(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; byte x_13 = 0; Obj x_14 = null; 
@@ -4090,6 +4175,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Elab_Tactic_popMainGoal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -4166,6 +4252,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getMainTag(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -4190,6 +4277,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tryTactic_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -4198,6 +4286,7 @@ return x_12;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_tagUntaggedGoals_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4221,6 +4310,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_throwExs_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -4280,6 +4370,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaMAtMain___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; 
@@ -4290,6 +4381,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_getResetTraces___at___00Lean_Elab_Tactic_evalTactic_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -4356,6 +4448,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Elab_Tactic_focusAndDone___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -4383,6 +4476,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_orElse___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -4399,6 +4493,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_log___at___00Lean_logError___at___00Lean_Elab_Term_reportUnsolvedGoals_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_47 = null; Obj x_48 = null; byte x_49 = 0; Obj x_50 = null; byte x_51 = 0; byte x_52 = 0; Obj x_53 = null; Obj x_54 = null; Obj x_74 = null; byte x_75 = 0; Obj x_76 = null; Obj x_77 = null; byte x_78 = 0; byte x_79 = 0; Obj x_80 = null; byte x_84 = 0; byte x_85 = 0; byte x_86 = 0; byte x_98 = 0; byte x_99 = 0; byte x_100 = 0; byte x_101 = 0; byte x_103 = 0; byte x_112 = 0; 
@@ -4745,6 +4840,7 @@ return x_110;
 }
 }
 public static Obj l_Lean_Elab_Tactic_SavedState_restore(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -4753,6 +4849,7 @@ return x_12;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00__private_Lean_ExtraModUses_0__Lean_recordExtraModUseCore___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__3_spec__5(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -4761,6 +4858,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_Tactic_replaceMainGoal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -4777,6 +4875,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Options_toLinterOptions___at___00Lean_Linter_getLinterOptions___at___00Lean_Linter_logLintIf___at___00Lean_Elab_checkDeprecatedSyntax___at___00Lean_Elab_Tactic_evalTactic_spec__2_spec__6_spec__10_spec__16___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -4793,6 +4892,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Term_withoutTacticIncrementality___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; 
@@ -4827,6 +4927,7 @@ return x_12;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_tagUntaggedGoals_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -4856,6 +4957,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tryTactic(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -4864,6 +4966,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_ExtraModUses_0__Lean_recordExtraModUseCore___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__3(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_66 = null; byte x_67 = 0; 
@@ -5190,6 +5293,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_throwUnsupportedSyntax___at___00Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0_spec__3___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5206,6 +5310,7 @@ return x_2;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_ExtraModUses_0__Lean_recordExtraModUseCore___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__3_spec__5_spec__8___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5281,6 +5386,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withCaseRef(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -5364,6 +5470,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_run(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -5387,6 +5494,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tryTactic_x3f___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -5680,6 +5788,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_throwMaxRecDepthAt___at___00Lean_Elab_Tactic_evalTactic_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -5698,6 +5807,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_log___at___00Lean_logError___at___00Lean_Elab_Term_reportUnsolvedGoals_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; 
@@ -5723,6 +5833,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Except_toTraceResult___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00Lean_Elab_Tactic_evalTactic_spec__4_spec__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5749,6 +5860,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tryCatchRestore___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -5926,6 +6038,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___lam__1(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; byte x_67 = 0; byte x_75 = 0; 
@@ -6134,6 +6247,7 @@ return x_73;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -6171,6 +6285,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_getMainGoal_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6422,6 +6537,7 @@ return x_60;
 }
 }
 public static Obj l_Lean_Elab_Tactic_saveState___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6474,6 +6590,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_instAlternativeTacticM___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -6492,6 +6609,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_logWarningAt___at___00Lean_Linter_logLint___at___00Lean_Linter_logLintIf___at___00Lean_Elab_checkDeprecatedSyntax___at___00Lean_Elab_Tactic_evalTactic_spec__2_spec__6_spec__11_spec__18_spec__20___redArg(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_47 = null; Obj x_48 = null; byte x_49 = 0; Obj x_50 = null; byte x_51 = 0; byte x_52 = 0; Obj x_53 = null; Obj x_54 = null; Obj x_74 = null; byte x_75 = 0; Obj x_76 = null; byte x_77 = 0; Obj x_78 = null; byte x_79 = 0; Obj x_80 = null; byte x_84 = 0; byte x_85 = 0; byte x_86 = 0; byte x_98 = 0; byte x_99 = 0; byte x_100 = 0; byte x_101 = 0; byte x_103 = 0; byte x_112 = 0; 
@@ -6864,6 +6982,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_throwExs_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -6893,6 +7012,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaTactic___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -7063,6 +7183,7 @@ return x_36;
 }
 }
 public static Obj l_Lean_Elab_withInfoTreeContext___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -7332,6 +7453,7 @@ return x_58;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -7361,6 +7483,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_pushGoals(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -7369,6 +7492,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_profileitM___at___00Lean_Elab_Tactic_evalTactic_spec__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -7397,6 +7521,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaTacticAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -7424,6 +7549,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7455,6 +7581,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -7529,6 +7656,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getNameOfIdent_x27(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -7548,6 +7676,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -8640,6 +8769,7 @@ return x_327;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaTactic1___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -8664,6 +8794,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_throwNoGoalsToBeSolved___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -8693,6 +8824,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getUnsolvedGoals(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -9033,6 +9165,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getMainGoal___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -9066,6 +9199,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_throwAbortTactic___at___00Lean_Elab_Tactic_done_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9074,6 +9208,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_admitGoal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -9087,6 +9222,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaTactic1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -9103,6 +9239,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Tactic_pushGoal(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -9135,6 +9272,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaTacticAux___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -9167,6 +9305,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_Tactic_throwOrLogErrorAt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -9211,6 +9350,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_checkDeprecatedSyntax___at___00Lean_Elab_Tactic_evalTactic_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_38 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; 
@@ -9655,6 +9795,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_popMainGoal(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -9663,6 +9804,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_Tactic_getCurrMacroScope(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -9706,6 +9848,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Tactic_run___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; byte x_32 = 0; byte x_71 = 0; 
@@ -10090,6 +10233,7 @@ return x_10;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; 
@@ -10100,6 +10244,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_instMonadExceptExceptionTacticM___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -10116,6 +10261,7 @@ return x_12;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Elab_goalsToMessageData_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10332,6 +10478,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -10348,6 +10495,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__5_spec__8___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10358,6 +10506,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_instInhabitedTacticM(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10377,6 +10526,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10396,6 +10546,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_closeUsingOrAdmit___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -10436,6 +10587,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_getResetTraces___at___00Lean_Elab_Tactic_evalTactic_spec__3___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10511,6 +10663,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_goalsToMessageData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -10522,6 +10675,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_saveTacticInfoForToken(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -10598,6 +10752,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Elab_Tactic_focusAndDone(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -10606,6 +10761,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_profileitM___at___00Lean_Elab_Tactic_evalTactic_spec__7___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -10624,6 +10780,7 @@ return x_14;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__0_spec__0_spec__1_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10657,6 +10814,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_adaptExpander___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -11130,6 +11288,7 @@ return x_76;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaTactic1___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -11292,6 +11451,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_addTrace___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -11455,6 +11615,7 @@ return x_19;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_tagUntaggedGoals_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -11479,6 +11640,7 @@ return x_8;
 }
 }
 public static Obj l_List_forM___at___00Lean_Elab_Term_reportUnsolvedGoals_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -11536,6 +11698,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_addTraceNode___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00Lean_Elab_Tactic_evalTactic_spec__4_spec__9(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -11655,6 +11818,7 @@ return x_1;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_tagUntaggedGoals_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -11663,6 +11827,7 @@ return x_15;
 }
 }
 public static Obj l_MonadExcept_ofExcept___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00Lean_Elab_Tactic_evalTactic_spec__4_spec__10___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -11913,6 +12078,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Elab_Tactic_evalTactic_spec__5(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; 
@@ -12121,6 +12287,7 @@ return x_5;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_tagUntaggedGoals_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -12155,6 +12322,7 @@ goto _start;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__5_spec__8___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12262,6 +12430,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Elab_Tactic_orElse(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -12418,6 +12587,7 @@ return x_35;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; ushort x_15 = 0; byte x_16 = 0; byte x_17 = 0; Obj x_18 = null; byte x_19 = 0; byte x_35 = 0; 
@@ -12547,6 +12717,7 @@ return x_1;
 }
 }
 public static Obj l_List_filterAuxM___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -12627,6 +12798,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withMainContext___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -12643,6 +12815,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -13296,6 +13469,7 @@ goto block_108;
 }
 }
 public static Obj l_Lean_logErrorAt___at___00Lean_Elab_logException___at___00Lean_Elab_Tactic_closeUsingOrAdmit_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -13323,6 +13497,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withRecover___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; Obj x_13 = null; 
@@ -13364,6 +13539,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; 
@@ -14168,6 +14344,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_throwExs_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14176,6 +14353,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Elab_Tactic_tryTactic___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -14514,6 +14692,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_getMainGoal_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -14602,6 +14781,7 @@ return x_2;
 }
 public static Obj l_Lean_Elab_Tactic_noFallbackAttr;
 public static Obj l_Lean_Elab_Tactic_focus___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -14618,6 +14798,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_getMainGoal_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -14634,6 +14815,7 @@ return x_11;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_tagUntaggedGoals_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -14744,6 +14926,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00Lean_Elab_Tactic_evalTactic_spec__4(Obj x_1, byte x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; Obj x_30 = null; Obj x_31 = null; byte x_46 = 0; double x_78 = 0.0; 
@@ -15083,6 +15266,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withTacticInfoContext___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -15140,6 +15324,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Elab_Tactic_pruneSolvedGoals(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -15305,6 +15490,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_addTraceNode___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00Lean_Elab_Tactic_evalTactic_spec__4_spec__9___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; ushort x_13 = 0; byte x_14 = 0; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; ulong x_22 = 0; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_65 = 0; 
@@ -15496,6 +15682,7 @@ return x_52;
 }
 }
 public static Obj l_Lean_Elab_Tactic_orElse___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -15668,6 +15855,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_log___at___00Lean_logError___at___00Lean_Elab_logException___at___00Lean_Elab_Tactic_closeUsingOrAdmit_spec__0_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; 
@@ -15714,6 +15902,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -15776,6 +15965,7 @@ return x_15;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -15916,6 +16106,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15958,6 +16149,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaTacticAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; 
@@ -16162,6 +16354,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__5_spec__8___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -16254,6 +16447,7 @@ return x_2;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Elab_Tactic_pruneSolvedGoals_spec__0_spec__0_spec__1___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -16342,6 +16536,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Elab_Term_reportUnsolvedGoals(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -16426,6 +16621,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Util_Trace_0__Lean_addTraceNode___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00Lean_Elab_Tactic_evalTactic_spec__4_spec__9_spec__14(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -16590,6 +16786,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_ExtraModUses_0__Lean_recordExtraModUseCore___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__3_spec__5_spec__8_spec__11___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -16701,6 +16898,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -17455,6 +17653,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -17749,6 +17948,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_focus___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -17982,6 +18182,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; 
@@ -18332,6 +18533,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTacticAtRaw___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -18411,6 +18613,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Elab_Tactic_closeMainGoal___redArg(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -18751,6 +18954,7 @@ return x_2;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_ExtraModUses_0__Lean_recordExtraModUseCore___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__3_spec__5_spec__8_spec__11(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -18759,6 +18963,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Tactic_adaptExpander___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; byte x_20 = 0; byte x_21 = 0; byte x_22 = 0; byte x_23 = 0; byte x_24 = 0; byte x_25 = 0; Obj x_26 = null; byte x_27 = 0; byte x_28 = 0; byte x_29 = 0; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; 
@@ -18840,6 +19045,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_closeUsingOrAdmit(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -19097,6 +19303,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -19107,6 +19314,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__4(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_16 = 0; 
@@ -19169,6 +19377,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withCaseRef___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -19199,6 +19408,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Elab_Tactic_ensureHasNoMVars___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -19366,6 +19576,7 @@ return x_40;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withTacticInfoContext(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; byte x_32 = 0; byte x_132 = 0; 
@@ -19956,6 +20167,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Elab_Tactic_throwOrLogErrorAt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; 
@@ -20048,6 +20260,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withMacroExpansion___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; byte x_32 = 0; byte x_123 = 0; 
@@ -20453,6 +20666,7 @@ return x_94;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withTacticInfoContext___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -20488,6 +20702,7 @@ return x_8;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -20650,6 +20865,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTacticAtRaw(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -20723,6 +20939,7 @@ return x_2;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_ExtraModUses_0__Lean_recordExtraModUseCore___at___00Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3_spec__3_spec__5_spec__8_spec__11___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -20928,6 +21145,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0_spec__2_spec__4(Obj x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -20946,6 +21164,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_throwExs_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -21008,6 +21227,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_throwExs_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -21351,6 +21571,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_admitGoal___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -21478,6 +21699,7 @@ return x_2;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_tagUntaggedGoals_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -21517,6 +21739,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withMacroExpansion___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -21533,6 +21756,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -21565,6 +21789,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_handleEx___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -21581,6 +21806,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withMacroExpansion(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; byte x_124 = 0; 
@@ -22002,6 +22228,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_addTrace___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -22041,6 +22268,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withoutRecover___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -22262,6 +22490,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Term_withoutTacticIncrementality___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__5___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -22338,6 +22567,7 @@ return x_1;
 }
 }
 public static byte l_Lean_logAt___at___00Lean_log___at___00Lean_logError___at___00Lean_Elab_Term_reportUnsolvedGoals_spec__0_spec__0_spec__1___lam__0(byte x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 1)
@@ -23061,6 +23291,7 @@ return x_14;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_tagUntaggedGoals_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -23502,6 +23733,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_liftMetaTactic___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -23518,6 +23750,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Tactic_mkInitialTacticInfo___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -23550,6 +23783,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_Tactic_setGoals___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -23572,6 +23806,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_Elab_Tactic_run_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -23647,6 +23882,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_tacticElabAttribute___regBuiltin_Lean_Elab_Tactic_tacticElabAttribute_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23655,6 +23891,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_withTacticInfoContext___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; byte x_31 = 0; byte x_131 = 0; 
@@ -24889,6 +25126,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_done___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -24998,6 +25236,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalTactic___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -25058,6 +25297,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Option_get___at___00Lean_logAt___at___00Lean_log___at___00Lean_logError___at___00Lean_Elab_Term_reportUnsolvedGoals_spec__0_spec__0_spec__1_spec__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -25350,6 +25590,7 @@ return x_13;
 }
 }
 public static Obj l_liftExcept___at___00Lean_Elab_liftMacroM___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_expandEval_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -25504,6 +25745,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_throwAbortTactic___at___00Lean_Elab_Tactic_done_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -25694,6 +25936,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0_spec__2___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -25990,6 +26233,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_recordExtraModUseFromDecl___at___00__private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_eval_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; Obj x_13 = null; 
@@ -26054,6 +26298,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_Basic_0__Lean_Elab_Tactic_evalTactic_throwExs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -26448,6 +26693,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_Elab_admitGoal_spec__0_spec__0_spec__2_spec__4___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -26878,6 +27124,7 @@ return x_22;
 }
 }
 public static Obj l_List_forM___at___00Lean_Elab_Term_reportUnsolvedGoals_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Iterator {
 public static Obj l_Lean_Meta_Iterator_ofList___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -19,6 +20,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Iterator_head___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -183,6 +185,7 @@ return x_34;
 }
 }
 public static Obj l_Lean_Meta_Iterator_head___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -207,6 +210,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Meta_Iterator_0__Lean_Meta_Iterator_filterMapM___next___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -219,6 +223,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_Iterator_head_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -231,6 +236,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Meta_Iterator_0__Lean_Meta_Iterator_filterMapM___next___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -731,6 +737,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Meta_Iterator_ofList___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

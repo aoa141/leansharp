@@ -17,6 +17,7 @@ return x_5;
 }
 }
 public static Obj l_Array_instDecidableEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -26,6 +27,7 @@ return x_6;
 }
 }
 public static Obj l_Array_instDecidableEmpEqImpl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -46,6 +48,7 @@ return x_4;
 }
 }
 public static Obj l_Array_instDecidableEqEmpImpl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -75,6 +78,7 @@ return x_5;
 }
 }
 public static Obj l_Array_instDecidableEqImpl___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -86,6 +90,7 @@ return x_5;
 }
 }
 public static Obj l_Array_instDecidableEmpEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -145,6 +150,7 @@ return x_3;
 }
 }
 public static Obj l_Array_instDecidableEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -174,6 +180,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_DecidableEq_0__Array_isEqvAux_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -245,6 +252,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_DecidableEq_0__Array_isEqvAux_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -316,6 +324,7 @@ return x_4;
 }
 }
 public static Obj l_Array_instDecidableEqImpl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 

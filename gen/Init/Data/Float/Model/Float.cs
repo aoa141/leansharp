@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Float_Model_Float {
 public static Obj l_Float_Model_unpack(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -28,6 +29,7 @@ return x_1;
 }
 }
 public static ulong l_Float_Model_mul(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; ulong x_7 = 0; 
@@ -63,6 +65,7 @@ return x_3;
 }
 }
 public static ulong l_Float_Model_ofNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; 
@@ -74,6 +77,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_toISize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -107,6 +111,7 @@ return x_3;
 }
 }
 public static ulong l_Float_Model_maximum(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; 
@@ -131,6 +136,7 @@ return x_1;
 }
 }
 public static ulong l_Float_Model_maximumNumber(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; 
@@ -176,6 +182,7 @@ return x_3;
 }
 }
 public static ulong l_Float_Model_minimum(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; 
@@ -190,6 +197,7 @@ return x_6;
 }
 }
 public static ulong l_Float_Model_div(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; ulong x_7 = 0; 
@@ -203,6 +211,7 @@ return x_7;
 }
 }
 public static ulong l_Float_Model_ofInt32(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; 
@@ -214,6 +223,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_neg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -285,6 +295,7 @@ return x_1;
 }
 }
 public static ulong l_Float_Model_ofUSize(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; 
@@ -296,6 +307,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_toInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ushort x_3 = 0; Obj x_4 = null; 
@@ -363,6 +375,7 @@ return x_6;
 }
 }
 public static Obj l_Float_Model_toInt32___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -397,6 +410,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_instDecidableLE___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -420,6 +434,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_toUSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -441,6 +456,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_toInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -472,6 +488,7 @@ return x_3;
 }
 }
 public static ulong l_Float_Model_add(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; ulong x_7 = 0; 
@@ -485,6 +502,7 @@ return x_7;
 }
 }
 public static Obj l_Float_Model_ofInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -496,6 +514,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_sub___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -522,6 +541,7 @@ return x_6;
 }
 }
 public static ulong l_Float_Model_ofScientific(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -576,6 +596,7 @@ return x_5;
 }
 }
 public static ulong l_Float_Model_ofBits(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -600,6 +621,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_instDecidableLT___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -678,6 +700,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_isFinite___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -701,6 +724,7 @@ return x_5;
 }
 }
 public static ulong l_Float_Model_fma(ulong x_1, ulong x_2, ulong x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; ulong x_9 = 0; 
@@ -715,6 +739,7 @@ return x_9;
 }
 }
 public static Obj l_Float_Model_minimumNumber___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -728,6 +753,7 @@ return x_6;
 }
 }
 public static Obj l_Float_Model_ofISize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -768,6 +794,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_abs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -779,6 +806,7 @@ return x_4;
 }
 }
 public static ulong l_Float_Model_ofInt64(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; 
@@ -823,6 +851,7 @@ return x_6;
 }
 }
 public static ulong l_Float_Model_sqrt(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -872,6 +901,7 @@ return x_6;
 }
 }
 public static ulong l_Float_Model_ofUInt64(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; 
@@ -945,6 +975,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_ofInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -966,6 +997,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_ofInt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_Pattern_Char {
 public static Obj l_String_Slice_Pattern_Char_instToForwardSearcherCharDefaultForwardSearcherForallBoolBeq___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15,6 +16,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_Char_instForwardPatternChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -25,6 +27,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pattern_Char_instBackwardPatternChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -89,6 +92,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pattern_Char_instToBackwardSearcherCharDefaultBackwardSearcherForallBoolBeq(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -145,6 +149,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_Char_instToForwardSearcherCharDefaultForwardSearcherForallBoolBeq(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -219,6 +224,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pattern_Char_instBackwardPatternChar___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -357,6 +363,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pattern_Char_instToForwardSearcherCharDefaultForwardSearcherForallBoolBeq___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -394,6 +401,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_Char_instForwardPatternChar___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 

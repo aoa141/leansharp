@@ -20,6 +20,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_getD___at___00Std_DHashMap_Internal_Raw_u2080_Const_getD___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -101,6 +102,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__3___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -123,6 +125,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_AssignValue_toOption(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -181,6 +184,7 @@ return x_9;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__3_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -221,6 +225,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -232,6 +237,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -240,6 +246,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_toCNF_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -270,6 +277,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__3_spec__4_spec__6(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -286,6 +294,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_toCNF_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -334,6 +343,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_getD___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -345,6 +355,7 @@ return x_4;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -353,6 +364,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_getD___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -383,6 +395,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Tactic_BVDecide_LRAT_Internal_Assignment_0__Std_Tactic_BVDecide_LRAT_Internal_AssignValue_toOption_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -428,6 +441,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Tactic_BVDecide_LRAT_Internal_Assignment_0__Std_Tactic_BVDecide_LRAT_Internal_AssignValue_toOption_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -437,6 +451,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__2___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -448,6 +463,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_AssignValue_false_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -457,6 +473,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -549,6 +566,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_Assignment_toCNF(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -583,6 +601,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_AssignValue_unassigned_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -592,6 +611,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_AssignValue_true_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -626,6 +646,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_Assignment_get_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -706,6 +727,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Sat_CNF_Basic_0__Std_Sat_CNF_Clause_forIn_x27ImplUnsafe_loop___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -728,6 +750,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -758,6 +781,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -766,6 +790,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
@@ -798,6 +823,7 @@ return x_10;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__3_spec__4_spec__6___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -874,6 +900,7 @@ goto _start;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_getD___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -948,6 +975,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_Assignment_extendOfClauseWithout___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1028,6 +1056,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_Assignment_get___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1046,6 +1075,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_48 = 0; 
@@ -1207,6 +1237,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldrM___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_toCNF_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1308,6 +1339,7 @@ return x_19;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_Assignment_extendOfClauseWithout(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; Obj x_10 = null; 
@@ -1368,6 +1400,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sat_CNF_Basic_0__Std_Sat_CNF_Clause_forIn_x27ImplUnsafe_loop___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_extendOfClauseWithout_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -1639,6 +1672,7 @@ return x_8;
 }
 }
 public static Obj l_List_foldl___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_toCNF_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1695,6 +1729,7 @@ goto _start;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__1_spec__2___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1751,6 +1786,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Sat_CNF_Basic_0__Std_Sat_CNF_Clause_forIn_x27ImplUnsafe_loop___at___00Std_Tactic_BVDecide_LRAT_Internal_Assignment_ofClause_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 

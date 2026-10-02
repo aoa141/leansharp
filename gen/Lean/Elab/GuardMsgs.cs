@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_GuardMsgs {
 public static Obj l_String_Slice_splitToSubslice___at___00Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15,6 +16,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsSpec_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -27,6 +29,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsFilterAction(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -184,6 +187,7 @@ return x_39;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -193,6 +197,7 @@ return x_8;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -202,6 +207,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__1___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -245,6 +251,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Elab_Tactic_GuardMsgs_runAndCollectMessages_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -258,6 +265,7 @@ return x_7;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardPanic_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -413,6 +421,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -426,6 +435,7 @@ return x_7;
 }
 }
 public static byte l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__2_spec__4___redArg(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -467,6 +477,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_FilterSpec_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -476,6 +487,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_getDocStringText___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__10_spec__23_spec__35___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -496,6 +508,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_log___at___00Lean_logError___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardPanic_spec__2_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -508,6 +521,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_getDocStringText___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__10_spec__23_spec__35_spec__40___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -667,6 +681,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -693,6 +708,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Elab_GuardMsgs_0__Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction___regBuiltin_Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_declare__1_00___x40_Lean_Elab_GuardMsgs_1904941021____hygCtx___hyg_354____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -742,6 +758,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__22(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -750,6 +767,7 @@ return x_10;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -758,6 +776,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__25_spec__35___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -768,6 +787,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Elab_GuardMsgs_0__Lean_Elab_Tactic_GuardMsgs_messageToString___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -777,6 +797,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__6_spec__8___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -796,6 +817,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_exact_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -806,6 +828,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_normalized_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -815,6 +838,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_findSomeMAux___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__0_spec__0_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -829,6 +853,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -973,6 +998,7 @@ return x_34;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__16___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1168,6 +1194,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lean_Util_Diff_0__Lean_Diff_matchSuffix_go___at___00Lean_Diff_matchSuffix___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__15_spec__20_spec__29(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1216,6 +1243,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1226,6 +1254,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Diff_linesToString___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__8_spec__19___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1239,6 +1268,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Elab_GuardMsgs_0__Lean_Elab_Tactic_GuardMsgs_messageToString___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1284,6 +1314,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsSpec_spec__2(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -1417,6 +1448,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__10___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -1533,6 +1565,7 @@ return x_26;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__11(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1585,6 +1618,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__14___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1627,6 +1661,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentArray_findSomeMAux___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1691,6 +1726,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_getDocStringText___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__10_spec__23_spec__35___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1808,6 +1844,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__5(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1816,6 +1853,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1882,6 +1920,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__26(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1910,6 +1949,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__25_spec__35(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1918,6 +1958,7 @@ return x_4;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardPanic_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; 
@@ -1942,6 +1983,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_findSomeMAux___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__0_spec__0_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1994,6 +2036,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsSpec_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_13 = 0; 
@@ -3470,6 +3513,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Diff_linesToString___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__8(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -3493,6 +3537,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Elab_Tactic_GuardMsgs_MessageOrdering_apply_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3512,6 +3557,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_contains___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3522,6 +3568,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_throwUnsupportedSyntax___at___00Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsFilterAction_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3530,6 +3577,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_FilterSpec_drop_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3539,6 +3587,7 @@ return x_2;
 }
 }
 public static byte l_String_Slice_contains___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__9(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -3602,6 +3651,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -3662,6 +3712,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_pushInfoTree___at___00Lean_Elab_pushInfoLeaf___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__3_spec__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3670,6 +3721,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsFilterSeverity___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3722,6 +3774,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3731,6 +3784,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__22___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3743,6 +3797,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Elab_GuardMsgs_0__Lean_Elab_Tactic_GuardMsgs_messageToString(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_8 = null; uint x_9 = 0; Obj x_13 = null; Obj x_16 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_45 = null; Obj x_57 = null; Obj x_68 = null; Obj x_72 = null; Obj x_80 = null; Obj x_81 = null; byte x_82 = 0; 
@@ -4093,6 +4148,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lean_Util_Diff_0__Lean_Diff_matchSuffix_go___at___00Lean_Diff_matchSuffix___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__15_spec__20_spec__29___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_18 = 0; 
@@ -4176,6 +4232,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__0_spec__1_spec__4(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -4402,6 +4459,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__17___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -4448,6 +4506,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__15___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4458,6 +4517,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Util_Diff_0__Lean_Diff_matchPrefix_go___at___00Lean_Diff_matchPrefix___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__14_spec__18(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_24 = null; byte x_25 = 0; 
@@ -4538,6 +4598,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_getDocStringText___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__10___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4603,6 +4664,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__14___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4613,6 +4675,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Elab_Tactic_GuardMsgs_runAndCollectMessages_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4638,6 +4701,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__25___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4674,6 +4738,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_pushInfoTree___at___00Lean_Elab_pushInfoLeaf___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__3_spec__4___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4744,6 +4809,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsFilterSeverity(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4828,6 +4894,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00Lean_getDocStringText___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__10_spec__23(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4846,6 +4913,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4865,6 +4933,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_MessageOrdering_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -4876,6 +4945,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_addMessageContextPartial___at___00Lean_logAt___at___00Lean_logErrorAt___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__2_spec__2_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4896,6 +4966,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_getDocStringText___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__10_spec__23_spec__35_spec__40_spec__46(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5006,6 +5077,7 @@ goto _start;
 }
 }
 public static byte l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__9_spec__21___redArg(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -5339,6 +5411,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__26_spec__38_spec__44_spec__46___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5415,6 +5488,7 @@ goto _start;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_16 = null; 
@@ -5851,6 +5925,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsSpec___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5861,6 +5936,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__20(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -5869,6 +5945,7 @@ return x_10;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5895,6 +5972,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__6_spec__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -5912,6 +5990,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__25_spec__35___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5954,6 +6033,7 @@ return x_1;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__16___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6004,6 +6084,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Elab_GuardMsgs_0__Lean_Elab_Tactic_GuardMsgs_elabGuardPanic___regBuiltin_Lean_Elab_Tactic_GuardMsgs_elabGuardPanic__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6033,6 +6114,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6051,6 +6133,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__10___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6062,6 +6145,7 @@ return x_6;
 }
 }
 public static byte l_Lean_logAt___at___00Lean_logErrorAt___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__2_spec__2___lam__0(byte x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 1)
@@ -6095,6 +6179,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6113,6 +6198,7 @@ return x_1;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardPanic_spec__1___redArg(byte x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6168,6 +6254,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__11___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6179,6 +6266,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__6_spec__8(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6224,6 +6312,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__20___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -6249,6 +6338,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_FilterSpec_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -6258,6 +6348,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__17(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6287,6 +6378,7 @@ goto _start;
 }
 }
 public static Obj l_String_Slice_contains___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardPanic_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -6307,6 +6399,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Elab_Tactic_GuardMsgs_MessageOrdering_apply_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6336,6 +6429,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__6___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6381,6 +6475,7 @@ return x_9;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6409,6 +6504,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_MessageOrdering_sorted_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6419,6 +6515,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6449,6 +6546,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_MessageOrdering_exact_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6481,6 +6579,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__2_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -6492,6 +6591,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6663,6 +6763,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_16 = 0; Obj x_17 = null; 
@@ -6693,6 +6794,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6713,6 +6815,7 @@ return x_4;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6775,6 +6878,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_logErrorAt___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__2_spec__2(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; byte x_73 = 0; byte x_74 = 0; Obj x_75 = null; byte x_76 = 0; Obj x_77 = null; byte x_101 = 0; Obj x_102 = null; byte x_103 = 0; byte x_104 = 0; Obj x_105 = null; byte x_109 = 0; byte x_110 = 0; byte x_111 = 0; byte x_127 = 0; byte x_128 = 0; byte x_129 = 0; byte x_130 = 0; byte x_132 = 0; byte x_145 = 0; 
@@ -7316,6 +7420,7 @@ return x_143;
 }
 }
 public static Obj l_Lean_Diff_Histogram_addLeft___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7371,6 +7476,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_logErrorAt___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7382,6 +7488,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__15___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_24 = 0; 
@@ -7487,6 +7594,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -7538,6 +7646,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__2___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7547,6 +7656,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__25___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7581,6 +7691,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -7625,6 +7736,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_runAndCollectMessages___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7665,6 +7777,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentArray_findSomeM_x3f___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7705,6 +7818,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__26_spec__38_spec__44___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -7734,6 +7848,7 @@ goto _start;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__26_spec__37___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7799,6 +7914,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__18___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -7868,6 +7984,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__26_spec__38(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7876,6 +7993,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -7893,6 +8011,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__13(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -8179,6 +8298,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_elabGuardPanic(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -8464,6 +8584,7 @@ return x_75;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__14___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_24 = 0; 
@@ -8609,6 +8730,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -8663,6 +8785,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8713,6 +8836,7 @@ return x_7;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -8735,6 +8859,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsFilterSeverity___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -8875,6 +9000,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsSpec_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -8947,6 +9073,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -8968,6 +9095,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Diff_Histogram_addLeft___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8976,6 +9104,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -9939,6 +10068,7 @@ goto block_236;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_removeTrailingWhitespaceMarker(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -9954,6 +10084,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_MessageOrdering_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -10021,6 +10152,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_getDocStringText___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__10_spec__23_spec__35_spec__40___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10077,6 +10209,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_findSomeM_x3f___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__0_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -10311,6 +10444,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_parseGuardMsgsSpec(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_44 = null; Obj x_59 = null; 
@@ -10603,6 +10737,7 @@ goto block_43;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -10620,6 +10755,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_logError___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardPanic_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10661,6 +10797,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldrM___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__17(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10698,6 +10835,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__16___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -10769,6 +10907,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__26_spec__39___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -10871,6 +11010,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__5___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11004,6 +11144,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Diff_linesToString___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__8_spec__19(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -11060,6 +11201,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11223,6 +11365,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Diff_matchSuffix___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__15(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -11263,6 +11406,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__18(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -11298,6 +11442,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentArray_findSomeM_x3f___at___00Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -11334,6 +11479,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -11521,6 +11667,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__13_spec__24(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -11784,6 +11931,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Elab_GuardMsgs_0__Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs___regBuiltin_Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11847,6 +11995,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Diff_Histogram_addLeft___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__21___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12149,6 +12298,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_Diff_Histogram_addRight___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__19_spec__26_spec__37___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -12170,6 +12320,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply_spec__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12178,6 +12329,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Elab_Tactic_GuardMsgs_MessageOrdering_apply_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12248,6 +12400,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_replace___at___00Lean_Elab_Tactic_GuardMsgs_revealTrailingWhitespace_spec__2___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -12303,6 +12456,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_getDocStringText___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__10(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; 
@@ -12654,6 +12808,7 @@ return x_36;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__22___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -12724,6 +12879,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_apply_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -12733,6 +12889,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Elab_Tactic_GuardMsgs_MessageOrdering_apply_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -12751,6 +12908,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_runAndCollectMessages(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -13091,6 +13249,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_WhitespaceMode_lax_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -13139,6 +13298,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Elab_Tactic_GuardMsgs_MessageOrdering_apply_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -13185,6 +13345,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_guardMsgsCodeAction(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -13215,6 +13376,7 @@ return x_3;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -13271,6 +13433,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__6_spec__8___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -13418,6 +13581,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_52 = null; Obj x_53 = null; byte x_54 = 0; 
@@ -13704,6 +13868,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__11___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -13832,6 +13997,7 @@ return x_3;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -13911,6 +14077,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_GuardMsgs_MessageOrdering_apply(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -14488,6 +14655,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Util_Diff_0__Lean_Diff_matchSuffix_go___at___00Lean_Diff_matchSuffix___at___00Lean_Diff_lcs___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__12_spec__15_spec__20(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; byte x_11 = 0; 
@@ -14718,6 +14886,7 @@ return x_4;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -14957,6 +15126,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Elab_Tactic_GuardMsgs_runAndCollectMessages_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -15045,6 +15215,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Elab_Tactic_GuardMsgs_MessageOrdering_apply_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_16 = 0; 
@@ -15569,6 +15740,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Diff_diff___at___00Lean_Elab_Tactic_GuardMsgs_elabGuardMsgs_spec__7_spec__16(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 

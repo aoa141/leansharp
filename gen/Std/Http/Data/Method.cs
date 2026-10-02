@@ -34,6 +34,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_mkredirectref_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -44,6 +45,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Method_label_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -54,6 +56,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Method_versionControl_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -82,6 +85,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Method_update_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -138,6 +142,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_orderpatch_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -171,6 +176,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_head_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -216,6 +222,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_put_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -265,6 +272,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_move_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -301,6 +309,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_mkcalendar_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -327,6 +336,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_proppatch_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -401,6 +411,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_post_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -424,6 +435,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_proppatch_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -468,6 +480,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_instReprMethod_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -491,6 +504,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_instEncodeV11___lam__0(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -849,6 +863,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_link_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -859,6 +874,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Method_mkcol_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -881,6 +897,7 @@ return x_3;
 }
 }
 public static byte l_Std_Http_instDecidableEqMethod(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -916,6 +933,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_ofString_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -938,6 +956,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_checkin_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -998,6 +1017,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_get_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1007,6 +1027,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Method_ofString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1532,6 +1553,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_rebind_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1577,6 +1599,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1618,6 +1641,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_uncheckout_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1654,6 +1678,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Method_checkout_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1698,6 +1723,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_mkactivity_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1820,6 +1846,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_rebind_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1889,6 +1916,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_unbind_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1941,6 +1969,7 @@ return x_2;
 }
 }
 public static Obj l_panic___at___00Std_Http_Method_ofString_x21_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1983,6 +2012,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_post_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2039,6 +2069,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_uncheckout_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2065,6 +2096,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_instToString___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2099,6 +2131,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Method_isIdempotent___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -2166,6 +2199,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_instBEqMethod_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2187,6 +2221,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_instToString___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -2474,6 +2509,7 @@ return x_1;
 }
 }
 public static byte l_Std_Http_instBEqMethod_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2525,6 +2561,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_options_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2574,6 +2611,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_get_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2606,6 +2644,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_unlink_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2700,6 +2739,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Method_copy_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2716,6 +2756,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2846,6 +2887,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_unlock_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2856,6 +2898,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Method_versionControl_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2893,6 +2936,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Method_acl_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2902,6 +2946,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Method_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3016,6 +3061,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_delete_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3056,6 +3102,7 @@ return x_1;
 }
 }
 public static byte l_Std_Http_Method_ofString_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3097,6 +3144,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_mkcol_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3244,6 +3292,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Method_connect_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3263,6 +3312,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_options_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3273,6 +3323,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Method_unlink_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3333,6 +3384,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Method_pri_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3657,6 +3709,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_patch_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4409,6 +4462,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_delete_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4453,6 +4507,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Method_link_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4627,6 +4682,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Method_merge_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4962,6 +5018,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_updateredirectref_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5130,6 +5187,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Method_bind_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -5190,6 +5248,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_instReprMethod_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; Obj x_45 = null; Obj x_52 = null; Obj x_59 = null; Obj x_66 = null; Obj x_73 = null; Obj x_80 = null; Obj x_87 = null; Obj x_94 = null; Obj x_101 = null; Obj x_108 = null; Obj x_115 = null; Obj x_122 = null; Obj x_129 = null; Obj x_136 = null; Obj x_143 = null; Obj x_150 = null; Obj x_157 = null; Obj x_164 = null; Obj x_171 = null; Obj x_178 = null; Obj x_185 = null; Obj x_192 = null; Obj x_199 = null; Obj x_206 = null; Obj x_213 = null; Obj x_220 = null; Obj x_227 = null; Obj x_234 = null; Obj x_241 = null; Obj x_248 = null; Obj x_255 = null; Obj x_262 = null; Obj x_269 = null; Obj x_276 = null; 

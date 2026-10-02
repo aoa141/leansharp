@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Async_UDP {
 public static Obj l_Std_Async_UDP_Membership_enterGroup_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -17,6 +18,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_sendAll(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_13 = null; 
@@ -123,6 +125,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_setTTL___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -142,6 +145,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_setMembership___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -154,6 +158,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; 
@@ -173,6 +178,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_UDP_Membership_leaveGroup_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -183,6 +189,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector___lam__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -191,6 +198,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector___lam__4(Obj x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -294,6 +302,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector___lam__5(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -359,6 +368,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector___lam__7(Obj x_1, Obj x_2, Obj x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -664,6 +674,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_UDP_Membership_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -708,6 +719,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_getPeerName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -717,6 +729,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_UDP_Membership_enterGroup_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -872,6 +885,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_sendAll___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1009,6 +1023,7 @@ return x_28;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_send(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_16 = null; 
@@ -1143,6 +1158,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1190,6 +1206,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_setMulticastInterface___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1210,6 +1227,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_Async_UDP_Socket_recvSelector_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; 
@@ -1230,6 +1248,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector___lam__10___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1299,6 +1318,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_setBroadcast___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1702,6 +1722,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_UDP_Membership_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1989,6 +2010,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -2384,6 +2406,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_UDP_Socket_recvSelector___lam__9___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

@@ -698,6 +698,7 @@ return x_3;
 }
 }
 public static Obj l_Std_LinearOrderPackage_toPartialOrderPackage___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2850,6 +2851,7 @@ return x_4;
 }
 }
 public static Obj l_Std_LinearOrderPackage_toPartialOrderPackage___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3744,6 +3746,7 @@ return x_4;
 }
 }
 public static byte l_Std_instDecidableLE(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3825,6 +3828,7 @@ return x_3;
 }
 }
 public static byte l_Std_instDecidableLT(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3867,6 +3871,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Packages_LinearOrderOfLEArgs_toPartialOrderOfLEArgs___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5506,6 +5511,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Packages_LinearOrderOfLEArgs_toPartialOrderOfLEArgs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6342,6 +6348,7 @@ return x_4;
 }
 }
 public static Obj l_Std_instDecidableLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -8988,6 +8995,7 @@ return x_3;
 }
 }
 public static Obj l_Std_LinearOrderPackage_toPartialOrderPackage(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9135,6 +9143,7 @@ return x_3;
 }
 }
 public static Obj l_Std_FactoryInstances_instOrdOfDecidableLE___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -10395,6 +10404,7 @@ return x_3;
 }
 }
 public static Obj l_Std_instDecidableLT___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -11635,6 +11645,7 @@ return x_4;
 }
 }
 public static Obj l_Std_FactoryInstances_beqOfDecidableLE___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -13517,6 +13528,7 @@ return x_3;
 }
 }
 public static Obj l_Std_LinearPreorderPackage_ofOrd___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

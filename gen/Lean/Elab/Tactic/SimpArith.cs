@@ -56,6 +56,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalSimpAllArithBang___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -105,6 +106,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_addArith(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -113,6 +115,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_addSuggestions___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -125,6 +128,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Elab_Tactic_evalSimpArith_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -151,6 +155,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_addMessageContextFull___at___00Lean_throwError___at___00Lean_Elab_Tactic_evalSimpArith_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -177,6 +182,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_addDecide___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -211,6 +217,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Elab_Tactic_evalSimpArith_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -367,6 +374,7 @@ return x_34;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_addSuggestions___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; byte x_38 = 0; 
@@ -489,6 +497,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_evalSimpArith___regBuiltin_Lean_Elab_Tactic_evalSimpArith__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -497,6 +506,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalSimpArith(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -539,6 +549,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalSimpAllArithBang(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -547,6 +558,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalSimpAllArith___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -598,6 +610,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalSimpAllArithBang___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -630,6 +643,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Elab_Tactic_evalSimpArith_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_17 = 0; 
@@ -721,6 +735,7 @@ return x_16;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_addDecide(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -810,6 +825,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalSimpAllArith___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -822,6 +838,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalSimpArithBang(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -878,6 +895,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_evalSimpAllArithBang___regBuiltin_Lean_Elab_Tactic_evalSimpAllArithBang__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1031,6 +1049,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_evalSimpAllArith___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1062,6 +1081,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_addArith___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1116,6 +1136,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_SimpArith_0__Lean_Elab_Tactic_addDecide___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 

@@ -19,6 +19,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_abs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -102,6 +103,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_neg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

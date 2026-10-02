@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Lemmas_Basic {
 public static Obj l_Std_Tactic_BVDecide_BVExpr_Assignment_toAIGAssignment___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

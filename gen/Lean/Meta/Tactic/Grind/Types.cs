@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_Types {
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__1_spec__3_spec__6___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -59,6 +60,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_forEachDiseq___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 Obj x_21 = null; byte x_22 = 0; 
@@ -410,6 +412,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqBoolTrue___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -425,6 +428,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_mkENodeCore_unsafe__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -456,6 +460,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_EvalTactic_skip(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -464,6 +469,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_mbtc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -482,6 +488,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkEqBoolFalseProof___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -500,6 +507,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_ParentSet_elems___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -521,6 +529,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0_spec__2_spec__3_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -529,6 +538,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -541,6 +551,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__0_spec__1___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -640,6 +651,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__0_spec__0_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; Obj x_9 = null; 
@@ -652,6 +664,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_setNextDeclToEnd(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -670,6 +683,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_hashRoot_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -678,6 +692,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_erase___at___00Lean_Meta_Grind_resetParentsOf_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -687,6 +702,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -705,6 +721,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3_spec__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; Obj x_9 = null; 
@@ -736,6 +753,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkEqTrueProof___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -754,6 +772,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_existsProp_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -762,6 +781,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerSolverExtension___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -792,6 +812,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_PendingSolverPropagationsData_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -800,6 +821,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqTrue___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -860,6 +882,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Meta_Grind_foldEqc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -887,6 +910,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_markTheoremInstance_spec__1_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -899,6 +923,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_AnchorRef_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -908,6 +933,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_PendingSolverPropagationsData_eq_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1018,6 +1044,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_getParents___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1084,6 +1111,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -1106,6 +1134,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_addNewRawFact(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; Obj x_59 = null; byte x_95 = 0; 
@@ -1566,6 +1595,7 @@ return x_1;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; 
@@ -1576,6 +1606,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_addTrace___at___00Lean_Meta_Grind_updateLastTag_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -1584,6 +1615,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_ActivateNextGuardResult_ready_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1602,6 +1634,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5_spec__10___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -1631,6 +1664,7 @@ return x_3;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_Grind_closeGoal_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1672,6 +1706,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_ParentSet_isEmpty___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1691,6 +1726,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_15 = 0; Obj x_16 = null; 
@@ -1700,6 +1736,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_foldEqc___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -1718,6 +1755,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_ActionResult_stuck_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1726,6 +1764,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_propagateDiseqs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -1840,6 +1879,7 @@ return x_32;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_activateNextGuard_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -1859,6 +1899,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; 
@@ -1882,6 +1923,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_MVarId_assignFalseProof___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2006,6 +2048,7 @@ return x_28;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_isExtTheorem_spec__0_spec__0___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2055,6 +2098,7 @@ return x_19;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_PendingSolverPropagationsData_diseqs_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2063,6 +2107,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_mbtc_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2090,6 +2135,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqv___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -2110,6 +2156,7 @@ return x_14;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__2_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -2139,6 +2186,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerSolverExtension___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2147,6 +2195,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_isSplit___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2177,6 +2226,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_EMatchDiagSource_ematch_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2211,6 +2261,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqBoolFalse___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2225,6 +2276,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_getExtensions___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -2257,6 +2309,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_congrHash_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -2280,6 +2333,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqHEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -2309,6 +2363,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_ENode_isCongrRoot___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2319,6 +2374,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerSolverExtension___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -2337,6 +2393,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_hashRoot_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -2350,6 +2407,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveState___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2371,6 +2429,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_instHashableCanonArgKey_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -2399,6 +2458,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Meta_Grind_Solvers_mbtc_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 ulong x_16 = 0; ulong x_17 = 0; byte x_18 = 0; Obj x_19 = null; 
@@ -2433,6 +2493,7 @@ return x_1;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_markTheoremInstance_spec__0_spec__1_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_9 = 0; byte x_10 = 0; 
@@ -2567,6 +2628,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_internalizeLocalDecl(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; 
@@ -2665,6 +2727,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2694,6 +2757,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_abstractNestedProofs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -2713,6 +2777,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_check_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -2731,6 +2796,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_isExtTheorem_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2774,6 +2840,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverTerms_nil_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2792,6 +2859,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqBoolFalse___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -2807,6 +2875,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_instHashableEMatchDiagNode_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -2838,6 +2907,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_checkMaxInstancesExceeded___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_19 = 0; 
@@ -2900,6 +2970,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__0_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2911,6 +2982,7 @@ return x_7;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Meta_Grind_isSplit_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2954,6 +3026,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_PendingSolverPropagations_propagate___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2972,6 +3045,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_foldEqc___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; byte x_76 = 0; 
@@ -3311,6 +3385,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_instHashablePreInstance___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -3322,6 +3397,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_ActionResult_closed_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3403,6 +3479,7 @@ Obj x_14 = _args[13];
 Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
+lean_stack_probe();
 _start:
 {
 ulong x_18 = 0; ulong x_19 = 0; Obj x_20 = null; 
@@ -3426,6 +3503,7 @@ return x_20;
 }
 }
 public static byte l_Std_DHashMap_Internal_Raw_u2080_contains___at___00Lean_Meta_Grind_isKnownCaseSplit_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3448,6 +3526,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_EvalTactic_skip___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3456,6 +3535,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitInfo_getExpr___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3497,6 +3577,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__2(Obj x_1, byte x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -3709,6 +3790,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_throwNonInternalizedExpr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3721,6 +3803,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_mergeTerms(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -3729,6 +3812,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_getTarget_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3748,6 +3832,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__1_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -3885,6 +3970,7 @@ return x_27;
 }
 }
 public static Obj l_Lean_Meta_Grind_getConfig(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -3893,6 +3979,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_findEqc(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; byte x_92 = 0; 
@@ -4213,6 +4300,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_resetAnchors___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -4230,6 +4318,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkEqBoolTrueProof___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -4248,6 +4337,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitInfo_arg_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4256,6 +4346,7 @@ return x_3;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_isCongruent(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -4655,6 +4746,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4665,6 +4757,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_ActionResult_closed_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4673,6 +4766,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_inj_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4691,6 +4785,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3_spec__7(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4711,6 +4806,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_hasTermAtRoot___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -4730,6 +4826,7 @@ return x_15;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__1_spec__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4738,6 +4835,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqv___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; 
@@ -4890,6 +4988,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_NewFact_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4913,6 +5012,7 @@ return x_3;
 }
 }
 public static ulong l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_congrHash(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 7)
@@ -5070,6 +5170,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5078,6 +5179,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_getRoot_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5088,6 +5190,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_GoalM_run(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; byte x_66 = 0; byte x_100 = 0; 
@@ -5355,6 +5458,7 @@ return x_91;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEagerSplit___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5365,6 +5469,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_markTheoremInstance___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -5628,6 +5733,7 @@ Obj x_14 = _args[13];
 Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
+lean_stack_probe();
 _start:
 {
 ulong x_18 = 0; ulong x_19 = 0; Obj x_20 = null; 
@@ -5663,6 +5769,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_anchorPrefixToString(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -5700,6 +5807,7 @@ return x_14;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Meta_Grind_getExtTheorems_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -5708,6 +5816,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkENodeCore___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -5731,6 +5840,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind___aux__Lean__Meta__Tactic__Grind__Types______macroRules__Lean__Meta__Grind__doElemTrace__goal_x5b___x5d______1___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_130 = null; Obj x_131 = null; Obj x_132 = null; 
@@ -5994,6 +6104,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -6006,6 +6117,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_getTerm_go___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6057,6 +6169,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_getTerm___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -6067,6 +6180,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkENode(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -6075,6 +6189,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_isCongrRoot___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6106,6 +6221,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_getNext___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6170,6 +6286,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_initFn_00___x40_Lean_Meta_Tactic_Grind_Types_4176544910____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6187,6 +6304,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_GoalM_run_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; byte x_65 = 0; byte x_103 = 0; 
@@ -6472,6 +6590,7 @@ return x_94;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverTerms_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6492,6 +6611,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_traverseEqc___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; byte x_64 = 0; 
@@ -6765,6 +6885,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6773,6 +6894,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_instInhabitedSolverExtension_default___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; 
@@ -6804,6 +6926,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveEMatchDiagInfo___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6864,6 +6987,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -6925,6 +7049,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerParent___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6953,6 +7078,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqcs_spec__2_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -6965,6 +7091,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_ActionResult_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6973,6 +7100,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveAppOf(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -7031,6 +7159,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkENodeCore___redArg(Obj x_1, byte x_2, byte x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; Obj x_19 = null; byte x_20 = 0; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; byte x_63 = 0; 
@@ -7266,6 +7395,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_ext_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7274,6 +7404,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqFalse___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -7343,6 +7474,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__1(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -7672,6 +7804,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getNext___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -7888,6 +8021,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_getAnchorRefs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -7896,6 +8030,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlFromMAux___at___00Lean_PersistentArray_foldlM___at___00Lean_Meta_Grind_Goal_getActiveMatchEqTheorems_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -7928,6 +8063,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_registerParent_spec__0_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_32 = 0; 
@@ -8048,6 +8184,7 @@ return x_28;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_Grind_closeGoal_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -8070,6 +8207,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_getTarget_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -8082,6 +8220,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_getCongrRoot___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -8119,6 +8258,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -8144,6 +8284,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00Lean_Meta_Grind_addSplitCandidate_spec__0_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -8169,6 +8310,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentArray_foldlM___at___00Lean_Meta_Grind_Goal_getActiveMatchEqTheorems_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -8301,6 +8443,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_DelayedTheoremInstance_check(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -8332,6 +8475,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_MVarId_assignFalseProof_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -8344,6 +8488,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_52 = 0; 
@@ -8544,6 +8689,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_NewFact_eq_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8552,6 +8698,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_hasTermAtRoot___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -8566,6 +8713,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqBoolTrue(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -8574,6 +8722,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Action_andAlso___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -8622,6 +8771,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_findEqc___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -8641,6 +8791,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushHEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -8655,6 +8806,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_NewFact_toExpr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8667,6 +8819,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8675,6 +8828,7 @@ return x_3;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__1_spec__3_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8708,6 +8862,7 @@ return x_5;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_contains___at___00Lean_Meta_Grind_isKnownCaseSplit_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8745,6 +8900,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_withGTransparency___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8765,6 +8921,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_getENode_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8821,6 +8978,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitInfo_getGeneration___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -8852,6 +9010,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_getSymbolPriorities(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -8860,6 +9019,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Meta_Grind_Solvers_mbtc_spec__0(Obj x_1, ulong x_2, ulong x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_16 = 0; byte x_21 = 0; 
@@ -8928,6 +9088,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_check(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -9086,6 +9247,7 @@ return x_1;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -9094,6 +9256,7 @@ return x_7;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_isExtTheorem_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9272,6 +9435,7 @@ return x_35;
 }
 }
 public static Obj l_Lean_Meta_Grind_throwNonInternalizedExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -9280,6 +9444,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_forallProp_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9298,6 +9463,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_evalTactic___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -9315,6 +9481,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerParent___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -9343,6 +9510,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_markTheoremInstance_spec__1_spec__3_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9351,6 +9519,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqCore(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -9395,6 +9564,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Meta_Grind_withGTransparency___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -9408,6 +9578,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_setMethods___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -9417,6 +9588,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0_spec__0_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -9438,6 +9610,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_checkMaxCaseSplit___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9448,6 +9621,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_reportMVarInternalization(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -9464,6 +9638,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_getNumTheoremInstances___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -9482,6 +9657,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_getState___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9505,6 +9681,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveSplitDiagInfo___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -9522,6 +9699,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_getState___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -9623,6 +9801,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Meta_Grind_hasFunCCModifier___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -9686,6 +9865,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_resetAnchors(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -9694,6 +9874,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_forEachENode(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -9754,6 +9935,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverTerms_next_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9773,6 +9955,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5_spec__10___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -9849,6 +10032,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9858,6 +10042,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00Lean_Meta_Grind_addSplitCandidate_spec__0_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -9972,6 +10157,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqc_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -9983,6 +10169,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_getRootENode___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -10044,6 +10231,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_PersistentHashMap_eraseAux___at___00Lean_PersistentHashMap_erase___at___00Lean_Meta_Grind_resetParentsOf_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -10055,6 +10243,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getNext(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -10148,6 +10337,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0_spec__2_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -10268,6 +10458,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_Meta_Grind_useFunCC___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -10299,6 +10490,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0_spec__2_spec__3_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -10417,6 +10609,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Meta_Grind_withoutModifyingState___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -10443,6 +10636,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqBoolFalse___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -10594,6 +10788,7 @@ return x_37;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_setMethods(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -10671,6 +10866,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -11028,6 +11224,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_getEqcs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; 
@@ -11041,6 +11238,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getRoot(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -11163,6 +11361,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_empty___at___00Lean_Meta_Grind_EMatch_instInhabitedState_default_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11171,6 +11370,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_registerSolverExtension_unsafe__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11190,6 +11390,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverTerms_nil_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11198,6 +11399,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_markTheoremInstance_spec__1_spec__3___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -11529,6 +11731,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__1_spec__2_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -11537,6 +11740,7 @@ return x_7;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_isCongruent_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; 
@@ -11613,6 +11817,7 @@ goto _start;
 }
 }
 public static Obj l_Array_idxOfAux___at___00Array_finIdxOf_x3f___at___00Lean_PersistentHashMap_eraseAux___at___00Lean_PersistentHashMap_erase___at___00Lean_Meta_Grind_resetParentsOf_spec__0_spec__0_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11623,6 +11828,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3_spec__8(Obj x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -11642,6 +11848,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_mkInitialStates___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11684,6 +11891,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_isSameSolverTerms___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -11695,6 +11903,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11705,6 +11914,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Solvers_mergeTerms_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -11716,6 +11926,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_instInhabitedGoalM(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11724,6 +11935,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_setENode(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -11743,6 +11955,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_getMethods___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -11807,6 +12020,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_inj_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11833,6 +12047,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_getStateCoreImpl(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11841,6 +12056,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__1_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -11899,6 +12115,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_getENode___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -11909,6 +12126,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_instBEqCongrKey___private__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -11919,6 +12137,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_ENode_isRoot___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -11929,6 +12148,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_MVarId_isAssigned___at___00Lean_Meta_Grind_closeGoal_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; 
@@ -11948,6 +12168,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -11960,6 +12181,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getNext_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12019,6 +12241,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_getMaxGeneration___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_12 = 0; 
@@ -12067,6 +12290,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveAppOf___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12334,6 +12558,7 @@ return x_59;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Meta_Grind_Solvers_internalize_spec__0(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 byte x_18 = 0; 
@@ -12400,6 +12625,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_resetParentsOf___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_42 = 0; 
@@ -12542,6 +12768,7 @@ return x_34;
 }
 }
 public static Obj l_Lean_Meta_Grind_cheapCasesOnly___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -12559,6 +12786,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__1_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; 
@@ -12582,6 +12810,7 @@ return x_19;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 byte x_18 = 0; 
@@ -12784,6 +13013,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_getExtTheorems(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_54 = null; Obj x_57 = null; Obj x_73 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; byte x_82 = 0; byte x_124 = 0; 
@@ -13311,6 +13541,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqBoolTrue___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -13502,6 +13733,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_PersistentHashMap_contains___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -13513,6 +13745,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_GoalM_runCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -13541,6 +13774,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_resetAnchors___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -13550,6 +13784,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkENodeCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; byte x_18 = 0; byte x_19 = 0; Obj x_20 = null; 
@@ -13571,6 +13806,7 @@ return x_20;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_Grind_closeGoal_spec__0_spec__0_spec__1___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -13620,6 +13856,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_ematch_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -13638,6 +13875,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3_spec__8___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -13650,6 +13888,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_ParentSet_insert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -13670,6 +13909,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -13990,6 +14230,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_instMonadBacktrackSavedStateGrindM___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -14015,6 +14256,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_Methods_toMethodsRef___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14024,6 +14266,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_getRootENode_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14094,6 +14337,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__1_spec__2(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -14112,6 +14356,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_filterENodes___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14130,6 +14375,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_getEqc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; Obj x_15 = null; 
@@ -14210,6 +14456,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__0_spec__1_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -14254,6 +14501,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_isResolvedCaseSplit___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; 
@@ -14276,6 +14524,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Grind_isCongrRoot(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14332,6 +14581,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_forEachDiseq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; byte x_90 = 0; 
@@ -14626,6 +14876,7 @@ return x_77;
 }
 }
 public static Obj l_Lean_Meta_Grind_preprocess___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14641,6 +14892,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkEqBoolFalseProof(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14691,6 +14943,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_propagateUp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14720,6 +14973,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_GoalM_run___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14737,6 +14991,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_getExtensions(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -14785,6 +15040,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_isResolvedCaseSplit___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -14804,6 +15060,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0_spec__2_spec__4___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -14907,6 +15164,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__0_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -15203,6 +15461,7 @@ return x_65;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__0_spec__1_spec__2_spec__4___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -15283,6 +15542,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqTrue___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -15301,6 +15561,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveCases___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -15324,6 +15585,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_Grind_addNewRawFact_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -15348,6 +15610,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_mkAuxMVar(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -15361,6 +15624,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3_spec__7___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -15380,6 +15644,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getTarget_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15408,6 +15673,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_markTheoremInstance_spec__1_spec__3_spec__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; Obj x_9 = null; 
@@ -15450,6 +15716,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getENode(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -15509,6 +15776,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_input_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15517,6 +15785,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_hasSameRoot___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -15566,6 +15835,7 @@ return x_9;
 }
 public static Obj l_Lean_Meta_Grind_grind_ematch_diagnostics_costThreshold;
 public static Obj l_Lean_Meta_Grind_getMaxGeneration___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -15583,6 +15853,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__1_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -15648,6 +15919,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15656,6 +15928,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Solvers_mergeTerms_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -15674,6 +15947,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -15687,6 +15961,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__1_spec__3_spec__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -15710,6 +15985,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkEqProof___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -15729,6 +16005,7 @@ return x_5;
 }
 }
 public static byte l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqc_spec__0___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -15754,6 +16031,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -15771,6 +16049,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_checkMaxEmatchExceeded(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -15779,6 +16058,7 @@ return x_12;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -15856,6 +16136,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_modifyStateImpl(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -15864,6 +16145,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqBoolFalse___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -15882,6 +16164,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_useFunCC_x27___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -15901,6 +16184,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16113,6 +16397,7 @@ return x_49;
 }
 }
 public static Obj l_Lean_Meta_Grind_isDebugEnabled___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -16149,6 +16434,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqCore___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; Obj x_13 = null; 
@@ -16187,6 +16473,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_markTerm_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -16225,6 +16512,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -16264,6 +16552,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEagerSplit(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -16297,6 +16586,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_setENode___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16306,6 +16596,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_getTarget_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -16318,6 +16609,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -16358,6 +16650,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__0_spec__0_spec__1_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_40 = 0; 
@@ -16507,6 +16800,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_reportMVarInternalization___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16526,6 +16820,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16567,6 +16862,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqcs_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_16 = 0; 
@@ -16673,6 +16969,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkEqFalseProof___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -16766,6 +17063,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_registerParent_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16805,6 +17103,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__0_spec__0_spec__2___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -16857,6 +17156,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_instInhabitedSolverExtension___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16865,6 +17165,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Solvers_mkActionCore_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; byte x_18 = 0; 
@@ -16922,6 +17223,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_isCongruent_goEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -16936,6 +17238,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; 
@@ -17074,6 +17377,7 @@ return x_39;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqHEq___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -17344,6 +17648,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_hashRoot_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -17356,6 +17661,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Meta_Grind_Solvers_mkInitialStates_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -17380,6 +17686,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_hashRoot_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -17388,6 +17695,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_withEmatchDiagSource___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -17454,6 +17762,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveState(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -17462,6 +17771,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5_spec__9(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -17479,6 +17789,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_markCaseSplitAsResolved(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; byte x_74 = 0; byte x_91 = 0; 
@@ -17830,6 +18141,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_alreadyInternalized___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -17871,6 +18183,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_closeGoal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -17913,6 +18226,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_ActivateNextGuardResult_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17922,6 +18236,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_getRootENode___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -17952,6 +18267,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEagerSplit___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -17992,6 +18308,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_mbtc(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; ulong x_15 = 0; ulong x_16 = 0; Obj x_17 = null; 
@@ -18014,6 +18331,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEqFalse___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -18102,6 +18420,7 @@ return x_5;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -18148,6 +18467,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__1_spec__3___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -18519,6 +18839,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Meta_Grind_getExtensions___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18548,6 +18869,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__1_spec__4___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -18599,6 +18921,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_forEachEqcRoot___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -18617,6 +18940,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getENode_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18627,6 +18951,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_getTerm___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -18658,6 +18983,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_MVarId_assignFalseProof(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -18670,6 +18996,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_getMethods___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18703,6 +19030,7 @@ return x_3;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_isCongruent_goEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_10 = 0; 
@@ -18757,6 +19085,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -18782,6 +19111,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Meta_Grind_Goal_hasSameRoot(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -18879,6 +19209,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__0_spec__2_spec__3(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; 
@@ -19018,6 +19349,7 @@ return x_39;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_checkInvariants(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -19072,6 +19404,7 @@ return x_26;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_propagateDiseqOf___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -19130,6 +19463,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveCases___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -19165,6 +19499,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_foldEqc___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; byte x_34 = 0; byte x_112 = 0; 
@@ -19581,6 +19916,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_setENode___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_43 = 0; 
@@ -19740,6 +20076,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_getGeneration___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -19767,6 +20104,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_getCongrRoot(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -19775,6 +20113,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; 
@@ -19819,6 +20158,7 @@ Obj x_14 = _args[13];
 Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
+lean_stack_probe();
 _start:
 {
 Obj x_18 = null; 
@@ -19837,6 +20177,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_PersistentHashMap_eraseAux___at___00Lean_PersistentHashMap_erase___at___00Lean_Meta_Grind_resetParentsOf_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -19845,6 +20186,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -19865,6 +20207,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_getEMatchTheoremNumInstances___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -19883,6 +20226,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Solvers_mergeTerms_toPendingDiseqs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -19948,6 +20292,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__0_spec__1___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -19985,6 +20330,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_instBEqCanonArgKey_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -20007,6 +20353,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_instHashablePreInstance___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -20016,6 +20363,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__0_spec__2_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; 
@@ -20053,6 +20401,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__1_spec__3_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -20077,6 +20426,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__2_spec__5(Obj x_1, byte x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -20243,6 +20593,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_empty___at___00Lean_Meta_Grind_Split_instInhabitedState_default_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20310,6 +20661,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkEqHEqProof(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -20403,6 +20755,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_setNextDeclToEnd___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -20415,6 +20768,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_getRootENode_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -20425,6 +20779,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_Grind_closeGoal_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -20436,6 +20791,7 @@ return x_4;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Meta_Grind_copyParentsTo_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -20445,6 +20801,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -20472,6 +20829,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getTarget_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -20517,6 +20875,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqc_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -20550,6 +20909,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqHEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -20696,6 +21056,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__1_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; 
@@ -20719,6 +21080,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Meta_Grind_isCongrRoot___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -20861,6 +21223,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_closeGoal(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -20945,6 +21308,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -20986,6 +21350,7 @@ return x_8;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Meta_Grind_copyParentsTo_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -21017,6 +21382,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_getENode_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -21065,6 +21431,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_empty___at___00Lean_Meta_Grind_instInhabitedGoalState_default_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21112,6 +21479,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__0_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -21223,6 +21591,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_foldEqc(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; byte x_35 = 0; byte x_113 = 0; 
@@ -21616,6 +21985,7 @@ return x_100;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_setENode_unsafe__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21625,6 +21995,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__1_spec__2_spec__5___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; byte x_10 = 0; 
@@ -21684,6 +22055,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_congrHash_goEq___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -21713,6 +22085,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Meta_Grind_Solvers_check_x3f_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; byte x_21 = 0; 
@@ -22003,6 +22376,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_PersistentArray_foldlM___at___00Lean_Meta_Grind_Goal_getActiveMatchEqTheorems_spec__0_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_13 = 0; 
@@ -22106,6 +22480,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_propagateDiseqOf_visitRhs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -22202,6 +22577,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -22284,6 +22660,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_getStateCoreImpl___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -22299,6 +22676,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_Grind_throwNonInternalizedExpr_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -22340,6 +22718,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_registerParent_spec__0_spec__0_spec__2(Obj x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -22348,6 +22727,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3_spec__7_spec__10(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -22394,6 +22774,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_isKnownCaseSplit___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -22449,6 +22830,7 @@ return x_15;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -22467,6 +22849,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_traverseEqc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -22545,6 +22928,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -22580,6 +22964,7 @@ return x_5;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; byte x_8 = 0; 
@@ -22593,6 +22978,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_mkENodeCore_unsafe__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -22618,6 +23004,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_checkMaxCaseSplit(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -22626,6 +23013,7 @@ return x_12;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_markTheoremInstance_spec__0_spec__1___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -22839,6 +23227,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__1_spec__3(Obj x_1, byte x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -22994,6 +23383,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_getEMatchTheoremNumInstances___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -23060,6 +23450,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_eraseAux___at___00Lean_PersistentHashMap_erase___at___00Lean_Meta_Grind_resetParentsOf_spec__0_spec__0___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -23414,6 +23805,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_getRootENode_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -23504,6 +23896,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_getENode___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -23530,6 +23923,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Meta_Grind_Solvers_checkInvariants_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_16 = 0; 
@@ -23578,6 +23972,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Meta_Grind_mkHCongrWithArity_spec__1_spec__2___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -23689,6 +24084,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_instBEqCongrKey___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -23807,6 +24203,7 @@ return x_28;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqcs_spec__2_spec__4___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -23827,6 +24224,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -23864,6 +24262,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_instInhabitedSolverExtension_default___redArg___lam__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23872,6 +24271,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_PendingSolverPropagationsData_eq_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -23880,6 +24280,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_markTheoremInstance_spec__1_spec__3_spec__7___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -23892,6 +24293,7 @@ return x_7;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__1_spec__3___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -23981,6 +24383,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_registerParent_spec__0_spec__0_spec__2___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -24082,6 +24485,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__1_spec__4(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; 
@@ -24221,6 +24625,7 @@ return x_39;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Meta_Grind_hasFunCCModifier_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -24282,6 +24687,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24324,6 +24730,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_isKnownCaseSplit___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -24366,6 +24773,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_withoutModifyingState___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -24376,6 +24784,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -24388,6 +24797,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqBoolTrue___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -24489,6 +24899,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Meta_Grind_instBEqPreInstance___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_28 = 0; 
@@ -24596,6 +25007,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_Meta_Grind_instHashableCongrKey___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -24606,6 +25018,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__0_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; 
@@ -24629,6 +25042,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverTerms_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -24692,6 +25106,7 @@ return x_9;
 }
 }
 public static ulong l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_congrHash_go(Obj x_1, Obj x_2, ulong x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 5)
@@ -24715,6 +25130,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEq___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -24744,6 +25160,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -24803,6 +25220,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_isKnownCaseSplit(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -24825,6 +25243,7 @@ return x_3;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -24843,6 +25262,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Solvers_propagateDiseqs_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -24892,6 +25312,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkENode___redArg(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_47 = 0; 
@@ -25115,6 +25536,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_isSplit___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -25133,6 +25555,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_ActionResult_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -25142,6 +25565,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Goal_getEqc_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -25206,6 +25630,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_getEqc___redArg(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -25236,6 +25661,7 @@ return x_1;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_Grind_closeGoal_spec__0_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -25348,6 +25774,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__0_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -25360,6 +25787,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_getSymbolPriorities___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25379,6 +25807,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getRoot_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25410,6 +25839,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_getEqcs___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
@@ -25458,6 +25888,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveEMatchDiagInfo(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -25466,6 +25897,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_getEqc(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -25499,6 +25931,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getGeneration(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25559,6 +25992,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_addLookaheadCandidate(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_70 = null; Obj x_71 = null; byte x_72 = 0; 
@@ -25849,6 +26283,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerParent___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_48 = null; Obj x_49 = null; Obj x_57 = null; 
@@ -26069,6 +26504,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqc_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_17 = 0; 
@@ -26160,6 +26596,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -26394,6 +26831,7 @@ return x_58;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Meta_Grind_getExtTheorems_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_12 = 0; 
@@ -26497,6 +26935,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Meta_Grind_Solvers_mkInitialStates_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -26576,6 +27015,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_MVarId_isAssigned___at___00Lean_Meta_Grind_closeGoal_spec__0_spec__0_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -26620,6 +27060,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_SavedState_restore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -26637,6 +27078,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_markTheoremInstance_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -26653,6 +27095,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind___aux__Lean__Meta__Tactic__Grind__Types______macroRules__Lean__Meta__Grind__doElemTrace__goal_x5b___x5d______1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; byte x_19 = 0; 
@@ -26818,6 +27261,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_saveCases(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -26835,6 +27279,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkHCongrWithArity(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -26853,6 +27298,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitInfo_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26906,6 +27352,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5_spec__9_spec__13(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -26914,6 +27361,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_activateNextGuard(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -26932,6 +27380,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__1_spec__2(Obj x_1, Obj x_2, byte x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -27043,6 +27492,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_empty___at___00Lean_Meta_Grind_instInhabitedGoalState_default_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27115,6 +27565,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_isRoot___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -27225,6 +27676,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_instInhabitedGoalM___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27242,6 +27694,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_updateSplitArgPosMap___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -27603,6 +28056,7 @@ return x_29;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_hasTermAtRoot(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -27611,6 +28065,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_getTerm_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -27643,6 +28098,7 @@ return x_9;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_markTheoremInstance_spec__0_spec__0(Obj x_1, ulong x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -27669,6 +28125,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_getGeneration(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -27709,6 +28166,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqBoolFalse(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -27742,6 +28200,7 @@ return x_4;
 }
 }
 public static Obj l_Array_finIdxOf_x3f___at___00Lean_PersistentHashMap_eraseAux___at___00Lean_PersistentHashMap_erase___at___00Lean_Meta_Grind_resetParentsOf_spec__0_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -27837,6 +28296,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Methods_toMethodsRef_unsafe__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27854,6 +28314,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_alreadyInternalized(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -27874,6 +28335,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitInfo_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -27883,6 +28345,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqc_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -27981,6 +28444,7 @@ return x_8;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Meta_Grind_copyParentsTo_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -28004,6 +28468,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_getNext___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -28142,6 +28607,7 @@ return x_29;
 }
 }
 public static Obj l_Lean_Meta_Grind_isInconsistent___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -28169,6 +28635,7 @@ return x_3;
 }
 }
 public static byte l_List_elem___at___00Lean_Meta_Grind_ParentSet_insert_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -28406,6 +28873,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqcs_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -28430,6 +28898,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerSolverExtension___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -28521,6 +28990,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_markTheoremInstance_spec__1_spec__3_spec__6_spec__7(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -28539,6 +29009,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5_spec__9___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -28548,6 +29019,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00Lean_Meta_Grind_addSplitCandidate_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -28585,6 +29057,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_instBEqCongrTheoremCacheKey___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -28596,6 +29069,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_getENode_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -28619,6 +29093,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_Grind_throwNonInternalizedExpr_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -28759,6 +29234,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_initFn_00___x40_Lean_Meta_Tactic_Grind_Types_4222408854____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28802,6 +29278,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; 
@@ -28825,6 +29302,7 @@ return x_19;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Meta_Grind_isExtTheorem_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -28899,6 +29377,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_internalize(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; byte x_19 = 0; 
@@ -29090,6 +29569,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_hasTermAtRoot_go___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -29101,6 +29581,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqCore___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_72 = null; Obj x_73 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_114 = null; Obj x_115 = null; Obj x_116 = null; Obj x_117 = null; Obj x_118 = null; Obj x_119 = null; Obj x_120 = null; byte x_121 = 0; Obj x_141 = null; Obj x_142 = null; Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; Obj x_146 = null; Obj x_147 = null; Obj x_164 = null; Obj x_165 = null; Obj x_166 = null; Obj x_167 = null; Obj x_168 = null; Obj x_169 = null; Obj x_195 = null; Obj x_196 = null; Obj x_197 = null; Obj x_198 = null; Obj x_199 = null; Obj x_200 = null; byte x_209 = 0; 
@@ -29851,6 +30332,7 @@ goto block_194;
 }
 }
 public static Obj l_Lean_Meta_Grind_updateLastTag(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -30206,6 +30688,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_internalize___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -30228,6 +30711,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_InsertionSort_0__Array_insertionSort_traverse___at___00Lean_Meta_Grind_getExtTheorems_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -30319,6 +30803,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqcs_spec__2_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_16 = 0; 
@@ -30388,6 +30873,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_instInhabitedSolverExtension_default___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -30418,6 +30904,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerSolverExtension___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -30593,6 +31080,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkHEqProof___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -30601,6 +31089,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_registerParent_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -30676,6 +31165,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_traverseEqc(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; byte x_91 = 0; 
@@ -30986,6 +31476,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_markAsInconsistent___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -31004,6 +31495,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_throwNonInternalizedExpr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -31016,6 +31508,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__1_spec__3_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -31031,6 +31524,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_markTerm_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -31537,6 +32031,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -31633,6 +32128,7 @@ return x_5;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_alreadyInternalized_spec__0_spec__0___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -31703,6 +32199,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqc_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_17 = 0; 
@@ -31818,6 +32315,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_markAsInconsistent___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_89 = 0; 
@@ -32203,6 +32701,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_copyParentsTo(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; 
@@ -32430,6 +32929,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_registerParent_spec__0_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -32726,6 +33226,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlFromMAux___at___00Lean_PersistentArray_foldlM___at___00Lean_Meta_Grind_Goal_getActiveMatchEqTheorems_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -32752,6 +33253,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -32819,6 +33321,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -33085,6 +33588,7 @@ return x_54;
 }
 }
 public static Obj l_Lean_Meta_Grind_hasType___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -33107,6 +33611,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_isExtTheorem___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -33189,6 +33694,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -33200,6 +33706,7 @@ return x_7;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Meta_Grind_SolverExtension_markTerm_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -33451,6 +33958,7 @@ return x_62;
 }
 }
 public static Obj l_Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -33525,6 +34033,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_initFn_00___x40_Lean_Meta_Tactic_Grind_Types_2473001889____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33547,6 +34056,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_mergeTerms___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -33577,6 +34087,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Option_register___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_initFn_00___x40_Lean_Meta_Tactic_Grind_Types_4222408854____hygCtx___hyg_4__spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -33608,6 +34119,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_InsertionSort_0__Array_insertionSort_swapLoop___at___00__private_Init_Data_Array_InsertionSort_0__Array_insertionSort_traverse___at___00Lean_Meta_Grind_getExtTheorems_spec__1_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -33647,6 +34159,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_PendingSolverPropagations_propagate(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -33736,6 +34249,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverTerms_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -33744,6 +34258,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_GoalM_runCore___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -33793,6 +34308,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_instReprSolverTerms_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -33802,6 +34318,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_isEmatchDiagEnabled___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -33855,6 +34372,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_instBEqEMatchDiagNode_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -34126,6 +34644,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_markTerm(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -34213,6 +34732,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -34295,6 +34815,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlFromMAux___at___00Lean_PersistentArray_foldlM___at___00Lean_Meta_Grind_Goal_getActiveMatchEqTheorems_spec__0_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -34433,6 +34954,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_withoutModifyingState___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -34622,6 +35144,7 @@ return x_39;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitSource_toMessageData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -34806,6 +35329,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -35137,6 +35661,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Solvers_propagateDiseqs_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -35260,6 +35785,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__0_spec__1_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -35271,6 +35797,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__1_spec__3_spec__5_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -35589,6 +36116,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getEqcs___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -35632,6 +36160,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3_spec__7_spec__10___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_32 = 0; 
@@ -35791,6 +36320,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_getNumTheoremInstances(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -35939,6 +36469,7 @@ return x_28;
 }
 }
 public static Obj l_Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -36173,6 +36704,7 @@ return x_58;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_PendingSolverPropagations_propagate_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -36683,6 +37215,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_addTrace___at___00Lean_Meta_Grind_updateLastTag_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -36943,6 +37476,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getEqcs(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -37140,6 +37674,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_addTheoremInstance(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_100 = null; Obj x_101 = null; Obj x_102 = null; Obj x_103 = null; Obj x_104 = null; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; Obj x_108 = null; Obj x_109 = null; Obj x_118 = null; 
@@ -38074,6 +38609,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_isExtTheorem_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -38094,6 +38630,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_markTheoremInstance_spec__0_spec__1_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -38502,6 +39039,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_markTerm___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -38576,6 +39114,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_isInconsistent___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -38613,6 +39152,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -38637,6 +39177,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_registerSolverExtension___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -38657,6 +39198,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5_spec__9_spec__13___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -38825,6 +39367,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_hasTermAtRoot___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -38936,6 +39479,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_InsertionSort_0__Array_insertionSort_swapLoop___at___00__private_Init_Data_Array_InsertionSort_0__Array_insertionSort_traverse___at___00Lean_Meta_Grind_getExtTheorems_spec__1_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -38975,6 +39519,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_Action_notApplicable___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -39092,6 +39637,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5_spec__10___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; Obj x_9 = null; 
@@ -39120,6 +39666,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_markTheoremInstance_spec__1_spec__3_spec__6_spec__7___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_53 = 0; 
@@ -39479,6 +40026,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_markTheoremInstance_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -39545,6 +40093,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Meta_Grind_markTheoremInstance_spec__1_spec__3_spec__7___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -39585,6 +40134,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getEqc___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -39744,6 +40294,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_propagateDiseqOf(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -39822,6 +40373,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_propagateDiseqOf_visitLhs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -39874,6 +40426,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_propagateDiseqOf_visitLhs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -40097,6 +40650,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__2_spec__5___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -40383,6 +40937,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_resetParentsOf___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -40782,6 +41337,7 @@ return x_62;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_MVarId_assignFalseProof_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -40877,6 +41433,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Meta_Grind_getExtTheorems_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -40899,6 +41456,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_pushEqFalse___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -41011,6 +41569,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Goal_getRoot_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -41368,6 +41927,7 @@ return x_2;
 }
 public static Obj l_Lean_Meta_Grind_grind_unusedLemmaThreshold;
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_Goal_getEqcs_spec__1_spec__1_spec__3_spec__5(Obj x_1, byte x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -41557,6 +42117,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_isRoot___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -42265,6 +42826,7 @@ return x_2;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_SolverExtension_hasTermAtRoot_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -42320,6 +42882,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_getENode_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -42332,6 +42895,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitInfo_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -42544,6 +43108,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_activateNextGuard_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -42988,6 +43553,7 @@ return x_19;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__0_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; 
@@ -43148,6 +43714,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_withoutModifyingState(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -43166,6 +43733,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_NewFact_fact_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -43450,6 +44018,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_mergeTerms___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -43792,6 +44361,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -43875,6 +44445,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_MVarId_isAssigned___at___00Lean_Meta_Grind_closeGoal_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -43894,6 +44465,7 @@ return x_13;
 }
 }
 public static Obj l_Array_idxOfAux___at___00Array_finIdxOf_x3f___at___00Lean_PersistentHashMap_eraseAux___at___00Lean_PersistentHashMap_erase___at___00Lean_Meta_Grind_resetParentsOf_spec__0_spec__0_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -43943,6 +44515,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; 
@@ -44168,6 +44741,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_addTrace___at___00Lean_Meta_Grind_updateLastTag_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_55 = 0; 
@@ -44508,6 +45082,7 @@ return x_19;
 }
 }
 public static Obj l___private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlMAux___at___00Lean_PersistentArray_foldlM___at___00Lean_Meta_Grind_Goal_getActiveMatchEqTheorems_spec__0_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -44650,6 +45225,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Meta_Grind_Goal_getEqcs_spec__2___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -44708,6 +45284,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_getRoot_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -44863,6 +45440,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -45028,6 +45606,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__0_spec__2_spec__3(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; 
@@ -45377,6 +45956,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_mapGrindM___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -45419,6 +45999,7 @@ return x_9;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Grind_Goal_getEqcs_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -45535,6 +46116,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_NewFact_fact_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -45543,6 +46125,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_hashRoot_spec__0_spec__0_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -45603,6 +46186,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_setENode_unsafe__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -45634,6 +46218,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_hashRoot_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -45650,6 +46235,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_GoalM_run___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; byte x_65 = 0; byte x_99 = 0; 
@@ -46018,6 +46604,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_Solvers_mergeTerms_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -47056,6 +47643,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Solvers_check_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; 
@@ -47379,6 +47967,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_markTerm___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -47832,6 +48421,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Meta_Grind_getExtTheorems_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -47912,6 +48502,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -48341,6 +48932,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_saveEMatchTheorem_spec__0_spec__1_spec__3_spec__8___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -48501,6 +49093,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_SolverExtension_setMethods___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -48941,6 +49534,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_MVarId_assignFalseProof_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -48953,6 +49547,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_SplitInfo_getGeneration(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -49057,6 +49652,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forInAux___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachENode_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 byte x_18 = 0; 
@@ -49293,6 +49889,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_initFn_00___x40_Lean_Meta_Tactic_Grind_Types_54529337____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -49345,6 +49942,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -49371,6 +49969,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_hashRoot_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -49424,6 +50023,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_hashRoot_spec__0_spec__0___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -49623,6 +50223,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Meta_Grind_isEagerSplit_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -49803,6 +50404,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_instReprSolverTerms_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -49984,6 +50586,7 @@ return x_2;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Meta_Grind_isEagerSplit_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -50026,6 +50629,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_NewFact_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -50107,6 +50711,7 @@ return x_24;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_PersistentArray_forIn___at___00Lean_Meta_Grind_forEachEqcRoot_spec__0_spec__1_spec__4(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; 
@@ -50295,6 +50900,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_NewFact_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -50423,6 +51029,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00Lean_Meta_Grind_addSplitCandidate_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -50886,6 +51493,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00__private_Lean_Meta_Tactic_Grind_Types_0__Lean_Meta_Grind_incCounter___at___00Lean_Meta_Grind_saveCases_spec__0_spec__0_spec__1___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -51185,6 +51793,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_MVarId_assign___at___00Lean_MVarId_assignFalseProof_spec__0_spec__0_spec__2___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -51554,6 +52163,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_getCongrRoot___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -52280,6 +52890,7 @@ return x_20;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlFromMAux___at___00Lean_PersistentArray_foldlM___at___00Lean_Meta_Grind_Goal_getActiveMatchEqTheorems_spec__0_spec__0_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 

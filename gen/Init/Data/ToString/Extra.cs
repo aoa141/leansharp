@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringArray___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -68,6 +69,7 @@ return x_2;
 }
 }
 public static Obj l_instToStringByteArray___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -206,6 +208,7 @@ return x_4;
 }
 }
 public static Obj l_List_toString___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 

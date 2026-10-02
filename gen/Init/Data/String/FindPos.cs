@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_FindPos {
 public static Obj l_String_Slice_Pos_prevn___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16,6 +17,7 @@ return x_4;
 }
 }
 public static Obj l_String_posGT___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -25,6 +27,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_findNextPos___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -35,6 +38,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_prev_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -44,6 +48,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_prev_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -54,6 +59,7 @@ return x_3;
 }
 }
 public static Obj l_String_posLT___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -63,6 +69,7 @@ return x_4;
 }
 }
 public static Obj l_panic___at___00String_Slice_Pos_prev_x21_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -72,6 +79,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_prev_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -133,6 +141,7 @@ return x_11;
 }
 }
 public static Obj l_String_Slice_Pos_prev(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -143,6 +152,7 @@ return x_6;
 }
 }
 public static Obj l_String_Pos_prev___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -186,6 +196,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_posLT(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -196,6 +207,7 @@ return x_6;
 }
 }
 public static Obj l_String_posGE___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -211,6 +223,7 @@ return x_6;
 }
 }
 public static Obj l_String_Pos_prev___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -220,6 +233,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_findNextPos___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -240,6 +254,7 @@ return x_1;
 }
 }
 public static Obj l_String_posGE(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -255,6 +270,7 @@ return x_7;
 }
 }
 public static Obj l_String_Slice_Pos_prev___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -265,6 +281,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_prevn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -312,6 +329,7 @@ goto _start;
 }
 }
 public static Obj l_String_Slice_posGT___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -322,6 +340,7 @@ return x_5;
 }
 }
 public static Obj l_panic___at___00String_Slice_Pos_prev_x21_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -330,6 +349,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_prev_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -340,6 +360,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_posLT___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -350,6 +371,7 @@ return x_5;
 }
 }
 public static Obj l_String_posLE(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -365,6 +387,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_posGE___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -374,6 +397,7 @@ return x_4;
 }
 }
 public static Obj l_String_posGT___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -391,6 +415,7 @@ return x_8;
 }
 }
 public static Obj l_String_posGT(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -428,6 +453,7 @@ return x_3;
 }
 }
 public static Obj l_String_posLT___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -445,6 +471,7 @@ return x_8;
 }
 }
 public static Obj l_String_Slice_posLE(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -465,6 +492,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_posGE___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -485,6 +513,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_posGT___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -513,6 +542,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_prev_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -615,6 +645,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_prev_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 

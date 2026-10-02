@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Util_InstantiateLevelParams {
 public static Obj l___private_Lean_Util_InstantiateLevelParams_0__Lean_Expr_getParamSubstArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -72,6 +73,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_instantiateLevelParamsCore___at___00Lean_Expr_instantiateLevelParamsArray_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -81,6 +83,7 @@ return x_4;
 }
 }
 public static Obj l_List_mapTR_loop___at___00__private_Lean_Util_InstantiateLevelParams_0__Lean_Expr_instantiateLevelParamsCore_replaceFn___at___00Lean_Expr_instantiateLevelParamsCore___at___00Lean_Expr_instantiateLevelParams_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -148,6 +151,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Expr_replaceNoCache___at___00Lean_Expr_instantiateLevelParamsNoCache_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -455,6 +459,7 @@ return x_84;
 }
 }
 public static Obj l_Lean_Expr_instantiateLevelParams___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -475,6 +480,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Util_InstantiateLevelParams_0__Lean_Expr_instantiateLevelParamsCore_replaceFn___at___00Lean_Expr_instantiateLevelParamsCore___at___00Lean_Expr_instantiateLevelParamsArray_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -572,6 +578,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_instantiateLevelParamsArray(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -651,6 +658,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Util_InstantiateLevelParams_0__Lean_Expr_getParamSubst___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -829,6 +837,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Util_InstantiateLevelParams_0__Lean_Expr_getParamSubst(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -872,6 +881,7 @@ return x_12;
 }
 }
 public static Obj l_List_mapTR_loop___at___00__private_Lean_Util_InstantiateLevelParams_0__Lean_Expr_instantiateLevelParamsCore_replaceFn___at___00Lean_Expr_instantiateLevelParamsCore___at___00Lean_Expr_instantiateLevelParamsArray_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

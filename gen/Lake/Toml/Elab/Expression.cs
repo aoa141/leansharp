@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Toml_Elab_Expression {
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabHeaderKeys_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -32,6 +33,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_dottedPrefix_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -42,6 +44,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_elabToml___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -52,6 +55,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -73,6 +77,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabSubKeys_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -81,6 +86,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_mkSimpleTable_simpVal_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -105,6 +111,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_headerPrefix_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -114,6 +121,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_mkSimpleTable_simpVal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -318,6 +326,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabHeaderKeys_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -328,6 +337,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabSubKeys_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; byte x_15 = 0; 
@@ -625,6 +635,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lake_Toml_elabToml_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; byte x_13 = 0; Obj x_14 = null; 
@@ -850,6 +861,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabKeyval___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -860,6 +872,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_mkSimpleTable_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -909,6 +922,7 @@ goto _start;
 }
 }
 public static Obj l_Lake_Toml_elabToml(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -1061,6 +1075,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_addMessageContextPartial___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabSubKeys_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1071,6 +1086,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_stdTable_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1088,6 +1104,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_array_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1098,6 +1115,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabSubKeys_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_15 = 0; 
@@ -1176,6 +1194,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabHeaderKeys_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1194,6 +1213,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_TomlElabM_run(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -1295,6 +1315,7 @@ return x_21;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_mkSimpleTable_simpVal_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1331,6 +1352,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabSubKeys___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1355,6 +1377,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabArrayTable___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1386,6 +1409,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_RBDict_alter___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_mkSimpleTable_insert_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -1580,6 +1604,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_mkSimpleTable_insert(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1614,6 +1639,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabSubKeys_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1632,6 +1658,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_mkSimpleTable___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1641,6 +1668,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabExpression(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -1708,6 +1736,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabArrayTable(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; ushort x_9 = 0; byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -2433,6 +2462,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lake_Toml_elabToml_spec__2(byte x_1, Obj x_2, ulong x_3, ulong x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_17 = null; byte x_18 = 0; Obj x_35 = null; byte x_39 = 0; 
@@ -2830,6 +2860,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_headerPrefix_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2847,6 +2878,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabKeyval_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -2881,6 +2913,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_array_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2911,6 +2944,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2984,6 +3018,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabHeaderKeys_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3083,6 +3118,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabStdTable___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3121,6 +3157,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_logErrorAt___at___00Lake_Toml_elabToml_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; 
@@ -3134,6 +3171,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_logErrorAt___at___00Lake_Toml_elabToml_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3145,6 +3183,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3174,6 +3213,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_value_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3254,6 +3294,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabKeyval_spec__1(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -3387,6 +3428,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabStdTable(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; ushort x_27 = 0; byte x_28 = 0; byte x_29 = 0; Obj x_30 = null; byte x_31 = 0; Obj x_32 = null; Obj x_33 = null; 
@@ -3811,6 +3853,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00Lake_Toml_elabToml_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3829,6 +3872,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lake_Toml_elabToml_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3872,6 +3916,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_logErrorAt___at___00Lake_Toml_elabToml_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -3896,6 +3941,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_mkSimpleTable_simpVal_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -4008,6 +4054,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lake_Toml_elabToml_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_15 = 0; 
@@ -4389,6 +4436,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_toString(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -4434,6 +4482,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_logErrorAt___at___00Lake_Toml_elabToml_spec__1_spec__2(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_49 = null; Obj x_50 = null; byte x_51 = 0; byte x_52 = 0; Obj x_53 = null; byte x_54 = 0; Obj x_55 = null; Obj x_56 = null; byte x_75 = 0; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; byte x_79 = 0; byte x_80 = 0; Obj x_81 = null; byte x_85 = 0; byte x_86 = 0; byte x_87 = 0; byte x_99 = 0; byte x_100 = 0; byte x_101 = 0; byte x_102 = 0; byte x_104 = 0; byte x_114 = 0; 
@@ -4895,6 +4944,7 @@ return x_20;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_KeyTy_stdTable_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4916,6 +4966,7 @@ return x_6;
 }
 }
 public static byte l_Lean_logAt___at___00Lean_logErrorAt___at___00Lake_Toml_elabToml_spec__1_spec__2___lam__0(byte x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 1)
@@ -5054,6 +5105,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabHeaderKeys(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_39 = 0; 
@@ -5286,6 +5338,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00Lake_Toml_elabToml_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5349,6 +5402,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabKeyval_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6184,6 +6238,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Toml_Elab_Expression_0__Lake_Toml_elabHeaderKeys_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; byte x_15 = 0; 

@@ -51,6 +51,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseInductive_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -64,6 +65,7 @@ return x_9;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_getName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -147,6 +149,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprLetE___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -176,6 +179,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseJsonObj(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -257,6 +261,7 @@ return x_5;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_getNameList___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -287,6 +292,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__1_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -399,6 +405,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseLevelImax___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -408,6 +415,7 @@ return x_4;
 }
 }
 public static byte l_Std_DHashMap_Internal_Raw_u2080_contains___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -472,6 +480,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_contains___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -483,6 +492,7 @@ return x_5;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprBVar___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -491,6 +501,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -531,6 +542,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprBVar(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -668,6 +680,7 @@ return x_5;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseMdata___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -676,6 +689,7 @@ return x_3;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseDefnInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_28 = null; Obj x_29 = null; 
@@ -2052,6 +2066,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapM_loop___at___00__private_LeanExport_Parse_0__LeanExport_Parse_getNameList_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2070,6 +2085,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprSort___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2078,6 +2094,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr_spec__1_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2106,6 +2123,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_getRecursorRule___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2114,6 +2132,7 @@ return x_4;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseOpaqueInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_19 = null; Obj x_20 = null; 
@@ -3164,6 +3183,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__1_spec__2___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -3189,6 +3209,7 @@ return x_4;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; 
@@ -3912,6 +3933,7 @@ return x_3;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprForallE(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -4572,6 +4594,7 @@ return x_14;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldrM___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseItem_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4596,6 +4619,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprConst___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4605,6 +4629,7 @@ return x_4;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseThmInfo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4654,6 +4679,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_getRecursorRule(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -4727,6 +4753,7 @@ return x_21;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprProj___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4736,6 +4763,7 @@ return x_4;
 }
 }
 public static Obj l_List_mapM_loop___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseRecInfo_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4744,6 +4772,7 @@ return x_5;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseInductInfo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4753,6 +4782,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4781,6 +4811,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseLevelSucc(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -5011,6 +5042,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldrM___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseItem_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5030,6 +5062,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__1_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5038,6 +5071,7 @@ return x_4;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5047,6 +5081,7 @@ return x_4;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_addName(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_24 = 0; 
@@ -5129,6 +5164,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5147,6 +5183,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseQuotInfo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5156,6 +5193,7 @@ return x_4;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseQuotInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; 
@@ -6020,6 +6058,7 @@ return x_14;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseItems_go(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -6158,6 +6197,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00List_toString___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseItem_spec__1_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6177,6 +6217,7 @@ return x_1;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6277,6 +6318,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldrM___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseItem_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6316,6 +6358,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -6337,6 +6380,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseInductive_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -6350,6 +6394,7 @@ return x_9;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseNameNum(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -6773,6 +6818,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseFile(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6872,6 +6918,7 @@ return x_16;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6880,6 +6927,7 @@ return x_5;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_addConst(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_31 = 0; 
@@ -6993,6 +7041,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseBinderInfo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7002,6 +7051,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; ulong x_15 = 0; ulong x_16 = 0; Obj x_17 = null; Obj x_18 = null; 
@@ -7053,6 +7103,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_M_run(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7061,6 +7112,7 @@ return x_5;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseItem___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7121,6 +7173,7 @@ return x_2;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprSort(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -7331,6 +7384,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr_spec__1_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7363,6 +7417,7 @@ return x_9;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprApp(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -7784,6 +7839,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_fail___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7863,6 +7919,7 @@ return x_2;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseInductive___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7882,6 +7939,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseInductInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -9237,6 +9295,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseLevelParam(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -9445,6 +9504,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9465,6 +9525,7 @@ return x_2;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprNatLit___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9473,6 +9534,7 @@ return x_4;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -9830,6 +9892,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseExprConst_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -9854,6 +9917,7 @@ return x_2;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprLetE(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -10645,6 +10709,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__1_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10687,6 +10752,7 @@ return x_2;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseCtorInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -11877,6 +11943,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_M_run___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -11961,6 +12028,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11979,6 +12047,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__1___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -11994,6 +12063,7 @@ return x_9;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseItem(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -16463,6 +16533,7 @@ return x_2;
 }
 }
 public static Obj l_List_toString___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseItem_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -16532,6 +16603,7 @@ return x_3;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_getLevel(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -16624,6 +16696,7 @@ return x_3;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprConst(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -16974,6 +17047,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__1_spec__2_spec__3_spec__4___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -17079,6 +17153,7 @@ return x_2;
 }
 }
 public static Obj l_LeanExport_parseStream___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -17179,6 +17254,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseInductive_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -17201,6 +17277,7 @@ return x_4;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprMdata(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -17501,6 +17578,7 @@ return x_8;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_addLevel(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_24 = 0; 
@@ -17573,6 +17651,7 @@ return x_20;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprLam(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -18233,6 +18312,7 @@ return x_14;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -18325,6 +18405,7 @@ return x_14;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_addRecursorRule___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18355,6 +18436,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseInductive_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -18420,6 +18502,7 @@ return x_1;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_contains___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -18448,6 +18531,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseRecInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -19992,6 +20076,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseInductive_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -20037,6 +20122,7 @@ return x_17;
 }
 }
 public static Obj l_List_foldl___at___00List_toString___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseItem_spec__1_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -20167,6 +20253,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseBinderInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -20658,6 +20745,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseExprConst_spec__0(ulong x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -20817,6 +20905,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseNameStr_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -20916,6 +21005,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -21072,6 +21162,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapM_loop___at___00__private_LeanExport_Parse_0__LeanExport_Parse_getNameList_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -21286,6 +21377,7 @@ return x_1;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_contains___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -21397,6 +21489,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapM_loop___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseRecInfo_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -22259,6 +22352,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -22306,6 +22400,7 @@ return x_1;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseInductive(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; 
@@ -22948,6 +23043,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_M_run_spec__0_spec__1_spec__2_spec__3___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -23024,6 +23120,7 @@ goto _start;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseAxiomInfo_spec__1_spec__2_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -23149,6 +23246,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_LeanExport_Parse_0__LeanExport_Parse_parseInductive_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -23213,6 +23311,7 @@ return x_3;
 }
 }
 public static Obj l___private_LeanExport_Parse_0__LeanExport_Parse_parseExprProj(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)

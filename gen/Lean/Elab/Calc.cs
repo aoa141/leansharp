@@ -21,6 +21,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Term_mkCalcStepViews___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -57,6 +58,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Elab_Calc_0__Lean_Elab_Term_annotateFirstHoleWithType_go_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 ulong x_13 = 0; ulong x_14 = 0; byte x_15 = 0; Obj x_16 = null; 
@@ -99,6 +101,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Term_elabCalcSteps___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -145,6 +148,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Term_mkCalcTrans___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -192,6 +196,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Option_get___at___00Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0_spec__2_spec__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -203,6 +208,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -217,6 +223,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Elab_Calc_0__Lean_Elab_Term_getRelUniv(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -316,6 +323,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -324,6 +332,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_Term_elabCalc___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -332,6 +341,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_throwError___at___00__private_Lean_Elab_Calc_0__Lean_Elab_Term_getRelUniv_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -354,6 +364,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Term_annotateFirstHoleWithType___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -392,6 +403,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Elab_Term_mkCalcTrans_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -428,6 +440,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Lean_Elab_Term_throwCalcFailure_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -502,6 +515,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_forallTelescopeReducing___at___00__private_Lean_Elab_Calc_0__Lean_Elab_Term_getRelUniv_spec__1(Obj x_1, Obj x_2, Obj x_3, byte x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -546,6 +560,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Term_annotateFirstHoleWithType(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -640,6 +655,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Elab_Term_mkCalcTrans_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -648,6 +664,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Term_mkCalcFirstStepView___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -662,6 +679,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Elab_Term_mkCalcStepViews(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; byte x_10 = 0; 
@@ -761,6 +779,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -776,6 +795,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_throwError___at___00__private_Lean_Elab_Calc_0__Lean_Elab_Term_getRelUniv_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -784,6 +804,7 @@ return x_8;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0_spec__2_spec__5(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -894,6 +915,7 @@ goto _start;
 }
 }
 public static Obj l_panic___at___00Lean_Elab_Term_throwCalcFailure_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -930,6 +952,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -944,6 +967,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Elab_Term_elabCalcSteps(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -1159,6 +1183,7 @@ return x_9;
 }
 }
 public static Obj l_panic___at___00Lean_Elab_Term_mkCalcTrans_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1197,6 +1222,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Term_elabCalc(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_11 = 0; 
@@ -1391,6 +1417,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Calc_0__Lean_Elab_Term_elabCalc___regBuiltin_Lean_Elab_Term_elabCalc_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1399,6 +1426,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; byte x_23 = 0; 
@@ -1485,6 +1513,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_logErrorAt___at___00Lean_Elab_Term_throwCalcFailure_spec__1_spec__1(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_47 = null; Obj x_48 = null; byte x_49 = 0; Obj x_50 = null; byte x_51 = 0; byte x_52 = 0; Obj x_53 = null; Obj x_54 = null; Obj x_74 = null; byte x_75 = 0; Obj x_76 = null; byte x_77 = 0; Obj x_78 = null; byte x_79 = 0; Obj x_80 = null; byte x_84 = 0; byte x_85 = 0; byte x_86 = 0; byte x_98 = 0; byte x_99 = 0; byte x_100 = 0; byte x_101 = 0; byte x_103 = 0; byte x_112 = 0; 
@@ -1851,6 +1880,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Calc_0__Lean_Elab_Term_annotateFirstHoleWithType_go(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 if (x_3 == 0)
@@ -2392,6 +2422,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Calc_0__Lean_Elab_Term_getRelUniv___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2473,6 +2504,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00__private_Lean_Elab_Calc_0__Lean_Elab_Term_getRelUniv_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_17 = 0; 
@@ -2538,6 +2570,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Term_throwCalcFailure___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -3983,6 +4016,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4108,6 +4142,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_Term_mkCalcStepViews_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -4127,6 +4162,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Elab_throwAbortTerm___at___00Lean_Elab_Term_throwCalcFailure_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4167,6 +4203,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Term_elabCalc___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -4181,6 +4218,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_Term_elabCalcSteps_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -4229,6 +4267,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -4243,6 +4282,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Elab_addMacroStack___at___00Lean_throwError___at___00Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0_spec__0_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -4335,6 +4375,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -4462,6 +4503,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Elab_Term_getCalcRelation_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4470,6 +4512,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Term_getCalcRelation_x3f___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4487,6 +4530,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Elab_Term_mkCalcTrans_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4496,6 +4540,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_Term_elabCalcSteps_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_17 = null; Obj x_18 = null; byte x_23 = 0; 
@@ -5544,6 +5589,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_Term_mkCalcStepViews_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -5585,6 +5631,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Term_mkCalcFirstStepView(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -5745,6 +5792,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_Term_mkCalcStepViews_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -5919,6 +5967,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_logErrorAt___at___00Lean_Elab_Term_throwCalcFailure_spec__1_spec__1___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -6056,6 +6105,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Elab_Term_mkCalcTrans(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -7533,6 +7583,7 @@ return x_20;
 }
 }
 public static Obj l_panic___at___00Lean_Elab_Term_elabCalcSteps_spec__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7685,6 +7736,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Elab_Calc_0__Lean_Elab_Term_annotateFirstHoleWithType_go_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; 
@@ -7828,6 +7880,7 @@ return x_2;
 }
 }
 public static byte l_Lean_logAt___at___00Lean_logErrorAt___at___00Lean_Elab_Term_throwCalcFailure_spec__1_spec__1___lam__0(byte x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 1)
@@ -7966,6 +8019,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_throwUnsupportedSyntax___at___00Lean_Elab_Term_mkCalcFirstStepView_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -8212,6 +8266,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_throwErrorAt___at___00Lean_Elab_Term_elabCalcSteps_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 

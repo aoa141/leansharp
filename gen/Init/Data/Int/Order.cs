@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Int_Order {
 public static Obj l___private_Init_Data_Int_Order_0__Int_toNat_match__1_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -34,6 +35,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Int_Order_0__Int_add_match__1_splitter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -98,6 +100,7 @@ return x_25;
 }
 }
 public static Obj l___private_Init_Data_Int_Order_0__Int_add_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -108,6 +111,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Int_Order_0__Int_sign_match__1_splitter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -155,6 +159,7 @@ return x_18;
 }
 }
 public static Obj l___private_Init_Data_Int_Order_0__Int_toNat_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -186,6 +191,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Int_Order_0__Int_neg_match__1_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -323,6 +329,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_Int_Order_0__Int_neg_match__1_splitter___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

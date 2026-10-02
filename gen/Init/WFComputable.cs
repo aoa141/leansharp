@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_WFComputable {
 public static Obj l_Acc_ndrecC(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -15,6 +16,7 @@ return x_7;
 }
 }
 public static Obj l_Acc_recC___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -31,6 +33,7 @@ return x_3;
 }
 }
 public static Obj l_Acc_ndrecC___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -84,6 +87,7 @@ return x_7;
 }
 }
 public static Obj l_WellFounded_fixC(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -92,6 +96,7 @@ return x_7;
 }
 }
 public static Obj l_WellFounded_fixC___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

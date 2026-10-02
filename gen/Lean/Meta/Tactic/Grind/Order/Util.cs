@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_Order_Util {
 public static Obj l_Lean_Meta_Grind_Order_ToPropagate_pp___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -720,6 +721,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_Cnstr_pp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -753,6 +755,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_Cnstr_getWeight___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -762,6 +765,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_instToStringWeight___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -958,6 +962,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_Cnstr_pp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -999,6 +1004,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_instDecidableLTWeight___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1051,6 +1057,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_Cnstr_getWeight___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1089,6 +1096,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_Weight_isZero___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1142,6 +1150,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_Cnstr_getWeight(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1179,6 +1188,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_Cnstr_pp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -1187,6 +1197,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Order_Cnstr_pp___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1445,6 +1456,7 @@ return x_8;
 }
 }
 public static byte l_Lean_Meta_Grind_Order_Weight_isNeg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; byte x_5 = 0; 

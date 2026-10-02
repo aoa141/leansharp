@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_Tactic_Grind_WithGrindTacticM {
 public static Obj l_Lean_Elab_Command_withGrindTacticM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -17,6 +18,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Command_withGrindTacticM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -35,6 +37,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Command_withGrindTacticM___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; byte x_15 = 0; Obj x_16 = null; 

@@ -21,6 +21,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_HeadIndex_forallE_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -29,6 +30,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_HeadIndex_const_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -37,6 +39,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_HeadIndex_0__Lean_Expr_headNumArgs_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -73,6 +76,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_HeadIndex_0__Lean_Expr_toHeadIndexSlow(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -239,6 +243,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_HeadIndex_lit_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -321,6 +326,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_HeadIndex_mvar_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -376,6 +382,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_HeadIndex_fvar_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -396,6 +403,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_HeadIndex_proj_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -404,6 +412,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_HeadIndex_sort_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -412,6 +421,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_HeadIndex_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -420,6 +430,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00__private_Lean_HeadIndex_0__Lean_Expr_toHeadIndexSlow_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -429,6 +440,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_HeadIndex_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -453,6 +465,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_toHeadIndex(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -475,6 +488,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instBEqHeadIndex_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -496,6 +510,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_HeadIndex_forallE_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -564,6 +579,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_HeadIndex_lam_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -611,6 +627,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_HeadIndex_lit_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -619,6 +636,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_HeadIndex_mvar_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -649,6 +667,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_HeadIndex_proj_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -657,6 +676,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_HeadIndex_0__Lean_Expr_toHeadIndexQuick_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -820,6 +840,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_HeadIndex_lam_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1019,6 +1040,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_HeadIndex_sort_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1027,6 +1049,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instReprHeadIndex_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1155,6 +1178,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_HeadIndex_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 

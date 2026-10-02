@@ -24,6 +24,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Vector_Attach_0__Vector_attachWithImpl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -34,6 +35,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Vector_pmap_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -46,6 +48,7 @@ return x_7;
 }
 }
 public static Obj l_Vector_pmapImpl(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -59,6 +62,7 @@ return x_12;
 }
 }
 public static Obj l_Vector_pmap___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -69,6 +73,7 @@ return x_5;
 }
 }
 public static Obj l_Vector_pmapImpl___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -113,6 +118,7 @@ return x_3;
 }
 }
 public static Obj l_Vector_unattach(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -121,6 +127,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Vector_Attach_0__Vector_attachWithImpl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -149,6 +156,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Vector_pmap_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -209,6 +217,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Vector_pmap_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -239,6 +248,7 @@ return x_7;
 }
 }
 public static Obj l_Vector_pmap___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

@@ -38,6 +38,7 @@ return x_2;
 }
 }
 public static Obj l_System_Platform_getIsEmscripten___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -69,6 +70,7 @@ return x_2;
 }
 }
 public static Obj l_System_Platform_getIsLinux___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

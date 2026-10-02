@@ -25,6 +25,7 @@ Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
 Obj x_18 = _args[17];
+lean_stack_probe();
 _start:
 {
 Obj x_19 = null; 
@@ -43,6 +44,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Meta_Grind_tryToProveFalse___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; Obj x_18 = null; 
@@ -62,6 +64,7 @@ return x_18;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_mkMatchCondProof_x3f___lam__0(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; ulong x_18 = 0; ulong x_19 = 0; Obj x_20 = null; 
@@ -241,6 +244,7 @@ Obj x_14 = _args[13];
 Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
+lean_stack_probe();
 _start:
 {
 byte x_18 = 0; byte x_19 = 0; Obj x_20 = null; 
@@ -332,6 +336,7 @@ Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
 Obj x_18 = _args[17];
+lean_stack_probe();
 _start:
 {
 byte x_19 = 0; ulong x_20 = 0; ulong x_21 = 0; Obj x_22 = null; 
@@ -357,6 +362,7 @@ return x_22;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isSatisfied_spec__1___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_15 = 0; Obj x_16 = null; 
@@ -398,6 +404,7 @@ Obj x_19 = _args[18];
 Obj x_20 = _args[19];
 Obj x_21 = _args[20];
 Obj x_22 = _args[21];
+lean_stack_probe();
 _start:
 {
 Obj x_23 = null; 
@@ -417,6 +424,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Meta_withNewMCtxDepth___at___00Lean_Meta_Grind_tryToProveFalse_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_15 = 0; Obj x_16 = null; 
@@ -460,6 +468,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isMatchCondFalseHyp_isFalse_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18) {
+lean_stack_probe();
 _start:
 {
 Obj x_20 = null; 
@@ -468,6 +477,7 @@ return x_20;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isPatternLike___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -494,6 +504,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_forallTelescopeReducing___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_mkMatchCondProof_x3f_go_x3f_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; byte x_18 = 0; Obj x_19 = null; 
@@ -534,6 +545,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_mkMatchCondProof_x3f_spec__0(Obj x_1, Obj x_2, byte x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17) {
+lean_stack_probe();
 _start:
 {
 Obj x_19 = null; byte x_24 = 0; 
@@ -1061,6 +1073,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_replaceLhs_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1230,6 +1243,7 @@ return x_37;
 }
 }
 public static Obj l_Lean_Meta_withLocalDeclD___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhssAndAbstract_go_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; 
@@ -1248,6 +1262,7 @@ return x_16;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_mkMatchCondProof_x3f_go_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, ulong x_8, ulong x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20) {
+lean_stack_probe();
 _start:
 {
 byte x_22 = 0; byte x_71 = 0; 
@@ -1512,6 +1527,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_tryToProveFalse_go_spec__0(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17) {
+lean_stack_probe();
 _start:
 {
 Obj x_19 = null; 
@@ -1520,6 +1536,7 @@ return x_19;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isPatternLike___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1538,6 +1555,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_propagateMatchCondUp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; byte x_30 = 0; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; 
@@ -2176,6 +2194,7 @@ return x_133;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_tryToProveFalse_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2245,6 +2264,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_tryToProveFalse_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2608,6 +2628,7 @@ return x_85;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isPatternLike(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2658,6 +2679,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_collectMatchCondLhssAndAbstract___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2699,6 +2721,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_tryToProveFalse_go_spec__0___redArg(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; byte x_21 = 0; 
@@ -2861,6 +2884,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Meta_Grind_tryToProveFalse_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2879,6 +2903,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_withLocalDeclD___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhssAndAbstract_go_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_15 = 0; byte x_16 = 0; Obj x_17 = null; 
@@ -2889,6 +2914,7 @@ return x_17;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isMatchCondFalseHyp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3041,6 +3067,7 @@ Obj x_17 = _args[16];
 Obj x_18 = _args[17];
 Obj x_19 = _args[18];
 Obj x_20 = _args[19];
+lean_stack_probe();
 _start:
 {
 Obj x_21 = null; 
@@ -3260,6 +3287,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_forallTelescopeReducing___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_mkMatchCondProof_x3f_go_x3f_spec__1___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -3278,6 +3306,7 @@ return x_15;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isMatchCondFalseHyp_isFalse_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; 
@@ -3395,6 +3424,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Meta_Grind_tryToProveFalse___lam__1(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; 
@@ -4235,6 +4265,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Meta_withLocalDecl___at___00Lean_Meta_withLocalDeclD___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhssAndAbstract_go_spec__0_spec__0(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 Obj x_18 = null; 
@@ -4261,6 +4292,7 @@ Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
 Obj x_18 = _args[17];
+lean_stack_probe();
 _start:
 {
 byte x_19 = 0; Obj x_20 = null; 
@@ -4284,6 +4316,7 @@ return x_20;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_propagateMatchCondUp___regBuiltin_Lean_Meta_Grind_propagateMatchCondUp_declare__1_00___x40_Lean_Meta_Tactic_Grind_MatchCond_1804808425____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4292,6 +4325,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhssAndAbstract_go___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20, Obj x_21) {
+lean_stack_probe();
 _start:
 {
 Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; 
@@ -4322,6 +4356,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_addTrace___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isSatisfied_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4349,6 +4384,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isSatisfied_spec__1(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -4434,6 +4470,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_withLocalDecl___at___00Lean_Meta_withLocalDeclD___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhssAndAbstract_go_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; byte x_18 = 0; Obj x_19 = null; 
@@ -4465,6 +4502,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_tryToProveFalse___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -4504,6 +4542,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_addTrace___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isSatisfied_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_55 = 0; 
@@ -4679,6 +4718,7 @@ return x_43;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhssAndAbstract_go_replaceLhss(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 7)
@@ -4853,6 +4893,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhss_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4880,6 +4921,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_propagateMatchCondDown___regBuiltin_Lean_Meta_Grind_propagateMatchCondDown_declare__1_00___x40_Lean_Meta_Tactic_Grind_MatchCond_2992396906____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4899,6 +4941,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_collectMatchCondLhssAndAbstract(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; byte x_18 = 0; 
@@ -4989,6 +5032,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isMatchCondFalseHyp_isFalse_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; 
@@ -5209,6 +5253,7 @@ return x_22;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Meta_Grind_tryToProveFalse_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 ulong x_16 = 0; ulong x_17 = 0; Obj x_18 = null; 
@@ -5250,6 +5295,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_mkMatchCondProof_x3f_go_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; byte x_18 = 0; Obj x_19 = null; byte x_20 = 0; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_205 = null; Obj x_206 = null; Obj x_207 = null; Obj x_208 = null; Obj x_209 = null; Obj x_210 = null; Obj x_211 = null; Obj x_212 = null; Obj x_213 = null; Obj x_214 = null; Obj x_215 = null; Obj x_216 = null; Obj x_217 = null; byte x_218 = 0; Obj x_295 = null; Obj x_296 = null; Obj x_297 = null; Obj x_298 = null; Obj x_299 = null; Obj x_300 = null; Obj x_301 = null; Obj x_302 = null; Obj x_303 = null; Obj x_304 = null; Obj x_393 = null; Obj x_394 = null; byte x_395 = 0; 
@@ -7307,6 +7353,7 @@ return x_387;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isSatisfied_spec__1___redArg(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_35 = null; Obj x_36 = null; byte x_37 = 0; byte x_98 = 0; 
@@ -7704,6 +7751,7 @@ return x_94;
 }
 }
 public static Obj l_Lean_Meta_Grind_tryToProveFalse(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_71 = null; Obj x_72 = null; byte x_73 = 0; 
@@ -8037,6 +8085,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhss(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -8074,6 +8123,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhss_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_50 = 0; 
@@ -8311,6 +8361,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_propagateMatchCondDown(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -8527,6 +8578,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhssAndAbstract_go___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20) {
+lean_stack_probe();
 _start:
 {
 Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; 
@@ -8649,6 +8701,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_tryToProveFalse___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; 
@@ -8742,6 +8795,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Meta_Grind_tryToProveFalse_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; byte x_21 = 0; 
@@ -10294,6 +10348,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isEqHEq_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -10426,6 +10481,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_collectMatchCondLhssAndAbstract_go___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19) {
+lean_stack_probe();
 _start:
 {
 Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; 
@@ -10570,6 +10626,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_MatchCond_0__Lean_Meta_Grind_isMatchCondFalseHyp_isFalse(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; 

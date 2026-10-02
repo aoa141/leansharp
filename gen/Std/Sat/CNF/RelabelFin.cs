@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Sat_CNF_RelabelFin {
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Std_Sat_CNF_maxLiteral_spec__0_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -48,6 +49,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_maxLiteral___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -57,6 +59,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_relabelFin(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -83,6 +86,7 @@ return x_8;
 }
 }
 public static Obj l_Array_max___at___00Array_max_x3f___at___00Std_Sat_CNF_Clause_maxLiteral_spec__0_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -92,6 +96,7 @@ return x_2;
 }
 }
 public static Obj l_Array_max_x3f___at___00Std_Sat_CNF_Clause_maxLiteral_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -101,6 +106,7 @@ return x_2;
 }
 }
 public static Obj l_Array_max___at___00Array_max_x3f___at___00Std_Sat_CNF_Clause_maxLiteral_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -133,6 +139,7 @@ return x_7;
 }
 }
 public static Obj l_Array_filterMapM___at___00Std_Sat_CNF_maxLiteral_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -167,6 +174,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Sat_CNF_maxLiteral___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -176,6 +184,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_max___at___00Array_max_x3f___at___00Std_Sat_CNF_Clause_maxLiteral_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -190,6 +199,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Sat_CNF_numLiterals___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -199,6 +209,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_relabelFin___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -209,6 +220,7 @@ return x_3;
 }
 }
 public static Obj l_Array_max___at___00Array_max_x3f___at___00Std_Sat_CNF_Clause_maxLiteral_spec__0_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -233,6 +245,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_max___at___00Array_max_x3f___at___00Std_Sat_CNF_Clause_maxLiteral_spec__0_spec__0_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -270,6 +283,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_maxLiteral(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -319,6 +333,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_maxLiteral(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -355,6 +370,7 @@ return x_6;
 }
 }
 public static Obj l_Array_filterMapM___at___00Std_Sat_CNF_maxLiteral_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

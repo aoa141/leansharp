@@ -20,6 +20,7 @@ return x_5;
 }
 }
 public static Obj l_Std_IterM_inductSkips___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -28,6 +29,7 @@ return x_4;
 }
 }
 public static Obj l_Std_IterM_inductSteps___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -48,6 +50,7 @@ return x_4;
 }
 }
 public static Obj l_Std_IterM_inductSteps___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -73,6 +76,7 @@ return x_4;
 }
 }
 public static Obj l_Std_IterM_inductSkips___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_IntInstTesters {
 public static Obj l_Lean_Meta_Structural_isInstPowInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16,6 +17,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHSubInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -25,6 +27,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstDvdInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -37,6 +40,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHMulInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -46,6 +50,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstMulInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -78,6 +83,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstDivInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -119,6 +125,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstLTInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -131,6 +138,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstMulInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -139,6 +147,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstSubInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -157,6 +166,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstOfNatInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -165,6 +175,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLEInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -189,6 +200,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHPowInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -201,6 +213,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHDivInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -209,6 +222,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstNegInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -229,6 +243,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLTInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -241,6 +256,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstModInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -253,6 +269,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstOfNatInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -378,6 +395,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHPowInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -494,6 +512,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstAddInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -518,6 +537,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstDivInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -540,6 +560,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstPowInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -548,6 +569,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHAddInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -571,6 +593,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLEInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -580,6 +603,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstDvdInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -686,6 +710,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstNegInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -715,6 +740,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHAddInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -829,6 +855,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstLTInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -871,6 +898,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstLEInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -894,6 +922,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHDivInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -998,6 +1027,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstAddInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1112,6 +1142,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHSubInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1124,6 +1155,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstNegInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1136,6 +1168,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHAddInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1144,6 +1177,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstModInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1176,6 +1210,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHSubInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1188,6 +1223,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstDivInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1295,6 +1331,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstSubInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1317,6 +1354,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHModInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1326,6 +1364,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHMulInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1486,6 +1525,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHAddInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1518,6 +1558,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHSubInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1599,6 +1640,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHSubInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1631,6 +1673,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHMulInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1695,6 +1738,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstNatPowInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2180,6 +2224,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHMulInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2192,6 +2237,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHMulInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2307,6 +2353,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLEInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2315,6 +2362,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstAddInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2335,6 +2383,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLTInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2352,6 +2401,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHModInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2455,6 +2505,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstNatPowInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2463,6 +2514,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstNatPowInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2558,6 +2610,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHMulInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2981,6 +3034,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHModInt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

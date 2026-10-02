@@ -39,6 +39,7 @@ return x_3;
 }
 }
 public static Obj l_panic___at___00Lean_refutableHasNotBit_x3f_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -94,6 +95,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkHasNotBitProof___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -107,6 +109,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_mkHasNotBit_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -120,6 +123,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_refutableHasNotBit_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -606,6 +610,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkHasNotBit___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -681,6 +686,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkHasNotBitProof(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -809,6 +815,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_mkHasNotBit_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

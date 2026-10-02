@@ -91,6 +91,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -237,6 +238,7 @@ return x_2;
 }
 }
 public static Obj l_Array_qpartition___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_19 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; 
@@ -376,6 +378,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -513,6 +516,7 @@ return x_4;
 }
 }
 public static Obj l_Array_qsort(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -844,6 +848,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -896,6 +901,7 @@ return x_2;
 }
 }
 public static Obj l_Array_qsortOrd(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1153,6 +1159,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_16 = 0; 

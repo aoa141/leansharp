@@ -15,6 +15,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_Model_Char_instPatternModelChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_HashSet_DecidableEquiv {
 public static byte l_Std_HashSet_instDecidableEquivOfLawfulBEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -23,6 +24,7 @@ return x_5;
 }
 }
 public static byte l_Std_HashSet_instDecidableEquivOfLawfulBEq___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 

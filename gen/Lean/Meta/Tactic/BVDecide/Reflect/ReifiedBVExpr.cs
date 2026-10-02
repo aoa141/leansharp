@@ -39,6 +39,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_getNatOrBvValue_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -102,6 +103,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_mkAtom___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; 
@@ -131,6 +133,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_mkBVRefl(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -158,6 +161,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_bitVecAtom(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -474,6 +478,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_mkAtom(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -632,6 +637,7 @@ return x_42;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_mkEvalExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -657,6 +663,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_mkBVConst___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -694,6 +701,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_mkBVConst(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -702,6 +710,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_mkBVConst___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1314,6 +1323,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_ReifiedBVExpr_mkAtom___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 

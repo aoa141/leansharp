@@ -15,6 +15,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_keysIter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -58,6 +59,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_iter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

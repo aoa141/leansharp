@@ -23,6 +23,7 @@ return x_4;
 }
 }
 public static Obj l_BitVec_instDecidableExistsBitVec___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -34,6 +35,7 @@ return x_8;
 }
 }
 public static Obj l_BitVec_instDecidableExistsBitVec___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -44,6 +46,7 @@ return x_4;
 }
 }
 public static byte l_BitVec_instDecidableForallBitVec(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -52,6 +55,7 @@ return x_4;
 }
 }
 public static Obj l_BitVec_instDecidableForallBitVecSucc___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -62,6 +66,7 @@ return x_4;
 }
 }
 public static byte l_BitVec_instDecidableForallBitVec___redArg___lam__1(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -96,6 +101,7 @@ return x_4;
 }
 }
 public static Obj l_BitVec_instDecidableForallBitVec___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -119,6 +125,7 @@ return x_2;
 }
 }
 public static byte l_BitVec_instDecidableExistsBitVecSucc(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -127,6 +134,7 @@ return x_5;
 }
 }
 public static byte l_BitVec_instDecidableExistsBitVec___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -195,6 +203,7 @@ return x_7;
 }
 }
 public static Obj l_BitVec_instDecidableExistsBitVecZero___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -205,6 +214,7 @@ return x_5;
 }
 }
 public static Obj l_BitVec_instDecidableForallBitVec___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -243,6 +253,7 @@ return x_6;
 }
 }
 public static Obj l_BitVec_instDecidableForallBitVecZero___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -253,6 +264,7 @@ return x_4;
 }
 }
 public static Obj l_BitVec_instDecidableExistsBitVecSucc___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -269,6 +281,7 @@ return x_2;
 }
 }
 public static Obj l_BitVec_instDecidableForallBitVecSucc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -287,6 +300,7 @@ return x_4;
 }
 }
 public static byte l_BitVec_instDecidableExistsBitVec___redArg___lam__1(Obj x_1, Obj x_2, byte x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 

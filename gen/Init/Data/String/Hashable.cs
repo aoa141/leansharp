@@ -17,6 +17,7 @@ return x_4;
 }
 }
 public static Obj l_String_instHashablePos_hash___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -37,6 +38,7 @@ return x_1;
 }
 }
 public static Obj l_String_instHashablePos__1_hash___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -47,6 +49,7 @@ return x_3;
 }
 }
 public static Obj l_String_instHashablePos_hash___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -67,6 +70,7 @@ return x_2;
 }
 }
 public static ulong l_String_instHashablePos_hash(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; 
@@ -75,6 +79,7 @@ return x_3;
 }
 }
 public static Obj l_String_instHashablePos__1_hash___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -86,6 +91,7 @@ return x_4;
 }
 }
 public static ulong l_String_instHashablePos__1_hash(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; 

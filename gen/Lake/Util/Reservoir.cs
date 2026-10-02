@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ReservoirResp_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -26,6 +27,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ReservoirResp_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -35,6 +37,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_ReservoirResp_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -104,6 +107,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ReservoirResp_error_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -162,6 +166,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ReservoirResp_ctorIdx(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -170,6 +175,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ReservoirResp_data_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -242,6 +248,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_ReservoirResp_fromJson_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -303,6 +310,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_ReservoirResp_fromJson_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_48 = null; 

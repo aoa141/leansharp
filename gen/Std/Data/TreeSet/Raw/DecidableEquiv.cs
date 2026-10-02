@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_TreeSet_Raw_DecidableEquiv {
 public static Obj l_Std_TreeSet_Raw_instDecidableEquiv___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -17,6 +18,7 @@ return x_6;
 }
 }
 public static Obj l_Std_TreeSet_Raw_instDecidableEquiv___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -26,6 +28,7 @@ return x_5;
 }
 }
 public static byte l_Std_TreeSet_Raw_instDecidableEquiv___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -43,6 +46,7 @@ return x_5;
 }
 }
 public static Obj l_Std_TreeSet_Raw_instDecidableEquiv___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 

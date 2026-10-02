@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_MonadSimp {
 public static Obj l_Lean_Meta_MonadSimp_Result_step_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15,6 +16,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_MonadSimp_Result_rfl_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -32,6 +34,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_MonadSimp_Result_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -77,6 +80,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_MonadSimp_Result_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

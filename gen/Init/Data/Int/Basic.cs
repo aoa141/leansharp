@@ -69,6 +69,7 @@ return x_1;
 }
 }
 public static Obj l_instIntCastInt___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -107,6 +108,7 @@ return x_1;
 }
 }
 public static Obj l_Int_ctorIdx(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -137,6 +139,7 @@ return x_2;
 }
 }
 public static Obj l_Int_instMin___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -157,6 +160,7 @@ return x_3;
 }
 }
 public static Obj l_Int_add___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -194,6 +198,7 @@ return x_2;
 }
 }
 public static Obj l_Int_negOfNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -203,6 +208,7 @@ return x_2;
 }
 }
 public static Obj l_Int_toNat_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -235,6 +241,7 @@ return x_1;
 }
 }
 public static Obj l_Int_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -243,6 +250,7 @@ return x_6;
 }
 }
 public static Obj l_Int_ofNat_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -252,6 +260,7 @@ return x_3;
 }
 }
 public static Obj l_Int_instMax___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -269,6 +278,7 @@ return x_2;
 }
 }
 public static Obj l_Int_sign___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -292,6 +302,7 @@ return x_3;
 }
 }
 public static Obj l_Int_sub___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -330,6 +341,7 @@ return x_4;
 }
 }
 public static Obj l_Int_negSucc_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -339,6 +351,7 @@ return x_5;
 }
 }
 public static Obj l_Int_toNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -348,6 +361,7 @@ return x_2;
 }
 }
 public static byte l_Int_instDecidableEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -363,6 +377,7 @@ return x_1;
 }
 }
 public static Obj l_Int_sign(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -415,6 +430,7 @@ return x_1;
 }
 }
 public static Obj l_Int_pow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -461,6 +477,7 @@ return x_18;
 }
 }
 public static Obj l_Int___aux__Init__Data__Int__Basic______unexpand__Int__negSucc__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -470,6 +487,7 @@ return x_4;
 }
 }
 public static Obj l_Int_decNonneg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -511,6 +529,7 @@ return x_4;
 }
 }
 public static Obj l_Int_decLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -522,6 +541,7 @@ return x_4;
 }
 }
 public static Obj l_Int_negSucc___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -578,6 +598,7 @@ return x_2;
 }
 }
 public static Obj l_Int___aux__Init__Data__Int__Basic______macroRules__Int__term_x2d_x5b___x2b1_x5d__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -587,6 +608,7 @@ return x_4;
 }
 }
 public static Obj l_Int_ofNat_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -680,6 +702,7 @@ return x_4;
 }
 }
 public static Obj l_Int_subNatNat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -734,6 +757,7 @@ return x_3;
 }
 }
 public static Obj l_Int_ctorElim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -849,6 +873,7 @@ return x_3;
 }
 }
 public static Obj l_Int___aux__Init__Data__Int__Basic______unexpand__Int__negSucc__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -934,6 +959,7 @@ return x_29;
 }
 }
 public static Obj l_Int_neg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -974,6 +1000,7 @@ return x_3;
 }
 }
 public static Obj l_Int_toNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -1097,6 +1124,7 @@ return x_3;
 }
 }
 public static Obj l_Int___aux__Init__Data__Int__Basic______macroRules__Int__term_x2d_x5b___x2b1_x5d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

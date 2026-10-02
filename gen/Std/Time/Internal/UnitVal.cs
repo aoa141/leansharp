@@ -15,6 +15,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_ofNat___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24,6 +25,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_instDecidableLeUnitVal___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -36,6 +38,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_instToString___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -105,6 +108,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -127,6 +131,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_instNeg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -146,6 +151,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Internal_instInhabitedUnitVal___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -154,6 +160,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_instDecidableEqUnitVal___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -195,6 +202,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_mul___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -225,6 +233,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_div___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -327,6 +336,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_instOrdUnitVal___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -374,6 +384,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_ediv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -401,6 +412,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_instRepr___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -425,6 +437,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_instRepr___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -450,6 +463,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Internal_instOrdUnitVal___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -486,6 +500,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_instNeg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -553,6 +568,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_add___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -572,6 +588,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_instNeg___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -588,6 +605,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_instOrdUnitVal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -631,6 +649,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_tdiv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -642,6 +661,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_instLT___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -740,6 +760,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_UnitVal_instToString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

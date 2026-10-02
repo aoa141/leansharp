@@ -60,6 +60,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_compileO(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -113,6 +114,7 @@ return x_25;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lake_compileLeanModule_spec__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -121,6 +123,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_compileLeanIR___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -154,6 +157,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_compileStaticLib_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -199,6 +203,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_get___at___00Lake_compileLeanModule_spec__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -223,6 +228,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_compileSharedLib(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -357,6 +363,7 @@ return x_43;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_mkArgs_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -365,6 +372,7 @@ return x_9;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_compileLeanModule_spec__2___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -373,6 +381,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_download(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_17 = null; Obj x_18 = null; Obj x_24 = null; byte x_41 = 0; 
@@ -576,6 +585,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lake_compileLeanModule_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -584,6 +594,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_download_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -597,6 +608,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_compileLeanModule(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_15 = null; Obj x_16 = null; Obj x_19 = null; Obj x_20 = null; Obj x_109 = null; Obj x_110 = null; Obj x_111 = null; Obj x_112 = null; Obj x_113 = null; Obj x_114 = null; Obj x_128 = null; Obj x_129 = null; Obj x_143 = null; Obj x_144 = null; Obj x_151 = null; Obj x_152 = null; Obj x_166 = null; 
@@ -1155,6 +1167,7 @@ goto block_150;
 }
 }
 public static Obj l_Lake_compileLeanModule___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -1165,6 +1178,7 @@ return x_8;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_mkArgs_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1185,6 +1199,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_compileExe(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1332,6 +1347,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_compileLeanModule_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_16 = null; Obj x_17 = null; Obj x_25 = null; Obj x_26 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; 
@@ -1616,6 +1632,7 @@ return x_4;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_compileLeanModule_spec__0(Obj x_1, ulong x_2, ulong x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1713,6 +1730,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_compileStaticLib___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1747,6 +1765,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_mkArgs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1766,6 +1785,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_mkArgs_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1860,6 +1880,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_mkArgs(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_15 = null; byte x_27 = 0; Obj x_28 = null; 
@@ -2063,6 +2084,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_untar___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2265,6 +2287,7 @@ return x_48;
 }
 }
 public static Obj l_Lake_untar(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_26 = null; 
@@ -2367,6 +2390,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lake_tar_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -2417,6 +2441,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_compileLeanModule___lam__0(uint x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; uint x_19 = 0; byte x_20 = 0; Obj x_21 = null; Obj x_27 = null; byte x_28 = 0; Obj x_34 = null; Obj x_44 = null; Obj x_45 = null; byte x_46 = 0; 
@@ -2666,6 +2691,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_tar(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_19 = null; Obj x_20 = null; Obj x_51 = null; 
@@ -2854,6 +2880,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_compileStaticLib_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -2977,6 +3004,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_mkArgs_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -3200,6 +3228,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_download_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3264,6 +3293,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_mkArgs_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -3487,6 +3517,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lake_tar_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 

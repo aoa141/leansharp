@@ -39,6 +39,7 @@ return x_7;
 }
 }
 public static Obj l_Char_succMany_x3f(Obj x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -88,6 +89,7 @@ return x_4;
 }
 }
 public static Obj l_Char_ofOrdinal___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 

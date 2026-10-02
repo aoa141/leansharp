@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_Parser_matchingDelimiterLengths_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -78,6 +79,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_VersoLinkRefUrl_view(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -86,6 +88,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_VersoLinkUrl_view(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -94,6 +97,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_unescapeVerso_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_31 = 0; 
@@ -233,6 +237,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_linkRefQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -244,6 +249,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_Arg_anon___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -326,6 +332,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_longestBacktickRun___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -366,6 +373,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_versoText___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -431,6 +439,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_para___regBuiltin_Lean_Doc_Parser_Block_para_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -470,6 +479,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Inline_link___regBuiltin_Lean_Doc_Parser_Inline_link_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -502,6 +512,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Arg_anon___regBuiltin_Lean_Doc_Parser_Arg_anon_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -531,6 +542,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_VersoDelimiter_view(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -567,6 +579,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldl___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_Parser_atomOf_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -608,6 +621,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoCodeBlock___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -708,6 +722,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_TSyntax_getVersoCode_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -752,6 +767,7 @@ return x_2;
 }
 }
 public static Obj l_List_elem___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_escapeVersoDelimited_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -774,6 +790,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_VersoCodeBlock_view___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -807,6 +824,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_versoCodeLine___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -895,6 +913,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoText(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -929,6 +948,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_dlQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -1034,6 +1054,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_LinkTarget_ref___regBuiltin_Lean_Doc_Parser_LinkTarget_ref_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1080,6 +1101,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_metadata__block___regBuiltin_Lean_Doc_Parser_Block_metadata__block_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1181,6 +1203,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Doc_Parser_listMarker___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1203,6 +1226,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_escapeVersoLinkUrl(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1304,6 +1328,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_escapeVersoDelimited_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1325,6 +1350,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_instCoeTSyntaxConsSyntaxNodeKindMkStr5NilMkStr4__lean___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1414,6 +1440,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_inlineMathQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1467,6 +1494,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoBlocks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1525,6 +1553,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_VersoText_view___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1568,6 +1597,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_unescapeVerso___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1657,6 +1687,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_versoCodeBoundarySpaces___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1666,6 +1697,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_metadataContentsLit___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_14 = 0; 
@@ -1757,6 +1789,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_versoText___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1869,6 +1902,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_paraQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1984,6 +2018,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoImageAlt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2043,6 +2078,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_VersoImageAlt_view___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2088,6 +2124,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_atomOf___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -2130,6 +2167,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_charRun___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -2173,6 +2211,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Doc_versoCodeBoundarySpaces_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -2195,6 +2234,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_contains___at___00Lean_Doc_versoCodeBoundarySpaces_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -2240,6 +2280,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoLinkRefUrl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2261,6 +2302,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_DescItem_item___regBuiltin_Lean_Doc_Parser_DescItem_item_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2269,6 +2311,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoTextSource___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2322,6 +2365,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_directiveDelimiter___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2333,6 +2377,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoCodeLine(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2408,6 +2453,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_matchingDelimiterLengths(Obj x_1, uint x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -2570,6 +2616,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_footnote__ref___regBuiltin_Lean_Doc_Parser_Block_footnote__ref_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2578,6 +2625,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_document___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2589,6 +2637,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_blockquoteQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -2902,6 +2951,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_blockquote___regBuiltin_Lean_Doc_Parser_Block_blockquote_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2969,6 +3019,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_numberAtom___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -3068,6 +3119,7 @@ return x_1;
 }
 }
 public static byte l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Doc_versoCodeBoundarySpaces_spec__0_spec__0___redArg(Obj x_1, byte x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -3133,6 +3185,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoRefName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3142,6 +3195,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_Parser_matchingDelimiterLengths_spec__0(uint x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3200,6 +3254,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_versoCodeBlock___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3211,6 +3266,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_roleQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; 
@@ -3284,6 +3340,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_metadataContentsLit___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3315,6 +3372,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_bulletAtom___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3324,6 +3382,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_ol___regBuiltin_Lean_Doc_Parser_Block_ol_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3332,6 +3391,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_unorderedListMarker___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3399,6 +3459,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_versoRef___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3420,6 +3481,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_LinkTarget_url___regBuiltin_Lean_Doc_Parser_LinkTarget_url_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3438,6 +3500,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_VersoRefName_view___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3478,6 +3541,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoLinkUrl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3577,6 +3641,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_escapeVersoImageAlt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -3586,6 +3651,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Inline_display__math___regBuiltin_Lean_Doc_Parser_Inline_display__math_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3689,6 +3755,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_VersoCodeBlock_view(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3706,6 +3773,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoBlocks(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -3743,6 +3811,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoLinkUrl(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -3869,6 +3938,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoCodeBlockLines___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3878,6 +3948,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_VersoRefName_view(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3930,6 +4001,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_ListItem_item___regBuiltin_Lean_Doc_Parser_ListItem_item_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3975,6 +4047,7 @@ return x_16;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_orderedListMarker___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4057,6 +4130,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoCode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -4210,6 +4284,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_Parser_atomOf_spec__0___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -4284,6 +4359,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_ul___regBuiltin_Lean_Doc_Parser_Block_ul_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4337,6 +4413,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_dl___regBuiltin_Lean_Doc_Parser_Block_dl_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4345,6 +4422,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_linkQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -4449,6 +4527,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_escapeVersoDelimited_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -4473,6 +4552,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_linkTarget___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4484,6 +4564,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_versoCode___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4684,6 +4765,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFence___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4729,6 +4811,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_Arg_named___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4754,6 +4837,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_link__ref___regBuiltin_Lean_Doc_Parser_Block_link__ref_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4792,6 +4876,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_descItemQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -4893,6 +4978,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Inline_image___regBuiltin_Lean_Doc_Parser_Inline_image_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4901,6 +4987,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_charRun___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -4928,6 +5015,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_longestBacktickRun(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -5057,6 +5145,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_versoLinkRefUrl___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5078,6 +5167,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_Parser_atomOf_spec__0___lam__1(uint x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -5136,6 +5226,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_blockQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; Obj x_26 = null; 
@@ -5238,6 +5329,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_inlineMathMarker___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5274,6 +5366,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_atomOf(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -5364,6 +5457,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_olQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -5489,6 +5583,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Block_header___regBuiltin_Lean_Doc_Parser_Block_header_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5664,6 +5759,7 @@ return x_1;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_Parser_atomOf_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5699,6 +5795,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Doc_longestBacktickRun_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -5717,6 +5814,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_charRun___lam__1(uint x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -5784,6 +5882,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_TSyntax_getVersoBlocks_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -5842,6 +5941,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeDelimiter___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5964,6 +6064,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Inline_inline__math___regBuiltin_Lean_Doc_Parser_Inline_inline__math_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6044,6 +6145,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoTextSource(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -6271,6 +6373,7 @@ return x_1;
 }
 }
 public static byte l_List_elem___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_escapeVersoDelimited_spec__0(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6318,6 +6421,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_inlineQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; byte x_30 = 0; Obj x_31 = null; 
@@ -6365,6 +6469,7 @@ return x_31;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_footnoteRefQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -6437,6 +6542,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Parser_LinkTarget_ref___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -6541,6 +6647,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_inlineQuot___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6842,6 +6949,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Inline_role___regBuiltin_Lean_Doc_Parser_Inline_role_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7242,6 +7350,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoCodeBlock(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -7280,6 +7389,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Doc_versoCodeBoundarySpaces_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; 
@@ -7395,6 +7505,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_boldQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -7612,6 +7723,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_escapeVersoDelimited___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7888,6 +8000,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_getVersoRefName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -8063,6 +8176,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_footnoteQuot(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -8414,6 +8528,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_argVal___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -8469,6 +8584,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Doc_longestBacktickRun_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8781,6 +8897,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Arg_named___regBuiltin_Lean_Doc_Parser_Arg_named_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9412,6 +9529,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_DocString_Syntax_0__Lean_Doc_escapeVersoDelimited_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -9512,6 +9630,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Syntax_0__Lean_Doc_Parser_Arg_flag__off___regBuiltin_Lean_Doc_Parser_Arg_flag__off_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9899,6 +10018,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_VersoDocument_view___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10247,6 +10367,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Doc_longestBacktickRun_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -10433,6 +10554,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_TSyntax_getVersoCode_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Server_RequestCancellation {
 public static Obj l_Lean_Server_CancellableT_checkCancelled___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -63,6 +64,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_RequestCancellation_check___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -80,6 +82,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_CancellableT_checkCancelled___at___00Lean_Server_CancellableM_checkCancelled_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -113,6 +116,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_RequestCancellationToken_cancelByEdit___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -122,6 +126,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_RequestCancellation_check___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -139,6 +144,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_CancellableM_run___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -147,6 +153,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_RequestCancellationToken_editCancellationTask(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; 
@@ -160,6 +167,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Server_RequestCancellationToken_new___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -168,6 +176,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Server_RequestCancellationToken_wasCancelledByEdit___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -186,6 +195,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_CancellableM_checkCancelled___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -195,6 +205,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_RequestCancellationToken_cancelByCancelRequest___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -233,6 +244,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Server_RequestCancellationToken_requestCancellationTask(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; 
@@ -368,6 +380,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Server_RequestCancellationToken_cancellationTasks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -405,6 +418,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Server_CancellableT_checkCancelled___redArg___lam__1(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_2 == 0)
@@ -449,6 +463,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_CancellableT_checkCancelled___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

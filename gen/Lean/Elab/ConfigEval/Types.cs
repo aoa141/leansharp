@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_throwUnsupportedExpr(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -57,6 +58,7 @@ return x_3;
 }
 public static Obj l_Lean_Elab_ConfigEval_unsupportedExprExceptionId;
 public static Obj l_Lean_Elab_ConfigEval_throwUnsupportedExpr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 

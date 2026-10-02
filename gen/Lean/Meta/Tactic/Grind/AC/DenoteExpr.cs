@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_AC_DenoteExpr {
 public static Obj l_Lean_Meta_Grind_AC_EqCnstr_denoteExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15,6 +16,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstr_denoteExpr___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -38,6 +40,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstr_denoteExpr___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -51,6 +54,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_denoteExpr___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -85,6 +89,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_AC_Expr_denoteExpr___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -202,6 +207,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstr_denoteExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -294,6 +300,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_denoteExpr___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -329,6 +336,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstr_denoteExpr___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 

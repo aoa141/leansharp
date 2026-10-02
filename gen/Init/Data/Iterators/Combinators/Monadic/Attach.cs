@@ -292,6 +292,7 @@ return x_25;
 }
 }
 public static Obj l_Std_Iterators_Types_Attach_instIterator___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -444,6 +445,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Iterators_Types_Attach_instIteratorLoop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

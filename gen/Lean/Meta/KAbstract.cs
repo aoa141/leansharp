@@ -100,6 +100,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Meta_kabstract_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -112,6 +113,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_kabstract(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_41 = 0; 
@@ -258,6 +260,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Meta_KAbstract_0__Lean_Meta_kabstract_visit(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_197 = 0; 

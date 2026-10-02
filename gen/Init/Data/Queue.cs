@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Queue {
 public static Obj l_Std_Queue_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -49,6 +50,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Queue_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -57,6 +59,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Queue_empty(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -115,6 +118,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Queue_isEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -209,6 +213,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Queue_instEmptyCollection(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -227,6 +232,7 @@ return x_1;
 }
 }
 public static byte l_Std_Queue_isEmpty(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -462,6 +468,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Queue_filterM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

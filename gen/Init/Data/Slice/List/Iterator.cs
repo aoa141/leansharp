@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Slice_List_Iterator {
 public static Obj l_List_instToStringListSlice___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -150,6 +151,7 @@ return x_12;
 }
 }
 public static Obj l_List_ListSlice_repr___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_29 = 0; 
@@ -261,6 +263,7 @@ return x_2;
 }
 }
 public static Obj l_ListSlice_instToIterator(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -279,6 +282,7 @@ return x_1;
 }
 }
 public static Obj l_List_instReprListSlice___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -640,6 +644,7 @@ return x_1;
 }
 }
 public static Obj l_List_instAppendListSlice___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_15 = null; Obj x_36 = null; 
@@ -893,6 +898,7 @@ return x_3;
 }
 }
 public static Obj l_instSliceSizeListSliceData___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -902,6 +908,7 @@ return x_5;
 }
 }
 public static Obj l_List_instAppendListSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1037,6 +1044,7 @@ return x_4;
 }
 }
 public static Obj l_List_instAppendListSlice(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

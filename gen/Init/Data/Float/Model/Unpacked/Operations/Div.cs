@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Float_Model_Unpacked_Operations_Div {
 public static Obj l_Float_Model_UnpackedFloat_accuracyOfFraction___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -29,6 +30,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_div___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -50,6 +52,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_accuracyOfFraction(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -108,6 +111,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_divCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

@@ -196,6 +196,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_List_TakeDrop_0__List_filter_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 

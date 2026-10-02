@@ -126,6 +126,7 @@ return x_21;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_mkPowFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -168,6 +169,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getNatCastFn_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -208,6 +210,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getAddFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -267,6 +270,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getMulFn_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -324,6 +328,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getIntSMulFn___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -490,6 +495,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getDivFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -573,6 +579,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_mkPowFn___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -678,6 +685,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getPowFn_x27___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -730,6 +738,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_throwError___at___00__private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_checkInst_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -777,6 +786,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getNatSMulFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -902,6 +912,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_mkSMulFn___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1163,6 +1174,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getAddFn_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1333,6 +1345,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getIntSMulFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1351,6 +1364,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getNatSMulFn_x27___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1419,6 +1433,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getMulFn_x27___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1482,6 +1497,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getDivFn___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1567,6 +1583,7 @@ return x_34;
 }
 }
 public static Obj l_Lean_throwError___at___00__private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_checkInst_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_17 = 0; 
@@ -1902,6 +1919,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_checkInst(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_43 = null; byte x_44 = 0; byte x_45 = 0; byte x_46 = 0; 
@@ -2133,6 +2151,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_mkPowFn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -2175,6 +2194,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getNatSMulFn___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2231,6 +2251,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_mkSMulFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2315,6 +2336,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getSubFn___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2607,6 +2629,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getAddFn___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2826,6 +2849,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getAddFn_x27___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -3233,6 +3257,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Functions_0__Lean_Meta_Sym_Arith_mkNatCastFn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_32 = 0; 
@@ -3374,6 +3399,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getIntCastFn___redArg___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3935,6 +3961,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getToQFn___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4362,6 +4389,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getMulFn___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -4466,6 +4494,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getMulFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5103,6 +5132,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getNegFn___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

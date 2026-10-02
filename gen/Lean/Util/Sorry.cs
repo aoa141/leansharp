@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Util_Sorry {
 public static Obj l_Lean_Declaration_hasNonSyntheticSorry___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -17,6 +18,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_hasSorry___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -27,6 +29,7 @@ return x_3;
 }
 }
 public static byte l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__2(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -73,6 +76,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSorry_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -84,6 +88,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSyntheticSorry_spec__0_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -95,6 +100,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSyntheticSorry_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -106,6 +112,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0___lam__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -121,6 +128,7 @@ return x_1;
 }
 }
 public static byte l_List_foldlM___at___00List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSorry_spec__0_spec__2_spec__4(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -168,6 +176,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Declaration_hasSorry___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -178,6 +187,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSorry_spec__0_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -189,6 +199,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Expr_isNonSyntheticSorry(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_11 = null; byte x_12 = 0; 
@@ -234,6 +245,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Declaration_hasSyntheticSorry___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -254,6 +266,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldlM___at___00List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__2_spec__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -265,6 +278,7 @@ return x_5;
 }
 }
 public static byte l_List_foldlM___at___00List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__2_spec__4(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -324,6 +338,7 @@ return x_1;
 }
 }
 public static byte l_List_foldlM___at___00List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSorry_spec__0_spec__0_spec__1(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -354,6 +369,7 @@ goto _start;
 }
 }
 public static Obj l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -386,6 +402,7 @@ return x_5;
 }
 }
 public static byte l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSorry_spec__0_spec__1(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -409,6 +426,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Expr_isSorry___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -439,6 +457,7 @@ return x_1;
 }
 }
 public static byte l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSyntheticSorry_spec__0_spec__1(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -462,6 +481,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Expr_isSyntheticSorry___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -472,6 +492,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -517,6 +538,7 @@ return x_16;
 }
 }
 public static byte l_List_foldlM___at___00List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSyntheticSorry_spec__0_spec__0_spec__1(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -576,6 +598,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSorry_spec__0(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -632,6 +655,7 @@ return x_2;
 }
 }
 public static byte l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -671,6 +695,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSyntheticSorry_spec__0(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -716,6 +741,7 @@ return x_16;
 }
 }
 public static Obj l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSyntheticSorry_spec__0_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -762,6 +788,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -773,6 +800,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_hasSorry___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -806,6 +834,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSorry_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -857,6 +886,7 @@ return x_9;
 }
 }
 public static byte l_Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSorry_spec__0___lam__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -872,6 +902,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldlM___at___00List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -883,6 +914,7 @@ return x_5;
 }
 }
 public static byte l_List_foldlM___at___00List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasSyntheticSorry_spec__0_spec__2_spec__4(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -920,6 +952,7 @@ goto _start;
 }
 }
 public static byte l_List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__1(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -963,6 +996,7 @@ return x_3;
 }
 }
 public static byte l_List_foldlM___at___00List_foldlM___at___00Lean_Declaration_foldExprM___at___00Lean_Declaration_hasNonSyntheticSorry_spec__0_spec__0_spec__1(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

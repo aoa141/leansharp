@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Rat_instOfNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -57,6 +58,7 @@ return x_1;
 }
 }
 public static byte l_Rat_instDecidableLe(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -76,6 +78,7 @@ return x_5;
 }
 }
 public static Obj l_instDecidableEqRat___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -159,6 +162,7 @@ return x_2;
 }
 }
 public static Obj l_Rat_div___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -208,6 +212,7 @@ return x_5;
 }
 }
 public static Obj l_instReprRat___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -298,6 +303,7 @@ return x_1;
 }
 }
 public static Obj l_Rat_abs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -317,6 +323,7 @@ return x_1;
 }
 }
 public static Obj l_Rat_mul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -351,6 +358,7 @@ return x_4;
 }
 }
 public static Obj l_Rat_pow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -360,6 +368,7 @@ return x_3;
 }
 }
 public static Obj l_Rat___aux__Init__Data__Rat__Basic______macroRules__Rat__term___x2f_x2e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -413,6 +422,7 @@ return x_26;
 }
 }
 public static Obj l_instHashableRat_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -433,6 +443,7 @@ return x_1;
 }
 }
 public static Obj l_Rat_divInt(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -531,6 +542,7 @@ return x_30;
 }
 }
 public static Obj l_Rat_ceil(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -561,6 +573,7 @@ return x_2;
 }
 }
 public static Obj l_Rat_ofScientific(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (x_2 == 0)
@@ -614,6 +627,7 @@ return x_19;
 }
 }
 public static Obj l_Rat_instNatCast___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -623,6 +637,7 @@ return x_3;
 }
 }
 public static Obj l_Rat_instDecidableLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -729,6 +744,7 @@ return x_2;
 }
 }
 public static Obj l_Rat_blt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -904,6 +920,7 @@ return x_14;
 }
 }
 public static byte l_Rat_blt(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_13 = null; byte x_21 = 0; 
@@ -1246,6 +1263,7 @@ return x_1;
 }
 }
 public static Obj l_Rat___aux__Init__Data__Rat__Basic______unexpand__Rat__divInt__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1516,6 +1534,7 @@ return x_3;
 }
 }
 public static Obj l_Rat_inv(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1651,6 +1670,7 @@ return x_1;
 }
 }
 public static Obj l_mkRat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1773,6 +1793,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringRat___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1868,6 +1889,7 @@ return x_1;
 }
 }
 public static ulong l_instHashableRat_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_12 = null; byte x_13 = 0; 
@@ -1938,6 +1960,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_cast___at___00Rat_ofScientific_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2207,6 +2230,7 @@ return x_3;
 }
 }
 public static Obj l_Rat_zpow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2257,6 +2281,7 @@ return x_1;
 }
 }
 public static Obj l_Rat_zpow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 

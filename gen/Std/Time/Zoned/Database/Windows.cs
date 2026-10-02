@@ -28,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Time_Database_Windows_getZoneRules_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -51,6 +52,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Database_WindowsDb_inst___lam__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -110,6 +112,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Time_Database_Windows_getZoneRules_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -119,6 +122,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Database_WindowsDb_inst___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -128,6 +132,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Database_WindowsDb_inst___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -150,6 +155,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Time_Database_Windows_getZoneRules_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -239,6 +245,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Zoned_Database_Windows_0__Std_Time_Database_Windows_getZoneRules_toLocalTime___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -258,6 +265,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_Windows_getLocalTimeZoneIdentifierAt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -268,6 +276,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Time_Database_Windows_getZoneRules_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_61 = 0; 
@@ -545,6 +554,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Database_Windows_getZoneRules___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

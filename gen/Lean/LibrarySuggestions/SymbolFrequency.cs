@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_LibrarySuggestions_SymbolFrequency {
 public static Obj l_Lean_LibrarySuggestions_symbolFrequencyMap(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -172,6 +173,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_LibrarySuggestions_SymbolFrequency_0__Lean_LibrarySuggestions_withUncountedHeartbeats___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -195,6 +197,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__1___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -205,6 +208,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_withExporting___at___00Lean_withoutExporting___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__3_spec__3___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -217,6 +221,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_getD___at___00Lean_LibrarySuggestions_symbolFrequency_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -236,6 +241,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_withExporting___at___00Lean_withoutExporting___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__3_spec__3___redArg(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -567,6 +573,7 @@ return x_63;
 }
 }
 public static Obj l_Lean_withoutExporting___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -580,6 +587,7 @@ return x_10;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_getD___at___00Lean_LibrarySuggestions_symbolFrequency_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -602,6 +610,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_withoutExporting___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -615,6 +624,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -683,6 +693,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_withExporting___at___00Lean_withoutExporting___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__3_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -754,6 +765,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_LibrarySuggestions_SymbolFrequency_0__Lean_LibrarySuggestions_withUncountedHeartbeats___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -764,6 +776,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -888,6 +901,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -928,6 +942,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_LibrarySuggestions_symbolFrequency(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1021,6 +1036,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_LibrarySuggestions_symbolFrequencyMap___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1085,6 +1101,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_LibrarySuggestions_SymbolFrequency_0__Lean_LibrarySuggestions_withUncountedHeartbeats___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1190,6 +1207,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_alter___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1340,6 +1358,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_getD___at___00Lean_LibrarySuggestions_symbolFrequency_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1376,6 +1395,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_alter___at___00Lean_LibrarySuggestions_symbolFrequencyMap_spec__0___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1385,6 +1405,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_LibrarySuggestions_SymbolFrequency_0__Lean_LibrarySuggestions_withUncountedHeartbeats(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1454,6 +1475,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_LibrarySuggestions_symbolFrequencyMap___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -1569,6 +1591,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_LibrarySuggestions_SymbolFrequency_0__Lean_LibrarySuggestions_withUncountedHeartbeats___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 

@@ -131,6 +131,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_TimeZone_instReprTransitionRule_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -140,6 +141,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -160,6 +162,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_mwd_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -242,6 +245,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -250,6 +254,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_TimeZone_instReprTransitionSpec_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -594,6 +599,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_toEpochDay(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -702,6 +708,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_toEpochDayJulian0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -744,6 +751,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_instReprDaylightSavingRule_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; 
@@ -958,6 +966,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_julian_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -966,6 +975,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_mwd_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -974,6 +984,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_instReprDaylightSavingRule_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1008,6 +1019,7 @@ return x_3;
 }
 }
 public static Obj l_Option_repr___at___00Std_Time_TimeZone_instReprRecurringRule_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1072,6 +1084,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_toEpochDayJulian___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1081,6 +1094,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_toEpochDayMWD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1137,6 +1151,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_instReprTransitionRule_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_36 = 0; 
@@ -1346,6 +1361,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_toEpochDayMWD(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_17 = null; byte x_18 = 0; 
@@ -1535,6 +1551,7 @@ return x_15;
 }
 }
 public static Obj l_Option_repr___at___00Std_Time_TimeZone_instReprRecurringRule_repr_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1615,6 +1632,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_instReprRecurringRule_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1729,6 +1747,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_julian0_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1795,6 +1814,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_TimeZone_instReprRecurringRule_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; 
@@ -1972,6 +1992,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_julian_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2000,6 +2021,7 @@ return x_1;
 }
 }
 public static Obj l_Option_repr___at___00Std_Time_TimeZone_instReprDaylightSavingRule_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2009,6 +2031,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_TimeZone_TransitionSpec_julian0_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

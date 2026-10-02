@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Util_Recognizers {
 public static Obj l_Lean_Expr_and_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -68,6 +69,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Expr_isDIte(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -78,6 +80,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_arrow_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -108,6 +111,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_name_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3387,6 +3391,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_isHEq___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3419,6 +3424,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Expr_natAdd_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3428,6 +3434,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_not_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3457,6 +3464,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_eq_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3466,6 +3474,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_notNot_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -3513,6 +3522,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_not_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -3558,6 +3568,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_arrayLit_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -3580,6 +3591,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Expr_ne_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -3678,6 +3690,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_app4_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3698,6 +3711,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Util_Recognizers_0__Lean_Expr_listLit_x3f_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -3779,6 +3793,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Expr_eqOrIff_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -3884,6 +3899,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_iff_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -3913,6 +3929,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Expr_isEq___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4138,6 +4155,7 @@ return x_10;
 }
 }
 public static byte l_Lean_Expr_isIte(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -4384,6 +4402,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_heq_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_InternalExceptionId {
 public static Obj l_Lean_InternalExceptionId_getName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -46,6 +47,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instBEqInternalExceptionId_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -57,6 +59,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_InternalExceptionId_0__Lean_initFn_00___x40_Lean_InternalExceptionId_3474817028____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -65,6 +68,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_InternalExceptionId_getName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -103,6 +107,7 @@ return x_1;
 }
 }
 public static Obj l_Array_contains___at___00Lean_registerInternalExceptionId_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -114,6 +119,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_registerInternalExceptionId(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -158,6 +164,7 @@ return x_3;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00Lean_registerInternalExceptionId_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

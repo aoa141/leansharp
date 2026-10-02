@@ -24,6 +24,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_CompactedRegion_free___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

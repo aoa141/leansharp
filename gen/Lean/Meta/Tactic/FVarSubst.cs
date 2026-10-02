@@ -49,6 +49,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AssocList_foldlM___at___00Lean_Meta_FVarSubst_domain_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -58,6 +59,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AssocList_contains___at___00Lean_Meta_FVarSubst_contains_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -212,6 +214,7 @@ return x_28;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_insert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -240,6 +243,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_find_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -250,6 +254,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_get(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -272,6 +277,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_AssocList_erase___at___00Lean_Meta_FVarSubst_erase_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -280,6 +286,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_find_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -288,6 +295,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_append(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -297,6 +305,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AssocList_find_x3f___at___00Lean_Meta_FVarSubst_find_x3f_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -317,6 +326,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AssocList_find_x3f___at___00Lean_Meta_FVarSubst_find_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -325,6 +335,7 @@ return x_4;
 }
 }
 public static byte l_Lean_AssocList_contains___at___00Lean_Meta_FVarSubst_contains_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -333,6 +344,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_AssocList_find_x3f___at___00Lean_Meta_FVarSubst_find_x3f_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -365,6 +377,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_erase___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -374,6 +387,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_any___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -392,6 +406,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_AssocList_erase___at___00Lean_Meta_FVarSubst_erase_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -401,6 +416,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AssocList_foldlM___at___00Lean_Meta_FVarSubst_append_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -429,6 +445,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_contains___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -457,6 +474,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_apply___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -466,6 +484,7 @@ return x_3;
 }
 }
 public static byte l_Lean_AssocList_contains___at___00Lean_Meta_FVarSubst_contains_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -551,6 +570,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_FVarSubst_domain(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -577,6 +597,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AssocList_erase___at___00Lean_Meta_FVarSubst_erase_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -701,6 +722,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AssocList_foldlM___at___00Lean_Meta_FVarSubst_domain_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

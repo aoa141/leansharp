@@ -25,6 +25,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwAttrDeclInImportedModule___at___00Lake_registerOrderedTagAttribute_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -35,6 +36,7 @@ return x_7;
 }
 }
 public static Obj l_Array_binSearchAux___at___00Lake_OrderedTagAttribute_hasTag_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -67,6 +69,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwAttrMustBeGlobal___at___00Lake_registerOrderedTagAttribute_spec__2___redArg(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -122,6 +125,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_registerOrderedTagAttribute___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -153,6 +157,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_registerOrderedTagAttribute___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -222,6 +227,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_registerOrderedTagAttribute___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -239,6 +245,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_registerOrderedTagAttribute___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -259,6 +266,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_OrderedTagAttribute_hasTag___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -301,6 +309,7 @@ return x_1;
 }
 }
 public static Obj l_Array_contains___at___00Lake_OrderedTagAttribute_hasTag_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -312,6 +321,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OrderedTagAttribute_getAllEntries(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -364,6 +374,7 @@ return x_2;
 }
 }
 public static byte l_Array_contains___at___00Lake_OrderedTagAttribute_hasTag_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -423,6 +434,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instInhabitedOrderedTagAttribute_default___lam__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -494,6 +506,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_registerOrderedTagAttribute(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -730,6 +743,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_OrderedTagAttribute_getAllEntries_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -752,6 +766,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_registerOrderedTagAttribute___lam__7(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_52 = null; 
@@ -977,6 +992,7 @@ return x_3;
 }
 }
 public static byte l_Array_binSearchAux___at___00Lake_OrderedTagAttribute_hasTag_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1020,6 +1036,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00Lake_OrderedTagAttribute_hasTag_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -1068,6 +1085,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_instInhabitedOrderedTagAttribute_default___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1092,6 +1110,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_registerOrderedTagAttribute___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1113,6 +1132,7 @@ return x_2;
 }
 }
 public static byte l_Array_binSearchAux___at___00Lake_OrderedTagAttribute_hasTag_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1202,6 +1222,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_addMessageContextPartial___at___00Lean_throwError___at___00Lake_registerOrderedTagAttribute_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1232,6 +1253,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lake_registerOrderedTagAttribute_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1268,6 +1290,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_throwError___at___00Lake_registerOrderedTagAttribute_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_15 = 0; 
@@ -1372,6 +1395,7 @@ return x_1;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00Lake_OrderedTagAttribute_hasTag_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

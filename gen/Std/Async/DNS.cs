@@ -19,6 +19,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_DNS_getAddrInfo(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_13 = 0; 
@@ -163,6 +164,7 @@ goto block_12;
 }
 }
 public static Obj l_Std_Async_DNS_getNameInfo___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -330,6 +332,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_DNS_getNameInfo___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -339,6 +342,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_DNS_getNameInfo(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_50 = null; 

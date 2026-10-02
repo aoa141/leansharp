@@ -31,6 +31,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_get___at___00Lean_Meta_Tactic_TryThis_getInputWidth_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -41,6 +42,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_Suggestion_processEdit___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -62,6 +64,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionText_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -246,6 +249,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionStyle_error(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -341,6 +345,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionText_string_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -440,6 +445,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_Suggestion_processEdit(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -698,6 +704,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_getIndentAndColumn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_29 = 0; 
@@ -873,6 +880,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_revFind_x3f___at___00__private_Lean_Meta_TryThis_0__Lean_Meta_Tactic_TryThis_getIndentAndColumn_findLineStart_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -897,6 +905,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionText_tsyntax_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -958,6 +967,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_revFind_x3f___at___00__private_Lean_Meta_TryThis_0__Lean_Meta_Tactic_TryThis_getIndentAndColumn_findLineStart_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1119,6 +1129,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_Suggestion_pretty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1242,6 +1253,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionText_tsyntax_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1250,6 +1262,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_revFind_x3f___at___00__private_Lean_Meta_TryThis_0__Lean_Meta_Tactic_TryThis_getIndentAndColumn_findLineStart_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1304,6 +1317,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionStyle_warning___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1345,6 +1359,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_revFind_x3f___at___00__private_Lean_Meta_TryThis_0__Lean_Meta_Tactic_TryThis_getIndentAndColumn_findLineStart_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1405,6 +1420,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_instToJsonSuggestionStyle___aux__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1442,6 +1458,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Meta_Tactic_TryThis_getIndentAndColumn_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1466,6 +1483,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionText_prettyExtra___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1507,6 +1525,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionStyle_warning(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -1613,6 +1632,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionText_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1664,6 +1684,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Tactic_TryThis_SuggestionStyle_value(double x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; double x_5 = 0.0; double x_6 = 0.0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; double x_11 = 0.0; double x_12 = 0.0; double x_13 = 0.0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; double x_18 = 0.0; double x_19 = 0.0; double x_20 = 0.0; double x_21 = 0.0; double x_22 = 0.0; double x_23 = 0.0; double x_24 = 0.0; double x_25 = 0.0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; 
@@ -1754,6 +1775,7 @@ return x_43;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Meta_Tactic_TryThis_getIndentAndColumn_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 

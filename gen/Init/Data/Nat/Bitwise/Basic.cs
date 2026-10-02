@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Nat_Bitwise_Basic {
 public static Obj l_Nat_shiftRight___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -47,6 +48,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_bitwise___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -67,6 +69,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_bitwise(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -163,6 +166,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_testBit___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -229,6 +233,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_lor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

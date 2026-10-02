@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_DataValue_ofInt_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -25,6 +26,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_KVMap_getSyntax(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -73,6 +75,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_updateNat(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -86,6 +89,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_KVMap_get___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -97,6 +101,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_instCoeBoolDataValue___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -115,6 +120,7 @@ return x_1;
 }
 }
 public static byte lean_data_value_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -125,6 +131,7 @@ return x_3;
 }
 }
 public static Obj l_List_repr___at___00Lean_instReprKVMap_repr_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -147,6 +154,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_DataValue_getBoolEx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -156,6 +164,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_DataValue_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -165,6 +174,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_KVMap_subset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -186,6 +196,7 @@ return x_1;
 }
 }
 public static byte l_Lean_KVMap_subsetAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -230,6 +241,7 @@ goto _start;
 }
 }
 public static Obj l_List_filterTR_loop___at___00Lean_KVMap_erase_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -312,6 +324,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00List_repr___at___00Lean_instReprKVMap_repr_spec__0_spec__1_spec__4_spec__6(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -409,6 +422,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instReprDataValue_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -418,6 +432,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00Prod_repr___at___00List_repr___at___00Lean_instReprKVMap_repr_spec__0_spec__0_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -454,6 +469,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_KVMap_size___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -472,6 +488,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instBEqDataValue_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -521,6 +538,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_updateName(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -546,6 +564,7 @@ return x_2;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_KVMap_mergeBy_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -591,6 +610,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_KVMap_find(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -599,6 +619,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_erase___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -608,6 +629,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_getNat(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -642,6 +664,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_setNat(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -652,6 +675,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_KVMap_updateBool(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; 
@@ -677,6 +701,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_DataValue_ofString_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -685,6 +710,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_getBool___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -759,6 +785,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_KVMap_get___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -962,6 +989,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_DataValue_ofBool_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -989,6 +1017,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_KVMap_insertCore(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1124,6 +1153,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_KVMap_instForInProdNameDataValueOfMonad___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1167,6 +1197,7 @@ return x_1;
 }
 }
 public static Obj l_List_repr___at___00Lean_instReprKVMap_repr_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1215,6 +1246,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_instValueBool___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1238,6 +1270,7 @@ return x_3;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_KVMap_mergeBy_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1426,6 +1459,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkBoolDataValueEx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1487,6 +1521,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_KVMap_getName(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1521,6 +1556,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_get_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1645,6 +1681,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00List_repr___at___00Lean_instReprKVMap_repr_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1694,6 +1731,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instReprKVMap_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -1777,6 +1815,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_DataValue_ofBool_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1785,6 +1824,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_KVMap_mergeBy___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1804,6 +1844,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_KVMap_findD(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1824,6 +1865,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00Prod_repr___at___00List_repr___at___00Lean_instReprKVMap_repr_spec__0_spec__0_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1989,6 +2031,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_DataValue_ofNat_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2006,6 +2049,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_forIn___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2027,6 +2071,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_DataValue_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2071,6 +2116,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_update___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_14 = null; 
@@ -2193,6 +2239,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_KVMap_findCore___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2223,6 +2270,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instReprKVMap_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2539,6 +2587,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_DataValue_sameCtor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2558,6 +2607,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instReprDataValue_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3000,6 +3050,7 @@ return x_1;
 }
 }
 public static Obj l_Prod_repr___at___00List_repr___at___00Lean_instReprKVMap_repr_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3190,6 +3241,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_KVMap_update(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_15 = null; 
@@ -3293,6 +3345,7 @@ return x_2;
 }
 }
 public static Obj l_Prod_repr___at___00List_repr___at___00Lean_instReprKVMap_repr_spec__0_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_26 = 0; 
@@ -3369,6 +3422,7 @@ return x_22;
 }
 }
 public static byte l_Lean_KVMap_getBool(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3432,6 +3486,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_KVMap_get_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -3593,6 +3648,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_KVMap_getInt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3688,6 +3744,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_KVMap_updateString(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3728,6 +3785,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_KVMap_findCore(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4227,6 +4285,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_KVMap_getString___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

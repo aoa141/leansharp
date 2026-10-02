@@ -23,6 +23,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_OLeanLevel_server_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -33,6 +34,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_takeNewEntries___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -42,6 +44,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ConstantInfo_instantiateTypeLevelParams(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -79,6 +82,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_getStateUnsafe(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -87,6 +91,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_registerPersistentEnvExtensionUnsafe___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -107,6 +112,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_finalizeImport_spec__11(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -135,6 +141,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_mkModuleData_spec__2___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -146,6 +153,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_realizeValue_unsafe__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -167,6 +175,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_local_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -176,6 +185,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_EnvExtension_getGen___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -255,6 +265,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_OLeanLevel_exported_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -264,6 +275,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_local_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -284,6 +296,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instInhabitedPersistentEnvExtension___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -294,6 +307,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__1_spec__3_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -302,6 +316,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_modifyState_unsafe__14___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -313,6 +328,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_AsyncConstantInfo_isUnsafe___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -322,6 +338,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_finalizeImport_unsafe__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -373,6 +390,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Environment_enableRealizationsForConst(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
@@ -635,6 +653,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_PersistentEnvExtension_getModuleIREntries_unsafe__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -655,6 +674,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_withImportModules___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -675,6 +695,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instGetElem_x3fArrayModuleIdxLtNatToNatSize___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -691,6 +712,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Environment_addConstAsync___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; 
@@ -722,6 +744,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_withoutExporting___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -731,6 +754,7 @@ return x_7;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0_spec__1_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -739,6 +763,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_ImportState_markAllExported_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -764,6 +789,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_findAsyncCore_x3f(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_25 = null; Obj x_36 = null; Obj x_37 = null; 
@@ -974,6 +1000,7 @@ goto block_24;
 }
 }
 public static Obj l_Lean_readModuleData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -991,6 +1018,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_mkModuleData_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_16 = 0; 
@@ -1097,6 +1125,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_mkModuleData(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; byte x_59 = 0; Obj x_67 = null; Obj x_68 = null; byte x_69 = 0; 
@@ -1301,6 +1330,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Environment_containsOnBranch(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1355,6 +1385,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1363,6 +1394,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Environment_ofKernelEnv(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; 
@@ -1450,6 +1482,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_mkModuleData_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1480,6 +1513,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_addConstAsync(Obj x_1, Obj x_2, byte x_3, Obj x_4, byte x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; byte x_69 = 0; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; 
@@ -1826,6 +1860,7 @@ goto block_85;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__3_spec__5___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -1838,6 +1873,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lean_mkModuleData_spec__1_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_13 = null; byte x_17 = 0; 
@@ -1923,6 +1959,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_local_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1931,6 +1968,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_header___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1940,6 +1978,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Environment_realizeConst___lam__6(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1948,6 +1987,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_evalConst___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 if (x_4 == 0)
@@ -2014,6 +2054,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Environment_evalConst___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2034,6 +2075,7 @@ return x_2;
 }
 }
 public static byte l_Lean_instDecidableEqOLeanLevel(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2063,6 +2105,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00Lean_finalizeImport_spec__9___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2084,6 +2127,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_contains___at___00Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2095,6 +2139,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_addDeclCore(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_16 = null; 
@@ -2267,6 +2312,7 @@ goto block_10;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_ensureExtensionsArraySize_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -2353,6 +2399,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2362,6 +2409,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_Environment_0__Lean_subsumesInfo_isPropCheap_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2370,6 +2418,7 @@ return x_3;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Environment_addDeclCore_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2378,6 +2427,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_finalizeImport_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -2405,6 +2455,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_evalConstCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2438,6 +2489,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Environment_realizeConst___lam__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2446,6 +2498,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_registerPersistentEnvExtensionUnsafe(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2466,6 +2519,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__1_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -2507,6 +2561,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Kernel_Environment_Diagnostics_isEnabled___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2545,6 +2600,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_readModuleDataParts_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -2558,6 +2614,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_PersistentEnvExtension_getModuleIREntries_unsafe__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2581,6 +2638,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lean_finalizeImport_spec__2_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -2595,6 +2653,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Kernel_Exception_interrupted_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2624,6 +2683,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1_spec__4_spec__7___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2653,6 +2713,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Option_set___at___00Lean_Environment_realizeConst_spec__0(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2732,6 +2793,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_ConstantKind_opaque_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2742,6 +2804,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Environment_constants(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2753,6 +2816,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_replayConsts___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2783,6 +2847,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_mkModuleData_spec__2_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2854,6 +2919,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConsts_findRecAndParent_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2863,6 +2929,7 @@ return x_4;
 }
 }
 public static byte l_Lean_EnvExtension_asyncMayModify(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2871,6 +2938,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Kernel_Exception_invalidProj_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2889,6 +2957,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_setDefHeightOverride(Obj x_1, Obj x_2, uint x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; 
@@ -2929,6 +2998,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_finalizeImport(Obj x_1, Obj x_2, Obj x_3, uint x_4, byte x_5, byte x_6, byte x_7, byte x_8, byte x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; ulong x_31 = 0; ulong x_32 = 0; Obj x_33 = null; 
@@ -4144,6 +4214,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Environment_realizeValue___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_14 = null; Obj x_17 = null; byte x_32 = 0; 
@@ -4306,6 +4377,7 @@ goto block_16;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConsts_findRecTask(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4350,6 +4422,7 @@ return x_14;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00List_repr___at___00Lean_Environment_dbgFormatAsyncState_spec__2_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -4425,6 +4498,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_AsyncBranch_mainEnv_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4434,6 +4508,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_replayConsts_replayKernel_unsafe__1___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4443,6 +4518,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_EnvExtension_isGenTracked___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4453,6 +4529,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_OLeanEntries_get___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -4463,6 +4540,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_getState___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -4477,6 +4555,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_importModules___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 uint x_10 = 0; byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; Obj x_14 = null; 
@@ -4500,6 +4579,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00Lean_mkEmptyEnvironment_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -4540,6 +4620,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Environment_hasUnsafe___lam__0(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 4)
@@ -4572,6 +4653,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_withExporting___redArg___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_11 = 0; 
@@ -4657,6 +4739,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4665,6 +4748,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_replayConsts___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -4698,6 +4782,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_importModules___lam__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, uint x_9, byte x_10, byte x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -4777,6 +4862,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Kernel_enableDiag___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4804,6 +4890,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Environment_isImportedConst(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4839,6 +4926,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_ImportStateM_run___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4854,6 +4942,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_finalizeImport_spec__12(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4892,6 +4981,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_realizeValue_unsafe__8___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4901,6 +4991,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_modifyState___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -4911,6 +5002,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_mainOnly_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4919,6 +5011,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_realizeConst___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4927,6 +5020,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instInhabitedEnvExtension_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4935,6 +5029,7 @@ return x_2;
 }
 }
 public static byte l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_mkModuleData_spec__2___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -4969,6 +5064,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_allImportedModuleNames___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4978,6 +5074,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instBEqAsyncBranch_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -4989,6 +5086,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_writeModule___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -4998,6 +5096,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Environment_addConstAsync___lam__5(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5064,6 +5163,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_saveModuleDataParts(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -5165,6 +5265,7 @@ return x_22;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_takeNewEntriesRevUnsafe(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5181,6 +5282,7 @@ return x_10;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0_spec__1_spec__2___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5240,6 +5342,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_findLongestPrefix_x3f_loop___at___00__private_Lean_Environment_0__Lean_AsyncConsts_findPrefix_x3f_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5282,6 +5385,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Kernel_Environment___private__1___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5291,6 +5395,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_setImportedEntries(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_26 = null; Obj x_27 = null; byte x_28 = 0; 
@@ -5396,6 +5501,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_importModulesCore_loadData___redArg(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -5446,6 +5552,7 @@ return x_16;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_modifyState_unsafe__14___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5593,6 +5700,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_subsumesInfo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5604,6 +5712,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__0_spec__1_spec__3___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -5666,6 +5775,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1_spec__4_spec__7_spec__9(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5703,6 +5813,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5711,6 +5822,7 @@ return x_7;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -5730,6 +5842,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_ensureGensArraySize___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5748,6 +5861,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_finalizeImport_spec__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -5761,6 +5875,7 @@ return x_9;
 }
 }
 public static Obj l_panic___at___00Lean_Environment_enableRealizationsForConst_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5782,6 +5897,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Environment_realizeConst___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5812,6 +5928,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_computeExtEntries___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5831,6 +5948,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_finalizeImport_spec__7(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -5859,6 +5977,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Environment_findConstVal_x3f(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_29 = 0; 
@@ -5997,6 +6116,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_getModuleEntries___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -6035,6 +6155,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6043,6 +6164,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__4_spec__7_spec__11(Obj x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6102,6 +6224,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Environment_realizeConst_spec__1(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6276,6 +6399,7 @@ goto _start;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00WellFounded_opaqueFix_u2083___at___00Lean_finalizeImport_spec__15_spec__16___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -6288,6 +6412,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6353,6 +6478,7 @@ return x_9;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lean_mkModuleData_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -6426,6 +6552,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_OLeanEntries_get(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6466,6 +6593,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Environment_realizeConst___lam__3(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; byte x_20 = 0; byte x_58 = 0; 
@@ -6618,6 +6746,7 @@ return x_49;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_getModuleEntries(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -6626,6 +6755,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_importModules_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -6685,6 +6815,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__3_spec__5_spec__7___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6696,6 +6827,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_throwUnexpectedType___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -6717,6 +6849,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_modifyState_unsafe__11(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6734,6 +6867,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_sync_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6780,6 +6914,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_mkExtNameMap(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -6803,6 +6938,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_takeNewEntries___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -6820,6 +6956,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6828,6 +6965,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_importModulesCore(Obj x_1, byte x_2, Obj x_3, byte x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; Obj x_10 = null; 
@@ -6947,6 +7085,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_instInhabitedEnvExtension_default___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6965,6 +7104,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instHashableModuleIdx___aux__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -6983,6 +7123,7 @@ return x_9;
 }
 }
 public static byte l___private_Lean_Environment_0__Lean_subsumesInfo(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; byte x_10 = 0; Obj x_38 = null; Obj x_39 = null; byte x_40 = 0; 
@@ -7195,6 +7336,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_importModules_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -7243,6 +7385,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__4_spec__7___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7529,6 +7672,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Kernel_Exception_alreadyDeclared_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7537,6 +7681,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_registerEnvExtension___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -7554,6 +7699,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_instInhabitedPersistentEnvExtension___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7590,6 +7736,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00List_repr___at___00Lean_Environment_dbgFormatAsyncState_spec__2_spec__2_spec__3_spec__7(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -7656,6 +7803,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConst_aconsts___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7697,6 +7845,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Environment_isConstructor(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7743,6 +7892,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ConstantKind_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7759,6 +7909,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_PersistentHashMap_foldlMAux___at___00Lean_PersistentHashMap_foldlM___at___00Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5_spec__7_spec__10_spec__11___redArg(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -7813,6 +7964,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Environment_Visibility_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -7884,6 +8036,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_registerEnvExtension___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_27 = 0; 
@@ -7996,6 +8149,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_modifyState(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, byte x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -8014,6 +8168,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_takeNewEntriesRevUnsafe___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8034,6 +8189,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_OLeanLevel_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -8076,6 +8232,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Lean_EnvExtension_modifyState_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8085,6 +8242,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8115,6 +8273,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_registerPersistentEnvExtensionUnsafe___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8123,6 +8282,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConsts_find_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8133,6 +8293,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_foldlMAux___at___00Lean_PersistentHashMap_foldlM___at___00Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5_spec__7_spec__10(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8166,6 +8327,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_ImportedModule_publicModule_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8188,6 +8350,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_withExporting___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -8218,6 +8381,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_AddConstAsyncResult_commitCheckEnv___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8247,6 +8411,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_addConstAsync___lam__6(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -8277,6 +8442,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_evalConstCheck___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8286,6 +8452,7 @@ return x_6;
 }
 }
 public static Obj lean_environment_find(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -8299,6 +8466,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_findLongestPrefix_x3f_loop___at___00__private_Lean_Environment_0__Lean_AsyncConsts_findPrefix_x3f_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8340,6 +8508,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__0_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8348,6 +8517,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -8379,6 +8549,7 @@ return x_9;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -8442,6 +8613,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Environment_0__Lean_Environment_replayConsts_replayKernel_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -8517,6 +8689,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_withoutExporting(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -8525,6 +8698,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1_spec__4_spec__7_spec__9___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8630,6 +8804,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Environment_realizeValue___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_56 = null; Obj x_62 = null; 
@@ -8858,6 +9033,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_find_x3f(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_20 = 0; 
@@ -9016,6 +9192,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00Lean_finalizeImport_spec__9(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -9024,6 +9201,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Options_set___at___00Lean_Option_set___at___00Lean_Environment_realizeConst_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -9033,6 +9211,7 @@ return x_5;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00__private_Lean_Environment_0__Lean_Environment_getLocalConstantInfos_go_spec__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -9075,6 +9254,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_finalizeImport_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -9087,6 +9267,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -9124,6 +9305,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_mkEmptyEnvironment_spec__3(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -9174,6 +9356,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Environment_replayConsts_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -9223,6 +9406,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Environment_imports___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9232,6 +9416,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_finalizeImport_spec__17(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -9257,6 +9442,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_dbgFormatCheckedSyncState(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -9285,6 +9471,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_getMainModule(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9322,6 +9509,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_finalizePersistentExtensions_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9338,6 +9526,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_foldlMAux_traverse___at___00Lean_PersistentHashMap_foldlMAux___at___00Lean_PersistentHashMap_foldlM___at___00Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5_spec__7_spec__10_spec__12(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -9346,6 +9535,7 @@ return x_10;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_finalizeImport_spec__15___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_13 = 0; 
@@ -9650,6 +9840,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_EnvExtension_setState___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9679,6 +9870,7 @@ return x_6;
 }
 }
 public static Obj l_List_toString___at___00Lean_Environment_AddConstAsyncResult_commitConst_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -9738,6 +9930,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_enterAsync(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_22 = 0; 
@@ -9987,6 +10180,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Environment_0__Lean_looksLikeOldCodegenName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -10087,6 +10281,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_OLeanLevel_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -10098,6 +10293,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_takeNewEntriesRevUnsafe___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -10108,6 +10304,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Environment_0__Lean_Environment_replayConsts_replayKernel_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_13 = 0; 
@@ -10221,6 +10418,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_findTaskCore___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -10243,6 +10441,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_EnvExtension_modifyState___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -10253,6 +10452,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_EnvExtension_getGen___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10301,6 +10501,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Kernel_enableDiag___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -10364,6 +10565,7 @@ return x_1;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00__private_Lean_Environment_0__Lean_Environment_replayConsts_replayKernel_spec__3___redArg(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10691,6 +10893,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Environment_freeRegions_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -10782,6 +10985,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_getModuleIREntries(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -10835,6 +11039,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_setExporting___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -10844,6 +11049,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_readModuleData_unsafe__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10863,6 +11069,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_updateEnvAttributes___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10993,6 +11200,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_Kernel_Exception_exprTypeMismatch_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11001,6 +11209,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_withExporting___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -11069,6 +11278,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_54 = null; Obj x_60 = null; 
@@ -11293,6 +11503,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_finalizePersistentExtensions___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11323,6 +11534,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_writeModule___lam__0(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -11463,6 +11675,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_readModuleDataParts(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -11559,6 +11772,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_instInhabitedEnvExtension(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11567,6 +11781,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_finalizeImport_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -11603,6 +11818,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_OLeanEntries_get___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -11613,6 +11829,7 @@ return x_4;
 }
 }
 public static byte l_Lean_instBEqConstantKind_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -11625,6 +11842,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -11726,6 +11944,7 @@ return x_20;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_foldlMAux_traverse___at___00Lean_PersistentHashMap_foldlMAux___at___00Lean_PersistentHashMap_foldlM___at___00Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5_spec__7_spec__10_spec__12___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11736,6 +11955,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_PersistentEnvExtension_getModuleIREntries_unsafe__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -11756,6 +11976,7 @@ return x_13;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00Lean_finalizeImport_spec__5___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; ulong x_7 = 0; 
@@ -11897,6 +12118,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_importModulesCore_loadIR___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11917,6 +12139,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_OLeanLevel_server_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11926,6 +12149,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Kernel_Exception_letTypeMismatch_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11974,6 +12198,7 @@ return x_19;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Kernel_Environment_isQuotInit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -11983,6 +12208,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_addConstAsync___lam__3(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -12003,6 +12229,7 @@ return x_6;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lean_finalizeImport_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12015,6 +12242,7 @@ return x_5;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Environment_addDeclCore_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -12263,6 +12491,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Kernel_Exception_unknownConstant_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12271,6 +12500,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_EnvExtension_getGenAt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12282,6 +12512,7 @@ return x_3;
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_numTrackedExtsRef;
 public static Obj l_Lean_Environment_promiseChecked___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12301,6 +12532,7 @@ return x_2;
 }
 }
 public static Obj lean_elab_environment_update_base_after_kernel_add(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; byte x_13 = 0; byte x_21 = 0; 
@@ -12407,6 +12639,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_throwAlreadyImported___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -12418,6 +12651,7 @@ return x_7;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0_spec__1_spec__2_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -12451,6 +12685,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Kernel_isDiagnosticsEnabled(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -12461,6 +12696,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instInhabitedPersistentEnvExtension___redArg___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12471,6 +12707,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__4_spec__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -12483,6 +12720,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_finalizeImport_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -12851,6 +13089,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Kernel_Exception_appTypeMismatch_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12859,6 +13098,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_subsumesInfo_isPropCheap_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -12976,6 +13216,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_insertAux_traverse___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__4_spec__7_spec__11___redArg(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -13011,6 +13252,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__4_spec__7_spec__10_spec__11(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13019,6 +13261,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_getMainModule___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -13040,6 +13283,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_finalizeImport_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -13066,6 +13310,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_isReservedName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -13151,6 +13396,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00List_toString___at___00Lean_Environment_displayStats_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -13261,6 +13507,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__1_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -13288,6 +13535,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SMap_numBuckets___at___00Lean_Environment_displayStats_spec__3___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13349,6 +13597,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_modifyState_unsafe__14(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -13360,6 +13609,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Environment_hasExposedBody___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -13369,6 +13619,7 @@ return x_4;
 }
 }
 public static Obj l_Option_repr___at___00Lean_Environment_dbgFormatAsyncState_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -13378,6 +13629,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_EnvExtension_modifyState___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_20 = 0; 
@@ -13446,6 +13698,7 @@ return x_16;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__2_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -13454,6 +13707,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Environment_displayStats_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -13486,6 +13740,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1_spec__3___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -13517,6 +13772,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_modifyState_unsafe__11___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -13534,6 +13790,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Kernel_Exception_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13550,6 +13807,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ConstantKind_axiom_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -13560,6 +13818,7 @@ return x_6;
 }
 }
 public static byte l_Std_DHashMap_Internal_Raw_u2080_contains___at___00Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -13635,6 +13894,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncContext_descr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13684,6 +13944,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_OLeanLevel_private_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13693,6 +13954,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Environment_AddConstAsyncResult_commitCheckEnv___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13758,6 +14020,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__3_spec__5_spec__7___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -13824,6 +14087,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_mkExtNameMap_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13906,6 +14170,7 @@ return x_9;
 }
 }
 public static byte l_Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -14188,6 +14453,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14253,6 +14519,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Environment_replayConsts___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -14262,6 +14529,7 @@ return x_7;
 }
 }
 public static byte l_Lean_Environment_instBEqVisibility_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -14282,6 +14550,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_findTask___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -14291,6 +14560,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Environment_freeRegions_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -14398,6 +14668,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_finalizeImport_spec__14(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -14452,6 +14723,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__4_spec__7_spec__10_spec__11___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -14570,6 +14842,7 @@ return x_26;
 }
 }
 public static byte l_Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -14601,6 +14874,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_EnvExtension_setState___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_30 = null; Obj x_31 = null; byte x_32 = 0; Obj x_48 = null; 
@@ -15389,6 +15663,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConsts_findRec_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15455,6 +15730,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Kernel_Exception_funExpected_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15517,6 +15793,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15525,6 +15802,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Kernel_Exception_thmTypeIsNotProp_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15604,6 +15882,7 @@ return x_20;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -15636,6 +15915,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_exportIREntries___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15644,6 +15924,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_foldlM___at___00Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5_spec__7(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -15661,6 +15942,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__2_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -15713,6 +15995,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_evalConstCheck(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -15763,6 +16046,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_setState(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -15808,6 +16092,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_setStateImpl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15817,6 +16102,7 @@ return x_5;
 }
 }
 public static uint l_Lean_getMaxHeight(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; uint x_13 = 0; 
@@ -15853,6 +16139,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_readModuleDataParts_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -16003,6 +16290,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_findTaskCore___lam__1(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_28 = 0; 
@@ -16216,6 +16504,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Kernel_Exception_typeExpected_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16241,6 +16530,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_setImportedEntries_unsafe__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16250,6 +16540,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_importModulesCore_go(byte x_1, Obj x_2, byte x_3, Obj x_4, byte x_5, byte x_6, byte x_7, byte x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -16307,6 +16598,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_replayConsts_replayKernel_unsafe__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -16318,6 +16610,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Environment_freeRegions___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16326,6 +16619,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_mkExtNameMap_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -16388,6 +16682,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_computeExtEntries___lam__0(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -16415,6 +16710,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Kernel_Exception_deterministicTimeout_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16423,6 +16719,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConsts_add(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -16641,6 +16938,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_evalConstCheck___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -16709,6 +17007,7 @@ return x_20;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Environment_displayStats_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -16721,6 +17020,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_mkEmptyEnvironment___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -16741,6 +17041,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_EnvExtension_modifyState___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_48 = null; 
@@ -17554,6 +17855,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Kernel_Exception_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -17573,6 +17875,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00__private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_findLongestPrefix_x3f_loop___at___00__private_Lean_Environment_0__Lean_AsyncConsts_findPrefix_x3f_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -17703,6 +18006,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Kernel_Environment_isDiagnosticsEnabled___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -17735,6 +18039,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_mkExtNameMap_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -17743,6 +18048,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Kernel_Exception_excessiveMemory_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -17788,6 +18094,7 @@ return x_6;
 }
 }
 public static Obj l_List_repr___at___00Lean_Environment_dbgFormatAsyncState_spec__2___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -17822,6 +18129,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_PersistentEnvExtension_getModuleEntries_unsafe__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -17833,6 +18141,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_takeNewEntriesRevUnsafe_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -17962,6 +18271,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__0_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -18005,6 +18315,7 @@ return x_2;
 }
 }
 public static byte l_Lean_AsyncConstantInfo_isUnsafe(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -18064,6 +18375,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_setImportedEntries_unsafe__1___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_13 = 0; 
@@ -18138,6 +18450,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConst_aconsts(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -18174,6 +18487,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_sync_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18182,6 +18496,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Environment_replayConsts_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -18199,6 +18514,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -18217,6 +18533,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x21___at___00Lean_throwAlreadyImported_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18242,6 +18559,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instInhabitedPersistentEnvExtension(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18274,6 +18592,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_withExporting___redArg___lam__1(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18290,6 +18609,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Environment_displayStats(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; uint x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -18669,6 +18989,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_EnvExtension_ensureExtensionsArraySize___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18677,6 +18998,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_AddConstAsyncResult_commitCheckEnv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_15 = 0; 
@@ -18732,6 +19054,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_findLongestPrefix_x3f_loop___at___00__private_Lean_Environment_0__Lean_AsyncConsts_findPrefix_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18740,6 +19063,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_modifyState_unsafe__8___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -18774,6 +19098,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_setDefHeightOverride___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -18971,6 +19296,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_Environment_PromiseCheckedResult_commitChecked___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -18991,6 +19317,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ConstantKind_defn_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -19001,6 +19328,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_finalizeImport_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -19014,6 +19342,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_instReprConstantKind_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; Obj x_45 = null; Obj x_52 = null; 
@@ -19353,6 +19682,7 @@ return x_4;
 }
 }
 public static Obj l_IO_print___at___00IO_println___at___00Lean_Environment_displayStats_spec__1_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -19385,6 +19715,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SMap_numBuckets___at___00Lean_Environment_displayStats_spec__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -19402,6 +19733,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x21___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x21___at___00Lean_throwAlreadyImported_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -19412,6 +19744,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__3___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -19422,6 +19755,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instOrdOLeanLevel_ord___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -19451,6 +19785,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Environment_dbgFormatAsyncState_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -19517,6 +19852,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_ImportStateM_run___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -19534,6 +19870,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ConstantKind_opaque_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19603,6 +19940,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_importModulesCore_loadIR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -19652,6 +19990,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_findAsyncConst_x3f(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -19737,6 +20076,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_PersistentHashMap_foldlMAux___at___00Lean_PersistentHashMap_foldlM___at___00Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5_spec__7_spec__10_spec__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -19805,6 +20145,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Kernel_Exception_other_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -19813,6 +20154,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_isSafeDefinition___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -19822,6 +20164,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -19830,6 +20173,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_addEntry___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -19839,6 +20183,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_ensureExtensionsArraySize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -19944,6 +20289,7 @@ return x_23;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -19985,6 +20331,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_async_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -19993,6 +20340,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Kernel_Exception_deepRecursion_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -20021,6 +20369,7 @@ return x_7;
 }
 }
 public static Obj l_Array_filterMapM___at___00__private_Lean_Environment_0__Lean_computeExtEntries_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -20033,6 +20382,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_EnvironmentHeader_moduleNames_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -20060,6 +20410,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00Lean_finalizeImport_spec__10(byte x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -20112,6 +20463,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1_spec__5___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -20204,6 +20556,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_AsyncBranch_asyncEnv_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20221,6 +20574,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lean_finalizeImport_spec__2_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -20274,6 +20628,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Options_set___at___00Lean_Option_set___at___00Lean_Environment_realizeConst_spec__0_spec__0(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_19 = 0; 
@@ -20377,6 +20732,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_finalizePersistentExtensions_loop___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -20427,6 +20783,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_throwAlreadyImported___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -20505,6 +20862,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_ConstantKind_defn_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20521,6 +20879,7 @@ return x_1;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_SMap_contains___at___00Lean_Environment_containsOnBranch_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -20550,6 +20909,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_mkModuleData_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -20630,6 +20990,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instGetElemArrayModuleIdxLtNatToNatSize___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20686,6 +21047,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_registerPersistentEnvExtensionUnsafe___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_68 = null; Obj x_69 = null; Obj x_70 = null; byte x_71 = 0; 
@@ -21024,6 +21386,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -21034,6 +21397,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_realizeValue_unsafe__13___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -21412,6 +21776,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getMaxHeight___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; uint x_6 = 0; Obj x_7 = null; 
@@ -21451,6 +21816,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_enterAsyncRealizing(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_22 = 0; 
@@ -21543,6 +21909,7 @@ return x_18;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_modifyStateImpl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -21582,6 +21949,7 @@ return x_6;
 }
 }
 public static Obj l_Option_repr___at___00Lean_Environment_dbgFormatAsyncState_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -21608,6 +21976,7 @@ return x_9;
 }
 }
 public static Obj l_MonadExcept_ofExcept___at___00__private_Lean_Environment_0__Lean_Environment_replayConsts_replayKernel_spec__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21617,6 +21986,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__3_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -21629,6 +21999,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_getModuleEntries___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -21641,6 +22012,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_51 = 0; 
@@ -21814,6 +22186,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x21___at___00Lean_throwAlreadyImported_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -21962,6 +22335,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_getModuleIREntries___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -21982,6 +22356,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -22064,6 +22439,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_sync_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -22072,6 +22448,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_addConstAsync___lam__2(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -22093,6 +22470,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Kernel_Exception_invalidProj_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -22101,6 +22479,7 @@ return x_3;
 }
 }
 public static Obj l_List_toString___at___00Lean_Environment_displayStats_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -22289,6 +22668,7 @@ goto block_58;
 }
 }
 public static Obj l_Lean_Kernel_Exception_declHasFVars_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -22307,6 +22687,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_OLeanLevel_adjustFileName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -22316,6 +22697,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_importModulesCore_loadIR___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -22325,6 +22707,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -22340,6 +22723,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_12 = null; Obj x_15 = null; byte x_30 = 0; 
@@ -22493,6 +22877,7 @@ goto block_14;
 }
 }
 public static Obj l_Lean_EnvExtension_modifyState___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -22685,6 +23070,7 @@ return x_19;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_mkIRData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -22834,6 +23220,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_instGetElemArrayModuleIdxLtNatToNatSize___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -22865,6 +23252,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_useDefaultIfOtherFieldGiven___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22874,6 +23262,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_finalizeImport_spec__16___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -22896,6 +23285,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Kernel_Exception_alreadyDeclared_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -22904,6 +23294,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -22913,6 +23304,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_throwAlreadyImported___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; 
@@ -22958,6 +23350,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_computeExtEntries(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -23014,6 +23407,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_realizationEnvContains_unsafe__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23023,6 +23417,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00__private_Lean_Environment_0__Lean_Environment_updateBaseAfterKernelAdd_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -23120,6 +23515,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00Lean_finalizeImport_spec__10___redArg(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -23202,6 +23598,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; byte x_14 = 0; 
@@ -23259,6 +23656,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00Lean_saveModuleDataParts_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -23326,6 +23724,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Environment_dbgFormatAsyncState_spec__4(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -23389,6 +23788,7 @@ goto _start;
 }
 public static Obj l_Lean_defHeightOverrideExt;
 public static Obj l___private_Lean_Environment_0__Lean_Environment_replayConsts_replayKernel_unsafe__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -23409,6 +23809,7 @@ return x_17;
 }
 }
 public static Obj l_IO_println___at___00Lean_Environment_displayStats_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -23419,6 +23820,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_setImportedEntries_unsafe__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -23429,6 +23831,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00Lean_Environment_realizeConst_spec__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -23437,6 +23840,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_withExporting___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -23455,6 +23859,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_PersistentHashMap_0__Lean_PersistentHashMap_foldlMAux_traverse___at___00Lean_PersistentHashMap_foldlMAux___at___00Lean_PersistentHashMap_foldlM___at___00Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5_spec__7_spec__10_spec__12___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -23485,6 +23890,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -23493,6 +23899,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Environment_findTask(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_20 = 0; 
@@ -23630,6 +24037,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_AddConstAsyncResult_commitConst___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -23638,6 +24046,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00Lean_Environment_addDeclCore_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -23668,6 +24077,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Environment_dbgFormatAsyncState___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -23709,6 +24119,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_Visibility_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23747,6 +24158,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_setStateImpl___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -23756,6 +24168,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_withImportModules(Obj x_1, Obj x_2, Obj x_3, Obj x_4, uint x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -23808,6 +24221,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Lean_Environment_realizeConst_spec__4(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -23850,6 +24264,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkDefinitionValInferringUnsafe___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_15 = 0; byte x_19 = 0; 
@@ -23909,6 +24324,7 @@ goto block_14;
 }
 }
 public static Obj l_Lean_Kernel_Exception_declHasMVars_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -23962,6 +24378,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_Environment_0__Lean_subsumesInfo_isPropCheap_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_20 = 0; 
@@ -24071,6 +24488,7 @@ return x_16;
 }
 }
 public static byte l_Lean_Environment_hasUnsafe(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -24124,6 +24542,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Kernel_Environment_enableDiag___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -24198,6 +24617,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_readModuleDataPartsOfMod_unsafe__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -24215,6 +24635,7 @@ return x_3;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00__private_Lean_Environment_0__Lean_Environment_getLocalConstantInfos_go_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -24225,6 +24646,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_setMainModule_unsafe__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24234,6 +24656,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_finalizeImport_spec__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -24306,6 +24729,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Environment_getLocalConstantInfos(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -24320,6 +24744,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_initFn_00___x40_Lean_Environment_2640339748____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24328,6 +24753,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Kernel_isDefEqGuarded___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -24337,6 +24763,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Environment_contains(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -24357,6 +24784,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_finalizeImport_unsafe__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24400,6 +24828,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_finalizeImport_spec__18___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -24646,6 +25075,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_ctorElim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24723,6 +25153,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_registerEnvExtension_unsafe__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24748,6 +25179,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_saveModuleDataParts_unsafe__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -24829,6 +25261,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ConstantKind_induct_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24947,6 +25380,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_readModuleDataPartsOfMod___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24973,6 +25407,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_async_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24982,6 +25417,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_getIRExtraConstNames___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -25000,6 +25436,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_AddConstAsyncResult_commitConst(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_17 = null; 
@@ -25427,6 +25864,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_ImportedModule_mainModule_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -25486,6 +25924,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ConstantKind_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -25507,6 +25946,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_getLocalConstantInfos_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -25516,6 +25956,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x21___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x21___at___00Lean_throwAlreadyImported_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -25564,6 +26005,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; 
@@ -25591,6 +26033,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_ImportedModule_irData_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -25656,6 +26099,7 @@ return x_1;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lean_finalizeImport_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -25721,6 +26165,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PersistentHashMap_find_x3f___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__3___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -25853,6 +26298,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_modifyState_unsafe__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -25880,6 +26326,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_mkExtNameMap_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -25930,6 +26377,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_ImportState_markAllExported(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -26002,6 +26450,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Environment_displayStats_spec__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -26047,6 +26496,7 @@ return x_5;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__1_spec__3___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -26128,6 +26578,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_VisibilityMap_map(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -26156,6 +26607,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Environment_realizeConst_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -26211,6 +26663,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_realizeValue_unsafe__18___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26276,6 +26729,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_takeNewEntriesRevUnsafe_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -26284,6 +26738,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Environment_getModuleIdx_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -26294,6 +26749,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_saveModuleData_unsafe__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -26339,6 +26795,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Environment_hasExposedBody(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -26440,6 +26897,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_AssocList_Basic_0__Std_DHashMap_Internal_AssocList_forInStep_go___at___00Lean_ImportState_markAllExported_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -26661,6 +27119,7 @@ goto _start;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__2_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -26738,6 +27197,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_replayConsts(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; byte x_39 = 0; Obj x_40 = null; byte x_41 = 0; byte x_62 = 0; 
@@ -26914,6 +27374,7 @@ return x_54;
 }
 }
 public static Obj l_Lean_EnvExtension_getGen___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -26923,6 +27384,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_AddConstAsyncResult_commitSignature(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -26978,6 +27440,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_addEntry___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -27006,6 +27469,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Environment_areRealizationsEnabledForConst___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -27017,6 +27481,7 @@ return x_4;
 }
 }
 public static byte l_Lean_EnvExtension_asyncMayModify___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -27240,6 +27705,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_ImportedModule_irData_x3f(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; 
@@ -27438,6 +27904,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Environment_0__Lean_computeExtEntries_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -27450,6 +27917,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00__private_Lean_Environment_0__Lean_computeExtEntries_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -27464,6 +27932,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_finalizePersistentExtensions_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -28163,6 +28632,7 @@ return x_4;
 }
 }
 public static Obj lake_environment_add(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; Obj x_16 = null; byte x_17 = 0; byte x_25 = 0; 
@@ -28241,6 +28711,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Environment_mainModule___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28259,6 +28730,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00Lean_saveModuleDataParts_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -28277,6 +28749,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Environment_0__Lean_importModulesCore_go_spec__0___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; Obj x_18 = null; 
@@ -28303,6 +28776,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_realizeConst___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -28321,6 +28795,7 @@ return x_1;
 }
 }
 public static Obj l_List_find_x3f___at___00Lean_Environment_addDeclCore_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -28416,6 +28891,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_readModuleDataParts_unsafe__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -28426,6 +28902,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00WellFounded_opaqueFix_u2083___at___00Lean_finalizeImport_spec__15_spec__16(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -28441,6 +28918,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_finalizeImport_spec__18(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -28528,6 +29006,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_PersistentEnvExtension_getModuleEntries_unsafe__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -28557,6 +29036,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_findTaskCore(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -28642,6 +29122,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldl___at___00List_toString___at___00Lean_Environment_AddConstAsyncResult_commitConst_spec__1_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -28710,6 +29191,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Environment_0__Lean_importModulesCore_go_spec__0___lam__0(byte x_1, Obj x_2, byte x_3, byte x_4, byte x_5, byte x_6, byte x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -28748,6 +29230,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_EnvExtension_getStateUnsafe___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -29204,6 +29687,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_mkFallbackConstInfo(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -29365,6 +29849,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Kernel_enableDiag___lam__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -29373,6 +29858,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Environment_allImportedModuleNames(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -29402,6 +29888,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAtAux___at___00Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__1_spec__3_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -29554,6 +30041,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -29690,6 +30178,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; 
@@ -29904,6 +30393,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Environment_replayConsts___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -29916,6 +30406,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_readModuleDataPartsOfMod(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -30307,6 +30798,7 @@ return x_6;
 }
 }
 public static uint l_Lean_getMaxHeight___lam__0(Obj x_1, Obj x_2, Obj x_3, uint x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_8 = null; 
@@ -30387,6 +30879,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Environment_isSafeDefinition(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -30445,6 +30938,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_importModulesCore_loadIR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -30580,6 +31074,7 @@ return x_5;
 }
 }
 public static Obj l_MonadExcept_ofExcept___at___00__private_Lean_Environment_0__Lean_Environment_replayConsts_replayKernel_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -30618,6 +31113,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_findAsync_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -30712,6 +31208,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Environment_realizationEnvContains___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -30729,6 +31226,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_EnvExtension_mkInitialExtStates_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -30741,6 +31239,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_ConstantKind_ctor_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -30839,6 +31338,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_importModulesCore_loadData___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -30859,6 +31359,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00__private_Lean_Environment_0__Lean_computeExtEntries_spec__1_spec__1(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -30975,6 +31476,7 @@ return x_1;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00__private_Lean_Environment_0__Lean_Environment_getLocalConstantInfos_go_spec__0___redArg(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -31111,6 +31613,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Environment_0__Lean_importModulesCore_go_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; byte x_18 = 0; byte x_19 = 0; ulong x_20 = 0; ulong x_21 = 0; Obj x_22 = null; 
@@ -31210,6 +31713,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00WellFounded_opaqueFix_u2083___at___00Lean_finalizeImport_spec__15_spec__16___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_13 = 0; 
@@ -31570,6 +32074,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_finalizeImport_spec__6(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -32048,6 +32553,7 @@ goto block_67;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConsts_findPrefix_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -32064,6 +32570,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_ImportState_markAllExported_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -32102,6 +32609,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_PersistentEnvExtension_addEntry(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -32182,6 +32690,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_local_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -32208,6 +32717,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_initFn_00___x40_Lean_Environment_3121880488____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -32285,6 +32795,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Environment_0__Lean_computeExtEntries_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -32368,6 +32879,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__0_spec__1___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -32674,6 +33186,7 @@ return x_6;
 }
 }
 public static Obj l_List_beq___at___00Lean_Environment_AddConstAsyncResult_commitConst_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -32685,6 +33198,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Kernel_whnf___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -32740,6 +33254,7 @@ return x_3;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00Lean_Environment_displayStats_spec__6(Obj x_1, ulong x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -32866,6 +33381,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Environment_realizeConst(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -33195,6 +33711,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Environment_displayStats_spec__4(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_13 = null; Obj x_14 = null; byte x_19 = 0; 
@@ -33415,6 +33932,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_EnvExtension_mkInitialExtStates_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -33514,6 +34032,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_finalizeImport_spec__8___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -33648,6 +34167,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Environment_displayStats_spec__5(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -33789,6 +34309,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_PersistentHashMap_insertAtCollisionNodeAux___at___00Lean_PersistentHashMap_insertAtCollisionNode___at___00Lean_PersistentHashMap_insertAux___at___00Lean_PersistentHashMap_insert___at___00Lean_SMap_insert___at___00__private_Lean_Environment_0__Lean_Kernel_Environment_add_spec__0_spec__0_spec__1_spec__2_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_30 = 0; 
@@ -34168,6 +34689,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_writeModule___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -34177,6 +34699,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_withImportModules___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 uint x_6 = 0; Obj x_7 = null; 
@@ -34195,6 +34718,7 @@ return x_5;
 }
 }
 public static byte l_List_beq___at___00Lean_Environment_AddConstAsyncResult_commitConst_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -34243,6 +34767,7 @@ goto _start;
 }
 }
 public static Obj l_panic___at___00__private_Lean_Environment_0__Lean_AsyncConsts_add_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -34252,6 +34777,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_withImportModules___redArg(Obj x_1, Obj x_2, Obj x_3, uint x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; 
@@ -34523,6 +35049,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instReprOLeanLevel_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -34533,6 +35060,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Environment_findAsync_x3f(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_19 = 0; 
@@ -34706,6 +35234,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_finalizeImport_spec__8(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -34732,6 +35261,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_PersistentHashMap_foldlM___at___00Lean_PersistentHashMap_foldl___at___00Lean_PersistentHashMap_toList___at___00Lean_Environment_dbgFormatAsyncState_spec__3_spec__5_spec__7___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -34750,6 +35280,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_subsumesInfo_isPropCheap_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -34800,6 +35331,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Environment_displayStats_spec__7(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -34839,6 +35371,7 @@ goto _start;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -34884,6 +35417,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_EnvExtension_AsyncMode_async_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -35174,6 +35708,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_lakeAdd___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; 
@@ -35256,6 +35791,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_finalizeImport_spec__16(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -35434,6 +35970,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Environment_0__Lean_importModulesCore_go_spec__0(byte x_1, Obj x_2, byte x_3, byte x_4, byte x_5, byte x_6, byte x_7, Obj x_8, ulong x_9, ulong x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; byte x_19 = 0; 
@@ -37132,6 +37669,7 @@ goto _start;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Environment_0__Lean_setImportedEntries_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_23 = 0; 
@@ -37221,6 +37759,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00Lean_saveModuleDataParts_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -37331,6 +37870,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_findLongestPrefix_x3f_loop___at___00__private_Lean_Environment_0__Lean_AsyncConsts_findPrefix_x3f_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -37546,6 +38086,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_writeModule(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -37928,6 +38469,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_AsyncConsts_findRecAndParent_x3f_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -38058,6 +38600,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_finalizeImport_spec__13(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -38283,6 +38826,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_EnvExtension_setState___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -38292,6 +38836,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Environment_realizationEnvContains(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; 
@@ -38569,6 +39114,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_importModulesCore_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -39022,6 +39568,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_subsumesInfo_isPropCheap___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -39060,6 +39607,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_saveModuleData___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -39071,6 +39619,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_SMap_find_x3f_x27___at___00Lean_Kernel_Environment_find_x3f_spec__0_spec__1_spec__3___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -39226,6 +39775,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_findAux___at___00Lean_PersistentHashMap_find_x3f___at___00Lean_Environment_realizeValue___at___00Lean_Environment_realizeConst_spec__2_spec__3_spec__5___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -39317,6 +39867,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Environment_replayConsts_spec__1(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -39665,6 +40216,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_importModulesCore_spec__0(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_13 = null; byte x_14 = 0; byte x_40 = 0; byte x_41 = 0; 
@@ -39886,6 +40438,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_takeNewEntriesRevUnsafe_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; 
@@ -40046,6 +40599,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instReprOLeanLevel_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; 
@@ -40331,6 +40885,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_importModules(Obj x_1, Obj x_2, uint x_3, Obj x_4, byte x_5, byte x_6, byte x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; ulong x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -40692,6 +41247,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_finalizeImport_spec__4(byte x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -40811,6 +41367,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_Environment_instBEqRealizeConstKey_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -40822,6 +41379,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_finalizeImport_spec__3(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -41329,6 +41887,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Environment_0__Lean_ImportedModule_serverData_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -41757,6 +42316,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00Lean_finalizeImport_spec__9___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 

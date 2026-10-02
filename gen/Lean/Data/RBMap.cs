@@ -22,6 +22,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBMap_fold(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -30,6 +31,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_RBMap_fromArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -79,6 +81,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_RBNode_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -87,6 +90,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_RBMap_find_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -109,6 +113,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_RBMap_intersectBy(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -117,6 +122,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_RBNode_map___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -197,6 +203,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBMap_instRepr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -206,6 +213,7 @@ return x_6;
 }
 }
 public static byte l_Lean_RBMap_isSingleton___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -224,6 +232,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBNode_any___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -233,6 +242,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBMap_min___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -359,6 +369,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_RBNode_insert___at___00Lean_RBMap_mergeBy_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -367,6 +378,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_intersectBy_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -375,6 +387,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_RBMap_max_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -384,6 +397,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_forM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -402,6 +416,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBColor_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -411,6 +426,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBNode_forIn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -427,6 +443,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_RBMap_min___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -437,6 +454,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_contains___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -495,6 +513,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBMap_findD___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -515,6 +534,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBNode_lowerBound___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -582,6 +602,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_RBNode_max(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -629,6 +650,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_appendTrees(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -637,6 +659,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_isBlack___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -647,6 +670,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -658,6 +682,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBNode_revFold(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -666,6 +691,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_mkRBMap___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -704,6 +730,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_RBNode_max___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -713,6 +740,7 @@ return x_2;
 }
 }
 public static byte l_Lean_RBNode_isBlack(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -721,6 +749,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBMap_forIn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -739,6 +768,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_RBMap_max___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -749,6 +779,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_foldM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -757,6 +788,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_min(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -852,6 +884,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_RBMap_ofList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -860,6 +893,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_min_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -869,6 +903,7 @@ return x_4;
 }
 }
 public static byte l_Lean_RBMap_any___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -877,6 +912,7 @@ return x_3;
 }
 }
 public static byte l_Lean_RBMap_any(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -885,6 +921,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBMap_filter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -893,6 +930,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBMap_forM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -914,6 +952,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBNode_ins___at___00Lean_RBNode_insert___at___00Lean_RBMap_mergeBy_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -922,6 +961,7 @@ return x_7;
 }
 }
 public static byte l_Lean_RBMap_all(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -991,6 +1031,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBMap_find_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1013,6 +1054,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBMap_instForInProdOfMonad___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1041,6 +1083,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBMap_foldM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1065,6 +1108,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_ofList___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1095,6 +1139,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBNode_toArray_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1104,6 +1149,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_filterMap_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1151,6 +1197,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_RBMap_max_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1172,6 +1219,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_depth(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1191,6 +1239,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBMap_filterMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1226,6 +1275,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_RBMap_forM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1245,6 +1295,7 @@ return x_1;
 }
 }
 public static byte l_Lean_RBNode_all(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1253,6 +1304,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1262,6 +1314,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBMap_find_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1270,6 +1323,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBMap_isSingleton___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1439,6 +1493,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_depth___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1448,6 +1503,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBNode_balRight(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1456,6 +1512,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBMap_size___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1479,6 +1536,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBMap_max_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1546,6 +1604,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBNode_toArray_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1573,6 +1632,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_RBMap_findD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1592,6 +1652,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBNode_mapM___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1600,6 +1661,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_forM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1611,6 +1673,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_filter_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1619,6 +1682,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBMap_find_x21___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1672,6 +1736,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_RBNode_size___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1681,6 +1746,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBMap_revFold(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1689,6 +1755,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_mkRBMap___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1697,6 +1764,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBNode_del___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1845,6 +1913,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_appendTrees___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2340,6 +2409,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_RBNode_max___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2396,6 +2466,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_leaf_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2404,6 +2475,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBMap_all___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2413,6 +2485,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2421,6 +2494,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBColor_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2430,6 +2504,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBMap_size___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2450,6 +2525,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_size___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2603,6 +2679,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_rbmapOf___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2620,6 +2697,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_erase___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2628,6 +2706,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_mapM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2636,6 +2715,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_findCore_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2644,6 +2724,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBMap_forIn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -2662,6 +2743,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_RBNode_min___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2695,6 +2777,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBNode_fold___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2781,6 +2864,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_RBMap_findD(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2827,6 +2911,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBMap_mergeBy___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2835,6 +2920,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_filter___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2859,6 +2945,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_erase(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2876,6 +2963,7 @@ return x_4;
 }
 }
 public static byte l_Lean_RBNode_all___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2930,6 +3018,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_mergeBy_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2938,6 +3027,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_any___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2956,6 +3046,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBMap_maxDepth___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2975,6 +3066,7 @@ return x_8;
 }
 }
 public static byte l_Lean_RBMap_contains(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3012,6 +3104,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_size_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3021,6 +3114,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_min_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3031,6 +3125,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_isRed___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3041,6 +3136,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_size_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3049,6 +3145,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBMap_empty___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3058,6 +3155,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instInhabitedRBMap___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3067,6 +3165,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBMap_maxDepth___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3076,6 +3175,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBNode_find(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3084,6 +3184,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBColor_red_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3108,6 +3209,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBNode_isRed___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3135,6 +3237,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_size_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3252,6 +3355,7 @@ return x_12;
 }
 }
 public static Obj l_List_foldl___at___00Lean_rbmapOf_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3260,6 +3364,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBColor_red_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3269,6 +3374,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBMap_findCore_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3286,6 +3392,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBNode_insert___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3315,6 +3422,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_RBNode_min___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3358,6 +3466,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_node_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3366,6 +3475,7 @@ return x_3;
 }
 }
 public static byte l_Lean_RBNode_isRed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3400,6 +3510,7 @@ return x_1;
 }
 }
 public static byte l_Lean_RBNode_any___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3463,6 +3574,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_setRed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3787,6 +3899,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_RBNode_balRight___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; byte x_28 = 0; Obj x_29 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; byte x_36 = 0; byte x_37 = 0; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; byte x_55 = 0; byte x_56 = 0; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; 
@@ -4584,6 +4697,7 @@ goto block_7;
 }
 }
 public static Obj l_Lean_RBNode_ins___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5577,6 +5691,7 @@ return x_187;
 }
 }
 public static Obj l_Lean_RBMap_size(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5811,6 +5926,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_leaf_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5819,6 +5935,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_min(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5827,6 +5944,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_RBMap_0__Lean_RBNode_forIn_visit___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -5930,6 +6048,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBNode_depth(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5946,6 +6065,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_min___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6006,6 +6126,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBNode_findCore___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6068,6 +6189,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_RBNode_ins___at___00Lean_RBNode_insert___at___00Lean_RBMap_mergeBy_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7061,6 +7183,7 @@ return x_187;
 }
 }
 public static Obj l_Lean_RBMap_toArray___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7080,6 +7203,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBNode_forM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7088,6 +7212,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_revFold___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -7117,6 +7242,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_RBMap_maxDepth(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7430,6 +7556,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_RBMap_depth___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7554,6 +7681,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_RBMap_instRepr___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -7620,6 +7748,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBColor_black_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7629,6 +7758,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBNode_toArray(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7647,6 +7777,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldl___at___00Lean_rbmapOf_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -7676,6 +7807,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_RBMap_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7693,6 +7825,7 @@ return x_4;
 }
 }
 public static byte l_Lean_RBMap_contains___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7749,6 +7882,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBNode_forM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -7821,6 +7955,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBMap_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7837,6 +7972,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_find___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7910,6 +8046,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_balLeft(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8013,6 +8150,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_find___at___00Lean_RBMap_mergeBy_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8090,6 +8228,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_RBNode_foldM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -8156,6 +8295,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_depth___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8182,6 +8322,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_mergeBy_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -8681,6 +8822,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_filter_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -8734,6 +8876,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBNode_node_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8840,6 +8983,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_RBNode_isSingleton___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -8900,6 +9044,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_size(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9860,6 +10005,7 @@ return x_131;
 }
 }
 public static Obj l_Lean_RBNode_size___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -9930,6 +10076,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBMap_toArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9993,6 +10140,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBMap_intersectBy___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -10062,6 +10210,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBMap_intersectBy_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)

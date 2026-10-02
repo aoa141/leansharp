@@ -24,6 +24,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringDecidable___redArg___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -159,6 +160,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringString___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -196,6 +198,7 @@ return x_2;
 }
 }
 public static Obj l_instToStringPUnit___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -309,6 +312,7 @@ return x_2;
 }
 }
 public static Obj l_instToStringUInt16___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; Obj x_3 = null; 
@@ -368,6 +372,7 @@ return x_3;
 }
 }
 public static Obj l_instToStringId___aux__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -377,6 +382,7 @@ return x_2;
 }
 }
 public static Obj l_instReprExcept___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -433,6 +439,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringId___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -442,6 +449,7 @@ return x_3;
 }
 }
 public static Obj l_instToStringProd___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -578,6 +586,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringChar___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -617,6 +626,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringId__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -635,6 +645,7 @@ return x_3;
 }
 }
 public static Obj l_instToStringSigma___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -762,6 +773,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringChar___lam__0(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -793,6 +805,7 @@ return x_2;
 }
 }
 public static Obj l_instToStringOption___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -820,6 +833,7 @@ return x_10;
 }
 }
 public static Obj l_addParenHeuristic(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_14 = 0; 
@@ -892,6 +906,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringUSize___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -1026,6 +1041,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringId__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1065,6 +1081,7 @@ return x_3;
 }
 }
 public static Obj l_instToStringExcept___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

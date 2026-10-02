@@ -30,6 +30,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Tactic_TreeTacAttr_0__Std_Internal_initFn_00___x40_Lean_Elab_Tactic_TreeTacAttr_1721268732____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

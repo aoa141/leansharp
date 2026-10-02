@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Sync_Mutex {
 public static Obj l_Std_instCoeOutMutexBaseMutex___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24,6 +25,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Mutex_atomicallyOnce___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -33,6 +35,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Mutex_atomically___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -99,6 +102,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Mutex_new(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -107,6 +111,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Mutex_tryAtomically___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -146,6 +151,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Mutex_tryAtomically___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -170,6 +176,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Mutex_tryAtomically___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -179,6 +186,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Mutex_atomicallyOnce___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -215,6 +223,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Mutex_atomically___redArg___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -225,6 +234,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Condvar_wait___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -235,6 +245,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Condvar_new___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -260,6 +271,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Std_Mutex_new___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -276,6 +288,7 @@ return x_4;
 }
 }
 public static Obj l_Std_instCoeOutMutexBaseMutex___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -285,6 +298,7 @@ return x_2;
 }
 }
 public static Obj l_Std_instCoeOutMutexBaseMutex(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -303,6 +317,7 @@ return x_1;
 }
 }
 public static Obj l_Std_BaseMutex_new___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -539,6 +554,7 @@ return x_20;
 }
 }
 public static Obj l_Std_Mutex_new___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -570,6 +586,7 @@ return x_3;
 }
 }
 public static Obj l_Std_BaseMutex_tryLock___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -612,6 +629,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Condvar_notifyAll___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -631,6 +649,7 @@ return x_7;
 }
 }
 public static Obj l_Std_BaseMutex_unlock___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

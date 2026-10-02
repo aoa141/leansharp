@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Data_Version {
 public static Obj l_Std_Http_instBEqVersion_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -67,6 +68,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Version_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -94,6 +96,7 @@ return x_1;
 }
 }
 public static byte l_Std_Http_Version_ofString_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -155,6 +158,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Version_toNumber(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -186,6 +190,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Version_instToString___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -195,6 +200,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Version_ofString_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -204,6 +210,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Version_v10_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -224,6 +231,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_instReprVersion_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; 
@@ -391,6 +399,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Version_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -402,6 +411,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Version_ofNumber_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -434,6 +444,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Version_instToString___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -479,6 +490,7 @@ return x_1;
 }
 }
 public static byte l_Std_Http_instBEqVersion_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -491,6 +503,7 @@ return x_5;
 }
 }
 public static byte l_Std_Http_instDecidableEqVersion(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -533,6 +546,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Version_ofString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -608,6 +622,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Version_v11_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -683,6 +698,7 @@ return x_3;
 }
 }
 public static Obj l_panic___at___00Std_Http_Version_ofString_x21_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -692,6 +708,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Version_v10_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -867,6 +884,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Version_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -989,6 +1007,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Version_v30_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1049,6 +1068,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Version_v30_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

@@ -47,6 +47,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_instCoeTypeForall__3___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -93,6 +94,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Equiv_instTrans___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -138,6 +140,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_isSetoid___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -174,6 +177,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Equiv_instTrans___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -284,6 +288,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_isSetoid___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

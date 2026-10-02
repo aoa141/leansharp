@@ -25,6 +25,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_getInt64Value_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -83,6 +84,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Sym_getBoolValue_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -194,6 +196,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_Meta_Sym_getUInt64Value_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -262,6 +265,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_getRatValue_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; byte x_15 = 0; 
@@ -486,6 +490,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Sym_getInt16Value_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -564,6 +569,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_getUInt8Value_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -640,6 +646,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_getIntValue_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; byte x_15 = 0; 
@@ -804,6 +811,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Sym_getFinValue_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1093,6 +1101,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_getUInt32Value_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1258,6 +1267,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Sym_getUInt16Value_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1400,6 +1410,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_getCharValue_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 

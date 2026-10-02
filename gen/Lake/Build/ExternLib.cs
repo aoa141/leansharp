@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_ExternLib_recBuildShared___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -52,6 +53,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_ExternLib_recComputeDynlib___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -83,6 +85,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_ExternLib_recBuildStatic___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -168,6 +171,7 @@ return x_1;
 }
 }
 public static Obj l_List_toString___at___00Lake_buildLeanSharedLibOfStatic_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -231,6 +235,7 @@ return x_1;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_buildLeanSharedLibOfStatic_spec__1(Obj x_1, ulong x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -266,6 +271,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_ExternLib_recBuildDefault___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -287,6 +293,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_ExternLib_recBuildStatic___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -299,6 +306,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_ExternLib_recBuildShared___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -321,6 +329,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00List_toString___at___00Lake_buildLeanSharedLibOfStatic_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -351,6 +360,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_computeDynlibOfShared___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_32 = null; 
@@ -571,6 +581,7 @@ return x_26;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lake_ExternLib_initFacetConfigs_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -610,6 +621,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_buildLeanSharedLibOfStatic___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; byte x_69 = 0; 
@@ -1016,6 +1028,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lake_ExternLib_initFacetConfigs_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2360,6 +2373,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_ExternLib_recBuildShared___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2445,6 +2459,7 @@ return x_4;
 }
 }
 public static Obj l_List_toString___at___00Lake_buildLeanSharedLibOfStatic_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2754,6 +2769,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_buildLeanSharedLibOfStatic___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_71 = 0; 
@@ -3110,6 +3126,7 @@ return x_25;
 }
 }
 public static Obj l_List_foldl___at___00List_toString___at___00Lake_buildLeanSharedLibOfStatic_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3166,6 +3183,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Build_ExternLib_0__Lake_ExternLib_recComputeDynlib___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

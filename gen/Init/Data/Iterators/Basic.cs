@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Iterators_Basic {
 public static Obj l_Std_Shrink_inflate___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24,6 +25,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Iterators_toIterM___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -54,6 +56,7 @@ return x_4;
 }
 }
 public static Obj l_Std_IterM_toIter___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -63,6 +66,7 @@ return x_4;
 }
 }
 public static Obj l_Std_IterM_finitelyManySteps___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -82,6 +86,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_finitelyManySkips___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -114,6 +119,7 @@ return x_2;
 }
 }
 public static Obj l_Std_IterStep_skip_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -132,6 +138,7 @@ return x_1;
 }
 }
 public static Obj l_Std_IterStep_successor(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -334,6 +341,7 @@ return x_22;
 }
 }
 public static Obj l_Std___aux__Init__Data__Iterators__Basic______macroRules__tacticDecreasing__trivial__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -462,6 +470,7 @@ return x_6;
 }
 }
 public static Obj l_Std_IterM_finitelyManySkips___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -493,6 +502,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_finitelyManySkips_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -562,6 +572,7 @@ return x_1;
 }
 }
 public static Obj l_Std_IterM_finitelyManySkips___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -572,6 +583,7 @@ return x_7;
 }
 }
 public static Obj l_Std___aux__Init__Data__Iterators__Basic______macroRules__tacticDecreasing__trivial__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -595,6 +607,7 @@ return x_5;
 }
 }
 public static Obj l_Std_IterM_Step_toPure___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -619,6 +632,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Iter_finitelyManySteps_x21___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -708,6 +722,7 @@ return x_10;
 }
 }
 public static Obj l_Std_IterM_toIter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -717,6 +732,7 @@ return x_2;
 }
 }
 public static Obj l_Std_IterStep_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -740,6 +756,7 @@ return x_5;
 }
 }
 public static Obj l_Std_IterM_TerminationMeasures_instWellFoundedRelationProductive___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -765,6 +782,7 @@ return x_6;
 }
 }
 public static Obj l_Std_IterStep_yield_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -811,6 +829,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_toIterM___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -969,6 +988,7 @@ return x_2;
 }
 }
 public static Obj l_Std___aux__Init__Data__Iterators__Basic______macroRules__tacticDecreasing__trivial__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1071,6 +1091,7 @@ return x_60;
 }
 }
 public static Obj l_Std_IterStep_done_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1282,6 +1303,7 @@ return x_2;
 }
 }
 public static Obj l_Std_PlausibleIterStep_done___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1626,6 +1648,7 @@ return x_23;
 }
 }
 public static Obj l_Std_IterM_TerminationMeasures_instWellFoundedRelationProductive___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1669,6 +1692,7 @@ return x_1;
 }
 }
 public static Obj l_Std_IterM_mk_x27___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1726,6 +1750,7 @@ return x_2;
 }
 }
 public static Obj l_Std___aux__Init__Data__Iterators__Basic______macroRules__tacticDecreasing__trivial__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2359,6 +2384,7 @@ return x_1;
 }
 }
 public static Obj l_Std_IterStep_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2850,6 +2876,7 @@ return x_1;
 }
 }
 public static Obj l_Std___aux__Init__Data__Iterators__Basic______macroRules__tacticDecreasing__trivial__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

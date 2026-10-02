@@ -163,6 +163,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_AIG_relabel___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_18 = 0; 
@@ -485,6 +486,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Sat_AIG_relabel___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_IR_ToIRType {
 public static Obj l_Lean_IR_nameToIRType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -110,6 +111,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_toIRType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -418,6 +420,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_nameToIRType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)

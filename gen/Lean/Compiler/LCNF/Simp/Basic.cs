@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_LCNF_Simp_Basic {
 public static Obj l_Lean_Compiler_LCNF_Simp_findFunDecl_x27_x3f___redArg(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

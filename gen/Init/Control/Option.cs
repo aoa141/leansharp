@@ -69,6 +69,7 @@ return x_8;
 }
 }
 public static Obj l_OptionT_instMonadFunctor___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -88,6 +89,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadControlOptionTOfMonad___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -184,6 +186,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadControlOptionTOfMonad___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -223,6 +226,7 @@ return x_3;
 }
 }
 public static Obj l_instMonadControlOptionTOfMonad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -337,6 +341,7 @@ return x_4;
 }
 }
 public static Obj l_OptionT_instMonadAttach(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -345,6 +350,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadControlOptionTOfMonad___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -360,6 +366,7 @@ return x_5;
 }
 }
 public static Obj l_OptionT_mk___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -378,6 +385,7 @@ return x_4;
 }
 }
 public static Obj l_instToBoolOption___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -475,6 +483,7 @@ return x_2;
 }
 }
 public static Obj l_OptionT_instMonadExceptOfPUnit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -892,6 +901,7 @@ return x_11;
 }
 }
 public static Obj l_OptionT_instInhabitedOfPure(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

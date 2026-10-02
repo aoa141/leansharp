@@ -82,6 +82,7 @@ return x_5;
 }
 }
 public static Obj l_String_Legacy_Iterator_find(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -225,6 +226,7 @@ return x_5;
 }
 }
 public static Obj l_String_Legacy_Iterator_foldUntil(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -243,6 +245,7 @@ return x_5;
 }
 }
 public static Obj l_String_Legacy_Iterator___aux__Init__Data__String__Iterator______macroRules__tacticDecreasing__trivial__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -313,6 +316,7 @@ return x_38;
 }
 }
 public static Obj l_String_Legacy_Iterator_hasPrev___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -323,6 +327,7 @@ return x_3;
 }
 }
 public static Obj l_String_Legacy_Iterator___aux__Init__Data__String__Iterator______macroRules__tacticDecreasing__trivial__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -393,6 +398,7 @@ return x_38;
 }
 }
 public static byte l_String_Legacy_instDecidableEqIterator(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -401,6 +407,7 @@ return x_3;
 }
 }
 public static Obj l_String_Iterator_hasNext___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -569,6 +576,7 @@ return x_1;
 }
 }
 public static Obj l_String_Legacy_Iterator_curr_x27___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -579,6 +587,7 @@ return x_3;
 }
 }
 public static Obj l_String_Legacy_instDecidableEqIterator_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -677,6 +686,7 @@ return x_1;
 }
 }
 public static Obj l_String_Legacy_Iterator_extract(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -797,6 +807,7 @@ return x_4;
 }
 }
 public static Obj l_instToStringIterator___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -859,6 +870,7 @@ return x_5;
 }
 }
 public static Obj l_instReprIterator___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -976,6 +988,7 @@ return x_6;
 }
 }
 public static Obj l_String_Legacy_Iterator_foldUntil___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1111,6 +1124,7 @@ return x_8;
 }
 }
 public static Obj l_String_Legacy_Iterator_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1120,6 +1134,7 @@ return x_2;
 }
 }
 public static Obj l_String_Legacy_Iterator_pos___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1386,6 +1401,7 @@ return x_3;
 }
 }
 public static Obj l_String_Legacy_Iterator_forward(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1632,6 +1648,7 @@ return x_4;
 }
 }
 public static Obj l_String_Legacy_Iterator_nextn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1988,6 +2005,7 @@ return x_8;
 }
 }
 public static Obj l_String_Legacy_Iterator_prevn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 

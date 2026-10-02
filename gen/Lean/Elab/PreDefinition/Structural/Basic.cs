@@ -82,6 +82,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Structural_Positions_mapMwith___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; 
@@ -157,6 +158,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Structural_recArgHasLooseBVarsAt___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -169,6 +171,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Structural_Positions_groupAndSort___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -295,6 +298,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Structural_Positions_mapMwith___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; Obj x_9 = null; 
@@ -339,6 +343,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Structural_recArgHasLooseBVarsAt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -369,6 +374,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Structural_Positions_numIndices___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -388,6 +394,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Structural_Positions_numIndices(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -429,6 +436,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Elab_Structural_Positions_groupAndSort(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -497,6 +505,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Elab_Structural_Positions_numIndices_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -659,6 +668,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Structural_Positions_groupAndSort___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -916,6 +926,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Structural_Positions_groupAndSort___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_12 = null; ulong x_13 = 0; ulong x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_38 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; byte x_50 = 0; 

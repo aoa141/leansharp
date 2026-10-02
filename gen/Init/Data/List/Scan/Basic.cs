@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_List_scanr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -45,6 +46,7 @@ return x_1;
 }
 }
 public static Obj l_List_scanlM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -60,6 +62,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_List_Scan_Basic_0__List_scanAuxM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -89,6 +92,7 @@ return x_6;
 }
 }
 public static Obj l_List_scanlM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -138,6 +142,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_List_Scan_Basic_0__List_scanAuxM_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -146,6 +151,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_List_Scan_Basic_0__List_scanAuxM_go___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -165,6 +171,7 @@ return x_4;
 }
 }
 public static Obj l_List_scanr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -183,6 +190,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_List_Scan_Basic_0__List_scanAuxM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 

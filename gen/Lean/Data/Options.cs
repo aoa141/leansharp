@@ -44,6 +44,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getBoolOption___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -93,6 +94,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Options_erase___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -142,6 +144,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Options_instToString___private__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -178,6 +181,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Options_instBEq___private__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -208,6 +212,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_Options_0__Lean_Option_declWithDeprecation___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -264,6 +269,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Options_set___at___00__private_Lean_Data_Options_0__Lean_Option_updateBool_spec__0(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_19 = 0; 
@@ -391,6 +397,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_erase___at___00Lean_Options_erase_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -447,6 +454,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_erase___at___00Lean_Options_erase_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -456,6 +464,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Options_getInPattern(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; 
@@ -591,6 +600,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_OptionDecl_fullDescr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -636,6 +646,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Option___aux__Lean__Data__Options______macroRules__Lean__Option__registerOption__1___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -659,6 +670,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Options_setBool(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -721,6 +733,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Option_register___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -740,6 +753,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Option___aux__Lean__Data__Options______macroRules__Lean__Option__registerOption__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; 
@@ -1004,6 +1018,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Option_setIfNotSet___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1036,6 +1051,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getNatOption___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1046,6 +1062,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instInhabitedOption___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1054,6 +1071,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_getOptionDefaultValue___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1127,6 +1145,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getBoolOption___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1166,6 +1185,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Options_instToString___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1191,6 +1211,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_Options_0__Lean_Option_declWithDeprecation(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_111 = null; Obj x_112 = null; Obj x_113 = null; Obj x_114 = null; Obj x_115 = null; Obj x_166 = null; Obj x_167 = null; Obj x_168 = null; Obj x_169 = null; Obj x_170 = null; Obj x_197 = null; Obj x_198 = null; Obj x_199 = null; Obj x_200 = null; Obj x_201 = null; Obj x_217 = null; byte x_218 = 0; 
@@ -1737,6 +1758,7 @@ goto block_196;
 }
 }
 public static Obj l___private_Lean_Data_Options_0__Lean_Option_updateBool___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1863,6 +1885,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getOptionDescr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1871,6 +1894,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option___aux__Lean__Data__Options______macroRules__Lean__Option__registerOption__1___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1923,6 +1947,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldl___at___00Lean_Options_mergeBy_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1931,6 +1956,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Option_register___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_35 = 0; 
@@ -2165,6 +2191,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_getM___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2185,6 +2212,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_set(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2193,6 +2221,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_alter___at___00Lean_Options_mergeBy_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2344,6 +2373,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_withInPattern___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
@@ -2515,6 +2545,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_set___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -2546,6 +2577,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getOptionDecl___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2578,6 +2610,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2706,6 +2739,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_erase___at___00Lean_Options_erase_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5847,6 +5881,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Option___aux__Lean__Data__Options______macroRules__Lean__Option__registerOption__1___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5928,6 +5963,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getNatOption(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6078,6 +6114,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_Options_0__Lean_initFn_00___x40_Lean_Data_Options_2861175937____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6292,6 +6329,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getBoolOption(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6432,6 +6470,7 @@ return x_1;
 }
 }
 public static Obj lean_options_get_empty(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6557,6 +6596,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Data_Options_0__Lean_Options_getEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6614,6 +6654,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldrM___at___00Lean_Options_erase_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6652,6 +6693,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Options_get___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6674,6 +6716,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_withInPattern(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6736,6 +6779,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_withInPattern___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -6757,6 +6801,7 @@ return x_3;
 }
 }
 public static Obj lean_register_option(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6889,6 +6934,7 @@ return x_7;
 }
 }
 public static byte l_Lean_Options_instBEq___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -7060,6 +7106,7 @@ return x_2;
 }
 }
 public static byte l_List_any___at___00Lean_Options_erase_spec__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7143,6 +7190,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_alter___at___00Lean_Options_mergeBy_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -7328,6 +7376,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Options_set___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; byte x_9 = 0; byte x_21 = 0; 
@@ -7557,6 +7606,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00Std_DTreeMap_Internal_Impl_foldl___at___00Lean_Options_mergeBy_spec__1_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -7606,6 +7656,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option___aux__Lean__Data__Options______macroRules__Lean__Option__registerBuiltinOption__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7633,6 +7684,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getOptionDefaultValue(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7788,6 +7840,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option___aux__Lean__Data__Options______macroRules__Lean__Option__registerBuiltinOption__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -8330,6 +8383,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Options_get___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8355,6 +8409,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_getOptionDecl(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_23 = 0; 
@@ -8571,6 +8626,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option___aux__Lean__Data__Options______macroRules__Lean__Option__registerOption__1___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_70 = null; Obj x_71 = null; 
@@ -9193,6 +9249,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Options_insert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_18 = 0; 

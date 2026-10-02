@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Do_Triple_SpecLemmas {
 public static Obj l_Std_Do_Invariant_withEarlyReturn___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -53,6 +54,7 @@ return x_7;
 }
 }
 public static Obj l_List_Cursor_pos___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -154,6 +156,7 @@ return x_8;
 }
 }
 public static Obj l_List_Cursor_begin(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -174,6 +177,7 @@ return x_2;
 }
 }
 public static Obj l_List_Cursor_at(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -210,6 +214,7 @@ return x_4;
 }
 }
 public static Obj l_List_Cursor_end___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -270,6 +275,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Legacy_Range_toList___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -362,6 +368,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Do_Invariant_withEarlyReturnNewDo___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -371,6 +378,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Do_StringInvariant_withEarlyReturn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -396,6 +404,7 @@ return x_4;
 }
 }
 public static Obj l_List_Cursor_current___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -512,6 +521,7 @@ return x_5;
 }
 }
 public static Obj l_List_Cursor_tail___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -530,6 +540,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_StringInvariant_withEarlyReturn___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -612,6 +623,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Do_StringSliceInvariant_withEarlyReturn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -700,6 +712,7 @@ return x_6;
 }
 }
 public static Obj l_List_Cursor_current(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -708,6 +721,7 @@ return x_5;
 }
 }
 public static Obj l_List_Cursor_end(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -817,6 +831,7 @@ return x_9;
 }
 }
 public static Obj l_List_Cursor_begin___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -826,6 +841,7 @@ return x_3;
 }
 }
 public static Obj l_List_Cursor_current___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -855,6 +871,7 @@ return x_1;
 }
 }
 public static Obj l_List_Cursor_tail(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -882,6 +899,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Do_Invariant_withEarlyReturnNewDo___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

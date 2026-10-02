@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Internal_UV_UDP {
 public static Obj l_Std_Internal_UV_UDP_Socket_bind___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -27,6 +28,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_UV_UDP_Socket_setBroadcast___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -46,6 +48,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_UV_UDP_Socket_setMulticastInterface___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -56,6 +59,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_UV_UDP_Socket_getPeerName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -65,6 +69,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_UV_UDP_Socket_send___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -75,6 +80,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_UV_UDP_Socket_recv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -86,6 +92,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_UV_UDP_Socket_cancelRecv___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -95,6 +102,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_UV_UDP_Socket_setMulticastTTL___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -106,6 +114,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_UV_UDP_Socket_setTTL___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 

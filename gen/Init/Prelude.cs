@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Prelude {
 public static Obj l_EStateM_nonBacktrackable___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -55,6 +56,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Syntax_isIdent___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -65,6 +67,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_throwError___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -74,6 +77,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Name_appendCore___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -83,6 +87,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Name_num_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -104,6 +109,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Syntax_Preresolved_namespace_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -131,6 +137,7 @@ return x_3;
 }
 }
 public static Obj l_EStateM_Result_ok_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -139,6 +146,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkNullNode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -152,6 +160,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -191,6 +200,7 @@ return x_1;
 }
 }
 public static Obj l_unsafeCast___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -200,6 +210,7 @@ return x_2;
 }
 }
 public static Obj l_EStateM_dummyRestore___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -218,6 +229,7 @@ return x_1;
 }
 }
 public static Obj l_Char_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -243,6 +255,7 @@ return x_3;
 }
 }
 public static Obj l_List_lengthTR___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -278,6 +291,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_ident_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -295,6 +309,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_ctorElim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -315,6 +330,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_atom_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -323,6 +339,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_resolveNamespace(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -390,6 +407,7 @@ return x_13;
 }
 }
 public static Obj l_Except_ok_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -415,6 +433,7 @@ return x_3;
 }
 }
 public static Obj l_UInt8_ofBitVec___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -444,6 +463,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_getPos_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -502,6 +522,7 @@ return x_4;
 }
 }
 public static Obj l_BitVec_ofNat___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -512,6 +533,7 @@ return x_3;
 }
 }
 public static Obj l_instInhabitedForallOfMonad(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -557,6 +579,7 @@ return x_6;
 }
 }
 public static Obj l_EStateM_Result_ctorIdx(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -614,6 +637,7 @@ return x_2;
 }
 }
 public static Obj l_panicCore___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -643,6 +667,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Syntax_matchesIdent(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -666,6 +691,7 @@ return x_7;
 }
 }
 public static Obj l_List_set___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -764,6 +790,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ParserDescr_nodeWithAntiquot_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -831,6 +858,7 @@ return x_2;
 }
 }
 public static Obj lean_name_mk_numeral(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -848,6 +876,7 @@ return x_3;
 }
 }
 public static Obj l_USize_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -877,6 +906,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_throwUnsupported___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -912,6 +942,7 @@ return x_1;
 }
 }
 public static Obj l_List_hasDecEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -921,6 +952,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SourceInfo_getPos_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -931,6 +963,7 @@ return x_4;
 }
 }
 public static uint l_instMaxUInt32___lam__0(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -946,6 +979,7 @@ return x_2;
 }
 }
 public static byte l_instDecidableEqUSize(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -954,6 +988,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_withIncRecDepth___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -1010,6 +1045,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PrettyPrinter_instMonadQuotationUnexpandM___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1019,6 +1055,7 @@ return x_5;
 }
 }
 public static Obj l_UInt8_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1030,6 +1067,7 @@ return x_6;
 }
 }
 public static Obj l_String_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1041,6 +1079,7 @@ return x_4;
 }
 }
 public static Obj l_instBEqOfDecidableEq___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1050,6 +1089,7 @@ return x_5;
 }
 }
 public static Obj l_Decidable_falseTrueCases___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1068,6 +1108,7 @@ return x_3;
 }
 }
 public static Obj l_Array_push___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1076,6 +1117,7 @@ return x_4;
 }
 }
 public static byte l_instDecidableEqUInt16(ushort x_1, ushort x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1100,6 +1142,7 @@ return x_5;
 }
 }
 public static Obj l_Array_appendCore___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1109,6 +1152,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParserDescr_symbol_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1127,6 +1171,7 @@ return x_1;
 }
 }
 public static Obj l_UInt32_decLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1149,6 +1194,7 @@ return x_2;
 }
 }
 public static Obj l_mixHash___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1212,6 +1258,7 @@ return lean_box(0);
 }
 }
 public static Obj l_ByteArray_emptyWithCapacity___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1221,6 +1268,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_getHeadInfo(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1242,6 +1290,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Macro_instMonadQuotationMacroM___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1251,6 +1300,7 @@ return x_3;
 }
 }
 public static Obj l_List_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1342,6 +1392,7 @@ return x_1;
 }
 }
 public static Obj l_ReaderT_bind___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1382,6 +1433,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ParserDescr_unary_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1407,6 +1459,7 @@ return x_3;
 }
 }
 public static Obj l_List_instDecidableNilEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1427,6 +1480,7 @@ return x_1;
 }
 }
 public static byte l_instDecidableLtBitVec(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1435,6 +1489,7 @@ return x_4;
 }
 }
 public static Obj l_UInt8_ofNatLT___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1445,6 +1500,7 @@ return x_4;
 }
 }
 public static Obj l_UInt8_decLe___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1456,6 +1512,7 @@ return x_6;
 }
 }
 public static Obj l_Substring_Raw_bsize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1472,6 +1529,7 @@ return x_1;
 }
 }
 public static Obj l_Fin_Internal_ofNat___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1482,6 +1540,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_MonadRef_mkInfoFromRefPos___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -1499,6 +1558,7 @@ return x_2;
 }
 }
 public static byte l_instDecidableLeBitVec(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1507,6 +1567,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_atom_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1515,6 +1576,7 @@ return x_5;
 }
 }
 public static Obj l_EStateM_Result_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1542,6 +1604,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Macro_trace(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1562,6 +1625,7 @@ return x_2;
 }
 }
 public static Obj l_instMonadExceptOfMonadExceptOf(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1570,6 +1634,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SourceInfo_fromRef___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1580,6 +1645,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParserDescr_unicodeSymbol_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1588,6 +1654,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_decLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1647,6 +1714,7 @@ return x_3;
 }
 }
 public static Obj l_instDecidableEqList___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1671,6 +1739,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_decLt___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1682,6 +1751,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Macro_throwError___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1702,6 +1772,7 @@ return x_2;
 }
 }
 public static Obj l_BitVec_toNat___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1757,6 +1828,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Name_eraseMacroScopes___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1766,6 +1838,7 @@ return x_2;
 }
 }
 public static Obj l_EStateM_Result_error_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1774,6 +1847,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Name_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1790,6 +1864,7 @@ return x_2;
 }
 }
 public static uint l_instMinUInt32___lam__0(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1814,6 +1889,7 @@ return x_2;
 }
 }
 public static Obj l_Array_mkArray7(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1822,6 +1898,7 @@ return x_9;
 }
 }
 public static Obj l_instInhabitedOfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1839,6 +1916,7 @@ return x_2;
 }
 }
 public static Obj l_Option_ctorIdx(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1866,6 +1944,7 @@ return x_1;
 }
 }
 public static byte l_List_instDecidableEqNil(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1874,6 +1953,7 @@ return x_3;
 }
 }
 public static Obj l_Array_getInternal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1884,6 +1964,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instMonadRefOfMonadLiftOfMonadFunctor(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1961,6 +2042,7 @@ return x_9;
 }
 }
 public static Obj l_UInt8_toBitVec___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1988,6 +2070,7 @@ return x_3;
 }
 }
 public static Obj l_List_concat(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1996,6 +2079,7 @@ return x_4;
 }
 }
 public static Obj l_instDecidableEqChar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2009,6 +2093,7 @@ return x_6;
 }
 }
 public static Obj l_instDecidableEqBitVec___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2021,6 +2106,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Syntax_matchesLit(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -2080,6 +2166,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ParserDescr_sepBy_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2146,6 +2233,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SourceInfo_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2155,6 +2243,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_replaceRef(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2184,6 +2273,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadReaderOfMonadReaderOf___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2201,6 +2291,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_withIncRecDepth(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -2270,6 +2361,7 @@ return x_7;
 }
 }
 public static Obj l_monadFunctorRefl(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2376,6 +2468,7 @@ return x_19;
 }
 }
 public static Obj l_UInt32_ofNatLT___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -2386,6 +2479,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_getPos_x3f(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2396,6 +2490,7 @@ return x_4;
 }
 }
 public static Obj l_List_get(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2404,6 +2499,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_getTailPos_x3f(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -2529,6 +2625,7 @@ return x_25;
 }
 }
 public static Obj l_List_map(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2537,6 +2634,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Macro_withFreshMacroScope___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_22 = 0; 
@@ -2618,6 +2716,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Macro_instMonadRefMacroM___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2628,6 +2727,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadWithReaderOfReaderT___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2636,6 +2736,7 @@ return x_2;
 }
 }
 public static Obj l_instInhabitedULift___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2645,6 +2746,7 @@ return x_3;
 }
 }
 public static Obj l_List_map___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2714,6 +2816,7 @@ return x_2;
 }
 }
 public static Obj l_List_length___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2753,6 +2856,7 @@ return x_2;
 }
 }
 public static Obj l_String_ofByteArray___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2790,6 +2894,7 @@ return x_4;
 }
 }
 public static Obj l_List_concat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2856,6 +2961,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_simpMacroScopesAux(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -2901,6 +3007,7 @@ return x_6;
 }
 }
 public static Obj l_UInt64_toBitVec___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -2937,6 +3044,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Name_num_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2945,6 +3053,7 @@ return x_5;
 }
 }
 public static Obj l_List_toByteArray_loop___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2997,6 +3106,7 @@ return x_7;
 }
 }
 public static Obj l_instMonadReaderOfMonadReaderOf___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3006,6 +3116,7 @@ return x_2;
 }
 }
 public static byte l_instDecidableEqFin(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3014,6 +3125,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_getNumArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3033,6 +3145,7 @@ return x_1;
 }
 }
 public static Obj l_Array_appendCore_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3042,6 +3155,7 @@ return x_6;
 }
 }
 public static Obj l_instDecidableEqUInt8___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -3053,6 +3167,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_ParserDescr_nonReservedSymbol_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3074,6 +3189,7 @@ return x_9;
 }
 }
 public static Obj l_Array_mkArray2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3082,6 +3198,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_zero_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3090,6 +3207,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_getArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3110,6 +3228,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_node5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -3130,6 +3249,7 @@ return x_2;
 }
 }
 public static Obj l_BitVec_decEq___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3141,6 +3261,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Syntax_isOfKind(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -3151,6 +3272,7 @@ return x_4;
 }
 }
 public static Obj l_Array_mkArray5___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -3165,6 +3287,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Name_mkStr5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -3178,6 +3301,7 @@ return x_11;
 }
 }
 public static Obj l_panic___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3249,6 +3373,7 @@ return x_16;
 }
 }
 public static Obj l_Array_appendCore_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3268,6 +3393,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Name_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3277,6 +3403,7 @@ return x_2;
 }
 }
 public static Obj l_instTransEq__1___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3289,6 +3416,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Macro_getCurrNamespace(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3355,6 +3483,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_instInhabitedTSyntax___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3372,6 +3501,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Macro_addMacroScope___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3381,6 +3511,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadLiftT(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3405,6 +3536,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SourceInfo_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3413,6 +3545,7 @@ return x_6;
 }
 }
 public static Obj l_panic___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3434,6 +3567,7 @@ return x_2;
 }
 }
 public static Obj l_EStateM_instMonad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3442,6 +3576,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ParserDescr_trailingNode_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3450,6 +3585,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ParserDescr_symbol_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3477,6 +3613,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Syntax_isNodeOf(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3509,6 +3646,7 @@ return x_1;
 }
 }
 public static Obj l_EStateM_Result_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -3544,6 +3682,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_sub___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3565,6 +3704,7 @@ return x_4;
 }
 }
 public static Obj l_readThe___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3594,6 +3734,7 @@ return x_2;
 }
 }
 public static Obj l_instLTFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3681,6 +3822,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PrettyPrinter_instMonadQuotationUnexpandM___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3690,6 +3832,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Macro_Exception_unsupportedSyntax_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3705,6 +3848,7 @@ return x_1;
 }
 }
 public static Obj l_id___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3714,6 +3858,7 @@ return x_3;
 }
 }
 public static Obj l_Substring_Raw_bsize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -3724,6 +3869,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParserDescr_sepBy1_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3732,6 +3878,7 @@ return x_5;
 }
 }
 public static Obj l_ReaderT_instMonadLift___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3915,6 +4062,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Macro_addMacroScope(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -3948,6 +4096,7 @@ return x_6;
 }
 }
 public static Obj l_Eq_ndrec___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3967,6 +4116,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_getNumArgs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -4014,6 +4164,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_div___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4031,6 +4182,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Macro_Exception_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4050,6 +4202,7 @@ return x_5;
 }
 }
 public static Obj l_Eq_ndrec___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4059,6 +4212,7 @@ return x_2;
 }
 }
 public static byte l_Fin_decLe___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -4067,6 +4221,7 @@ return x_3;
 }
 }
 public static Obj l_instMinNat___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -4084,6 +4239,7 @@ return x_1;
 }
 }
 public static byte l_instDecidableEqUInt8(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -4092,6 +4248,7 @@ return x_3;
 }
 }
 public static Obj l_panic___at___00__private_Init_Prelude_0__Lean_extractImported_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -4110,6 +4267,7 @@ return x_5;
 }
 }
 public static Obj l_Bool_false_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4120,6 +4278,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_ParserDescr_cat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4128,6 +4287,7 @@ return x_3;
 }
 }
 public static byte l_List_hasDecEq___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4138,6 +4298,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Name_mkStr3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -4159,6 +4320,7 @@ return x_1;
 }
 }
 public static Obj lean_name_mk_string(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4183,6 +4345,7 @@ return x_4;
 }
 }
 public static Obj l_Except_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4227,6 +4390,7 @@ return x_2;
 }
 }
 public static Obj l_instLEFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4236,6 +4400,7 @@ return x_2;
 }
 }
 public static Obj l_ReaderT_pure___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4261,6 +4426,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Macro_throwError(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4269,6 +4435,7 @@ return x_5;
 }
 }
 public static Obj l_Array_mkArray1___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -4279,6 +4446,7 @@ return x_4;
 }
 }
 public static Obj l_Array_get_x21InternalBorrowed___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4290,6 +4458,7 @@ return x_5;
 }
 }
 public static Obj l_Array_extract_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -4332,6 +4501,7 @@ goto _start;
 }
 }
 public static Obj l_instDecidableEqUInt32___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -4354,6 +4524,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SourceInfo_getTrailingTailPos_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4379,6 +4550,7 @@ return x_3;
 }
 }
 public static Obj l_String_utf8EncodeChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -4406,6 +4578,7 @@ return x_2;
 }
 }
 public static Obj l_UInt8_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4424,6 +4597,7 @@ return x_2;
 }
 }
 public static Obj l_List_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4433,6 +4607,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Name_casesOn___override___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4442,6 +4617,7 @@ return x_5;
 }
 }
 public static Obj l_ReaderT_bind___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -4516,6 +4692,7 @@ return x_14;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_assembleParts(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4625,6 +4802,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Macro_resolveGlobalName(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4702,6 +4880,7 @@ return x_1;
 }
 }
 public static Obj l_List_toByteArray_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4757,6 +4936,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Macro_instInhabitedMethods_default___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4767,6 +4947,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Name_mkStr7(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -4801,6 +4982,7 @@ return x_2;
 }
 }
 public static Obj l_List_lengthTRAux___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4821,6 +5003,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Macro_instInhabitedMethods_default___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4903,6 +5086,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_div_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4973,6 +5157,7 @@ return x_5;
 }
 }
 public static Obj l_List_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -4991,6 +5176,7 @@ return x_3;
 }
 }
 public static Obj l_Except_ok_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5052,6 +5238,7 @@ return x_5;
 }
 }
 public static Obj l_USize_toBitVec___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -5122,6 +5309,7 @@ return x_11;
 }
 }
 public static Obj l_BitVec_decEq___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5134,6 +5322,7 @@ return x_5;
 }
 }
 public static Obj l_String_ofList___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5152,6 +5341,7 @@ return x_5;
 }
 }
 public static Obj l_ReaderT_instMonadFunctor(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5168,6 +5358,7 @@ return x_6;
 }
 }
 public static Obj l_List_length___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5177,6 +5368,7 @@ return x_3;
 }
 }
 public static Obj l_instDecidableEqBitVec___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5261,6 +5453,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_node_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5382,6 +5575,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5425,6 +5619,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_node6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -5437,6 +5632,7 @@ return x_10;
 }
 }
 public static Obj l_Bool_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5454,6 +5650,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5477,6 +5674,7 @@ return x_6;
 }
 }
 public static Obj l_instLTBitVec___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5554,6 +5752,7 @@ return x_4;
 }
 }
 public static Obj l_List_instDecidableNilEq___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5596,6 +5795,7 @@ return x_16;
 }
 }
 public static Obj l_Bool_false_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5605,6 +5805,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_withRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5647,6 +5848,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_Syntax_getHeadInfo_x3f_loop___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5666,6 +5868,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_extractImported(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -5738,6 +5941,7 @@ return x_8;
 }
 }
 public static byte l_List_beq___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5834,6 +6038,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5873,6 +6078,7 @@ return x_6;
 }
 }
 public static Obj l_Array_mk___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5881,6 +6087,7 @@ return x_3;
 }
 }
 public static Obj l_List_toArray___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5930,6 +6137,7 @@ return x_3;
 }
 }
 public static Obj l_Array_getD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5941,6 +6149,7 @@ return x_4;
 }
 }
 public static Obj l_Decidable_isFalse___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5973,6 +6182,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_getHeadInfo_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5982,6 +6192,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_getKind(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -6100,6 +6311,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_ident_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6108,6 +6320,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldl___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6141,6 +6354,7 @@ return x_6;
 }
 }
 public static Obj l_List_lengthTRAux___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6180,6 +6394,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_ParserDescr_node_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6217,6 +6432,7 @@ return x_5;
 }
 }
 public static Obj l_BitVec_ofNat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -6237,6 +6453,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Name_anonymous_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6245,6 +6462,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_matchesNull___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6399,6 +6617,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_ParserDescr_nonReservedSymbol_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6428,6 +6647,7 @@ return x_4;
 }
 }
 public static Obj l_readThe___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6437,6 +6657,7 @@ return x_2;
 }
 }
 public static Obj l_unsafeCast___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6469,6 +6690,7 @@ return x_9;
 }
 }
 public static Obj l_Bool_Internal_not___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -6498,6 +6720,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_Internal_ofNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6555,6 +6778,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_zero_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6581,6 +6805,7 @@ return x_2;
 }
 }
 public static Obj l_instInhabitedForall___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6619,6 +6844,7 @@ return x_6;
 }
 }
 public static Obj l_Array_extract(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6627,6 +6853,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_ParserDescr_sepBy_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6635,6 +6862,7 @@ return x_3;
 }
 }
 public static Obj l_Array_mkArray7___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -6651,6 +6879,7 @@ return x_16;
 }
 }
 public static byte l_BitVec_decEq(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6659,6 +6888,7 @@ return x_4;
 }
 }
 public static Obj l_decEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6693,6 +6923,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Macro_Exception_unsupportedSyntax_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6701,6 +6932,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_getOptional_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -6762,6 +6994,7 @@ return x_4;
 }
 }
 public static Obj l_Array_emptyWithCapacity___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6771,6 +7004,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SourceInfo_synthetic_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6779,6 +7013,7 @@ return x_5;
 }
 }
 public static byte l_instDecidableEqBitVec(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6787,6 +7022,7 @@ return x_4;
 }
 }
 public static Obj l_List_cons_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6996,6 +7232,7 @@ return x_2;
 }
 }
 public static Obj l_List_toArray(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7004,6 +7241,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Name_num___override(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_8 = 0; 
@@ -7056,6 +7294,7 @@ goto block_7;
 }
 }
 public static Obj l_Lean_Syntax_node3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -7085,6 +7324,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Name_append(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -7241,6 +7481,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_eraseMacroScopesAux___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7267,6 +7508,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SourceInfo_original_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7302,6 +7544,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Macro_Exception_error_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7360,6 +7603,7 @@ return x_14;
 }
 }
 public static Obj l_List_nil_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7416,6 +7660,7 @@ return x_6;
 }
 }
 public static Obj l_List_lengthTR___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7425,6 +7670,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ParserDescr_binary_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7433,6 +7679,7 @@ return x_3;
 }
 }
 public static Obj l_MonadExcept_ofExcept(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7485,6 +7732,7 @@ return x_3;
 }
 }
 public static Obj l_Array_get_x21Internal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7496,6 +7744,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_size___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7751,6 +8000,7 @@ return x_2;
 }
 }
 public static Obj l_instTransEq(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7860,6 +8110,7 @@ return x_1;
 }
 }
 public static Obj l_Decidable_isTrue___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -7895,6 +8146,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_throwErrorAt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7923,6 +8175,7 @@ return x_1;
 }
 }
 public static Obj l_List_append(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7954,6 +8207,7 @@ return x_2;
 }
 }
 public static Obj l_Decidable_falseTrueCases___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -8009,6 +8263,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_addMacroScope(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -8145,6 +8400,7 @@ return x_6;
 }
 }
 public static Obj l_Nat_succ_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8154,6 +8410,7 @@ return x_5;
 }
 }
 public static Obj l_instTransEq___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8162,6 +8419,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_extractMacroScopes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -8209,6 +8467,7 @@ return x_2;
 }
 }
 public static Obj l_instInhabitedOption___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8296,6 +8555,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Macro_instMonadRefMacroM___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8313,6 +8573,7 @@ return x_2;
 }
 }
 public static Obj l_Array_appendCore_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -8470,6 +8731,7 @@ return x_3;
 }
 }
 public static Obj l_String_utf8EncodeChar(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -8641,6 +8903,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Name_str_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8768,6 +9031,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_node2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -8813,6 +9077,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParserDescr_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8830,6 +9095,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_succ_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8870,6 +9136,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_ctorElim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -8900,6 +9167,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_getArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -8945,6 +9213,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_mul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8955,6 +9224,7 @@ return x_3;
 }
 }
 public static Obj l_List_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8984,6 +9254,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Syntax_matchesNull(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -9003,6 +9274,7 @@ return x_1;
 }
 }
 public static Obj l_Array_extract___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -9039,6 +9311,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_ParserDescr_binary_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9047,6 +9320,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_data___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9068,6 +9342,7 @@ return x_6;
 }
 }
 public static Obj l_Nat_div_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; byte x_6 = 0; 
@@ -9094,6 +9369,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_ParserDescr_unicodeSymbol_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9102,6 +9378,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ParserDescr_node_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9110,6 +9387,7 @@ return x_5;
 }
 }
 public static Obj l_EStateM_instMonadExceptOfOfBacktrackable___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -9203,6 +9481,7 @@ return x_2;
 }
 }
 public static Obj l_USize_ofNatLT___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -9248,6 +9527,7 @@ return x_5;
 }
 }
 public static Obj l_UInt64_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -9261,6 +9541,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_eraseMacroScopesAux(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -9297,6 +9578,7 @@ goto _start;
 }
 }
 public static Obj l_instDecidableEqRaw___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -9317,6 +9599,7 @@ return x_4;
 }
 }
 public static Obj l_instLTBitVec___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9334,6 +9617,7 @@ return x_2;
 }
 }
 public static byte l_Fin_decLt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -9417,6 +9701,7 @@ return x_3;
 }
 }
 public static Obj l_Eq_ndrec__symm___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -9456,6 +9741,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParserDescr_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9481,6 +9767,7 @@ return x_4;
 }
 }
 public static byte l_instDecidableEqRaw(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -9498,6 +9785,7 @@ return x_5;
 }
 }
 public static Obj l_Array_mkArray2___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -9527,6 +9815,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_MacroScopesView_review(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9574,6 +9863,7 @@ return x_4;
 }
 }
 public static Obj l_inferInstance___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9593,6 +9883,7 @@ return x_5;
 }
 }
 public static byte l_instDecidableEqFin___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -9644,6 +9935,7 @@ return x_12;
 }
 }
 public static Obj l_EStateM_dummySave___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9661,6 +9953,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_Exception_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9670,6 +9963,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ParserDescr_nodeWithAntiquot_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9678,6 +9972,7 @@ return x_5;
 }
 }
 public static Obj l_Array_extract_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9767,6 +10062,7 @@ return x_6;
 }
 }
 public static Obj l_List_lengthTRAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9775,6 +10071,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_add___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9920,6 +10217,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Macro_instInhabitedMethods_default___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10105,6 +10403,7 @@ return x_4;
 }
 }
 public static Obj l_EStateM_instMonadStateOf(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10113,6 +10412,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_throwErrorAt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10159,6 +10459,7 @@ return x_2;
 }
 }
 public static Obj l_List_get___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10168,6 +10469,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_Syntax_getTailPos_x3f_loop___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -10197,6 +10499,7 @@ return x_1;
 }
 }
 public static Obj l_Except_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10247,6 +10550,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkAtomFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -10343,6 +10647,7 @@ return x_4;
 }
 }
 public static Obj l_Option_none_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10351,6 +10656,7 @@ return x_3;
 }
 }
 public static Obj l_Bool_true_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -10391,6 +10697,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Syntax_node4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -10492,6 +10799,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_Internal_ofNat(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10577,6 +10885,7 @@ return x_4;
 }
 }
 public static Obj l_Array_mkArray6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -10594,6 +10903,7 @@ return x_2;
 }
 }
 public static Obj l_Option_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -10629,6 +10939,7 @@ return x_1;
 }
 }
 public static byte l_instDecidableEqBitVec___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -10673,6 +10984,7 @@ return x_5;
 }
 }
 public static Obj l_Option_none_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10690,6 +11002,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Macro_instInhabitedMethods_default___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10700,6 +11013,7 @@ return x_4;
 }
 }
 public static byte l_instDecidableEqUInt64(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -10738,6 +11052,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_Syntax_getTailPos_x3f_loop(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10871,6 +11186,7 @@ return x_5;
 }
 }
 public static byte l_instDecidableLtBitVec___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -10882,6 +11198,7 @@ return x_5;
 }
 }
 public static Obj l_List_append___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10958,6 +11275,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Name_hasMacroScopes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -10986,6 +11304,7 @@ goto _start;
 }
 }
 public static Obj l_Array_appendCore___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -11005,6 +11324,7 @@ return x_2;
 }
 }
 public static Obj l_List_nil_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11013,6 +11333,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Name_str_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11078,6 +11399,7 @@ return x_3;
 }
 }
 public static Obj l_ReaderT_read___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11120,6 +11442,7 @@ return x_8;
 }
 }
 public static Obj l_List_lengthTRAux___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -11140,6 +11463,7 @@ goto _start;
 }
 }
 public static Obj l_Bool_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -11216,6 +11540,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Name_appendCore(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -11309,6 +11634,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_extractMacroScopesAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -11358,6 +11684,7 @@ return x_3;
 }
 }
 public static Obj l_List_get___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -11384,6 +11711,7 @@ goto _start;
 }
 }
 public static Obj l_Nat_decLe___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -11422,6 +11750,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadStateOfMonadStateOf(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11596,6 +11925,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SourceInfo_getTrailingTailPos_x3f(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11654,6 +11984,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Macro_expandMacro_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11740,6 +12071,7 @@ return x_6;
 }
 }
 public static Obj l_Option_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -11941,6 +12273,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParserDescr_sepBy1_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12055,6 +12388,7 @@ return x_2;
 }
 }
 public static byte l_Fin_decLe(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -12228,6 +12562,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Name_anonymous_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12236,6 +12571,7 @@ return x_3;
 }
 }
 public static Obj l_Array_mkArray8___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -12294,6 +12630,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_ParserDescr_parser_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12371,6 +12708,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParserDescr_parser_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12379,6 +12717,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_ParserDescr_trailingNode_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12457,6 +12796,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_getInfo_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12481,6 +12821,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_getHeadInfo_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -12665,6 +13006,7 @@ return x_4;
 }
 }
 public static Obj l_instDecidableOr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -12969,6 +13311,7 @@ return x_3;
 }
 }
 public static Obj l_instMonadEvalT(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12984,6 +13327,7 @@ return x_1;
 }
 }
 public static Obj l_Decidable_isFalse___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -13097,6 +13441,7 @@ return x_4;
 }
 }
 public static Obj l_ReaderT_mk___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -13134,6 +13479,7 @@ return x_4;
 }
 }
 public static Obj l_Array_mkArray4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13261,6 +13607,7 @@ return x_4;
 }
 }
 public static Obj l_Option_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13300,6 +13647,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Macro_instMonadQuotationMacroM___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -13407,6 +13755,7 @@ return x_1;
 }
 }
 public static Obj l_Except_ctorIdx(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13737,6 +14086,7 @@ return x_1;
 }
 }
 public static Obj l_Array_getD___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -14019,6 +14369,7 @@ return x_4;
 }
 }
 public static Obj l_Char_utf8Size___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -14072,6 +14423,7 @@ return x_4;
 }
 }
 public static Obj l_Array_size___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14100,6 +14452,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ParserDescr_cat_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -14237,6 +14590,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Macro_withFreshMacroScope___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -14471,6 +14825,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadLiftT___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14604,6 +14959,7 @@ return x_3;
 }
 }
 public static Obj l_Array_mkArray6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -14637,6 +14993,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_pred___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14718,6 +15075,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_extractMainModule(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -14982,6 +15340,7 @@ return x_2;
 }
 }
 public static Obj l_List_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -14990,6 +15349,7 @@ return x_7;
 }
 }
 public static Obj l_Array_mkArray3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -15326,6 +15686,7 @@ return x_1;
 }
 }
 public static Obj l_List_cons_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15516,6 +15877,7 @@ return x_19;
 }
 }
 public static Obj l___private_Init_Prelude_0__Lean_Syntax_getHeadInfo_x3f_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -15592,6 +15954,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Lean_MacroScopesView_review_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

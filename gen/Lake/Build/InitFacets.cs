@@ -19,6 +19,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Build_InitFacets_0__Lake_initFacetConfigs_insert___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -63,6 +64,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Build_InitFacets_0__Lake_initFacetConfigs_insert___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -84,6 +86,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldl___at___00__private_Lake_Build_InitFacets_0__Lake_initFacetConfigs_insert_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -113,6 +116,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00Std_DTreeMap_Internal_Impl_foldl___at___00__private_Lake_Build_InitFacets_0__Lake_initFacetConfigs_insert_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

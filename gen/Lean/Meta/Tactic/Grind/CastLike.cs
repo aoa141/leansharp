@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Meta_Grind_isCastLikeDeclName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_8 = null; byte x_9 = 0; 
@@ -72,6 +73,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Meta_Grind_isCastLikeApp(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 

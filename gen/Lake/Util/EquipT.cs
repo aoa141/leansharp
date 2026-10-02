@@ -120,6 +120,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_EquipT_instMonadFunctor(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -128,6 +129,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_EquipT_instApplicative___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -228,6 +230,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_EquipT_lift___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -237,6 +240,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_EquipT_instMonadLift___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -253,6 +257,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_EquipT_instMonad___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_12 = 0; 
@@ -304,6 +309,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_EquipT_instInhabited___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -425,6 +431,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_EquipT_instFunctor(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -440,6 +447,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_EquipT_instMonadLift(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -541,6 +549,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_EquipT_instMonadExceptOf(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -610,6 +619,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_EquipT_instApplicative___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -715,6 +725,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_EquipT_instApplicative(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -723,6 +734,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_EquipT_instAlternative___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_14 = 0; 

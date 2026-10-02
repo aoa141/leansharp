@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Array_Lex_Lemmas {
 public static byte l_Array_instDecidableLTOfDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -21,6 +22,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Array_instTransLt___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -127,6 +129,7 @@ return x_7;
 }
 }
 public static Obj l_Array_instDecidableLEOfDecidableEqOfDecidableLT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -182,6 +185,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Array_instTransLeOfLawfulOrderLTOfIsLinearOrder___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

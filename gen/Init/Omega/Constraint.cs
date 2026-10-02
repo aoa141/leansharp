@@ -64,6 +64,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Omega_Constraint_translate___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -74,6 +75,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Omega_Constraint_0__Lean_Omega_instReprInt___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -212,6 +214,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_Constraint_combo(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -248,6 +251,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Omega_Constraint_instToString___private__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_8 = null; 
@@ -487,6 +491,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Omega_Constraint_isImpossible___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -515,6 +520,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_LowerBound_sat___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -574,6 +580,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Omega_bmod__coeffs(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -586,6 +593,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Omega_normalize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -607,6 +615,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_instReprConstraint_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_36 = 0; 
@@ -709,6 +718,7 @@ return x_32;
 }
 }
 public static Obj l_Lean_Omega_tidyCoeffs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -733,6 +743,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_Constraint_combine___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -743,6 +754,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_Constraint_sat_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1007,6 +1019,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_Constraint_isExact___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1027,6 +1040,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Omega_bmod__coeffs_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1090,6 +1104,7 @@ goto _start;
 }
 }
 public static Obj l_Option_repr___at___00Lean_Omega_instReprConstraint_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1158,6 +1173,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Omega_instBEqConstraint_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1211,6 +1227,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Omega_Constraint_translate(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1233,6 +1250,7 @@ return x_2;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00Lean_Omega_instBEqConstraint_beq_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1266,6 +1284,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Omega_instReprConstraint_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1319,6 +1338,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Omega_instDecidableEqConstraint___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1430,6 +1450,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_Constraint_neg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1511,6 +1532,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Omega_UpperBound_sat___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1522,6 +1544,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Omega_tidyConstraint(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1548,6 +1571,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Omega_tidy_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1814,6 +1838,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Omega_instDecidableEqConstraint(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -2007,6 +2032,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Omega_Constraint_0__Lean_Omega_instToStringInt___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2070,6 +2096,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Omega_Constraint_scale(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 

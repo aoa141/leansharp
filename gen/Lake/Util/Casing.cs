@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lake_toUpperCamelCaseString_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26,6 +27,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lake_toUpperCamelCaseString_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -34,6 +36,7 @@ return x_8;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lake_toUpperCamelCaseString_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -73,6 +76,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Lake_toUpperCamelCaseString_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -82,6 +86,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lake_toUpperCamelCaseString_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_11 = null; uint x_12 = 0; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
@@ -302,6 +307,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_toUpperCamelCase(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -324,6 +330,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Lake_toUpperCamelCaseString_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

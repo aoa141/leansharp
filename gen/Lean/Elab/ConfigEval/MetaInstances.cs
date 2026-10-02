@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_ConfigEval_MetaInstances {
 public static Obj l_Lean_Elab_ConfigEval_throwUnsupportedExpr___at___00Lean_Elab_ConfigEval_instEvalExprApplyNewGoals_evalExpr_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -38,6 +39,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprEtaStructMode_evalExpr___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -75,6 +77,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_throwUnsupportedSyntax___at___00Lean_Elab_ConfigEval_instEvalTermApplyNewGoals_evalTerm_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -105,6 +108,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_throwUnsupportedExpr___at___00Lean_Elab_ConfigEval_instEvalExprApplyNewGoals_evalExpr_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -113,6 +117,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_addMessageContextFull___at___00Lean_throwError___at___00Lean_Elab_ConfigEval_instEvalExprApplyNewGoals_evalExpr_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -145,6 +150,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_throwUnsupportedSyntax___at___00Lean_Elab_ConfigEval_instEvalTermApplyNewGoals_evalTerm_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -175,6 +181,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermOccurrences_evalTerm___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -200,6 +207,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprOccurrences_evalExpr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -222,6 +230,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprOccurrences_evalExpr___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -261,6 +270,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Elab_ConfigEval_instEvalExprApplyNewGoals_evalExpr_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -296,6 +306,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermApplyNewGoals_evalTerm(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -316,6 +327,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprEtaStructMode_evalExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -336,6 +348,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Elab_ConfigEval_instEvalExprApplyNewGoals_evalExpr_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -348,6 +361,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprOccurrences_evalExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -392,6 +406,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprTransparencyMode_evalExpr___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -415,6 +430,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermOccurrences_evalTerm___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; byte x_14 = 0; 
@@ -1040,6 +1056,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermEtaStructMode_evalTerm___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; byte x_14 = 0; 
@@ -1389,6 +1406,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprApplyNewGoals_evalExpr___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_20 = null; byte x_21 = 0; 
@@ -1666,6 +1684,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermTransparencyMode_evalTerm___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1739,6 +1758,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermApplyNewGoals_evalTerm___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; byte x_14 = 0; 
@@ -2114,6 +2134,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermEtaStructMode_evalTerm(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -2204,6 +2225,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermTransparencyMode_evalTerm___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; byte x_14 = 0; 
@@ -2877,6 +2899,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprApplyNewGoals_evalExpr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2907,6 +2930,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprEtaStructMode_evalExpr___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_20 = null; byte x_21 = 0; 
@@ -3198,6 +3222,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprOccurrences_evalExpr___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_57 = null; byte x_58 = 0; 
@@ -3598,6 +3623,7 @@ return x_55;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalExprTransparencyMode_evalExpr___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_32 = null; byte x_33 = 0; 
@@ -4101,6 +4127,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_ConfigEval_instEvalTermOccurrences_evalTerm___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

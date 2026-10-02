@@ -135,6 +135,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_ofSeq(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -278,6 +279,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_ofExpr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

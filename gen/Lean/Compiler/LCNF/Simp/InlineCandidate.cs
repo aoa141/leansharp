@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_LCNF_Simp_InlineCandidate {
 public static Obj l_Lean_throwError___at___00Lean_Compiler_LCNF_Simp_inlineCandidate_x3f_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -19,6 +20,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_InlineCandidateInfo_arity___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -40,6 +42,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_inlineCandidate_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -96,6 +99,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Compiler_LCNF_Simp_inlineCandidate_x3f_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -104,6 +108,7 @@ return x_11;
 }
 }
 public static Obj l_panic___at___00Lean_Compiler_LCNF_Simp_inlineCandidate_x3f_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_76 = 0; 
@@ -483,6 +488,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_inlineCandidate_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_16 = 0; byte x_17 = 0; byte x_18 = 0; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; Obj x_24 = null; Obj x_25 = null; byte x_50 = 0; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; byte x_55 = 0; Obj x_56 = null; byte x_57 = 0; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; byte x_97 = 0; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; byte x_101 = 0; Obj x_102 = null; byte x_103 = 0; Obj x_104 = null; byte x_105 = 0; byte x_106 = 0; Obj x_107 = null; Obj x_108 = null; Obj x_109 = null; Obj x_110 = null; Obj x_111 = null; Obj x_134 = null; byte x_135 = 0; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; byte x_139 = 0; Obj x_140 = null; byte x_141 = 0; Obj x_142 = null; Obj x_143 = null; byte x_144 = 0; byte x_145 = 0; Obj x_146 = null; Obj x_147 = null; Obj x_148 = null; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_156 = null; byte x_157 = 0; Obj x_158 = null; Obj x_159 = null; Obj x_160 = null; byte x_161 = 0; Obj x_162 = null; byte x_163 = 0; Obj x_164 = null; Obj x_165 = null; byte x_166 = 0; byte x_167 = 0; Obj x_168 = null; Obj x_169 = null; Obj x_170 = null; Obj x_171 = null; Obj x_172 = null; Obj x_173 = null; Obj x_174 = null; Obj x_188 = null; Obj x_189 = null; Obj x_190 = null; byte x_191 = 0; Obj x_192 = null; Obj x_193 = null; Obj x_194 = null; Obj x_195 = null; Obj x_196 = null; Obj x_197 = null; Obj x_198 = null; Obj x_248 = null; Obj x_249 = null; Obj x_250 = null; Obj x_251 = null; Obj x_252 = null; Obj x_253 = null; byte x_254 = 0; Obj x_255 = null; Obj x_256 = null; Obj x_307 = null; Obj x_308 = null; Obj x_309 = null; byte x_310 = 0; Obj x_311 = null; Obj x_312 = null; Obj x_313 = null; Obj x_314 = null; Obj x_315 = null; Obj x_337 = null; Obj x_338 = null; byte x_339 = 0; Obj x_340 = null; Obj x_341 = null; Obj x_342 = null; Obj x_343 = null; Obj x_344 = null; Obj x_374 = null; byte x_375 = 0; Obj x_376 = null; Obj x_377 = null; Obj x_378 = null; Obj x_379 = null; Obj x_380 = null; Obj x_381 = null; Obj x_382 = null; 
@@ -2883,6 +2889,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_inlineCandidate_x3f___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; Obj x_18 = null; 
@@ -2998,6 +3005,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00Lean_isCtor_x3f___at___00Lean_Compiler_LCNF_Simp_inlineCandidate_x3f_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3066,6 +3074,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Simp_InlineCandidate_0__Lean_Compiler_LCNF_Simp_initFn_00___x40_Lean_Compiler_LCNF_Simp_InlineCandidate_1449551352____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3117,6 +3126,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_isCtor_x3f___at___00Lean_Compiler_LCNF_Simp_inlineCandidate_x3f_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3223,6 +3233,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Lean_isCtor_x3f___at___00Lean_Compiler_LCNF_Simp_inlineCandidate_x3f_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_104 = 0; 

@@ -54,6 +54,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_PrefixTree_forM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -66,6 +67,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_instInhabitedPrefixTreeNode___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -74,6 +76,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_foldMatchingM_find___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -135,6 +138,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PrefixTreeNode_find_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -143,6 +147,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrefixTreeNode_empty(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -151,6 +156,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrefixTree_insert___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -159,6 +165,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_insert_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -167,6 +174,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PrefixTreeNode_find_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -202,6 +210,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instEmptyCollectionPrefixTree___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -210,6 +219,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PrefixTree_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -243,6 +253,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_foldMatchingM_fold___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -252,6 +263,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_instEmptyCollectionPrefixTree(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -274,6 +286,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instInhabitedPrefixTree(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -282,6 +295,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrefixTree_find_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -299,6 +313,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_find_x3f_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -345,6 +360,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_PrefixTreeNode_insert___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -353,6 +369,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instInhabitedPrefixTree___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -371,6 +388,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_insert_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -539,6 +557,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_insert_insertEmpty(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -599,6 +618,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrefixTreeNode_findLongestPrefix_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -616,6 +636,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_findLongestPrefix_x3f_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -739,6 +760,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Data_PrefixTree_0__Lean_PrefixTreeNode_insert_insertEmpty___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Option_Instances {
 public static Obj l_Option_instForMOfMonad(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -129,6 +130,7 @@ return x_1;
 }
 }
 public static Obj l_Option_decidableExistsMem___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -171,6 +173,7 @@ return x_7;
 }
 }
 public static Obj l_Option_pelim___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -255,6 +258,7 @@ return x_7;
 }
 }
 public static byte l_Option_decidableForallMem(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -321,6 +325,7 @@ return x_6;
 }
 }
 public static Obj l_Option_instDecidableMemOfDecidableEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -352,6 +357,7 @@ return x_6;
 }
 }
 public static byte l_Option_decidableExistsMem(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

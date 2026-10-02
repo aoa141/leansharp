@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Grind_Ordered_Linarith {
 public static byte l_Lean_Grind_Linarith_eq__le__subst__cert(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -48,6 +49,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denote(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -56,6 +58,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_zero__ne__one__cert___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -66,6 +69,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_denote___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -396,6 +400,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_sub_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -404,6 +409,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Grind_Ordered_Linarith_0__Lean_Grind_Linarith_Poly_denote_x27_go_match__1_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -468,6 +474,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denote___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -488,6 +495,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_zero_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -526,6 +534,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_nil_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -534,6 +543,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_combine(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -748,6 +758,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_coeff___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -758,6 +769,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Grind_Linarith_eq__lt__subst__cert(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -789,6 +801,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_norm(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -812,6 +825,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denote_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -865,6 +879,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denote_x27_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -907,6 +922,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_Linarith_instBEqPoly_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -932,6 +948,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_natMul_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -963,6 +980,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Grind_Linarith_le__le__combine__cert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -985,6 +1003,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denote_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1055,6 +1074,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Grind_Linarith_lt__lt__combine__cert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -1133,6 +1153,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Linarith_instReprExpr_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1142,6 +1163,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Grind_Linarith_le__lt__combine__cert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -1221,6 +1243,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_leadCoeff___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1230,6 +1253,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Grind_Linarith_eq__of__le__ge__cert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1241,6 +1265,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_zero__lt__one__cert___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1330,6 +1355,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_mul_x27___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1353,6 +1379,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_append(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1412,6 +1439,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_var_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1420,6 +1448,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denote___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1461,6 +1490,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Grind_Linarith_eq__diseq__subst__cert___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1484,6 +1514,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_Linarith_eq__neg__cert___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1494,6 +1525,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Grind_Linarith_eq__coeff__cert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1550,6 +1582,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_Linarith_coeff__cert___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1560,6 +1593,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_sub_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1613,6 +1647,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Grind_Linarith_instBEqExpr_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1701,6 +1736,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_mul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1771,6 +1807,7 @@ return x_15;
 }
 }
 public static byte l_Lean_Grind_Linarith_eq__eq__subst__cert(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -1799,6 +1836,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Grind_Linarith_zero__ne__one__of__charC__cert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1842,6 +1880,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_Linarith_instReprPoly_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2008,6 +2047,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_add_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2026,6 +2066,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_mul(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2071,6 +2112,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Grind_Linarith_coeff__cert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2103,6 +2145,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_mul_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2164,6 +2207,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denote_x27_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2172,6 +2216,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_Linarith_instReprExpr_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2718,6 +2763,7 @@ return x_8;
 }
 }
 public static byte l_Lean_Grind_Linarith_instBEqExpr_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2891,6 +2937,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_nil_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3059,6 +3106,7 @@ return x_27;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3068,6 +3116,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Grind_Linarith_eq__diseq__subst1__cert(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -3108,6 +3157,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Grind_Linarith_diseq__split__cert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -3119,6 +3169,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Grind_Linarith_zero__lt__one__cert(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -3136,6 +3187,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_coeff(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3262,6 +3314,7 @@ return x_17;
 }
 }
 public static byte l_Lean_Grind_Linarith_imp__eq__cert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -3282,6 +3335,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denote_x27_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -3372,6 +3426,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_toPoly_x27(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -3382,6 +3437,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Grind_Linarith_norm__cert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -3412,6 +3468,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3458,6 +3515,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Grind_Linarith_zero__ne__one__cert(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -3585,6 +3643,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_insert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3744,6 +3803,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Grind_Linarith_eq__diseq__subst__cert(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -3812,6 +3872,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Grind_Linarith_instBEqPoly_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3958,6 +4019,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_toPoly_x27_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {

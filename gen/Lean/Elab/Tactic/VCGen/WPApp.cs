@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_Tactic_VCGen_WPApp {
 public static Obj l_Lean_Elab_Tactic_VCGen_WPApp_prog___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_VCGen_WPApp_M___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -68,6 +70,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Tactic_VCGen_WPApp_EPosts___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -144,6 +147,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Tactic_VCGen_WPApp_instWP___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -153,6 +157,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_VCGen_WPApp_wp___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -162,6 +167,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Tactic_VCGen_WPApp_Value___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -182,6 +188,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Tactic_VCGen_WPApp_Prog___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -213,6 +220,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_Tactic_VCGen_isWPApp_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -275,6 +283,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_withAppAux___at___00Lean_Elab_Tactic_VCGen_isWPApp_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

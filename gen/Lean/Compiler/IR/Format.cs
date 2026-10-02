@@ -101,6 +101,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_formatArray___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -192,6 +193,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_instToFormatArg___private__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -211,6 +213,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_formatAlt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -351,6 +354,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_formatParams___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -422,6 +426,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_instToFormatDecl___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -505,6 +510,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_instToStringFnBody___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -517,6 +523,7 @@ return x_6;
 }
 }
 public static Obj lean_ir_format_fn_body_head(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -538,6 +545,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_instToFormatFnBody___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -557,6 +565,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_formatArray___at___00__private_Lean_Compiler_IR_Format_0__Lean_IR_formatExpr_spec__0_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -597,6 +606,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_IR_Format_0__Lean_IR_formatFnBody_loop_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -631,6 +641,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_formatArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -692,6 +703,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_formatArray___at___00Lean_IR_formatParams_spec__0_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -812,6 +824,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00__private_Lean_Compiler_IR_Format_0__Lean_IR_formatIRType_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -877,6 +890,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Compiler_IR_Format_0__Lean_IR_formatCtorInfo(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_32 = null; byte x_33 = 0; 
@@ -1146,6 +1160,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_formatArray___at___00__private_Lean_Compiler_IR_Format_0__Lean_IR_formatExpr_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1275,6 +1290,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_formatParams(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1325,6 +1341,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_IR_Format_0__Lean_IR_formatArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1427,6 +1444,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_instToFormatParam___private__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1435,6 +1453,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_formatArray___at___00Lean_IR_formatParams_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1454,6 +1473,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_IR_Format_0__Lean_IR_formatIRType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1715,6 +1735,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_formatDecl(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1868,6 +1889,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_IR_Format_0__Lean_IR_formatParam(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -2035,6 +2057,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_instToFormatLitVal___private__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2389,6 +2412,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_IR_Format_0__Lean_IR_formatFnBody_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -3325,6 +3349,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_instToStringExpr___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3643,6 +3668,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_IR_Format_0__Lean_IR_formatExpr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -4350,6 +4376,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_formatFnBodyHead(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

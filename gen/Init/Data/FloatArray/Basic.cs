@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_FloatArray_Basic {
 public static Obj l___private_Init_Data_FloatArray_Basic_0__List_toFloatArray_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -27,6 +28,7 @@ goto _start;
 }
 }
 public static Obj l_FloatArray_foldlMUnsafe___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -51,6 +53,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_foldlM_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -117,6 +120,7 @@ return x_22;
 }
 }
 public static Obj l_FloatArray_instForInFloatOfMonad___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -136,6 +140,7 @@ return x_1;
 }
 }
 public static Obj l_FloatArray_get_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -176,6 +181,7 @@ return x_2;
 }
 }
 public static Obj l_FloatArray_markLinear___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -194,6 +200,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_forIn_loop___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_6) == 0)
@@ -231,6 +238,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_foldlMUnsafe_fold___redArg(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -315,6 +323,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_foldlMUnsafe_fold___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -336,6 +345,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_forIn_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -390,6 +400,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_toList_loop___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -409,6 +420,7 @@ return x_1;
 }
 }
 public static Obj l_FloatArray_isEmpty___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -419,6 +431,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_forIn_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -428,6 +441,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_toList_loop(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -470,6 +484,7 @@ return x_3;
 }
 }
 public static byte l_Array_isEqvAux___at___00FloatArray_instBEq_beq_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -594,6 +609,7 @@ return x_3;
 }
 }
 public static Obj l_FloatArray_get_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -637,6 +653,7 @@ return x_6;
 }
 }
 public static Obj l_FloatArray_instBEq_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -656,6 +673,7 @@ return x_1;
 }
 }
 public static Obj l_FloatArray_foldl___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -716,6 +734,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_forIn_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -776,6 +795,7 @@ return x_10;
 }
 }
 public static Obj l_FloatArray_propagateMark___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -802,6 +822,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_forInUnsafe_loop___redArg___lam__0(Obj x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_7) == 0)
@@ -851,6 +872,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_forInUnsafe_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -915,6 +937,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_forInUnsafe_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -931,6 +954,7 @@ return x_2;
 }
 }
 public static Obj l_FloatArray_get_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; Obj x_4 = null; 
@@ -942,6 +966,7 @@ return x_4;
 }
 }
 public static Obj l_FloatArray_emptyWithCapacity___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -961,6 +986,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_FloatArray_Basic_0__FloatArray_foldlM_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1060,6 +1086,7 @@ return x_1;
 }
 }
 public static Obj l_FloatArray_instGetElemUSizeFloatLtNatToNatSize___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; double x_5 = 0.0; Obj x_6 = null; 
@@ -1072,6 +1099,7 @@ return x_6;
 }
 }
 public static Obj l_FloatArray_toList___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1197,6 +1225,7 @@ return x_1;
 }
 }
 public static Obj l_FloatArray_forInUnsafe(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -1207,6 +1236,7 @@ return x_9;
 }
 }
 public static Obj l_instToStringFloatArray___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1293,6 +1323,7 @@ return x_8;
 }
 }
 public static Obj l_FloatArray_foldl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1313,6 +1344,7 @@ return x_1;
 }
 }
 public static Obj l_instToStringFloatArray___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1322,6 +1354,7 @@ return x_4;
 }
 }
 public static Obj l_List_toFloatArray___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

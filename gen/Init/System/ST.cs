@@ -16,6 +16,7 @@ return x_5;
 }
 }
 public static Obj l_ST_Prim_Ref_set___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -26,6 +27,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadAttachST___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -54,6 +56,7 @@ return x_1;
 }
 }
 public static Obj l_EST_throw___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -220,6 +223,7 @@ return x_30;
 }
 }
 public static Obj l_instMonadFinallyEST(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -228,6 +232,7 @@ return x_3;
 }
 }
 public static Obj l_EST_throw___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -236,6 +241,7 @@ return x_3;
 }
 }
 public static Obj l_EST_tryCatch___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -244,6 +250,7 @@ return x_7;
 }
 }
 public static Obj l_ST_Prim_Ref_modifyUnsafe___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -264,6 +271,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadEST___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -291,6 +299,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadEST___redArg___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -299,6 +308,7 @@ return x_6;
 }
 }
 public static Obj l_instMonadST___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -325,6 +335,7 @@ return x_3;
 }
 }
 public static Obj l_instInhabitedST___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -583,6 +594,7 @@ return x_47;
 }
 }
 public static Obj l_ST_Prim_Ref_set___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -601,6 +613,7 @@ return x_3;
 }
 }
 public static Obj l_EST_Out_error_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -609,6 +622,7 @@ return x_8;
 }
 }
 public static Obj l_EST_bind___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -617,6 +631,7 @@ return x_4;
 }
 }
 public static Obj l_ST_Prim_Ref_get___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -636,6 +651,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadST(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -665,6 +681,7 @@ return x_9;
 }
 }
 public static Obj l_EST_Out_ok_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -734,6 +751,7 @@ return x_5;
 }
 }
 public static Obj l_ST_Prim_Ref_take___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -743,6 +761,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadEST___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -751,6 +770,7 @@ return x_4;
 }
 }
 public static Obj l_EST_pure___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -785,6 +805,7 @@ return x_8;
 }
 }
 public static Obj l_EST_tryCatch___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -908,6 +929,7 @@ return x_2;
 }
 }
 public static Obj l_instMonadFinallyST___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -927,6 +949,7 @@ return x_9;
 }
 }
 public static Obj l_instMonadST___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -949,6 +972,7 @@ return x_9;
 }
 }
 public static Obj l_instMonadST___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -958,6 +982,7 @@ return x_4;
 }
 }
 public static Obj l_ST_Prim_Ref_modifyGetUnsafe___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -967,6 +992,7 @@ return x_7;
 }
 }
 public static Obj l_Void_mk___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1002,6 +1028,7 @@ return x_2;
 }
 }
 public static Obj l_instMonadST___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1010,6 +1037,7 @@ return x_6;
 }
 }
 public static Obj l_ST_pure___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1019,6 +1047,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadExceptOfEST(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1034,6 +1063,7 @@ return lean_box(0);
 }
 }
 public static Obj l_ST_Prim_Ref_modifyGetUnsafe___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1043,6 +1073,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadEST(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1148,6 +1179,7 @@ return x_1;
 }
 }
 public static Obj l_runST(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1306,6 +1338,7 @@ return x_1;
 }
 }
 public static Obj l_ST_Prim_Ref_modifyUnsafe___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1443,6 +1476,7 @@ return x_6;
 }
 }
 public static Obj l_EST_Out_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1465,6 +1499,7 @@ return x_5;
 }
 }
 public static Obj l_ST_bind___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1583,6 +1618,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadLiftSTEST___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1610,6 +1646,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadEST___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1630,6 +1667,7 @@ return x_4;
 }
 }
 public static Obj l_ST_pure___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1693,6 +1731,7 @@ return x_2;
 }
 }
 public static Obj l_instSTWorldEST___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1701,6 +1740,7 @@ return x_2;
 }
 }
 public static Obj l_EST_Out_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1710,6 +1750,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadLiftSTEST(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2134,6 +2175,7 @@ return x_6;
 }
 }
 public static Obj l_instInhabitedEST___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2196,6 +2238,7 @@ return x_7;
 }
 }
 public static Obj l_Void_nonemptyType___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2204,6 +2247,7 @@ return x_2;
 }
 }
 public static Obj l_instSTWorldOfMonadLift___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

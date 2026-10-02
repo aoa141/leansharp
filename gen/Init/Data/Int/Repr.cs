@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Int_Repr {
 public static Obj l_Int_repr___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16,6 +17,7 @@ return x_2;
 }
 }
 public static Obj l_Int_instRepr___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -37,6 +39,7 @@ return x_2;
 }
 }
 public static Obj l_Int_instRepr___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -62,6 +65,7 @@ return x_9;
 }
 }
 public static Obj l_Int_repr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 

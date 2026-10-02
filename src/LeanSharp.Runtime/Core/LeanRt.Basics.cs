@@ -280,7 +280,7 @@ public static unsafe partial class LeanRt
     // ------------------------------------------------------------------
     // Natural numbers (object level; arithmetic lives in Runtime/Nat*.cs)
 
-    public static Obj lean_alloc_mpz(BigInteger v) => new MpzObj { m_tag = LeanMPZ, m_value = v };
+    public static Obj lean_alloc_mpz(BigInteger v) => CountHeartbeat(new MpzObj { m_tag = LeanMPZ, m_value = v });
 
     /// <summary>Normalize a big integer to a Lean `Nat`/`Int` object (boxing small values). For `Nat`, `v` must be non-negative.</summary>
     public static Obj lean_big_to_nat(BigInteger v)
@@ -366,7 +366,14 @@ public static class Utf8Util
     }
 }
 
-/// <summary>Per-thread heartbeat counter (`lean_inc_heartbeat`): incremented on allocations.</summary>
+/// <summary>
+/// Per-thread heartbeat counter (`lean_inc_heartbeat`, read by `IO.getNumHeartbeats`). As
+/// natively it counts the allocations made with `lean_alloc_small_object`: constructor objects,
+/// thunks, refs, external objects, big-number objects, tasks (2: object and implementation) and
+/// promises (3). Closures, arrays, scalar arrays and strings are allocated with
+/// `lean_alloc_object` and do not count. The kernel's `check_heartbeat` has its own counter
+/// (`KernelLimits`).
+/// </summary>
 public static class LeanHeartbeats
 {
     [ThreadStatic] internal static ulong t_count;
@@ -384,7 +391,15 @@ public static unsafe partial class LeanRt
 
     /// <summary>`lean_alloc_external`.</summary>
     public static Obj lean_alloc_external(ExternalClass cls, object data) =>
-        new ExternalObj { m_tag = LeanExternal, m_class = cls, m_data = data };
+        CountHeartbeat(new ExternalObj { m_tag = LeanExternal, m_class = cls, m_data = data });
+
+    /// <summary>Counts one heartbeat for a newly allocated small object.</summary>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    internal static Obj CountHeartbeat(Obj o)
+    {
+        LeanHeartbeats.t_count++;
+        return o;
+    }
 
     public static object lean_get_external_data(Obj o) => Unsafe.As<ExternalObj>(o).m_data;
     public static ExternalClass lean_get_external_class(Obj o) => Unsafe.As<ExternalObj>(o).m_class;

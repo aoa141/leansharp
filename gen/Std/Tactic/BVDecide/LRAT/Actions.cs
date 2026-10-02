@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Tactic_BVDecide_LRAT_Actions {
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_addRat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -65,6 +66,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_addRup_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -73,6 +75,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_del_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -81,6 +84,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_addRat_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -168,6 +172,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_toString(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -176,6 +181,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -211,6 +217,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -219,6 +226,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_instReprAction_repr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -284,6 +292,7 @@ return x_1;
 }
 }
 public static byte l_Std_Tactic_BVDecide_LRAT_instBEqAction_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -348,6 +357,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_instReprAction_repr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -409,6 +419,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_addEmpty_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -450,6 +461,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_instInhabitedAction___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -560,6 +572,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_del_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -568,6 +581,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_addEmpty_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -644,6 +658,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_instReprAction_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -672,6 +687,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_instReprAction_repr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -984,6 +1000,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_ctorIdx(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -992,6 +1009,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_instInhabitedAction_default(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1440,6 +1458,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Action_toString___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

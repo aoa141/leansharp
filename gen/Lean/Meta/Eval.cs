@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_evalExprCore___redArg___lam__0(byte x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; ushort x_18 = 0; Obj x_19 = null; Obj x_20 = null; Obj x_64 = null; Obj x_65 = null; byte x_66 = 0; Obj x_67 = null; Obj x_68 = null; byte x_69 = 0; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; byte x_73 = 0; Obj x_74 = null; Obj x_75 = null; ushort x_76 = 0; Obj x_98 = null; Obj x_99 = null; byte x_100 = 0; byte x_101 = 0; Obj x_102 = null; Obj x_103 = null; byte x_104 = 0; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; Obj x_108 = null; Obj x_109 = null; ushort x_110 = 0; byte x_111 = 0; byte x_113 = 0; Obj x_114 = null; Obj x_115 = null; Obj x_116 = null; Obj x_117 = null; byte x_118 = 0; Obj x_119 = null; Obj x_120 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; byte x_133 = 0; Obj x_134 = null; Obj x_135 = null; Obj x_136 = null; byte x_137 = 0; Obj x_138 = null; Obj x_139 = null; Obj x_140 = null; ushort x_141 = 0; Obj x_142 = null; Obj x_143 = null; Obj x_144 = null; byte x_181 = 0; Obj x_182 = null; Obj x_183 = null; Obj x_184 = null; byte x_185 = 0; Obj x_186 = null; byte x_187 = 0; Obj x_188 = null; Obj x_189 = null; Obj x_190 = null; Obj x_191 = null; Obj x_192 = null; ushort x_193 = 0; Obj x_215 = null; Obj x_216 = null; Obj x_217 = null; byte x_218 = 0; Obj x_219 = null; byte x_220 = 0; Obj x_221 = null; Obj x_222 = null; byte x_223 = 0; Obj x_224 = null; Obj x_225 = null; Obj x_226 = null; ushort x_227 = 0; byte x_228 = 0; byte x_230 = 0; Obj x_231 = null; Obj x_232 = null; Obj x_233 = null; Obj x_234 = null; byte x_235 = 0; Obj x_236 = null; Obj x_237 = null; Obj x_238 = null; Obj x_239 = null; Obj x_240 = null; byte x_250 = 0; Obj x_251 = null; Obj x_252 = null; Obj x_253 = null; byte x_254 = 0; Obj x_255 = null; ushort x_256 = 0; Obj x_257 = null; Obj x_258 = null; Obj x_259 = null; Obj x_260 = null; Obj x_298 = null; Obj x_299 = null; byte x_300 = 0; ushort x_301 = 0; byte x_302 = 0; Obj x_303 = null; Obj x_304 = null; byte x_305 = 0; Obj x_306 = null; Obj x_307 = null; Obj x_308 = null; Obj x_309 = null; Obj x_331 = null; Obj x_332 = null; byte x_333 = 0; byte x_334 = 0; ushort x_335 = 0; byte x_336 = 0; Obj x_337 = null; Obj x_338 = null; Obj x_339 = null; Obj x_340 = null; Obj x_341 = null; Obj x_342 = null; byte x_343 = 0; byte x_345 = 0; Obj x_346 = null; Obj x_347 = null; Obj x_348 = null; Obj x_349 = null; byte x_350 = 0; Obj x_351 = null; Obj x_352 = null; Obj x_353 = null; Obj x_354 = null; Obj x_364 = null; Obj x_365 = null; Obj x_366 = null; Obj x_367 = null; Obj x_368 = null; Obj x_369 = null; Obj x_370 = null; Obj x_371 = null; Obj x_497 = null; Obj x_498 = null; Obj x_499 = null; Obj x_500 = null; Obj x_501 = null; Obj x_502 = null; Obj x_503 = null; Obj x_504 = null; Obj x_505 = null; Obj x_525 = null; Obj x_539 = null; Obj x_540 = null; Obj x_541 = null; byte x_542 = 0; 
@@ -1920,6 +1921,7 @@ goto block_524;
 }
 }
 public static Obj l_Lean_Options_set___at___00Lean_Option_set___at___00Lean_Meta_evalExprCore_spec__3_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1929,6 +1931,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_evalExprCore___redArg(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -1960,6 +1963,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_throwAbortCommand___at___00Lean_evalConst___at___00Lean_Meta_evalExprCore_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1998,6 +2002,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_ofExcept___at___00Lean_evalConst___at___00Lean_Meta_evalExprCore_spec__2_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2093,6 +2098,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Meta_evalExprCore_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2101,6 +2107,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_evalConst___at___00Lean_Meta_evalExprCore_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2114,6 +2121,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Meta_evalExprCore_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -2154,6 +2162,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_evalExpr(Obj x_1, Obj x_2, Obj x_3, byte x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -2172,6 +2181,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Option_get___at___00Lean_Meta_evalExprCore_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2217,6 +2227,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_evalExprCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; byte x_12 = 0; Obj x_13 = null; 
@@ -2245,6 +2256,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_throwAbortCommand___at___00Lean_evalConst___at___00Lean_Meta_evalExprCore_spec__2_spec__3___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2270,6 +2282,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_setEnv___at___00Lean_withEnv___at___00Lean_Meta_evalExprCore_spec__6_spec__10___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2280,6 +2293,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_evalExpr_x27___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2293,6 +2307,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_evalConst___at___00Lean_Meta_evalExprCore_spec__2(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2301,6 +2316,7 @@ return x_9;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Meta_evalExprCore_spec__5(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -2346,6 +2362,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_evalExprCore_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2454,6 +2471,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_setEnv___at___00Lean_withEnv___at___00Lean_Meta_evalExprCore_spec__6_spec__10(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2472,6 +2490,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_evalExpr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -2486,6 +2505,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Option_set___at___00Lean_Meta_evalExprCore_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2495,6 +2515,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_withEnv___at___00Lean_Meta_evalExprCore_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_21 = null; Obj x_22 = null; 
@@ -2733,6 +2754,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_evalExpr_x27___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3425,6 +3447,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_evalExpr_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; byte x_12 = 0; Obj x_13 = null; 

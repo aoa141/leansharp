@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_Lemmas_Pattern_String_Basic {
 public static Obj l_String_Slice_Pattern_Model_ForwardSliceSearcher_instPatternModel___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

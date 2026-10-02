@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Random {
 public static Obj l_mkStdGen___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -52,6 +53,7 @@ return x_3;
 }
 }
 public static Obj l_IO_setRandSeed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -74,6 +76,7 @@ return x_1;
 }
 }
 public static Obj l_randNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -103,6 +106,7 @@ return x_2;
 }
 }
 public static Obj l_IO_rand(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -131,6 +135,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Random_0__initFn_00___x40_Init_Data_Random_2456098205____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -189,6 +194,7 @@ return x_4;
 }
 public static Obj l_IO_stdGenRef;
 public static Obj l___private_Init_Data_Random_0__randNatAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -197,6 +203,7 @@ return x_7;
 }
 }
 public static Obj l_randBool(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -216,6 +223,7 @@ return x_2;
 }
 }
 public static Obj l_randBool___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_16 = 0; 
@@ -311,6 +319,7 @@ return x_7;
 }
 }
 public static Obj l_randNat___at___00IO_rand_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_31 = 0; Obj x_32 = null; 
@@ -422,6 +431,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Random_0__randNatAux___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -453,6 +463,7 @@ return x_2;
 }
 }
 public static Obj l_randNat___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_39 = 0; Obj x_40 = null; 
@@ -627,6 +638,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Random_0__randNatAux___at___00randNat___at___00IO_rand_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -716,6 +728,7 @@ return x_2;
 }
 }
 public static Obj l_instReprStdGen___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -799,6 +812,7 @@ return x_2;
 }
 }
 public static Obj l_instRandomGenStdGen___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -902,6 +916,7 @@ return x_21;
 }
 }
 public static Obj l_stdNext(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_8 = null; Obj x_9 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; byte x_56 = 0; 
@@ -1181,6 +1196,7 @@ return x_19;
 }
 }
 public static Obj l___private_Init_Data_Random_0__randNatAux___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 

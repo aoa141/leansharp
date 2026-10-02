@@ -32,6 +32,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Do_SPred_SPred_0__Std_Do_SPred_conjunction_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -41,6 +42,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Do_SPred_exists___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -94,6 +96,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Do_SPred_forall___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -128,6 +131,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Do_SPred_exists(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -199,6 +203,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Do_SPred_pure___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -208,6 +213,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Do_SPred_not___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -217,6 +223,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Do_SPred_forall(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -254,6 +261,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Do_SPred_conjunction(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -335,6 +343,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Do_SPred_and___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 

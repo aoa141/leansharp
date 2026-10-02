@@ -33,6 +33,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_matchPrefix_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -167,6 +168,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Data_Trie_insert___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -208,6 +210,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Data_Trie_insert(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -216,6 +219,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_findPrefix_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -226,6 +230,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Data_Trie_find_x3f___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -236,6 +241,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Data_Trie_ctorIdx(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -244,6 +250,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Data_Trie_empty(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -273,6 +280,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Data_Trie_leaf_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -281,6 +289,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Data_Trie_instToString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -299,6 +308,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Data_Trie_node1_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -331,6 +341,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_find_x3f_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -442,6 +453,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_upsert_insertEmpty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -458,6 +470,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Data_Trie_instInhabited(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -489,6 +502,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_toStringAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -497,6 +511,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Data_Trie_find_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -550,6 +565,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Data_Trie_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -558,6 +574,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00__private_Lean_Data_Trie_0__Lean_Data_Trie_toStringAux_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -582,6 +599,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_findPrefix_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -616,6 +634,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Data_Trie_insert___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -626,6 +645,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Data_Trie_0__Lean_Data_Trie_values_go_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -634,6 +654,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_upsert_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -643,6 +664,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Data_Trie_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -675,6 +697,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Data_Trie_findPrefix___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -706,6 +729,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_upsert_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -751,6 +775,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_toStringAux___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -813,6 +838,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_Data_Trie_upsert___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -822,6 +848,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Data_Trie_values___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -843,6 +870,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Data_Trie_instEmptyCollection(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -871,6 +899,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_values_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -916,6 +945,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Data_Trie_findPrefix(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -924,6 +954,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00__private_Lean_Data_Trie_0__Lean_Data_Trie_toStringAux_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -988,6 +1019,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Data_Trie_upsert___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1005,6 +1037,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Data_Trie_0__Lean_Data_Trie_values_go_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1037,6 +1070,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_find_x3f_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1047,6 +1081,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Data_Trie_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1055,6 +1090,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Data_Trie_matchPrefix(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1063,6 +1099,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_upsert_insertEmpty___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1169,6 +1206,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_findPrefix_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1268,6 +1306,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_values_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1276,6 +1315,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_findIdx_x3f_loop___at___00__private_Lean_Data_Trie_0__Lean_Data_Trie_upsert_loop_spec__0(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1367,6 +1407,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Data_Trie_matchPrefix___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1478,6 +1519,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Data_Trie_upsert(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1486,6 +1528,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_upsert_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_4)) {
@@ -1886,6 +1929,7 @@ return x_104;
 }
 }
 public static Obj l_Lean_Data_Trie_values(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1945,6 +1989,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_values_go___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2023,6 +2068,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_toStringAux___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2138,6 +2184,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_Trie_0__Lean_Data_Trie_values_go___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

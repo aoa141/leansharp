@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_GrindInstances_Ring_UInt {
 public static Obj l_Lean_Grind_instCommRingUSize___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -188,6 +189,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_instCommRingUInt32___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; Obj x_5 = null; 
@@ -210,6 +212,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_instCommRingUInt8___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -963,6 +966,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_instCommRingUInt32___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; Obj x_5 = null; 

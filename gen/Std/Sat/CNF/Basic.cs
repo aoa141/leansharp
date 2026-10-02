@@ -32,6 +32,7 @@ return x_9;
 }
 }
 public static Obj l___private_Std_Sat_CNF_Basic_0__Std_Sat_CNF_Clause_erase_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -146,6 +147,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Sat_CNF_instDecidableVarMemOfDecidableEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -155,6 +157,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_CNF_emptyWithCapacity___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -164,6 +167,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_instDecidableVarMemOfDecidableEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -173,6 +177,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -183,6 +188,7 @@ return x_6;
 }
 }
 public static byte l_Std_Sat_CNF_Clause_instDecidableVarMemOfDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -191,6 +197,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_CNF_instDecidableExistsVarMemOfDecidableEq___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -200,6 +207,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_instDecidableEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -211,6 +219,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_CNF_instAppend___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -219,6 +228,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_instDecidableExistsVarMemOfDecidableEq___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -248,6 +258,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_CNF_instDecidableMemClauseOfDecidableEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -310,6 +321,7 @@ return x_24;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_add___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -327,6 +339,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_size___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -361,6 +374,7 @@ return x_11;
 }
 }
 public static byte l_Std_Sat_CNF_Clause_instDecidableMemLiteralOfDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -386,6 +400,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_instDecidableMemClauseOfDecidableEq___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -397,6 +412,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_instDecidableMemLiteralOfDecidableEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -440,6 +456,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_instAppend(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -469,6 +486,7 @@ return x_8;
 }
 }
 public static byte l_Std_Sat_CNF_instDecidableExistsVarMemOfDecidableEq(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -590,6 +608,7 @@ return x_7;
 }
 }
 public static byte l_Std_Sat_CNF_Clause_contains___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -611,6 +630,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_empty(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -619,6 +639,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_ofLiterals___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -659,6 +680,7 @@ return x_6;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Std_Sat_CNF_Clause_literals_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -668,6 +690,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_erase(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -686,6 +709,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_emptyWithCapacity___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -708,6 +732,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_CNF_append___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -725,6 +750,7 @@ return x_3;
 }
 }
 public static byte l_Std_Sat_CNF_instDecidableMemClauseOfDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -733,6 +759,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_CNF_instAppend(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -767,6 +794,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_CNF_instMembershipClause___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -775,6 +803,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_erase___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -784,6 +813,7 @@ return x_4;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Std_Sat_CNF_Clause_literals_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -822,6 +852,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_instInhabited(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -841,6 +872,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_instMembershipLiteral___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -927,6 +959,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Sat_CNF_empty(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -935,6 +968,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00Std_Sat_CNF_Clause_ofLiterals_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -961,6 +995,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_append___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -978,6 +1013,7 @@ return x_3;
 }
 }
 public static byte l___private_Std_Sat_CNF_Basic_0__Std_Sat_CNF_Clause_contains_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -1138,6 +1174,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Sat_CNF_Basic_0__Std_Sat_CNF_Clause_contains_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1158,6 +1195,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_CNF_instDecidableVarMemOfDecidableEq___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1308,6 +1346,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Std_Sat_CNF_Clause_literals_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1408,6 +1447,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldl___at___00Std_Sat_CNF_Clause_ofLiterals_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1626,6 +1666,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Std_Sat_CNF_Clause_literals_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1745,6 +1786,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_literals(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1832,6 +1874,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_CNF_Clause_add___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 

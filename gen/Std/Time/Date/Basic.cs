@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_Date_Basic {
 public static Obj l_Std_Time_instHSubOffsetOffset__38___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -17,6 +18,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__10___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -38,6 +40,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__30___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -49,6 +52,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__5___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -60,6 +64,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__8___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -70,6 +75,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__29___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -122,6 +128,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__20___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -142,6 +149,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_toWeeks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -151,6 +159,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__23___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -172,6 +181,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__26___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -203,6 +213,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_toDays___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -212,6 +223,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__7___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -222,6 +234,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__1___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -232,6 +245,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__24___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -273,6 +287,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__1___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -294,6 +309,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__23___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -315,6 +331,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__22___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -325,6 +342,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__22___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -346,6 +364,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_ofWeeks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -355,6 +374,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__28___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -375,6 +395,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_toWeeks(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -394,6 +415,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_ofDays___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -425,6 +447,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__25___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -446,6 +469,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__4___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -467,6 +491,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_ofWeeks(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -486,6 +511,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__3___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -507,6 +533,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__3___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -518,6 +545,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__5___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -539,6 +567,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__32___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -549,6 +578,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__9___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -570,6 +600,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_ofDays___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -599,6 +630,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__11___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -621,6 +653,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__31___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -662,6 +695,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__15___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -702,6 +736,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__8___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -722,6 +757,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__40___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -732,6 +768,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__37___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -784,6 +821,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__34___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -795,6 +833,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__6___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -815,6 +854,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_ofDays___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -885,6 +925,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__6___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -895,6 +936,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__36___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -926,6 +968,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__39___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -937,6 +980,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__17___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -967,6 +1011,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__16___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -989,6 +1034,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__2___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -999,6 +1045,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__40___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1029,6 +1076,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toWeeks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1048,6 +1096,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__15___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1058,6 +1107,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__13___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1078,6 +1128,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__9___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1110,6 +1161,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Second_Offset_toWeeks(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1129,6 +1181,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__6___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1191,6 +1244,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__41___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1201,6 +1255,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Millisecond_Offset_toDays___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1240,6 +1295,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__4___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1270,6 +1326,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__28___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1311,6 +1368,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_ofWeeks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1361,6 +1419,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1402,6 +1461,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__19___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1412,6 +1472,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__11___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1442,6 +1503,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_toDays(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1461,6 +1523,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1482,6 +1545,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__22___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1493,6 +1557,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Millisecond_Offset_toWeeks(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1533,6 +1598,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__32___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1544,6 +1610,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__32___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1554,6 +1621,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__23___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1564,6 +1632,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__36___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1769,6 +1838,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__16___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1790,6 +1860,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toDays___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1799,6 +1870,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__39___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1809,6 +1881,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__38___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1829,6 +1902,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__34___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1839,6 +1913,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__18___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1849,6 +1924,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_ofDays(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1858,6 +1934,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toDays(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1877,6 +1954,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__28___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1897,6 +1975,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_toDays(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1906,6 +1985,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_ofDays(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1975,6 +2055,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__6___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1986,6 +2067,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__39___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1997,6 +2079,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__24___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2017,6 +2100,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_ofWeeks(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2026,6 +2110,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Second_Offset_ofWeeks(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2057,6 +2142,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__17___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2128,6 +2214,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__33___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2138,6 +2225,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__33___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2190,6 +2278,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toWeeks(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2260,6 +2349,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__23___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2271,6 +2361,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__30___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2436,6 +2527,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__38___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2560,6 +2652,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__13___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2652,6 +2745,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__7___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2663,6 +2757,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__13___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2804,6 +2899,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset__17___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2825,6 +2921,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__17___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3121,6 +3218,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Millisecond_Offset_ofWeeks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3189,6 +3287,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHAddOffsetOffset__7___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3229,6 +3328,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instHSubOffsetOffset___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 

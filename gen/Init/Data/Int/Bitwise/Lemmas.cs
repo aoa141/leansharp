@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Int_Bitwise_Lemmas {
 public static Obj l___private_Init_Data_Int_Bitwise_Lemmas_0__Int_not_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -27,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Int_Bitwise_Lemmas_0__Int_not_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -36,6 +38,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Int_Bitwise_Lemmas_0__Int_not_match__1_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -63,6 +66,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Int_Bitwise_Lemmas_0__Int_shiftRight_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -99,6 +103,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_Int_Bitwise_Lemmas_0__Int_shiftRight_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -135,6 +140,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Int_Bitwise_Lemmas_0__Int_not_match__1_splitter___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

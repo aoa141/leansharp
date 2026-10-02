@@ -125,6 +125,7 @@ return x_10;
 }
 }
 public static Obj l_String_Slice_Subslice_extendLeft___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -160,6 +161,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_instInhabitedSubslice___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -182,6 +184,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_Subslice_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -242,6 +245,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_subslice_x21___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

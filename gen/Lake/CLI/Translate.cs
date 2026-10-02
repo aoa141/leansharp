@@ -38,6 +38,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_mkConfigString___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -47,6 +48,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_0__Lake_descopeTSyntax(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -132,6 +134,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Package_mkConfigString(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_15 = null; 
@@ -520,6 +523,7 @@ goto block_14;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_0__Lake_descopeTSyntax___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -676,6 +680,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_0__Lake_descopeSyntax_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -803,6 +808,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_0__Lake_descopeSyntax_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_Internal_List_Associative {
 public static Obj l___private_Std_Data_Internal_List_Associative_0__Std_Internal_List_instDecidableLESigma__std___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -16,6 +17,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getValueCast_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -25,6 +27,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_List_minKey_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -82,6 +85,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Internal_List_getValue_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -91,6 +95,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_List_replaceEntry(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -145,6 +150,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getKey_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -153,6 +159,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getKey_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -198,6 +205,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Internal_List_maxKey(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -231,6 +239,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_List_insertListIfNew(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -264,6 +273,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_interSmaller(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -306,6 +316,7 @@ return x_11;
 }
 }
 public static byte l_Std_Internal_List_containsKey___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -379,6 +390,7 @@ return x_10;
 }
 }
 public static byte l_Std_Internal_List_beqModel(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -387,6 +399,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Internal_List_insertList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -395,6 +408,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_replaceEntry___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -583,6 +597,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_getEntry_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -592,6 +607,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_Const_beqModel___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -601,6 +617,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_minKey_x21___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -623,6 +640,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_insertListConst___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -634,6 +652,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_minEntry_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -642,6 +661,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_List_minKey___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -653,6 +673,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_List_getKeyD(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -661,6 +682,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_interSmallerFn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -688,6 +710,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_List_eraseKey___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -773,6 +796,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_minKeyD___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -821,6 +845,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Internal_List_getValueCast_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -852,6 +877,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_List_getValue_x21___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -884,6 +910,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_List_getValue___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -895,6 +922,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Data_Internal_List_Associative_0__Std_Internal_List_leSigmaOfOrd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -903,6 +931,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Internal_List_getKey_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -912,6 +941,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_List_insertList___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -973,6 +1003,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getEntry_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1113,6 +1144,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Internal_List_minKey_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1121,6 +1153,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_List_insertEntryIfNew(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1183,6 +1216,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_Const_modifyKey___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1302,6 +1336,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_List_getValueCast___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1313,6 +1348,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_List_getValueCastD(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1343,6 +1379,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getValueD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1352,6 +1389,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_maxKeyD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1384,6 +1422,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getValueCast_x21___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1414,6 +1453,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_maxKey_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1431,6 +1471,7 @@ return x_7;
 }
 }
 public static byte l_Std_Internal_List_Const_beqModel___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -1477,6 +1518,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getValue_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1564,6 +1606,7 @@ return x_4;
 }
 }
 public static byte l_Std_Internal_List_Const_beqModel(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1572,6 +1615,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Data_Internal_List_Associative_0__Std_Internal_List_instDecidableLESigma__std___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1626,6 +1670,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getValue_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1652,6 +1697,7 @@ return x_2;
 }
 }
 public static byte l_Std_Internal_List_beqModel___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1669,6 +1715,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Internal_List_minKey_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1779,6 +1826,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_Const_alterKey(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1820,6 +1868,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_List_insertSmallerList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1854,6 +1903,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_insertListIfNew___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1937,6 +1987,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_List_maxKey_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1945,6 +1996,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_getEntryD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1954,6 +2006,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_List_getEntry_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1962,6 +2015,7 @@ return x_7;
 }
 }
 public static byte l___private_Std_Data_Internal_List_Associative_0__Std_Internal_List_instDecidableLESigma__std(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1995,6 +2049,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Internal_List_getValueCast_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2065,6 +2120,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_eraseList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2141,6 +2197,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_getEntry_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2217,6 +2274,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_List_alterKey(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2284,6 +2342,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_Prod_toSigma(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2337,6 +2396,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_getKeyD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2378,6 +2438,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_getEntry_x21___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -2446,6 +2507,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_List_Const_beqModel___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2529,6 +2591,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_List_getEntryD(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2537,6 +2600,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_List_getEntryD___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -2602,6 +2666,7 @@ return x_9;
 }
 }
 public static Obj l___private_Std_Data_Internal_List_Associative_0__Std_Internal_List_Option_dmap(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2610,6 +2675,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_List_insertListIfNewUnit___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2635,6 +2701,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Internal_List_maxKeyD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3216,6 +3283,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Internal_List_eraseList___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

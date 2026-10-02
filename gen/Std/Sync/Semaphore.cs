@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Semaphore_acquire_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -25,6 +26,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Semaphore_availablePermits(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -44,6 +46,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Semaphore_new___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -52,6 +55,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Semaphore_release(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -78,6 +82,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Semaphore_tryAcquire___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -88,6 +93,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Semaphore_availablePermits___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -108,6 +114,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Semaphore_0__Std_mkResolvedPromise___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -116,6 +123,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Semaphore_tryAcquire___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -125,6 +133,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Semaphore_acquire___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -134,6 +143,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Semaphore_release___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -153,6 +163,7 @@ return x_1;
 }
 }
 public static byte l_Std_Semaphore_tryAcquire(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -172,6 +183,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Semaphore_acquire_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -180,6 +192,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Semaphore_0__Std_mkResolvedPromise(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -188,6 +201,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Semaphore_new(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -200,6 +214,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Semaphore_acquire___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_25 = 0; 

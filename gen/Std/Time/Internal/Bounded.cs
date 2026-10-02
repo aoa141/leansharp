@@ -42,6 +42,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_instInhabitedHAddIntCast___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -82,6 +83,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_abs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -101,6 +103,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_add___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -127,6 +130,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_expandBottom___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -136,6 +140,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instDecidableEq___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -155,6 +160,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instOrd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -163,6 +169,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instRepr___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -188,6 +195,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_truncate___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -240,6 +248,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_mul__pos___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -252,6 +261,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_byMod___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -262,6 +272,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instRepr(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -270,6 +281,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_instInhabitedHAddIntCast(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -295,6 +307,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_ofNat___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -304,6 +317,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_succ___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -329,6 +343,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_abs___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -348,6 +363,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_ofFin_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -389,6 +405,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_toInt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -436,6 +453,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_ofFin___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -445,6 +463,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_instOfNatHAddIntCast___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -505,6 +524,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instLT___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -515,6 +535,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_byMod___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -542,6 +563,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_sub___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -605,6 +627,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_max___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -617,6 +640,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_mul__pos___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -627,6 +651,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_expandTop___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -652,6 +677,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_max(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -660,6 +686,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instOrd(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -676,6 +703,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_truncate___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -687,6 +715,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_toNat_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; 
@@ -697,6 +726,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_max___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -739,6 +769,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instOrd___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -748,6 +779,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_ofNatWrapping___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -784,6 +816,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_neg___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -793,6 +826,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Internal_Bounded_0__Int_tdiv_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -803,6 +837,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_addTop___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -820,6 +855,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_mod___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -842,6 +878,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_mk___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -886,6 +923,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_toNat_x27___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -895,6 +933,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_ofNat_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -912,6 +951,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Internal_Bounded_0__Int_tdiv_match__1_splitter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -999,6 +1039,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_clip___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1010,6 +1051,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_succ(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -1019,6 +1061,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_instOfNatHAddIntCast(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -1089,6 +1132,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_addProven___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1137,6 +1181,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_cast___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1165,6 +1210,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_emod___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1175,6 +1221,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_neg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1266,6 +1313,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_subBottom___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1291,6 +1339,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Internal_Bounded_0__Int_tdiv_match__1_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_9 = 0; 
@@ -1355,6 +1404,7 @@ return x_26;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_byEmod___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1456,6 +1506,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_toFin___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1562,6 +1613,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_ofNatWrapping___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1588,6 +1640,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_addProven___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1600,6 +1653,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_toNat___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1617,6 +1671,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instDecidableLe___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1716,6 +1771,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_instLE___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1772,6 +1828,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_expand___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1845,6 +1902,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_subBounds___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1876,6 +1934,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Internal_Bounded_LE_emod___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

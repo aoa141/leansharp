@@ -28,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_loadPackage___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -36,6 +37,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_resolveConfigFile___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -65,6 +67,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_mkPackage(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; 
@@ -195,6 +198,7 @@ return x_37;
 }
 }
 public static Obj l_Lake_realConfigFile___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -213,6 +217,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_loadPackage(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -394,6 +399,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_resolveConfigFile(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1008,6 +1014,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_loadConfigFile___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1066,6 +1073,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_configFileExists___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

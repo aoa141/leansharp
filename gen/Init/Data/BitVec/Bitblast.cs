@@ -54,6 +54,7 @@ return x_15;
 }
 }
 public static Obj l_BitVec_divSubtractShift___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -64,6 +65,7 @@ return x_4;
 }
 }
 public static Obj l_BitVec_mulRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_13 = 0; 
@@ -108,6 +110,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_mulRec_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -129,6 +132,7 @@ return x_5;
 }
 }
 public static Obj l_BitVec_shiftLeftRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -159,6 +163,7 @@ return x_14;
 }
 }
 public static Obj l_BitVec_aandRec___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -205,6 +210,7 @@ return x_10;
 }
 }
 public static Obj l_BitVec_cpopTree(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -246,6 +252,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_mulRec_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -255,6 +262,7 @@ return x_4;
 }
 }
 public static Obj l_BitVec_resRec___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -267,6 +275,7 @@ return x_6;
 }
 }
 public static Obj l_BitVec_sshiftRightRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -296,6 +305,7 @@ return x_14;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_sdiv_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -306,6 +316,7 @@ return x_9;
 }
 }
 public static Obj l_BitVec_extractAndExtendBit___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -341,6 +352,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_resRec_match__3_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -400,6 +412,7 @@ return x_11;
 }
 }
 public static byte l_BitVec_uppcRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -408,6 +421,7 @@ return x_5;
 }
 }
 public static Obj l_BitVec_cpopLayer___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -419,6 +433,7 @@ return x_6;
 }
 }
 public static Obj l_BitVec_extractAndExtend(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -429,6 +444,7 @@ return x_6;
 }
 }
 public static Obj l_BitVec_extractAndExtendAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -451,6 +467,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_extractAndExtendAux_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -484,6 +501,7 @@ return x_15;
 }
 }
 public static Obj l_BitVec_divRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -508,6 +526,7 @@ goto _start;
 }
 }
 public static Obj l_BitVec_carry___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -544,6 +563,7 @@ return x_5;
 }
 }
 public static byte l_BitVec_uppcRec___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -652,6 +672,7 @@ return x_6;
 }
 }
 public static Obj l_BitVec_ushiftRightRec___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -665,6 +686,7 @@ return x_6;
 }
 }
 public static Obj l_BitVec_carry___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -702,6 +724,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_addRecAux___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -712,6 +735,7 @@ return x_5;
 }
 }
 public static Obj l_BitVec_extractAndExtendAux___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -743,6 +767,7 @@ goto _start;
 }
 }
 public static Obj l_BitVec_adcb___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -754,6 +779,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_uppcRec_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -776,6 +802,7 @@ return x_7;
 }
 }
 public static Obj l_BitVec_ushiftRightRec___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -853,6 +880,7 @@ return x_15;
 }
 }
 public static Obj l_BitVec_extractAndExtendBit___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -865,6 +893,7 @@ return x_5;
 }
 }
 public static byte l_BitVec_aandRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -920,6 +949,7 @@ return x_14;
 }
 }
 public static Obj l_BitVec_cpopLayer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -931,6 +961,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_addRec___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1006,6 +1037,7 @@ return x_10;
 }
 }
 public static Obj l_BitVec_cpopLayer___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1052,6 +1084,7 @@ return x_5;
 }
 }
 public static byte l_BitVec_carry(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1115,6 +1148,7 @@ return x_10;
 }
 }
 public static Obj l_Bool_atLeastTwo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -1161,6 +1195,7 @@ return x_5;
 }
 }
 public static byte l_BitVec_resRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1219,6 +1254,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_BitVec_Bitblast_0__BitVec_addRecAux___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -1248,6 +1284,7 @@ goto _start;
 }
 }
 public static Obj l_BitVec_adc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1418,6 +1455,7 @@ return x_9;
 }
 }
 public static Obj l_BitVec_adc___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1430,6 +1468,7 @@ return x_6;
 }
 }
 public static byte l_BitVec_resRec___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 

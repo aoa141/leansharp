@@ -90,6 +90,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Simp_Arith_Nat_simpCnstrPos_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -159,6 +160,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Simp_Arith_Nat_simpCnstrPos_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -980,6 +982,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Simp_Arith_Nat_simpExpr_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1546,6 +1549,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Simp_Arith_Nat_simpCnstr_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1651,6 +1655,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Simp_Arith_Nat_simpCnstr_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_51 = null; Obj x_52 = null; byte x_53 = 0; 

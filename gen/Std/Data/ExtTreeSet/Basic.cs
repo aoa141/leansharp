@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_ExtTreeSet_Basic {
 public static Obj l_Std_ExtTreeSet_any___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -54,6 +55,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtTreeSet_get_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -63,6 +65,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtTreeSet_min___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -72,6 +75,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtTreeSet_contains___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -81,6 +85,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtTreeSet_toArray___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -118,6 +123,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtTreeSet_maxD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -141,6 +147,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtTreeSet_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -149,6 +156,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtTreeSet_ofArray(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -157,6 +165,7 @@ return x_4;
 }
 }
 public static Obj l_Std_ExtTreeSet_min_x21___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -187,6 +196,7 @@ return x_12;
 }
 }
 public static Obj l_Std_ExtTreeSet_max___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -204,6 +214,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtTreeSet_all___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -254,6 +265,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtTreeSet_getGT_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -363,6 +375,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtTreeSet_instBEqOfTransCmp___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -372,6 +385,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtTreeSet_getGED___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -398,6 +412,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtTreeSet_any___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -494,6 +509,7 @@ return x_1;
 }
 }
 public static Obj l_Std_ExtTreeSet_instReprOfTransCmp___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -573,6 +589,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtTreeSet_getGT_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -661,6 +678,7 @@ return x_17;
 }
 }
 public static Obj l_Std_ExtTreeSet_getLED___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -752,6 +770,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtTreeSet_getGTD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -782,6 +801,7 @@ return x_4;
 }
 }
 public static Obj l_Std_ExtTreeSet_filter___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -791,6 +811,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtTreeSet_instDecidableMem___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -820,6 +841,7 @@ return x_1;
 }
 }
 public static Obj l_Std_ExtTreeSet_getGE_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -829,6 +851,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtTreeSet_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -850,6 +873,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtTreeSet_all___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -859,6 +883,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtTreeSet_max_x21___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -913,6 +938,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_ExtTreeSet_ofArray_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -936,6 +962,7 @@ return x_4;
 }
 }
 public static Obj l_Std_ExtTreeSet_atIdx_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1065,6 +1092,7 @@ return x_4;
 }
 }
 public static Obj l_Std_ExtTreeSet_getLE_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1141,6 +1169,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtTreeSet_maxD___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1151,6 +1180,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtTreeSet_instReprOfTransCmp___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1202,6 +1232,7 @@ return x_4;
 }
 }
 public static Obj l_Std_ExtTreeSet_merge___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1227,6 +1258,7 @@ return x_3;
 }
 }
 public static byte l_Std_ExtTreeSet_instBEqOfTransCmp___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1255,6 +1287,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtTreeSet_partition___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_15 = 0; 
@@ -1306,6 +1339,7 @@ return x_11;
 }
 }
 public static Obj l_Std_ExtTreeSet_toList___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1336,6 +1370,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtTreeSet_empty___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1395,6 +1430,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtTreeSet_size___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1470,6 +1506,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtTreeSet_instDecidableMem___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1574,6 +1611,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtTreeSet_instMembershipOfTransCmp___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1592,6 +1630,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_ExtTreeSet_ofArray_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -1642,6 +1681,7 @@ return x_11;
 }
 }
 public static byte l_Std_ExtTreeSet_any(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -1684,6 +1724,7 @@ return x_10;
 }
 }
 public static Obj l_Std_ExtTreeSet_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1724,6 +1765,7 @@ return x_11;
 }
 }
 public static Obj l_Std_ExtTreeSet_foldr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1801,6 +1843,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Std_ExtTreeSet_ofList_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1833,6 +1876,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtTreeSet_ofList(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1841,6 +1885,7 @@ return x_4;
 }
 }
 public static Obj l_Std_ExtTreeSet_min_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1897,6 +1942,7 @@ return x_1;
 }
 }
 public static Obj l_Std_ExtTreeSet_ofArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -2048,6 +2094,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtTreeSet_get_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2057,6 +2104,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtTreeSet_min_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2127,6 +2175,7 @@ return x_4;
 }
 }
 public static Obj l_Std_ExtTreeSet_instDecidableEqOfLawfulEqCmpOfTransCmp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2159,6 +2208,7 @@ return x_9;
 }
 }
 public static byte l_Std_ExtTreeSet_instDecidableEqOfLawfulEqCmpOfTransCmp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2168,6 +2218,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtTreeSet_getGED___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2195,6 +2246,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtTreeSet_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2412,6 +2464,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_ExtTreeSet_ofArray_spec__0___redArg(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -2457,6 +2510,7 @@ goto _start;
 }
 }
 public static byte l_Std_ExtTreeSet_all___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -2570,6 +2624,7 @@ return x_7;
 }
 }
 public static byte l_Std_ExtTreeSet_any___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -2698,6 +2753,7 @@ return x_7;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Std_ExtTreeSet_ofList_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2798,6 +2854,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtTreeSet_instEmptyCollection___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2807,6 +2864,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtTreeSet_atIdx___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2893,6 +2951,7 @@ return x_7;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Std_ExtTreeSet_ofList_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2967,6 +3026,7 @@ return x_7;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Std_ExtTreeSet_ofList_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3003,6 +3063,7 @@ goto _start;
 }
 }
 public static Obj l_Std_ExtTreeSet_filter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3106,6 +3167,7 @@ return x_5;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Std_ExtTreeSet_ofList_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3166,6 +3228,7 @@ return x_5;
 }
 }
 public static byte l_Std_ExtTreeSet_all(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -3330,6 +3393,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Std_ExtTreeSet_ofList_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -4863,6 +4927,7 @@ return x_11;
 }
 }
 public static Obj l_Std_ExtTreeSet_ofList___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

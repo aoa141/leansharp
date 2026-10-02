@@ -104,6 +104,7 @@ return x_2;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -115,6 +116,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -138,6 +140,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00__private_Lake_CLI_Translate_Toml_0__Lake_InputDirConfig_toToml_spec__0_spec__0_spec__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -227,6 +230,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Pattern_toToml_x3f___at___00__private_Lake_CLI_Translate_Toml_0__Lake_InputDirConfig_toToml_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -384,6 +388,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_instToTomlTarget(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -457,6 +462,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__4_spec__7(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -523,6 +529,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -573,6 +580,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Dependency_toToml___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -613,6 +621,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00Lake_PathPatDescr_toToml_x3f_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -638,6 +647,7 @@ return x_4;
 }
 }
 public static Obj l_Array_isEqvAux___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanConfig_toToml_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -706,6 +716,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_Package_mkTomlTargets___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -767,6 +778,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Dependency_toToml(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_31 = null; Obj x_64 = null; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; byte x_101 = 0; Obj x_102 = null; Obj x_103 = null; Obj x_104 = null; Obj x_105 = null; byte x_106 = 0; 
@@ -1168,6 +1180,7 @@ return x_2;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00__private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1315,6 +1328,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_encodeSingleton_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1469,6 +1483,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_15 = null; Obj x_30 = null; byte x_31 = 0; Obj x_32 = null; Obj x_38 = null; Obj x_53 = null; Obj x_54 = null; Obj x_72 = null; Obj x_73 = null; Obj x_91 = null; byte x_92 = 0; Obj x_93 = null; Obj x_99 = null; Obj x_114 = null; Obj x_115 = null; Obj x_129 = null; Obj x_130 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_162 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_187 = null; Obj x_201 = null; Obj x_202 = null; Obj x_220 = null; Obj x_221 = null; Obj x_239 = null; Obj x_240 = null; Obj x_241 = null; Obj x_250 = null; Obj x_264 = null; Obj x_265 = null; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_292 = null; Obj x_306 = null; Obj x_307 = null; Obj x_308 = null; Obj x_317 = null; Obj x_331 = null; Obj x_332 = null; Obj x_333 = null; Obj x_342 = null; Obj x_356 = null; Obj x_357 = null; Obj x_373 = null; Obj x_374 = null; Obj x_395 = null; Obj x_396 = null; byte x_397 = 0; Obj x_403 = null; Obj x_415 = null; Obj x_416 = null; Obj x_417 = null; Obj x_422 = null; Obj x_433 = null; byte x_434 = 0; Obj x_435 = null; Obj x_441 = null; Obj x_453 = null; byte x_454 = 0; Obj x_455 = null; Obj x_461 = null; Obj x_473 = null; Obj x_474 = null; Obj x_475 = null; Obj x_484 = null; Obj x_495 = null; Obj x_496 = null; Obj x_511 = null; Obj x_512 = null; byte x_513 = 0; Obj x_519 = null; Obj x_531 = null; Obj x_532 = null; Obj x_544 = null; Obj x_545 = null; Obj x_546 = null; Obj x_555 = null; Obj x_566 = null; Obj x_567 = null; Obj x_568 = null; Obj x_577 = null; Obj x_588 = null; Obj x_589 = null; byte x_590 = 0; Obj x_591 = null; Obj x_592 = null; Obj x_593 = null; Obj x_594 = null; Obj x_595 = null; Obj x_596 = null; Obj x_597 = null; Obj x_598 = null; byte x_599 = 0; 
@@ -2985,6 +3000,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instToTomlBackend___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3015,6 +3031,7 @@ return x_1;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3058,6 +3075,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_PackageConfig_instToToml___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3067,6 +3085,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3146,6 +3165,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_StrPatDescr_toToml(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3240,6 +3260,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00__private_Lake_CLI_Translate_Toml_0__Lake_InputDirConfig_toToml_spec__0_spec__0_spec__1___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -3276,6 +3297,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_instBEqFilePath__lake___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3285,6 +3307,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_instEncodeFieldLeanLibConfigMkStr1ArrayName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3293,6 +3316,7 @@ return x_2;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3346,6 +3370,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00__private_Lake_CLI_Translate_Toml_0__Lake_InputDirConfig_toToml_spec__0_spec__0_spec__1_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -3380,6 +3405,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -3464,6 +3490,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instSmartInsertBackend___lam__0(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (x_2 == 2)
@@ -3486,6 +3513,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00Lake_PathPatDescr_toToml_x3f_spec__0_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3776,6 +3804,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanConfig_toToml_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3805,6 +3834,7 @@ goto _start;
 }
 }
 public static Obj l_Lake_Toml_encodeLeanOptions___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3846,6 +3876,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -3965,6 +3996,7 @@ return x_49;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml_spec__3(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -4048,6 +4080,7 @@ return x_1;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4091,6 +4124,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00__private_Lake_CLI_Translate_Toml_0__Lake_InputDirConfig_toToml_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4100,6 +4134,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_201 = null; Obj x_202 = null; byte x_203 = 0; 
@@ -4617,6 +4652,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4650,6 +4686,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00Lake_PathPatDescr_toToml_x3f_spec__0_spec__0_spec__1_spec__2___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -4754,6 +4791,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_InputFileConfig_toToml(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_17 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; 
@@ -5043,6 +5081,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_PackageConfig_instToToml___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -5066,6 +5105,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00__private_Lake_CLI_Translate_Toml_0__Lake_InputDirConfig_toToml_spec__0_spec__0_spec__1_spec__2___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -5167,6 +5207,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Pattern_toToml_x3f___at___00Lake_PathPatDescr_toToml_x3f_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -5288,6 +5329,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -5326,6 +5368,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5786,6 +5829,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Fold_0__Nat_foldTR_loop___at___00__private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5860,6 +5904,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_instEncodeFieldOfToToml___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5869,6 +5914,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_InputDirConfig_toToml(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; Obj x_27 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; byte x_48 = 0; 
@@ -6091,6 +6137,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00Lake_PathPatDescr_toToml_x3f_spec__0_spec__0_spec__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6100,6 +6147,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00__private_Lake_CLI_Translate_Toml_0__Lake_InputDirConfig_toToml_spec__0_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -6325,6 +6373,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml_spec__2(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6365,6 +6414,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Toml_encodeLeanOptions_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -6439,6 +6489,7 @@ return x_1;
 }
 }
 public static byte l_Array_isEqvAux___at___00__private_Lake_CLI_Translate_Toml_0__Lake_PackageConfig_toToml_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6558,6 +6609,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_WorkspaceConfig_toToml(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -6639,6 +6691,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_Toml_Table_insertField___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6658,6 +6711,7 @@ return x_1;
 }
 }
 public static byte l_Array_isEqvAux___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanConfig_toToml_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6691,6 +6745,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_LeanConfig_instToToml___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -6734,6 +6789,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_PathPatDescr_toToml_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -6947,6 +7003,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_PatternDescr_toToml_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6955,6 +7012,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6976,6 +7034,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_274 = 0; 
@@ -7695,6 +7754,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_PackageConfig_toToml___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7788,6 +7848,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_201 = null; Obj x_202 = null; byte x_203 = 0; 
@@ -8451,6 +8512,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_Package_mkTomlTargets(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -8524,6 +8586,7 @@ return x_1;
 }
 }
 public static Obj l_Array_contains___at___00__private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8535,6 +8598,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_PackageConfig_toToml_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -8609,6 +8673,7 @@ return x_1;
 }
 }
 public static byte l_Array_isEqvAux___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8661,6 +8726,7 @@ return x_3;
 }
 }
 public static byte l_Array_isEqvAux___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -8679,6 +8745,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Fold_0__Nat_foldTR_loop___at___00__private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8698,6 +8765,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8728,6 +8796,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkIdentFromRef___at___00__private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -8800,6 +8869,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldl___at___00Lake_Dependency_toToml_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8988,6 +9058,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_LeanExeConfig_toToml(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_15 = null; Obj x_30 = null; Obj x_31 = null; byte x_32 = 0; Obj x_38 = null; Obj x_53 = null; Obj x_54 = null; Obj x_72 = null; Obj x_73 = null; Obj x_91 = null; Obj x_92 = null; byte x_93 = 0; Obj x_99 = null; Obj x_114 = null; Obj x_115 = null; Obj x_129 = null; Obj x_130 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_162 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_187 = null; Obj x_201 = null; Obj x_202 = null; Obj x_220 = null; Obj x_221 = null; Obj x_239 = null; Obj x_240 = null; Obj x_241 = null; Obj x_250 = null; Obj x_264 = null; Obj x_265 = null; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_292 = null; Obj x_306 = null; Obj x_307 = null; Obj x_308 = null; Obj x_317 = null; Obj x_331 = null; Obj x_332 = null; Obj x_333 = null; Obj x_342 = null; Obj x_356 = null; Obj x_357 = null; Obj x_373 = null; Obj x_374 = null; Obj x_395 = null; Obj x_396 = null; byte x_397 = 0; Obj x_403 = null; Obj x_415 = null; Obj x_416 = null; Obj x_417 = null; Obj x_426 = null; Obj x_437 = null; Obj x_438 = null; Obj x_453 = null; Obj x_454 = null; Obj x_466 = null; Obj x_467 = null; Obj x_481 = null; Obj x_482 = null; byte x_483 = 0; Obj x_484 = null; Obj x_485 = null; Obj x_486 = null; Obj x_487 = null; Obj x_488 = null; Obj x_489 = null; Obj x_490 = null; Obj x_491 = null; byte x_492 = 0; 
@@ -10214,6 +10285,7 @@ return x_6;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10277,6 +10349,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_LeanConfig_toToml(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_14 = null; Obj x_26 = null; byte x_27 = 0; Obj x_28 = null; Obj x_34 = null; Obj x_46 = null; Obj x_47 = null; Obj x_62 = null; Obj x_63 = null; Obj x_78 = null; byte x_79 = 0; Obj x_80 = null; Obj x_86 = null; Obj x_98 = null; Obj x_99 = null; Obj x_110 = null; Obj x_111 = null; Obj x_129 = null; Obj x_130 = null; Obj x_131 = null; Obj x_140 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_162 = null; Obj x_173 = null; Obj x_174 = null; Obj x_189 = null; Obj x_190 = null; Obj x_205 = null; Obj x_206 = null; Obj x_207 = null; Obj x_216 = null; Obj x_227 = null; Obj x_228 = null; Obj x_241 = null; Obj x_242 = null; Obj x_243 = null; Obj x_252 = null; Obj x_263 = null; Obj x_264 = null; Obj x_265 = null; Obj x_274 = null; Obj x_285 = null; Obj x_286 = null; Obj x_287 = null; Obj x_296 = null; Obj x_307 = null; Obj x_308 = null; Obj x_321 = null; Obj x_322 = null; byte x_323 = 0; Obj x_324 = null; byte x_325 = 0; Obj x_326 = null; byte x_327 = 0; 
@@ -11132,6 +11205,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_PackageConfig_toToml(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11376,6 +11450,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00Lake_PathPatDescr_toToml_x3f_spec__0_spec__0_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -11445,6 +11520,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanConfig_toToml_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -11468,6 +11544,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Pattern_toToml_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -11695,6 +11772,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0_spec__3(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; byte x_14 = 0; 
@@ -11945,6 +12023,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_encodeFacets_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -12004,6 +12083,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__0_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -12184,6 +12264,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instToTomlArrayLeanOption___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12211,6 +12292,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_201 = null; Obj x_202 = null; byte x_203 = 0; 
@@ -12795,6 +12877,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__3_spec__5(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -12872,6 +12955,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_Package_mkTomlConfig_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -13153,6 +13237,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Toml_encodeLeanOptions(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -13195,6 +13280,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_StrPatDescr_toToml_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -13261,6 +13347,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13304,6 +13391,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Toml_encodeLeanOptions_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -13402,6 +13490,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_201 = null; Obj x_202 = null; byte x_203 = 0; 
@@ -14048,6 +14137,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Fold_0__Nat_foldTR_loop___at___00__private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -14231,6 +14321,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_PackageConfig_toToml_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -14260,6 +14351,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_Package_mkTomlConfig_spec__5(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -14323,6 +14415,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_201 = null; Obj x_202 = null; byte x_203 = 0; 
@@ -14860,6 +14953,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_StrPatDescr_toToml_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -15207,6 +15301,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanConfig_toToml_spec__2(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -15266,6 +15361,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_PackageConfig_toToml___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_15 = null; Obj x_30 = null; byte x_31 = 0; Obj x_32 = null; Obj x_38 = null; Obj x_53 = null; Obj x_54 = null; Obj x_72 = null; Obj x_73 = null; Obj x_91 = null; Obj x_92 = null; byte x_93 = 0; Obj x_99 = null; Obj x_114 = null; Obj x_115 = null; Obj x_129 = null; Obj x_130 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_162 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_187 = null; Obj x_201 = null; Obj x_202 = null; Obj x_220 = null; Obj x_221 = null; Obj x_239 = null; Obj x_240 = null; Obj x_241 = null; Obj x_250 = null; Obj x_264 = null; Obj x_265 = null; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_292 = null; Obj x_306 = null; Obj x_307 = null; Obj x_308 = null; Obj x_317 = null; Obj x_331 = null; Obj x_332 = null; Obj x_333 = null; Obj x_342 = null; Obj x_356 = null; Obj x_357 = null; Obj x_373 = null; Obj x_374 = null; Obj x_395 = null; Obj x_396 = null; Obj x_414 = null; Obj x_415 = null; byte x_416 = 0; Obj x_422 = null; Obj x_434 = null; Obj x_435 = null; Obj x_436 = null; Obj x_445 = null; Obj x_456 = null; Obj x_457 = null; Obj x_468 = null; byte x_469 = 0; Obj x_470 = null; Obj x_476 = null; Obj x_488 = null; Obj x_489 = null; byte x_490 = 0; Obj x_496 = null; Obj x_508 = null; Obj x_509 = null; Obj x_520 = null; Obj x_521 = null; Obj x_532 = null; byte x_533 = 0; Obj x_534 = null; Obj x_540 = null; Obj x_552 = null; Obj x_553 = null; Obj x_568 = null; Obj x_569 = null; Obj x_570 = null; Obj x_579 = null; Obj x_590 = null; Obj x_591 = null; Obj x_603 = null; Obj x_604 = null; Obj x_616 = null; Obj x_617 = null; Obj x_618 = null; Obj x_627 = null; Obj x_638 = null; Obj x_639 = null; Obj x_651 = null; Obj x_652 = null; Obj x_661 = null; Obj x_662 = null; Obj x_675 = null; Obj x_676 = null; Obj x_677 = null; Obj x_686 = null; Obj x_697 = null; Obj x_698 = null; Obj x_710 = null; Obj x_711 = null; Obj x_712 = null; Obj x_721 = null; Obj x_732 = null; Obj x_733 = null; Obj x_745 = null; Obj x_746 = null; byte x_747 = 0; Obj x_753 = null; Obj x_765 = null; Obj x_766 = null; Obj x_776 = null; Obj x_777 = null; Obj x_787 = null; Obj x_788 = null; Obj x_803 = null; Obj x_804 = null; Obj x_819 = null; Obj x_820 = null; Obj x_835 = null; Obj x_836 = null; Obj x_851 = null; Obj x_852 = null; Obj x_867 = null; Obj x_868 = null; Obj x_883 = null; Obj x_884 = null; Obj x_885 = null; Obj x_894 = null; Obj x_905 = null; byte x_906 = 0; Obj x_907 = null; Obj x_913 = null; Obj x_925 = null; Obj x_926 = null; Obj x_927 = null; Obj x_936 = null; Obj x_947 = null; Obj x_948 = null; Obj x_949 = null; byte x_950 = 0; Obj x_951 = null; Obj x_952 = null; Obj x_953 = null; Obj x_954 = null; Obj x_955 = null; Obj x_960 = null; byte x_961 = 0; 
@@ -17729,6 +17825,7 @@ return x_1;
 }
 }
 public static byte l_Array_isEqvAux___at___00__private_Lake_CLI_Translate_Toml_0__Lake_LeanLibConfig_toToml_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -17783,6 +17880,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_mkTomlConfig(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; byte x_24 = 0; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; byte x_35 = 0; Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; byte x_39 = 0; Obj x_40 = null; Obj x_41 = null; byte x_42 = 0; Obj x_43 = null; byte x_44 = 0; byte x_126 = 0; 
@@ -18194,6 +18292,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_201 = null; Obj x_202 = null; byte x_203 = 0; 
@@ -18677,6 +18776,7 @@ return x_195;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__2_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -18742,6 +18842,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00Lake_PathPatDescr_toToml_x3f_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -19121,6 +19222,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_Package_mkTomlConfig_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -19149,6 +19251,7 @@ goto _start;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00Std_DTreeMap_Internal_Impl_foldl___at___00Lake_Dependency_toToml_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -19505,6 +19608,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_encodeArray_x3f___at___00Lake_PatternDescr_toToml_x3f___at___00Lake_Pattern_toToml_x3f___at___00Lake_PathPatDescr_toToml_x3f_spec__0_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -19537,6 +19641,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lake_Package_mkTomlConfig_spec__2_spec__3(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -19916,6 +20021,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Translate_Toml_0__Lake_genToToml___at___00__private_Lake_CLI_Translate_Toml_0__Lake___aux__Lake__CLI__Translate__Toml______macroRules____private__Lake__CLI__Translate__Toml__0__Lake__commandGen__toml__encoders_x25__1_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_201 = null; Obj x_202 = null; byte x_203 = 0; 

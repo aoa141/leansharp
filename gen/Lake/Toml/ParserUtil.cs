@@ -32,6 +32,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_getCur___at___00Lake_Toml_atom_formatter_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -44,6 +45,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_strAtom_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -58,6 +60,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -71,6 +74,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Toml_skipInsideQuot_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -83,6 +87,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_epsilon_parenthesizer___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -91,6 +96,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Toml_ParserUtil_0__Lake_Toml_modifyTailInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -284,6 +290,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_Toml_ParserUtil_0__Lake_Toml_recNodeWithAntiquot_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -293,6 +300,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -306,6 +314,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_goLeft___at___00Lake_Toml_atom_formatter_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -337,6 +346,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_Toml_chAtom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -357,6 +367,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_trailing_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -370,6 +381,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_chFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -381,6 +393,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_dynamicNode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -392,6 +405,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_strAtom_parenthesizer___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -401,6 +415,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_recNode_formatter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -409,6 +424,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_satisfyFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -450,6 +466,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_Toml_repeatFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -458,6 +475,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Toml_dynamicNode_formatter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -480,6 +498,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_chAtom_formatter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -494,6 +513,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_getCur___at___00Lake_Toml_atom_formatter_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -513,6 +533,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Toml_chFn(uint x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -551,6 +572,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_Toml_instAndThenParserFn__lake___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -577,6 +599,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_getCur___at___00Lake_Toml_atom_formatter_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -586,6 +609,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_litWithAntiquot_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -594,6 +618,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_Toml_lit_formatter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -623,6 +648,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_isHexDigit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -667,6 +693,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_addTrace___at___00Lake_Toml_atom_formatter_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_53 = 0; 
@@ -842,6 +869,7 @@ return x_41;
 }
 }
 public static Obj l_Lake_Toml_litWithAntiquot_parenthesizer___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -854,6 +882,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_isBinDigit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -903,6 +932,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Toml_atom_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -911,6 +941,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_addTrace___at___00Lake_Toml_atom_formatter_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -933,6 +964,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_recNode_parenthesizer___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -941,6 +973,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_strAtom_formatter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -953,6 +986,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_dynamicNode_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -961,6 +995,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_lit_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -976,6 +1011,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Toml_takeWhile1Fn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -1074,6 +1110,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_digitPairFn___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1091,6 +1128,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Toml_sepBy1Linebreak_parenthesizer___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1103,6 +1141,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_litFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1132,6 +1171,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_Toml_sepBy1Linebreak_formatter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1162,6 +1202,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Toml_atom_formatter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1174,6 +1215,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_trailing_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1182,6 +1224,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_recNode_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1195,6 +1238,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_digitPairFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1217,6 +1261,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_Toml_ParserUtil_0__Lake_Toml_atom_parenthesizer___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1226,6 +1271,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_dynamicNode_formatter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1239,6 +1285,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Toml_litWithAntiquot_formatter___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1251,6 +1298,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_epsilon_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1267,6 +1315,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_recNodeWithAntiquot_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -1280,6 +1329,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_getCur___at___00Lake_Toml_dynamicNode_parenthesizer_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1292,6 +1342,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_sepBy1Linebreak_parenthesizer___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1444,6 +1495,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_recNode_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1452,6 +1504,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_atom___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1461,6 +1514,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Toml_recNodeWithAntiquot___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1496,6 +1550,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_Toml_trailing_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1532,6 +1587,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_atom_formatter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -1628,6 +1684,7 @@ return x_33;
 }
 }
 public static Obj l_Lake_Toml_epsilon_formatter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1667,6 +1724,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_getCur___at___00Lake_Toml_dynamicNode_parenthesizer_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1675,6 +1733,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_mkUnexpectedCharError(Obj x_1, uint x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1702,6 +1761,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_sepBy1Linebreak___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1711,6 +1771,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak_formatter(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1719,6 +1780,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_Toml_epsilon_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1776,6 +1838,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_getCur___at___00Lake_Toml_dynamicNode_parenthesizer_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1785,6 +1848,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_trailing_parenthesizer___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1846,6 +1910,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_Toml_trailing_formatter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1870,6 +1935,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_recNodeWithAntiquot_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -1904,6 +1970,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Toml_ParserUtil_0__Lake_Toml_atom_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1934,6 +2001,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_Toml_isOctDigit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1978,6 +2046,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Toml_litWithAntiquot___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1987,6 +2056,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_sepBy1Linebreak_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2047,6 +2117,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_atomFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -2124,6 +2195,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak_formatter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2144,6 +2216,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_goLeft___at___00Lake_Toml_atom_formatter_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2160,6 +2233,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Toml_strAuxFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2186,6 +2260,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_sepBy1Linebreak(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2220,6 +2295,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2379,6 +2455,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_addMessageContextPartial___at___00Lean_addTrace___at___00Lake_Toml_atom_formatter_spec__2_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -2416,6 +2493,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Toml_skipFn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2553,6 +2631,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_strAuxFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2645,6 +2724,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Toml_sepByChar1AuxFn(Obj x_1, uint x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -2721,6 +2801,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_chAtom_formatter(uint x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2768,6 +2849,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak_parenthesizer___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2823,6 +2905,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak_formatter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -2848,6 +2931,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_sepByChar1Fn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 uint x_6 = 0; Obj x_7 = null; 
@@ -3054,6 +3138,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_litWithAntiquot(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -3160,6 +3245,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Toml_ParserUtil_0__Lake_Toml_repeatFn_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -3388,6 +3474,7 @@ return x_19;
 }
 }
 public static Obj l_Lake_Toml_extendTrailingFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -3421,6 +3508,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak_parenthesizer(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3509,6 +3597,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_sepByLinebreak_parenthesizer___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -3672,6 +3761,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Toml_sepByChar1Fn(Obj x_1, uint x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -3792,6 +3882,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Toml_ParserUtil_0__Lake_Toml_modifyTailInfo___at___00Lake_Toml_extendTrailingFn_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {

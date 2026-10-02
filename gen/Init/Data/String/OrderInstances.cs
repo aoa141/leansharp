@@ -215,6 +215,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_instTransLe___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -384,6 +385,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pos_instTransLe___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -424,6 +426,7 @@ return x_1;
 }
 }
 public static Obj l_String_Internal___aux__Init__Data__String__OrderInstances______macroRules__String__Internal__tacticOrder__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -981,6 +984,7 @@ return x_2;
 }
 }
 public static Obj l_String_Pos_instTransLe___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1088,6 +1092,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_instLinearOrderPackage(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 

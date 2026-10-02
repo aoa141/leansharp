@@ -24,6 +24,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withAppArg___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -43,6 +44,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBindingBody___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -52,6 +54,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldl___at___00Lean_PrettyPrinter_Delaborator_OptionsPerPos_merge_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -60,6 +63,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withAppArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -68,6 +72,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00Lean_PrettyPrinter_Delaborator_OptionsPerPos_insertAt_spec__2___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -128,6 +133,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withAppFn___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -148,6 +154,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withAppArg___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -158,6 +165,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withNaryArg___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -170,6 +178,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withMDataExpr___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 10)
@@ -196,6 +205,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBoundedAppFnArgs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -204,6 +214,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withLetVarType___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -221,6 +232,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withLetValue___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -258,6 +270,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withAppFnArgs___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -286,6 +299,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withMDataExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -294,6 +308,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_alter___at___00Lean_PrettyPrinter_Delaborator_OptionsPerPos_merge_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -417,6 +432,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withLetBody___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_6) == 8)
@@ -455,6 +471,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBoundedAppFn___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -464,6 +481,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withAppFnArgs___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -488,6 +506,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Options_set___at___00Lean_PrettyPrinter_Delaborator_OptionsPerPos_insertAt_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_18 = 0; 
@@ -580,6 +599,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withAppFn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -594,6 +614,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withNaryArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -621,6 +642,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withLetBody___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -666,6 +688,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBoundedAppFnArgs___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -714,6 +737,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBoundedAppFnArgs___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_11 = 0; 
@@ -758,6 +782,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00Lean_PrettyPrinter_Delaborator_OptionsPerPos_insertAt_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -796,6 +821,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withNaryFn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -824,6 +850,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBindingBody_x27___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -883,6 +910,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withLetVarType___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -892,6 +920,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withNaryFn___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -902,6 +931,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withLetValue___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 8)
@@ -946,6 +976,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBoundedAppFnArgs___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1031,6 +1062,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_getPos(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1039,6 +1071,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withType___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1057,6 +1090,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBoundedAppFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1210,6 +1244,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_PrettyPrinter_Delaborator_OptionsPerPos_insertAt_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2547,6 +2582,7 @@ return x_291;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00Std_DTreeMap_Internal_Impl_foldl___at___00Lean_PrettyPrinter_Delaborator_OptionsPerPos_merge_spec__1_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2574,6 +2610,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBoundedAppFn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -2759,6 +2796,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withLetVarType___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 8)
@@ -2908,6 +2946,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBindingDomain(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2916,6 +2955,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withMDataExpr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -2957,6 +2997,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withNaryArg___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -2991,6 +3032,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withProj___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -3019,6 +3061,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_nextExtraPos___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -3046,6 +3089,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBindingBody_x27___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3120,6 +3164,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_getExpr(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3205,6 +3250,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PrettyPrinter_Delaborator_SubExpr_withBindingDomain___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 

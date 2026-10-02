@@ -21,6 +21,7 @@ return x_5;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__moduleDataDecl__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -934,6 +935,7 @@ return x_1;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__dataTypeDecl__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1245,6 +1247,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_OptDataKind_instCoeOutName___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1376,6 +1379,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_OptDataKind_instToString___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1384,6 +1388,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_OptDataKind_instToString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1392,6 +1397,7 @@ return x_2;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__facetDataDecl__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1690,6 +1696,7 @@ goto block_108;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__customDataDecl__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1926,6 +1933,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_OptDataKind_anonymous___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2158,6 +2166,7 @@ return x_1;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__builtinFacetCommand__1___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, byte x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19) {
+lean_stack_probe();
 _start:
 {
 Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_182 = null; Obj x_183 = null; Obj x_184 = null; Obj x_185 = null; Obj x_186 = null; Obj x_187 = null; Obj x_188 = null; Obj x_204 = null; Obj x_205 = null; Obj x_206 = null; Obj x_207 = null; Obj x_213 = null; byte x_214 = 0; 
@@ -2722,6 +2731,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_OptDataKind_isAnonymous___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2979,6 +2989,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OptDataKind_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3094,6 +3105,7 @@ return x_5;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__builtinFacetCommand__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3300,6 +3312,7 @@ return x_1;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__libraryDataDecl__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3472,6 +3485,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_OptDataKind_instCoeOutName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3718,6 +3732,7 @@ return x_1;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__packageDataDecl__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3793,6 +3808,7 @@ return x_1;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__customDataDecl__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4494,6 +4510,7 @@ return x_3;
 }
 }
 public static Obj l_Lake___aux__Lake__Build__Data______macroRules__Lake__builtinFacetCommand__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_24 = null; Obj x_25 = null; byte x_26 = 0; 

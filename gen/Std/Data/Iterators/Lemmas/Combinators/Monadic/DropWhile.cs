@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_Iterators_Lemmas_Combinators_Monadic_DropWhile {
 public static Obj l___private_Std_Data_Iterators_Lemmas_Combinators_Monadic_DropWhile_0__Std_IterM_step__intermediateDropWhileWithPostcondition_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -132,6 +133,7 @@ return x_16;
 }
 }
 public static Obj l___private_Std_Data_Iterators_Lemmas_Combinators_Monadic_DropWhile_0__Std_IterM_step__intermediateDropWhile_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -141,6 +143,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Data_Iterators_Lemmas_Combinators_Monadic_DropWhile_0__Std_Iterators_Types_DropWhile_instIterator_match__3_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -152,6 +155,7 @@ return x_12;
 }
 }
 public static Obj l___private_Std_Data_Iterators_Lemmas_Combinators_Monadic_DropWhile_0__Std_IterM_step__intermediateDropWhileM_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -173,6 +177,7 @@ return x_11;
 }
 }
 public static Obj l___private_Std_Data_Iterators_Lemmas_Combinators_Monadic_DropWhile_0__Std_IterM_step__intermediateDropWhile_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -221,6 +226,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Data_Iterators_Lemmas_Combinators_Monadic_DropWhile_0__Std_IterM_step__intermediateDropWhileWithPostcondition_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 

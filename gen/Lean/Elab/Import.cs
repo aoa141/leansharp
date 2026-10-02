@@ -21,6 +21,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_HeaderSyntax_imports___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -30,6 +31,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Elab_checkDeprecatedImports_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, ulong x_7, ulong x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_15 = 0; 
@@ -206,6 +208,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_checkDeprecatedImports_spec__3(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -587,6 +590,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Elab_Import_0__Lean_Elab_checkModuleNamePortability_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -596,6 +600,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_headerToImports___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -616,6 +621,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_processHeaderCore(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, uint x_7, Obj x_8, byte x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; byte x_26 = 0; byte x_27 = 0; 
@@ -825,6 +831,7 @@ return x_1;
 }
 }
 public static Obj l_IO_print___at___00IO_println___at___00Lean_Elab_printImports_spec__0_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -833,6 +840,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -848,6 +856,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Elab_Import_0__Lean_Elab_checkModuleNamePortability_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_4)) {
@@ -961,6 +970,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Elab_checkDeprecatedImports(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; Obj x_77 = null; 
@@ -1340,6 +1350,7 @@ goto block_76;
 }
 }
 public static Obj l_Lean_Elab_processHeader___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 uint x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -1351,6 +1362,7 @@ return x_12;
 }
 }
 public static byte l_Array_contains___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1379,6 +1391,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Elab_HeaderSyntax_imports_spec__2(Obj x_1, byte x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1757,6 +1770,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Elab_checkDeprecatedImports_spec__2_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -1768,6 +1782,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Elab_printImports(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1878,6 +1893,7 @@ return x_22;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_printImportSrcs_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1978,6 +1994,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_printImportSrcs___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2016,6 +2033,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_headerToImports(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2024,6 +2042,7 @@ return x_3;
 }
 }
 public static byte l_String_Slice_contains___at___00Lean_Elab_checkDeprecatedImports_spec__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; byte x_4 = 0; 
@@ -2034,6 +2053,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_processHeader(Obj x_1, Obj x_2, Obj x_3, Obj x_4, uint x_5, Obj x_6, byte x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -2051,6 +2071,7 @@ return x_17;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Elab_checkDeprecatedImports_spec__2_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2084,6 +2105,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -2108,6 +2130,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Elab_printImports_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2215,6 +2238,7 @@ return x_2;
 }
 }
 public static Obj l_String_mapAux___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_9 = null; byte x_10 = 0; 
@@ -2381,6 +2405,7 @@ return x_10;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__2_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -2435,6 +2460,7 @@ return x_2;
 }
 }
 public static byte l_String_Slice_contains___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__2(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; byte x_5 = 0; 
@@ -2563,6 +2589,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_printImportSrcs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2875,6 +2902,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_HeaderSyntax_isModule___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2909,6 +2937,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_HeaderSyntax_toModuleHeader(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; 
@@ -3076,6 +3105,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Option_set___at___00Lean_Elab_checkDeprecatedImports_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3085,6 +3115,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_checkModuleNamePortability___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3128,6 +3159,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_HeaderSyntax_imports(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -3393,6 +3425,7 @@ return x_1;
 }
 }
 public static byte l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Elab_checkDeprecatedImports_spec__2_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -3401,6 +3434,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_parseImports___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3433,6 +3467,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__3(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -3542,6 +3577,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__2_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 uint x_8 = 0; byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; 
@@ -3932,6 +3968,7 @@ return x_4;
 }
 }
 public static byte l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00Lean_Elab_checkDeprecatedImports_spec__2_spec__2___redArg(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -4288,6 +4325,7 @@ return x_1;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__1_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4423,6 +4461,7 @@ return x_1;
 }
 }
 public static byte l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__2_spec__3(Obj x_1, uint x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -4439,6 +4478,7 @@ return x_4;
 }
 }
 public static byte l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00__private_Lean_Elab_Import_0__Lean_Elab_checkComponentPortability_spec__2_spec__3___redArg(Obj x_1, uint x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 

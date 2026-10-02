@@ -17,6 +17,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instInhabitedTargetConfig_default___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -40,6 +41,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_NConfigDecl_targetConfig___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -51,6 +53,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_OpaqueTargetConfig_instInhabitedOfTargetConfig___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -60,6 +63,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instInhabitedTargetConfig_default(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -77,6 +81,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instInhabitedTargetConfig_default___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -101,6 +106,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_Config_TargetConfig_0__Lake_OpaqueTargetConfig_unsafeMk___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -147,6 +153,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_instInhabitedTargetConfig_default___redArg___lam__1(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -155,6 +162,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Package_findTargetConfig_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -165,6 +173,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_get_x3f___at___00Lake_Package_findTargetConfig_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -183,6 +192,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_NConfigDecl_targetConfig___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -192,6 +202,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instInhabitedTargetConfig(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -214,6 +225,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_TargetConfig_0__Lake_OpaqueTargetConfig_unsafeMk___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -244,6 +256,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_NConfigDecl_targetConfig_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -273,6 +286,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_findTargetConfig_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -358,6 +372,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instInhabitedTargetConfig_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -430,6 +445,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_get_x3f___at___00Lake_Package_findTargetConfig_x3f_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

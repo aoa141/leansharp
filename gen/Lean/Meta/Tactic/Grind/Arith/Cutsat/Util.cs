@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util {
 public static Obj l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_Meta_Grind_Arith_Cutsat_addOcc_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -18,6 +19,7 @@ return x_5;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_Arith_Cutsat_hasVar_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; byte x_8 = 0; 
@@ -52,6 +54,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_addOcc(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -71,6 +74,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_denoteExpr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -81,6 +85,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_eliminated___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -227,6 +232,7 @@ return x_32;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_Arith_Cutsat_hasVar_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -273,6 +279,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_CooperSplitPred_pp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -356,6 +363,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DiseqCnstr_satisfied___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -366,6 +374,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_isTrivial___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -387,6 +396,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util_0__Int_Internal_Linear_Poly_updateOccs_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 1)
@@ -425,6 +435,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util_0__Int_Internal_Linear_Poly_pp_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -433,6 +444,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_pp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -451,6 +463,7 @@ return x_1;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_isZero___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -472,6 +485,7 @@ return x_2;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_denoteExpr_x27___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -483,6 +497,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_CooperSplitPred_pp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -608,6 +623,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DiseqCnstr_denoteExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -647,6 +663,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_Meta_Grind_Arith_Cutsat_addOcc_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -655,6 +672,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_satisfied___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -673,6 +691,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_throwUnexpected(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -681,6 +700,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_resetAssignmentFrom___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -690,6 +710,7 @@ return x_4;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_pp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -700,6 +721,7 @@ return x_5;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_eval_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -740,6 +762,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_addOcc___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -771,6 +794,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util_0__Int_Internal_Linear_Poly_isSorted_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -856,6 +880,7 @@ goto _start;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_Meta_Grind_Arith_Cutsat_addOcc_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -976,6 +1001,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_throwUnexpected___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1058,6 +1084,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_throwUnexpected___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1124,6 +1151,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_throwUnexpected___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1137,6 +1165,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_get_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1147,6 +1176,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_pp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1155,6 +1185,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_throwUnexpected___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1237,6 +1268,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_denoteExpr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -1333,6 +1365,7 @@ return x_13;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_pp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1351,6 +1384,7 @@ return x_13;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_denoteExpr_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -1424,6 +1458,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_getVars(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1443,6 +1478,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_CooperSplitPred_pp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1461,6 +1497,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_getOccursOf___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1472,6 +1509,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_hasVar___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1483,6 +1521,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DiseqCnstr_pp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_22 = 0; 
@@ -1582,6 +1621,7 @@ return x_8;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_satisfiedLe___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1592,6 +1632,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_inconsistent___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1602,6 +1643,7 @@ return x_4;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_pp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1620,6 +1662,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentArray_modifyAux___at___00Lean_PersistentArray_modify___at___00Lean_Meta_Grind_Arith_Cutsat_addOcc_spec__2_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1632,6 +1675,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_getVars___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1652,6 +1696,7 @@ return x_1;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_findVarToSubst(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1668,6 +1713,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DiseqCnstr_satisfied___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -1802,6 +1848,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_satisfied(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1810,6 +1857,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util_0__Int_Internal_Linear_Poly_pp_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2061,6 +2109,7 @@ return x_61;
 }
 }
 public static Obj l_Lean_PersistentArray_modify___at___00Lean_Meta_Grind_Arith_Cutsat_addOcc_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2080,6 +2129,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_pp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2090,6 +2140,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_getVar___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2101,6 +2152,7 @@ return x_5;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_findVarToSubst___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2111,6 +2163,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_addOcc___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; Obj x_24 = null; Obj x_25 = null; byte x_26 = 0; byte x_32 = 0; 
@@ -2214,6 +2267,7 @@ return x_28;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_updateOccs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2240,6 +2294,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_pp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2285,6 +2340,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_throwUnexpected_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -2313,6 +2369,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_getOccursOf___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2450,6 +2507,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_isTrivial___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2470,6 +2528,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_modify_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2479,6 +2538,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_isTrivial___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2500,6 +2560,7 @@ return x_5;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_isSorted___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2542,6 +2603,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_canBeEvaluated___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2564,6 +2626,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_getVar___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -2815,6 +2878,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_isTrivial(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2841,6 +2905,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_hasVar(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2849,6 +2914,7 @@ return x_13;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_pp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3046,6 +3112,7 @@ return x_46;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_satisfied(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3062,6 +3129,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util_0__Int_Internal_Linear_Poly_updateOccs_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -3080,6 +3148,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_Arith_Cutsat_hasVar_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -3093,6 +3162,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_canBeEvaluated(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3141,6 +3211,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_Arith_Cutsat_hasVar_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -3153,6 +3224,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_assert___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3230,6 +3302,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_isSupportedType___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3247,6 +3320,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_satisfied___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3278,6 +3352,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_isSupportedType(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3286,6 +3361,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_UnsatProof_pp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3310,6 +3386,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_denoteExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3318,6 +3395,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_UnsatProof_pp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3462,6 +3540,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_satisfied___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -3473,6 +3552,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_pp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3521,6 +3601,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DiseqCnstr_satisfied___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3539,6 +3620,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_throwUnexpected_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -3547,6 +3629,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_Arith_Cutsat_hasVar_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -3571,6 +3654,7 @@ return x_2;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_denoteExpr_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3599,6 +3683,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_get_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -3617,6 +3702,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_denoteExpr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3627,6 +3713,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_EqCnstr_satisfied___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -3774,6 +3861,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_denoteExpr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3792,6 +3880,7 @@ return x_13;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_updateOccs___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3805,6 +3894,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DiseqCnstr_throwUnexpected(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -3824,6 +3914,7 @@ return x_2;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_satisfiedLe(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -3832,6 +3923,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_throwUnexpected_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3854,6 +3946,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_isIntTerm___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3936,6 +4029,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_Arith_Cutsat_hasVar_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3947,6 +4041,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util_0__Int_Internal_Linear_Poly_eval_x3f_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3956,6 +4051,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_isIntTerm___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4038,6 +4134,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_isIntTerm___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -4057,6 +4154,7 @@ return x_13;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_satisfiedLe___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4200,6 +4298,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DiseqCnstr_throwUnexpected___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4272,6 +4371,7 @@ return x_5;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_findVarToSubst___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4531,6 +4631,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_getOccursOf___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -4550,6 +4651,7 @@ return x_13;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_Arith_Cutsat_hasVar_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4621,6 +4723,7 @@ return x_4;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_eval_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4659,6 +4762,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_getVar___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -4923,6 +5027,7 @@ return x_2;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_updateOccs___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -4947,6 +5052,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_satisfied___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -5121,6 +5227,7 @@ return x_39;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_inconsistent___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -5160,6 +5267,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_LeCnstr_pp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5170,6 +5278,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Arith_Cutsat_Util_0__Int_Internal_Linear_Poly_eval_x3f_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -5310,6 +5419,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_eliminated___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -5510,6 +5620,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_isUnsat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5684,6 +5795,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_DvdCnstr_denoteExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -5734,6 +5846,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_isSupportedType___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_106 = 0; 
@@ -6284,6 +6397,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Cutsat_canBeEvaluated___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -6578,6 +6692,7 @@ return x_1;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Meta_Grind_Arith_Cutsat_hasVar_spec__0_spec__0___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6896,6 +7011,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PersistentArray_modifyAux___at___00Lean_PersistentArray_modify___at___00Lean_Meta_Grind_Arith_Cutsat_addOcc_spec__2_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7133,6 +7249,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_Meta_Grind_Arith_Cutsat_addOcc_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -8478,6 +8595,7 @@ return x_13;
 }
 }
 public static Obj l_Int_Internal_Linear_Poly_eval_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 

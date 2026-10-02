@@ -35,6 +35,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_filterMapWithPostcondition___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -47,6 +48,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Iter_mapWithPostcondition___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -63,6 +65,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Iter_filterM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -152,6 +155,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_filterWithPostcondition___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -175,6 +179,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Iter_filterWithPostcondition___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -253,6 +258,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Iter_map___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

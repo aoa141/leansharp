@@ -58,6 +58,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_Parsec_String_skipChar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -117,6 +118,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Internal_Parsec_String_instInputSigmaStringPosCharRaw___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -147,6 +149,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_Parsec_String_instInputSigmaStringPosCharRaw___lam__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -178,6 +181,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Internal_Parsec_String_Parser_run___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -493,6 +497,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_Parsec_String_pchar(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -612,6 +617,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_String_0__Std_Internal_Parsec_String_digitsCore(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_21 = 0; 
@@ -830,6 +836,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Internal_Parsec_String_digits(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -978,6 +985,7 @@ return x_39;
 }
 }
 public static Obj l_Std_Internal_Parsec_String_pstring(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -1096,6 +1104,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_String_0__Std_Internal_Parsec_String_digitsCore_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1397,6 +1406,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_String_0__Std_Internal_Parsec_String_skipWs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_7 = null; byte x_8 = 0; 
@@ -1474,6 +1484,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Internal_Parsec_String_skipChar(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -1679,6 +1690,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_String_0__Std_Internal_Parsec_String_digitsCore_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

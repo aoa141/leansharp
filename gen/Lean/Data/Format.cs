@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Data_Format {
 public static Obj l_Lean_instToFormatProdNameDataValue___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_66 = 0; 
@@ -455,6 +456,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00Lean_formatKVMap_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -831,6 +833,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Std_Format_getUnicode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -841,6 +844,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Std_Format_getIndent___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -919,6 +923,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Std_Format_getUnicode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; 
@@ -1050,6 +1055,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Std_Format_pretty_x27___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1130,6 +1136,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Std_Format_getWidth___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1139,6 +1146,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_Format_0__Lean_Std_Format_initFn_00___x40_Lean_Data_Format_2495473732____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1265,6 +1273,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_formatKVMap(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; 
@@ -1382,6 +1391,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instToFormatDataValue___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1600,6 +1610,7 @@ return x_47;
 }
 }
 public static Obj l_Lean_Std_Format_pretty_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 

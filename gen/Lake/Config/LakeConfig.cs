@@ -152,6 +152,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CacheServiceConfig_name___proj___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -171,6 +172,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheServiceConfig_apiEndpoint___proj___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -370,6 +372,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_LakeConfig_cache___proj___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -409,6 +412,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheConfig_defaultUploadService___proj___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -442,6 +446,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheServiceKind_ofString_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -965,6 +970,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_CacheConfig_defaultService___proj___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -987,6 +993,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CacheConfig_services___proj___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1071,6 +1078,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_LakeConfig_cache___proj___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1252,6 +1260,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LakeConfig_cache___proj___lam__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1353,6 +1362,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheServiceKind_reservoir_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1517,6 +1527,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_CacheConfig_defaultService___proj___lam__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1643,6 +1654,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CacheServiceKind_ofString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1717,6 +1729,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheServiceConfig_artifactEndpoint___proj___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2765,6 +2778,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheServiceConfig_name___proj___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2838,6 +2852,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_CacheServiceKind_reservoir_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

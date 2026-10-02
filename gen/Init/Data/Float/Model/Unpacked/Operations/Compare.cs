@@ -76,6 +76,7 @@ return x_12;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_compare___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -86,6 +87,7 @@ return x_3;
 }
 }
 public static byte l_Float_Model_UnpackedFloat_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -97,6 +99,7 @@ return x_5;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_lt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -121,6 +124,7 @@ return x_3;
 }
 }
 public static byte l_Float_Model_UnpackedFloat_le(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Do_SPred_Laws {
 public static Obj l_Std_Do_SVal_evalsTo___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -17,6 +18,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Do_SPred_instTransEntails___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -58,6 +60,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Do_SPred_instTransEntails___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -66,6 +69,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_SVal_evalsTo___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -129,6 +133,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Std_Do_SPred_instTransBientails___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

@@ -85,6 +85,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00Lean_instToJsonPosition_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -160,6 +161,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_FileMap_toPosition(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_24 = null; Obj x_25 = null; byte x_26 = 0; 
@@ -291,6 +293,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_Position_0__Lean_FileMap_toPosition_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -379,6 +382,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instDecidableEqPosition_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -411,6 +415,7 @@ return x_2;
 }
 }
 public static byte l_Lean_instDecidableEqPosition(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -449,6 +454,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToJsonPosition_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_25 = 0; 
@@ -583,6 +589,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Position_instToString___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -733,6 +740,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_FileMap_lineStart___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -775,6 +783,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instReprPosition_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_38 = 0; 
@@ -900,6 +909,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_FileMap_ofString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1017,6 +1027,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_Position_0__Lean_FileMap_toPosition_toColumn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1051,6 +1062,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Position_lt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1080,6 +1092,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Position_instToExpr___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1113,6 +1126,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_Position_0__Lean_FileMap_toPosition_toColumn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1157,6 +1171,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_FileMap_getLastLine___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1209,6 +1224,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Position_instToFormat___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_20 = 0; 
@@ -1277,6 +1293,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_FileMap_getLine(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -1297,6 +1314,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_Position_0__Lean_FileMap_ofString_loop(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1616,6 +1634,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_instReprPosition_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

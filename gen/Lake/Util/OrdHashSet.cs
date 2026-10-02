@@ -15,6 +15,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_OrdHashSet_ofArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -23,6 +24,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_OrdHashSet_all___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -32,6 +34,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OrdHashSet_empty___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -42,6 +45,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OrdHashSet_mkEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -51,6 +55,7 @@ return x_2;
 }
 }
 public static byte l_Lake_OrdHashSet_any___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -91,6 +96,7 @@ return x_12;
 }
 }
 public static byte l_Lake_OrdHashSet_all(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -144,6 +150,7 @@ return x_18;
 }
 }
 public static Obj l_Lake_OrdHashSet_any___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -260,6 +267,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_OrdHashSet_ofArray___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -270,6 +278,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_OrdHashSet_forIn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -280,6 +289,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_OrdHashSet_instCoeHashSet(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -288,6 +298,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OrdHashSet_foldlM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -298,6 +309,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_OrdHashSet_append(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -316,6 +328,7 @@ return x_1;
 }
 }
 public static byte l_Lake_OrdHashSet_all___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -489,6 +502,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_OrdHashSet_foldl___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -540,6 +554,7 @@ return x_16;
 }
 }
 public static byte l_Lake_OrdHashSet_any(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -589,6 +604,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OrdHashSet_foldr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -599,6 +615,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_OrdHashSet_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -622,6 +639,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_OrdHashSet_appendArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -750,6 +768,7 @@ return x_20;
 }
 }
 public static Obj l_Lake_OrdHashSet_foldl(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -865,6 +884,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OrdHashSet_foldr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -977,6 +997,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_OrdHashSet_foldr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -1081,6 +1102,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_OrdHashSet_append___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -1092,6 +1114,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_OrdHashSet_mkEmpty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1202,6 +1225,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OrdHashSet_mkEmpty(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1271,6 +1295,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_OrdHashSet_mkEmpty___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1283,6 +1308,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OrdHashSet_appendArray___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 

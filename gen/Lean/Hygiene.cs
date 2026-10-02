@@ -20,6 +20,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Unhygienic_run(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -219,6 +220,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_getSanitizeNames___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -255,6 +257,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Hygiene_0__Lean_mkInaccessibleUserNameAux(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -347,6 +350,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Unhygienic_instMonadQuotation___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -384,6 +388,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Unhygienic_run___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -468,6 +473,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Hygiene_0__Lean_mkInaccessibleUserName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -524,6 +530,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Hygiene_0__Lean_sanitizeSyntaxAux_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -595,6 +602,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Hygiene_0__Lean_initFn_00___x40_Lean_Hygiene_3990390237____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -621,6 +629,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Hygiene_0__Lean_sanitizeSyntaxAux_spec__0(ulong x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -671,6 +680,7 @@ return x_2;
 }
 }
 public static byte l_Lean_getSanitizeNames(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -726,6 +736,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Hygiene_0__Lean_sanitizeSyntaxAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -951,6 +962,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Hygiene_0__Lean_mkInaccessibleUserName(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 2)
@@ -1043,6 +1055,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_sanitizeName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_28 = null; 
@@ -1324,6 +1337,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Hygiene_0__Lean_mkFreshInaccessibleUserName(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 

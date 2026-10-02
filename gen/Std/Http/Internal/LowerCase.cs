@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Internal_LowerCase {
 public static Obj l_Std_Http_Internal_instDecidableIsLowerCase___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -16,6 +17,7 @@ return x_3;
 }
 }
 public static byte l_Std_Http_Internal_instDecidableIsLowerCase(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 

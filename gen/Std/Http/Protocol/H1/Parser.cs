@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Protocol_H1_Parser {
 public static Obj l_Std_Http_Protocol_H1_TakeResult_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -27,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseChunkSizedData(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -180,6 +182,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -199,6 +202,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_manyItems___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -236,6 +240,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pos_revSkipWhile___at___00__private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseFieldLine_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -245,6 +250,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseURI___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -297,6 +303,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__18___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -419,6 +426,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__23___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -463,6 +471,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseSingleHeader(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_8 = null; byte x_9 = 0; Obj x_58 = null; Obj x_59 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; byte x_68 = 0; 
@@ -755,6 +764,7 @@ goto block_57;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseChunkExt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -828,6 +838,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -848,6 +859,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -943,6 +955,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__39___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -964,6 +977,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseQuotedString___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -993,6 +1007,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_liftOption(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1011,6 +1026,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__28___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1131,6 +1147,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_TakeResult_complete_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1139,6 +1156,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseRequestLineRawVersion(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_47 = null; 
@@ -1593,6 +1611,7 @@ return x_41;
 }
 }
 public static Obj l_Functor_mapRev___at___00__private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1601,6 +1620,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseStatusLine(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_11 = 0; Obj x_23 = null; Obj x_24 = null; Obj x_43 = null; 
@@ -1962,6 +1982,7 @@ return x_37;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseChunkExt___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2269,6 +2290,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__19___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2410,6 +2432,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseHttpVersion(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2568,6 +2591,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_revSkipWhile___at___00__private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseFieldLine_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -2856,6 +2880,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseChunkSize(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3108,6 +3133,7 @@ return x_2;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00Std_Http_Protocol_H1_parseSingleHeader_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3141,6 +3167,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_isOwsByte___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -3161,6 +3188,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_isQdText___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -3190,6 +3218,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseFieldLine(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; Obj x_83 = null; Obj x_84 = null; Obj x_85 = null; byte x_86 = 0; 
@@ -4188,6 +4217,7 @@ goto block_73;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseReasonPhrase___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4197,6 +4227,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__37___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4300,6 +4331,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_skipLeadingRequestEmptyLines_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4308,6 +4340,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_TakeResult_incomplete_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4316,6 +4349,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseChunkSize___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4325,6 +4359,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__26___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4356,6 +4391,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_ows(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -4576,6 +4612,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_hex_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_34 = null; 
@@ -4856,6 +4893,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__30___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4883,6 +4921,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4892,6 +4931,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseTrailerHeader___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4911,6 +4951,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__29___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4920,6 +4961,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_manyItems_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5020,6 +5062,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseStatusCode___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5320,6 +5363,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseRequestLineBody(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_9 = null; Obj x_10 = null; Obj x_50 = null; 
@@ -5933,6 +5977,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5981,6 +6026,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__27___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -6030,6 +6076,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseRequestLineBody___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6103,6 +6150,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_skipLeadingRequestEmptyLines___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6122,6 +6170,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseRequestLine___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6163,6 +6212,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseRequestLine(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_7 = 0; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_24 = null; byte x_25 = 0; Obj x_46 = null; 
@@ -6636,6 +6686,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_84 = null; Obj x_100 = null; Obj x_101 = null; Obj x_102 = null; Obj x_103 = null; Obj x_119 = null; Obj x_120 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; Obj x_139 = null; Obj x_140 = null; Obj x_141 = null; Obj x_142 = null; Obj x_158 = null; Obj x_159 = null; Obj x_160 = null; Obj x_161 = null; Obj x_162 = null; Obj x_178 = null; Obj x_179 = null; Obj x_180 = null; Obj x_181 = null; Obj x_197 = null; Obj x_198 = null; Obj x_199 = null; Obj x_200 = null; Obj x_201 = null; Obj x_217 = null; Obj x_218 = null; Obj x_219 = null; Obj x_220 = null; Obj x_236 = null; Obj x_237 = null; Obj x_238 = null; Obj x_239 = null; Obj x_240 = null; Obj x_256 = null; Obj x_257 = null; Obj x_258 = null; Obj x_259 = null; Obj x_275 = null; Obj x_276 = null; Obj x_277 = null; Obj x_278 = null; Obj x_279 = null; Obj x_295 = null; Obj x_296 = null; Obj x_297 = null; Obj x_298 = null; Obj x_314 = null; Obj x_315 = null; Obj x_316 = null; Obj x_317 = null; Obj x_318 = null; Obj x_334 = null; Obj x_335 = null; Obj x_336 = null; Obj x_337 = null; Obj x_353 = null; Obj x_354 = null; Obj x_355 = null; Obj x_356 = null; Obj x_357 = null; Obj x_373 = null; Obj x_374 = null; Obj x_375 = null; Obj x_376 = null; Obj x_392 = null; Obj x_393 = null; Obj x_394 = null; Obj x_395 = null; Obj x_396 = null; Obj x_412 = null; Obj x_413 = null; Obj x_414 = null; Obj x_415 = null; Obj x_431 = null; Obj x_432 = null; Obj x_433 = null; Obj x_434 = null; Obj x_435 = null; Obj x_451 = null; Obj x_452 = null; Obj x_453 = null; Obj x_454 = null; Obj x_470 = null; Obj x_471 = null; Obj x_472 = null; Obj x_473 = null; Obj x_474 = null; Obj x_490 = null; Obj x_491 = null; Obj x_492 = null; Obj x_493 = null; Obj x_509 = null; Obj x_510 = null; Obj x_511 = null; Obj x_512 = null; Obj x_513 = null; Obj x_529 = null; Obj x_530 = null; Obj x_531 = null; Obj x_532 = null; Obj x_548 = null; Obj x_549 = null; Obj x_550 = null; Obj x_551 = null; Obj x_552 = null; Obj x_568 = null; Obj x_569 = null; Obj x_570 = null; Obj x_571 = null; Obj x_587 = null; Obj x_588 = null; Obj x_589 = null; Obj x_590 = null; Obj x_591 = null; Obj x_607 = null; Obj x_608 = null; Obj x_609 = null; Obj x_610 = null; Obj x_626 = null; Obj x_627 = null; Obj x_628 = null; Obj x_629 = null; Obj x_630 = null; Obj x_646 = null; Obj x_647 = null; Obj x_648 = null; Obj x_649 = null; Obj x_665 = null; Obj x_666 = null; Obj x_667 = null; Obj x_668 = null; Obj x_669 = null; Obj x_685 = null; Obj x_686 = null; Obj x_687 = null; Obj x_688 = null; Obj x_704 = null; Obj x_705 = null; Obj x_706 = null; Obj x_707 = null; Obj x_708 = null; Obj x_724 = null; Obj x_725 = null; Obj x_726 = null; Obj x_727 = null; Obj x_743 = null; Obj x_744 = null; Obj x_745 = null; Obj x_746 = null; Obj x_747 = null; Obj x_763 = null; Obj x_764 = null; Obj x_765 = null; Obj x_766 = null; Obj x_782 = null; Obj x_783 = null; Obj x_784 = null; Obj x_785 = null; Obj x_786 = null; Obj x_802 = null; Obj x_803 = null; Obj x_821 = null; Obj x_822 = null; Obj x_823 = null; 
@@ -10584,6 +10635,7 @@ goto block_801;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_TakeResult_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10631,6 +10683,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseReasonPhrase(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -10769,6 +10822,7 @@ return x_35;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseQuotedString_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -11106,6 +11160,7 @@ return x_22;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_skipLeadingRequestEmptyLines_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -11450,6 +11505,7 @@ return x_44;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_crlf(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -11531,6 +11587,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseFieldLine___lam__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -11580,6 +11637,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_manyItems_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_22 = null; 
@@ -12240,6 +12298,7 @@ return x_2;
 }
 }
 public static Obj l_List_all___at___00__private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseStatusCode_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -12250,6 +12309,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseChunkExt(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_11 = null; Obj x_12 = null; Obj x_17 = null; Obj x_18 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_69 = null; Obj x_73 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_84 = null; byte x_85 = 0; byte x_371 = 0; 
@@ -13978,6 +14038,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__35___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -13987,6 +14048,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseTrailerHeader(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14130,6 +14192,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__25___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14150,6 +14213,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseQuotedString(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -14464,6 +14528,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseFieldLine___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -14474,6 +14539,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseStatusLineRawVersion(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_35 = null; 
@@ -14956,6 +15022,7 @@ return x_2;
 }
 }
 public static Obj l_String_mapAux___at___00__private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_isForbiddenTrailerField_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_9 = null; byte x_10 = 0; 
@@ -15018,6 +15085,7 @@ goto _start;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__24___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -15080,6 +15148,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__32___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -15430,6 +15499,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseMethod___lam__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -15480,6 +15550,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseQuotedPair(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -15699,6 +15770,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseFixedSizeData___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15708,6 +15780,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_isForbiddenTrailerField___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -16181,6 +16254,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseStatusCode(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; 
@@ -16863,6 +16937,7 @@ return x_3;
 }
 }
 public static byte l_List_all___at___00__private_Std_Http_Protocol_H1_Parser_0__Std_Http_Protocol_H1_parseStatusCode_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -17192,6 +17267,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_parseTrailers(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 

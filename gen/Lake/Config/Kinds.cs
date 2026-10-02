@@ -141,6 +141,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Kinds_0__Lake_facetKindForNamespace___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -220,6 +221,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Kinds_0__Lake_facetKindForNamespace(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

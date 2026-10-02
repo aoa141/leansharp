@@ -30,6 +30,7 @@ return x_8;
 }
 }
 public static Obj l_Std_IterM_takeWhileWithPostcondition___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -40,6 +41,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Iterators_Types_TakeWhile_instIteratorLoop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -49,6 +51,7 @@ return x_10;
 }
 }
 public static Obj l_Std_IterM_takeWhile___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -94,6 +97,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Data_Iterators_Combinators_Monadic_TakeWhile_0__Std_Iterators_Types_TakeWhile_instFinitenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -102,6 +106,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Data_Iterators_Combinators_Monadic_TakeWhile_0__Std_Iterators_Types_TakeWhile_instProductivenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -110,6 +115,7 @@ return x_2;
 }
 }
 public static Obj l_Std_IterM_takeWhileM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -129,6 +135,7 @@ return x_7;
 }
 }
 public static Obj l_Std_IterM_takeWhile___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -138,6 +145,7 @@ return x_2;
 }
 }
 public static Obj l_Std_IterM_takeWhileM___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -315,6 +323,7 @@ return x_8;
 }
 }
 public static Obj l_Std_IterM_takeWhileWithPostcondition___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

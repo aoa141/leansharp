@@ -355,7 +355,7 @@ public sealed class InProcessChild : LeanChildProcess
                 m_proc.AppPath = Path.GetFullPath(req.Cmd, ctx.Cwd);
         }
         catch (Exception) { }
-        m_thread = new Thread(() => Run(ctx, main), maxStackSize) { IsBackground = true, Name = "lean child: " + req.CommandName };
+        m_thread = new Thread(() => { LeanRt.lean_declare_thread_stack(maxStackSize); Run(ctx, main); }, maxStackSize) { IsBackground = true, Name = "lean child: " + req.CommandName };
         m_thread.Start();
     }
 

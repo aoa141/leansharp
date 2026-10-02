@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Data_FuzzyMatching {
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo_spec__0_spec__0_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -65,6 +66,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -76,6 +78,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -92,6 +95,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_toInt_x3f(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; byte x_3 = 0; 
@@ -114,6 +118,7 @@ return x_6;
 }
 }
 public static ushort l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_getMiss(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ushort x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; ushort x_14 = 0; 
@@ -137,6 +142,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_skipPenalty___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -166,6 +172,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_FuzzyMatching_fuzzyMatchScore_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -274,6 +281,7 @@ return x_40;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_map___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; Obj x_5 = null; 
@@ -284,6 +292,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -308,6 +317,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_map___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ushort x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -362,6 +372,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_FuzzyMatching_charRole___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -374,6 +385,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -598,6 +610,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharType_lower_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -607,6 +620,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__6_spec__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -615,6 +629,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_FuzzyMatching_fuzzyMatchScoreWithThreshold_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 double x_4 = 0.0; Obj x_5 = null; 
@@ -627,6 +642,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_ofInt16_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; ushort x_3 = 0; Obj x_4 = null; 
@@ -637,6 +653,7 @@ return x_4;
 }
 }
 public static ushort l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_skipPenalty(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_2 == 0)
@@ -683,6 +700,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharRole_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -700,6 +718,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharType_upper_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -726,6 +745,7 @@ return x_14;
 }
 }
 public static byte l_Lean_FuzzyMatching_fuzzyMatch(Obj x_1, Obj x_2, double x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -746,6 +766,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_toInt16_x3f(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; byte x_3 = 0; 
@@ -779,6 +800,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -787,6 +809,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -903,6 +926,7 @@ return x_32;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_map___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; ushort x_11 = 0; ushort x_12 = 0; ushort x_13 = 0; Obj x_14 = null; 
@@ -920,6 +944,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharRole_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -939,6 +964,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_13 = 0; 
@@ -1091,6 +1117,7 @@ return x_1;
 }
 }
 public static ushort l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_map(ushort x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; byte x_4 = 0; 
@@ -1119,6 +1146,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharType_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1237,6 +1265,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharRole_tail_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1256,6 +1285,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1343,6 +1373,7 @@ return x_16;
 }
 }
 public static byte l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_isAwful(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; byte x_3 = 0; 
@@ -1352,6 +1383,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1360,6 +1392,7 @@ return x_2;
 }
 }
 public static byte l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_containsInOrderLower(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1425,6 +1458,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1447,6 +1481,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__6_spec__6___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1524,6 +1559,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharRole_head_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1533,6 +1569,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_13 = 0; 
@@ -1630,6 +1667,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharType_separator_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1651,6 +1689,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_matchResult___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; ushort x_10 = 0; ushort x_11 = 0; Obj x_12 = null; 
@@ -1667,6 +1706,7 @@ return x_12;
 }
 }
 public static ushort l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_map___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, byte x_6, Obj x_7, ushort x_8) {
+lean_stack_probe();
 _start:
 {
 ushort x_9 = 0; byte x_10 = 0; 
@@ -1693,6 +1733,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__5___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -2169,6 +2210,7 @@ return x_1;
 }
 }
 public static ushort l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_Score_map___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, byte x_6, ushort x_7, ushort x_8) {
+lean_stack_probe();
 _start:
 {
 ushort x_9 = 0; ushort x_13 = 0; byte x_14 = 0; 
@@ -2206,6 +2248,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo_spec__0___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2269,6 +2312,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_stringInfo_spec__0___lam__0(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_21 = null; 
@@ -2576,6 +2620,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_FuzzyMatching_CharRole_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2587,6 +2632,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_FuzzyMatching_charType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -2681,6 +2727,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2693,6 +2740,7 @@ return x_5;
 }
 }
 public static byte l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_containsInOrderLower_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2863,6 +2911,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ushort x_5 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; ushort x_18 = 0; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; byte x_32 = 0; byte x_60 = 0; 
@@ -3182,6 +3231,7 @@ goto block_10;
 }
 }
 public static Obj l___private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Init_Data_Range_Basic_0__Std_Legacy_Range_forIn_x27_loop___at___00__private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_fuzzyMatchCore_spec__6_spec__6___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -3400,6 +3450,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Data_FuzzyMatching_0__Lean_FuzzyMatching_iterateLookaround___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 

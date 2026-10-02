@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Impl_Carry {
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_mkOverflowBit_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -18,6 +19,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_mkOverflowBit_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; byte x_19 = 0; Obj x_20 = null; 
@@ -121,6 +123,7 @@ goto block_18;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_mkOverflowBit_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -152,6 +155,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Impl_Carry_0__Std_Tactic_BVDecide_BVExpr_bitblast_mkOverflowBit_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

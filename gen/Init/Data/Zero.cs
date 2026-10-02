@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Zero {
 public static Obj l_One_ofOfNat1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16,6 +17,7 @@ return x_3;
 }
 }
 public static Obj l_Zero_ofOfNat0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -46,6 +48,7 @@ return x_2;
 }
 }
 public static Obj l_nsmulRec___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -56,6 +59,7 @@ return x_6;
 }
 }
 public static Obj l_npowRec___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -84,6 +88,7 @@ return x_2;
 }
 }
 public static Obj l_npowRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -92,6 +97,7 @@ return x_6;
 }
 }
 public static Obj l_nsmulRec___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -102,6 +108,7 @@ return x_5;
 }
 }
 public static Obj l_nsmulRec___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -144,6 +151,7 @@ return x_6;
 }
 }
 public static Obj l_npowRec___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -177,6 +185,7 @@ return x_3;
 }
 }
 public static Obj l_npowRec___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 

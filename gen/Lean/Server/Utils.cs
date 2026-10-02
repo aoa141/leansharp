@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Server_Utils {
 public static Obj l___private_Lean_Server_Utils_0__Lean_Server_externalUriToName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16,6 +17,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IO_throwServerError___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -113,6 +115,7 @@ return x_13;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00__private_Lean_Server_Utils_0__Lean_Server_externalNameToUri_x3f_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -161,6 +164,7 @@ return x_13;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00__private_Lean_Server_Utils_0__Lean_Server_externalNameToUri_x3f_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -170,6 +174,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_moduleFromDocumentUri___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -179,6 +184,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Server_Utils_0__Lean_Server_externalUriToName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -190,6 +196,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Server_mkFileProgressDoneNotification___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -217,6 +224,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Server_mkFileProgressNotification(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -260,6 +268,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_chainRight___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -312,6 +321,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_chainRight___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -340,6 +350,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_mkPublishDiagnosticsNotification(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -364,6 +375,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IO_throwServerError(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -644,6 +656,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Server_mkApplyWorkspaceEditRequest(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -667,6 +680,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Server_documentUriFromModule_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -957,6 +971,7 @@ return x_55;
 }
 }
 public static Obj l_Lean_Server_mkFileProgressAtPosNotification___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1568,6 +1583,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Server_foldDocumentChanges___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1577,6 +1593,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_foldDocumentChanges(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1645,6 +1662,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Server_applyDocumentChange___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1663,6 +1681,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Server_foldDocumentChanges_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1759,6 +1778,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Server_foldDocumentChanges_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1792,6 +1812,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IO_throwServerError___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

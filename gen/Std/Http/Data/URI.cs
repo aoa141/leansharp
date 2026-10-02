@@ -70,6 +70,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_URI_Path_parse_x3f___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -93,6 +94,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_URI_parse_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -102,6 +104,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_port___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; Obj x_3 = null; 
@@ -122,6 +125,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_RequestTarget_parse_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -292,6 +296,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_Path_parseOrRoot___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -313,6 +318,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URIReference_parse_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -322,6 +328,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_RequestTarget_pathOrRoot(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -350,6 +357,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_RequestTarget_parse_x3f___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -442,6 +450,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_Path_parse_x3f___lam__0(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -515,6 +524,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_URI_Path_parse_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -651,6 +661,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Http_URI_parse_x3f___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -724,6 +735,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_RequestTarget_originForm_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -733,6 +745,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_RequestTarget_originForm_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -883,6 +896,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_parse_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -909,6 +923,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_RequestTarget_parse_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -993,6 +1008,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_RequestTarget_setQueryParam___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

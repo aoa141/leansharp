@@ -26,6 +26,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableByteSliceNat__5___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -50,6 +51,7 @@ return x_9;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__6___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -59,6 +61,7 @@ return x_3;
 }
 }
 public static Obj l_instSliceableByteSliceNat__3___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -89,6 +92,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteSliceNat__7___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -118,6 +122,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteSliceNat__8___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -127,6 +132,7 @@ return x_3;
 }
 }
 public static Obj l_instSliceableByteSliceNat__4___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -213,6 +219,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__8___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -233,6 +240,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteSliceNat__2___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -279,6 +287,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Data_ByteSlice_0__ByteSlice_foldrM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -306,6 +315,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteSliceNat___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -325,6 +335,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Data_ByteSlice_0__ByteSlice_contains_loop___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -336,6 +347,7 @@ return x_6;
 }
 }
 public static Obj l_ByteSlice_stop___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -345,6 +357,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Data_ByteSlice_0__ByteSlice_forM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -353,6 +366,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Data_ByteSlice_0__ByteSlice_forM_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -398,6 +412,7 @@ return x_16;
 }
 }
 public static Obj l_ByteSlice_getD___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -410,6 +425,7 @@ return x_6;
 }
 }
 public static Obj l_instSliceableByteSliceNat__6___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -429,6 +445,7 @@ return x_2;
 }
 }
 public static Obj l_ByteSlice_foldrM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -438,6 +455,7 @@ return x_6;
 }
 }
 public static Obj l_ByteSlice_foldr(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -450,6 +468,7 @@ return x_8;
 }
 }
 public static Obj l_ByteSlice_foldrM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -459,6 +478,7 @@ return x_8;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__6___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -483,6 +503,7 @@ return x_9;
 }
 }
 public static Obj l_ByteSlice_get_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -514,6 +535,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Data_ByteSlice_0__ByteSlice_foldrM_loop___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -532,6 +554,7 @@ return x_6;
 }
 }
 public static Obj l_ByteSlice_get___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -601,6 +624,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_14 = 0; 
@@ -687,6 +711,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__1___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_12 = 0; 
@@ -730,6 +755,7 @@ return x_10;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__7___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -773,6 +799,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableByteSliceNat___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_14 = 0; 
@@ -820,6 +847,7 @@ return x_12;
 }
 }
 public static byte l_ByteSlice_contains(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -858,6 +886,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteSliceNat__7___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -901,6 +930,7 @@ return x_1;
 }
 }
 public static byte l_ByteSlice_instGetElemNatUInt8LtSize___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -938,6 +968,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__3___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_14 = null; byte x_15 = 0; 
@@ -981,6 +1012,7 @@ return x_12;
 }
 }
 public static byte l___private_Std_Data_ByteSlice_0__ByteSlice_contains_loop(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1015,6 +1047,7 @@ return x_5;
 }
 }
 public static byte l_ByteSlice_get_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1036,6 +1069,7 @@ return x_6;
 }
 }
 public static Obj l_ByteSlice_foldr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1116,6 +1150,7 @@ return x_4;
 }
 }
 public static Obj l_instSliceableByteSliceNat__1___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1135,6 +1170,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableByteSliceNat__3___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_14 = null; byte x_15 = 0; 
@@ -1179,6 +1215,7 @@ return x_12;
 }
 }
 public static Obj l_instSliceableByteSliceNat__1___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_12 = 0; 
@@ -1254,6 +1291,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__4___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -1300,6 +1338,7 @@ return x_10;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__5___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1762,6 +1801,7 @@ return x_5;
 }
 }
 public static Obj l_instSliceableByteArrayNatByteSlice__2___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 

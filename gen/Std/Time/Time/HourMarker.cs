@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instReprHourMarker_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -61,6 +62,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_HourMarker_pm_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -105,6 +107,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_HourMarker_am_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -115,6 +118,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_instOrdHourMarker___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -192,6 +196,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instDecidableEqHourMarker___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -203,6 +208,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_HourMarker_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -271,6 +277,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_HourMarker_toAbsolute(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -314,6 +321,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Time_HourMarker_pm_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -360,6 +368,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_HourMarker_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -508,6 +517,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_instReprHourMarker_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; 
@@ -645,6 +655,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_HourMarker_ofOrdinal___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

@@ -64,6 +64,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Subarray_0__Subarray_findSomeRevM_x3f_find(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -72,6 +73,7 @@ return x_9;
 }
 }
 public static Obj l_Subarray_all___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -163,6 +165,7 @@ return x_21;
 }
 }
 public static Obj l_Subarray_allM___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -173,6 +176,7 @@ return x_6;
 }
 }
 public static Obj l_Subarray_getD(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -236,6 +240,7 @@ return x_1;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Subarray______macroRules__Array__term_____x5b___x3a___x5d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -300,6 +305,7 @@ return x_2;
 }
 }
 public static Obj l_Subarray_get_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -422,6 +428,7 @@ return x_3;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Subarray______macroRules__Array__term_____x5b_x3a___x5d__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -431,6 +438,7 @@ return x_4;
 }
 }
 public static Obj l_Subarray_findRevM_x3f___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -468,6 +476,7 @@ return x_6;
 }
 }
 public static Obj l_Subarray_instEmptyCollection(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -476,6 +485,7 @@ return x_2;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Subarray______macroRules__Array__term_____x5b_x3a___x5d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -535,6 +545,7 @@ return x_30;
 }
 }
 public static Obj l_Subarray_get_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -567,6 +578,7 @@ return x_1;
 }
 }
 public static Obj l_Subarray_allM___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -586,6 +598,7 @@ return x_1;
 }
 }
 public static Obj l_Subarray_getD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -632,6 +645,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Subarray_0__Subarray_findSomeRevM_x3f_find___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -691,6 +705,7 @@ return x_3;
 }
 }
 public static Obj l_Subarray_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -708,6 +723,7 @@ return x_4;
 }
 }
 public static Obj l_Array_toSubarray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -878,6 +894,7 @@ return x_2;
 }
 }
 public static Obj l_Subarray_any___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -901,6 +918,7 @@ return x_5;
 }
 }
 public static Obj l_Subarray_all___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -910,6 +928,7 @@ return x_5;
 }
 }
 public static byte l_Subarray_any___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1043,6 +1062,7 @@ return x_7;
 }
 }
 public static Obj l_Subarray_all___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1313,6 +1333,7 @@ return x_15;
 }
 }
 public static Obj l_Subarray_instGetElemNatLtSizeSubarrayData___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1330,6 +1351,7 @@ return x_2;
 }
 }
 public static Obj l_Subarray_instSliceSizeSubarrayData___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1389,6 +1411,7 @@ return x_1;
 }
 }
 public static Obj l_Subarray_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1576,6 +1599,7 @@ return x_5;
 }
 }
 public static Obj l_Subarray_start___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1604,6 +1628,7 @@ return x_1;
 }
 }
 public static Obj l_Subarray_get___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1659,6 +1684,7 @@ return x_1;
 }
 }
 public static Obj l_Subarray_instGetElemNatLtSizeSubarrayData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1995,6 +2021,7 @@ return x_2;
 }
 }
 public static Obj l_Subarray_get_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2006,6 +2033,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Subarray_0__Subarray_findSomeRevM_x3f_find___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2015,6 +2043,7 @@ return x_7;
 }
 }
 public static Obj l_Subarray_empty(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2353,6 +2382,7 @@ return x_2;
 }
 }
 public static Obj l_Subarray_instSliceSizeSubarrayData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2372,6 +2402,7 @@ return x_2;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Subarray______macroRules__Array__term_____x5b___x3a_x5d__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3060,6 +3091,7 @@ return x_3;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Subarray______macroRules__Array__term_____x5b___x3a_x5d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3230,6 +3262,7 @@ return x_4;
 }
 }
 public static Obj l_Subarray_array___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

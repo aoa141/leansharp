@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Internal_UV_Loop {
 public static Obj l_Std_Internal_UV_Loop_configure___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15,6 +16,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_UV_Loop_alive___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Internal_Order_Basic {
 public static Obj l_Lean_Order_instCCPOProd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33,6 +34,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order_instCCPOESTOfNonempty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -41,6 +43,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_FlatOrder_instOrder___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -104,6 +107,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Order_instPartialOrderStateT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -121,6 +125,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_instCompleteLatticePProd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -183,6 +188,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order_FlatOrder_inner___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -241,6 +247,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Order_instCCPOPi___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -274,6 +281,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_instPartialOrderStateRefT_x27___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -282,6 +290,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_FlatOrder_instOrder___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -352,6 +361,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order_instCCPOIO___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -384,6 +394,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order___aux__Init__Internal__Order__Basic______unexpand__Lean__Order__bot__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -431,6 +442,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Order___aux__Init__Internal__Order__Basic______macroRules__Lean__Order__term___u2291____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -513,6 +525,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_FlatOrder_inner___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -522,6 +535,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order___aux__Init__Internal__Order__Basic______unexpand__Lean__Order__PartialOrder__rel__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -555,6 +569,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_instCompleteLatticePi___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -624,6 +639,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Order_instOrderPi___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -659,6 +675,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_instCCPOStateT___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -759,6 +776,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Order_instCCPOPProd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -823,6 +841,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Order_instOrderPi___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -861,6 +880,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_FlatOrder_instCCPO___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -903,6 +923,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Order_instCCPOOption___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1060,6 +1081,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Order___aux__Init__Internal__Order__Basic______macroRules__Lean__Order__term_u22a5__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1127,6 +1149,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_FlatOrder_mk___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

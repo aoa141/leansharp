@@ -37,6 +37,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_resourceVanished_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -75,6 +76,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_unexpectedEof_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -93,6 +95,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_unsupportedOperation_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -101,6 +104,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_mkAlreadyExists___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -121,6 +125,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_resourceExhausted_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -129,6 +134,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_mkPermissionDenied___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -139,6 +145,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Error_otherError_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -157,6 +164,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_otherErrorToString___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -167,6 +175,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_unsupportedOperation_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -175,6 +184,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_protocolError_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -193,6 +203,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_noFileOrDirectory_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -201,6 +212,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_permissionDenied_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -209,6 +221,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_otherErrorToString(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -250,6 +263,7 @@ return x_24;
 }
 }
 public static Obj l_IO_Error_resourceBusy_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -258,6 +272,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_alreadyExists_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -276,6 +291,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_fopenErrorToString___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -287,6 +303,7 @@ return x_6;
 }
 }
 public static Obj l_IO_Error_unsatisfiedConstraints_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -295,6 +312,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_alreadyExists_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -303,6 +321,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_mkPermissionDeniedFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -313,6 +332,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_mkNoSuchThingFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -323,6 +343,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_protocolError_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -341,6 +362,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_interrupted_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -349,6 +371,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_mkHardwareFault___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -431,6 +454,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Error_otherError_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -449,6 +473,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_noFileOrDirectory_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -470,6 +495,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_inappropriateType_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -478,6 +504,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_noSuchThing_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -506,6 +533,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_mkResourceExhaustedFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -637,6 +665,7 @@ return x_20;
 }
 }
 public static Obj l_IO_Error_mkTimeExpired___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -647,6 +676,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Error_resourceBusy_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -665,6 +695,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_unexpectedEof_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -673,6 +704,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_illegalOperation_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -711,6 +743,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Error_hardwareFault_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -738,6 +771,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_userError_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -746,6 +780,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_permissionDenied_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -754,6 +789,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_mkOtherError___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -764,6 +800,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Error_mkIllegalOperation___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -805,6 +842,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_invalidArgument_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -813,6 +851,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_timeExpired_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -821,6 +860,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_mkInvalidArgumentFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -831,6 +871,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_mkInappropriateType___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -841,6 +882,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Error_mkInvalidArgument___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -861,6 +903,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_fopenErrorToString(Obj x_1, Obj x_2, uint x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -944,6 +987,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Error_resourceVanished_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -952,6 +996,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_mkEofError___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -960,6 +1005,7 @@ return x_2;
 }
 }
 public static Obj l_IO_Error_resourceExhausted_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -968,6 +1014,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_invalidArgument_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1022,6 +1069,7 @@ return x_2;
 }
 }
 public static Obj l_IO_Error_noSuchThing_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1175,6 +1223,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_mkAlreadyExistsFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -1185,6 +1234,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Error_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1968,6 +2018,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Error_mkInappropriateTypeFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -2025,6 +2076,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Error_mkInterrupted___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 

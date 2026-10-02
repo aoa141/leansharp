@@ -50,6 +50,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Iter_take___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

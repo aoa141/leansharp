@@ -657,7 +657,8 @@ public static unsafe partial class LeanRt
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static Obj lean_alloc_closure(void* fun, uint arity, uint num_fixed)
     {
-        LeanHeartbeats.t_count++;
+        // (no heartbeat: natively closures, arrays and strings come from `lean_alloc_object`,
+        // which does not count; see `LeanHeartbeats`)
         return new Closure
         {
             m_tag = LeanClosure,
@@ -681,6 +682,7 @@ public static unsafe partial class LeanRt
 
     public static Obj lean_st_mk_ref(Obj a)
     {
+        LeanHeartbeats.t_count++;
         var r = new RefObj { m_tag = LeanRef, m_value = a };
         if (LeanGlobalRefs.Recording) LeanGlobalRefs.Register(r);
         return r;
@@ -711,6 +713,7 @@ public static unsafe partial class LeanRt
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static Obj lean_io_result_mk_ok(Obj a)
     {
+        LeanHeartbeats.t_count++; // `lean_alloc_ctor`
         var r = new Ctor1 { m_tag = 0, m_other = 1, f0 = a };
         return r;
     }
@@ -718,6 +721,7 @@ public static unsafe partial class LeanRt
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static Obj lean_io_result_mk_error(Obj e)
     {
+        LeanHeartbeats.t_count++; // `lean_alloc_ctor`
         var r = new Ctor1 { m_tag = 1, m_other = 1, f0 = e };
         return r;
     }

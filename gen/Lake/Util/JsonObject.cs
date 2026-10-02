@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_JsonObject {
 public static Obj l_Std_DTreeMap_Internal_Impl_insert_x21___at___00Lake_JsonObject_insertJson_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1772,6 +1773,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_JsonObject_getAs(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1849,6 +1851,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_JsonObject_getJson_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1881,6 +1884,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_erase_x21___at___00Lake_JsonObject_erase_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1898,6 +1902,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_JsonObject_get___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1937,6 +1942,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_JsonObject_getJson_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1977,6 +1983,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_JsonObject_mk___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1995,6 +2002,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_JsonObject_get_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2004,6 +2012,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_JsonObject_getAs_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2013,6 +2022,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00Lake_JsonObject_getJson_x3f_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2053,6 +2063,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_JsonObject_erase(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2071,6 +2082,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_JsonObject_getAs_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2160,6 +2172,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_JsonObject_getAs___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2247,6 +2260,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_JsonObject_contains___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2265,6 +2279,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_JsonObject_getAs_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2490,6 +2505,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_erase_x21___at___00Lake_JsonObject_erase_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5764,6 +5780,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_JsonObject_get___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5888,6 +5905,7 @@ return x_4;
 }
 }
 public static byte l_Lake_JsonObject_contains(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 

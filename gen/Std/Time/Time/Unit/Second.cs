@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_Time_Unit_Second {
 public static Obj l_Std_Time_Second_instDecidableLtOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -38,6 +39,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Second_instReprOrdinal(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -110,6 +112,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Second_instDecidableLtOrdinal___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -130,6 +133,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_instReprOffset___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -172,6 +176,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_instLEOrdinal___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -180,6 +185,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_instOfNatOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -196,6 +202,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Second_instReprOffset___aux__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -366,6 +373,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Second_instDecidableEqOrdinal___aux__1___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -411,6 +419,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_Ordinal_ofInt___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -488,6 +497,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_Ordinal_ofInt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -509,6 +519,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_instOrdOrdinal___aux__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -624,6 +635,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Second_instDecidableLeOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -645,6 +657,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Second_instDecidableLtOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -681,6 +694,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_instOrdOrdinal___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -690,6 +704,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Second_instDecidableEqOrdinal___aux__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -702,6 +717,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Second_instDecidableEqOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -922,6 +938,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Second_instOrdOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1081,6 +1098,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Second_instLTOrdinal___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

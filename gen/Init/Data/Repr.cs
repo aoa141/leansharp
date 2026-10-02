@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Repr {
 public static Obj l_Prod_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -84,6 +85,7 @@ return x_2;
 }
 }
 public static Obj l_instReprDecidable___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -92,6 +94,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_toDigitsCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -111,6 +114,7 @@ return x_1;
 }
 }
 public static Obj l_instReprId___aux__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -130,6 +134,7 @@ return x_1;
 }
 }
 public static Obj l_instReprString___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -181,6 +186,7 @@ return x_1;
 }
 }
 public static Obj l_List_repr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -190,6 +196,7 @@ return x_5;
 }
 }
 public static Obj l_instReprULift___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -236,6 +243,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Repr_0__Char_quoteCore_smallCharToHex___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -285,6 +293,7 @@ return x_1;
 }
 }
 public static Obj l_instReprId__1___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -294,6 +303,7 @@ return x_3;
 }
 }
 public static Obj l_String_quote(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -318,6 +328,7 @@ return x_7;
 }
 }
 public static Obj l_Decidable_repr(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -326,6 +337,7 @@ return x_4;
 }
 }
 public static Obj l_hexDigitRepr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; Obj x_4 = null; 
@@ -352,6 +364,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_toSuperscriptString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -382,6 +395,7 @@ return x_3;
 }
 }
 public static Obj l_List_repr_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -420,6 +434,7 @@ return x_1;
 }
 }
 public static Obj l_String_quote___lam__0(byte x_1, Obj x_2, uint x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -531,6 +546,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_toSuperDigits(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -540,6 +556,7 @@ return x_3;
 }
 }
 public static Obj l_Option_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -568,6 +585,7 @@ return x_1;
 }
 }
 public static Obj l_Decidable_repr___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -600,6 +618,7 @@ return x_2;
 }
 }
 public static Obj l_Bool_repr___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -659,6 +678,7 @@ return x_6;
 }
 }
 public static Obj l_instReprUInt64___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -670,6 +690,7 @@ return x_4;
 }
 }
 public static Obj l_instReprUInt16___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; Obj x_4 = null; 
@@ -702,6 +723,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_toDigits___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -711,6 +733,7 @@ return x_3;
 }
 }
 public static Obj l_Prod_repr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_28 = 0; 
@@ -807,6 +830,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_reprFast(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -846,6 +870,7 @@ return x_12;
 }
 }
 public static Obj l_List_mapTR_loop___at___00__private_Init_Data_Repr_0__Nat_reprArray_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -920,6 +945,7 @@ return x_3;
 }
 }
 public static Obj l_Sigma_repr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -971,6 +997,7 @@ return x_2;
 }
 }
 public static Obj l_Option_repr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -980,6 +1007,7 @@ return x_4;
 }
 }
 public static Obj l_List_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1023,6 +1051,7 @@ return x_7;
 }
 }
 public static Obj l_Sigma_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1053,6 +1082,7 @@ return x_1;
 }
 }
 public static Obj l_instReprSourceInfo_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1481,6 +1511,7 @@ return x_50;
 }
 }
 public static Obj l_instReprDecidable(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1512,6 +1543,7 @@ return x_6;
 }
 }
 public static Obj l_instReprRaw___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1521,6 +1553,7 @@ return x_3;
 }
 }
 public static Obj l_instReprChar___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -1551,6 +1584,7 @@ return x_3;
 }
 }
 public static Obj l_Char_quoteCore___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -1601,6 +1635,7 @@ return x_1;
 }
 }
 public static Obj l_Bool_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1652,6 +1687,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_toDigitsCore(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -1723,6 +1759,7 @@ return x_5;
 }
 }
 public static Obj l_Sum_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1953,6 +1990,7 @@ return x_2;
 }
 }
 public static Obj l_Char_quote(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2003,6 +2041,7 @@ return x_7;
 }
 }
 public static Obj l_Repr_addAppParen___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2032,6 +2071,7 @@ return x_1;
 }
 }
 public static Obj l_instReprNat___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2059,6 +2099,7 @@ return x_4;
 }
 }
 public static Obj l_List_repr___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2117,6 +2158,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_toSubDigits(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2218,6 +2260,7 @@ return x_1;
 }
 }
 public static Obj l_instReprRaw___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2236,6 +2279,7 @@ return x_8;
 }
 }
 public static Obj l_List_repr_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2255,6 +2299,7 @@ return x_3;
 }
 }
 public static Obj l_List_repr_x27___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2290,6 +2335,7 @@ return x_13;
 }
 }
 public static Obj l_instReprUnit___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2421,6 +2467,7 @@ return x_6;
 }
 }
 public static Obj l_Sum_repr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2449,6 +2496,7 @@ return x_3;
 }
 }
 public static Obj l_instReprFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2659,6 +2707,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_toSuperDigitsAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; uint x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -2796,6 +2845,7 @@ return x_1;
 }
 }
 public static Obj l_Bool_repr___redArg(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -2813,6 +2863,7 @@ return x_3;
 }
 }
 public static Obj l_instReprFin___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2833,6 +2884,7 @@ return x_2;
 }
 }
 public static Obj l_Sigma_repr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_25 = 0; 
@@ -2975,6 +3027,7 @@ return x_3;
 }
 }
 public static Obj l_Sum_repr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3044,6 +3097,7 @@ return x_2;
 }
 }
 public static Obj l_instReprUSize___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -3055,6 +3109,7 @@ return x_4;
 }
 }
 public static Obj l_USize_repr___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -3118,6 +3173,7 @@ return x_12;
 }
 }
 public static Obj l_instReprUnit___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3275,6 +3331,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_subDigitChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -3303,6 +3360,7 @@ return x_1;
 }
 }
 public static Obj l_instReprPUnit___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3330,6 +3388,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_toSubDigitsAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; uint x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -3500,6 +3559,7 @@ return x_3;
 }
 }
 public static Obj l_instReprId__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3536,6 +3596,7 @@ return x_3;
 }
 }
 public static Obj l_Char_quoteCore(uint x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; uint x_16 = 0; byte x_17 = 0; 

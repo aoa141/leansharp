@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Util_PtrSet {
 public static Obj l_Lean_PtrMap_find_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16,6 +17,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instHashablePtr___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -26,6 +28,7 @@ return x_3;
 }
 }
 public static byte l_Lean_PtrMap_contains___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -36,6 +39,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_mkPtrMap(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -44,6 +48,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instBEqPtr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -52,6 +57,7 @@ return x_2;
 }
 }
 public static byte l_Lean_PtrSet_contains___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -70,6 +76,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instBEqPtr___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -87,6 +94,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PtrSet_insert___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -98,6 +106,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PtrSet_contains___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -108,6 +117,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PtrMap_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -136,6 +146,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkPtrSet(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -174,6 +185,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_PtrMap_find_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -193,6 +205,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PtrMap_insert___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -203,6 +216,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PtrMap_insert(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -213,6 +227,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_instBEqPtr___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -224,6 +239,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PtrMap_find_x3f___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -279,6 +295,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_PtrMap_find_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -289,6 +306,7 @@ return x_5;
 }
 }
 public static byte l_Lean_PtrSet_contains(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 

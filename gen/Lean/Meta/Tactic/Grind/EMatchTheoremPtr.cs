@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_EMatchTheoremPtr {
 public static Obj l_Lean_Meta_Grind_isSameEMatchTheoremPtr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -50,6 +51,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_instBEqEMatchTheoremPtr___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -122,6 +124,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_hashEMatchTheoremPtr_unsafe__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 

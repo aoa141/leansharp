@@ -28,6 +28,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Meta_Match_toPattern_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_17 = 0; 
@@ -79,6 +80,7 @@ return x_13;
 }
 }
 public static Obj l_List_filterTR_loop___at___00Lean_Meta_Match_Alt_replaceFVarId_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -151,6 +153,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_Meta_Match_withGoalOf_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -159,6 +162,7 @@ return x_9;
 }
 }
 public static Obj l_List_any___at___00Lean_Meta_Match_Alt_isLocalDecl_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -170,6 +174,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instantiateLocalDeclMVars___at___00Lean_Meta_Match_instantiateAltLHSMVars_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -179,6 +184,7 @@ return x_4;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_toPattern_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -292,6 +298,7 @@ return x_23;
 }
 }
 public static Obj l_List_mapM_loop___at___00__private_Lean_Meta_Match_Basic_0__Lean_Meta_Match_Pattern_toExpr_visit_spec__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -405,6 +412,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_Meta_Match_Example_toMessageData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -530,6 +538,7 @@ return x_35;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_val_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -558,6 +567,7 @@ return x_1;
 }
 }
 public static Obj l_List_forM___at___00Lean_Meta_Match_AltLHS_collectFVars_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -592,6 +602,7 @@ return x_12;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_instantiatePatternMVars_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -715,6 +726,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Example_replaceFVarId_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -798,6 +810,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Pattern_toMessageData_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -901,6 +914,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Match_Example_arrayLit_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -909,6 +923,7 @@ return x_5;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Meta_Match_Alt_toMessageData_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -918,6 +933,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Match_counterExamplesToMessageData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -930,6 +946,7 @@ return x_6;
 }
 }
 public static Obj l_List_forM___at___00Lean_Meta_Match_Pattern_collectFVars_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -964,6 +981,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_ctor_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -972,6 +990,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_collectFVars___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1071,6 +1090,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Example_applyFVarSubst_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1080,6 +1100,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_val_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1101,6 +1122,7 @@ return x_10;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_Problem_toMessageData_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1123,6 +1145,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Match_Problem_toMessageData___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1308,6 +1331,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_var_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1316,6 +1340,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_instantiatePatternMVars(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -2060,6 +2085,7 @@ return x_152;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Meta_Match_Pattern_toMessageData_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2164,6 +2190,7 @@ return x_5;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Meta_Match_Alt_toMessageData_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2210,6 +2237,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Alt_toMessageData_spec__4(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2286,6 +2314,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Match_Problem_toMessageData___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2298,6 +2327,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_ctor_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2306,6 +2336,7 @@ return x_5;
 }
 }
 public static Obj l_List_any___at___00Lean_Meta_Match_Pattern_hasExprMVar_spec__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2316,6 +2347,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_Problem_toMessageData_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2448,6 +2480,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_Meta_Match_examplesToMessageData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2459,6 +2492,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Alt_replaceFVarId_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2540,6 +2574,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2549,6 +2584,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Match_Example_applyFVarSubst(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -2709,6 +2745,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Meta_Match_toPattern_spec__1(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -2786,6 +2823,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Meta_Match_instantiateAltLHSMVars___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2807,6 +2845,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_instantiateAltLHSMVars_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2827,6 +2866,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Match_withGoalOf___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2839,6 +2879,7 @@ return x_9;
 }
 }
 public static Obj l_List_any___at___00Lean_Meta_Match_Pattern_hasExprMVar_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2849,6 +2890,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_arrayLit_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2857,6 +2899,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_Alt_replaceFVarId(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_23 = 0; 
@@ -2943,6 +2986,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Example_varsToUnderscore_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3035,6 +3079,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_arrayLit_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3043,6 +3088,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instantiateLocalDeclMVars___at___00Lean_Meta_Match_instantiateAltLHSMVars_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3244,6 +3290,7 @@ return x_42;
 }
 }
 public static Obj l_Lean_Meta_Match_AltLHS_collectFVars___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3257,6 +3304,7 @@ return x_8;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00Lean_Meta_Match_isCongrEqnReservedNameSuffix_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3284,6 +3332,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_Example_replaceFVarId___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3313,6 +3362,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Alt_toMessageData_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3391,6 +3441,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_applyFVarSubst(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -3714,6 +3765,7 @@ goto _start;
 }
 }
 public static byte l_Lean_Meta_Match_isCongrEqnReservedNameSuffix(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3737,6 +3789,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Match_Alt_isLocalDecl___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3768,6 +3821,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_hasExprMVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3778,6 +3832,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_Problem_toMessageData(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -3810,6 +3865,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Match_toPattern(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_23 = null; 
@@ -4617,6 +4673,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Meta_withExistingLocalDecls___at___00Lean_Meta_Match_Alt_toMessageData_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4629,6 +4686,7 @@ return x_8;
 }
 }
 public static byte l_Lean_Meta_Match_Alt_isLocalDecl(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -4638,6 +4696,7 @@ return x_4;
 }
 }
 public static byte l_List_any___at___00Lean_Meta_Match_Pattern_hasExprMVar_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4785,6 +4844,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Meta_Match_instantiatePatternMVars_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4819,6 +4879,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Match_Example_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4861,6 +4922,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00Lean_Meta_Match_withGoalOf_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4873,6 +4935,7 @@ return x_8;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_counterExamplesToMessageData_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4945,6 +5008,7 @@ return x_7;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00Lean_Meta_Match_isCongrEqnReservedNameSuffix_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -5015,6 +5079,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_instantiatePatternMVars_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5080,6 +5145,7 @@ goto _start;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_Problem_toMessageData_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -5092,6 +5158,7 @@ return x_8;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Alt_applyFVarSubst_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5165,6 +5232,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Meta_Match_Pattern_hasExprMVar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -5233,6 +5301,7 @@ return x_16;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_instantiateAltLHSMVars_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5567,6 +5636,7 @@ return x_38;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_Meta_Match_Alt_toMessageData_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5608,6 +5678,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Meta_Match_instantiatePatternMVars_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5755,6 +5826,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_collectFVars(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -5879,6 +5951,7 @@ return x_37;
 }
 }
 public static Obj l_Lean_Meta_Match_Alt_applyFVarSubst(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_21 = 0; 
@@ -5951,6 +6024,7 @@ return x_17;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Alt_replaceFVarId_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6027,6 +6101,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Meta_Match_Basic_0__Lean_Meta_Match_Pattern_toExpr_visit(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -6424,6 +6499,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Meta_Match_instantiatePatternMVars_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6443,6 +6519,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_withExistingLocalDecls___at___00Lean_Meta_Match_Alt_toMessageData_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -6475,6 +6552,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_examplesToMessageData_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6536,6 +6614,7 @@ goto _start;
 }
 }
 public static byte l_List_any___at___00Lean_Meta_Match_Alt_isLocalDecl_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6565,6 +6644,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Match_withGoalOf(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -6587,6 +6667,7 @@ return x_10;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Alt_applyFVarSubst_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6680,6 +6761,7 @@ return x_5;
 }
 }
 public static Obj l_List_forM___at___00Lean_Meta_Match_Pattern_collectFVars_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6734,6 +6816,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_toMessageData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -7017,6 +7100,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_Example_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7056,6 +7140,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Example_applyFVarSubst_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7244,6 +7329,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Pattern_applyFVarSubst_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7318,6 +7404,7 @@ return x_8;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Alt_replaceFVarId_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -7425,6 +7512,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Match_withGoalOf___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -7436,6 +7524,7 @@ return x_9;
 }
 }
 public static byte l_List_any___at___00Lean_Meta_Match_Pattern_hasExprMVar_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7463,6 +7552,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Meta_Match_Example_toMessageData_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7527,6 +7617,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_inaccessible_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7547,6 +7638,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Match_Alt_toMessageData___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7572,6 +7664,7 @@ return x_8;
 }
 }
 public static Obj l_List_forM___at___00Lean_Meta_Match_AltLHS_collectFVars_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -7654,6 +7747,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_as_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7873,6 +7967,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_inaccessible_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7892,6 +7987,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_as_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7925,6 +8021,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7952,6 +8049,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Match_Pattern_var_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8023,6 +8121,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Match_AltLHS_collectFVars(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -8110,6 +8209,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapM_loop___at___00Lean_Meta_Match_Problem_toMessageData_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -8242,6 +8342,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Alt_applyFVarSubst_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8489,6 +8590,7 @@ return x_24;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Example_toMessageData_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -8549,6 +8651,7 @@ goto _start;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Meta_Match_Pattern_applyFVarSubst_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8622,6 +8725,7 @@ return x_1;
 }
 }
 public static Obj l_List_forM___at___00Lean_Meta_Match_AltLHS_collectFVars_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

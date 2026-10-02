@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_Bootstrap {
 public static Obj l_String_Internal_append___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24,6 +25,7 @@ return x_2;
 }
 }
 public static Obj l_String_Internal_pushn___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -34,6 +36,7 @@ return x_5;
 }
 }
 public static Obj l_Substring_Raw_Internal_get___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -43,6 +46,7 @@ return x_4;
 }
 }
 public static Obj l_String_Internal_contains___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -54,6 +58,7 @@ return x_5;
 }
 }
 public static Obj l_String_Internal_intercalate___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -62,6 +67,7 @@ return x_3;
 }
 }
 public static Obj l_String_Internal_nextWhile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -70,6 +76,7 @@ return x_4;
 }
 }
 public static Obj l_Substring_Raw_Internal_all___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -106,6 +113,7 @@ return x_3;
 }
 }
 public static Obj l_Substring_Raw_Internal_isEmpty___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -124,6 +132,7 @@ return x_4;
 }
 }
 public static Obj l_String_Internal_isEmpty___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -133,6 +142,7 @@ return x_3;
 }
 }
 public static Obj l_String_Internal_drop___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -141,6 +151,7 @@ return x_3;
 }
 }
 public static Obj l_String_Internal_any___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -150,6 +161,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_Raw_Internal_min___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -158,6 +170,7 @@ return x_3;
 }
 }
 public static Obj l_Substring_Raw_Internal_prev___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -195,6 +208,7 @@ return x_3;
 }
 }
 public static Obj l_String_singleton___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -205,6 +219,7 @@ return x_3;
 }
 }
 public static Obj l_Char_toString(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -214,6 +229,7 @@ return x_3;
 }
 }
 public static Obj l_String_Internal_capitalize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -270,6 +286,7 @@ return x_4;
 }
 }
 public static Obj l_String_Internal_dropRight___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -333,6 +350,7 @@ return x_2;
 }
 }
 public static Obj l_String_singleton(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -358,6 +376,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_Internal_sub___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

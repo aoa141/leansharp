@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_InfoTree_InlayHints {
 public static Obj l_Lean_Elab_InlayHintKind_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -56,6 +57,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_InlayHintLabel_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -65,6 +67,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_InlayHintKind_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -112,6 +115,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Elab_InlayHint_ofCustomInfo_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -138,6 +142,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_InlayHint_resolveDeferred___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -355,6 +360,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_InlayHintKind_type_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -374,6 +380,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_InlayHintKind_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -400,6 +407,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_InlayHintLabel_parts_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -408,6 +416,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_InlayHintLabel_name_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -416,6 +425,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_InlayHintLabel_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -434,6 +444,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_InlayHintKind_type_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 

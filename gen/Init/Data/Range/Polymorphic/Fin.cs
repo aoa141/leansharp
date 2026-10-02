@@ -22,6 +22,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_instLeast_x3fOfNeZeroNat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -61,6 +62,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_instHasSize__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -70,6 +72,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_instHasSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -109,6 +112,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_instHasSize__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -178,6 +182,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_instHasSize__2___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -188,6 +193,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_instUpwardEnumerable___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -255,6 +261,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_instHasSize__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

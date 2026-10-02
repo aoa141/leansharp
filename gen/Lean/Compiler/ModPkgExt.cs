@@ -41,6 +41,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ModuleEnvExtension_instInhabited___aux__1___redArg___lam__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -49,6 +50,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ModuleEnvExtension_instInhabited___aux__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -95,6 +97,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ModuleEnvExtension_instInhabited___aux__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -171,6 +174,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_registerModuleEnvExtension___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -202,6 +206,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_registerModuleEnvExtension___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -211,6 +216,7 @@ return x_6;
 }
 }
 public static Obj lean_get_symbol_stem(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; 
@@ -276,6 +282,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_registerModuleEnvExtension___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -403,6 +410,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ModuleEnvExtension_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -421,6 +429,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_ModPkgExt_0__Lean_initFn___lam__0_00___x40_Lean_Compiler_ModPkgExt_2096304058____hygCtx___hyg_2____boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -429,6 +438,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ModuleEnvExtension_instInhabited___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -504,6 +514,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Environment_getModulePackageByIdx_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -592,6 +603,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ModuleEnvExtension_getStateByIdx_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

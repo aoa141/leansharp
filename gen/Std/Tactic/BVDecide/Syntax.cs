@@ -60,6 +60,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_Tactic_BVDecide_SolverMode_proof_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -70,6 +71,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_Tactic_BVDecide_SolverMode_counterexample_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -90,6 +92,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_Tactic_BVDecide_SolverMode_default_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -116,6 +119,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Tactic_BVDecide_SolverMode_proof_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

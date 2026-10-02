@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_RArray {
 public static Obj l_Lean_RArray_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -16,6 +17,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RArray_getImpl___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -26,6 +28,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instGetElemRArrayNatTrue___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -34,6 +37,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RArray_size___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -43,6 +47,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RArray_size(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -86,6 +91,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RArray_getImpl___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -124,6 +130,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RArray_ctorIdx(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -132,6 +139,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RArray_size___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -149,6 +157,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_instGetElemRArrayNatTrue___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -215,6 +224,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_RArray_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -308,6 +318,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RArray_size___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -366,6 +377,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instGetElemRArrayNatTrue(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

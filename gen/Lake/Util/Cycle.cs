@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_Cycle {
 public static Obj l_Lake_instMonadCycleOfOfMonadLiftOfMonadFunctor___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_14 = 0; 
@@ -120,6 +121,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_formatCycle(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -144,6 +146,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMonadCycleOfMonadCycleOf___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_12 = 0; 
@@ -222,6 +225,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instMonadCallStackOfMonadCallStackOf(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -287,6 +291,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instMonadCycleOfCycleTOfMonad___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -330,6 +335,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_instMonadCycleOfCycleTOfMonad(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -338,6 +344,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMonadCycleOfCycleTOfMonad___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -405,6 +412,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instMonadCallStackOfCallStackTOfMonad(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

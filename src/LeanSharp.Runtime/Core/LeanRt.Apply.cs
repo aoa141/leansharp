@@ -37,6 +37,7 @@ static Obj FixArgs(Obj f, Obj[] a, int off, int n) {
     return r;
 }
 public static Obj lean_apply_1(Obj f, Obj a1) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -83,6 +84,7 @@ if (arity == fixed_ + 1) {
 }
 }
 public static Obj lean_apply_2(Obj f, Obj a1, Obj a2) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -129,6 +131,7 @@ if (arity == fixed_ + 2) {
 }
 }
 public static Obj lean_apply_3(Obj f, Obj a1, Obj a2, Obj a3) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -175,6 +178,7 @@ if (arity == fixed_ + 3) {
 }
 }
 public static Obj lean_apply_4(Obj f, Obj a1, Obj a2, Obj a3, Obj a4) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -221,6 +225,7 @@ if (arity == fixed_ + 4) {
 }
 }
 public static Obj lean_apply_5(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -267,6 +272,7 @@ if (arity == fixed_ + 5) {
 }
 }
 public static Obj lean_apply_6(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -313,6 +319,7 @@ if (arity == fixed_ + 6) {
 }
 }
 public static Obj lean_apply_7(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -359,6 +366,7 @@ if (arity == fixed_ + 7) {
 }
 }
 public static Obj lean_apply_8(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -405,6 +413,7 @@ if (arity == fixed_ + 8) {
 }
 }
 public static Obj lean_apply_9(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8, Obj a9) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); lean_dec(a9); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -451,6 +460,7 @@ if (arity == fixed_ + 9) {
 }
 }
 public static Obj lean_apply_10(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8, Obj a9, Obj a10) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); lean_dec(a9); lean_dec(a10); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -497,6 +507,7 @@ if (arity == fixed_ + 10) {
 }
 }
 public static Obj lean_apply_11(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8, Obj a9, Obj a10, Obj a11) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); lean_dec(a9); lean_dec(a10); lean_dec(a11); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -543,6 +554,7 @@ if (arity == fixed_ + 11) {
 }
 }
 public static Obj lean_apply_12(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8, Obj a9, Obj a10, Obj a11, Obj a12) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); lean_dec(a9); lean_dec(a10); lean_dec(a11); lean_dec(a12); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -589,6 +601,7 @@ if (arity == fixed_ + 12) {
 }
 }
 public static Obj lean_apply_13(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8, Obj a9, Obj a10, Obj a11, Obj a12, Obj a13) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); lean_dec(a9); lean_dec(a10); lean_dec(a11); lean_dec(a12); lean_dec(a13); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -635,6 +648,7 @@ if (arity == fixed_ + 13) {
 }
 }
 public static Obj lean_apply_14(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8, Obj a9, Obj a10, Obj a11, Obj a12, Obj a13, Obj a14) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); lean_dec(a9); lean_dec(a10); lean_dec(a11); lean_dec(a12); lean_dec(a13); lean_dec(a14); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -681,6 +695,7 @@ if (arity == fixed_ + 14) {
 }
 }
 public static Obj lean_apply_15(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8, Obj a9, Obj a10, Obj a11, Obj a12, Obj a13, Obj a14, Obj a15) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); lean_dec(a9); lean_dec(a10); lean_dec(a11); lean_dec(a12); lean_dec(a13); lean_dec(a14); lean_dec(a15); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;
@@ -727,6 +742,7 @@ if (arity == fixed_ + 15) {
 }
 }
 public static Obj lean_apply_16(Obj f, Obj a1, Obj a2, Obj a3, Obj a4, Obj a5, Obj a6, Obj a7, Obj a8, Obj a9, Obj a10, Obj a11, Obj a12, Obj a13, Obj a14, Obj a15, Obj a16) {
+lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)
 if (f.m_tag == LeanBoxTag) { lean_dec(a1); lean_dec(a2); lean_dec(a3); lean_dec(a4); lean_dec(a5); lean_dec(a6); lean_dec(a7); lean_dec(a8); lean_dec(a9); lean_dec(a10); lean_dec(a11); lean_dec(a12); lean_dec(a13); lean_dec(a14); lean_dec(a15); lean_dec(a16); return f; }
 var c = Unsafe.As<Closure>(f);
 int arity = c.m_arity; int fixed_ = c.m_num_fixed;

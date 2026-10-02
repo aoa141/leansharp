@@ -39,6 +39,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_send___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -105,6 +106,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_sendAll(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; 
@@ -138,6 +140,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_sendAll___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -272,6 +275,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Async_Basic_0__Std_Async_EAsync_forIn_loop___at___00Std_Http_Internal_Mock_recvJoined_spec__0___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -280,6 +284,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_instTransportClient___lam__0(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -294,6 +299,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Http_Internal_Mock_Client_tryRecv_x3f_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -344,6 +350,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Client_send(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -533,6 +540,7 @@ return x_31;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_recvJoined___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -541,6 +549,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_new___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -549,6 +558,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_instTransportClient___lam__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -558,6 +568,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_instTransportClient___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -566,6 +577,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Server_recv_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -646,6 +658,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Server_send___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -654,6 +667,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_Http_Internal_Mock_sendAll_spec__0___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -713,6 +727,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_instTransportClient___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -732,6 +747,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Server_tryRecv_x3f(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -836,6 +852,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Async_Basic_0__Std_Async_EAsync_forIn_loop___at___00Std_Http_Internal_Mock_recvJoined_spec__0___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -952,6 +969,7 @@ return x_25;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Server_close___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1001,6 +1019,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_send___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1080,6 +1099,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_instTransportClient___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1106,6 +1126,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_recvJoined___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_6) == 0)
@@ -1376,6 +1397,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Http_Internal_instTransportServer___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -1670,6 +1692,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Client_getRecvChan___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1689,6 +1712,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Client_recv_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1854,6 +1878,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Client_close(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_32 = 0; 
@@ -2112,6 +2137,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_recvJoined___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2120,6 +2146,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Internal_instTransportServer___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -2147,6 +2174,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_Http_Internal_Mock_sendAll_spec__0___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -2168,6 +2196,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Server_recv_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2211,6 +2240,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_instTransportClient___lam__2(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_12 = null; 
@@ -2568,6 +2598,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_Http_Internal_Mock_sendAll_spec__0___lam__0(ulong x_1, Obj x_2, Obj x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -2724,6 +2755,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Internal_Mock_Server_tryRecv_x3f___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2849,6 +2881,7 @@ return x_28;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_Http_Internal_Mock_sendAll_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -3055,6 +3088,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Internal_instTransportServer___lam__0(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -3311,6 +3345,7 @@ return x_9;
 }
 }
 public static Obj l___private_Std_Async_Basic_0__Std_Async_EAsync_forIn_loop___at___00Std_Http_Internal_Mock_recvJoined_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_11 = null; Obj x_12 = null; 

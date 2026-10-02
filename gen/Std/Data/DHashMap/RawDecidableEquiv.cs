@@ -15,6 +15,7 @@ return x_12;
 }
 }
 public static Obj l_Std_DHashMap_Raw_instDecidableEquiv___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 

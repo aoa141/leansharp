@@ -36,6 +36,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_instSmartInsertArrayOfToToml___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -315,6 +316,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_Toml_Table_insertD___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -339,6 +341,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_encodeArray_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -408,6 +411,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instToTomlArray(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -437,6 +441,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_insert___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 

@@ -39,6 +39,7 @@ for n in range(1, MAX + 1):
     params = ", ".join(f"Obj a{i}" for i in range(1, n + 1))
     alist = ", ".join(f"a{i}" for i in range(1, n + 1))
     w(f"public static Obj lean_apply_{n}(Obj f, {params}) {{")
+    w("lean_stack_probe(); // every recursion through closures passes here (see LeanRt.Stack.cs)")
     w("if (f.m_tag == LeanBoxTag) { " + " ".join(f"lean_dec(a{i});" for i in range(1, n + 1)) + " return f; }")
     w("var c = Unsafe.As<Closure>(f);")
     w("int arity = c.m_arity; int fixed_ = c.m_num_fixed;")

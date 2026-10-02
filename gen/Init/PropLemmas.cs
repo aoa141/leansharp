@@ -65,6 +65,7 @@ return x_5;
 }
 }
 public static Obj l_forall__prop__decidable___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -131,6 +132,7 @@ return x_8;
 }
 }
 public static Obj l_decidable__of__bool___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -178,6 +180,7 @@ return x_5;
 }
 }
 public static Obj l_instDecidablePredComp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -211,6 +214,7 @@ return x_1;
 }
 }
 public static Obj l_decidable__of__bool___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -230,6 +234,7 @@ return x_5;
 }
 }
 public static Obj l_Or_by__cases(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -281,6 +286,7 @@ return x_5;
 }
 }
 public static Obj l_decidable__of__iff_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -291,6 +297,7 @@ return x_7;
 }
 }
 public static Obj l_exists__prop__decidable___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 

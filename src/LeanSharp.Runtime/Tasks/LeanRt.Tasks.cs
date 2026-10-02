@@ -14,10 +14,10 @@ public static unsafe partial class LeanRt
     // =======================================
     // Thunks
 
-    public static Obj lean_mk_thunk(Obj c) => new ThunkObj { m_tag = LeanThunk, m_closure = c };
+    public static Obj lean_mk_thunk(Obj c) => CountHeartbeat(new ThunkObj { m_tag = LeanThunk, m_closure = c });
 
     /// <summary>`Thunk.pure : A -> Thunk A`</summary>
-    public static Obj lean_thunk_pure(Obj v) => new ThunkObj { m_tag = LeanThunk, m_value = v };
+    public static Obj lean_thunk_pure(Obj v) => CountHeartbeat(new ThunkObj { m_tag = LeanThunk, m_value = v });
 
     /// <summary>Evaluate a thunk (borrowed argument, borrowed result).</summary>
     public static Obj lean_thunk_get_core(Obj t)
@@ -123,6 +123,7 @@ public static unsafe partial class LeanRt
     static TaskObj alloc_task(Obj c, uint prio, bool keep_alive)
     {
         lean_mark_mt(c);
+        LeanHeartbeats.t_count += 2; // task object and `lean_task_imp`
         var o = new TaskObj { m_rc = -1, m_tag = LeanTask };
         o.m_imp = new TaskImp(c, prio, keep_alive);
         if (keep_alive) lean_inc_ref(o);
@@ -132,6 +133,7 @@ public static unsafe partial class LeanRt
     static TaskObj alloc_task(Obj v)
     {
         if (TaskDeactivateHook == null) LeanTaskManager.InstallHooks();
+        LeanHeartbeats.t_count++;
         return new TaskObj { m_tag = LeanTask, m_value = v };
     }
 
@@ -369,6 +371,7 @@ public static unsafe partial class LeanRt
     public static Obj lean_promise_new()
     {
         LeanTaskManager.Manager(); // C panics if the task manager is not running; we create it lazily
+        LeanHeartbeats.t_count += 3; // task object, `lean_task_imp`, promise object
         var t = new TaskObj { m_rc = -1, m_tag = LeanTask };
         t.m_imp = new TaskImp(null, 0, false);
         // the promise takes ownership of one task token

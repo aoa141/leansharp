@@ -143,6 +143,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instToExprArrayOfToLevel(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -171,6 +172,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprRat_mkInt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -225,6 +227,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprUInt64___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -245,6 +248,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprUInt16___lam__0(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -314,6 +318,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprFin___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -338,6 +343,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_instToExprFVarId___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -382,6 +388,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprInt8___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; 
@@ -504,6 +511,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprInt16___lam__0(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; byte x_3 = 0; 
@@ -556,6 +564,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprListOfToLevel___private__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -625,6 +634,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprUSize___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -687,6 +697,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprOptionOfToLevel___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -745,6 +756,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instToExprUInt32___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -780,6 +792,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instToExprPreresolved___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -849,6 +862,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprBitVec___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -935,6 +949,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprInt64___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; 
@@ -1035,6 +1050,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprFilePath___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1079,6 +1095,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprRat_mkNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1106,6 +1123,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instToExprISize___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -1209,6 +1227,7 @@ return x_3;
 }
 }
 public static byte l___private_Lean_ToExpr_0__Lean_Name_toExprAux_isSimple(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1273,6 +1292,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprOptionOfToLevel(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1413,6 +1433,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprInt32___lam__0(uint x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; 
@@ -1575,6 +1596,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprListOfToLevel___private__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1625,6 +1647,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_ToExpr_0__Lean_List_toExprAux___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1653,6 +1676,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_instToExprInt32_mkNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1710,6 +1734,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprUInt8___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1774,6 +1799,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprISize___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; 
@@ -1905,6 +1931,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instToExprUnit___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2148,6 +2175,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprName___private__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2630,6 +2658,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprInt___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2648,6 +2677,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprInt64_mkNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2674,6 +2704,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprChar___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -2684,6 +2715,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprUSize___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2803,6 +2835,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_ToExpr_0__Lean_Name_toExprAux_mkStr(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -2938,6 +2971,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprProdOfToLevel___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_23 = 0; 
@@ -3106,6 +3140,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprUInt64___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3179,6 +3214,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToExprArrayOfToLevel___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -3214,6 +3250,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instToExprUInt32___lam__0(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3700,6 +3737,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_ToExpr_0__Lean_Name_toExprAux_go(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3783,6 +3821,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprInt___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -4074,6 +4113,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprInt_mkNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -4240,6 +4280,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instToExprInt8_mkNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -4301,6 +4342,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToExprBitVec(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 

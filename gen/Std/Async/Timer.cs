@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Sleep_selector___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -35,6 +36,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_sleep___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -44,6 +46,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Sleep_selector___lam__6(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -197,6 +200,7 @@ return x_33;
 }
 }
 public static Obj l_Std_Async_Interval_reset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -280,6 +284,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_Interval_mk___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -311,6 +316,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Sleep_mk(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_12 = null; 
@@ -511,6 +517,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Async_Selector_sleep(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_12 = null; ulong x_13 = 0; Obj x_14 = null; 
@@ -620,6 +627,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Async_Selector_sleep___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -715,6 +723,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Async_sleep(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_12 = null; ulong x_13 = 0; Obj x_14 = null; 
@@ -852,6 +861,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Sleep_selector___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -861,6 +871,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Sleep_mk___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -869,6 +880,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Sleep_selector___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1134,6 +1146,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Async_Sleep_wait___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1245,6 +1258,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_sleep___lam__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1768,6 +1782,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_Sleep_selector___lam__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1842,6 +1857,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Sleep_selector___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2229,6 +2245,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Interval_tick___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2698,6 +2715,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Interval_stop___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

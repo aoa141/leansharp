@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Float_Model_Unpacked_Operations_ToNat {
 public static Obj l_Float_Model_UnpackedFloat_toUInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -93,6 +94,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_toISize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -115,6 +117,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_toInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -192,6 +195,7 @@ return x_3;
 }
 }
 public static ulong l_Float_Model_UnpackedFloat_toUSize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; 
@@ -263,6 +267,7 @@ return x_2;
 }
 }
 public static uint l_Float_Model_UnpackedFloat_toInt32(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; uint x_5 = 0; 
@@ -275,6 +280,7 @@ return x_5;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_roundToInt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -330,6 +336,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_toInt8___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -351,6 +358,7 @@ return x_2;
 }
 }
 public static ulong l_Float_Model_UnpackedFloat_toUInt64(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; 
@@ -411,6 +419,7 @@ return x_2;
 }
 }
 public static ushort l_Float_Model_UnpackedFloat_toInt16(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; ushort x_5 = 0; 
@@ -453,6 +462,7 @@ return x_2;
 }
 }
 public static uint l_Float_Model_UnpackedFloat_toUInt32(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; uint x_6 = 0; 
@@ -500,6 +510,7 @@ return x_2;
 }
 }
 public static ulong l_Float_Model_UnpackedFloat_toInt64(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -512,6 +523,7 @@ return x_5;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_toInt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -560,6 +572,7 @@ return x_2;
 }
 }
 public static ushort l_Float_Model_UnpackedFloat_toUInt16(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ushort x_6 = 0; 
@@ -630,6 +643,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_toUInt8___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

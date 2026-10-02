@@ -22,6 +22,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00ByteArray_toUInt64LE_x21_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -41,6 +42,7 @@ return x_1;
 }
 }
 public static Obj l_ByteArray_toUInt64BE_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -51,6 +53,7 @@ return x_3;
 }
 }
 public static ulong l_ByteArray_toUInt64BE_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -137,6 +140,7 @@ return x_1;
 }
 }
 public static ulong l_ByteArray_toUInt64LE_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 

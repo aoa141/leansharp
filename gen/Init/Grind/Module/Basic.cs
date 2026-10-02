@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Grind_Module_Basic {
 public static Obj l_Lean_Grind_IntModule_toNatModule(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15,6 +16,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_IntModule_toNatModule___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

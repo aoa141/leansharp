@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_LCNF_Simp_SimpValue {
 public static Obj l_Lean_Compiler_LCNF_Simp_applyImplementedBy_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -29,6 +30,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_simpAppApp_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -53,6 +55,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_simpProj_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -69,6 +72,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_applyImplementedBy_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -77,6 +81,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_simpValue_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -92,6 +97,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_simpProj_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -119,6 +125,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_simpProj_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -127,6 +134,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_simpValue_x3f___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -636,6 +644,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Simp_simpCtorDiscr_x3f___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 3)

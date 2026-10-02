@@ -31,6 +31,7 @@ return x_5;
 }
 }
 public static Obj l_Float_Model_Format_minExponent___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -94,6 +95,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_Format_targetExponent(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -116,6 +118,7 @@ return x_6;
 }
 }
 public static Obj l_Float_Model_totalExponent(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -140,6 +143,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_Format_exponentBias___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -219,6 +223,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_Format_mantissaBits___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

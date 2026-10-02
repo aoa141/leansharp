@@ -110,11 +110,9 @@ static unsafe class HostHooks
     {
         LeanSysroot.Apply();
         LeanProcess.ProcessSpawnHook = SpawnHook;
-        // kernel heartbeats use the runtime's per-thread allocation counter
-        LeanSharp.Kernel.KernelLimits.GetHeartbeatHook = LeanHeartbeats.Get;
-        LeanSharp.Kernel.KernelLimits.AddHeartbeatsHook = LeanHeartbeats.Add;
-        // as in C, every task starts with a fresh heartbeat count
-        LeanTaskManager.ResetHeartbeat = () => LeanHeartbeats.Set(0);
+        // as in C, every task starts with a fresh count of the kernel's heartbeats
+        // (`reset_heartbeat`; the allocation counter of `IO.getNumHeartbeats` is not reset)
+        LeanTaskManager.ResetHeartbeat = LeanSharp.Kernel.KernelLimits.ResetHeartbeat;
         // IR interpreter: access to the compiled Lean code
         LeanCompiledCode.ModuleNames = () => LeanSharp.Compiled.LeanModules.ModuleNames;
         LeanCompiledCode.ModuleClassResolver = LeanSharp.Compiled.LeanModules.GetModuleClass;

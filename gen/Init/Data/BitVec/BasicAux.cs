@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_BitVec_BasicAux {
 public static Obj l_BitVec_instOfNat___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -34,6 +35,7 @@ return x_2;
 }
 }
 public static Obj l_BitVec_sub___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -45,6 +47,7 @@ return x_4;
 }
 }
 public static Obj l_BitVec_ofNatClamp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Shell {
 public static Obj l___private_Lean_Shell_0__Lean_setConfigOption___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -57,6 +58,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_setExitOnPanic___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -66,6 +68,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Shell_0__Lean_shellMain_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -84,6 +87,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellOptions_process_liftIO___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -137,6 +141,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Options_set___at___00Lean_Option_set___at___00__private_Lean_Shell_0__Lean_ShellOptions_process_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -146,6 +151,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_initLLVM___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -201,6 +207,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_initFn_00___x40_Lean_Shell_1197438456____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -209,6 +216,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_mkShellOptions___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -315,6 +323,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Shell_0__Lean_setConfigOption_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -345,6 +354,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_initFn_00___x40_Lean_Shell_3125322801____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -468,6 +478,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_enableDebug___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -507,6 +518,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_getDefaultMaxHeartbeat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -626,6 +638,7 @@ return x_23;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_emitLLVM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -718,6 +731,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_shellMain___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; Obj x_14 = null; 
@@ -773,6 +787,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_displayHelp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -782,6 +797,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_getDefaultMaxMemory___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -882,6 +898,7 @@ return x_1;
 }
 }
 public static Obj l_IO_print___at___00IO_println___at___00__private_Lean_Shell_0__Lean_ShellOptions_process_spec__3_spec__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -931,6 +948,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_set___at___00__private_Lean_Shell_0__Lean_ShellOptions_process_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -942,6 +960,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_shellMain___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -970,6 +989,7 @@ return x_1;
 }
 }
 public static Obj l_IO_println___at___00__private_Lean_Shell_0__Lean_shellMain_spec__4(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -1020,6 +1040,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_shellMain___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1060,6 +1081,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Options_set___at___00__private_Lean_Shell_0__Lean_setConfigOption_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_19 = 0; 
@@ -1161,6 +1183,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_getBelieverTrustLevel___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -1181,6 +1204,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellOptions_process_throwTooLarge___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1245,6 +1269,7 @@ return x_1;
 }
 }
 public static Obj l_IO_println___at___00__private_Lean_Shell_0__Lean_ShellOptions_process_spec__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -1265,6 +1290,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_getOptionOverrides___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1273,6 +1299,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Shell_0__Lean_shellMain_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1322,6 +1349,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Shell_0__Lean_setConfigOption_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1408,6 +1436,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellOptions_process_throwExpectedNumeric(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1454,6 +1483,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_shellMain___lam__2(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, byte x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; ulong x_27 = 0; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; 
@@ -1592,6 +1622,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_setConfigOption(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; 
@@ -1834,6 +1865,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_shellMain___lam__1(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, byte x_15, Obj x_16, byte x_17) {
+lean_stack_probe();
 _start:
 {
 Obj x_19 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; ushort x_26 = 0; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; byte x_39 = 0; byte x_40 = 0; Obj x_73 = null; Obj x_74 = null; Obj x_75 = null; byte x_76 = 0; ushort x_77 = 0; ushort x_99 = 0; Obj x_100 = null; Obj x_101 = null; byte x_102 = 0; ushort x_103 = 0; ushort x_104 = 0; ushort x_105 = 0; byte x_106 = 0; 
@@ -2221,6 +2253,7 @@ return x_1;
 }
 }
 public static Obj lean_shell_options_mk(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2229,6 +2262,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellOptions_process_eprint___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2338,6 +2372,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Option_get___at___00__private_Lean_Shell_0__Lean_shellMain_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2386,6 +2421,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_getBuildType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2437,6 +2473,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellComponent_frontend_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2492,6 +2529,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_hasAddressSanitizer___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2668,6 +2706,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_runMain___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -2696,6 +2735,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_shellMain_writeFileAtomically___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2704,6 +2744,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellOptions_getProfiler___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2731,6 +2772,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_setThreadStackSize___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -2772,6 +2814,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Shell_0__Lean_shellMain_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -3102,6 +3145,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_set___at___00__private_Lean_Shell_0__Lean_ShellOptions_process_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3111,6 +3155,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellOptions_process_throwTooLarge(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -3172,6 +3217,7 @@ return x_1;
 }
 }
 public static Obj lean_shell_options_process(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_110 = null; Obj x_168 = null; uint x_223 = 0; byte x_224 = 0; 
@@ -9269,6 +9315,7 @@ goto block_219;
 }
 }
 public static Obj lean_shell_main(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_30 = 0; 
@@ -11656,6 +11703,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellComponent_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -11719,6 +11767,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_displayHelp(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_42 = null; 
@@ -12600,6 +12649,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_Internal_isMultiThread___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -13411,6 +13461,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellOptions_getNumThreads___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -13430,6 +13481,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Shell_0__Lean_ShellComponent_frontend_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -13459,6 +13511,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Shell_0__Lean_setConfigOption_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

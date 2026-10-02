@@ -83,6 +83,7 @@ return x_2;
 }
 }
 public static Obj l_List_MergeSort_Internal_splitInTwo___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -189,6 +190,7 @@ return x_2;
 }
 }
 public static Obj l_List_merge(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -447,6 +449,7 @@ return x_1;
 }
 }
 public static Obj l_List_merge___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -664,6 +667,7 @@ return x_3;
 }
 }
 public static Obj l_List_zipIdxLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1000,6 +1004,7 @@ return x_1;
 }
 }
 public static byte l_List_zipIdxLE(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1061,6 +1066,7 @@ return x_1;
 }
 }
 public static Obj l_List_mergeSort(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1069,6 +1075,7 @@ return x_4;
 }
 }
 public static Obj l_List_zipIdxLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1162,6 +1169,7 @@ return x_14;
 }
 }
 public static Obj l_List_mergeSort___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

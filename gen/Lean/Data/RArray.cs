@@ -20,6 +20,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_RArray_0__Lean_RArray_toExpr_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -57,6 +58,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_RArray_toExpr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -69,6 +71,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_RArray_toExpr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -139,6 +142,7 @@ return x_21;
 }
 }
 public static Obj l___private_Lean_Data_RArray_0__Lean_RArray_toExpr_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -279,6 +283,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Data_RArray_0__Lean_RArray_ofFn_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -287,6 +292,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_RArray_ofArray___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -313,6 +319,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_RArray_0__Lean_RArray_ofFn_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -340,6 +347,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RArray_ofFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -358,6 +366,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_RArray_0__Lean_RArray_toExpr_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -370,6 +379,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Data_RArray_0__Lean_RArray_ofFn_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -479,6 +489,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_RArray_ofArray___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

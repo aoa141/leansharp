@@ -21,6 +21,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_simp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -35,6 +36,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_getMethods___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -57,6 +59,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_simp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -89,6 +92,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_Result_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -111,6 +115,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_MethodsRef_toMethodsImpl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -133,6 +138,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_instInhabitedMethods_default___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; 
@@ -160,6 +166,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_withoutModifyingCache___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -177,6 +184,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_withoutModifyingCache___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -213,6 +221,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_withFreshTransientCache___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -223,6 +232,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_mkRflResult___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -246,6 +256,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_withoutModifyingCache___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -588,6 +599,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_SimpM_run___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; byte x_46 = 0; 
@@ -842,6 +854,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_withFreshTransientCache(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -1030,6 +1043,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_cacheResult(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; 
@@ -1506,6 +1520,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_withFreshTransientCache___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1559,6 +1574,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_SimpM_run_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1587,6 +1603,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_cacheResult___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1618,6 +1635,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_instInhabitedSimpM___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1853,6 +1871,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_getConfig___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1932,6 +1951,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_simp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; 
@@ -1942,6 +1962,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_getConfig(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -2121,6 +2142,7 @@ return x_39;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_cacheResult___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -2262,6 +2284,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_SimpM_run_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -2289,6 +2312,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_Result_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2528,6 +2552,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_SimpM_run_x27___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -2796,6 +2821,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_pre___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -2835,6 +2861,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Simp_getConfig___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

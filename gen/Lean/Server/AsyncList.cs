@@ -53,6 +53,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Server_AsyncList_0__Lean_AsyncList_getFinishedPrefixWithTimeout_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -346,6 +347,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Server_AsyncList_0__Lean_AsyncList_getFinishedPrefixWithTimeout_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -362,6 +364,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_AsyncList_ofList(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -378,6 +381,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Server_AsyncList_0__Lean_AsyncList_getFinishedPrefixWithConsistentLatency_sleepWithCancellation___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -388,6 +392,7 @@ return x_5;
 }
 }
 public static Obj l_List_anyM___at___00__private_Lean_Server_AsyncList_0__Lean_AsyncList_getFinishedPrefixWithConsistentLatency_sleepWithCancellation_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -398,6 +403,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_AsyncList_waitAll___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -408,6 +414,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AsyncList_waitFind_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -416,6 +423,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapTR_loop___at___00__private_Lean_Server_AsyncList_0__Lean_AsyncList_getFinishedPrefixWithTimeout_go_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -424,6 +432,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_AsyncList_waitFind_x3f___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -482,6 +491,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_AsyncList_instCoeList___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -490,6 +500,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AsyncList_getFinishedPrefix(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -508,6 +519,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_AsyncList_waitUntil___redArg___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -579,6 +591,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AsyncList_getFinishedPrefixWithConsistentLatency___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -600,6 +613,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AsyncList_getFinishedPrefixWithTimeout(Obj x_1, Obj x_2, Obj x_3, uint x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -638,6 +652,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapTR_loop___at___00__private_Lean_Server_AsyncList_0__Lean_AsyncList_getFinishedPrefixWithTimeout_go_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -699,6 +714,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_AsyncList_getFinishedPrefixWithConsistentLatency___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -709,6 +725,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_AsyncList_getFinishedPrefix___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -917,6 +934,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AsyncList_waitFind_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -972,6 +990,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_AsyncList_ofList___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -981,6 +1000,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AsyncList_waitAll(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -989,6 +1009,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_AsyncList_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1006,6 +1027,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AsyncList_waitUntil(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1022,6 +1044,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AsyncList_getFinishedPrefixWithTimeout___redArg___lam__0(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1041,6 +1064,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldr___at___00Lean_AsyncList_ofList_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1108,6 +1132,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_AsyncList_getFinishedPrefixWithTimeout___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -1118,6 +1143,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_AsyncList_ctorIdx(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1135,6 +1161,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AsyncList_waitAll___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1144,6 +1171,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Server_AsyncList_0__Lean_AsyncList_getFinishedPrefixWithConsistentLatency_sleepWithCancellation(Obj x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; byte x_5 = 0; 
@@ -1229,6 +1257,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_AsyncList_getFinishedPrefixWithConsistentLatency___redArg(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; uint x_11 = 0; Obj x_12 = null; 
@@ -1306,6 +1335,7 @@ return x_3;
 }
 }
 public static byte l_List_anyM___at___00__private_Lean_Server_AsyncList_0__Lean_AsyncList_getFinishedPrefixWithConsistentLatency_sleepWithCancellation_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1391,6 +1421,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AsyncList_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1400,6 +1431,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_AsyncList_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1429,6 +1461,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldr___at___00Lean_AsyncList_ofList_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1539,6 +1572,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_AsyncList_waitUntil___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {

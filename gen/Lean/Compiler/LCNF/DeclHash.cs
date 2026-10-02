@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_LCNF_DeclHash {
 public static ulong l_Lean_Compiler_LCNF_hashParams___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -29,6 +30,7 @@ return x_8;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_hashParams_spec__0(Obj x_1, ulong x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -56,6 +58,7 @@ return x_4;
 }
 }
 public static ulong l_Lean_Compiler_LCNF_hashAlt(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -133,6 +136,7 @@ return x_29;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_hashAlts___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -144,6 +148,7 @@ return x_5;
 }
 }
 public static ulong l_Lean_Compiler_LCNF_instHashableDecl_hash(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; 
@@ -196,6 +201,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableSignature_hash___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -207,6 +213,7 @@ return x_5;
 }
 }
 public static ulong l_Lean_Compiler_LCNF_instHashableCode___lam__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; 
@@ -215,6 +222,7 @@ return x_3;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_hashAlts_spec__3(byte x_1, Obj x_2, ulong x_3, ulong x_4, ulong x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -238,6 +246,7 @@ return x_5;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_hashCode_spec__1___redArg(Obj x_1, ulong x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -261,6 +270,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableParam___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -271,6 +281,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_hashParams___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -292,6 +303,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableDecl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -321,6 +333,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableDeclValue_hash___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -332,6 +345,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableParam___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -362,6 +376,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_hashCode_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -379,6 +394,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableSignature_hash___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -389,6 +405,7 @@ return x_3;
 }
 }
 public static ulong l_Lean_Compiler_LCNF_hashCode(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -729,6 +746,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableSignature___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -771,6 +789,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableParam___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -779,6 +798,7 @@ return x_2;
 }
 }
 public static ulong l_List_foldl___at___00Lean_Compiler_LCNF_instHashableSignature_hash_spec__0(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -816,6 +836,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableCode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -914,6 +935,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableParam(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -999,6 +1021,7 @@ return x_11;
 }
 }
 public static ulong l_Lean_Compiler_LCNF_instHashableSignature_hash(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; 

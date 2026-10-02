@@ -53,6 +53,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_AssocList_Iterator_0__Std_DHashMap_Internal_AssocList_AssocListIterator_finitenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -61,6 +62,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_iter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -70,6 +72,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_instIteratorLoopAssocListIteratorIdSigmaOfMonad___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -79,6 +82,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_instIteratorAssocListIteratorIdSigma___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

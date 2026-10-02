@@ -15,6 +15,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SSet_instInhabited___aux__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23,6 +24,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SSet_forM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -33,6 +35,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_SSet_toList___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -43,6 +46,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SSet_instInhabited___aux__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -53,6 +57,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_List_toSSet___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -65,6 +70,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SSet_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -93,6 +99,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instReprSSet___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -110,6 +117,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SSet_fold___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -120,6 +128,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_instReprSSet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -130,6 +139,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instReprSSet___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -169,6 +179,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SSet_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -233,6 +244,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_SSet_empty___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -316,6 +328,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_SSet_toList___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -360,6 +373,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SSet_instInhabited___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -409,6 +423,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SSet_instInhabited(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -435,6 +450,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SSet_empty(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

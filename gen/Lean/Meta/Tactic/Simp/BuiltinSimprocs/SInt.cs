@@ -21,6 +21,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceAdd___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -80,6 +81,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceToNatClampNeg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -99,6 +101,7 @@ return x_5;
 }
 }
 public static Obj l_Int16_reduceNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -379,6 +382,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceNe___regBuiltin_Int32_reduceNe_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -401,6 +405,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_reduceToInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -428,6 +433,7 @@ return x_5;
 }
 }
 public static Obj l_Int16_reduceGE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -474,6 +480,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_isValue_declare__274_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_455____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -529,6 +536,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceNe___regBuiltin_Int8_reduceNe_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -549,6 +557,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceLT___regBuiltin_Int16_reduceLT_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_184____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -557,6 +566,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -572,6 +582,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_reduceGT_declare__230_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_228____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -592,6 +603,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceLE(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -600,6 +612,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceGT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -615,6 +628,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_reduceDiv_declare__214_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_133____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -694,6 +708,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceBEq_declare__157_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_324____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -714,6 +729,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceAdd_declare__24_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_64____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -828,6 +844,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceToInt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -997,6 +1014,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceToNatClampNeg___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -1211,6 +1229,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceOfNat_declare__169_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_384____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1229,6 +1248,7 @@ return x_1;
 }
 }
 public static Obj l_Int64_reduceNeg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1255,6 +1275,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceSub___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1279,6 +1300,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceNeg___regBuiltin_Int8_reduceNeg_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1317,6 +1339,7 @@ return x_2;
 }
 }
 public static Obj l_Int64_reduceToNatClampNeg___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1440,6 +1463,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceNeg___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1524,6 +1548,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceNeg___regBuiltin_Int8_reduceNeg_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1546,6 +1571,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceToInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1627,6 +1653,7 @@ return x_1;
 }
 }
 public static Obj l_Int8_reduceGE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -1860,6 +1887,7 @@ return x_52;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceBinPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1917,6 +1945,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceMod___regBuiltin_Int64_reduceMod_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_160____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1925,6 +1954,7 @@ return x_2;
 }
 }
 public static Obj l_Int64_reduceLT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1940,6 +1970,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceAdd___regBuiltin_Int8_reduceAdd_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_68____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1962,6 +1993,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_fromExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1970,6 +2002,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceBinPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2040,6 +2073,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceGE(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2104,6 +2138,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceOfNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2151,6 +2186,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceToInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2170,6 +2206,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceSub___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2195,6 +2232,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceDiv_declare__125_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_133____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2203,6 +2241,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceOfInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2232,6 +2271,7 @@ return x_7;
 }
 }
 public static Obj l_Int32_reduceGT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2259,6 +2299,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceBin_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2364,6 +2405,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2409,6 +2451,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceGT___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2435,6 +2478,7 @@ return x_5;
 }
 }
 public static Obj l_Int16_reduceBEq_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2451,6 +2495,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceSub___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2487,6 +2532,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceBin___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -2818,6 +2864,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceNeg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2836,6 +2883,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceOfNat___regBuiltin_Int16_reduceOfNat_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_386____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2844,6 +2892,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceDiv___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -3217,6 +3266,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceNe_declare__64_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_300____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3261,6 +3311,7 @@ return x_3;
 }
 }
 public static Obj l_Lean___aux__Lean__Meta__Tactic__Simp__BuiltinSimprocs__SInt______macroRules__Lean__commandDeclare__sint__simprocs____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -6031,6 +6082,7 @@ goto block_785;
 }
 }
 public static Obj l_Int8_reduceOfInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6039,6 +6091,7 @@ return x_10;
 }
 }
 public static Obj l_Int32_reduceEq_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6066,6 +6119,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_reduceOfNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6082,6 +6136,7 @@ return x_10;
 }
 }
 public static Obj l_Int8_reduceAdd___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6106,6 +6161,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceBoolPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -6455,6 +6511,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_isValue_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6518,6 +6575,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceAdd___regBuiltin_Int32_reduceAdd_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_68____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6526,6 +6584,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_reduceNe_declare__242_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_300____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6581,6 +6640,7 @@ return x_5;
 }
 }
 public static Obj l_Int16_reduceLT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6596,6 +6656,7 @@ return x_10;
 }
 }
 public static Obj l_Int32_reduceSub___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6701,6 +6762,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceToInt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -6857,6 +6919,7 @@ return x_44;
 }
 }
 public static Obj l_Int64_reduceToInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -6978,6 +7041,7 @@ return x_2;
 }
 }
 public static Obj l_ISize_reduceToInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -7018,6 +7082,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceToInt___regBuiltin_Int64_reduceToInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_420____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7026,6 +7091,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceMod_declare__40_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_156____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7068,6 +7134,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceBNe___regBuiltin_Int64_reduceBNe_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7119,6 +7186,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceMod___regBuiltin_Int8_reduceMod_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_160____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7175,6 +7243,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceGT___regBuiltin_Int64_reduceGT_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_230____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7263,6 +7332,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_fromExpr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -7314,6 +7384,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceOfIntLE_declare__76_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_367____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7343,6 +7414,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_fromExpr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -7767,6 +7839,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceOfInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7799,6 +7872,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_isValue___regBuiltin_Int32_isValue_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7817,6 +7891,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceBEq_declare__68_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_324____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7825,6 +7900,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceBNe___regBuiltin_Int32_reduceBNe_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7869,6 +7945,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceBNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7915,6 +7992,7 @@ return x_5;
 }
 }
 public static Obj l_Int32_reduceToInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7940,6 +8018,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceOfInt___regBuiltin_Int8_reduceOfInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_403____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7962,6 +8041,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBin___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -8278,6 +8358,7 @@ return x_78;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceGE___regBuiltin_Int64_reduceGE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_256____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8300,6 +8381,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceEq_declare__149_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_276____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8320,6 +8402,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceOfNat___regBuiltin_Int8_reduceOfNat_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_386____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8364,6 +8447,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceToInt___regBuiltin_Int32_reduceToInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_420____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8384,6 +8468,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceMul___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -8700,6 +8785,7 @@ return x_76;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceNe___regBuiltin_Int16_reduceNe_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8780,6 +8866,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceBoolPred_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; 
@@ -9134,6 +9221,7 @@ return x_5;
 }
 }
 public static Obj l_Int32_reduceLT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -9142,6 +9230,7 @@ return x_10;
 }
 }
 public static Obj l_Int8_reduceOfNat___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -9442,6 +9531,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_reduceBNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -9780,6 +9870,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceBoolPred_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; 
@@ -10116,6 +10207,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceLT___regBuiltin_Int64_reduceLT_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_184____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10186,6 +10278,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceOfNat___regBuiltin_Int32_reduceOfNat_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_386____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10271,6 +10364,7 @@ return x_2;
 }
 }
 public static Obj l_Int64_reduceLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -10343,6 +10437,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceSub___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -10393,6 +10488,7 @@ return x_2;
 }
 }
 public static Obj l_ISize_reduceToNatClampNeg___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -11205,6 +11301,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceToNatClampNeg___regBuiltin_Int32_reduceToNatClampNeg_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_437____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11213,6 +11310,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBNe___regBuiltin_Int8_reduceBNe_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11232,6 +11330,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceBinPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -11290,6 +11389,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceAdd___regBuiltin_Int16_reduceAdd_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_68____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11309,6 +11409,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceBin_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -11326,6 +11427,7 @@ return x_13;
 }
 }
 public static Obj l_Int32_reduceMod___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -11654,6 +11756,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceMod___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -11670,6 +11773,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceOfInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -11818,6 +11922,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceOfNat_declare__80_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_384____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11866,6 +11971,7 @@ return x_4;
 }
 }
 public static Obj l_Int64_reduceSub___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -11916,6 +12022,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceAdd___regBuiltin_Int32_reduceAdd_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_66____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12110,6 +12217,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceDiv(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -12210,6 +12318,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceToInt___regBuiltin_Int8_reduceToInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_420____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12228,6 +12337,7 @@ return x_1;
 }
 }
 public static Obj l_Int32_reduceSub___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -12574,6 +12684,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceBNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -12900,6 +13011,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_isValue___regBuiltin_Int64_isValue_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13032,6 +13144,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceNeg___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -13360,6 +13473,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceToNatClampNeg___regBuiltin_Int8_reduceToNatClampNeg_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_439____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13403,6 +13517,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceOfIntLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -13458,6 +13573,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceOfInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -13511,6 +13627,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceDiv___regBuiltin_Int16_reduceDiv_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_135____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13587,6 +13704,7 @@ return x_1;
 }
 }
 public static Obj l_Int32_reduceOfNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -13600,6 +13718,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceEq___regBuiltin_Int16_reduceEq_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13608,6 +13727,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceGE(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -13626,6 +13746,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceBNe___regBuiltin_Int64_reduceBNe_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13690,6 +13811,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceDiv___regBuiltin_Int32_reduceDiv_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_137____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13709,6 +13831,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceSub(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -13717,6 +13840,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceNe_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -13843,6 +13967,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceDiv___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -13948,6 +14073,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceBNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -14016,6 +14142,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceMod_declare__129_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_156____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14059,6 +14186,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceMod___regBuiltin_Int16_reduceMod_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_158____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14067,6 +14195,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceToNatClampNeg___regBuiltin_Int64_reduceToNatClampNeg_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_437____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14110,6 +14239,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceBEq_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -14160,6 +14290,7 @@ return x_1;
 }
 }
 public static Obj l_Int8_reduceToInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -14173,6 +14304,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceLT___regBuiltin_Int32_reduceLT_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_182____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14191,6 +14323,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_reduceOfNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -14217,6 +14350,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceGE___regBuiltin_Int8_reduceGE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_256____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14285,6 +14419,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceSub___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -14311,6 +14446,7 @@ return x_1;
 }
 }
 public static Obj l_Int64_reduceNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -14593,6 +14729,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceLT___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -14846,6 +14983,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceLT___regBuiltin_Int32_reduceLT_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_184____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14972,6 +15110,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceLT_declare__133_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_180____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14991,6 +15130,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_reduceToInt_declare__266_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_418____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14999,6 +15139,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -15355,6 +15496,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceAdd(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -15374,6 +15516,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBinPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -15387,6 +15530,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceBin_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -15404,6 +15548,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBin_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -15421,6 +15566,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceAdd_declare__113_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_64____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15444,6 +15590,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceBoolPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -15782,6 +15929,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_reduceLT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -15948,6 +16096,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceSub_declare__121_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_110____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16143,6 +16292,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -16155,6 +16305,7 @@ return x_7;
 }
 }
 public static Obj l_Int32_reduceMul___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -16171,6 +16322,7 @@ return x_10;
 }
 }
 public static Obj l_Int16_reduceEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -16440,6 +16592,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceMod___regBuiltin_Int8_reduceMod_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_158____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16493,6 +16646,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceBEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -16530,6 +16684,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_reduceGT___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -16763,6 +16918,7 @@ return x_52;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_isValue___regBuiltin_Int8_isValue_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16781,6 +16937,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceBinPred_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; 
@@ -17046,6 +17203,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_reduceNeg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -17149,6 +17307,7 @@ return x_1;
 }
 }
 public static Obj l_Int64_reduceDiv___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -17235,6 +17394,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_isValue_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -17342,6 +17502,7 @@ return x_5;
 }
 }
 public static Obj l_Int16_reduceSub___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -17696,6 +17857,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -17939,6 +18101,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_isValue_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -18021,6 +18184,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceLT___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -18142,6 +18306,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceBin___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -18214,6 +18379,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__ISize_reduceToInt___regBuiltin_ISize_reduceToInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3392018216____hygCtx___hyg_24____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18266,6 +18432,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int64_reduceNe_declare__331_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_300____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18309,6 +18476,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceDiv___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -18396,6 +18564,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceBNe_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -18420,6 +18589,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBEq___regBuiltin_Int8_reduceBEq_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18571,6 +18741,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_reduceDiv(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -18591,6 +18762,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceNe___regBuiltin_Int64_reduceNe_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18599,6 +18771,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceMod___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -18615,6 +18788,7 @@ return x_10;
 }
 }
 public static Obj l_Int8_reduceNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -18871,6 +19045,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_reduceMul(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -18879,6 +19054,7 @@ return x_10;
 }
 }
 public static Obj l_Int32_reduceBEq_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -18949,6 +19125,7 @@ return x_5;
 }
 }
 public static Obj l_Int32_reduceMul(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -18969,6 +19146,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceMod___regBuiltin_Int64_reduceMod_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_158____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19150,6 +19328,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_fromExpr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -19585,6 +19764,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceAdd___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -20004,6 +20184,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceMod___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -20017,6 +20198,7 @@ return x_7;
 }
 }
 public static Obj l_Int32_reduceBEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -20320,6 +20502,7 @@ return x_65;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_reduceEq_declare__238_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_276____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20379,6 +20562,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceToInt___regBuiltin_Int32_reduceToInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_422____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20437,6 +20621,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceOfIntLE(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -20525,6 +20710,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceToInt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -20779,6 +20965,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceMod___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -20888,6 +21075,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceGT_declare__52_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_228____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20896,6 +21084,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -20923,6 +21112,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -21045,6 +21235,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceToNatClampNeg___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -21246,6 +21437,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -21555,6 +21747,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceBEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -21582,6 +21775,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_isValue___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -21609,6 +21803,7 @@ return x_10;
 }
 }
 public static Obj l_Int32_reduceGT___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -21647,6 +21842,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceMod___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -21710,6 +21906,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_reduceOfInt_declare__262_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_401____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21718,6 +21915,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceBNe_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -21774,6 +21972,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceSub(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -21793,6 +21992,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceMod___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -22212,6 +22412,7 @@ return x_2;
 }
 }
 public static Obj l_Int64_isValue_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -22227,6 +22428,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceOfIntLE_declare__165_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_367____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22245,6 +22447,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceToInt___regBuiltin_Int16_reduceToInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_422____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22253,6 +22456,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceToNatClampNeg_declare__92_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_435____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22283,6 +22487,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceBNe_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -22291,6 +22496,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceLE___regBuiltin_Int32_reduceLE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_206____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22531,6 +22737,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -22543,6 +22750,7 @@ return x_7;
 }
 }
 public static Obj l_Int32_reduceToNatClampNeg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -22600,6 +22808,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceOfInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -22681,6 +22890,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceLE___regBuiltin_Int16_reduceLE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_208____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22689,6 +22899,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceNe_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -22999,6 +23210,7 @@ return x_5;
 }
 }
 public static Obj l_Int16_reduceNeg___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -23022,6 +23234,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_fromExpr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -23061,6 +23274,7 @@ return x_7;
 }
 }
 public static Obj l_Int8_isValue___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -23197,6 +23411,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceMul___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -23523,6 +23738,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_isValue___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -23718,6 +23934,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceToInt_declare__177_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_418____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23726,6 +23943,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceMul_declare__28_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_87____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23734,6 +23952,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceBEq___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -23762,6 +23981,7 @@ return x_10;
 }
 }
 public static Obj l_Int8_reduceOfIntLE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -23945,6 +24165,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceLE(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -23953,6 +24174,7 @@ return x_10;
 }
 }
 public static Obj l_Int8_reduceOfInt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -24152,6 +24374,7 @@ return x_10;
 }
 }
 public static Obj l_Int8_reduceGT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -24328,6 +24551,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int8_reduceSub_declare__32_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_110____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24336,6 +24560,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceOfIntLE___regBuiltin_Int8_reduceOfIntLE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_369____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24344,6 +24569,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceSub___regBuiltin_Int8_reduceSub_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_114____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24423,6 +24649,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_reduceLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -24456,6 +24683,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceBinPred_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -24482,6 +24710,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceBin___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -24862,6 +25091,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceBNe___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -25403,6 +25633,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceToNatClampNeg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -25430,6 +25661,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceBinPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -25663,6 +25895,7 @@ return x_52;
 }
 }
 public static Obj l_Int64_reduceMod___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -25693,6 +25926,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceOfInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -25701,6 +25935,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceOfInt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -25963,6 +26198,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceNeg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -25993,6 +26229,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceOfNat___regBuiltin_Int64_reduceOfNat_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_388____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26078,6 +26315,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceOfIntLE___regBuiltin_Int8_reduceOfIntLE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_371____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26131,6 +26369,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceOfInt___regBuiltin_Int8_reduceOfInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_405____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26166,6 +26405,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceGE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -26212,6 +26452,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceMul___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -26534,6 +26775,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceGT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -26693,6 +26935,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_reduceLT_declare__222_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_180____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26701,6 +26944,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceSub___regBuiltin_Int16_reduceSub_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_112____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26723,6 +26967,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -26735,6 +26980,7 @@ return x_7;
 }
 }
 public static Obj l_Int16_reduceMod(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -26753,6 +26999,7 @@ return x_1;
 }
 }
 public static Obj l_Int8_reduceLE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -27211,6 +27458,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_fromExpr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -27633,6 +27881,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_reduceLT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -27764,6 +28013,7 @@ return x_1;
 }
 }
 public static Obj l_Int32_reduceNe_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -27827,6 +28077,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceMul___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -27843,6 +28094,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceGT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -27875,6 +28127,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_isValue_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -27923,6 +28176,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceNe___regBuiltin_Int64_reduceNe_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28422,6 +28676,7 @@ return x_52;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceMul___regBuiltin_Int32_reduceMul_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_89____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28504,6 +28759,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceEq_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -28531,6 +28787,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceToNatClampNeg___regBuiltin_Int8_reduceToNatClampNeg_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_437____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28589,6 +28846,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceOfIntLE___regBuiltin_Int32_reduceOfIntLE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_371____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28597,6 +28855,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int64_reduceEq_declare__327_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_276____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28690,6 +28949,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceOfIntLE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -28988,6 +29248,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_isValue___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -29073,6 +29334,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_fromExpr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -29499,6 +29761,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceMul___regBuiltin_Int16_reduceMul_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_91____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29657,6 +29920,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_reduceBEq_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -29794,6 +30058,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceNe___regBuiltin_Int16_reduceNe_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29937,6 +30202,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBin_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; 
@@ -30555,6 +30821,7 @@ return x_5;
 }
 }
 public static Obj l_Int32_reduceOfInt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -30798,6 +31065,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_reduceLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -30996,6 +31264,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceMod___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -31512,6 +31781,7 @@ return x_10;
 }
 }
 public static Obj l_Int16_reduceLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -31535,6 +31805,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceLT___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -31661,6 +31932,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceLT___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -31913,6 +32185,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceGE___regBuiltin_Int32_reduceGE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_256____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -32000,6 +32273,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceEq___regBuiltin_Int8_reduceEq_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -32042,6 +32316,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBNe___regBuiltin_Int8_reduceBNe_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -32069,6 +32344,7 @@ return x_10;
 }
 }
 public static Obj l_Int32_reduceGE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -32160,6 +32436,7 @@ return x_2;
 }
 }
 public static Obj l_Int64_reduceMul___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -32194,6 +32471,7 @@ return x_10;
 }
 }
 public static Obj l_Int32_reduceNeg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -32209,6 +32487,7 @@ return x_10;
 }
 }
 public static Obj l_Int8_reduceToNatClampNeg___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -32535,6 +32814,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceOfNat___regBuiltin_Int16_reduceOfNat_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_388____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -32652,6 +32932,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceNeg___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -32800,6 +33081,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceToInt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -32979,6 +33261,7 @@ return x_3;
 }
 }
 public static Obj l_Int8_isValue_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33129,6 +33412,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__ISize_reduceToNatClampNeg___regBuiltin_ISize_reduceToNatClampNeg_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2987190957____hygCtx___hyg_22____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33210,6 +33494,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceBNe_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33246,6 +33531,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_reduceGT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33254,6 +33540,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceBoolPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33322,6 +33609,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceBEq___regBuiltin_Int16_reduceBEq_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33330,6 +33618,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_reduceOfIntLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33346,6 +33635,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int64_reduceBNe_declare__339_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx_9__Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_348____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33410,6 +33700,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceDiv___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -33447,6 +33738,7 @@ return x_3;
 }
 }
 public static Obj l_Int16_reduceToNatClampNeg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33542,6 +33834,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceOfIntLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -33671,6 +33964,7 @@ return x_1;
 }
 }
 public static Obj l_Int32_reduceOfIntLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33695,6 +33989,7 @@ return x_10;
 }
 }
 public static Obj l_Int32_isValue___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -33863,6 +34158,7 @@ return x_5;
 }
 }
 public static Obj l_Int32_reduceNe_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33883,6 +34179,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceLT___regBuiltin_Int16_reduceLT_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_182____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33891,6 +34188,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceOfNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -33915,6 +34213,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceOfNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -34018,6 +34317,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_reduceOfInt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -34026,6 +34326,7 @@ return x_10;
 }
 }
 public static Obj l_Int16_reduceAdd___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -34074,6 +34375,7 @@ return x_5;
 }
 }
 public static Obj l_Int16_reduceGT___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -34124,6 +34426,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int16_reduceLE_declare__137_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_204____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -34142,6 +34445,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceBEq___regBuiltin_Int32_reduceBEq_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -34172,6 +34476,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceBEq_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -34190,6 +34495,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceGE___regBuiltin_Int8_reduceGE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_254____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -34206,6 +34512,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceLT___regBuiltin_Int8_reduceLT_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_182____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -34214,6 +34521,7 @@ return x_2;
 }
 }
 public static Obj l_ISize_reduceToInt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -34333,6 +34641,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceGE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -34725,6 +35034,7 @@ return x_52;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceGE___regBuiltin_Int16_reduceGE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_254____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -34777,6 +35087,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceSub___regBuiltin_Int32_reduceSub_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_114____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -34856,6 +35167,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int64_reduceMul_declare__295_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_87____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35054,6 +35366,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceGT___regBuiltin_Int8_reduceGT_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_230____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35250,6 +35563,7 @@ return x_10;
 }
 }
 public static Obj l_Int64_reduceMod(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -35309,6 +35623,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_reduceGE___regBuiltin_Int16_reduceGE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_256____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35348,6 +35663,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int64_reduceAdd_declare__291_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_64____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35521,6 +35837,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceLT___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -35912,6 +36229,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int64_reduceOfInt_declare__351_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_401____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35980,6 +36298,7 @@ return x_7;
 }
 }
 public static Obj l_Int64_reduceGE(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -36492,6 +36811,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceNe___regBuiltin_Int8_reduceNe_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36521,6 +36841,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceBEq_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -37009,6 +37330,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_reduceGE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -37242,6 +37564,7 @@ return x_52;
 }
 }
 public static Obj l_Int32_isValue_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -37530,6 +37853,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBoolPred___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -37544,6 +37868,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceBoolPred_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -37583,6 +37908,7 @@ return x_5;
 }
 }
 public static Obj l_Int32_reduceNeg___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -39510,6 +39836,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceToInt___regBuiltin_Int64_reduceToInt_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_422____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -40095,6 +40422,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceGE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -40467,6 +40795,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceNeg___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -41189,6 +41518,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int32_reduceBin___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -41668,6 +41998,7 @@ return x_2;
 }
 }
 public static Obj l_Int64_reduceOfNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -42210,6 +42541,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int64_reduceLE___regBuiltin_Int64_reduceLE_declare__1_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_922157756____hygCtx___hyg_208____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -42660,6 +42992,7 @@ return x_76;
 }
 }
 public static Obj l_Int16_reduceOfNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -43562,6 +43895,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_reduceAdd___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -43656,6 +43990,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceMul___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -44761,6 +45096,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_reduceToNatClampNeg___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -46087,6 +46423,7 @@ return x_81;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int16_fromExpr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -46632,6 +46969,7 @@ return x_76;
 }
 }
 public static Obj l_Int16_reduceDiv(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -46805,6 +47143,7 @@ return x_1;
 }
 }
 public static Obj l_Int8_isValue___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9_(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -47002,6 +47341,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0__Int8_reduceEq___regBuiltin_Int8_reduceEq_declare__2_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_2990342300____hygCtx___hyg_9____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -47097,6 +47437,7 @@ return x_6;
 }
 }
 public static Obj l_Int32_reduceGE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -47689,6 +48030,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_reduceLT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -47697,6 +48039,7 @@ return x_10;
 }
 }
 public static Obj l_Int16_reduceNeg___redArg_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_1259268813____hygCtx___hyg_9_(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -49068,6 +49411,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_0____regBuiltin_Int32_reduceLE_declare__226_00___x40_Lean_Meta_Tactic_Simp_BuiltinSimprocs_SInt_3685453738____hygCtx___hyg_204____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -52518,6 +52862,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_reduceAdd___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

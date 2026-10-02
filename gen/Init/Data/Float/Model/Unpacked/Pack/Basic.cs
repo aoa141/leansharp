@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Float_Model_Unpacked_Pack_Basic {
 public static Obj l_Float_Model_UnpackedFloat_packedZero___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -17,6 +18,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_packedNaN(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -39,6 +41,7 @@ return x_11;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_unpack___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -62,6 +65,7 @@ return x_9;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_unpackMantissa___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -72,6 +76,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_unpack(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -204,6 +209,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_packedInfinity___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -229,6 +235,7 @@ return x_8;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_unpackExponent___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -267,6 +274,7 @@ return x_10;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_pack___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -377,6 +385,7 @@ return x_35;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_unpackSign___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

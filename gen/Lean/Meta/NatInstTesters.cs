@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_NatInstTesters {
 public static Obj l_Lean_Meta_Structural_isInstHMulNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -19,6 +20,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHAndNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -27,6 +29,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHMulNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -50,6 +53,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstSubNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -59,6 +63,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHDivNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -68,6 +73,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstNatPowNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -163,6 +169,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstDivNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -268,6 +275,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHAddNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -300,6 +308,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstModNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -327,6 +336,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstAndOpNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -452,6 +462,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHSubNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -471,6 +482,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstLTNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -483,6 +495,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHAddNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -587,6 +600,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstAddNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -596,6 +610,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLENat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -605,6 +620,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHModNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -613,6 +629,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstLTNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -645,6 +662,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstDvdNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -663,6 +681,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstDvdNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -768,6 +787,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstOfNatNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -788,6 +808,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstHMulNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -820,6 +841,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstAddNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -832,6 +854,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstMulNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -844,6 +867,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHSubNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -852,6 +876,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstMulNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -893,6 +918,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHMulNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1027,6 +1053,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHPowNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1058,6 +1085,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLTNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1067,6 +1095,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstOfNatNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1528,6 +1557,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DefEq_isInstLENat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1747,6 +1777,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLTNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1862,6 +1893,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHDivNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1939,6 +1971,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstOfNatNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2076,6 +2109,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHAndNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2094,6 +2128,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHAndNat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2231,6 +2266,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLENat(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2382,6 +2418,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLTNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2438,6 +2475,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstLENat___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2905,6 +2943,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Structural_isInstHModNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

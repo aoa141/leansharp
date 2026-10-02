@@ -16,6 +16,7 @@ return x_5;
 }
 }
 public static Obj l_Std_WP_WhileInvariant_mk___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -66,6 +67,7 @@ return x_3;
 }
 }
 public static Obj l_Std_WP_WhileInvariant_toRepeatInvariant(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -83,6 +85,7 @@ return x_7;
 }
 }
 public static Obj l_Std_WP_Variant_ofMeasure(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

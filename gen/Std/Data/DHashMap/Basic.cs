@@ -15,6 +15,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_keys___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -37,6 +38,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_get_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -86,6 +88,7 @@ return x_21;
 }
 }
 public static Obj l_Std_DHashMap_instRepr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -106,6 +109,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Const_toArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -167,6 +171,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Const_get___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -211,6 +216,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -243,6 +249,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_partition(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -280,6 +287,7 @@ return x_17;
 }
 }
 public static Obj l_Std_DHashMap_Const_ofList___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -290,6 +298,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_get_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -329,6 +338,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DHashMap_getEntry_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -397,6 +407,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_getKey___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -475,6 +486,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Const_get_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -505,6 +517,7 @@ return x_10;
 }
 }
 public static Obj l_Std_DHashMap_Internal_numBuckets___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -524,6 +537,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DHashMap_filter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -542,6 +556,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Const_unitOfList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -552,6 +567,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_instDecidableMem___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -585,6 +601,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_ofList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -605,6 +622,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_instInhabited___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -659,6 +677,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_all___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -668,6 +687,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_Const_unitOfArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -698,6 +718,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_valuesArray___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -755,6 +776,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_all___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -837,6 +859,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DHashMap_getEntry_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -864,6 +887,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_values___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -892,6 +916,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DHashMap_ofArray___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -914,6 +939,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_getD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -924,6 +950,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_Const_toList___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -976,6 +1003,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_getEntry___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1003,6 +1031,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_foldM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1035,6 +1064,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_valuesArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -1075,6 +1105,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Const_get_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1241,6 +1272,7 @@ return x_50;
 }
 }
 public static Obj l_Std_DHashMap_forIn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1251,6 +1283,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DHashMap_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -1279,6 +1312,7 @@ return x_15;
 }
 }
 public static Obj l_Std_DHashMap_ofArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1383,6 +1417,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_getD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1393,6 +1428,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1403,6 +1439,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DHashMap_toArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -1509,6 +1546,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_getEntry_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1528,6 +1566,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_getKey_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1672,6 +1711,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_instSingletonSigma___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1730,6 +1770,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap___aux__Std__Data__DHashMap__Basic______unexpand__Std__DHashMap__Equiv__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1823,6 +1864,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Const_getD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1847,6 +1889,7 @@ return x_3;
 }
 }
 public static byte l_Std_DHashMap_all(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; ulong x_13 = 0; ulong x_14 = 0; Obj x_15 = null; Obj x_16 = null; 
@@ -1888,6 +1931,7 @@ return x_19;
 }
 }
 public static Obj l_Std_DHashMap_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2104,6 +2148,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2140,6 +2185,7 @@ return x_12;
 }
 }
 public static Obj l_Std_DHashMap_any___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2227,6 +2273,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap___aux__Std__Data__DHashMap__Basic______macroRules__Std__DHashMap__term___x7em____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2283,6 +2330,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_get___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2326,6 +2374,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_values___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2335,6 +2384,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_keysArray___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2377,6 +2427,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_get_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2513,6 +2564,7 @@ return x_18;
 }
 }
 public static Obj l_Std_DHashMap_Const_toList___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2523,6 +2575,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Const_ofArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2693,6 +2746,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_instDecidableMem___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2703,6 +2757,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_partition___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -2910,6 +2965,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_keysArray___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -3145,6 +3201,7 @@ return x_10;
 }
 }
 public static Obj l_Std_DHashMap_markLinear___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3370,6 +3427,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_instEmptyCollection___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3755,6 +3813,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap___aux__Std__Data__DHashMap__Basic______macroRules__Std__DHashMap__term___x7em____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4319,6 +4378,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4401,6 +4461,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_any___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -4522,6 +4583,7 @@ return x_15;
 }
 }
 public static Obj l_Std_DHashMap_diff___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -4867,6 +4929,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_instRepr___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_26 = 0; 

@@ -175,6 +175,7 @@ return x_9;
 }
 }
 public static Obj l_List_zipWithM_x27___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -212,6 +213,7 @@ return x_7;
 }
 }
 public static Obj l_List_mapM_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -411,6 +413,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_List_Monadic_0__List_anyM_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

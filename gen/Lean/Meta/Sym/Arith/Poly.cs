@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Sym_Arith_Poly {
 public static Obj l_Lean_Grind_CommRing_Mon_size(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -28,6 +29,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Poly_0__Lean_Grind_CommRing_Mon_toExpr_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -121,6 +123,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Poly_0__Lean_Grind_CommRing_Poly_numTerms_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -159,6 +162,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_checkCoeffs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -169,6 +173,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_toExpr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -291,6 +296,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_length___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -300,6 +306,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_numTerms___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -309,6 +316,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Grind_CommRing_Poly_checkNoUnitMon(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -338,6 +346,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Poly_0__Lean_Grind_CommRing_Poly_toExpr_goTerm(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -364,6 +373,7 @@ return x_8;
 }
 }
 public static byte l_Lean_Grind_CommRing_Poly_isZero(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -383,6 +393,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Poly_0__Lean_Grind_CommRing_Poly_toExpr_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -496,6 +507,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Poly_0__Lean_Grind_CommRing_Mon_sharesVar_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -515,6 +527,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_div(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -704,6 +717,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_spol(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -780,6 +794,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_sharesVar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -809,6 +824,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_toExpr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -862,6 +878,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_lc___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -871,6 +888,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_lcm(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1049,6 +1067,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_getConst___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1058,6 +1077,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Grind_CommRing_Mon_sharesVar(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1151,6 +1171,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_getConst(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1205,6 +1226,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_size___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1266,6 +1288,7 @@ return x_13;
 }
 }
 public static byte l_Lean_Grind_CommRing_Mon_coprime(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1316,6 +1339,7 @@ goto _start;
 }
 }
 public static byte l_Lean_Grind_CommRing_Poly_checkCoeffs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1385,6 +1409,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_divides___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1396,6 +1421,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_size(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1422,6 +1448,7 @@ return x_9;
 }
 }
 public static byte l_Lean_Grind_CommRing_Poly_divides(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1451,6 +1478,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_divides___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1491,6 +1519,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_length(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1586,6 +1615,7 @@ return x_12;
 }
 }
 public static byte l_Lean_Grind_CommRing_Mon_divides(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

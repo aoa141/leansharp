@@ -106,6 +106,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceInlayHintParams___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -145,6 +146,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceWaitForDiagnosticsParams___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -173,6 +175,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceTextDocumentPositionParams___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -318,6 +321,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceReferenceParams___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -455,6 +459,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceSemanticTokensRangeParams___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -503,6 +508,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceTextDocumentEdit___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -606,6 +612,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceTextDocumentItem___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -713,6 +720,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceCodeActionParams___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -740,6 +748,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instFileSourceDocumentColorParams___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -765,6 +774,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItem_getFileSource_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_10 = null; Obj x_14 = null; 

@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_uriEncode___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -66,6 +67,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_uriEscapeChar(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -74,6 +76,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_uriEncodeChar(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; uint x_21 = 0; byte x_22 = 0; 
@@ -213,6 +216,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_foldlUtf8M___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -233,6 +237,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_uriEncode_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -253,6 +258,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_foldlUtf8(Obj x_1, uint x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -264,6 +270,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_hexEncodeByte___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -294,6 +301,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_uriEscapeByte(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; byte x_5 = 0; byte x_6 = 0; uint x_7 = 0; Obj x_8 = null; byte x_9 = 0; byte x_10 = 0; uint x_11 = 0; Obj x_12 = null; 
@@ -311,6 +319,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_getUrl_x3f_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -419,6 +428,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_getUrl_x3f_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -548,6 +558,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_foldlUtf8M___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -578,6 +589,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_foldlUtf8M___at___00Lake_uriEscapeChar_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -588,6 +600,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_foldlUtf8M(Obj x_1, Obj x_2, Obj x_3, uint x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -596,6 +609,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getUrl_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -946,6 +960,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_getUrl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -987,6 +1002,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_uriEncode_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1010,6 +1026,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_uriEncode_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

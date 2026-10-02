@@ -45,6 +45,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_denoteN___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -106,6 +107,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denoteN(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -114,6 +116,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_eq__normN__cert___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -268,6 +271,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denoteN___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -305,6 +309,7 @@ return x_10;
 }
 }
 public static byte l_Lean_Grind_Linarith_eq__normN__cert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -317,6 +322,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Poly_denoteN___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -492,6 +498,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Linarith_Expr_toPolyN(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

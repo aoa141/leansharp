@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getMaxHeartbeats___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -36,6 +37,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_logInfoAt___at___00Lean_reportOutOfHeartbeats_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -56,6 +58,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_withHeartbeats___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -99,6 +102,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_logAt___at___00Lean_logInfoAt___at___00Lean_reportOutOfHeartbeats_spec__0_spec__0(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_45 = null; Obj x_46 = null; byte x_47 = 0; Obj x_48 = null; byte x_49 = 0; byte x_50 = 0; Obj x_51 = null; Obj x_52 = null; Obj x_72 = null; byte x_73 = 0; Obj x_74 = null; byte x_75 = 0; Obj x_76 = null; byte x_77 = 0; Obj x_78 = null; byte x_82 = 0; byte x_83 = 0; byte x_84 = 0; byte x_96 = 0; byte x_97 = 0; byte x_98 = 0; byte x_99 = 0; byte x_101 = 0; byte x_110 = 0; 
@@ -519,6 +523,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_addMessageContextPartial___at___00Lean_logAt___at___00Lean_logInfoAt___at___00Lean_reportOutOfHeartbeats_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -545,6 +550,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_getRemainingHeartbeats___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -555,6 +561,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_heartbeatsPercent___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_18 = 0; 
@@ -614,6 +621,7 @@ return x_14;
 }
 }
 public static byte l_Lean_logAt___at___00Lean_logInfoAt___at___00Lean_reportOutOfHeartbeats_spec__0_spec__0___lam__0(byte x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 1)
@@ -774,6 +782,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_reportOutOfHeartbeats___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -804,6 +813,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_getRemainingHeartbeats(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -812,6 +822,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_reportOutOfHeartbeats(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_25 = 0; 
@@ -889,6 +900,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_withHeartbeats(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -917,6 +929,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getMaxHeartbeats___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -998,6 +1011,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_getRemainingHeartbeats___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

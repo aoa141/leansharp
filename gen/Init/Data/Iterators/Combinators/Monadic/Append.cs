@@ -67,6 +67,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Iterators_Types_Append_fst_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -477,6 +478,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Iterators_Types_Append_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -579,6 +581,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Iterators_Types_Append_instFinitenessRelation___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -598,6 +601,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Iterators_Combinators_Monadic_Append_0__Std_Iterators_Types_Append_instProductivenessRelation___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -651,6 +655,7 @@ return x_9;
 }
 }
 public static Obj l_Std_IterM_Intermediate_appendSnd___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

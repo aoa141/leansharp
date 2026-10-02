@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Grind_Ring_Envelope {
 public static Obj l_Lean_Grind_Ring_OfSemiring_instLTQOfOrderedAdd___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -24,6 +25,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instAddQ___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33,6 +35,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_zsmul___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -50,6 +53,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_sub(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -58,6 +62,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_intCast___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -105,6 +110,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_intCast(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -113,6 +119,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_intCast___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -163,6 +170,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_ofSemiring(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -171,6 +179,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_zsmul___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -180,6 +189,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instNatCastQ(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -188,6 +198,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instHPowQNat___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -197,6 +208,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instNatCastQ___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -206,6 +218,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_toQUnexpander(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -264,6 +277,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instMulQ___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -273,6 +287,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instOfNatQ___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -315,6 +330,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_npow___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -343,6 +359,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_Q_mk___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -353,6 +370,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_toQ(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -361,6 +379,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_zsmul(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -369,6 +388,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_nsmul___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -397,6 +417,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instSubQ___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -421,6 +442,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_Q_liftOn_u2082___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -518,6 +540,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instMulQ(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -536,6 +559,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instOfNatQ(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -610,6 +634,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instHPowQNat___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -620,6 +645,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instIntCastQ___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -736,6 +762,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_OfCommSemiring_instNegQ___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -839,6 +866,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_ofSemiring___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -847,6 +875,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_natCast(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -939,6 +968,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_Ring_OfSemiring_neg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkBelowName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -38,6 +39,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_isNoConfusion___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -47,6 +49,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_isAuxRecursorWithSuffix___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -110,6 +113,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_NoConfusionInfo_regular_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -118,6 +122,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_markAuxRecursor(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -127,6 +132,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_markSparseCasesOn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -146,6 +152,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_NoConfusionInfo_arity___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -176,6 +183,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_NoConfusionInfo_perCtor_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -184,6 +192,7 @@ return x_3;
 }
 }
 public static byte l_Lean_isCasesOnLike(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -215,6 +224,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_NoConfusionInfo_perCtor_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -235,6 +245,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkCasesOnName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -244,6 +255,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00Std_DTreeMap_Internal_Impl_foldl___at___00__private_Lean_AuxRecursor_0__Lean_initFn_00___x40_Lean_AuxRecursor_1899236304____hygCtx___hyg_2__spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -302,6 +314,7 @@ return x_1;
 }
 }
 public static byte l_Lean_isAuxRecursor(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -387,6 +400,7 @@ return x_1;
 }
 }
 public static byte l_Lean_isSparseCasesOn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -398,6 +412,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_AuxRecursor_0__Lean_initFn_00___x40_Lean_AuxRecursor_1899236304____hygCtx___hyg_2__spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -451,6 +466,7 @@ return x_1;
 }
 }
 public static byte l_Lean_isNoConfusion(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -461,6 +477,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_AuxRecursor_0__Lean_initFn___lam__0_00___x40_Lean_AuxRecursor_1899236304____hygCtx___hyg_2_(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -536,6 +553,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_isRecOnRecursor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -545,6 +563,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldl___at___00__private_Lean_AuxRecursor_0__Lean_initFn_00___x40_Lean_AuxRecursor_1899236304____hygCtx___hyg_2__spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -732,6 +751,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_AuxRecursor_0__Lean_initFn_00___x40_Lean_AuxRecursor_3890270560____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -750,6 +770,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_AuxRecursor_0__Lean_initFn_00___x40_Lean_AuxRecursor_1899236304____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -822,6 +843,7 @@ return x_4;
 }
 }
 public static byte l_Lean_isBRecOnRecursor(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -841,6 +863,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_isCasesOnRecursor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -851,6 +874,7 @@ return x_4;
 }
 public static Obj l___private_Lean_AuxRecursor_0__Lean_sparseCasesOnExt;
 public static byte l_Lean_isRecOnRecursor(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -869,6 +893,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_markNoConfusion(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 

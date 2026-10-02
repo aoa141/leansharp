@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_TakeDrop {
 public static Obj l_String_startsWith___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -16,6 +17,7 @@ return x_4;
 }
 }
 public static Obj l_String_stripPrefix___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -83,6 +85,7 @@ return x_12;
 }
 }
 public static Obj l_String_dropSuffix_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -91,6 +94,7 @@ return x_5;
 }
 }
 public static Obj l_String_endsWith___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -295,6 +299,7 @@ return x_9;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00String_Slice_trimLeft_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -384,6 +389,7 @@ goto _start;
 }
 }
 public static Obj l_String_dropSuffix(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -392,6 +398,7 @@ return x_5;
 }
 }
 public static Obj l_String_takeEndWhile___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -410,6 +417,7 @@ return x_5;
 }
 }
 public static Obj l_String_dropPrefix_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -434,6 +442,7 @@ return x_7;
 }
 }
 public static Obj l_String_isPrefixOf___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -617,6 +626,7 @@ return x_14;
 }
 }
 public static Obj l_String_stripPrefix(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -673,6 +683,7 @@ return x_6;
 }
 }
 public static Obj l_String_skipSuffix_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -699,6 +710,7 @@ return x_2;
 }
 }
 public static Obj l_String_dropPrefix_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -717,6 +729,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_revSkipWhile___at___00String_Slice_trimRight_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -812,6 +825,7 @@ return x_2;
 }
 }
 public static Obj l_String_dropPrefix___at___00String_stripPrefix_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -822,6 +836,7 @@ return x_4;
 }
 }
 public static Obj lean_string_nextwhile(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -832,6 +847,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_dropPrefix___at___00String_dropPrefix___at___00String_stripPrefix_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -856,6 +872,7 @@ return x_8;
 }
 }
 public static Obj l_String_revAll___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -882,6 +899,7 @@ return x_9;
 }
 }
 public static Obj l_Substring_Raw_takeWhileAux___at___00String_nextUntil_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -940,6 +958,7 @@ goto _start;
 }
 }
 public static Obj l_String_takeWhile___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1044,6 +1063,7 @@ return x_12;
 }
 }
 public static Obj l_Substring_Raw_takeWhileAux___at___00String_Internal_nextWhileImpl_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1078,6 +1098,7 @@ return x_5;
 }
 }
 public static Obj l_String_Pos_skip_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1247,6 +1268,7 @@ return x_15;
 }
 }
 public static Obj l_String_Pos_revSkip_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1295,6 +1317,7 @@ return x_9;
 }
 }
 public static Obj l_String_skipPrefix_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1304,6 +1327,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_dropPrefix___at___00String_dropPrefix___at___00String_stripPrefix_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1314,6 +1338,7 @@ return x_4;
 }
 }
 public static Obj l_String_dropPrefix___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1383,6 +1408,7 @@ return x_11;
 }
 }
 public static Obj l_String_Slice_dropPrefix___at___00String_dropPrefix___at___00String_stripPrefix_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1400,6 +1426,7 @@ return x_5;
 }
 }
 public static Obj l_Substring_Raw_takeWhileAux___at___00String_Internal_nextWhileImpl_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -1450,6 +1477,7 @@ goto _start;
 }
 }
 public static Obj l_String_dropPrefix___at___00String_stripPrefix_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1464,6 +1492,7 @@ return x_7;
 }
 }
 public static Obj l_String_Pos_Raw_nextUntil___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1799,6 +1828,7 @@ return x_15;
 }
 }
 public static Obj l_String_Pos_revSkipWhile___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1985,6 +2015,7 @@ return x_5;
 }
 }
 public static Obj l_String_skipSuffixWhile___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

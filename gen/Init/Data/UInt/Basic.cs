@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_UInt_Basic {
 public static Obj l_UInt64_modn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -48,6 +49,7 @@ return x_1;
 }
 }
 public static Obj l_USize_toUInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ushort x_3 = 0; Obj x_4 = null; 
@@ -59,6 +61,7 @@ return x_4;
 }
 }
 public static Obj l_USize_mul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -123,6 +126,7 @@ return x_2;
 }
 }
 public static Obj l_Bool_toUInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; ushort x_3 = 0; Obj x_4 = null; 
@@ -133,6 +137,7 @@ return x_4;
 }
 }
 public static Obj l_USize_lor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -156,6 +161,7 @@ return x_1;
 }
 }
 public static Obj l_UInt64_toUSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -198,6 +204,7 @@ return x_1;
 }
 }
 public static Obj l_UInt64_shiftRight___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -231,6 +238,7 @@ return x_1;
 }
 }
 public static Obj l_instMaxUSize___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -244,6 +252,7 @@ return x_6;
 }
 }
 public static Obj l_UInt16_lor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -265,6 +274,7 @@ return x_1;
 }
 }
 public static Obj l_UInt64_ofFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -274,6 +284,7 @@ return x_3;
 }
 }
 public static ushort l_UInt16_pow(ushort x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -308,6 +319,7 @@ return x_1;
 }
 }
 public static ushort l_UInt16_ofInt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; ushort x_5 = 0; 
@@ -321,6 +333,7 @@ return x_5;
 }
 }
 public static Obj l_UInt8_ofFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -330,6 +343,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_cast___at___00USize_modn_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -359,6 +373,7 @@ return x_1;
 }
 }
 public static ulong l_UInt64_ofInt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -382,6 +397,7 @@ return x_1;
 }
 }
 public static Obj l_UInt16_xor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -403,6 +419,7 @@ return x_1;
 }
 }
 public static Obj l_Bool_toUInt8___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -492,6 +509,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_cast___at___00UInt8_modn_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -511,6 +529,7 @@ return x_1;
 }
 }
 public static Obj l_UInt32_lor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -534,6 +553,7 @@ return x_1;
 }
 }
 public static Obj l_USize_modn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -546,6 +566,7 @@ return x_5;
 }
 }
 public static Obj l_UInt32_div___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -569,6 +590,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_cast___at___00UInt64_modn_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -578,6 +600,7 @@ return x_2;
 }
 }
 public static Obj l_USize_div___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -645,6 +668,7 @@ return x_3;
 }
 }
 public static byte l_UInt8_toAsciiUpper(byte x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; 
@@ -685,6 +709,7 @@ return x_1;
 }
 }
 public static uint l_UInt32_ofInt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; uint x_5 = 0; 
@@ -698,6 +723,7 @@ return x_5;
 }
 }
 public static Obj l_UInt16_neg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; ushort x_3 = 0; Obj x_4 = null; 
@@ -708,6 +734,7 @@ return x_4;
 }
 }
 public static Obj l_USize_neg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -750,6 +777,7 @@ return x_1;
 }
 }
 public static Obj l_UInt64_mul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -773,6 +801,7 @@ return x_1;
 }
 }
 public static Obj l_UInt64_div___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -990,6 +1019,7 @@ return x_3;
 }
 }
 public static Obj l_UInt16_add___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -1011,6 +1041,7 @@ return x_1;
 }
 }
 public static Obj l_UInt8_modn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -1032,6 +1063,7 @@ return x_1;
 }
 }
 public static ulong l_instMaxUInt64___lam__0(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1047,6 +1079,7 @@ return x_2;
 }
 }
 public static Obj l_USize_toBitVec64___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -1057,6 +1090,7 @@ return x_4;
 }
 }
 public static Obj l_UInt64_add___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1070,6 +1104,7 @@ return x_6;
 }
 }
 public static Obj l_UInt64_complement___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -1204,6 +1239,7 @@ return x_6;
 }
 }
 public static ulong l_USize_modn(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; 
@@ -1227,6 +1263,7 @@ return x_1;
 }
 }
 public static Obj l_UInt8_toAsciiLower___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1247,6 +1284,7 @@ return x_1;
 }
 }
 public static Obj l_UInt32_neg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -1258,6 +1296,7 @@ return x_4;
 }
 }
 public static Obj l_Bool_toUInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -1300,6 +1339,7 @@ return x_4;
 }
 }
 public static Obj l_UInt32_toUSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -1321,6 +1361,7 @@ return x_1;
 }
 }
 public static Obj l_instMinUInt16___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -1332,6 +1373,7 @@ return x_6;
 }
 }
 public static Obj l_UInt16_mul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -1361,6 +1403,7 @@ return x_4;
 }
 }
 public static Obj l_UInt64_shiftLeft___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1384,6 +1427,7 @@ return x_1;
 }
 }
 public static ulong l_USize_ofInt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; 
@@ -1429,6 +1473,7 @@ return x_1;
 }
 }
 public static Obj l_USize_toBitVec32___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -1447,6 +1492,7 @@ return x_2;
 }
 }
 public static ushort l_instMinUInt16___lam__0(ushort x_1, ushort x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1491,6 +1537,7 @@ return x_2;
 }
 }
 public static byte l_UInt8_ofInt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1504,6 +1551,7 @@ return x_5;
 }
 }
 public static Obj l_instMaxUInt16___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -1535,6 +1583,7 @@ return x_1;
 }
 }
 public static Obj l_UInt32_pow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; Obj x_5 = null; 
@@ -1646,6 +1695,7 @@ return x_1;
 }
 }
 public static Obj l_USize_xor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1678,6 +1728,7 @@ return x_6;
 }
 }
 public static Obj l_instMinUInt64___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1711,6 +1762,7 @@ return x_1;
 }
 }
 public static byte l_UInt8_toAsciiLower(byte x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; 
@@ -1770,6 +1822,7 @@ return x_1;
 }
 }
 public static Obj l_instMaxUInt8___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1831,6 +1884,7 @@ return x_1;
 }
 }
 public static Obj l_UInt16_shiftLeft___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; ushort x_5 = 0; Obj x_6 = null; 
@@ -1852,6 +1906,7 @@ return x_1;
 }
 }
 public static Obj l_USize_mod___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1886,6 +1941,7 @@ return x_1;
 }
 }
 public static Obj l_instMinUSize___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1899,6 +1955,7 @@ return x_6;
 }
 }
 public static ulong l_UInt64_pow(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2014,6 +2071,7 @@ return x_1;
 }
 }
 public static Obj l_UInt8_xor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2058,6 +2116,7 @@ return x_6;
 }
 }
 public static Obj l_UInt16_ofFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; Obj x_3 = null; 
@@ -2126,6 +2185,7 @@ return x_1;
 }
 }
 public static Obj l_UInt8_pow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -2178,6 +2238,7 @@ return x_6;
 }
 }
 public static Obj l_USize_land___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -2286,6 +2347,7 @@ return x_6;
 }
 }
 public static Obj l_UInt64_neg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -2310,6 +2372,7 @@ return x_6;
 }
 }
 public static byte l_UInt8_pow(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2457,6 +2520,7 @@ return x_1;
 }
 }
 public static Obj l_UInt8_shiftRight___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2572,6 +2636,7 @@ return x_4;
 }
 }
 public static Obj l_USize_shiftLeft___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -2795,6 +2860,7 @@ return x_4;
 }
 }
 public static Obj l_UInt32_land___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -2888,6 +2954,7 @@ return x_1;
 }
 }
 public static uint l_UInt32_pow(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -3243,6 +3310,7 @@ return x_1;
 }
 }
 public static Obj l_USize_pow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -3346,6 +3414,7 @@ return x_1;
 }
 }
 public static ulong l_USize_pow(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 

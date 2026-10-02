@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_DTreeMap_Internal_Cell {
 public static Obj l_Std_DTreeMap_Internal_List_findCell(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -23,6 +24,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_ofEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -42,6 +44,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_Const_alter___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -103,6 +106,7 @@ return x_13;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_getEntry_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -113,6 +117,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_getKey_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -123,6 +128,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_getEntry_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -131,6 +137,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_of(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -453,6 +460,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_ofOption(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -489,6 +497,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_alter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -517,6 +526,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -527,6 +537,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_contains___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -537,6 +548,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Cell_alter___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -646,6 +658,7 @@ return x_2;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Cell_contains(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 

@@ -90,17 +90,22 @@ No test that is run fails.
       interpret the program; emitting C# for user code and compiling it with Roslyn would be the
       fast alternative.
 - [ ] Generated code size: long mangled names; could shorten symbols with a name table.
-- [ ] Heartbeats are counted on constructor/closure allocations only, so `maxHeartbeats` limits
-      trigger at different points than native Lean.
 - [ ] CaDiCaL port is ~1–3× slower than native; the arena clause mover is not ported.
 - [ ] Kernel externs leak one reference count on results (performance only).
-- [ ] Stack overflow in deeply recursive Lean code kills the .NET process (cannot be caught);
-      native Lean reports it. Consider stack probes in generated code.
 - [ ] The test runner replaces a worker when its live heap exceeds 70% of its limit; with 4
       workers on 30 GB that happens after almost every test that imports `Lean`.
 
 ## 4. Known limitations (documented, low priority)
 
+- Stack overflow: generated code checks the stack in every function that can recurse and in
+  closure calls, and ends the program with Lean's message and exit status 134. A stack overflow
+  in hand-written runtime code that is not guarded (the kernel and the interpreter are) still
+  terminates the .NET process. The check costs about a quarter of the generated functions one
+  comparison each.
+- Heartbeats (`IO.getNumHeartbeats`, `maxHeartbeats`) are counted on the same allocations as
+  natively. For compiled library code the counts agree with native Lean to within a few units;
+  code run by the IR interpreter differs by a few heartbeats per statement, because the two
+  interpreters allocate differently.
 - `Metadata.numLinks` only counts hard links created by this process.
 - File locks (`IO.FS.Handle.lock`) only work within one process.
 - LLVM backend and native dynamic libraries/plugins: not supported.

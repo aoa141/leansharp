@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Float_Float {
 public static Obj l_Float_toUInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; ulong x_3 = 0; Obj x_4 = null; 
@@ -18,6 +19,7 @@ return x_4;
 }
 }
 public static Obj l_Float_repr(double x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; byte x_4 = 0; 
@@ -63,6 +65,7 @@ return x_1;
 }
 }
 public static Obj l_Float_isFinite___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; byte x_3 = 0; Obj x_4 = null; 
@@ -94,6 +97,7 @@ return x_1;
 }
 }
 public static Obj l_Float_sqrt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; Obj x_4 = null; 
@@ -105,6 +109,7 @@ return x_4;
 }
 }
 public static Obj l_UInt8_toFloat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; double x_3 = 0.0; Obj x_4 = null; 
@@ -115,6 +120,7 @@ return x_4;
 }
 }
 public static Obj l_Float_lt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; byte x_5 = 0; Obj x_6 = null; 
@@ -128,6 +134,7 @@ return x_6;
 }
 }
 public static Obj l_Float_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; Obj x_3 = null; 
@@ -138,6 +145,7 @@ return x_3;
 }
 }
 public static Obj l_Float_frExp___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; Obj x_3 = null; 
@@ -157,6 +165,7 @@ return x_1;
 }
 }
 public static Obj l_Float_round___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; Obj x_4 = null; 
@@ -178,6 +187,7 @@ return x_1;
 }
 }
 public static Obj l_instDecidableEqFloat_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; byte x_5 = 0; Obj x_6 = null; 
@@ -191,6 +201,7 @@ return x_6;
 }
 }
 public static Obj l_Float_floor___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; Obj x_4 = null; 
@@ -212,6 +223,7 @@ return x_1;
 }
 }
 public static Obj l_Float_toUInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; ushort x_3 = 0; Obj x_4 = null; 
@@ -223,6 +235,7 @@ return x_4;
 }
 }
 public static Obj l_Float_toUInt32___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; uint x_3 = 0; Obj x_4 = null; 
@@ -234,6 +247,7 @@ return x_4;
 }
 }
 public static Obj l_Float_tanh___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; Obj x_4 = null; 
@@ -245,6 +259,7 @@ return x_4;
 }
 }
 public static Obj l_Float_add___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; double x_5 = 0.0; Obj x_6 = null; 
@@ -258,6 +273,7 @@ return x_6;
 }
 }
 public static Obj l_Float_acosh___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; Obj x_4 = null; 
@@ -279,6 +295,7 @@ return x_1;
 }
 }
 public static Obj l_Float_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; byte x_5 = 0; Obj x_6 = null; 
@@ -305,6 +322,7 @@ return x_6;
 }
 }
 public static Obj l_Float_atan2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; double x_5 = 0.0; Obj x_6 = null; 
@@ -328,6 +346,7 @@ return x_1;
 }
 }
 public static Obj l_Float_sub___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; double x_5 = 0.0; Obj x_6 = null; 
@@ -362,6 +381,7 @@ return x_4;
 }
 }
 public static Obj l_Float_cosh___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; Obj x_4 = null; 
@@ -391,6 +411,7 @@ return x_1;
 }
 }
 public static Obj l_Float_log___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; Obj x_4 = null; 
@@ -453,6 +474,7 @@ return x_1;
 }
 }
 public static Obj l_Float_maximumNumber___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; double x_5 = 0.0; Obj x_6 = null; 
@@ -497,6 +519,7 @@ return x_4;
 }
 }
 public static Obj l_Float_isNaN___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; byte x_3 = 0; Obj x_4 = null; 
@@ -529,6 +552,7 @@ return x_5;
 }
 }
 public static Obj l_Float_decLe___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; byte x_5 = 0; Obj x_6 = null; 
@@ -553,6 +577,7 @@ return x_4;
 }
 }
 public static Obj l_Float_abs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; Obj x_4 = null; 
@@ -609,6 +634,7 @@ return x_3;
 }
 }
 public static Obj l_Float_maximum___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; double x_5 = 0.0; Obj x_6 = null; 
@@ -644,6 +670,7 @@ return x_4;
 }
 }
 public static Obj l_UInt16_toFloat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; double x_3 = 0.0; Obj x_4 = null; 
@@ -806,6 +833,7 @@ return x_1;
 }
 }
 public static Obj l_Float_minimumNumber___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 double x_3 = 0.0; double x_4 = 0.0; double x_5 = 0.0; Obj x_6 = null; 
@@ -874,6 +902,7 @@ return x_4;
 }
 }
 public static Obj l_Float_ofModel___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; double x_3 = 0.0; Obj x_4 = null; 

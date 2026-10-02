@@ -55,6 +55,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2f____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -156,6 +157,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__termWithout__expected__type____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -304,6 +306,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x2a_x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -438,6 +441,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2227____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -457,6 +461,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2f____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -553,6 +558,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3a_x3a____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -681,6 +687,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e_x3e_x3d____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -746,6 +753,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2022____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1083,6 +1091,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HShiftLeft__hShiftLeft__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1176,6 +1185,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2a____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1462,6 +1472,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__GE__ge__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1545,6 +1556,7 @@ return x_29;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2223____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1717,6 +1729,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Membership__mem__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1726,6 +1739,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HXor__hXor__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1849,6 +1863,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__precArg__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1900,6 +1915,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___xd7_x27____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1975,6 +1991,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx_x21____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2034,6 +2051,7 @@ return x_28;
 }
 }
 public static Obj l_Lean_instCoeOutTSyntaxSyntax___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2065,6 +2083,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2219,6 +2238,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__And__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2258,6 +2278,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Function__comp__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2267,6 +2288,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__prioHigh__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2320,6 +2342,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__List__cons__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2375,6 +2398,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HSMul__hSMul__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2384,6 +2408,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__boolIfThenElse__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2403,6 +2428,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__prio_x28___x29__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2495,6 +2521,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HAppend__hAppend__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2630,6 +2657,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term_x7e_x7e_x7e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2877,6 +2905,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2208____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2969,6 +2998,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HAnd__hAnd__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2978,6 +3008,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2987,6 +3018,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x2c_x2a__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3058,6 +3090,7 @@ return x_36;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2218____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3175,6 +3208,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__termIfLet__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3277,6 +3311,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Eq__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3489,6 +3524,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term_x2d____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3608,6 +3644,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term_x21____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3684,6 +3721,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2264____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3760,6 +3798,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Complement__complement__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3837,6 +3876,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___xd7____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3932,6 +3972,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x2c_x2b_x2c_x3f__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3951,6 +3992,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HAdd__hAdd__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4076,6 +4118,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__prec_x28___x29__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4191,6 +4234,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Bool__and__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4209,6 +4253,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Complement__complement__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4290,6 +4335,7 @@ return x_27;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x7c_x7c_x7c____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4357,6 +4403,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e_x3e_x3d____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4479,6 +4526,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Neg__neg__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4560,6 +4608,7 @@ return x_27;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2a____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4597,6 +4646,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__precMax__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4668,6 +4718,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__LT__lt__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4751,6 +4802,7 @@ return x_29;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HPow__hPow__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4859,6 +4911,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term_xac____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4920,6 +4973,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x2c_x2b_x2c_x3f__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5163,6 +5217,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__BEq__beq__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5223,6 +5278,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x5e_x5e_x5e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5292,6 +5348,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x3d____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5459,6 +5516,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e_x3d____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5713,6 +5771,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x26_x26_x26____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5722,6 +5781,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HShiftRight__hShiftRight__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5875,6 +5935,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term_x2d____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5956,6 +6017,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x5e_x5e_x5e____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6149,6 +6211,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__prioHigh__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6215,6 +6278,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__GE__ge__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6234,6 +6298,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__termIfThenElse__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6390,6 +6455,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x2a_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6627,6 +6693,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__LE__le__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6645,6 +6712,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x2c_x2b__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6742,6 +6810,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__prioLow__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6829,6 +6898,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Inv__inv__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -7376,6 +7446,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Prod__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7424,6 +7495,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__prioDefault__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7731,6 +7803,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x25____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -7784,6 +7857,7 @@ return x_26;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2b_x2b____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -7858,6 +7932,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HMod__hMod__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8123,6 +8198,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x26_x26_x26____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8468,6 +8544,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2f____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8773,6 +8850,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HMul__hMul__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8791,6 +8869,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3d_x3d____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8866,6 +8945,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x2c_x2a_x2c_x3f__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8885,6 +8965,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__GT__gt__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9042,6 +9123,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2d____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9067,6 +9149,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x7c_x7c____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9138,6 +9221,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9159,6 +9243,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x3c_x3c____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9234,6 +9319,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x2b__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9259,6 +9345,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x7c____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9375,6 +9462,7 @@ return x_46;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x7c_x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9404,6 +9492,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Bool__or__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9501,6 +9590,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x24______1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9659,6 +9749,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x3d____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9722,6 +9813,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term_x7b___x3a___x2f_x2f___x7d__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9821,6 +9913,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u224d____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9942,6 +10035,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HSMul__hSMul__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10275,6 +10369,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x3c_x7c_x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10284,6 +10379,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2208____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10361,6 +10457,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3d____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10534,6 +10631,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x7c_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10630,6 +10728,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__termWithout__expected__type____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10819,6 +10918,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10874,6 +10974,7 @@ return x_26;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x5e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11089,6 +11190,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x26_x26____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11208,6 +11310,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2b_x2b____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11242,6 +11345,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Prod__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11403,6 +11507,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___xd7_x27____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11521,6 +11626,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x3c_x7c_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11635,6 +11741,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x24_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11767,6 +11874,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser___aux__Init__Notation______macroRules__Lean__Parser__commandUnseal______1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11872,6 +11980,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2b____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -12194,6 +12303,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x2c_x2a_x2c_x3f__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -12275,6 +12385,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__precLead__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12372,6 +12483,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x26_x26_x26____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -12461,6 +12573,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3d_x3d____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12579,6 +12692,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x5e____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12845,6 +12959,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__termIfThenElse__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13019,6 +13134,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e_x3d____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13108,6 +13224,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x5e____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13306,6 +13423,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13409,6 +13527,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__termMax__prec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13577,6 +13696,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2209____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13707,6 +13827,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__PProd__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13773,6 +13894,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u207b_xb9__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13824,6 +13946,7 @@ return x_24;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2d____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13895,6 +14018,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2264____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13904,6 +14028,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HSub__hSub__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -14015,6 +14140,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__termDepIfThenElse__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14205,6 +14331,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser___aux__Init__Notation______macroRules__Lean__Parser__commandSeal______1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14326,6 +14453,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__precMin__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14443,6 +14571,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term_x7b___x3a___x2f_x2f___x7d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -14698,6 +14827,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HMul__hMul__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -14820,6 +14950,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HOr__hOr__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -15103,6 +15234,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HAdd__hAdd__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -15261,6 +15393,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2b____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -15434,6 +15567,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c_x2a____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -16062,6 +16196,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Or__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -16210,6 +16345,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Bool__not__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -16342,6 +16478,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__prec_x28___x29__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -16382,6 +16519,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HOr__hOr__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -16661,6 +16799,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2a____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -16728,6 +16867,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__And__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -16840,6 +16980,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__precMin1__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -17398,6 +17539,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Bind__bind__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -17506,6 +17648,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2264____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -17559,6 +17702,7 @@ return x_26;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3d____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -17703,6 +17847,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x2a__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -17889,6 +18034,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2265____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -18094,6 +18240,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Functor__map__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -18141,6 +18288,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x25____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -18196,6 +18344,7 @@ return x_26;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3d____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -18258,6 +18407,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__stx___x3f__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -18486,6 +18636,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instCoeOutTSyntaxSyntax___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18659,6 +18810,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__List__cons__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -18742,6 +18894,7 @@ return x_29;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -18839,6 +18992,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2228____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -19060,6 +19214,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__PProd__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -19164,6 +19319,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Not__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -19466,6 +19622,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HEq__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -19885,6 +20042,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__boolIfThenElse__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -19951,6 +20109,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2b____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -20304,6 +20463,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3d_x3d____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -20383,6 +20543,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Dvd__dvd__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -20412,6 +20573,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Membership__mem__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -20710,6 +20872,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x7c_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -20848,6 +21011,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term_x2d____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -21397,6 +21561,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2a_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -21606,6 +21771,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x5e_x5e_x5e____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -22208,6 +22374,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HXor__hXor__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -22397,6 +22564,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x7c_x7c_x7c____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -22573,6 +22741,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__termDepIfThenElse__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -23168,6 +23337,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HDiv__hDiv__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -23239,6 +23409,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x5e_x5e_x5e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -23363,6 +23534,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__precLead__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -23960,6 +24132,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__Bool__and__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -24186,6 +24359,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__BEq__beq__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -24462,6 +24636,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -24666,6 +24841,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x7c_x7c____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -24777,6 +24953,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__HAnd__hAnd__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -24872,6 +25049,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2265____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -24982,6 +25160,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x2b_x2b____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -25819,6 +25998,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2265____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -25921,6 +26101,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3e_x3e_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -27051,6 +27232,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__LE__le__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -27151,6 +27333,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Notation______unexpand__LE__le__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -28213,6 +28396,7 @@ return x_29;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___u2223____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -29975,6 +30159,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Notation______macroRules__term___x3c____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

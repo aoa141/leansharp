@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static byte l___private_Std_Tactic_BVDecide_LRAT_Internal_Checker_0__Std_Tactic_BVDecide_LRAT_Internal_check_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -254,6 +255,7 @@ return x_20;
 }
 }
 public static Obj l___private_Std_Tactic_BVDecide_LRAT_Internal_Checker_0__Std_Tactic_BVDecide_LRAT_Internal_check_convertClause(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -344,6 +346,7 @@ return x_21;
 }
 }
 public static Obj l_List_filterMapTR_go___at___00__private_Std_Tactic_BVDecide_LRAT_Internal_Checker_0__Std_Tactic_BVDecide_LRAT_Internal_check_convertClause_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

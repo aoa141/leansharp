@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_JobAction_unpack_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -41,6 +42,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_JobResult_isCanceled___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -51,6 +53,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_JobAction_reuse_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -77,6 +80,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_JobAction_fetch_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -296,6 +300,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instCoeOutJobOpaqueJob___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -304,6 +309,7 @@ return x_2;
 }
 }
 public static byte l_Lake_instDecidableEqJobAction(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -316,6 +322,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_JobAction_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -395,6 +402,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_JobAction_unknown_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -404,6 +412,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instReprJobAction_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -414,6 +423,7 @@ return x_4;
 }
 }
 public static byte l_Lake_instOrdJobAction_ord(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -450,6 +460,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_JobAction_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -459,6 +470,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Job_cast___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -468,6 +480,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instInhabitedJob___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -595,6 +608,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instCoeOutJobOpaqueJob(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -632,6 +646,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_Job_cast___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -801,6 +816,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_JobAction_build_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -811,6 +827,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_JobAction_verb(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 switch (x_2) {
@@ -908,6 +925,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_instInhabitedJob(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1058,6 +1076,7 @@ return x_15;
 }
 }
 public static Obj l_Lake_JobAction_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1206,6 +1225,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_JobAction_unpack_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1247,6 +1267,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instReprJobAction_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; 
@@ -1477,6 +1498,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Job_nop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1506,6 +1528,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_Job_error___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1571,6 +1594,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_JobAction_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1608,6 +1632,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_JobAction_unknown_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1648,6 +1673,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_JobState_merge(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; byte x_30 = 0; 
@@ -1864,6 +1890,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Job_instPure___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1905,6 +1932,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Build_Job_Basic_0__Lake_JobTask_toOpaqueImpl___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1970,6 +1998,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Job_mapResult___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2073,6 +2102,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_JobAction_build_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2091,6 +2121,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Build_Job_Basic_0__Lake_JobTask_toOpaqueImpl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2319,6 +2350,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_Job_toOpaque(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2378,6 +2410,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_JobAction_merge___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2396,6 +2429,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Job_mapOk___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2413,6 +2447,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Job_pure___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -2528,6 +2563,7 @@ return x_13;
 }
 }
 public static Obj l_Lake_Job_pure(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 

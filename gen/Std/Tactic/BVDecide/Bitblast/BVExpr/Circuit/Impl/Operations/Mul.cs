@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Tactic_BVDecide_Bitblast_BVExpr_Circuit_Impl_Operations_Mul {
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_blastMul_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -17,6 +18,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_blastMul_blast___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -26,6 +28,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_blastMul___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -35,6 +38,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_blastMul_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -43,6 +47,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_blastMul_blast(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -70,6 +75,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_blastMul_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_20 = 0; Obj x_21 = null; 
@@ -248,6 +254,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bitblast_blastMul___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 

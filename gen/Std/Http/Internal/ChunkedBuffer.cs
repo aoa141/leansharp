@@ -62,6 +62,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Internal_ChunkedBuffer_writeChar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -82,6 +83,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Internal_ChunkedBuffer_writeString___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -91,6 +93,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Internal_ChunkedBuffer_ofArray(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -169,6 +172,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Internal_ChunkedBuffer_toByteArray___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

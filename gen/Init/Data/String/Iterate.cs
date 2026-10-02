@@ -127,6 +127,7 @@ return x_4;
 }
 }
 public static Obj l_String_foldr___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -166,6 +167,7 @@ return x_3;
 }
 }
 public static Obj l_String_revBytes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -188,6 +190,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Internal_foldlImpl_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -221,6 +224,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_String_Iterate_0__String_Slice_PosIterator_finitenessRelation___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -245,6 +249,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_instInhabitedRevPosIterator_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -454,6 +459,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_String_Iterate_0__String_Slice_ByteIterator_finitenessRelation___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -489,6 +495,7 @@ return x_8;
 }
 }
 public static Obj l_String_Slice_revPositionsFrom___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -498,6 +505,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_instInhabitedPosIterator___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -507,6 +515,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_length___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -557,6 +566,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_PosIterator_instIteratorSubtypePosNeEndPosOfPure___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -588,6 +598,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_positions___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -614,6 +625,7 @@ return x_7;
 }
 }
 public static Obj l_String_Slice_revPositionsFrom___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -624,6 +636,7 @@ return x_3;
 }
 }
 public static Obj l_String_chars___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -693,6 +706,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Internal_foldlImpl_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -704,6 +718,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_String_Iterate_0__String_Slice_PosIterator_finitenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -712,6 +727,7 @@ return x_2;
 }
 }
 public static Obj l_String_revPositionsFrom___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -722,6 +738,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_String_Iterate_0__String_Slice_RevByteIterator_finitenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -747,6 +764,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_RevPosIterator_instIteratorLoopSubtypePosNeEndPosOfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -857,6 +875,7 @@ return x_2;
 }
 }
 public static Obj l_String_revPositionsFrom___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -899,6 +918,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_instInhabitedRevPosIterator_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -908,6 +928,7 @@ return x_2;
 }
 }
 public static Obj lean_string_foldl(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -919,6 +940,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Internal_foldlImpl_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -945,6 +967,7 @@ return x_5;
 }
 }
 public static Obj l_String_Internal_ofToSliceWithProof___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1098,6 +1121,7 @@ return x_22;
 }
 }
 public static Obj l_String_Slice_ByteIterator_instIteratorLoopUInt8OfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1175,6 +1199,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_instInhabitedPosIterator_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1191,6 +1216,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_length_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1200,6 +1226,7 @@ return x_7;
 }
 }
 public static Obj l_String_instForInCharOfMonad___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1211,6 +1238,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_String_Iterate_0__String_Slice_ByteIterator_finitenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1361,6 +1389,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_length(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1390,6 +1419,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_String_Iterate_0__String_Slice_RevPosIterator_finitenessRelation___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1478,6 +1508,7 @@ return x_9;
 }
 }
 public static Obj l_String_Slice_RevByteIterator_instIteratorLoopUInt8OfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1543,6 +1574,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_length_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1653,6 +1685,7 @@ return x_8;
 }
 }
 public static Obj l_String_positionsFrom___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1685,6 +1718,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_RevPosIterator_instIteratorSubtypePosNeEndPosOfPure___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1775,6 +1809,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00String_Slice_length_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -1861,6 +1896,7 @@ return x_14;
 }
 }
 public static Obj l_String_Slice_positionsFrom___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1871,6 +1907,7 @@ return x_3;
 }
 }
 public static Obj l_String_revPositions___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2005,6 +2042,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_instInhabitedPosIterator_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

@@ -335,6 +335,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Std_Http_Header_Name_ofString_x21_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -364,6 +365,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Header_Name_toCanonical(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -448,6 +450,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Header_Name_ofString_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -481,6 +484,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Http_Header_instDecidableEqName_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -575,6 +579,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Header_instDecidableEqName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -616,6 +621,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Header_instReprName_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -797,6 +803,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Header_Name_is___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -861,6 +868,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Header_instReprName_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; 
@@ -964,6 +972,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Header_Name_ofString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_12 = 0; 
@@ -1222,6 +1231,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Header_Name_toCanonical___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1275,6 +1285,7 @@ return x_1;
 }
 }
 public static Obj l_String_mapAux___at___00Std_Http_Header_Name_ofString_x3f_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_9 = null; byte x_10 = 0; 

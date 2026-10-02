@@ -51,6 +51,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMonadWorkspaceOfMonadStateOfWorkspace___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -68,6 +69,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getLeanOptions(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -91,6 +93,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_getLake___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -113,6 +116,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLeantar(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -127,6 +131,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getLeanLinkSharedFlags___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -159,6 +164,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_getLakeInstall___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -181,6 +187,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getLakeCache(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -203,6 +210,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getTryCache(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -232,6 +240,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getLeanSharedDynlib___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -296,6 +305,7 @@ return x_18;
 }
 }
 public static Obj l_Lake_Context_workspace___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -305,6 +315,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanCc(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -431,6 +442,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instMonadLakeEnvOfMonadWorkspaceOfFunctor___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -440,6 +452,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getElan_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -468,6 +481,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getRootPackage___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -513,6 +527,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_findPackageByName_x3f___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -523,6 +538,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLeanCc___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -532,6 +548,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanPath(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -544,6 +561,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_getLeanSharedDynlibs___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -553,6 +571,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanSystemLibDir(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -576,6 +595,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeantar___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -585,6 +605,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanAr(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -608,6 +629,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLakeSrcDir___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -626,6 +648,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getElanInstall_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -648,6 +671,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getLeanSrcDir___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -662,6 +686,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLeanSharedLib___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -711,6 +736,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLeanLibDir(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -732,6 +758,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getAugmentedEnv(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -757,6 +784,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getEnvLeanPath(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -788,6 +816,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getLean___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -802,6 +831,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getElanHome_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -826,6 +856,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_isArtifactCacheWritable___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -845,6 +876,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getLeanLinkSharedFlags___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -859,6 +891,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getAugmentedSharedLibPath___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -908,6 +941,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanSrcPath___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -933,6 +967,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_getLakeInstall___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -942,6 +977,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getAugmentedEnv___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1005,6 +1041,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getNoCache___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1017,6 +1054,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_getEnvLeanPath___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1046,6 +1084,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getLakeLibDir___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1055,6 +1094,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_mkLakeContext___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1074,6 +1114,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getElanInstall_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1086,6 +1127,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_getLeanArgs___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1142,6 +1184,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getRootPackage(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1154,6 +1197,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_getElan_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1168,6 +1212,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getRootPackage___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1206,6 +1251,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLakeSrcDir___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1251,6 +1297,7 @@ return x_13;
 }
 }
 public static Obj l_Lake_getAugmentedLeanSrcPath(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1263,6 +1310,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_findModule_x3f___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1272,6 +1320,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getLakeSrcDir(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1286,6 +1335,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getLeanir___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1308,6 +1358,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_instMonadLakeOfMonadWorkspaceOfFunctor___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1391,6 +1442,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getEnvLeanSrcPath___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1416,6 +1468,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLeanCc_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1430,6 +1483,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getLeanSharedDynlib___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1439,6 +1493,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanSharedLib___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1522,6 +1577,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getElanInstall_x3f___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1541,6 +1597,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getLakeHome(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1568,6 +1625,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_getArtifact_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1601,6 +1659,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getAugmentedLeanSrcPath___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1629,6 +1688,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getLeanir(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1662,6 +1722,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getLeanSystemLibDir___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1671,6 +1732,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instMonadWorkspaceOfMonadStateOfWorkspace___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1791,6 +1853,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instMonadLakeEnvOfMonadWorkspaceOfFunctor(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1799,6 +1862,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_getLeanc___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1885,6 +1949,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_getElanHome_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1922,6 +1987,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instMonadWorkspaceOfMonadLakeOfFunctor(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1946,6 +2012,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_getLake(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1969,6 +2036,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanAr___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2174,6 +2242,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_getLeanLinkSharedFlags(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2188,6 +2257,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getLakeHome___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2211,6 +2281,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getElanToolchain___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2220,6 +2291,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanCc_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2242,6 +2314,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_getLeanir___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2310,6 +2383,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLakeLibDir___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2324,6 +2398,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLeanLibDir___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2464,6 +2539,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_getLeanSrcPath(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2532,6 +2608,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getLeanc(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2770,6 +2847,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instMonadLakeEnvOfMonadWorkspaceOfFunctor___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2841,6 +2919,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_findPackageByKey_x3f___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3132,6 +3211,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLeanInstall___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Ord_SInt {
 public static Obj l_Int8_instOrd___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -28,6 +29,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_instOrd___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; byte x_5 = 0; Obj x_6 = null; 

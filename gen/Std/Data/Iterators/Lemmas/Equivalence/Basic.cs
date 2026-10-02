@@ -14,6 +14,7 @@ return x_1;
 }
 }
 public static Obj l_Std_instIterator_u03b1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

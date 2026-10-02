@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_instBEqCtorInfo_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -28,6 +29,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_LitVal_num_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -56,6 +58,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_LocalContext_addParams(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -97,6 +100,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_Expr_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -115,6 +119,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_FnBody_uset_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -157,6 +162,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_erase___at___00Lean_IR_LocalContext_eraseJoinPointDecl_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3301,6 +3307,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_Alt_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3320,6 +3327,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_FnBody_setTag_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3328,6 +3336,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_Alt_default_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3336,6 +3345,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_IRType_uint32_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3344,6 +3354,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_Expr_reset_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3362,6 +3373,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_FnBody_jmp_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3370,6 +3382,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_FnBody_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3378,6 +3391,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_Expr_isShared_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3386,6 +3400,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_LocalContext_getJPParams___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3440,6 +3455,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_LocalContext_addParams_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -3453,6 +3469,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_LocalContextEntry_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3461,6 +3478,7 @@ return x_6;
 }
 }
 public static byte l_Lean_IR_Expr_alphaEqv(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -3917,6 +3935,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_IRType_tobject_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3925,6 +3944,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_Alt_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4067,6 +4087,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_IR_FnBody_jmp_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4075,6 +4096,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_LocalContextEntry_localVar_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4083,6 +4105,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_IRType_void_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4101,6 +4124,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_IR_mkIndexSet_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4112,6 +4136,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_IRType_tagged_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4120,6 +4145,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_flattenAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_7 = 0; 
@@ -4251,6 +4277,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_FnBody_unreachable_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4259,6 +4286,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_Expr_lit_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4275,6 +4303,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_push(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4305,6 +4334,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_IRType_isScalar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4337,6 +4367,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_CtorInfo_type(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -4356,6 +4387,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00Lean_IR_LocalContext_isJP_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4399,6 +4431,7 @@ return x_12;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_erase___at___00Lean_IR_LocalContext_eraseJoinPointDecl_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4408,6 +4441,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_LocalContextEntry_param_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4416,6 +4450,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_Arg_erased_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4434,6 +4469,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_getUnboxOpName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4494,6 +4530,7 @@ return x_1;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_IR_mkIndexSet_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4532,6 +4569,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_instHashableVarId_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -4542,6 +4580,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Decl_getInfo___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4561,6 +4600,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_FnBody_ret_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4579,6 +4619,7 @@ return x_1;
 }
 }
 public static byte l_Lean_IR_instBEqIRType_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -4663,6 +4704,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_instBEqArg_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4694,6 +4736,7 @@ return x_1;
 }
 }
 public static Obj l_Array_repr___at___00Lean_IR_instReprIRType_repr_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -4750,6 +4793,7 @@ return x_10;
 }
 }
 public static byte l_Lean_IR_CtorInfo_isScalar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -4769,6 +4813,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_LitVal_num_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4789,6 +4834,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_Expr_pap_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4924,6 +4970,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_CtorInfo_isRef___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4965,6 +5012,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_IRType_uint64_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4973,6 +5021,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_IRType_usize_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4992,6 +5041,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_instReprIRType_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5001,6 +5051,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_IRType_uint8_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5009,6 +5060,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_addParamsRename_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -5017,6 +5069,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_Arg_var_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5025,6 +5078,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_instReprArg_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5159,6 +5213,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_FnBody_jdecl_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5177,6 +5232,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_reshapeAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5249,6 +5305,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_IR_mkIndexSet_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6586,6 +6643,7 @@ return x_291;
 }
 }
 public static Obj l_Array_isEqvAux___at___00Lean_IR_args_alphaEqv_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -6607,6 +6665,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_FnBody_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6707,6 +6766,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_IRType_float_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6715,6 +6775,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_Decl_extern_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6768,6 +6829,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_Alt_ctor_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6776,6 +6838,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Expr_proj_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6802,6 +6865,7 @@ return x_2;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_IR_instBEqIRType_beq_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -6864,6 +6928,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_LocalContext_contains___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6885,6 +6950,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_IRType_object_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6903,6 +6969,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_Alt_default_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6911,6 +6978,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_IRType_object_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6950,6 +7018,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_instReprParam_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6968,6 +7037,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_Arg_erased_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7053,6 +7123,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Alt_modifyBodyM(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7167,6 +7238,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_FnBody_set_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7175,6 +7247,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_LitVal_str_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7183,6 +7256,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_FnBody_resetBody(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7248,6 +7322,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_instReprJoinPointId_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7257,6 +7332,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_FnBody_vdecl_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7265,6 +7341,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Expr_fap_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7273,6 +7350,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_FnBody_setTag_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7333,6 +7411,7 @@ return x_1;
 }
 }
 public static Obj l_Option_repr___at___00Lean_IR_instReprIRType_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7342,6 +7421,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Decl_isExtern___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -7379,6 +7459,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00Array_repr___at___00Lean_IR_instReprIRType_repr_spec__1_spec__1_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -7469,6 +7550,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_FnBody_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7478,6 +7560,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_IRType_union_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7583,6 +7666,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_IR_FnBody_set_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7601,6 +7685,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_IRType_void_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7618,6 +7703,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_Decl_extern_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7636,6 +7722,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_instReprVarId_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -7700,6 +7787,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_Decl_fdecl_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8017,6 +8105,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_addParamsRename_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8028,6 +8117,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_instReprIRType_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; Obj x_45 = null; Obj x_52 = null; Obj x_59 = null; Obj x_66 = null; Obj x_73 = null; Obj x_80 = null; 
@@ -8700,6 +8790,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_Expr_isShared_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8842,6 +8933,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_IRType_struct_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8860,6 +8952,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_IRType_float32_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8868,6 +8961,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_IRType_union_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8876,6 +8970,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_args_alphaEqv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -8888,6 +8983,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_FnBody_body___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8957,6 +9053,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_Expr_uproj_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9103,6 +9200,7 @@ return x_6;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_IR_FnBody_alphaEqv_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -9194,6 +9292,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_IR_IRType_struct_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9308,6 +9407,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_instReprCtorInfo_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9316,6 +9416,7 @@ return x_3;
 }
 }
 public static Obj l_Option_repr___at___00Lean_IR_instReprIRType_repr_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -9342,6 +9443,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_FnBody_split(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9461,6 +9563,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_IRType_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9480,6 +9583,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_instBEqLitVal_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -9501,6 +9605,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_Expr_pap_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9564,6 +9669,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_Expr_unbox_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9595,6 +9701,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_Const_get_x3f___at___00Lean_IR_LocalContext_isJP_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9623,6 +9730,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_IRType_float_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9631,6 +9739,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_IRType_uint8_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9657,6 +9766,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_addParamsRename___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9702,6 +9812,7 @@ return x_1;
 }
 }
 public static Obj l_Array_isEqvAux___at___00Lean_IR_FnBody_alphaEqv_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -9713,6 +9824,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_IRType_uint16_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9837,6 +9949,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_IRType_boxed___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9910,6 +10023,7 @@ return x_6;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_IR_args_alphaEqv_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -10087,6 +10201,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_instReprVarId_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10140,6 +10255,7 @@ return x_2;
 }
 }
 public static byte l_Lean_IR_FnBody_alphaEqv(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; Obj x_16 = null; byte x_17 = 0; byte x_18 = 0; byte x_19 = 0; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; byte x_24 = 0; byte x_25 = 0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_30 = 0; Obj x_31 = null; 
@@ -11108,6 +11224,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Expr_sproj_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11219,6 +11336,7 @@ return x_12;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_IR_instBEqIRType_beq_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11252,6 +11370,7 @@ goto _start;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_IR_mkIndexSet_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -11293,6 +11412,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_instHashableJoinPointId_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -11303,6 +11423,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_LitVal_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11414,6 +11535,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_LocalContext_getJPBody___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11424,6 +11546,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Expr_reset_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11546,6 +11669,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_instReprJoinPointId_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11607,6 +11731,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_Arg_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11616,6 +11741,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_Expr_reuse_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11644,6 +11770,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_Expr_fap_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11674,6 +11801,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_IRType_uint32_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11692,6 +11820,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Expr_box_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11700,6 +11829,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_modifyJPs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -11713,6 +11843,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_Expr_ap_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11721,6 +11852,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_mkIf(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -11755,6 +11887,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_IRType_tobject_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11818,6 +11951,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_Expr_ctor_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11826,6 +11960,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00Array_repr___at___00Lean_IR_instReprIRType_repr_spec__1_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -11906,6 +12041,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_Expr_sproj_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12658,6 +12794,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_Expr_reuse_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12704,6 +12841,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Expr_box_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12776,6 +12914,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_getUnboxOpName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -12827,6 +12966,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_LitVal_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12983,6 +13123,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_Decl_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13028,6 +13169,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_Expr_ctor_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -13171,6 +13313,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Decl_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13241,6 +13384,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_LitVal_str_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -13274,6 +13418,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_Expr_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13381,6 +13526,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_addParamsRename_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -13520,6 +13666,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_Expr_uproj_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15078,6 +15225,7 @@ return x_14;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_LocalContext_addParams_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

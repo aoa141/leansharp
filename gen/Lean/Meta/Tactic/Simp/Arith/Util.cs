@@ -29,6 +29,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Meta_Simp_Arith_isDvdCnstr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -96,6 +97,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_Arith_Util_0__Lean_Meta_Simp_Arith_isNumeral___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -115,6 +117,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Meta_Simp_Arith_isLinearPosCnstr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -250,6 +253,7 @@ return x_30;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Simp_Arith_Util_0__Lean_Meta_Simp_Arith_isSupportedCommRingType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -409,6 +413,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Simp_Arith_Util_0__Lean_Meta_Simp_Arith_isSupportedType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -449,6 +454,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Simp_Arith_isLinearCnstr___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -859,6 +865,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Simp_Arith_isLinearTerm_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -1121,6 +1128,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Simp_Arith_isLinearTerm___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1140,6 +1148,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Simp_Arith_Util_0__Lean_Meta_Simp_Arith_isSupportedType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 

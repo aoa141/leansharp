@@ -67,6 +67,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ErrorUtils_0__Nat_plural(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -107,6 +108,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ErrorUtils_0__Lean_instHasPluralDefaultsString___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -126,6 +128,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ErrorUtils_0__List_toOxford___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -434,6 +437,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ErrorUtils_0__Nat_toOrdinal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 

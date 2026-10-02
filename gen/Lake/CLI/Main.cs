@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_CLI_Main {
 public static Obj l___private_Lake_CLI_Main_0__Lake_parseLangSpec(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -83,6 +84,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_processLeadingOptions___at___00__private_Lake_CLI_Main_0__Lake_lake_script_run_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -115,6 +117,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_collectArgs___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -123,6 +126,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_CLI_Main_0__Lake_parseTemplateLangSpec_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -281,6 +285,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeLongOption_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -292,6 +297,7 @@ return x_9;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -303,6 +309,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_CliStateM_runLogIO_spec__0(Obj x_1, byte x_2, byte x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -327,6 +334,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_serve___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -459,6 +467,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_collectArgs___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -467,6 +476,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_serviceNotFound_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -480,6 +490,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_checkLint___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -488,6 +499,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_checkLint(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -875,6 +887,7 @@ return x_85;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -941,6 +954,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_lint___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -951,6 +965,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_LakeOptions_mkBuildConfig(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_21 = null; 
@@ -1051,6 +1066,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_put___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1060,6 +1076,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_verifyInstall___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1068,6 +1085,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -1081,6 +1099,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_pack(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1262,6 +1281,7 @@ return x_41;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_reservoirConfig___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1769,6 +1789,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_computeUploadService_invalidEndpointConfig___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1841,6 +1862,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_CliStateM_runLogIO___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; byte x_20 = 0; byte x_21 = 0; byte x_22 = 0; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; Obj x_26 = null; byte x_27 = 0; Obj x_38 = null; Obj x_39 = null; byte x_40 = 0; Obj x_43 = null; byte x_44 = 0; Obj x_45 = null; byte x_46 = 0; Obj x_48 = null; Obj x_49 = null; byte x_50 = 0; Obj x_56 = null; Obj x_57 = null; 
@@ -2049,6 +2071,7 @@ goto block_47;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_verifyLeanVersion___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2058,6 +2081,7 @@ return x_2;
 }
 }
 public static Obj l_Array_filterMapM___at___00__private_Lake_CLI_Main_0__Lake_lake_reservoirConfig_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -2119,6 +2143,7 @@ return x_23;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -2136,6 +2161,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_verifyInstall(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -2455,6 +2481,7 @@ return x_89;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_clean_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2532,6 +2559,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeLongOption_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2542,6 +2570,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get_invalidEndpointConfig___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2562,6 +2591,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_exe___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2713,6 +2743,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Vector_Basic_0__Vector_mapM_go___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_putCore_computeArtifactPaths_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2733,6 +2764,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_update(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3185,6 +3217,7 @@ return x_93;
 }
 }
 public static Obj l_Lean_Array_toJson___at___00__private_Lake_CLI_Main_0__Lake_lake_instToJsonReservoirConfig_toJson_spec__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -3207,6 +3240,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lakeLongOption___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3255,6 +3289,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Vector_Basic_0__Vector_mapM_go___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_putCore_computeArtifactPaths_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -3284,6 +3319,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_stage(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -3733,6 +3769,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00__private_Lake_CLI_Main_0__Lake_lake_update_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3819,6 +3856,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_unstage___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3828,6 +3866,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00__private_Lake_CLI_Main_0__Lake_lake_script_list_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3836,6 +3875,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapM_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_clean_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3970,6 +4010,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_parseScriptSpec___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3993,6 +4034,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_putCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -4035,6 +4077,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get_fetchOutputs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -4065,6 +4108,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_pack___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4235,6 +4279,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_help(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -4418,6 +4463,7 @@ return x_1;
 }
 }
 public static Obj l_Option_repr___at___00__private_Lake_CLI_Main_0__Lake_verifyInstall_spec__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4457,6 +4503,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_checkBuild___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4465,6 +4512,7 @@ return x_4;
 }
 }
 public static Obj l_IO_ofExcept___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4493,6 +4541,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_unpack___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4502,6 +4551,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_parseLintersSpec___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4530,6 +4580,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_clean___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4538,6 +4589,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_cachePlatform___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4557,6 +4609,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_List_toJson___at___00__private_Lake_CLI_Main_0__Lake_lake_instToJsonReservoirConfig_toJson_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -4577,6 +4630,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_init___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -4587,6 +4641,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get_fetchOutputs___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_26 = null; Obj x_37 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; 
@@ -4994,6 +5049,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_LakeOptions_getInstall(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5081,6 +5137,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00__private_Lake_CLI_Main_0__Lake_lake_reservoirConfig_spec__2_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; byte x_14 = 0; 
@@ -5136,6 +5193,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_reservoirConfig_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -5158,6 +5216,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_check___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5167,6 +5226,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lakeOption(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_29 = null; Obj x_46 = null; uint x_47 = 0; uint x_48 = 0; byte x_49 = 0; 
@@ -5413,6 +5473,7 @@ goto block_15;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_clean(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -5576,6 +5637,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_fetchOutputs_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 ulong x_14 = 0; ulong x_15 = 0; Obj x_16 = null; 
@@ -5606,6 +5668,7 @@ return x_10;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_parseLintersSpec_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -5637,6 +5700,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_exe___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5645,6 +5709,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_computePackageRev(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_8 = 0; 
@@ -5693,6 +5758,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_help___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5701,6 +5767,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_upload___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5720,6 +5787,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_parseLintersSpec_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -5729,6 +5797,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script_run___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5745,6 +5814,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script_doc___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6171,6 +6241,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LakeOptions_mkLoadConfig___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6179,6 +6250,7 @@ return x_3;
 }
 }
 public static Obj l_String_mapAux___at___00__private_Lake_CLI_Main_0__Lake_parseTemplateSpec_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_9 = null; byte x_10 = 0; 
@@ -6241,6 +6313,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_validateRepo_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -6363,6 +6436,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_parseLintersSpec_spec__1___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; byte x_26 = 0; 
@@ -6486,6 +6560,7 @@ return x_19;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get___lam__1(byte x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, byte x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17) {
+lean_stack_probe();
 _start:
 {
 Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_116 = null; Obj x_153 = null; Obj x_161 = null; Obj x_163 = null; 
@@ -7197,6 +7272,7 @@ goto block_160;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_LakeOptions_outLv___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -7227,6 +7303,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_put(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -7591,6 +7668,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_computeUploadService___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7656,6 +7734,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_fetchOutputs_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -7670,6 +7749,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00__private_Lake_CLI_Main_0__Lake_lake_instToJsonReservoirConfig_toJson_spec__5(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7956,6 +8036,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_checkExport___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -7968,6 +8049,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_unstage_spec__0(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, ulong x_6, ulong x_7, byte x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_40 = null; byte x_62 = 0; 
@@ -8188,6 +8270,7 @@ return x_56;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_init(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -8479,6 +8562,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_91 = null; byte x_92 = 0; Obj x_93 = null; Obj x_94 = null; ulong x_95 = 0; Obj x_96 = null; Obj x_97 = null; Obj x_98 = null; Obj x_99 = null; byte x_125 = 0; Obj x_126 = null; Obj x_127 = null; Obj x_128 = null; Obj x_129 = null; byte x_130 = 0; byte x_131 = 0; Obj x_132 = null; Obj x_133 = null; Obj x_176 = null; Obj x_208 = null; Obj x_209 = null; byte x_210 = 0; 
@@ -9309,6 +9393,7 @@ return x_206;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_cachePlatform(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -9338,6 +9423,7 @@ return x_9;
 }
 }
 public static Obj l_IO_ofExcept___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9356,6 +9442,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_lean(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -9608,6 +9695,7 @@ return x_56;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_resolveDeps___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9788,6 +9876,7 @@ return x_1;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_versionTags_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -9894,6 +9983,7 @@ return x_31;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9921,6 +10011,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_stage_spec__0(Obj x_1, Obj x_2, byte x_3, Obj x_4, ulong x_5, ulong x_6, byte x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; byte x_16 = 0; Obj x_17 = null; Obj x_18 = null; 
@@ -10077,6 +10168,7 @@ goto block_15;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -10089,6 +10181,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_fetchOutputs_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, ulong x_9, ulong x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; 
@@ -10257,6 +10350,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lakeLongOption(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_33 = null; Obj x_34 = null; Obj x_61 = null; Obj x_65 = null; Obj x_69 = null; byte x_70 = 0; 
@@ -26984,6 +27078,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_setConfigOpt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_69 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; 
@@ -27248,6 +27343,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_setupFile___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_16 = null; 
@@ -27385,6 +27481,7 @@ return x_14;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00__private_Lake_CLI_Main_0__Lake_parseTemplateLangSpec_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27409,6 +27506,7 @@ return x_16;
 }
 }
 public static Obj l_IO_println___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -27417,6 +27515,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_serviceNotFound___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -27437,6 +27536,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -27467,6 +27567,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_flushLinterOptions___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -27493,6 +27594,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_reservoirConfig_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -27528,6 +27630,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00__private_Lake_CLI_Main_0__Lake_lake_instToJsonReservoirConfig_toJson_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -27540,6 +27643,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; Obj x_13 = null; 
@@ -27573,6 +27677,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_check(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -27765,6 +27870,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__5(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -27804,6 +27910,7 @@ goto _start;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -27832,6 +27939,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_script_list_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -27855,6 +27963,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -27887,6 +27996,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_query(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -28545,6 +28655,7 @@ return x_143;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -28553,6 +28664,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_unstage(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -28835,6 +28947,7 @@ return x_64;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lake_CLI_Main_0__Lake_validateRepo_x3f_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -28869,6 +28982,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_script_list_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -28930,6 +29044,7 @@ return x_21;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_unpack___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -29140,6 +29255,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -29154,6 +29270,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script_doc(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -29509,6 +29626,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00__private_Lake_CLI_Main_0__Lake_lake_script_list_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -29655,6 +29773,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_noArgsRem___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -29663,6 +29782,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script_list___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -29935,6 +30055,7 @@ return x_54;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_exe(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_120 = 0; 
@@ -30485,6 +30606,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_stage___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -30494,6 +30616,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; ulong x_14 = 0; ulong x_15 = 0; byte x_16 = 0; Obj x_17 = null; 
@@ -30510,6 +30633,7 @@ return x_17;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00__private_Lake_CLI_Main_0__Lake_validateRepo_x3f_spec__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -30519,6 +30643,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_serve___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -30527,6 +30652,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_setConfigOpt_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -30564,6 +30690,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lakeShortOption___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -30574,6 +30701,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_noArgsRem___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -30582,6 +30710,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_selfCheck___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -30599,6 +30728,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_query_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -30654,6 +30784,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00__private_Lake_CLI_Main_0__Lake_parseTemplateLangSpec_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -30672,6 +30803,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_CliM_run___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -30681,6 +30813,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_services(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -30836,6 +30969,7 @@ return x_34;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_reservoirConfig(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -31171,6 +31305,7 @@ return x_75;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_translateConfig___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -31180,6 +31315,7 @@ return x_7;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -31283,6 +31419,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_setConfigOpt_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -31313,6 +31450,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_new___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -31323,6 +31461,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_takeArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -31331,6 +31470,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_lean___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -31577,6 +31717,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get_invalidEndpointConfig(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -31601,6 +31742,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_build___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -31637,6 +31779,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -31662,6 +31805,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_LakeOptions_toLogConfig(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
@@ -31678,6 +31822,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Option_toJson___at___00__private_Lake_CLI_Main_0__Lake_lake_instToJsonReservoirConfig_toJson_spec__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -31698,6 +31843,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_CliStateM_runLoggerIO(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -31706,6 +31852,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_clean___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_34 = null; 
@@ -32025,6 +32172,7 @@ return x_1;
 }
 }
 public static byte l_Array_contains___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -32053,6 +32201,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_checkExport(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -32723,6 +32872,7 @@ return x_169;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -32747,6 +32897,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_translateConfig(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -33200,6 +33351,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_clean___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -33220,6 +33372,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -33233,6 +33386,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Vector_Basic_0__Vector_mapM_go___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_putCore_computeArtifactPaths_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -33330,6 +33484,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_checkExport_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -33366,6 +33521,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script_help(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -33539,6 +33695,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_build_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -33642,6 +33799,7 @@ goto block_8;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script_run(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -34101,6 +34259,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_scriptCli(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -34267,6 +34426,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_takeOptArg_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -34285,6 +34445,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_script_run_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -34299,6 +34460,7 @@ return x_12;
 }
 }
 public static uint l___private_Lake_CLI_Main_0__Lake_CliM_run___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; Obj x_17 = null; byte x_18 = 0; byte x_19 = 0; byte x_20 = 0; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; 
@@ -34423,6 +34585,7 @@ return x_36;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_setupFile___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_14 = null; 
@@ -34687,6 +34850,7 @@ return x_37;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__4(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -34755,6 +34919,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_parseLintersSpec_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -34763,6 +34928,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_upload(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -35045,6 +35211,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_add(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -35299,6 +35466,7 @@ return x_57;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_takeOptArg_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_62 = 0; 
@@ -35600,6 +35768,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__5(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -35705,6 +35874,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeLongOption_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -35723,6 +35893,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_services___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -35773,6 +35944,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -35785,6 +35957,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_clean(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -36414,6 +36587,7 @@ return x_134;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script_list(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -36690,6 +36864,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_query_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -37001,6 +37176,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LakeOptions_mkLoadConfig(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -37260,6 +37436,7 @@ return x_14;
 }
 }
 public static Obj l_List_forM___at___00__private_Lake_CLI_Main_0__Lake_lake_clean_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -37399,6 +37576,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_putCore_computeArtifactPaths___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -37688,6 +37866,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_CliStateM_runLoggerIO___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -37841,6 +38020,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_services_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -37874,6 +38054,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_script_run_spec__1(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -38025,6 +38206,7 @@ return x_43;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00__private_Lake_CLI_Main_0__Lake_parseLintersSpec_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -38043,6 +38225,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_stage___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_13 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; byte x_55 = 0; Obj x_66 = null; Obj x_67 = null; Obj x_138 = null; 
@@ -38787,6 +38970,7 @@ return x_132;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_queryKind(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -39689,6 +39873,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_test(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -40575,6 +40760,7 @@ return x_125;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_unpack(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -40756,6 +40942,7 @@ return x_41;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_putStaged(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -41135,6 +41322,7 @@ return x_91;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_verifyLeanVersion(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -41196,6 +41384,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00__private_Lake_CLI_Main_0__Lake_lake_instToJsonReservoirConfig_toJson_spec__3_spec__4(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -41301,6 +41490,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_unstage___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_42 = null; byte x_43 = 0; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_86 = null; Obj x_87 = null; Obj x_88 = null; Obj x_89 = null; byte x_90 = 0; Obj x_91 = null; Obj x_92 = null; Obj x_93 = null; byte x_94 = 0; Obj x_105 = null; 
@@ -42416,6 +42606,7 @@ return x_4;
 }
 }
 public static Obj l_Option_repr___at___00__private_Lake_CLI_Main_0__Lake_verifyInstall_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -42443,6 +42634,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -42524,6 +42716,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeLongOption_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -42700,6 +42893,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_build(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -43757,6 +43951,7 @@ return x_222;
 }
 }
 public static Obj l_List_filterTR_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_reservoirConfig_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -43895,6 +44090,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_serviceNotFound_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -43921,6 +44117,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cacheCli___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -43929,6 +44126,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -43951,6 +44149,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_reservoirConfig_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -43990,6 +44189,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -44880,6 +45080,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_versionTags___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -44896,6 +45097,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -44906,6 +45108,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_samply(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -45835,6 +46038,7 @@ return x_211;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_checkTest___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -46212,6 +46416,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_checkBuild(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -46601,6 +46806,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -46619,6 +46825,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, ulong x_8, ulong x_9, byte x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; byte x_18 = 0; 
@@ -46698,6 +46905,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__2(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -46791,6 +46999,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_add___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -46800,6 +47009,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -48176,6 +48386,7 @@ return x_327;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_putStaged___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -48235,6 +48446,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lakeCli(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; byte x_10 = 0; 
@@ -48759,6 +48971,7 @@ return x_1;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00__private_Lake_CLI_Main_0__Lake_lake_versionTags_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -48779,6 +48992,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__3(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_12 = 0; 
@@ -48878,6 +49092,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_CLI_Main_0__Lake_validateRepo_x3f_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -48886,6 +49101,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_env_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -48909,6 +49125,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_CLI_Main_0__Lake_validateRepo_x3f_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -48918,6 +49135,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_putCore(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_16 = null; Obj x_46 = null; byte x_76 = 0; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; 
@@ -49329,6 +49547,7 @@ return x_66;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -49747,6 +49966,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_resolveDeps___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -49805,6 +50025,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_env___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -49868,6 +50089,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_lint_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -49907,6 +50129,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -50090,6 +50313,7 @@ return x_41;
 }
 }
 public static Obj l_List_forM___at___00__private_Lake_CLI_Main_0__Lake_lake_clean_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -50282,6 +50506,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_computeUploadService_invalidEndpointConfig(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_10 = null; Obj x_11 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -50365,6 +50590,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_add___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -51141,6 +51367,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_comparator___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -51270,6 +51497,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cacheCli(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -51402,6 +51630,7 @@ return x_34;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_services___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -51754,6 +51983,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_setupFile(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -52156,6 +52386,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_new___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -52164,6 +52395,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_fetchOutputs_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -52203,6 +52435,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_shake___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -52234,6 +52467,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_CLI_Main_0__Lake_parseTemplateLangSpec_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -52251,6 +52485,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_selfCheck(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -52468,6 +52703,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -52531,6 +52767,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00__private_Lake_CLI_Main_0__Lake_lake_instToJsonReservoirConfig_toJson_spec__1_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -52567,6 +52804,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_instToJsonReservoirConfig_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; Obj x_69 = null; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; 
@@ -52812,6 +53050,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_test___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -52849,6 +53088,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_env_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -52980,6 +53220,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_LakeOptions_getLeanInstall(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -53064,6 +53305,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_resolveDeps(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -53378,6 +53620,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -53386,6 +53629,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__4(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -53514,6 +53758,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_get_fetchOutputs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_15 = null; Obj x_74 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_117 = null; Obj x_118 = null; byte x_119 = 0; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_139 = null; byte x_140 = 0; Obj x_148 = null; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_198 = null; byte x_199 = 0; byte x_200 = 0; Obj x_201 = null; Obj x_205 = null; Obj x_206 = null; byte x_207 = 0; 
@@ -54606,6 +54851,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_collectArgs___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -55077,6 +55323,7 @@ return x_52;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lake_CLI_Main_0__Lake_validateRepo_x3f_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -55199,6 +55446,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_putStaged___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -55816,6 +56064,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -56118,6 +56367,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_put___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -56650,6 +56900,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_parseScriptSpec(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -56906,6 +57157,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_parseLintersSpec_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -57493,6 +57745,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_processLeadingOptions___at___00__private_Lake_CLI_Main_0__Lake_lake_script_run_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 1)
@@ -57703,6 +57956,7 @@ return x_10;
 }
 }
 public static Obj l_Option_repr___at___00__private_Lake_CLI_Main_0__Lake_verifyInstall_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -57770,6 +58024,7 @@ return x_4;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00__private_Lake_CLI_Main_0__Lake_lake_runBuiltinLint_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -57833,6 +58088,7 @@ return x_8;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeLongOption_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -57887,6 +58143,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__3(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; 
@@ -59212,6 +59469,7 @@ return x_3;
 }
 }
 public static Obj l_Option_repr___at___00__private_Lake_CLI_Main_0__Lake_verifyInstall_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -59310,6 +59568,7 @@ return x_4;
 }
 }
 public static Obj l_Option_repr___at___00__private_Lake_CLI_Main_0__Lake_verifyInstall_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -59922,6 +60181,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_cache_computeUploadService(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -60603,6 +60863,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lakeShortOption(uint x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; byte x_6 = 0; 
@@ -63157,6 +63418,7 @@ return x_784;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_new___lam__0(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -63285,6 +63547,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_collectArgs___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_get_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -63309,6 +63572,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_cache_services_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -63420,6 +63684,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_CLI_Main_0__Lake_lakeOption_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -63460,6 +63725,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_CLI_Main_0__Lake_lake_script(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -63820,6 +64086,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_checkExport_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -65018,6 +65285,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_CLI_Main_0__Lake_validateRepo_x3f_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -65156,6 +65424,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Main_0__Lake_lake_build_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -67883,6 +68152,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_CLI_Main_0__Lake_lake_queryKind_spec__2(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 

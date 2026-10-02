@@ -28,6 +28,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_Reason_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -37,6 +38,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_GenericFormat_formatGeneric___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -46,6 +48,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_instInhabitedGenericFormat___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -54,6 +57,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseEraShort(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -67,6 +71,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -88,6 +93,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_rightTruncate___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -97,6 +103,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_parseMonthShort(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -169,6 +176,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Time_Awareness_only_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -177,6 +185,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatWith___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -186,6 +195,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00__private_Std_Time_Format_Basic_0__Std_Time_leftPadAscii_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -196,6 +206,7 @@ return x_5;
 }
 }
 public static byte l___private_Std_Time_Format_Basic_0__Std_Time_instBEqReason_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -208,6 +219,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatWeekdayLong(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -250,6 +262,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_Parsec_manyCharsCore___at___00__private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -365,6 +378,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_specParser(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -497,6 +511,7 @@ return x_26;
 }
 }
 public static Obj l_Std_Time_FormatPart_string_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -525,6 +540,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseQuarterNarrow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -538,6 +554,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatEraShort___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -548,6 +565,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFromSymbols(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -556,6 +574,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseOffset___lam__2(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -990,6 +1009,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_GenericFormat_DateBuilder_build(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_43 = null; Obj x_44 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; byte x_52 = 0; Obj x_60 = null; Obj x_61 = null; byte x_62 = 0; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; byte x_66 = 0; Obj x_68 = null; Obj x_69 = null; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_88 = null; Obj x_89 = null; Obj x_90 = null; Obj x_91 = null; Obj x_92 = null; Obj x_93 = null; Obj x_94 = null; Obj x_95 = null; Obj x_96 = null; Obj x_97 = null; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; Obj x_101 = null; Obj x_102 = null; Obj x_103 = null; Obj x_104 = null; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; Obj x_108 = null; Obj x_109 = null; Obj x_110 = null; Obj x_111 = null; Obj x_112 = null; Obj x_113 = null; Obj x_114 = null; Obj x_115 = null; Obj x_116 = null; Obj x_117 = null; Obj x_118 = null; Obj x_119 = null; Obj x_120 = null; Obj x_129 = null; Obj x_130 = null; Obj x_131 = null; Obj x_132 = null; Obj x_133 = null; Obj x_134 = null; Obj x_135 = null; Obj x_140 = null; Obj x_141 = null; Obj x_142 = null; Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_157 = null; Obj x_158 = null; Obj x_159 = null; Obj x_160 = null; Obj x_168 = null; Obj x_169 = null; Obj x_170 = null; Obj x_171 = null; byte x_172 = 0; Obj x_180 = null; Obj x_181 = null; Obj x_182 = null; Obj x_183 = null; Obj x_193 = null; Obj x_194 = null; Obj x_195 = null; byte x_196 = 0; Obj x_203 = null; Obj x_204 = null; Obj x_205 = null; Obj x_210 = null; Obj x_211 = null; Obj x_215 = null; Obj x_216 = null; Obj x_217 = null; Obj x_224 = null; Obj x_225 = null; Obj x_226 = null; Obj x_231 = null; 
@@ -1940,6 +1960,7 @@ goto block_230;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFlexibleNum(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1992,6 +2013,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_GenericFormat_formatBuilder___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2032,6 +2054,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseOffset___lam__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -2134,6 +2157,7 @@ return x_27;
 }
 }
 public static Obj l_List_mapTR_loop___at___00List_mapTR_loop___at___00Std_Time_GenericFormat_format_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -2292,6 +2316,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatExtendedDayPeriod(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2303,6 +2328,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_Reason_optional_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2312,6 +2338,7 @@ return x_2;
 }
 }
 public static Obj l_panic___at___00Std_Time_GenericFormat_spec_x21_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2321,6 +2348,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseIdentifier(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2506,6 +2534,7 @@ return x_53;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_GenericFormat_formatGeneric_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -2804,6 +2833,7 @@ return x_43;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseQuarterNumber(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -3230,6 +3260,7 @@ return x_82;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart___lam__3(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -3253,6 +3284,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseMonthNarrow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3266,6 +3298,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_Parsec_manyCharsCore___at___00__private_Std_Time_Format_Basic_0__Std_Time_parseAtLeastNum_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_14 = null; byte x_15 = 0; 
@@ -3407,6 +3440,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_GenericFormat_formatBuilder___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3436,6 +3470,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_GenericFormat_formatBuilder_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3483,6 +3518,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Internal_Parsec_manyCharsCore___at___00Std_Internal_Parsec_manyCharsCore___at___00__private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart_spec__2_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -3677,6 +3713,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_FormatPart_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3686,6 +3723,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseWeekdayShort(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -3699,6 +3737,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseNum___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3719,6 +3758,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_toIsoString(Obj x_1, byte x_2, byte x_3, byte x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; uint x_9 = 0; Obj x_10 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; uint x_19 = 0; Obj x_23 = null; byte x_24 = 0; Obj x_25 = null; Obj x_26 = null; uint x_27 = 0; byte x_28 = 0; byte x_30 = 0; Obj x_31 = null; byte x_32 = 0; Obj x_33 = null; Obj x_34 = null; uint x_35 = 0; byte x_36 = 0; byte x_38 = 0; Obj x_39 = null; Obj x_40 = null; byte x_41 = 0; Obj x_42 = null; uint x_43 = 0; Obj x_44 = null; Obj x_51 = null; byte x_52 = 0; Obj x_53 = null; Obj x_54 = null; byte x_55 = 0; Obj x_56 = null; Obj x_57 = null; uint x_58 = 0; Obj x_59 = null; Obj x_65 = null; byte x_66 = 0; Obj x_67 = null; Obj x_68 = null; byte x_69 = 0; Obj x_70 = null; uint x_71 = 0; Obj x_72 = null; Obj x_76 = null; byte x_77 = 0; Obj x_78 = null; byte x_79 = 0; Obj x_80 = null; Obj x_81 = null; byte x_82 = 0; Obj x_83 = null; uint x_84 = 0; byte x_85 = 0; Obj x_87 = null; byte x_88 = 0; byte x_89 = 0; Obj x_90 = null; byte x_91 = 0; Obj x_92 = null; byte x_93 = 0; Obj x_94 = null; uint x_95 = 0; Obj x_96 = null; byte x_97 = 0; Obj x_99 = null; Obj x_100 = null; Obj x_101 = null; uint x_102 = 0; Obj x_103 = null; Obj x_116 = null; Obj x_117 = null; Obj x_129 = null; byte x_130 = 0; 
@@ -4091,6 +4131,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatWeekdayTwoLetter___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4101,6 +4142,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_GenericFormat_spec___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4122,6 +4164,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_GenericFormat_parser_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -4224,6 +4267,7 @@ return x_21;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseSigned(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_37 = null; Obj x_38 = null; 
@@ -4483,6 +4527,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatEraLong___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4532,6 +4577,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Std_Time_GenericFormat_format_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -4748,6 +4794,7 @@ return x_20;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseWeekdayLong(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4761,6 +4808,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart___lam__0(byte x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -5069,6 +5117,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_FormatPart_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5090,6 +5139,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_exactly_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5098,6 +5148,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; uint x_6 = 0; uint x_7 = 0; Obj x_8 = null; 
@@ -5111,6 +5162,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatWeekdayShort(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -5366,6 +5418,7 @@ return x_43;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatMarkerLong___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5387,6 +5440,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_weekdayPairs_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -5428,6 +5482,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_GenericFormat_builderParser_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5622,6 +5677,7 @@ return x_41;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseWeekdayTwoLetter(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5635,6 +5691,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_GenericFormat_DateBuilder_markerOfExtendedDayPeriod___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -5696,6 +5753,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Std_Time_Format_Basic_0__Std_Time_leftPadAscii_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -5738,6 +5796,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart___lam__1(byte x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -6046,6 +6105,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Awareness_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6065,6 +6125,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatQuarterNumber(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -6125,6 +6186,7 @@ return x_19;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_toSigned(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -6148,6 +6210,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseNum___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -6266,6 +6329,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_dateFromModifier(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -7215,6 +7279,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatEraNarrow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7225,6 +7290,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatQuarterLong___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7235,6 +7301,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFromSymbols___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7244,6 +7311,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_Awareness_getD___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7323,6 +7391,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_eraPairs_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -7336,6 +7405,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFractionNum___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7358,6 +7428,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_GenericFormat_parseBuilder(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7378,6 +7449,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_quarterPairs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -7390,6 +7462,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_monthPairs_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -7431,6 +7504,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_GenericFormat_formatBuilder_go___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -7442,6 +7516,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Internal_Parsec_manyCharsCore___at___00__private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_14 = null; byte x_15 = 0; 
@@ -7643,6 +7718,7 @@ goto block_11;
 }
 }
 public static Obj l_Std_Time_instReprFormatPart_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7789,6 +7865,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_Reason_no_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -7809,6 +7886,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_exactly_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -7918,6 +7996,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatMonthLong___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7928,6 +8007,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Std_Time_GenericFormat_format_spec__0___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7938,6 +8018,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatQuarterNarrow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7948,6 +8029,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseAtLeastNum(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_11 = null; Obj x_24 = null; Obj x_25 = null; 
@@ -8205,6 +8287,7 @@ return x_17;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatPartWithDate___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8222,6 +8305,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatMonthNarrow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -8237,6 +8321,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_classifyDayPeriod___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -8249,6 +8334,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instInhabitedGenericFormat_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8269,6 +8355,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_exactlyChars(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -8335,6 +8422,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatQuarterLong(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -8350,6 +8438,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_leftPadAscii___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -8362,6 +8451,7 @@ return x_5;
 }
 }
 public static Obj l_panic___at___00Std_Time_GenericFormat_spec_x21_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -8380,6 +8470,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseEraNarrow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -8393,6 +8484,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatWith(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -9672,6 +9764,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instInhabitedGenericFormat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9680,6 +9773,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_monthPairs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -9692,6 +9786,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_exactlyChars_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9701,6 +9796,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_FormatPart_modifier_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9728,6 +9824,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseQuarterShort(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -9741,6 +9838,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseWeekdayNarrow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -9754,6 +9852,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_exactlyChars_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -9851,6 +9950,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_GenericFormat_parseBuilder_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -9911,6 +10011,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseQuarterLong(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -9994,6 +10095,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Std_Time_Format_Basic_0__Std_Time_parseFromSymbols_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -10062,6 +10164,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_Reason_yes_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10193,6 +10296,7 @@ return x_3;
 }
 }
 public static Obj l_Functor_mapRev___at___00__private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10229,6 +10333,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldl___at___00Std_Time_GenericFormat_format_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10248,6 +10353,7 @@ goto _start;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseEraLong(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -10272,6 +10378,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_Reason_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -10295,6 +10402,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_eraPairs_spec__0___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -10809,6 +10917,7 @@ return x_87;
 }
 }
 public static byte l_Std_Time_classifyDayPeriod(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; byte x_11 = 0; byte x_12 = 0; Obj x_17 = null; byte x_18 = 0; byte x_19 = 0; byte x_21 = 0; 
@@ -10898,6 +11007,7 @@ goto block_16;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatWeekdayTwoLetter(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -17806,6 +17916,7 @@ return x_1832;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseNatToBounded(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -17963,6 +18074,7 @@ return x_35;
 }
 }
 public static Obj l_Std_Time_GenericFormat_parse___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18036,6 +18148,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatWeekdayNarrow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -18065,6 +18178,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_Parsec_manyCharsCore___at___00Std_Internal_Parsec_manyCharsCore___at___00__private_Std_Time_Format_Basic_0__Std_Time_parseIdentifier_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -18280,6 +18394,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Time_GenericFormat_parseBuilder_x21___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18310,6 +18425,7 @@ return x_13;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_exactly___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -18330,6 +18446,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00__private_Std_Time_Format_Basic_0__Std_Time_leftPadAscii_spec__1(uint x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -18568,6 +18685,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatQuarterShort___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18601,6 +18719,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19001,6 +19120,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_weekdayPairs_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -19170,6 +19290,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_GenericFormat_parse_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -19225,6 +19346,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_FormatPart_modifier_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -19243,6 +19365,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_GenericFormat_spec_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -19319,6 +19442,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatQuarterShort(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -19471,6 +19595,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_weekdayPairs_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -19600,6 +19725,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatMonthShort(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -19646,6 +19772,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_classifyExtendedDayPeriod___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -19702,6 +19829,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatWeekdayNarrow(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -19936,6 +20064,7 @@ return x_43;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_GenericFormat_parseWithDate(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -20161,6 +20290,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_FormatPart_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -20169,6 +20299,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_exactly___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -20207,6 +20338,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_monthPairs_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -20230,6 +20362,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_pad___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -20249,6 +20382,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_instInhabitedGenericFormat_default(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20274,6 +20408,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatMarkerNarrow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -20303,6 +20438,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_rightTruncate(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_20 = null; byte x_21 = 0; 
@@ -20380,6 +20516,7 @@ return x_18;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_monthPairs_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -20420,6 +20557,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_leftPadAscii(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -20492,6 +20630,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFromSymbols___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -20596,6 +20735,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_GenericFormat_format___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -20605,6 +20745,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_Parsec_manyCharsCore___at___00Std_Internal_Parsec_manyCharsCore___at___00__private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -20728,6 +20869,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFractionNum(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -20902,6 +21044,7 @@ return x_2;
 }
 }
 public static byte l_Std_Time_classifyExtendedDayPeriod(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; byte x_20 = 0; byte x_21 = 0; Obj x_26 = null; byte x_27 = 0; byte x_28 = 0; byte x_30 = 0; 
@@ -21027,6 +21170,7 @@ goto block_25;
 }
 }
 public static Obj l_Std_Time_FormatPart_string_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -21035,6 +21179,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseWith(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_9 = null; Obj x_14 = null; 
@@ -24061,6 +24206,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_formatQuarterNarrow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -24121,6 +24267,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseFormatPart___lam__2(byte x_1, uint x_2, uint x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -24351,6 +24498,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_weekdayPairs_spec__0_spec__0___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -24428,6 +24576,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_rightPadAscii___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -24511,6 +24660,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Awareness_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24520,6 +24670,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Init_Data_Array_Basic_0__Array_mapFinIdxMUnsafe_map___at___00__private_Std_Time_Format_Basic_0__Std_Time_monthPairs_spec__0_spec__0___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -24823,6 +24974,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_rightPadAscii(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -24991,6 +25143,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_Parsec_manyCore___at___00__private_Std_Time_Format_Basic_0__Std_Time_specParser_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25093,6 +25246,7 @@ return x_18;
 }
 }
 public static Obj l___private_Std_Time_Format_Basic_0__Std_Time_parseOffset(byte x_1, byte x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_90 = null; Obj x_91 = null; Obj x_92 = null; Obj x_93 = null; byte x_94 = 0; Obj x_142 = null; Obj x_143 = null; Obj x_162 = null; Obj x_163 = null; Obj x_164 = null; Obj x_165 = null; Obj x_179 = null; byte x_180 = 0; 

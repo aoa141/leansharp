@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Rat_Lemmas {
 public static Obj l___private_Init_Data_Rat_Lemmas_0__Rat_divInt_match__3_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -16,6 +17,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Rat_Lemmas_0__Rat_divInt_match__3_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -56,6 +58,7 @@ return x_5;
 }
 }
 public static Obj l_Rat_numDenCasesOn_x27_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -74,6 +77,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Rat_Lemmas_0__Rat_divInt_match__3_splitter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 

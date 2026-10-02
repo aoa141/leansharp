@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Sym_DSimp_Result {
 public static Obj l_Lean_Meta_Sym_DSimp_Result_markAsDone(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -62,6 +63,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_Result_getResultExpr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

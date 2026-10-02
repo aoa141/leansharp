@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_Log {
 public static Obj l_Lake_ELogT_run_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -20,6 +21,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_MonadLogT_instMonadLogOfMonadOfMonadLiftT___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -51,6 +53,7 @@ return x_3;
 }
 }
 public static byte l_Lake_instDecidableEqLogLevel(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -70,6 +73,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_withLoggedIO___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -111,6 +115,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ELog_failure___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -150,6 +155,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_LogLevel_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -159,6 +165,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Log_dropFrom___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -168,6 +175,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LoggerIO_toBaseIO___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -188,6 +196,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ELogT_run_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -201,6 +210,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_LogT_run_x27___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -210,6 +220,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_extractLog___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -219,6 +230,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_LogLevel_ofMessageSeverity___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -229,6 +241,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_Log_isEmpty___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -239,6 +252,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ELogT_replayLog(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; 
@@ -395,6 +409,7 @@ return x_13;
 }
 }
 public static Obj l_Lake_logSerialMessage(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -436,6 +451,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LoggerIO_instMonadLiftLogIO___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -455,6 +471,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Log_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -502,6 +519,7 @@ return x_18;
 }
 }
 public static Obj l_Lake_LoggerIO_toBaseIO___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -557,6 +575,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_logToStream___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -588,6 +607,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LoggerIO_captureLog___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -596,6 +616,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instMinLogLevel___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -619,6 +640,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ELogT_toLogT___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -687,6 +709,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00Lake_instToJsonLogEntry_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -754,6 +777,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ELog_monadError(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -768,6 +792,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_AnsiMode_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -777,6 +802,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LogIO_instMonadLiftIO___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -820,6 +846,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instToStringLogEntry___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -848,6 +875,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LoggerIO_run_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -868,6 +896,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Ansi_chalk(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -882,6 +911,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_withLogErrorPos___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -982,6 +1012,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Log_hasEntries___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1012,6 +1043,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Log_instDecidableEqPos_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1042,6 +1074,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_OutStream_getLogger___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -1061,6 +1094,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LoggerIO_instMonadLiftLogIO___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1303,6 +1337,7 @@ return x_58;
 }
 }
 public static Obj l_Lake_instReprLogLevel_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; 
@@ -1451,6 +1486,7 @@ return x_29;
 }
 }
 public static Obj l_Lake_LoggerIO_toBaseIO___redArg___lam__0(Obj x_1, byte x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1488,6 +1524,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Log_extract___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1524,6 +1561,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lake_instFromJsonLogEntry_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1533,6 +1571,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMinVerbosity___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1638,6 +1677,7 @@ return x_1;
 }
 }
 public static byte l_Lake_Log_maxLv(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1680,6 +1720,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_instReprAnsiMode_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; 
@@ -1793,6 +1834,7 @@ return x_22;
 }
 }
 public static Obj l_Lake_OutStream_getLogger(Obj x_1, Obj x_2, Obj x_3, byte x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1810,6 +1852,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_Log_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1866,6 +1909,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_LoggerIO_instMonadLiftLogIO___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1904,6 +1948,7 @@ return x_2;
 }
 }
 public static byte l_Lake_instOrdLogLevel_ord(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1940,6 +1985,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_OutStream_logger___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -1950,6 +1996,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_instMonadErrorELogTOfMonad___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2001,6 +2048,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_MonadLog_stream___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -2356,6 +2404,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_takeLog___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -2378,6 +2427,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LogConfig_getLogger___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2387,6 +2437,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_errorWithLog(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -2420,6 +2471,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_AnsiMode_ansi_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2430,6 +2482,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_ELog_alternative(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -2461,6 +2514,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_errorWithLog___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2489,6 +2543,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instMaxVerbosity___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2500,6 +2555,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Verbosity_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2550,6 +2606,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Log_toString_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -2609,6 +2666,7 @@ return x_21;
 }
 }
 public static Obj l_Lake_LogT_run_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -2622,6 +2680,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Verbosity_normal_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2687,6 +2746,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ELogT_run_x3f_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2797,6 +2857,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_OutStream_stderr_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2805,6 +2866,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Verbosity_minLogLv___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -2815,6 +2877,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instFromJsonLogEntry_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -3094,6 +3157,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_LoggerIO_toBaseIO___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -3235,6 +3299,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instDecidableEqVerbosity___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -3246,6 +3311,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_instOrdVerbosity_ord___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -3257,6 +3323,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_LoggerIO_run_x3f_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3462,6 +3529,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_withLoggedIO___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_22 = null; byte x_23 = 0; 
@@ -3569,6 +3637,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_OutStream_logger___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -3579,6 +3648,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Log_size___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3598,6 +3668,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ELogT_replayLog___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3637,6 +3708,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_AnsiMode_noAnsi_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3663,6 +3735,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_AnsiMode_auto_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3681,6 +3754,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_MonadLog_stderr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -3855,6 +3929,7 @@ return x_1;
 }
 }
 public static byte l_Lake_instMaxVerbosity___lam__0(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -3870,6 +3945,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instMonadLogLogTOfMonad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3900,6 +3976,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_OutStream_stdout_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3957,6 +4034,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_logInfo___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3966,6 +4044,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instOrdPos___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3988,6 +4067,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_LogConfig_getLogger___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4038,6 +4118,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_OutStream_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4055,6 +4136,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Log_any___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4076,6 +4158,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Log_maxLv_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -4091,6 +4174,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_LoggerIO_instMonadError___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4110,6 +4194,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LoggerIO_instMonadLiftIO___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4544,6 +4629,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_withLogErrorPos(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -4590,6 +4676,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_instAlternativeELogTOfMonad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4598,6 +4685,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LogLevel_info_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4607,6 +4695,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LogEntry_toString(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_2 == 0)
@@ -4667,6 +4756,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_OutStream_logger___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -4726,6 +4816,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Verbosity_quiet_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4762,6 +4853,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_LogLevel_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4837,6 +4929,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instToJsonLogLevel_toJson(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -4908,6 +5001,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_LogIO_toBaseIO___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4926,6 +5020,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lake_instFromJsonLogEntry_fromJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5044,6 +5139,7 @@ return x_14;
 }
 }
 public static Obj l_String_mapAux___at___00Lake_LogLevel_ofString_x3f_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_9 = null; byte x_10 = 0; 
@@ -5166,6 +5262,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_instAlternativeELogTOfMonad___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_23 = 0; 
@@ -5276,6 +5373,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_getLog___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5638,6 +5736,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LogLevel_toString(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -5824,6 +5923,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ELogT_replayLog_x3f___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -5860,6 +5960,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_MonadLog_stdout___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -5885,6 +5986,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_MonadLog_stream___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -5905,6 +6007,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LogLevel_ansiColor(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -6028,6 +6131,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_Verbosity_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6101,6 +6205,7 @@ return x_15;
 }
 }
 public static Obj l_Lake_getLog___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6292,6 +6397,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getLogPos___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6301,6 +6407,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Verbosity_verbose_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6504,6 +6611,7 @@ return x_4;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Log_maxLv_spec__0(Obj x_1, ulong x_2, ulong x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_10 = 0; 
@@ -6594,6 +6702,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_withLogErrorPos___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6620,6 +6729,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LogLevel_trace_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6755,6 +6865,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_ELog_orElse___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6809,6 +6920,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_AnsiMode_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6917,6 +7029,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Verbosity_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -6928,6 +7041,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_MonadLog_stderr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -7019,6 +7133,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_Log_takeFrom___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7028,6 +7143,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LogLevel_error_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -7068,6 +7184,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_LogLevel_icon___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -7166,6 +7283,7 @@ return x_14;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Log_toString_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -7318,6 +7436,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_logSerialMessage___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -7718,6 +7837,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_instToJsonLogEntry_toJson___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8096,6 +8216,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_MonadLogT_adaptMethods___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -8723,6 +8844,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LogT_takeAndRun___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -8977,6 +9099,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instMaxPos___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9046,6 +9169,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_LogLevel_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10281,6 +10405,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LogLevel_ofString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -10757,6 +10882,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprVerbosity_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -11135,6 +11261,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LogLevel_trace_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 

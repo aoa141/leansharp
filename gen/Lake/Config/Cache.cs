@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Config_Cache {
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -124,6 +125,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_CacheMap_parse_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -151,6 +153,7 @@ return x_13;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_collectOutputDescrs_go_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -210,6 +213,7 @@ return x_15;
 }
 }
 public static Obj l_Lake_CacheToolchain_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -219,6 +223,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferDict_add___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -247,6 +252,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_createExtraPaths___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -257,6 +263,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_CacheService_downloadRevisionOutputs_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_20 = null; Obj x_23 = null; Obj x_27 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_123 = null; Obj x_124 = null; byte x_164 = 0; Obj x_212 = null; byte x_213 = 0; byte x_214 = 0; 
@@ -1126,6 +1133,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_foldM_loop___at___00Lake_CacheService_uploadArtifacts_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; byte x_10 = 0; 
@@ -1234,6 +1242,7 @@ goto _start;
 }
 }
 public static Obj l_Lake_CacheToolchain_length(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1254,6 +1263,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheService_uploadService(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
@@ -1290,6 +1300,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CacheService_isReservoir___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1310,6 +1321,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_Cache_writeOutputsCore(Obj x_1, Obj x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -1373,6 +1385,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1383,6 +1396,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_checkSchemaVersion(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -1542,6 +1556,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00Lake_CacheMap_updateFile_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1635,6 +1650,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -1673,6 +1689,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00Lake_CacheMap_collectOutputDescrs_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1701,6 +1718,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls___at___00Lake_CacheService_downloadArtifacts_spec__1___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1712,6 +1730,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_collectOutputDescrs_go_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1753,6 +1772,7 @@ return x_15;
 }
 }
 public static Obj l_Lake_CacheServiceScope_isRepo___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1763,6 +1783,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_CachePlatform_length_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1787,6 +1808,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lake_CacheMap_get_x3f_spec__0_spec__0___redArg(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1830,6 +1852,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_uploadS3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1853,6 +1876,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_getInfo_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1863,6 +1887,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CacheService_downloadArtifact(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_64 = null; Obj x_67 = null; byte x_68 = 0; Obj x_72 = null; Obj x_73 = null; Obj x_74 = null; Obj x_84 = null; Obj x_85 = null; byte x_86 = 0; 
@@ -2163,6 +2188,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferDict_push___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -2173,6 +2199,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Cache_getArtifact___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2223,6 +2250,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_contains___at___00Lake_CacheOutput_fromJson_x3f_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2244,6 +2272,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_s3ArtifactUrl___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2265,6 +2294,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Cache_outputsFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -2275,6 +2305,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_downloadArtifactCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -2285,6 +2316,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2293,6 +2325,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_CacheService_downloadOutputArtifacts___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -2402,6 +2435,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Config_Cache_0__Lake_CacheService_appendScope_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -2556,6 +2590,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheRef_mk___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2595,6 +2630,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_instDecidableEqTransferKind___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2606,6 +2642,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferKind_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2625,6 +2662,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lake_CacheMap_get_x3f_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -2636,6 +2674,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -2686,6 +2725,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -2721,6 +2761,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_withTempFile___at___00__private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2740,6 +2781,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_contains___at___00Lake_CacheService_uploadArtifacts_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -2772,6 +2814,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheService_uploadArtifacts(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_9 = 0; 
@@ -2821,6 +2864,7 @@ return x_21;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_loadCore_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2831,6 +2875,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_ReservoirResp_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_47 = null; 
@@ -3597,6 +3642,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Cache_outputsFile(Obj x_1, Obj x_2, ulong x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -3611,6 +3657,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_Cache_artifactDir(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -3620,6 +3667,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_downloadArtifactCore(ulong x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -3823,6 +3871,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_40 = null; Obj x_41 = null; 
@@ -4029,6 +4078,7 @@ return x_34;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__2___redArg(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4057,6 +4107,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_s3ArtifactUrl___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -4067,6 +4118,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4092,6 +4144,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_loadCore_loop(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4180,6 +4233,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__4___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -4190,6 +4244,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Fold_0__Nat_foldTR_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -4266,6 +4321,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_CacheMap_collectOutputDescrs_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -4279,6 +4335,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_uploadS3___at___00Lake_CacheService_uploadArtifact_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4289,6 +4346,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheServiceScopeImpl_str_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4297,6 +4355,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_reservoirArtifactsUrl(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4350,6 +4409,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CachePlatform_length(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -4360,6 +4420,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_CacheService_downloadOutputArtifacts(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; 
@@ -4608,6 +4669,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts___at___00Lake_CacheService_downloadArtifacts_spec__0___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_21 = 0; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; uint x_26 = 0; Obj x_27 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; uint x_39 = 0; Obj x_40 = null; Obj x_52 = null; Obj x_53 = null; uint x_54 = 0; byte x_55 = 0; Obj x_56 = null; Obj x_61 = null; Obj x_62 = null; byte x_63 = 0; Obj x_64 = null; uint x_65 = 0; Obj x_66 = null; Obj x_76 = null; byte x_77 = 0; Obj x_78 = null; uint x_79 = 0; Obj x_80 = null; Obj x_83 = null; Obj x_84 = null; Obj x_160 = null; Obj x_161 = null; Obj x_162 = null; Obj x_163 = null; Obj x_171 = null; 
@@ -5388,6 +5450,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -5449,6 +5512,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_contains___at___00Lake_CacheService_uploadArtifacts_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -5461,6 +5525,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_CacheService_artifactUrl(ulong x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_12 = 0; 
@@ -5529,6 +5594,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Cache_writeOutputs___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -5548,6 +5614,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_uploadS3_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5669,6 +5736,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__3___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -5694,6 +5762,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferKind_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5704,6 +5773,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_createExtraPaths_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -5730,6 +5800,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lake_ReservoirResp_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__1_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -5773,6 +5844,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_Cache_getArtifact(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_38 = null; Obj x_39 = null; byte x_40 = 0; 
@@ -5947,6 +6019,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheServiceScopeImpl_str_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5965,6 +6038,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -5998,6 +6072,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferKind_get_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6008,6 +6083,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -6240,6 +6316,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CachePlatform_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6249,6 +6326,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferInfo_addPath___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -6303,6 +6381,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6323,6 +6402,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6364,6 +6444,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_CacheService_downloadArtifacts_spec__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_12 = 0; 
@@ -6717,6 +6798,7 @@ goto _start;
 }
 }
 public static Obj l_Lake_Cache_outputsDir(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -6788,6 +6870,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Fold_0__Nat_foldTR_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6799,6 +6882,7 @@ return x_7;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Config_Cache_0__Lake_CacheService_appendScope_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -6809,6 +6893,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_21 = 0; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; uint x_26 = 0; Obj x_27 = null; Obj x_34 = null; Obj x_35 = null; byte x_36 = 0; Obj x_37 = null; uint x_38 = 0; Obj x_39 = null; Obj x_40 = null; Obj x_52 = null; Obj x_53 = null; uint x_54 = 0; byte x_55 = 0; Obj x_56 = null; Obj x_61 = null; Obj x_62 = null; uint x_63 = 0; byte x_64 = 0; Obj x_65 = null; Obj x_66 = null; Obj x_76 = null; Obj x_77 = null; byte x_78 = 0; uint x_79 = 0; Obj x_80 = null; Obj x_83 = null; Obj x_84 = null; Obj x_160 = null; Obj x_161 = null; Obj x_162 = null; Obj x_163 = null; Obj x_171 = null; Obj x_196 = null; Obj x_224 = null; 
@@ -7614,6 +7699,7 @@ return x_224;
 }
 }
 public static Obj l_Lake_CacheMap_insert___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -7658,6 +7744,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_CacheService_uploadRevisionOutputs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -7702,6 +7789,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7713,6 +7801,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -7798,6 +7887,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lake_ReservoirResp_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__1_spec__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7899,6 +7989,7 @@ return x_16;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer___at___00__private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7919,6 +8010,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7947,6 +8039,7 @@ goto _start;
 }
 }
 public static Obj l_Lake_CacheRef_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -7985,6 +8078,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_CachePlatform_length_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -7993,6 +8087,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_s3RevisionUrl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8014,6 +8109,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -8048,6 +8144,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleTransfer_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; Obj x_15 = null; 
@@ -8067,6 +8164,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_writeCacheEntries_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -8081,6 +8179,7 @@ return x_10;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lake_CacheOutput_fromJson_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -8142,6 +8241,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheToolchain_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -8186,6 +8286,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleFailure___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -8197,6 +8298,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00Lake_Cache_writeMap_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_7) == 0)
@@ -8263,6 +8365,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__3_spec__4_spec__5___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8373,6 +8476,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8383,6 +8487,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_loadCore_loop_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -8456,6 +8561,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheMap_writeFile(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8589,6 +8695,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CacheMap_get_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -8600,6 +8707,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheServiceScopeImpl_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8658,6 +8766,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8901,6 +9010,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheService_downloadArtifacts___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -8950,6 +9060,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls___at___00Lake_CacheService_downloadArtifacts_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8969,6 +9080,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_uploadS3___at___00Lake_CacheService_uploadArtifact_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_20 = null; Obj x_29 = null; Obj x_32 = null; Obj x_33 = null; Obj x_60 = null; Obj x_61 = null; Obj x_74 = null; Obj x_75 = null; Obj x_86 = null; Obj x_100 = null; Obj x_152 = null; Obj x_153 = null; Obj x_160 = null; Obj x_161 = null; 
@@ -9494,6 +9606,7 @@ return x_158;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_writeCacheEntries(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (x_3 == 0)
@@ -9651,6 +9764,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -9682,6 +9796,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CacheMap_updateFile(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_9 = null; 
@@ -10010,6 +10125,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheServiceScopeImpl_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10029,6 +10145,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00__private_Lake_Config_Cache_0__Lake_CacheService_appendScope_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10049,6 +10166,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_CacheService_downloadArtifacts_spec__3(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_16 = null; Obj x_27 = null; Obj x_38 = null; byte x_49 = 0; 
@@ -10833,6 +10951,7 @@ goto block_15;
 }
 }
 public static Obj l_Lake_CacheService_uploadArtifact___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; 
@@ -10877,6 +10996,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_revSkipWhile___at___00__private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleFailure_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -10981,6 +11101,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferDict_push(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_21 = 0; 
@@ -11043,6 +11164,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_CacheService_reservoirService(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; 
@@ -11144,6 +11266,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Cache_getArtifact_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; 
@@ -11249,6 +11372,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_48 = 0; 
@@ -11576,6 +11700,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_insertCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -11587,6 +11712,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_uploadS3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_20 = null; Obj x_29 = null; Obj x_32 = null; Obj x_33 = null; Obj x_60 = null; Obj x_61 = null; Obj x_74 = null; Obj x_75 = null; Obj x_86 = null; Obj x_100 = null; Obj x_150 = null; Obj x_151 = null; Obj x_158 = null; Obj x_159 = null; 
@@ -12131,6 +12257,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_withTempFile___at___00__private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12160,6 +12287,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheMap_get_x3f(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12218,6 +12346,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Cache_readOutputs_x3f(Obj x_1, Obj x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -12377,6 +12506,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; Obj x_19 = null; Obj x_20 = null; uint x_21 = 0; byte x_22 = 0; Obj x_23 = null; Obj x_24 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; byte x_41 = 0; uint x_42 = 0; Obj x_43 = null; Obj x_44 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; uint x_58 = 0; byte x_59 = 0; Obj x_60 = null; Obj x_61 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; uint x_77 = 0; Obj x_78 = null; Obj x_106 = null; Obj x_107 = null; Obj x_108 = null; byte x_109 = 0; uint x_110 = 0; Obj x_129 = null; Obj x_130 = null; ulong x_213 = 0; ulong x_214 = 0; Obj x_215 = null; Obj x_216 = null; Obj x_217 = null; Obj x_218 = null; Obj x_233 = null; Obj x_234 = null; Obj x_235 = null; Obj x_236 = null; 
@@ -13306,6 +13436,7 @@ return x_227;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_writeCacheEntries_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -13440,6 +13571,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__3(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -13476,6 +13608,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lake_ReservoirResp_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__1_spec__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -13496,6 +13629,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__1_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -13539,6 +13673,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CacheService_revisionUrl(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_14 = null; byte x_25 = 0; 
@@ -13637,6 +13772,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleTransfer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -13714,6 +13850,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CacheService_downloadArtifacts(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_30 = null; Obj x_49 = null; Obj x_60 = null; Obj x_61 = null; byte x_62 = 0; 
@@ -14117,6 +14254,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_loadCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -14191,6 +14329,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CacheToolchain_ofElanToolchain___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14301,6 +14440,7 @@ return x_16;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -14309,6 +14449,7 @@ return x_10;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -14636,6 +14777,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -14687,6 +14829,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Cache_writeMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -14763,6 +14906,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Cache_artifactPath___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -14774,6 +14918,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -14808,6 +14953,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_Cache_writeMap_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, ulong x_7, ulong x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -14903,6 +15049,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheServiceScopeImpl_repo_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14928,6 +15075,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14962,6 +15110,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_collectOutputDescrs_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15000,6 +15149,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lake_ReservoirResp_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__1_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -15072,6 +15222,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; 
@@ -15189,6 +15340,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheMap_insert___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -15220,6 +15372,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_CacheServiceName_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15291,6 +15444,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_CacheMap_parse_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -15376,6 +15530,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CacheService_name_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15449,6 +15604,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CachePlatform_isNone___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -15459,6 +15615,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferKind_get_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15492,6 +15649,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_CacheService_downloadService(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -15508,6 +15666,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_CacheMap_parse___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -15623,6 +15782,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lake_CacheMap_get_x3f_spec__0(Obj x_1, Obj x_2, ulong x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -15641,6 +15801,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheOutput_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -15722,6 +15883,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferDict_addIfNew___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -15793,6 +15955,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_TransferKind_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -15821,6 +15984,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__4(Obj x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16199,6 +16363,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer___at___00__private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_20 = null; 
@@ -16767,6 +16932,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheServiceScopeImpl_repo_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16922,6 +17088,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -16965,6 +17132,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_tmpPath(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -16986,6 +17154,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleFailure(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; byte x_79 = 0; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_125 = null; Obj x_126 = null; Obj x_136 = null; Obj x_137 = null; Obj x_154 = null; 
@@ -17618,6 +17787,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheService_downloadArtifacts___at___00Lake_CacheService_downloadOutputArtifacts_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_30 = null; Obj x_49 = null; Obj x_50 = null; byte x_51 = 0; 
@@ -17954,6 +18124,7 @@ return x_47;
 }
 }
 public static Obj l_Lake_CacheRef_insert___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; byte x_9 = 0; Obj x_10 = null; 
@@ -17966,6 +18137,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleFailure___at___00__private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleTransfer_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -18014,6 +18186,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls___at___00Lake_CacheService_downloadArtifacts_spec__1___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; byte x_19 = 0; Obj x_20 = null; uint x_21 = 0; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_38 = null; byte x_39 = 0; uint x_40 = 0; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; byte x_55 = 0; Obj x_56 = null; uint x_57 = 0; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_74 = null; uint x_75 = 0; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; byte x_106 = 0; Obj x_107 = null; uint x_108 = 0; Obj x_109 = null; Obj x_110 = null; Obj x_129 = null; Obj x_130 = null; ulong x_213 = 0; ulong x_214 = 0; Obj x_215 = null; Obj x_216 = null; Obj x_217 = null; Obj x_218 = null; Obj x_233 = null; Obj x_234 = null; Obj x_235 = null; Obj x_236 = null; 
@@ -18957,6 +19130,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CacheRef_insert___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -19023,6 +19197,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_CacheMap_parse(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_16 = null; Obj x_17 = null; Obj x_27 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; 
@@ -19294,6 +19469,7 @@ return x_17;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_collectOutputDescrs_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -19474,6 +19650,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_writeCacheEntries_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -19594,6 +19771,7 @@ return x_35;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_s3ArtifactUrl(ulong x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -19647,6 +19825,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00Lake_CacheMap_collectOutputDescrs_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -19711,6 +19890,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheService_uploadRevisionOutputs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_27 = null; 
@@ -19812,6 +19992,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CacheService_uploadArtifact(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_26 = null; 
@@ -19899,6 +20080,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__3_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -19998,6 +20180,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheService_transferArtifacts_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -20307,6 +20490,7 @@ return x_49;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleTransfer(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_26 = null; ulong x_27 = 0; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; byte x_31 = 0; ulong x_32 = 0; Obj x_33 = null; Obj x_34 = null; Obj x_70 = null; Obj x_71 = null; byte x_72 = 0; Obj x_73 = null; ulong x_74 = 0; Obj x_75 = null; Obj x_76 = null; Obj x_92 = null; Obj x_93 = null; Obj x_94 = null; Obj x_95 = null; Obj x_193 = null; Obj x_194 = null; Obj x_195 = null; Obj x_196 = null; Obj x_197 = null; Obj x_213 = null; Obj x_242 = null; byte x_277 = 0; 
@@ -21363,6 +21547,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_writeCacheEntries_spec__2(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -21468,6 +21653,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_CacheMap_load_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -21512,6 +21698,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lake_ReservoirResp_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_fetchUrls_spec__1_spec__1_spec__2(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -21590,6 +21777,7 @@ goto _start;
 }
 }
 public static Obj l_Lake_Cache_writeOutputs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; byte x_12 = 0; Obj x_13 = null; 
@@ -21601,6 +21789,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parse_loop_spec__1(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; 
@@ -21722,6 +21911,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleFailure___at___00__private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleTransfer_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; byte x_79 = 0; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_125 = null; Obj x_126 = null; Obj x_136 = null; Obj x_137 = null; Obj x_154 = null; 
@@ -22697,6 +22887,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -22744,6 +22935,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CacheOutput_fromJson_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -23410,6 +23602,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_CacheMap_collectOutputDescrs___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -23473,6 +23666,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_CacheMap_collectOutputDescrs_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -23582,6 +23776,7 @@ return x_1;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lake_CacheOutput_fromJson_x3f_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -23649,6 +23844,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_createExtraPaths(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -23774,6 +23970,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer_handleTransfer_spec__1(ulong x_1, ulong x_2, Obj x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; byte x_17 = 0; 
@@ -24078,6 +24275,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_writeCacheEntries_spec__3(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -24130,6 +24328,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -24153,6 +24352,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lake_Config_Cache_0__Lake_CacheService_downloadArtifacts_createExtraPaths_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -24188,6 +24388,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lake_Config_Cache_0__Lake_CacheService_monitorTransfer___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_40 = null; Obj x_41 = null; 
@@ -24710,6 +24911,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00__private_Lake_Config_Cache_0__Lake_CacheMap_parseCacheEntry_go_spec__1_spec__4___redArg(ulong x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -24813,6 +25015,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CacheServiceScope_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24844,6 +25047,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_CacheMap_updateFile_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -25023,6 +25227,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_CachePlatform_length_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

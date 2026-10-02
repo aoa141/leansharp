@@ -202,6 +202,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -729,6 +730,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -976,6 +978,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticSimp__wf__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1035,6 +1038,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticClean__wf__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1516,6 +1520,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticSimp__wf__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1845,6 +1850,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1880,6 +1886,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__tactic__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2005,6 +2012,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__pre__omega__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2110,6 +2118,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__pre__omega__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2145,6 +2154,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__with____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2417,6 +2427,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__pre__omega__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2457,6 +2468,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__pre__omega__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2563,6 +2575,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__pre__omega__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2765,6 +2778,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__pre__omega__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2882,6 +2896,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__WFTactics______macroRules__tacticDecreasing__trivial__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

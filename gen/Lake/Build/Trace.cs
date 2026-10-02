@@ -63,6 +63,7 @@ return x_1;
 }
 }
 public static ulong l_Lake_Hash_ofHex(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; ulong x_3 = 0; ulong x_4 = 0; 
@@ -100,6 +101,7 @@ return x_1;
 }
 }
 public static byte l_Lake_BuildTrace_checkAgainstHash(Obj x_1, Obj x_2, Obj x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -137,6 +139,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00Array_repr___at___00Lake_instReprBuildTrace_repr_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -189,6 +192,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_pureHash___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -251,6 +255,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_BuildTrace_ofHash___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -647,6 +652,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_inhabitedOfNilTrace___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -656,6 +662,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instComputeTraceHashOfComputeHash___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -740,6 +747,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_instComputeTraceListOfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -765,6 +773,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprHash_repr___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -775,6 +784,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_BuildTrace_instCoeMTime___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; Obj x_5 = null; 
@@ -790,6 +800,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_MTime_instOrd___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -813,6 +824,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instComputeTraceArrayOfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -821,6 +833,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_Hash_toJson___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -885,6 +898,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Build_Trace_0__Lake_instComputeTraceIOMTimeOfGetMTime___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -913,6 +927,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_computeFileHash(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 if (x_2 == 0)
@@ -960,6 +975,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Hash_ofText___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -980,6 +996,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Hash_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -1181,6 +1198,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_BuildTrace_compute___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1189,6 +1207,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instReprBuildTrace_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; 
@@ -1310,6 +1329,7 @@ return x_53;
 }
 }
 public static Obj l_Lake_instGetMTimeTextFilePath___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1331,6 +1351,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_BuildTrace_checkAgainstHash___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -1343,6 +1364,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_inhabitedOfNilTrace___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1426,6 +1448,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instComputeTraceArrayOfMonad___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -1476,6 +1499,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildTrace_compute___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1484,6 +1508,7 @@ return x_9;
 }
 }
 public static byte l_Lake_BuildTrace_checkAgainstTime(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -1503,6 +1528,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getFileMTime___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1544,6 +1570,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Fold_0__Nat_foldTR_loop___at___00Lake_Hash_ofHex_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -1557,6 +1584,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_BuildTrace_checkAgainstTime___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1576,6 +1604,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprHash_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -1618,6 +1647,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprHash_repr___redArg(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -1729,6 +1759,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_pureHash___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -1757,6 +1788,7 @@ return x_1;
 }
 }
 public static ulong l___private_Init_Data_Nat_Fold_0__Nat_foldTR_loop___at___00Lake_Hash_ofHex_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, ulong x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; 
@@ -1842,6 +1874,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Hash_instHashable___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -2099,6 +2132,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildTrace_nil(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -2171,6 +2205,7 @@ return x_3;
 }
 }
 public static ulong l___private_Init_Data_Nat_Fold_0__Nat_foldTR_loop___at___00Lake_Hash_ofHex_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -2285,6 +2320,7 @@ return x_7;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00Array_repr___at___00Lake_instReprBuildTrace_repr_spec__0_spec__0_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2421,6 +2457,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Hash_ofJsonNumber_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -2475,6 +2512,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_MTime_instRepr___aux__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2535,6 +2573,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_mixTraceArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2562,6 +2601,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildTrace_instCoeHash___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2739,6 +2779,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildTrace_ofHash(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2790,6 +2831,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Build_Trace_0__Lake_instComputeTraceIOMTimeOfGetMTime___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2892,6 +2934,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_instDecidableEqHash_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2998,6 +3041,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_BuildTrace_compute(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -3033,6 +3077,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instComputeTraceListOfMonad___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -3249,6 +3294,7 @@ return x_34;
 }
 }
 public static Obj l_Array_repr___at___00Lake_instReprBuildTrace_repr_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -3342,6 +3388,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_MTime_checkUpToDate___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3438,6 +3485,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Hash_ofByteArray___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -3467,6 +3515,7 @@ return x_1;
 }
 }
 public static byte l_Lake_BuildTrace_checkAgainstTime___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -3516,6 +3565,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_MTime_checkUpToDate___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3725,6 +3775,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_computeBinFileHash___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

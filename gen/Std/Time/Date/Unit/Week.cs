@@ -59,6 +59,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Week_OfYear_instDecidableLtOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -113,6 +114,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Offset_toMilliseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -148,6 +150,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_OfYear_Ordinal_ofFin(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -169,6 +172,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Week_instDecidableEqOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -190,6 +194,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_OfYear_instReprOrdinal___aux__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -215,6 +220,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Week_Offset_ofHours___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -245,6 +251,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Offset_ofInt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -276,6 +283,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_Offset_ofDays(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -285,6 +293,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Offset_ofSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -294,6 +303,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_OfYear_instDecidableLeOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -324,6 +334,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Offset_toMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -350,6 +361,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_OfYear_instOfNatOrdinal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -389,6 +401,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_Offset_ofMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -398,6 +411,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Aligned_instOfNatOrdinal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -426,6 +440,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Week_Offset_ofHours(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -486,6 +501,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_instReprOffset___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -568,6 +584,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Week_Aligned_instDecidableEqOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -608,6 +625,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_Aligned_instDecidableEqOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -670,6 +688,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_Aligned_instOfNatOrdinal___aux__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -711,6 +730,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Week_instOfNatOrdinal___aux__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -740,6 +760,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_Offset_toSeconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -761,6 +782,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Offset_ofMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -770,6 +792,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Aligned_instReprOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -780,6 +803,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Aligned_instOrdOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -846,6 +870,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Week_instNegOffset___aux__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -912,6 +937,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_instReprOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -922,6 +948,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_Offset_toDays(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1183,6 +1210,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_instDecidableEqOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1194,6 +1222,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Week_Offset_toMinutes___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1339,6 +1368,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_OfYear_instDecidableLeOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1415,6 +1445,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_instReprOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1606,6 +1637,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Week_instDecidableEqOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1681,6 +1713,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Week_instSubOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1712,6 +1745,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Week_instDecidableEqOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1896,6 +1930,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Week_OfYear_instDecidableLtOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

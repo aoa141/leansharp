@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Vector_Lemmas {
 public static Obj l_Vector_instDecidableExistsVectorSucc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -18,6 +19,7 @@ return x_7;
 }
 }
 public static Obj l_Vector_instDecidableExistsAndMemOfDecidablePred___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -44,6 +46,7 @@ return x_3;
 }
 }
 public static Obj l_Vector_instDecidableForallVectorSucc___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -72,6 +75,7 @@ return x_1;
 }
 }
 public static byte l_Vector_instDecidableForallForallMemOfDecidablePred(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -107,6 +111,7 @@ return x_5;
 }
 }
 public static Obj l_Vector_instDecidableExistsVectorZero___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -127,6 +132,7 @@ return x_4;
 }
 }
 public static Obj l_Vector_instDecidableMemOfLawfulBEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -142,6 +148,7 @@ return x_3;
 }
 }
 public static Obj l_Vector_instDecidableForallForallMemOfDecidablePred___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -178,6 +185,7 @@ return x_5;
 }
 }
 public static byte l_Vector_instDecidableExistsAndMemOfDecidablePred(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 

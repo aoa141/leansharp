@@ -127,6 +127,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_help(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -781,6 +782,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_helpScript(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1085,6 +1087,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_helpCache___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1214,6 +1217,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_helpCache(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 

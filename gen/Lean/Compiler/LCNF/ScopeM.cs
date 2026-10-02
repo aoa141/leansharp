@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_LCNF_ScopeM {
 public static Obj l_Lean_Compiler_LCNF_ScopeM_withNewScope(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -15,6 +16,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_clearScope(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -23,6 +25,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_addToScope(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -31,6 +34,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_withNewScope___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -47,6 +51,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_clearScope___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -90,6 +95,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_clearScope___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -99,6 +105,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_addToScope___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -108,6 +115,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_getScope(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -142,6 +150,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_setScope___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -151,6 +160,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_isInScope(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -159,6 +169,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_isInScope___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -169,6 +180,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_Compiler_LCNF_ScopeM_isInScope_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -190,6 +202,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_setScope___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -203,6 +216,7 @@ return x_8;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_Compiler_LCNF_ScopeM_isInScope_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -258,6 +272,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_setScope(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -286,6 +301,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_ScopeM_withBackTrackingScope___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

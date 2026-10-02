@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Syntax {
 public static Obj l_Lean_Syntax_instForInTopDownOfMonad_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -17,6 +18,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Syntax_addTrailing(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -38,6 +40,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_isLitKind___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -141,6 +144,7 @@ return x_21;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Syntax_reprint_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -172,6 +176,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Syntax_0__Lean_Syntax_findStack_x3f_go_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_13 = 0; 
@@ -253,6 +258,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Syntax_instForInTopDownOfMonad_loop___at___00Lean_Syntax_hasMissing_spec__0___redArg(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -351,6 +357,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Syntax_reprint_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -360,6 +367,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_goUp___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -386,6 +394,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Syntax_identComponents_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -527,6 +536,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Syntax_isAntiquotSplice___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -589,6 +599,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Syntax_0__Lean_Syntax_chooseNiceTrailStop_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -622,6 +633,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_getQuotContent(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_11 = 0; 
@@ -717,6 +729,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_goDown(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -725,6 +738,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_mkAntiquotSuffixSpliceNode(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -754,6 +768,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_unreachIsNodeAtom___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -825,6 +840,7 @@ return x_3;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Syntax_hasIdent_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -866,6 +882,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_Traverser_fromSyntax(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -904,6 +921,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Syntax_isAntiquotSuffixSplice(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -975,6 +993,7 @@ return x_2;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_Syntax_isAntiquots_spec__0(byte x_1, byte x_2, Obj x_3, ulong x_4, ulong x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1033,6 +1052,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_instReprRange_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1073,6 +1093,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Syntax_0__Lean_Syntax_reprint_reprintLeaf___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1116,6 +1137,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00__private_Lean_Syntax_0__Lean_Syntax_identComponents_x3f_nameComps_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1570,6 +1592,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Syntax_getAntiquotTerm(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_14 = 0; 
@@ -1639,6 +1662,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_updateLeading(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1651,6 +1675,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_antiquotSuffixSplice_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1660,6 +1685,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SourceInfo_getRange_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1680,6 +1706,7 @@ return x_1;
 }
 }
 public static Obj l_Array_isEqvAux___at___00Lean_Syntax_structRangeEq_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1699,6 +1726,7 @@ return x_4;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Syntax_identComponents_x3f_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1904,6 +1932,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_asNode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1913,6 +1942,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SyntaxNode_getNumArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1979,6 +2009,7 @@ return x_8;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lean_Syntax_antiquotKinds_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1990,6 +2021,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_ofRange(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_13 = 0; 
@@ -2054,6 +2086,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_identComponents(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 3)
@@ -2211,6 +2244,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_getIdx___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2220,6 +2254,7 @@ return x_3;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00Lean_Syntax_structRangeEq_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2241,6 +2276,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_Traverser_left(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -2282,6 +2318,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_Range_bsize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2301,6 +2338,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_goUp___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -2313,6 +2351,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Syntax_0__Lean_Syntax_findStack_x3f_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -2364,6 +2403,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Syntax_instForInTopDownOfMonad_loop___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -2383,6 +2423,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_replaceM___at___00Lean_Syntax_updateLeading_spec__0___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -2625,6 +2666,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_ifNodeKind___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2709,6 +2751,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_Range_overlaps___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -2732,6 +2775,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_replaceM___at___00Lean_Syntax_updateLeading_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -2991,6 +3035,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_unreachIsNodeAtom___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3022,6 +3067,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Syntax_0__Lean_Syntax_identComponents_x3f_nameComps(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 1)
@@ -3054,6 +3100,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_unreachIsNodeMissing___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3074,6 +3121,7 @@ return x_2;
 }
 }
 public static Obj l_Array_isEqvAux___at___00Lean_Syntax_structRangeEq_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3085,6 +3133,7 @@ return x_7;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_Syntax_0__Lean_Syntax_chooseNiceTrailStop_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -3200,6 +3249,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Syntax_eqWithInfoAndTraceReuse(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; 
@@ -3326,6 +3376,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Syntax_instForInTopDownOfMonad_loop___at___00Lean_Syntax_reprint_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -3362,6 +3413,7 @@ return x_2;
 }
 }
 public static byte l_List_all___at___00Lean_Syntax_Stack_matches_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3392,6 +3444,7 @@ goto _start;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_Syntax_structRangeEq_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -3400,6 +3453,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Syntax_updateTrailing(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -3621,6 +3675,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_getRange_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3640,6 +3695,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Syntax_Stack_matches(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -3678,6 +3734,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_unreachIsNodeIdent___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3702,6 +3759,7 @@ return x_13;
 }
 }
 public static byte l_List_beq___at___00Lean_Syntax_structRangeEq_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3772,6 +3830,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Syntax_0__Lean_Syntax_identComponents_nameComps(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 1)
@@ -3812,6 +3871,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Syntax_eqWithInfo___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3821,6 +3881,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_getCur___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3842,6 +3903,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Syntax_isEscapedAntiquot___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3861,6 +3923,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Syntax_identComponents_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3957,6 +4020,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_antiquotSuffixSplice_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -4011,6 +4075,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_Syntax_reprint_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_25 = 0; 
@@ -4255,6 +4320,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Syntax_mkAntiquotSpliceNode(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; 
@@ -4289,6 +4355,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_Syntax_Traverser_right(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -4384,6 +4451,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Syntax_identComponents_x3f_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4403,6 +4471,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_identComponents_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 3)
@@ -4602,6 +4671,7 @@ return x_56;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lean_Syntax_antiquotKinds_spec__0_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -4661,6 +4731,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Syntax_replaceM___at___00Lean_Syntax_updateLeading_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4844,6 +4915,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_getAntiquotSpliceSuffix___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4885,6 +4957,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_structRangeEqWithTraceReuse___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -4925,6 +4998,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Syntax_asNode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -5104,6 +5178,7 @@ return x_4;
 }
 }
 public static Obj l_Array_isEqvAux___at___00Lean_Syntax_eqWithInfo_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5145,6 +5220,7 @@ return x_2;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lean_Syntax_antiquotKinds_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5286,6 +5362,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Syntax_structRangeEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -5526,6 +5603,7 @@ return x_50;
 }
 }
 public static Obj l_Lean_Syntax_mkAntiquotNode(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_23 = null; Obj x_24 = null; Obj x_28 = null; byte x_37 = 0; 
@@ -5787,6 +5865,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Syntax_identComponents_x3f_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5863,6 +5942,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Syntax_0__Lean_Syntax_updateLeadingAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6050,6 +6130,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Syntax_instForInTopDownOfMonad_loop___at___00Lean_Syntax_hasMissing_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -6064,6 +6145,7 @@ return x_9;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_Syntax_eqWithInfo_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6099,6 +6181,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Syntax_reprint(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; 
@@ -6202,6 +6285,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Syntax_modifyArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6287,6 +6371,7 @@ return x_11;
 }
 }
 public static byte l_Lean_Syntax_isQuot(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -6426,6 +6511,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_instForInTopDownOfMonad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6506,6 +6592,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SyntaxNode_getKind___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6525,6 +6612,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_antiquotKind_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6534,6 +6622,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_instForInTopDownOfMonad_loop___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -6544,6 +6633,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Syntax_isAnyAntiquot___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -6779,6 +6869,7 @@ return x_2;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_Syntax_structRangeEq_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6896,6 +6987,7 @@ goto block_15;
 }
 }
 public static Obj l_Lean_Syntax_getAntiquotSpliceSuffix(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -6967,6 +7059,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_MonadTraverser_goLeft(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6975,6 +7068,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_isAntiquots___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -7073,6 +7167,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Syntax_instReprRange_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_43 = 0; 
@@ -7680,6 +7775,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Syntax_instForInTopDownOfMonad_loop___at___00Lean_Syntax_hasMissing_spec__0_spec__0(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -7779,6 +7875,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Syntax_hasMissing___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -8192,6 +8289,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Syntax_instForInTopDownOfMonad_loop___at___00Lean_Syntax_reprint_spec__1_spec__1(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -8359,6 +8457,7 @@ return x_1;
 }
 }
 public static byte l_Lean_isLitKind(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_10 = null; byte x_11 = 0; 
@@ -8500,6 +8599,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkListNode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -8894,6 +8994,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Syntax_instForInTopDownOfMonad_loop___at___00Lean_Syntax_reprint_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -9532,6 +9633,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Syntax_instForInTopDownOfMonad_loop___at___00Lean_Syntax_reprint_spec__1(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_8 = null; Obj x_9 = null; Obj x_19 = null; Obj x_20 = null; 
@@ -9751,6 +9853,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Syntax_isAnyAntiquot(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_6 = 0; 

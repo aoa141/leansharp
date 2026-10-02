@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_LRAT_Internal_State_checkEmpty___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

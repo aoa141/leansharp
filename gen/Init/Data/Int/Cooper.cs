@@ -25,6 +25,7 @@ return x_2;
 }
 }
 public static Obj l_Int_Cooper_resolve__left_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -38,6 +39,7 @@ return x_6;
 }
 }
 public static Obj l_Int_add__of__le___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -48,6 +50,7 @@ return x_3;
 }
 }
 public static Obj l_Int_Cooper_resolve__left_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -61,6 +64,7 @@ return x_7;
 }
 }
 public static Obj l_Int_add__of__le(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -69,6 +73,7 @@ return x_4;
 }
 }
 public static Obj l_Int_Cooper_resolve__left___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

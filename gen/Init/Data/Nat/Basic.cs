@@ -18,6 +18,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_repeatTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -26,6 +27,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_recCompiled___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -36,6 +38,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_recAux___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -46,6 +49,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_min___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -56,6 +60,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_recAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -92,6 +97,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_repeat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -102,6 +108,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_recAux___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -110,6 +117,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -136,6 +144,7 @@ goto _start;
 }
 }
 public static Obj l_Nat_recCompiled___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -146,6 +155,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_recCompiled___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -170,6 +180,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeat_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -283,6 +294,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_repeat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -455,6 +467,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_repeat(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -473,6 +486,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_beq_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -586,6 +600,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_repeat___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

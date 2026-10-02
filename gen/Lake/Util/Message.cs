@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_Message {
 public static Obj l_Lake_mkMessageStringCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; Obj x_10 = null; 
@@ -17,6 +18,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_mkMessageStringCore(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_12 = null; uint x_13 = 0; Obj x_17 = null; Obj x_20 = null; Obj x_31 = null; Obj x_45 = null; byte x_46 = 0; 
@@ -175,6 +177,7 @@ goto block_30;
 }
 }
 public static Obj l_Lake_mkMessageLogString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -195,6 +198,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_mkParserErrorMessage___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -214,6 +218,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldlM___at___00Lake_mkMessageLogString_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -222,6 +227,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_mkParserErrorMessage(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -254,6 +260,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_mkMessageString___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -302,6 +309,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_mkExceptionMessage(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_14 = null; Obj x_28 = null; 
@@ -413,6 +421,7 @@ goto block_13;
 }
 }
 public static Obj l_List_foldlM___at___00Lake_mkMessageLogString_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -478,6 +487,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_mkMessageNoPos___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

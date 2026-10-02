@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_RBNode_all___at___00Lean_RBTree_subset_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -37,6 +38,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBTree_depth___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -47,6 +49,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_del___at___00Lean_RBNode_erase___at___00Lean_RBTree_diff_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -73,6 +76,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_RBTree_toArray(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -99,6 +103,7 @@ return x_3;
 }
 }
 public static byte l_Lean_RBTree_subset(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -107,6 +112,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_ins___at___00Lean_RBNode_insert___at___00Lean_RBTree_fromList_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1118,6 +1124,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBTree_revFold___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1127,6 +1134,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBNode_findCore___at___00Lean_RBTree_subset_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1218,6 +1226,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_insert___at___00Lean_RBTree_fromList_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1236,6 +1245,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_RBTree_fromArray_spec__0(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1281,6 +1291,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBTree_diff_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1315,6 +1326,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_mkRBTree___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1334,6 +1346,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBTree_fromArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -1394,6 +1407,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBNode_erase___at___00Lean_RBTree_diff_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1403,6 +1417,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBTree_diff(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1421,6 +1436,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_RBTree_min___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1431,6 +1447,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBTree_toList(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1447,6 +1464,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBTree_min___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1503,6 +1521,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00Lean_RBTree_fromList_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1586,6 +1605,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBTree_union_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1594,6 +1614,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBTree_fromList(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1602,6 +1623,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBTree_any___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1620,6 +1642,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBTree_all___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1638,6 +1661,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBTree_max___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1648,6 +1672,7 @@ return x_4;
 }
 }
 public static byte l_Lean_RBTree_subset___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1726,6 +1751,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBTree_union(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1734,6 +1760,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBTree_toArray___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1761,6 +1788,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBTree_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1867,6 +1895,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_rbtreeOf(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1915,6 +1944,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_RBTree_all___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2000,6 +2030,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBTree_seteq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2063,6 +2094,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_RBTree_contains___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2072,6 +2104,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_RBTree_fromArray_spec__0___redArg(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2194,6 +2227,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBTree_union___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2210,6 +2244,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBNode_all___at___00Lean_RBTree_subset_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2219,6 +2254,7 @@ return x_5;
 }
 }
 public static byte l_Lean_RBNode_all___at___00Lean_RBTree_subset_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2266,6 +2302,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBTree_diff_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2354,6 +2391,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_RBTree_foldM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2392,6 +2430,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_RBTree_depth___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2401,6 +2440,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBNode_del___at___00Lean_RBNode_erase___at___00Lean_RBTree_diff_spec__0_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2666,6 +2706,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_RBTree_instRepr___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2733,6 +2774,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_RBTree_ofList(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2773,6 +2815,7 @@ return x_4;
 }
 }
 public static byte l_Lean_RBTree_seteq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2884,6 +2927,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_RBTree_ofList___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2929,6 +2973,7 @@ return x_2;
 }
 }
 public static byte l_Lean_RBNode_all___at___00Lean_RBTree_subset_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2986,6 +3031,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_RBNode_fold___at___00Lean_RBTree_union_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_Date_Unit_Basic {
 public static Obj l_Std_Time_Day_Offset_toWeeks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Day_Offset_ofWeeks___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

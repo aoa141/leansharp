@@ -61,6 +61,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Level_paren_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -168,6 +169,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Level_hole_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -210,6 +212,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Level_num_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -338,6 +341,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_paren___regBuiltin_Lean_Parser_Level_paren_parenthesizer__15___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -366,6 +370,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_ident___regBuiltin_Lean_Parser_Level_ident__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -435,6 +440,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Level_num_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -542,6 +548,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_imax___regBuiltin_Lean_Parser_Level_imax_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -612,6 +619,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_imax___regBuiltin_Lean_Parser_Level_imax__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -672,6 +680,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_levelParser_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -772,6 +781,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Level_addLit_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -792,6 +802,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_hole___regBuiltin_Lean_Parser_Level_hole_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -810,6 +821,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_max___regBuiltin_Lean_Parser_Level_max_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -870,6 +882,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Level_ident_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -925,6 +938,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Level_imax_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1135,6 +1149,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_levelParser_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1214,6 +1229,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Level_max_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1253,6 +1269,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_max___regBuiltin_Lean_Parser_Level_max_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1313,6 +1330,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_num___regBuiltin_Lean_Parser_Level_num__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1526,6 +1544,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Level_addLit_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1566,6 +1585,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Level_imax_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1853,6 +1873,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_hole___regBuiltin_Lean_Parser_Level_hole_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1871,6 +1892,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_paren___regBuiltin_Lean_Parser_Level_paren__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1879,6 +1901,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Level_max_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1935,6 +1958,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_addLit___regBuiltin_Lean_Parser_Level_addLit_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2319,6 +2343,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Level_ident_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2656,6 +2681,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Level_paren_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2791,6 +2817,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Level_0__Lean_Parser_Level_imax___regBuiltin_Lean_Parser_Level_imax_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3289,6 +3316,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Level_hole_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 

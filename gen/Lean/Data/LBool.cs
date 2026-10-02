@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Data_LBool {
 public static Obj l_Lean_LBool_true_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -17,6 +18,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_LBool_false_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -49,6 +51,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LBool_false_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -59,6 +62,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_toLBoolM___redArg___lam__0(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -215,6 +219,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LBool_toString(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -326,6 +331,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_LBool_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -357,6 +363,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Bool_toLBool___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 

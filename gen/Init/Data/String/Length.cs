@@ -31,6 +31,7 @@ return x_10;
 }
 }
 public static Obj l_String_length___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

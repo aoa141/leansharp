@@ -45,6 +45,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Option_register___at___00__private_Lean_Compiler_LCNF_ConfigOptions_0__Lean_Compiler_LCNF_initFn_00___x40_Lean_Compiler_LCNF_ConfigOptions_2418604597____hygCtx___hyg_4__spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -116,6 +117,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_ConfigOptions_0__Lean_Compiler_LCNF_initFn_00___x40_Lean_Compiler_LCNF_ConfigOptions_2867675980____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -227,6 +229,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_ConfigOptions_0__Lean_Compiler_LCNF_initFn_00___x40_Lean_Compiler_LCNF_ConfigOptions_840336701____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -459,6 +462,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_ConfigOptions_0__Lean_Compiler_LCNF_initFn_00___x40_Lean_Compiler_LCNF_ConfigOptions_2649851602____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -899,6 +903,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_toConfigOptions(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; Obj x_16 = null; 

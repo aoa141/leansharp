@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Vector_Lex {
 public static byte l_Vector_instDecidableLEOfDecidableEqOfDecidableLT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -15,6 +16,7 @@ return x_8;
 }
 }
 public static Obj l_Vector_instTransLeOfLawfulOrderLTOfIsLinearOrder___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -24,6 +26,7 @@ return x_7;
 }
 }
 public static byte l_Vector_instDecidableLTOfDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -32,6 +35,7 @@ return x_8;
 }
 }
 public static Obj l_Vector_instDecidableLEOfDecidableEqOfDecidableLT___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -64,6 +68,7 @@ return x_10;
 }
 }
 public static Obj l_Vector_instTransLeOfLawfulOrderLTOfIsLinearOrder___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -84,6 +89,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Vector_instTransLt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -131,6 +137,7 @@ return x_9;
 }
 }
 public static Obj l_Vector_instDecidableLTOfDecidableEq___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

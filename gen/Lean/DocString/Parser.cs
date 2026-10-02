@@ -102,6 +102,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendTrailingAbove_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -213,6 +214,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Doc_Parser_locateError___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -222,6 +224,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendLastTrailing_go_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -270,6 +273,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_delimitedInlineFn___lam__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -333,6 +337,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Doc_Parser_BlockCtxt_forDocString_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -426,6 +431,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_flag(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -444,6 +450,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_footnoteRefFn___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -467,6 +474,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBlockFn_closeFence___lam__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -479,6 +487,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_directiveFn_closeDelimiter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; 
@@ -550,6 +559,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockCommandFn_intro___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -559,6 +569,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_metadataBlockFn_atLineStart___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -568,6 +579,7 @@ return x_4;
 }
 }
 public static byte l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBolAt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; byte x_19 = 0; byte x_26 = 0; byte x_27 = 0; byte x_29 = 0; 
@@ -670,6 +682,7 @@ goto block_25;
 }
 }
 public static Obj l_Lean_Doc_Parser_footnoteFn___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -727,6 +740,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_codeContentsFn___lam__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -736,6 +750,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_recoverCode___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -784,6 +799,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_skipBlock_nonEmptyLine(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -793,6 +809,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_instReprUnorderedListType_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -817,6 +834,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverAtErrPos(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -944,6 +962,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_metadataContents_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -953,6 +972,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Parser_ListStyle_ordered_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -970,6 +990,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBlockFn_closeFence___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -979,6 +1000,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Parser_footnoteFn___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -990,6 +1012,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockSepFallback(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1012,6 +1035,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_flag___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1021,6 +1045,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_instReprUnorderedListType_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; 
@@ -1141,6 +1166,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1181,6 +1207,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverRoleAtErrPos(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1205,6 +1232,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockCommandFn_intro___lam__5(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -1230,6 +1258,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockFn_skipBlank_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1251,6 +1280,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverWsAtErrPos___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1262,6 +1292,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_textLineFn(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (x_2 == 0)
@@ -1675,6 +1706,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_orderedListMarker___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1694,6 +1726,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn___lam__13(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; 
@@ -1755,6 +1788,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_UnorderedListType_dash_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1785,6 +1819,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Parser_instDecidableEqOrderedListType___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1815,6 +1850,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_consumedLineEnd_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1900,6 +1936,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_directiveFn___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1909,6 +1946,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_unorderedListMarker___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1928,6 +1966,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBoundarySpacesToWs_lineStart___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1937,6 +1976,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBlockFn_closeFence(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -1967,6 +2007,7 @@ return x_16;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_paraFn_guardContent_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -1981,6 +2022,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Doc_Parser_footnoteRefFn___lam__5(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2032,6 +2074,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_notInLink___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2147,6 +2190,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_recoverCode___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2169,6 +2213,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_unterminatedAtEnd(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -2318,6 +2363,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn___lam__11(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; 
@@ -2336,6 +2382,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_closeRefName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2363,6 +2410,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_ListStyle_unordered_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2372,6 +2420,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendTrailingAbove_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2406,6 +2455,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Doc_Parser_documentInfo_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2439,6 +2489,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_strFn_go___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2452,6 +2503,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_closeRefNameWith(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -2539,6 +2591,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_BlockCtxt_forDocString(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_13 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; byte x_34 = 0; 
@@ -2663,6 +2716,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_mathFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -2694,6 +2748,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_takeUntilEscFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -2764,6 +2819,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_mkNamed___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2805,6 +2861,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Parser_unorderedListFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2818,6 +2875,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_bol___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2827,6 +2885,7 @@ return x_4;
 }
 }
 public static byte l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkTargetFn_notUrlEnd___lam__1(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -2836,6 +2895,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_listItemFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -2864,6 +2924,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_mkNamedNoParen(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2886,6 +2947,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverEolAtErrPos(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2917,6 +2979,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_orderedListMarker___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2968,6 +3031,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBoundarySpacesToWs_originalLine___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3071,6 +3135,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_Parser_delimitedInlineFn___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3137,6 +3202,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverEolWithAtErrPos___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3160,6 +3226,7 @@ return x_3;
 }
 }
 public static byte l_Lean_PersistentHashMap_contains___at___00Lean_Doc_Parser_documentInfo_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3168,6 +3235,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_ifVersoModuleDocs_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3180,6 +3248,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Doc_Parser_textLineFn_spec__0___redArg(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_81 = 0; 
@@ -3528,6 +3597,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_docEndWs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_18 = 0; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; 
@@ -3655,6 +3725,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_strFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -3700,6 +3771,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_mkNamed___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3732,6 +3804,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_listItemFn_marker___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3763,6 +3836,7 @@ return x_1;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_earlyStopErrorFn_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3795,6 +3869,7 @@ return x_12;
 }
 }
 public static byte l_Lean_Doc_Parser_imageFn___lam__2(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -3804,6 +3879,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_asTokenFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -3875,6 +3951,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockFn___lam__11(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -3937,6 +4014,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_unorderedMarkersFn_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3986,6 +4064,7 @@ return x_16;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverWsAtErrPos(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -3995,6 +4074,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockFn_noTabs___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4004,6 +4084,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverRoleAtErrPos___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -4042,6 +4123,7 @@ return x_6;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBoundarySpacesToWs_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -4087,6 +4169,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_valFn_onOneLine(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -4127,6 +4210,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Parser_UnorderedListType_plus_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4157,6 +4241,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBoundarySpacesToWs_originalLine(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -4306,6 +4391,7 @@ return x_33;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_metadataBlockFn_opener(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -4340,6 +4426,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_directiveFn___lam__13(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; 
@@ -4388,6 +4475,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_directiveFn_closeDelimiter___lam__5(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -4421,6 +4509,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_asTokenAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_30 = 0; 
@@ -4568,6 +4657,7 @@ return x_5;
 }
 }
 public static Obj l_Option_repr___at___00Lean_Doc_Parser_instReprBlockCtxt_repr_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4629,6 +4719,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBlockStart_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4638,6 +4729,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_instBEqUnorderedListType_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -4712,6 +4804,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_guardSameLine___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4802,6 +4895,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_skipBlock(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4843,6 +4937,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverEolWithAtErrPos_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -4878,6 +4973,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_metadataContents_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4900,6 +4996,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_expectFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -4965,6 +5062,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockFn_skipBlank_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_31 = 0; 
@@ -5141,6 +5239,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_linkRefFn___lam__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -5190,6 +5289,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_onlyBlockOpeners(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -5228,6 +5328,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_headerFn_checkNonIndented(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -5407,6 +5508,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_potentiallyNamed___lam__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -5432,6 +5534,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_OrderedListType_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5467,6 +5570,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockCommandFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -5592,6 +5696,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_numberingFn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -5601,6 +5706,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverHereWith___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5621,6 +5727,7 @@ return x_1;
 }
 }
 public static Obj l_List_elem___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkTargetFn_notUrlEnd_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -5731,6 +5838,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_withoutVersoSyntax_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5769,6 +5877,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike_noSpaceBefore(uint x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -5846,6 +5955,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_noSpace___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5933,6 +6043,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_closer___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -5964,6 +6075,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_wsFallback___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5973,6 +6085,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_withPercents___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_14 = 0; 
@@ -6028,6 +6141,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Doc_Parser_argFn___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6038,6 +6152,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_lineContinues___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6076,6 +6191,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_boldFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; uint x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -6112,6 +6228,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_lineTailWsFn___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -6123,6 +6240,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_nameAndArgsFn___lam__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -6181,6 +6299,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBlockStart_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6225,6 +6344,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_valFn_onOneLine_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6233,6 +6353,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_linkFn___lam__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -6256,6 +6377,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_mkIdent(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6284,6 +6406,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_descItemFn___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -6316,6 +6439,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Doc_Parser_ListStyle_unordered_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6325,6 +6449,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_inlineFn___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6349,6 +6474,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_documentInfo___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -6380,6 +6506,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn___lam__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -6438,6 +6565,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_paraFn___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6466,6 +6594,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_UnorderedListType_plus_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6485,6 +6614,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_footnoteRefFn___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -6529,6 +6659,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_roleFn_bracketed___lam__2(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -6545,6 +6676,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBlockFn_closeFence___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -6576,6 +6708,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkRefFn_definitionShape(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -6587,6 +6720,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_mkAnon___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -6612,6 +6746,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_ifVersoFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -6683,6 +6818,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_descItemFn_colon(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -6693,6 +6829,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBlockFn_codeFrom___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -6706,6 +6843,7 @@ return x_7;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Doc_Parser_documentInfo_spec__0_spec__0_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6851,6 +6989,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_pushMissing(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6859,6 +6998,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkRefFn_bracketedName_spec__0___redArg(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_39 = 0; 
@@ -7019,6 +7159,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_roleFn_intro___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7028,6 +7169,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockquoteFn___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_24 = 0; 
@@ -7176,6 +7318,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_roleFn_nonBracketed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -7249,6 +7392,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_describeChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -7270,6 +7414,7 @@ return x_2;
 }
 }
 public static byte l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_paraFn_blankInline(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_10 = 0; Obj x_11 = null; 
@@ -7440,6 +7585,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkTargetFn_notUrlEnd___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -7474,6 +7620,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_imageFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -7521,6 +7668,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Doc_Parser_textLineFn_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -7619,6 +7767,7 @@ return x_6;
 }
 }
 public static byte l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_lineContinues(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -7709,6 +7858,7 @@ return x_21;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_describeChar(uint x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; 
@@ -7780,6 +7930,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_isGrowableVersoDelimiter___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -7811,6 +7962,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockOpenerFn___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -7820,6 +7972,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_linkRefFn___lam__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -7843,6 +7996,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_imageFn___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -7974,6 +8128,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendTrailingAbove_spec__1___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7993,6 +8148,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockFn_skipBlank___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8024,6 +8180,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike_opener___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 uint x_9 = 0; Obj x_10 = null; 
@@ -8235,6 +8392,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkRefFn_urlFn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -8252,6 +8410,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_closer___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -8265,6 +8424,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Parser_ifVerso_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -8277,6 +8437,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn___lam__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8314,6 +8475,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_codeLine___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -8416,6 +8578,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_emphFn___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8449,6 +8612,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_valFn___lam__0(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -8577,6 +8741,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverArgAtErrPos___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -8602,6 +8767,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_codeContentsFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -8649,6 +8815,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_skipRestOfLine___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -8699,6 +8866,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_descItemFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8714,6 +8882,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_metadataBlockFn_opener___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8722,6 +8891,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_eatSpaces___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8731,6 +8901,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_directiveFn___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -8742,6 +8913,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike_opener(uint x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_18 = null; 
@@ -8844,6 +9016,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_roleFn_intro___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -8889,6 +9062,7 @@ return x_19;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeLineTailWs___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8976,6 +9150,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_valFn_onOneLine_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8985,6 +9160,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_withParens___lam__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -8998,6 +9174,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Doc_Parser_UnorderedListType_asterisk_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9007,6 +9184,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_expectChFn(uint x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -9027,6 +9205,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkRefFn_atLineStart___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9036,6 +9215,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_UnorderedListType_dash_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9045,6 +9225,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_withParens___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -9075,6 +9256,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendLastTrailing_go_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -9084,6 +9266,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Parser_instBEqOrderedListType_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -9095,6 +9278,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike___lam__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9121,6 +9305,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_headerFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -9242,6 +9427,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_flagName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -9335,6 +9521,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockOpenerFn___lam__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -9581,6 +9768,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_directiveFn_withDelimiter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -9705,6 +9893,7 @@ return x_65;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_minContentIndent_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9713,6 +9902,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linebreakFn___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9777,6 +9967,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_ifVerso_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -9799,6 +9990,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_codeContentsFn___lam__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -9810,6 +10002,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_nl___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9819,6 +10012,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBlockStart_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9839,6 +10033,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_checkIndent(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9866,6 +10061,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_nameArgWhitespace___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9875,6 +10071,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_atLeastFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -9959,6 +10156,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Parser_descItemFn___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10015,6 +10213,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeFn___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -10025,6 +10224,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_nameAndArgsFn___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10033,6 +10233,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_bolThen___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10061,6 +10262,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkRefFn_urlFn_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_31 = 0; 
@@ -10224,6 +10426,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_directiveFn___lam__9(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -10259,6 +10462,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockCommandFn_intro(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -10353,6 +10557,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_atMostFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10395,6 +10600,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Doc_Parser_lookaheadOrderedListMarker(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -11046,6 +11252,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_definitionListFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -11080,6 +11287,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkTargetFn_notRefEnd(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -11124,6 +11332,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_definitionListFn___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -11163,6 +11372,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 uint x_10 = 0; Obj x_11 = null; 
@@ -11173,6 +11383,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_Parser_delimitedInlineFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11205,6 +11416,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 uint x_12 = 0; Obj x_13 = null; 
@@ -11236,6 +11448,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_definitionListFn___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_18 = 0; 
@@ -11302,6 +11515,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_directiveFn_withDelimiterAt___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -11353,6 +11567,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Doc_Parser_inlineFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11361,6 +11576,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverNonSpaceAtErrPos(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -11383,6 +11599,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_docEndWs_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -11472,6 +11689,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_metadataBlockFn_opener___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -11519,6 +11737,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_notInLink(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11527,6 +11746,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_eatIndent_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -11702,6 +11922,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeLineTailWs(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -11788,6 +12009,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_atMostAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -11896,6 +12118,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Doc_Parser_inlineTextCharFn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -12208,6 +12431,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_consumedLineEnd_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -12283,6 +12507,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_instReprOrderedListType_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; 
@@ -12369,6 +12594,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_skipBlock___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12410,6 +12636,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_delimitedInlineFn___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -12436,6 +12663,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_InlineCtxt_inner(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_14 = 0; 
@@ -12592,6 +12820,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_eatIndent_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -12730,6 +12959,7 @@ return x_29;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_roleFn_intro___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -12741,6 +12971,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_headerFn_inUnindentedBlock(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -12837,6 +13068,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_paraFn___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -12966,6 +13198,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_documentFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12974,6 +13207,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Doc_Parser_instDecidableEqOrderedListType(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -12986,6 +13220,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike_opener___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -13007,6 +13242,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_ListStyle_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13038,6 +13274,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_mkAnon___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13048,6 +13285,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_valFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -13338,6 +13576,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendTrailingAbove_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13375,6 +13614,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_potentiallyNamed___lam__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13408,6 +13648,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Parser_unorderedListFn___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -13455,6 +13696,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_instCoeCharParserFn___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -13487,6 +13729,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendLastTrailing_go_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13551,6 +13794,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBlockFn_codeFrom___lam__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -13584,6 +13828,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_versoRunEnd(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_9 = 0; 
@@ -13628,6 +13873,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_linkFn___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_22 = 0; 
@@ -13694,6 +13940,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Doc_Parser_OrderedListType_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -13854,6 +14101,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_footnoteRefFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -13887,6 +14135,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -14016,6 +14265,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_withParens(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -14092,6 +14342,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_lineContinues_spec__0___redArg(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_37 = 0; 
@@ -14296,6 +14547,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverHereWith___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -14365,6 +14617,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBoundarySpacesToWs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -15161,6 +15414,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockTrailingWs___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -15181,6 +15435,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockquoteFn___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -15198,6 +15453,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_paraFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -15250,6 +15506,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBlockStart_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_88 = 0; 
@@ -15759,6 +16016,7 @@ return x_26;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkRefFn_urlFn_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -15826,6 +16084,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBoundarySpacesToWs_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -15879,6 +16138,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_headerFn___lam__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -15907,6 +16167,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_earlyStopErrorFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_28 = 0; 
@@ -16086,6 +16347,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_paraFn_guardContent_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16094,6 +16356,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBlockStart_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -16202,6 +16465,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBlockFn_codeFrom___lam__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -16253,6 +16517,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_withTrailing(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -16299,6 +16564,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16328,6 +16594,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Doc_Parser_documentInfo_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -16370,6 +16637,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_metadataBlockFn_closer___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16428,6 +16696,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_orderedListFn___lam__0(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_21 = 0; 
@@ -16490,6 +16759,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Doc_Parser_footnoteFn___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -16519,6 +16789,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_metadataBlockFn___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -16542,6 +16813,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_skipBlock_nonEmptyLine___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; byte x_5 = 0; uint x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -16576,6 +16848,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_recovering___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16643,6 +16916,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_codeContentsFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -16661,6 +16935,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_repFn___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16724,6 +16999,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_unorderedListFn___lam__0(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_20 = 0; 
@@ -16796,6 +17072,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike(Obj x_1, Obj x_2, uint x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -16824,6 +17101,7 @@ return x_19;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_closer___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -16957,6 +17235,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_closer(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -16996,6 +17275,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_skipBlock_nonEmptyLine___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -17047,6 +17327,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_emphLike___lam__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 uint x_15 = 0; Obj x_16 = null; 
@@ -17288,6 +17569,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_emphFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; uint x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -17331,6 +17613,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_listItemFn_marker(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -17349,6 +17632,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Doc_Parser_UnorderedListType_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -17373,6 +17657,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeBlockFn_closeFence___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -17413,6 +17698,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_paraFn_guardContent_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -17542,6 +17828,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockCommandFn_intro___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -17583,6 +17870,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_Parser_skipFn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -17593,6 +17881,7 @@ return x_3;
 }
 }
 public static byte l_List_elem___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkTargetFn_notUrlEnd_spec__0(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -17678,6 +17967,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_codeFn_closer___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -17708,6 +17998,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Doc_Parser_instReprBlockCtxt_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -17767,6 +18058,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_imageFn___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -17795,6 +18087,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_strFn_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -17805,6 +18098,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_minContentIndent(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_25 = 0; 
@@ -17916,6 +18210,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendLastTrailing_go(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -18392,6 +18687,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_directiveFn_guardOpenerSize___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18420,6 +18716,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_metadataBlockFn_closer___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -18498,6 +18795,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_linkFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -18526,6 +18824,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverSkip(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -18535,6 +18834,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_initFn_00___x40_Lean_DocString_Parser_1665750511____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18565,6 +18865,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_descItemFn_colon___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -18598,6 +18899,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_checkIndentEq(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -18891,6 +19193,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_expectedFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -19021,6 +19324,7 @@ return x_5;
 }
 }
 public static byte l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_atNewLine(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -19038,6 +19342,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockOpenerFn___lam__1(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -19078,6 +19383,7 @@ return x_8;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_directiveFn_withDelimiter_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -19087,6 +19393,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_guardSameLine(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -19105,6 +19412,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_documentFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; 
@@ -19174,6 +19482,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_atMostFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -19240,6 +19549,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_recoverBlockAtErrPos(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -19382,6 +19692,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendTrailingAbove(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_29 = 0; 
@@ -19535,6 +19846,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_minContentIndent_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_73 = 0; 
@@ -19966,6 +20278,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkTargetFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -20261,6 +20574,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverEolWithAtErrPos(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -20482,6 +20796,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_refNameFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -20507,6 +20822,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_argsFn___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -20536,6 +20852,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_lineContinues_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -20547,6 +20864,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Parser_linkRefFn___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -20714,6 +21032,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Doc_Parser_argsFn___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -20773,6 +21092,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_mathFn___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -20854,6 +21174,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_recoverEolWithAtErrPos_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -20887,6 +21208,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_ifVersoModuleDocsFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -21044,6 +21366,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_withPercents(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -21067,6 +21390,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_instReprBlockCtxt_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; 
@@ -21228,6 +21552,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_eatSpaces(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -21354,6 +21679,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_directiveFn___lam__7(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -21497,6 +21823,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockOpenerFn___lam__3(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -21811,6 +22138,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_paraFn_guardContent___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -21830,6 +22158,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_skipUntilDedent___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -21899,6 +22228,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_strFn_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -21948,6 +22278,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_lookaheadOrderedListMarker___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -21967,6 +22298,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_linkRefFn___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -22046,6 +22378,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_PersistentHashMap_contains___at___00Lean_Doc_Parser_documentInfo_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -22133,6 +22466,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn___lam__9(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -22378,6 +22712,7 @@ return x_1;
 }
 }
 public static byte l_Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Doc_Parser_documentInfo_spec__0_spec__0___redArg(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -22481,6 +22816,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_paraFn_guardContent___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -22527,6 +22863,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_consumedLineEnd___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -22537,6 +22874,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_containsAtAux___at___00Lean_PersistentHashMap_containsAux___at___00Lean_PersistentHashMap_contains___at___00Lean_Doc_Parser_documentInfo_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -22596,6 +22934,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_mkNamedNoParen___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -22605,6 +22944,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_recovering___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -22614,6 +22954,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_metadataBlockFn_atBaseColumn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -22885,6 +23226,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_headerFn___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -22911,6 +23253,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linebreakFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -23003,6 +23346,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_newlineOrUnexpected(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -23163,6 +23507,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_mkNamedNoParen___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -23330,6 +23675,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_roleFn_bracketed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -23397,6 +23743,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_skipUntilDedent___lam__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -23554,6 +23901,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBolAt_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -23678,6 +24026,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_argFn(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -23787,6 +24136,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_directiveFn_withDelimiter_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -24271,6 +24621,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBlockStart_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -24280,6 +24631,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_lineEnd(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -24311,6 +24663,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_unlessLineEndConsumed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -24360,6 +24713,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Parser_locateError(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_9 = 0; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; byte x_22 = 0; Obj x_23 = null; 
@@ -24747,6 +25101,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_UnorderedListType_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -24758,6 +25113,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Parser_lineTailWsFn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24767,6 +25123,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Parser_lookaheadOrderedListMarker___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -24961,6 +25318,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_eatIndent___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -24971,6 +25329,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_metadataBlockFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -25119,6 +25478,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_consumedLineEnd_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -25264,6 +25624,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_orderedListFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -25598,6 +25959,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_atLeastAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; 
@@ -25746,6 +26108,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Parser_footnoteRefFn___lam__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -25765,6 +26128,7 @@ return x_1;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atLeastAux_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -25776,6 +26140,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_unorderedMarkersFn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -25785,6 +26150,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_afterMarker___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -25925,6 +26291,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendTrailingAbove_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_22 = 0; 
@@ -26042,6 +26409,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBlockStart_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -26217,6 +26585,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockTailWs___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -26307,6 +26676,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_Parser_ListStyle_ordered_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -26348,6 +26718,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkTargetFn___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -26356,6 +26727,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_wsFallback(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -26553,6 +26925,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_valFn_onOneLine_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_34 = 0; 
@@ -26728,6 +27101,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Parser_directiveFn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -26947,6 +27321,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_paraFn_guardContent_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_43 = 0; 
@@ -27185,6 +27560,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkRefFn_atLineStart(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -27500,6 +27876,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_linkTargetFn_url(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -27617,6 +27994,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendTrailingAbove_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_51 = 0; 
@@ -27897,6 +28275,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeBlockFn___lam__10(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -27974,6 +28353,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_Parser_codeFn___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -28121,6 +28501,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_extendLastTrailing_go_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_41 = 0; 
@@ -28377,6 +28758,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_blockTrailingWs(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -28533,6 +28915,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_Parser_blockOpenerFn___lam__4(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -28767,6 +29150,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_atBolAt_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -29502,6 +29886,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_metadataBlockFn_atLineStart___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -29909,6 +30294,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_argFn_flag___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -29980,6 +30366,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_DocString_Parser_0__Lean_Doc_Parser_consumedLineEnd(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -30363,6 +30750,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Lean_DocString_Parser_0__Lean_Doc_Parser_consumedLineEnd_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_59 = 0; 

@@ -37,6 +37,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Millisecond_instReprOrdinal___aux__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -62,6 +63,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Millisecond_instOrdOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -134,6 +136,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Millisecond_Ordinal_ofInt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -162,6 +165,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Millisecond_instDecidableLtOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -192,6 +196,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Millisecond_instDecidableLtOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -223,6 +228,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Millisecond_instSubOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -258,6 +264,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Millisecond_instToStringOffset___aux__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -301,6 +308,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Millisecond_instReprOrdinal___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -337,6 +345,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Millisecond_instDecidableEqOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -348,6 +357,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Millisecond_instOfNatOrdinal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -376,6 +386,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Millisecond_instReprOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -515,6 +526,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Millisecond_instDecidableEqOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -706,6 +718,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Millisecond_instNegOffset___aux__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -954,6 +967,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Millisecond_instDecidableLtOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

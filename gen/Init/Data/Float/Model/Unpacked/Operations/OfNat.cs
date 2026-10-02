@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Float_Model_Unpacked_Operations_OfNat {
 public static Obj l_Float_Model_UnpackedFloat_ofUInt8___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -17,6 +18,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofUInt16(Obj x_1, ushort x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -26,6 +28,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofUSize(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -35,6 +38,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofInt8___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -45,6 +49,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofUInt8(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -54,6 +59,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofInt8(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -63,6 +69,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofInt32(Obj x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -73,6 +80,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofInt64___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -84,6 +92,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofISize___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -95,6 +104,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofUInt32(Obj x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -104,6 +114,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofInt16___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; Obj x_4 = null; 
@@ -114,6 +125,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofNat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -124,6 +136,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofISize(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -143,6 +156,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofInt64(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -153,6 +167,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofInt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -224,6 +239,7 @@ return x_5;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofUInt64___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Slice_Array_Basic {
 public static Obj l_instSliceableArrayNatSubarray__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -94,6 +95,7 @@ return x_10;
 }
 }
 public static Obj l_instSliceableSubarrayNat__2___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -142,6 +144,7 @@ return x_8;
 }
 }
 public static Obj l_instSliceableSubarrayNat__5(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -150,6 +153,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__5___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -185,6 +189,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__8___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -193,6 +198,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__4___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -201,6 +207,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableSubarrayNat__6___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -209,6 +216,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableSubarrayNat___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -244,6 +252,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableSubarrayNat__4___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -252,6 +261,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -268,6 +278,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__4(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -276,6 +287,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableSubarrayNat__7___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -294,6 +306,7 @@ return x_1;
 }
 }
 public static Obj l_instSliceableSubarrayNat__5___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -302,6 +315,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__7(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -310,6 +324,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableSubarrayNat__6(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -318,6 +333,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableSubarrayNat__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -326,6 +342,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableSubarrayNat__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -405,6 +422,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__7___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -430,6 +448,7 @@ return x_3;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__3___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -768,6 +787,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableArrayNatSubarray__5___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -884,6 +904,7 @@ return x_2;
 }
 }
 public static Obj l_instSliceableSubarrayNat__8___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1108,6 +1129,7 @@ goto block_11;
 }
 }
 public static Obj l_instSliceableSubarrayNat__6___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

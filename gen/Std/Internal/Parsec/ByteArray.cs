@@ -29,6 +29,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_takeUntilUpTo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -38,6 +39,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_ByteArray_0__Std_Internal_Parsec_ByteArray_skipBytes_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -158,6 +160,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_takeWhileAtMost(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_27 = 0; 
@@ -264,6 +267,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_takeWhile1AtMost___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -273,6 +277,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_takeWhile(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -426,6 +431,7 @@ return x_33;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_instInputIteratorUInt8Nat___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -436,6 +442,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_Parser_run___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -502,6 +509,7 @@ return x_21;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_skipUntil(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -612,6 +620,7 @@ return x_23;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_pByteChar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -632,6 +641,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_instInputIteratorUInt8Nat___lam__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -652,6 +662,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_takeWhileUpTo1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -859,6 +870,7 @@ return x_44;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_takeUntil___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -869,6 +881,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_instInputIteratorUInt8Nat___lam__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -888,6 +901,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_ByteArray_0__Std_Internal_Parsec_ByteArray_scanWhileUpTo___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -897,6 +911,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_octDigit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1036,6 +1051,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_skipByte___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1066,6 +1082,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_ByteArray_0__Std_Internal_Parsec_ByteArray_digitToNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1135,6 +1152,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_skipWhile(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1407,6 +1425,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_pbyte(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -1515,6 +1534,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_asciiLetter(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1620,6 +1640,7 @@ goto block_20;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_skipUntilUpTo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1684,6 +1705,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_ByteArray_0__Std_Internal_Parsec_ByteArray_scanWhileUpTo(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2255,6 +2277,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_skipByteChar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -2265,6 +2288,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_ByteArray_0__Std_Internal_Parsec_ByteArray_scanWhile(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -2374,6 +2398,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_pByteChar(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -2494,6 +2519,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_digits(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2653,6 +2679,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_ws(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -2803,6 +2830,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_ByteArray_0__Std_Internal_Parsec_ByteArray_digitsCore(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_12 = 0; 
@@ -2852,6 +2880,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_takeWhileUpTo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2892,6 +2921,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_ByteArray_0__Std_Internal_Parsec_ByteArray_digitsCore_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -3001,6 +3031,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_skipByteChar(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -3428,6 +3459,7 @@ return x_34;
 }
 }
 public static Obj l_Std_Internal_Parsec_ByteArray_skipByte(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -3859,6 +3891,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Internal_Parsec_ByteArray_0__Std_Internal_Parsec_ByteArray_skipWs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_18 = null; byte x_19 = 0; 

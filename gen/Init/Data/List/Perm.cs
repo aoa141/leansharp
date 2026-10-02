@@ -40,6 +40,7 @@ return x_8;
 }
 }
 public static byte l_List_decidablePerm(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -86,6 +87,7 @@ return x_10;
 }
 }
 public static Obj l_List_decidablePerm___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

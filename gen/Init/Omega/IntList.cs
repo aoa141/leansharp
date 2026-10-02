@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Omega_IntList {
 public static Obj l_List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -52,6 +53,7 @@ return x_12;
 }
 }
 public static Obj l_List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -115,6 +117,7 @@ return x_13;
 }
 }
 public static Obj l_List_zipWith___at___00Lean_Omega_IntList_mul_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -204,6 +207,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_IntList_gcd(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -213,6 +217,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_IntList_combo(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -221,6 +226,7 @@ return x_5;
 }
 }
 public static Obj l_List_zipWithAll___at___00Lean_Omega_IntList_add_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -296,6 +302,7 @@ return x_13;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Omega_IntList_sdiv_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -305,6 +312,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Omega_IntList_sum(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -314,6 +322,7 @@ return x_3;
 }
 }
 public static Obj l_List_map___at___00List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_sub_spec__0_spec__0_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -373,6 +382,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Omega_IntList_neg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -392,6 +402,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Omega_IntList_sub(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -400,6 +411,7 @@ return x_3;
 }
 }
 public static Obj l_List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_sub_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -459,6 +471,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Omega_IntList_sdiv___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -468,6 +481,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldr___at___00Lean_Omega_IntList_gcd_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -515,6 +529,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Omega_IntList_smul_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -593,6 +608,7 @@ return x_3;
 }
 }
 public static Obj l_List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_add_spec__0_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -652,6 +668,7 @@ return x_9;
 }
 }
 public static Obj l_List_zipWithAll___at___00Lean_Omega_IntList_sub_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -727,6 +744,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Omega_IntList_instHMulInt___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -735,6 +753,7 @@ return x_3;
 }
 }
 public static Obj l_List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_add_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -794,6 +813,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Omega_IntList_bmod__dot__sub__dot__bmod(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -825,6 +845,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_IntList_bmod___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -834,6 +855,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_IntList_leading___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -843,6 +865,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Omega_IntList_sdiv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -852,6 +875,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldr___at___00Lean_Omega_IntList_sum_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -862,6 +886,7 @@ return x_3;
 }
 }
 public static Obj l_List_map___at___00List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -872,6 +897,7 @@ return x_4;
 }
 }
 public static Obj l_List_map___at___00List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_sub_spec__0_spec__1_spec__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -931,6 +957,7 @@ return x_9;
 }
 }
 public static Obj l_List_find_x3f___at___00Lean_Omega_IntList_leading_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -963,6 +990,7 @@ goto _start;
 }
 }
 public static Obj l_List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_sub_spec__0_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1071,6 +1099,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Omega_IntList_set(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1182,6 +1211,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_Omega_IntList_leading(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1203,6 +1233,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Omega_IntList_get(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1224,6 +1255,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Omega_IntList_smul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1242,6 +1274,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Omega_IntList_neg_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1312,6 +1345,7 @@ return x_3;
 }
 }
 public static Obj l_List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1351,6 +1385,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_IntList_dot___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1409,6 +1444,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldr___at___00Lean_Omega_IntList_gcd_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1431,6 +1467,7 @@ return x_7;
 }
 }
 public static Obj l_List_map___at___00List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1503,6 +1540,7 @@ return x_3;
 }
 }
 public static Obj l_List_map___at___00List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0_spec__1_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1513,6 +1551,7 @@ return x_4;
 }
 }
 public static Obj l_List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1523,6 +1562,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Omega_IntList_sdiv_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1584,6 +1624,7 @@ goto _start;
 }
 }
 public static Obj l_List_map___at___00List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_add_spec__0_spec__1_spec__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1746,6 +1787,7 @@ return x_13;
 }
 }
 public static Obj l_List_map___at___00List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_add_spec__0_spec__0_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1805,6 +1847,7 @@ return x_9;
 }
 }
 public static Obj l_List_foldr___at___00Lean_Omega_IntList_sum_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1825,6 +1868,7 @@ return x_6;
 }
 }
 public static Obj l_List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1904,6 +1948,7 @@ return x_17;
 }
 }
 public static Obj l_List_map___at___00List_map___at___00List_zipWithAll___at___00Lean_Omega_IntList_combo_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

@@ -201,6 +201,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_isRelevantPred(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; byte x_18 = 0; 

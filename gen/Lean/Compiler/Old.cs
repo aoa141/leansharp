@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_isEagerLambdaLiftingName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -28,6 +29,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Compiler_getDeclNamesForCodeGen_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -62,6 +64,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_mkEagerLambdaLiftingName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -74,6 +77,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_getDeclNamesForCodeGen(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -224,6 +228,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_checkIsDefinition(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -333,6 +338,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Compiler_getDeclNamesForCodeGen_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -379,6 +385,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Compiler_isEagerLambdaLiftingName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

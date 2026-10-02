@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_System_Promise {
 public static Obj l_IO_Promise_isResolved___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -17,6 +18,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Promise_result_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -26,6 +28,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Promise_result_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -35,6 +38,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Promise_result_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -43,6 +47,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Promise_result_x21___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -62,6 +67,7 @@ return lean_box(0);
 }
 }
 public static Obj l_IO_Promise_resolve___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

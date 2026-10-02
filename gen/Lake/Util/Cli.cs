@@ -137,6 +137,7 @@ goto block_19;
 }
 }
 public static Obj l_Lake_processLeadingOption(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -145,6 +146,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_collectArgs___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_8) == 1)
@@ -297,6 +299,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_collectArgs___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -535,6 +538,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_multiShortOption(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -634,6 +638,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_takeArg_x3f___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -937,6 +942,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_processLeadingOptions(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1019,6 +1025,7 @@ return x_18;
 }
 }
 public static Obj l_Lake_longOption___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1041,6 +1048,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_longOptionOrEq___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1071,6 +1079,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_option___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1082,6 +1091,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_shortOption(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -1241,6 +1251,7 @@ return x_53;
 }
 }
 public static Obj l_Lake_shortOption___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1253,6 +1264,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_longOptionOrSpace___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1535,6 +1547,7 @@ return x_18;
 }
 }
 public static Obj l_Lake_getArgs___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1555,6 +1568,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lake_Util_Cli_0__Lake_multiShortOption_loop___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1607,6 +1621,7 @@ return x_15;
 }
 }
 public static Obj l_Lake_processLeadingOptions___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1619,6 +1634,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_ArgsT_run_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1640,6 +1656,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_option(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; uint x_8 = 0; uint x_9 = 0; byte x_10 = 0; 
@@ -2147,6 +2164,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_longOptionOrSpace___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2157,6 +2175,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_shortOption___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -2361,6 +2380,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_shortOptionWithSpace___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_26 = 0; 
@@ -2454,6 +2474,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_collectArgs___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2995,6 +3016,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_option___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; uint x_6 = 0; uint x_7 = 0; byte x_8 = 0; 
@@ -3419,6 +3441,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_shortOptionWithSpace(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; byte x_28 = 0; 

@@ -55,6 +55,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_List_Notation_0__Lean___aux__Init__Data__List__Notation______macroRules__term_x5b___x5d__1_expandListLit(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -187,6 +188,7 @@ return x_1;
 }
 }
 public static Obj l_Lean___aux__Init__Data__List__Notation______macroRules__term_x5b___x5d__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -420,6 +422,7 @@ return x_3;
 }
 }
 public static Obj l_Lean___aux__Init__Data__List__Notation______macroRules__term_x5b___x5d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

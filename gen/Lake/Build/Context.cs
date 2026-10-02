@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Build_Context {
 public static Obj l_Lake_getNoBuild___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -21,6 +22,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getLeanOptOverrides(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -35,6 +37,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getLeanTrace___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -77,6 +80,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getMacOSXDeploymentTarget_x3f___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -86,6 +90,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getIsQuiet(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -110,6 +115,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getIsOldMode___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -124,6 +130,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getBuildConfig___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -146,6 +153,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getTrustHash(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -160,6 +168,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getBuildContext___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -169,6 +178,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getIsQuiet___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -185,6 +195,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_getTrustHash___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -195,6 +206,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_mkJobQueue___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -213,6 +225,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getMacOSXDeploymentTarget_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -235,6 +248,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getVerbosity___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -249,6 +263,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_getVerbosity___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -259,6 +274,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getBuildContext___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -277,6 +293,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getIsVerbose___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -300,6 +317,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getVerbosity(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -314,6 +332,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getIsVerbose___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -324,6 +343,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_getLeanOptOverrides___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -442,6 +462,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getIsVerbose(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -485,6 +506,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_getMacOSXDeploymentTarget_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -499,6 +521,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_getIsOldMode(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -565,6 +588,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_getLeanTrace___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -636,6 +660,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_getNoBuild(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 

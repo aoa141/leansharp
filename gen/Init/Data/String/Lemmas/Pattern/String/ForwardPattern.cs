@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_Lemmas_Pattern_String_ForwardPattern {
 public static Obj l___private_Init_Data_String_Lemmas_Pattern_String_ForwardPattern_0__String_Slice_Pos_skipWhile_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

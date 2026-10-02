@@ -38,6 +38,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_countKnown_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -51,6 +52,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_cast_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -97,6 +99,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_countKnown_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -105,6 +108,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_cast___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -124,6 +128,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_cast_x27___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -133,6 +138,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_empty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -151,6 +157,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_countKnown___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -162,6 +169,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sat_AIG_RefVec_0__Std_Sat_AIG_BinaryRefVec_cast_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -194,6 +202,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_getD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -206,6 +215,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -284,6 +294,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_countKnown_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -295,6 +306,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_countKnown(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -323,6 +335,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_BinaryRefVec_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -358,6 +371,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_getD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -475,6 +489,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_countKnown_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -564,6 +579,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_push___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -613,6 +629,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

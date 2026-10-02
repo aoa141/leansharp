@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Meta_Defs {
 public static Obj l_Lean_Syntax_decodeQuotedChar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -72,6 +73,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_quoteList(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -191,6 +193,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_evalPrio(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -362,6 +365,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_instReprConfig__1_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -395,6 +399,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toString___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -424,6 +429,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Name_reprPrec(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -509,6 +515,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_TSyntax_Compat_instCoeTailArraySyntaxTSepArray___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -518,6 +525,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_decodeNameLit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; 
@@ -560,6 +568,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Syntax_decodeStringGap(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; uint x_8 = 0; uint x_9 = 0; byte x_10 = 0; 
@@ -620,6 +629,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Syntax_SepArray_getElems___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -639,6 +649,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_ApplyNewGoals_nonDependentFirst_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -648,6 +659,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithSep_maybeEscape___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -658,6 +670,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_isAlphaAscii___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -668,6 +681,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instQuoteStringStrLitKind___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -677,6 +691,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Syntax_SepArray_getElems_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -804,6 +819,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Meta_instReprConfig_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; byte x_24 = 0; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; Obj x_69 = null; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_84 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_88 = null; Obj x_89 = null; Obj x_90 = null; Obj x_91 = null; Obj x_92 = null; Obj x_93 = null; Obj x_94 = null; Obj x_95 = null; Obj x_96 = null; Obj x_97 = null; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; Obj x_101 = null; Obj x_102 = null; Obj x_103 = null; Obj x_104 = null; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; Obj x_108 = null; Obj x_109 = null; Obj x_110 = null; Obj x_111 = null; Obj x_112 = null; Obj x_113 = null; Obj x_114 = null; Obj x_115 = null; Obj x_116 = null; Obj x_117 = null; Obj x_118 = null; Obj x_119 = null; Obj x_120 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; Obj x_124 = null; Obj x_125 = null; Obj x_126 = null; Obj x_127 = null; Obj x_128 = null; Obj x_129 = null; Obj x_130 = null; Obj x_131 = null; Obj x_132 = null; Obj x_133 = null; Obj x_134 = null; Obj x_135 = null; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_139 = null; Obj x_140 = null; Obj x_141 = null; Obj x_142 = null; Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; Obj x_146 = null; Obj x_147 = null; Obj x_148 = null; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_154 = null; Obj x_155 = null; Obj x_156 = null; Obj x_157 = null; Obj x_158 = null; Obj x_159 = null; Obj x_160 = null; Obj x_161 = null; Obj x_162 = null; Obj x_163 = null; Obj x_164 = null; Obj x_165 = null; Obj x_166 = null; Obj x_167 = null; Obj x_168 = null; Obj x_169 = null; Obj x_170 = null; Obj x_171 = null; Obj x_172 = null; Obj x_173 = null; Obj x_174 = null; Obj x_175 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; 
@@ -1212,6 +1228,7 @@ return x_178;
 }
 }
 public static Obj l_Lean_instQuoteBoolMkStr1___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1221,6 +1238,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeDecimalLitAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1300,6 +1318,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_Syntax_mkNameLit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1319,6 +1338,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_getEscapedNameParts_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -1605,6 +1625,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instQuoteArrayMkStr1___private__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1625,6 +1646,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeScientificLitVal_x3f_decodeAfterDot(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -1745,6 +1767,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_HygieneInfo_mkIdent___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1787,6 +1810,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_decodeStrLit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; 
@@ -1815,6 +1839,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithToken___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1824,6 +1849,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_isScientificLit_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1849,6 +1875,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_TSyntax_instCoeIdentTerm___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1870,6 +1897,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_setHeadInfo(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1905,6 +1933,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_findSomeRevM_x3f_find___at___00Lean_Syntax_getTailInfo_x3f_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1925,6 +1954,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_isNameLit_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2021,6 +2051,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_updateFirst___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2047,6 +2078,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00List_repr___at___00Lean_Syntax_instRepr_repr_spec__1_spec__2___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2078,6 +2110,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_TSyntax_getName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2099,6 +2132,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toString(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2117,6 +2151,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_evalPrec(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -2275,6 +2310,7 @@ return x_42;
 }
 }
 public static Obj l_Lean_Syntax_getTailInfo___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2326,6 +2362,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instQuoteBoolMkStr1___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -2343,6 +2380,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_SepArray_getElems___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2417,6 +2455,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeScientificLitVal_x3f_decodeAfterExp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -2556,6 +2595,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithSep_maybeEscape___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -2591,6 +2631,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instQuoteListMkStr1___private__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2611,6 +2652,7 @@ return x_3;
 }
 }
 public static Obj lean_name_append_after(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -2703,6 +2745,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_withHeadRefOnly___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2786,6 +2829,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_instReprTransparencyMode_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; 
@@ -3027,6 +3071,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_TSyntax_getString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3059,6 +3104,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_instReprConfig_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3079,6 +3125,7 @@ return x_1;
 }
 }
 public static Obj l_Option_repr___at___00Lean_Meta_instReprConfig__1_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3088,6 +3135,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_structEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3099,6 +3147,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Syntax_findAux_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -3113,6 +3162,7 @@ return x_8;
 }
 }
 public static Obj l_Array_filterSepElemsM___at___00Array_filterSepElems_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3122,6 +3172,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_instCoeIdentTSyntaxConsSyntaxNodeKindMkStr4Nil___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -3140,6 +3191,7 @@ return x_9;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00List_repr_x27___at___00Lean_Syntax_instReprPreresolved_repr_spec__0_spec__0_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3238,6 +3290,7 @@ return x_1;
 }
 }
 public static Obj l_Array_filterSepElemsM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3248,6 +3301,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_TSyntax_expandInterpolatedStrChunks___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3258,6 +3312,7 @@ return x_7;
 }
 }
 public static byte l_List_elem___at___00Lean_Meta_Occurrences_contains_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3337,6 +3392,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_expandInterpolatedStr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -3478,6 +3534,7 @@ return x_49;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_hasNum___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3533,6 +3590,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkIdentFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3543,6 +3601,7 @@ return x_5;
 }
 }
 public static byte l_List_beq___at___00Lean_Syntax_instBEqPreresolved_beq_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3591,6 +3650,7 @@ goto _start;
 }
 }
 public static byte l___private_Init_Meta_Defs_0__Lean_Name_hasNum(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3666,6 +3726,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_instCoeOutTSepArraySepArray___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3685,6 +3746,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_instReprTSyntax_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -3721,6 +3783,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_mkCIdentFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3829,6 +3892,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_isLetterLike___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -3870,6 +3934,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_Compat_instCoeTailArraySyntaxTSepArray___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3974,6 +4039,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_instReprTSyntax_repr___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3984,6 +4050,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_instEmptyCollectionSepArray(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3992,6 +4059,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00Array_repr___at___00Lean_Syntax_instRepr_repr_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4030,6 +4098,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_needsNoEscapeAscii___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4128,6 +4197,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_decodeScientificLitVal_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -4185,6 +4255,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_instBEqTSyntax___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4204,6 +4275,7 @@ return x_2;
 }
 }
 public static Obj l_Array_filterSepElems___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4231,6 +4303,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_isFieldIdx_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4240,6 +4313,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_instEmptyCollectionTSepArray___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4248,6 +4322,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_TSyntax_expandInterpolatedStrChunks_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -4272,6 +4347,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_expandInterpolatedStrChunks(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -4310,6 +4386,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_mkIdentFrom(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -4372,6 +4449,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_isLit_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4412,6 +4490,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Parser_Tactic_getConfigItems_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -4425,6 +4504,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Array_filterSepElemsMAux___at___00Array_filterSepElemsM___at___00Array_filterSepElems_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4446,6 +4526,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_setTailInfoAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -4666,6 +4747,7 @@ return x_46;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithToken(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4720,6 +4802,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_isSubScriptAlnum___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -4753,6 +4836,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_TSepArray_getElems(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4788,6 +4872,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_instCoeOutTSepArraySepArray___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4857,6 +4942,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00List_repr_x27___at___00Lean_Syntax_instReprPreresolved_repr_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4998,6 +5084,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldr___at___00Substring_Raw_toName_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5089,6 +5176,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_instEmptyCollectionSepArray___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5206,6 +5294,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_instQuoteNatNumLitKind___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -5216,6 +5305,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_TSyntax_instCoeConsSyntaxNodeKindNil___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5241,6 +5331,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkIdentFromRef___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5250,6 +5341,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_updateLast___at___00Lean_Syntax_setTailInfoAux_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5328,6 +5420,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Syntax_getTrailing_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5337,6 +5430,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_instRepr_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5620,6 +5714,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_TSyntax_getHexNumVal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5641,6 +5736,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeHexLitAux___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5680,6 +5776,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_quoteArray_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5689,6 +5786,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_expandMacros_spec__0(byte x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -5778,6 +5876,7 @@ return x_25;
 }
 }
 public static byte l___private_Init_Meta_Defs_0__Lean_Name_needsNoEscapeAscii___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; byte x_15 = 0; byte x_16 = 0; 
@@ -5876,6 +5975,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_mkNatLit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5897,6 +5997,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Array_mapSepElemsMAux___at___00Array_mapSepElemsM___at___00Array_mapSepElems_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -5986,6 +6087,7 @@ return x_1;
 }
 }
 public static Obj l_Array_filterSepElemsM___at___00Array_filterSepElems_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -6003,6 +6105,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_findSomeRevM_x3f_find___at___00Lean_Syntax_getTailInfo_x3f_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6022,6 +6125,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_updateLast___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6108,6 +6212,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeBinLitAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6210,6 +6315,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_decodeStrLitAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; uint x_5 = 0; byte x_6 = 0; 
@@ -6421,6 +6527,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Tactic_getConfigItems(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -6493,6 +6600,7 @@ return x_22;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_Syntax_structEq_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6526,6 +6634,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeHexLitAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6602,6 +6711,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_TSyntax_expandInterpolatedStr___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6611,6 +6721,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_quoteArray_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6620,6 +6731,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_mkApp(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -6741,6 +6853,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_mkSepArray_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -6832,6 +6945,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Syntax_isInterpolatedStrLit_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -6865,6 +6979,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_splitNameLit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -6895,6 +7010,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_isNatLit_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6935,6 +7051,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeScientificLitVal_x3f_decodeExp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6956,6 +7073,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_needsNoEscapeAsciiRest___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7079,6 +7197,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Syntax_getHead_x3f_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -7142,6 +7261,7 @@ return x_1;
 }
 }
 public static Obj l_Array_getSepElems___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -7176,6 +7296,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Syntax_decodeCharLit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; 
@@ -7251,6 +7372,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_evalPrec___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -7262,6 +7384,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeInterpStrQuotedChar(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7381,6 +7504,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkMarkdownDocCommentFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -7391,6 +7515,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Array_filterSepElemsMAux___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -7401,6 +7526,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Syntax_copyHeadTailInfoFrom(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -7422,6 +7548,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkMarkdownDocCommentFrom(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 
@@ -7470,6 +7597,7 @@ return x_1;
 }
 }
 public static Obj l_List_beq___at___00Lean_Syntax_structEq_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7481,6 +7609,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithSep_maybeEscape___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -7531,6 +7660,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_SepArray_ofElems___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7550,6 +7680,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_TSyntax_getHexNumSize_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7580,6 +7711,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instQuoteNameMkStr1___private__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7619,6 +7751,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_TSyntax_getHexNumSize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7655,6 +7788,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_isFieldIdx_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7684,6 +7818,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_getOptionalIdent_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7720,6 +7855,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_getSepArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7781,6 +7917,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instQuoteCharCharLitKind___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -7847,6 +7984,7 @@ return x_10;
 }
 }
 public static Obj l_List_repr___at___00Lean_Syntax_instRepr_repr_spec__1___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7891,6 +8029,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeScientificLitVal_x3f_decode(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -8014,6 +8153,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_needsNoEscape___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -8051,6 +8191,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_mkStrLit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -8099,6 +8240,7 @@ return x_2;
 }
 }
 public static uint l_Lean_TSyntax_getChar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8186,6 +8328,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_quoteArray(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8257,6 +8400,7 @@ return x_6;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00Array_repr___at___00Lean_Syntax_instRepr_repr_spec__0_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -8323,6 +8467,7 @@ goto _start;
 }
 }
 public static Obj l_Array_repr___at___00Lean_Syntax_instRepr_repr_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -8394,6 +8539,7 @@ return x_3;
 }
 }
 public static Obj l_Array_mapSepElemsM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -8404,6 +8550,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithSep(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -8570,6 +8717,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Syntax_TSepArray_ofElems___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8591,6 +8739,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkCIdentFrom(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -8623,6 +8772,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_escape(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -8634,6 +8784,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_instCoeTSyntaxArrayOfTSyntax(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8653,6 +8804,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithToken___at___00__private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toString_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8662,6 +8814,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instQuoteRawMkStr1___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -8677,6 +8830,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_isNatLitAux___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8687,6 +8841,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_SepArray_ofElemsUsingRef___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_9 = 0; 
@@ -8761,6 +8916,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_expandInterpolatedStr___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -8779,6 +8935,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_ApplyNewGoals_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8788,6 +8945,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_quoteNameMk(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -8840,6 +8998,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_mkGroupNode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -8853,6 +9012,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithSep_maybeEscape(byte x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -9091,6 +9251,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Name_replacePrefix(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -9169,6 +9330,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instQuoteProdMkStr1___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -9189,6 +9351,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_evalOptPrio___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9198,6 +9361,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_mkCharLit___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -9239,6 +9403,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_ApplyNewGoals_nonDependentOnly_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -9303,6 +9468,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_splitNameLitAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_14 = 0; 
@@ -9604,6 +9770,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_instQuoteCharCharLitKind___lam__0(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -9657,6 +9824,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getGithash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9665,6 +9833,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_isStrLit_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -9689,6 +9858,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_TSyntax_instCoeConsSyntaxNodeKindNil___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9727,6 +9897,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_mkSep(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -9783,6 +9954,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Syntax_getTrailingSize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9839,6 +10011,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_updateFirst___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9918,6 +10091,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_TSyntax_Compat_instCoeTailSyntax(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9970,6 +10144,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_TSepArray_ofElems___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9989,6 +10164,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_splitNameLitAux___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -10000,6 +10176,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_SepArray_getElems___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10041,6 +10218,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Name_getRoot(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10086,6 +10264,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Option_hasQuote___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10112,6 +10291,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeOctalLitAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -10202,6 +10382,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_ApplyNewGoals_all_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10330,6 +10511,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_hasArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -10373,6 +10555,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_quoteList___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10435,6 +10618,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_isIdEndEscape___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -10446,6 +10630,7 @@ return x_4;
 }
 }
 public static byte l___private_Init_Meta_Defs_0__Lean_Name_needsNoEscapeAsciiRest(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -10670,6 +10855,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_instReprEtaStructMode_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -10694,6 +10880,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_TSyntax_expandInterpolatedStrChunks_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; byte x_24 = 0; 
@@ -10874,6 +11061,7 @@ goto block_15;
 }
 }
 public static byte l___private_Init_Meta_Defs_0__Lean_Name_needsNoEscape___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_10 = 0; uint x_15 = 0; byte x_16 = 0; Obj x_32 = null; byte x_33 = 0; byte x_42 = 0; byte x_43 = 0; 
@@ -11050,6 +11238,7 @@ goto block_31;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00List_repr___at___00Lean_Syntax_instRepr_repr_spec__1_spec__2_spec__4_spec__6(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -11126,6 +11315,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_TSepArray_ofElems___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11145,6 +11335,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_instBEqTSyntax___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11341,6 +11532,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_TSepArray_push___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11360,6 +11552,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkCIdentFromRef___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -11482,6 +11675,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Array_mapSepElemsMAux___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -11493,6 +11687,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Internal_isStage0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -11502,6 +11697,7 @@ return x_3;
 }
 }
 public static Obj l_Array_mapSepElemsM___at___00Array_mapSepElems_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11511,6 +11707,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithToken___at___00__private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toString_spec__0(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11565,6 +11762,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_isNumericSubscript___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -11576,6 +11774,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_decodeRawStrLitAux___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11605,6 +11804,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_isIdRest___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -11616,6 +11816,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_isCharLit_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11802,6 +12003,7 @@ return x_11;
 }
 }
 public static byte l___private_Init_Meta_Defs_0__Lean_Syntax_splitNameLitAux___lam__0(uint x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_18 = 0; uint x_24 = 0; byte x_25 = 0; 
@@ -11994,6 +12196,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_getTailInfo(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12102,6 +12305,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_instCoeConsSyntaxNodeKindNil___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12255,6 +12459,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_getDocString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -12502,6 +12707,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_TSyntax_instCoeConsSyntaxNodeKind(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12544,6 +12750,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Syntax_isToken___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -12563,6 +12770,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_TSyntax_expandInterpolatedStr___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -12708,6 +12916,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_isNone___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -12718,6 +12927,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkIdentFromRef(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12748,6 +12958,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_instCoeTSyntaxArrayOfTSyntax___redArg___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -12759,6 +12970,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_findSomeRevM_x3f_find___at___00Lean_Syntax_getTailInfo_x3f_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -12793,6 +13005,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Name_isInaccessibleUserName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -12841,6 +13054,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_TSepArray_ofElems(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12849,6 +13063,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkCIdentFromRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -12953,6 +13168,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_ApplyNewGoals_nonDependentOnly_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12985,6 +13201,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_decodeRawStrLitAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; uint x_6 = 0; byte x_7 = 0; 
@@ -13031,6 +13248,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_needsNoEscape___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -13204,6 +13422,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_getTrailingTailPos_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -13275,6 +13494,7 @@ return x_2;
 }
 }
 public static Obj l_Array_mapSepElems(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -13332,6 +13552,7 @@ return x_5;
 }
 }
 public static byte l_List_beq___at___00Lean_Syntax_structEq_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -13380,6 +13601,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Array_mapSepElemsMAux___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -13809,6 +14031,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_instBEqPreresolved_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -13839,6 +14062,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_isNameLit_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -13949,6 +14173,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Array_filterSepElemsMAux___at___00Array_filterSepElemsM___at___00Array_filterSepElems_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -14113,6 +14338,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithSep___at___00__private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithToken___at___00__private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toString_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -14173,6 +14399,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_toNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14286,6 +14513,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Occurrences_contains___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -14297,6 +14525,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Syntax_decodeQuotedChar(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; uint x_5 = 0; byte x_6 = 0; 
@@ -14875,6 +15104,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_quoteArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -14975,6 +15205,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_decodeInterpStrLit_loop(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; uint x_5 = 0; byte x_6 = 0; 
@@ -15241,6 +15472,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_TSyntax_getNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15334,6 +15566,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_SepArray_ofElems(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -15581,6 +15814,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_isAlphanumAscii___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -15612,6 +15846,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_find_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15717,6 +15952,7 @@ goto block_5;
 }
 }
 public static Obj l_Lean_Parser_Tactic_mkOptConfig(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -15732,6 +15968,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_TSyntax_isHexNum_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -15758,6 +15995,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Internal_hasLLVMBackend___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -15917,6 +16155,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00List_repr___at___00Lean_Syntax_instRepr_repr_spec__1_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -15965,6 +16204,7 @@ return x_6;
 }
 }
 public static Obj l_List_repr___at___00Lean_Syntax_instRepr_repr_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16022,6 +16262,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Array_filterSepElemsMAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -16049,6 +16290,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Syntax_updateFirst___at___00Lean_Syntax_setHeadInfoAux_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -16138,6 +16380,7 @@ return x_1;
 }
 }
 public static Obj l_Array_getSepElems___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -16147,6 +16390,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Syntax_findAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 1)
@@ -16227,6 +16471,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkSepArray(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
@@ -16324,6 +16569,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Name_eraseSuffix_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16369,6 +16615,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithSep___at___00__private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toStringWithToken___at___00__private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_toString_spec__0_spec__0(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -16478,6 +16725,7 @@ return x_2;
 }
 }
 public static Obj l_String_toName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -16492,6 +16740,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_quoteArray_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -16692,6 +16941,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Name_eraseSuffix_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -16798,6 +17048,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Array_filterSepElemsMAux___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 if (x_7 == 0)
@@ -17523,6 +17774,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_instCoeOutTSyntaxArrayArray___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17783,6 +18035,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Name_isInaccessibleUserName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -17948,6 +18201,7 @@ return x_5;
 }
 }
 public static Obj l_List_repr_x27___at___00Lean_Syntax_instReprPreresolved_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18581,6 +18835,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_instCoeOutTSepArraySepArray___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18622,6 +18877,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_instCoeOutTSyntaxArrayArray(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18690,6 +18946,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_instReprPreresolved_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -18877,6 +19134,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_TSyntax_expandInterpolatedStr___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -18952,6 +19210,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Syntax_findAux_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -19158,6 +19417,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Syntax_mkCApp(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -19593,6 +19853,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Syntax_isNatLit_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -19992,6 +20253,7 @@ return x_16;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00List_repr_x27___at___00Lean_Syntax_instReprPreresolved_repr_spec__0_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -20286,6 +20548,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_quoteArray_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -20496,6 +20759,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Parser_Tactic_getConfigItems_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -20521,6 +20785,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_expandMacros(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -21018,6 +21283,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_instReprConfig__1_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; byte x_18 = 0; byte x_19 = 0; byte x_20 = 0; byte x_21 = 0; byte x_22 = 0; byte x_23 = 0; byte x_24 = 0; byte x_25 = 0; byte x_26 = 0; byte x_27 = 0; byte x_28 = 0; byte x_29 = 0; byte x_30 = 0; Obj x_31 = null; byte x_32 = 0; byte x_33 = 0; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; byte x_40 = 0; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; Obj x_69 = null; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; Obj x_79 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_84 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_88 = null; Obj x_89 = null; Obj x_90 = null; Obj x_91 = null; Obj x_92 = null; Obj x_93 = null; Obj x_94 = null; Obj x_95 = null; Obj x_96 = null; Obj x_97 = null; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; Obj x_101 = null; Obj x_102 = null; Obj x_103 = null; Obj x_104 = null; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; Obj x_108 = null; Obj x_109 = null; Obj x_110 = null; Obj x_111 = null; Obj x_112 = null; Obj x_113 = null; Obj x_114 = null; Obj x_115 = null; Obj x_116 = null; Obj x_117 = null; Obj x_118 = null; Obj x_119 = null; Obj x_120 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; Obj x_124 = null; Obj x_125 = null; Obj x_126 = null; Obj x_127 = null; Obj x_128 = null; Obj x_129 = null; Obj x_130 = null; Obj x_131 = null; Obj x_132 = null; Obj x_133 = null; Obj x_134 = null; Obj x_135 = null; Obj x_136 = null; Obj x_137 = null; Obj x_138 = null; Obj x_139 = null; Obj x_140 = null; Obj x_141 = null; Obj x_142 = null; Obj x_143 = null; Obj x_144 = null; Obj x_145 = null; Obj x_146 = null; Obj x_147 = null; Obj x_148 = null; Obj x_149 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_154 = null; Obj x_155 = null; Obj x_156 = null; Obj x_157 = null; Obj x_158 = null; Obj x_159 = null; Obj x_160 = null; Obj x_161 = null; Obj x_162 = null; Obj x_163 = null; Obj x_164 = null; Obj x_165 = null; Obj x_166 = null; Obj x_167 = null; Obj x_168 = null; Obj x_169 = null; Obj x_170 = null; Obj x_171 = null; Obj x_172 = null; Obj x_173 = null; Obj x_174 = null; Obj x_175 = null; Obj x_176 = null; Obj x_177 = null; Obj x_178 = null; Obj x_179 = null; Obj x_180 = null; Obj x_181 = null; Obj x_182 = null; Obj x_183 = null; Obj x_184 = null; Obj x_185 = null; Obj x_186 = null; Obj x_187 = null; Obj x_188 = null; Obj x_189 = null; Obj x_190 = null; Obj x_191 = null; Obj x_192 = null; Obj x_193 = null; Obj x_194 = null; Obj x_195 = null; Obj x_196 = null; Obj x_197 = null; Obj x_198 = null; Obj x_199 = null; Obj x_200 = null; Obj x_201 = null; Obj x_202 = null; Obj x_203 = null; Obj x_204 = null; Obj x_205 = null; Obj x_206 = null; Obj x_207 = null; Obj x_208 = null; Obj x_209 = null; Obj x_210 = null; Obj x_211 = null; Obj x_212 = null; Obj x_213 = null; Obj x_214 = null; Obj x_215 = null; Obj x_216 = null; Obj x_217 = null; Obj x_218 = null; Obj x_219 = null; Obj x_220 = null; Obj x_221 = null; Obj x_222 = null; Obj x_223 = null; Obj x_224 = null; Obj x_225 = null; Obj x_226 = null; Obj x_227 = null; Obj x_228 = null; Obj x_229 = null; Obj x_230 = null; Obj x_231 = null; Obj x_232 = null; Obj x_233 = null; Obj x_234 = null; Obj x_235 = null; Obj x_236 = null; Obj x_237 = null; Obj x_238 = null; Obj x_239 = null; Obj x_240 = null; Obj x_241 = null; Obj x_242 = null; Obj x_243 = null; Obj x_244 = null; Obj x_245 = null; Obj x_246 = null; Obj x_247 = null; Obj x_248 = null; Obj x_249 = null; Obj x_250 = null; Obj x_251 = null; Obj x_252 = null; Obj x_253 = null; Obj x_254 = null; Obj x_255 = null; Obj x_256 = null; Obj x_257 = null; Obj x_258 = null; Obj x_259 = null; Obj x_260 = null; Obj x_261 = null; Obj x_262 = null; Obj x_263 = null; Obj x_264 = null; Obj x_265 = null; Obj x_266 = null; Obj x_267 = null; Obj x_268 = null; Obj x_269 = null; Obj x_270 = null; Obj x_271 = null; Obj x_272 = null; Obj x_273 = null; Obj x_274 = null; Obj x_275 = null; Obj x_276 = null; Obj x_277 = null; Obj x_278 = null; Obj x_279 = null; Obj x_280 = null; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_284 = null; Obj x_285 = null; Obj x_286 = null; Obj x_287 = null; Obj x_288 = null; Obj x_289 = null; Obj x_290 = null; Obj x_291 = null; Obj x_292 = null; Obj x_293 = null; Obj x_294 = null; Obj x_295 = null; Obj x_296 = null; Obj x_297 = null; Obj x_298 = null; Obj x_299 = null; Obj x_300 = null; Obj x_301 = null; Obj x_302 = null; Obj x_303 = null; Obj x_304 = null; Obj x_305 = null; Obj x_306 = null; Obj x_307 = null; Obj x_308 = null; Obj x_309 = null; Obj x_310 = null; Obj x_311 = null; Obj x_312 = null; Obj x_313 = null; Obj x_314 = null; Obj x_315 = null; Obj x_316 = null; Obj x_317 = null; Obj x_318 = null; Obj x_319 = null; Obj x_320 = null; Obj x_321 = null; Obj x_322 = null; Obj x_323 = null; Obj x_324 = null; Obj x_325 = null; Obj x_326 = null; Obj x_327 = null; Obj x_328 = null; Obj x_329 = null; Obj x_330 = null; Obj x_331 = null; Obj x_332 = null; Obj x_333 = null; Obj x_334 = null; Obj x_335 = null; Obj x_336 = null; Obj x_337 = null; Obj x_338 = null; Obj x_339 = null; Obj x_340 = null; Obj x_341 = null; Obj x_342 = null; Obj x_343 = null; Obj x_344 = null; Obj x_345 = null; Obj x_346 = null; Obj x_347 = null; 
@@ -22048,6 +22314,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_Name_Internal_Meta_escapePart___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -22275,6 +22542,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Meta_Defs_0__Lean_TSyntax_getHexNumSize_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 

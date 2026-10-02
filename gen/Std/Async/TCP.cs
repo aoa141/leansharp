@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Async_TCP {
 public static Obj l_Std_Async_TCP_Socket_Client_connect___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16,6 +17,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_bind___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -40,6 +42,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_keepAlive___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -51,6 +54,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recvSelector___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -317,6 +321,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recvSelector___lam__4(Obj x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -436,6 +441,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recv_x3f(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_12 = null; 
@@ -542,6 +548,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recv_x3f___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -681,6 +688,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_accept___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -698,6 +706,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_getSockName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -707,6 +716,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recvSelector___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -715,6 +725,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_connect___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -723,6 +734,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_acceptSelector___lam__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -744,6 +756,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_connect(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_12 = null; 
@@ -1066,6 +1079,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_keepAlive(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1243,6 +1257,7 @@ return x_28;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_accept(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_41 = null; 
@@ -1625,6 +1640,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_Async_TCP_Socket_Server_acceptSelector_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_13 = null; byte x_14 = 0; byte x_49 = 0; 
@@ -1828,6 +1844,7 @@ goto block_12;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_keepAlive___redArg(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2124,6 +2141,7 @@ return x_28;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_accept___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2615,6 +2633,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recvSelector(Obj x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -2669,6 +2688,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_tryAccept(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2872,6 +2892,7 @@ return x_38;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_keepAlive___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3042,6 +3063,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_mk___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3050,6 +3072,7 @@ return x_2;
 }
 }
 public static Obj l_IO_ofExcept___at___00Std_Async_TCP_Socket_Server_acceptSelector_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3058,6 +3081,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Server_acceptSelector___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3068,6 +3092,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recvSelector___lam__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3321,6 +3346,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recvSelector___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -3353,6 +3379,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_Async_TCP_Socket_Client_recvSelector_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; 
@@ -3364,6 +3391,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_getSockName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3579,6 +3607,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_getPeerName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3826,6 +3855,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recvSelector___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; 
@@ -3904,6 +3934,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_shutdown___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4002,6 +4033,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Async_TCP_Socket_Client_recvSelector___lam__6(Obj x_1, Obj x_2, Obj x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -4312,6 +4344,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Async_TCP_0__Std_Async_TCP_Socket_keepAliveDelay___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

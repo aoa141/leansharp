@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Stream {
 public static Obj l___private_Init_Data_Stream_0__Std_Stream_forIn_visit___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_6) == 0)
@@ -35,6 +36,7 @@ return x_10;
 }
 }
 public static Obj l_Std_instToStreamList___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -85,6 +87,7 @@ return x_3;
 }
 }
 public static Obj l_Std_instToStreamList___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -178,6 +181,7 @@ return x_14;
 }
 }
 public static Obj l_Std_instForInOfMonadOfStream___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -194,6 +198,7 @@ return x_2;
 }
 }
 public static Obj l_Std_instToStreamRange___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -231,6 +236,7 @@ return x_1;
 }
 }
 public static Obj l_Std_instToStreamSubarray(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -285,6 +291,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Stream_forIn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -301,6 +308,7 @@ return x_3;
 }
 }
 public static Obj l_Std_instToStreamSubarray___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -310,6 +318,7 @@ return x_2;
 }
 }
 public static Obj l_Std_instToStreamArraySubarray___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

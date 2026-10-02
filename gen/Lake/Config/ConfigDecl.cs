@@ -61,6 +61,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instCoeOutKConfigDeclPartialBuildKey___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -79,6 +80,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_NConfigDecl_leanLibConfig_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -103,6 +105,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_instCoeOutKConfigDeclPartialBuildKey___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -112,6 +115,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_ConfigDecl_0__Lake_ConfigType_match__1_splitter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -280,6 +284,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ConfigDecl_leanLibConfig_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -344,6 +349,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_ConfigDecl_leanLibConfig_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -434,6 +440,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_PConfigDecl_opaqueTargetConfig_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -458,6 +465,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_NConfigDecl_leanExeConfig_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -491,6 +499,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_NConfigDecl_opaqueTargetConfig_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -534,6 +543,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_PConfigDecl_externLibConfig_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -544,6 +554,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ConfigDecl_leanExeConfig_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -701,6 +712,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Config_ConfigDecl_0__Lake_ConfigType_match__1_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -859,6 +871,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_NConfigDecl_leanLibConfig_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -902,6 +915,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_instCoeOutKConfigDeclPartialBuildKey___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -948,6 +962,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_NConfigDecl_config_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1117,6 +1132,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_NConfigDecl_opaqueTargetConfig___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1638,6 +1654,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_NConfigDecl_config_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

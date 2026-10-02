@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_Arith_CommRing_Types {
 public static Obj l___private_Lean_Meta_Tactic_Grind_Arith_CommRing_Types_0__Lean_Meta_Grind_Arith_CommRing_initFn_00___x40_Lean_Meta_Tactic_Grind_Arith_CommRing_Types_2273073757____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15,6 +16,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_State_getNCSemiring___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25,6 +27,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_mul_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -44,6 +47,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_p___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -53,6 +57,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_div_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -61,6 +66,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_coreS_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -69,6 +75,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_State_modifyNCRing___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -78,6 +85,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_State_modifySemiring(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; byte x_15 = 0; byte x_34 = 0; 
@@ -196,6 +204,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_State_getRing___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -215,6 +224,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -236,6 +246,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_coreS_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -256,6 +267,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_step_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -264,6 +276,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_simp_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -272,6 +285,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_Arith_CommRing_Types_0__Lean_Meta_Grind_Arith_CommRing_padAndModify___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -472,6 +486,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_normEq0_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -480,6 +495,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_modify_x27___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -514,6 +530,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -565,6 +582,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_modify_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; Obj x_14 = null; 
@@ -646,6 +664,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_State_modifyNCSemiring___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -655,6 +674,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_empty___at___00Lean_Meta_Grind_Arith_CommRing_instInhabitedCommRingState_default_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -663,6 +683,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_step_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -680,6 +701,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_get_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -710,6 +732,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_normEq0_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -782,6 +805,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_State_modifyRing___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -880,6 +904,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_State_getSemiring___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -988,6 +1013,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -997,6 +1023,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_div_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1005,6 +1032,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1043,6 +1071,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_superpose_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1051,6 +1080,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_input_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1059,6 +1089,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_State_modifyNCSemiring(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; byte x_15 = 0; byte x_34 = 0; 
@@ -1177,6 +1208,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_mul_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1229,6 +1261,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_input_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1237,6 +1270,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1354,6 +1388,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_gcd_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1651,6 +1686,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_superpose_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1754,6 +1790,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_PolyDerivation_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1982,6 +2019,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_gcd_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1990,6 +2028,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_simp_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2060,6 +2099,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_core_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2068,6 +2108,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_numEq0_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2085,6 +2126,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_core_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2136,6 +2178,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_CommRing_EqCnstrProof_numEq0_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

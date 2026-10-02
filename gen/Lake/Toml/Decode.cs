@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Toml_Decode {
 public static Obj l_Lake_Toml_mergeErrors(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -25,6 +26,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_tryDecodeD___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -354,6 +356,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_decodeKeyval___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -537,6 +540,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_Toml_Table_decode(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -602,6 +606,7 @@ return x_15;
 }
 }
 public static Obj l_Lake_Toml_Table_tryDecode_x3f___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -760,6 +765,7 @@ return x_30;
 }
 }
 public static Obj l_Lake_Toml_Value_instDecodeTomlFilePath___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1017,6 +1023,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_tryDecodeD(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -1172,6 +1179,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_decodeD___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -1238,6 +1246,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_Table_tryDecode_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -1396,6 +1405,7 @@ return x_31;
 }
 }
 public static Obj l_Lake_Toml_decodeKeyval___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1461,6 +1471,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeString(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1650,6 +1661,7 @@ return x_18;
 }
 }
 public static Obj l_Lake_Toml_Table_decodeNameMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1658,6 +1670,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeArray___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1858,6 +1871,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Toml_decodeArray___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1868,6 +1882,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeTable(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1955,6 +1970,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_decode_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -2249,6 +2265,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeNat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2462,6 +2479,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeDateTime(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2549,6 +2567,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_instDecodeTomlNameMap___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2631,6 +2650,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeArrayOrSingleton(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 5)
@@ -2803,6 +2823,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_decodeNameMap___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -2830,6 +2851,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeFloat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2880,6 +2902,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_decodeD(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -2912,6 +2935,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_Toml_Table_decodeNameMap___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_30 = 0; 
@@ -3049,6 +3073,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_tryDecode___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3421,6 +3446,7 @@ return x_20;
 }
 }
 public static Obj l_Lake_Toml_Table_tryDecode(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3892,6 +3918,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3983,6 +4010,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Toml_Table_decode___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4311,6 +4339,7 @@ return x_19;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeInt(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4476,6 +4505,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_Value_decodeName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

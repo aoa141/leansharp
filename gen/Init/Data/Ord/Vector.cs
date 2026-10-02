@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Ord_Vector {
 public static Obj l_Vector_compareLex___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -18,6 +19,7 @@ return x_5;
 }
 }
 public static Obj l_Array_compareLex___at___00Vector_compareLex_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -29,6 +31,7 @@ return x_6;
 }
 }
 public static byte l_Vector_compareLex___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -37,6 +40,7 @@ return x_4;
 }
 }
 public static byte l_Vector_compareLex(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -45,6 +49,7 @@ return x_6;
 }
 }
 public static Obj l_Array_compareLex___at___00Vector_compareLex_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

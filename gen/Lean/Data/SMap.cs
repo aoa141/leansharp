@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Data_SMap {
 public static Obj l_Lean_SMap_fold(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -15,6 +16,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_SMap_switch(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -53,6 +55,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SMap_instForInProdOfMonad___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -86,6 +89,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instReprSMap___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -96,6 +100,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_SMap_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -163,6 +168,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instReprSMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -171,6 +177,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_SMap_fromHashMap___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -182,6 +189,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_SMap_fromHashMap___redArg(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -296,6 +304,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SMap_foldStage2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -306,6 +315,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_SMap_find_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -316,6 +326,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_SMap_findD___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -344,6 +355,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SMap_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -353,6 +365,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_SMap_toList___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -411,6 +424,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SMap_insert(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -564,6 +578,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SMap_numBuckets(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -600,6 +615,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SMap_insert_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -646,6 +662,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SMap_findD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -741,6 +758,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SMap_foldM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -759,6 +777,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SMap_find_x21___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -781,6 +800,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_SMap_iter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -802,6 +822,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_SMap_findD(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -840,6 +861,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SMap_fold___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -897,6 +919,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_List_toSMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1018,6 +1041,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_SMap_empty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1028,6 +1052,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SMap_contains___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1278,6 +1303,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SMap_foldM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -1286,6 +1312,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_SMap_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1320,6 +1347,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_SMap_forM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1347,6 +1375,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SMap_find_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

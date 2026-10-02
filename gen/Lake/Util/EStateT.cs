@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_EStateT {
 public static Obj l_Lake_EStateT_toEStateM___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -124,6 +125,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_EResult_instFunctor(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -163,6 +165,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_EStateT_toStateT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -184,6 +187,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_EResult_result_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -193,6 +197,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_EStateT_toStateT_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -451,6 +456,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_EResult_ofEStateMResult(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -766,6 +772,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_EResult_error_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -774,6 +781,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_EStateT_run_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -796,6 +804,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_EResult_ctorIdx(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -804,6 +813,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_EStateT_run_x3f_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -817,6 +827,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_EStateT_toStateT_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -977,6 +988,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_EStateT_set___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1453,6 +1465,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_EResult_instFunctor___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1511,6 +1524,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_EStateT_run_x3f_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1524,6 +1538,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_EResult_error_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1610,6 +1625,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_EResult_state___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1619,6 +1635,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_EStateT_instMonadStateOfOfPure(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1627,6 +1644,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_EResult_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1803,6 +1821,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_EStateT_toStateT___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1845,6 +1864,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_EResult_error_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2119,6 +2139,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_EStateT_run_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2451,6 +2472,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_EResult_toExcept___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2733,6 +2755,7 @@ return x_21;
 }
 }
 public static Obj l_Lake_EStateT_instMonad___redArg___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2742,6 +2765,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_EResult_toExcept___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2965,6 +2989,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_EResult_ok_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3077,6 +3102,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_EResult_ok_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

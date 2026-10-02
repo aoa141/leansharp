@@ -28,6 +28,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getExpThreshold___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -42,6 +43,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_setExpThreshold___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -51,6 +53,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_ClassifyResult_commRing_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -144,6 +147,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getExpThreshold___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -154,6 +158,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getExpThreshold(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -162,6 +167,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Types_0__Lean_Meta_Sym_Arith_initFn___lam__0_00___x40_Lean_Meta_Sym_Arith_Types_1023037793____hygCtx___hyg_2____boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -170,6 +176,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_modifyArithState___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -193,6 +200,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getArithState___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -218,6 +226,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_withExpThreshold(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -259,6 +268,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Arith_Types_0__Lean_Meta_Sym_Arith_initFn_00___x40_Lean_Meta_Sym_Arith_Types_1023037793____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -370,6 +380,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_setExpThreshold(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -422,6 +433,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_getArithState___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -483,6 +495,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_modifyArithState___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -603,6 +616,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_modifyArithState___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -612,6 +626,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_withExpThreshold___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -699,6 +714,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_setExpThreshold___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -719,6 +735,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_modifyArithState(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 

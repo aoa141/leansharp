@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_Arith_Linear_Types {
 public static Obj l_Lean_Meta_Grind_Arith_Linear_EqCnstrProof_core_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15,6 +16,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_empty___at___00Lean_Meta_Grind_Arith_Linear_instInhabitedState_default_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23,6 +25,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingDiseqCnstrProof_cancelDen_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -31,6 +34,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_EqCnstrProof_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -40,6 +44,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingIneqCnstrProof_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -70,6 +75,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingIneqCnstrProof_notCore_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -78,6 +84,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_PersistentHashMap_empty___at___00Lean_Meta_Grind_Arith_Linear_instInhabitedState_default_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -86,6 +93,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_UnsatProof_lt_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -103,6 +111,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_UnsatProof_diseq_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -111,6 +120,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingDiseqCnstrProof_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -120,6 +130,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_norm_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -128,6 +139,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_EqCnstrProof_coreCommRing_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -196,6 +208,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingIneqCnstrProof_core_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -204,6 +217,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_neg_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -230,6 +244,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingIneqCnstrProof_cancelDen_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -238,6 +253,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_oneNeZero_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -246,6 +262,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_dec_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -254,6 +271,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingEqCnstrProof_cancelDen_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -262,6 +280,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_EqCnstrProof_coreOfNat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -270,6 +289,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_UnsatProof_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -279,6 +299,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_core_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -287,6 +308,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_UnsatProof_lt_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -295,6 +317,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_instHashableExpr__lean_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -305,6 +328,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_neg_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -313,6 +337,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_combine_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -321,6 +346,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_subst1_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -329,6 +355,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_ofEqOfNat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -337,6 +364,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_notCoreOfNat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -345,6 +373,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_UnsatProof_diseq_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -353,6 +382,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_notCore_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -361,6 +391,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingIneqCnstrProof_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -400,6 +431,7 @@ return x_1;
 }
 }
 public static ulong l_Lean_Meta_Grind_Arith_Linear_instHashablePoly__lean_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -460,6 +492,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingEqCnstrProof_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -590,6 +623,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_ofDiseqSplit_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -612,6 +646,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_EqCnstrProof_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -664,6 +699,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_EqCnstrProof_neg_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -698,6 +734,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_core_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -706,6 +743,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_EqCnstrProof_neg_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -714,6 +752,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingEqCnstrProof_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -731,6 +770,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingDiseqCnstrProof_cancelDen_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -739,6 +779,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_EqCnstrProof_subst_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -849,6 +890,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_oneGtZero_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -857,6 +899,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingDiseqCnstrProof_core_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -865,6 +908,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_ring_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1051,6 +1095,7 @@ return x_48;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_coreOfNat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1059,6 +1104,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingDiseqCnstrProof_core_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1126,6 +1172,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_oneNeZero_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1150,6 +1197,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingIneqCnstrProof_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1167,6 +1215,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingDiseqCnstrProof_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1206,6 +1255,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingEqCnstrProof_core_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1214,6 +1264,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_UnsatProof_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1223,6 +1274,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_subst_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1239,6 +1291,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingEqCnstrProof_symm_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1247,6 +1300,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_UnsatProof_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1331,6 +1385,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_IneqCnstrProof_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1542,6 +1597,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingEqCnstrProof_cancelDen_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1587,6 +1643,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_RingEqCnstrProof_core_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1612,6 +1669,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_DiseqCnstrProof_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1703,6 +1761,7 @@ return x_14;
 }
 }
 public static ulong l_Lean_Meta_Grind_Arith_Linear_instHashableExpr__lean_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

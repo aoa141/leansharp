@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Data_JsonRpc {
 public static Obj l_Lean_JsonRpc_ErrorCode_invalidParams_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -30,6 +31,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readRequestAs___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -39,6 +41,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageKind_request_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -157,6 +160,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_requestCancelled_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -243,6 +247,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageKind_responseError_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -253,6 +258,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_JsonRpc_RequestID_num_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -261,6 +267,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_unknownErrorCode_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -307,6 +314,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_instInhabitedRequest_default___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -343,6 +351,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_RequestID_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -377,6 +386,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageKind_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -408,6 +418,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_instToJsonMessageDirection_toJson(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -432,6 +443,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeMessage___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -450,6 +462,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_Message_responseError_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -465,6 +478,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_JsonRpc_instBEqResponseError_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -474,6 +488,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_JsonRpc_instToJsonMessageKind_toJson(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -505,6 +520,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_JsonRpc_instFromJsonMessageDirection_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -712,6 +728,7 @@ return x_2;
 }
 }
 public static byte l_Lean_JsonRpc_instBEqResponse_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -720,6 +737,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_JsonRpc_instInhabitedResponse(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -728,6 +746,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageMetaData_request_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -736,6 +755,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_RequestID_str_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -744,6 +764,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageMetaData_responseError_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -857,6 +878,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_instToJsonMessage___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1508,6 +1530,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_JsonRpc_instDecidableLtRequestID___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1632,6 +1655,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeNotification(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1640,6 +1664,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_JsonRpc_instFromJsonErrorCode___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -1964,6 +1989,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageDirection_clientToServer_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1984,6 +2010,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readRequestAs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2083,6 +2110,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_serverNotInitialized_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2103,6 +2131,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeNotification___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2111,6 +2140,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_JsonRpc_instBEqRequestID_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2131,6 +2161,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeResponse___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2183,6 +2214,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeResponseErrorWithData___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_28 = 0; 
@@ -2352,6 +2384,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeResponse___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2369,6 +2402,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeRequest___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2377,6 +2411,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeRequest___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2426,6 +2461,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_internalError_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2447,6 +2483,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readRequestAs___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -3258,6 +3295,7 @@ return x_197;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readNotificationAs___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -4073,6 +4111,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_JsonRpc_Message_request_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4140,6 +4179,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageDirection_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4159,6 +4199,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeResponseError___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4231,6 +4272,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_instBEqRequest_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -4249,6 +4291,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readResponseAs(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4354,6 +4397,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_JsonRpc_instBEqNotification_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4383,6 +4427,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeResponse___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_15 = 0; 
@@ -4434,6 +4479,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_JsonRpc_RequestID_null_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4487,6 +4533,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_RequestID_str_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4581,6 +4628,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_instInhabitedResponse_default___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -4652,6 +4700,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageMetaData_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4734,6 +4783,7 @@ return x_1;
 }
 }
 public static byte l_Lean_JsonRpc_instBEqErrorCode_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -4777,6 +4827,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_Request_ofMessage_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4861,6 +4912,7 @@ return x_1;
 }
 }
 public static byte l_Lean_JsonRpc_instBEqRequest_beq___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -4972,6 +5024,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_invalidParams_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5070,6 +5123,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00__private_Lean_Data_JsonRpc_0__Lean_JsonRpc_messageMetaDataParser_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5401,6 +5455,7 @@ return x_2;
 }
 }
 public static byte l_Lean_JsonRpc_instBEqNotification_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -5443,6 +5498,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_RequestID_null_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5468,6 +5524,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readMessage(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6119,6 +6176,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeResponseError(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_15 = 0; 
@@ -6322,6 +6380,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeNotification___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_26 = 0; 
@@ -6437,6 +6496,7 @@ return x_1;
 }
 }
 public static byte l_Lean_JsonRpc_instBEqResponseError_beq___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -6523,6 +6583,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00__private_Lean_Data_JsonRpc_0__Lean_JsonRpc_messageMetaDataParser_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6825,6 +6886,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_instFromJsonNotification___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -6869,6 +6931,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -6950,6 +7013,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_JsonRpc_instInhabitedNotification_default___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7244,6 +7308,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_methodNotFound_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -7360,6 +7425,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_instBEqResponse_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -7397,6 +7463,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_instToStringRequestID___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -7431,6 +7498,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_workerExited_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -7441,6 +7509,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Data_JsonRpc_0__Lean_JsonRpc_messageMetaDataParser_parseRequestID(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7780,6 +7849,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageDirection_clientToServer_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7798,6 +7868,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -7840,6 +7911,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_JsonRpc_RequestID_num_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7856,6 +7928,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Data_JsonRpc_0__Lean_JsonRpc_messageMetaDataParser(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; byte x_31 = 0; 
@@ -9756,6 +9829,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeMessage(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -10467,6 +10541,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_workerCrashed_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10493,6 +10568,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readResponseAs___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11436,6 +11512,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_JsonRpc_instFromJsonRequestID___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -11540,6 +11617,7 @@ return x_20;
 }
 }
 public static Obj l___private_Lean_Data_JsonRpc_0__Lean_JsonRpc_messageMetaDataParser_parseStr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -11685,6 +11763,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageMetaData_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11694,6 +11773,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageKind_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11961,6 +12041,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_instFromJsonMessageKind_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12058,6 +12139,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_IO_FS_Stream_writeMessage_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12077,6 +12159,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_instInhabitedResponseError(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12275,6 +12358,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_MessageDirection_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -12340,6 +12424,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_JsonRpc_instToJsonErrorCode___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -12733,6 +12818,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_instFromJsonNotification___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_30 = null; Obj x_31 = null; 
@@ -13264,6 +13350,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_JsonRpc_instFromJsonMessage___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_15 = null; Obj x_16 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -14145,6 +14232,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_writeRequest(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14197,6 +14285,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_JsonRpc_instBEqRequest_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -14679,6 +14768,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_JsonRpc_ErrorCode_requestCancelled_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

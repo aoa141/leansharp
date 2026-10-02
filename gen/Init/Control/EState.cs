@@ -98,6 +98,7 @@ return x_9;
 }
 }
 public static Obj l_EStateM_instMonadAttach___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -163,6 +164,7 @@ return x_11;
 }
 }
 public static Obj l_EStateM_instMonadFinally___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -171,6 +173,7 @@ return x_2;
 }
 }
 public static Obj l_EStateM_orElse_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -521,6 +524,7 @@ return x_11;
 }
 }
 public static Obj l_EStateM_instReprResult___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -634,6 +638,7 @@ return x_25;
 }
 }
 public static Obj l_EStateM_instMonadAttach(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -672,6 +677,7 @@ return x_2;
 }
 }
 public static Obj l_EStateM_instMonadFinally(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

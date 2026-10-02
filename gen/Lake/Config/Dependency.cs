@@ -19,6 +19,7 @@ return x_2;
 }
 }
 public static Obj l_Option_repr___at___00Lake_instReprDependencySrc_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -48,6 +49,7 @@ return x_1;
 }
 }
 public static Obj l_Option_repr___at___00Lake_instReprDependencySrc_repr_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -109,6 +111,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_Dependency_resolverDescr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; 
@@ -164,6 +167,7 @@ return x_5;
 }
 }
 public static Obj l_Option_repr___at___00Lake_instReprDependencySrc_repr_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -241,6 +245,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_DependencySrc_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -250,6 +255,7 @@ return x_6;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00Lake_InputVer_parse_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -258,6 +264,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_InputVer_none_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -286,6 +293,7 @@ return x_1;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00Lake_InputVer_parse_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -527,6 +535,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_InputVer_toString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -641,6 +650,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Dependency_fullName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
@@ -659,6 +669,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_instReprInputVer_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -678,6 +689,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_InputVer_none_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -717,6 +729,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_DependencySrc_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -932,6 +945,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_InputVer_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -971,6 +985,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprInputVer_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1217,6 +1232,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_InputVer_git_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1225,6 +1241,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instReprDependencySrc_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1307,6 +1324,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_InputVer_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1316,6 +1334,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_InputVer_ver_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1373,6 +1392,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_InputVer_git_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1391,6 +1411,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_InputVer_ver_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

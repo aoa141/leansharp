@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Expr {
 public static Obj l_Lean_instReprBinderInfo_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; 
@@ -174,6 +175,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_bindingName_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -202,6 +204,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_const___override(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; 
@@ -254,6 +257,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_updateBinderNames(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -397,6 +401,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_getAppNumArgsAux___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -418,6 +423,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_letValue_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -468,6 +474,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_isArrow___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -500,6 +507,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getAppNumArgs_x27(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -509,6 +517,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkIntLT(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -595,6 +604,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_updateLambda_x21Impl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -634,6 +644,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Expr_setAppPPExplicit_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -660,6 +671,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Expr_mdata_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -668,6 +680,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instInhabitedMVarIdMap___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -686,6 +699,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkLet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -722,6 +736,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_isHeadBetaTargetFn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -743,6 +758,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_looseBVarRange(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -761,6 +777,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkNatLit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -770,6 +787,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_BinderInfo_isInstImplicit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -780,6 +798,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_BinderInfo_instImplicit_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -836,6 +855,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_isTypeAnnotation___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -846,6 +866,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_hashEx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -864,6 +885,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkLHSGoalRaw(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -881,6 +903,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00List_repr___at___00Lean_instReprExpr_repr_spec__0_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -969,6 +992,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkAppN(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1022,6 +1046,7 @@ return x_2;
 }
 }
 public static Obj lean_expr_mk_let(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1030,6 +1055,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_isConst___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1040,6 +1066,7 @@ return x_3;
 }
 }
 public static byte l_Lean_ExprStructEq_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1048,6 +1075,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_isProj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1058,6 +1086,7 @@ return x_3;
 }
 }
 public static Obj lean_expr_mk_app(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1140,6 +1169,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_instSingletonFVarIdFVarIdSet_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1160,6 +1190,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_getAppNumArgsAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -1180,6 +1211,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkSimpleThunk(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -1232,6 +1264,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Expr_setAppPPExplicitForExposingMVars_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1273,6 +1306,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Expr_liftLooseBVars___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1294,6 +1328,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_replaceFVarId___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1319,6 +1354,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_MVarIdSet_insert_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1340,6 +1376,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_fvar_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1369,6 +1406,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_bvar_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1377,6 +1415,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_setOption(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1385,6 +1424,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_replaceFn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1422,6 +1462,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Expr_getForallBodyMaxDepth(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1456,6 +1497,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_traverseApp___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1524,6 +1566,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_updateProj_x21Impl(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 11)
@@ -1563,6 +1606,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_BinderInfo_instImplicit_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1581,6 +1625,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_eqv___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1628,6 +1673,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_isStringLit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1638,6 +1684,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldlM___at___00Std_DTreeMap_Internal_Impl_foldl___at___00Lean_FVarIdSet_union_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1663,6 +1710,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkHave(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1699,6 +1747,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_mkApp9(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; 
@@ -1708,6 +1757,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_mkApp7(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -1762,6 +1812,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_isBVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1772,6 +1823,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_letType_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1789,6 +1841,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_projExpr_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 11)
@@ -1808,6 +1861,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_getLambdaBody___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1839,6 +1893,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_foldlM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1847,6 +1902,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_MVarIdSet_insert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1866,6 +1922,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkSimpleThunkType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -1888,6 +1945,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkApp8(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -1925,6 +1983,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkAppB(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1944,6 +2003,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_sort_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1952,6 +2012,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_mkIntLE(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2000,6 +2061,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_mkIff(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2038,6 +2100,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_lt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2120,6 +2183,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_hasAnyFVar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2129,6 +2193,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_getAutoParamTactic_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -2179,6 +2244,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getAppFn___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2188,6 +2254,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Expr_isAppOfArity(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -2272,6 +2339,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_inaccessible_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2296,6 +2364,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Expr_isOptParam(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -2351,6 +2420,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getArg_x21_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2389,6 +2459,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Expr_isTypeAnnotation(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2452,6 +2523,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Expr_binderInfo___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2462,6 +2534,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_traverseChildren(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2470,6 +2543,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_binderInfoEx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2479,6 +2553,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkIntSub(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2488,6 +2563,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_lit___override(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; uint x_6 = 0; byte x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -2524,6 +2600,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ExprStructEq_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -2578,6 +2655,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_foldlM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_33 = 0; 
@@ -2731,6 +2809,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_sort___override(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; uint x_6 = 0; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -2791,6 +2870,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkIntLit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2800,6 +2880,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkInstOfNatNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2859,6 +2940,7 @@ return x_5;
 }
 }
 public static Obj l_panic___at___00Lean_Expr_letNondep_x21_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2868,6 +2950,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getAppPrefix___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2889,6 +2972,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_lowerLooseBVars___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2939,6 +3023,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_BinderInfo_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2967,6 +3052,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_constLevels_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2976,6 +3062,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_BinderInfo_default_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2985,6 +3072,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Literal_type___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3003,6 +3091,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instReprData__1___lam__0(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; Obj x_13 = null; Obj x_20 = null; Obj x_21 = null; Obj x_26 = null; Obj x_33 = null; Obj x_34 = null; Obj x_39 = null; Obj x_46 = null; Obj x_58 = null; ulong x_59 = 0; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; uint x_63 = 0; uint x_64 = 0; byte x_65 = 0; 
@@ -3194,6 +3283,7 @@ goto block_45;
 }
 }
 public static Obj l_Lean_Expr_data___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -3213,6 +3303,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_updateForallBinderInfos___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3234,6 +3325,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_const_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3252,6 +3344,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Expr_isCharLit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -3302,6 +3395,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_BinderInfo_strictImplicit_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3312,6 +3406,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_replaceFVars___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3352,6 +3447,7 @@ return x_1;
 }
 }
 public static byte lean_expr_has_fvar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -3361,6 +3457,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_mdata___override(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; byte x_4 = 0; uint x_5 = 0; uint x_6 = 0; uint x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; uint x_11 = 0; Obj x_12 = null; byte x_13 = 0; byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; ulong x_17 = 0; Obj x_18 = null; 
@@ -3387,6 +3484,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_mkProj(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3424,6 +3522,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_updateLetE_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 8)
@@ -3498,6 +3597,7 @@ return x_24;
 }
 }
 public static ulong l_Lean_ExprStructEq_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; 
@@ -3525,6 +3625,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkIntDiv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -3542,6 +3643,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_proj___override(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; byte x_5 = 0; uint x_6 = 0; uint x_7 = 0; uint x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; 
@@ -3590,6 +3692,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Expr_bvar___override(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; Obj x_6 = null; uint x_7 = 0; byte x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -3628,6 +3731,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getAppNumArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3637,6 +3741,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_letE___override___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3669,6 +3774,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_setAppPPExplicit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -3748,6 +3854,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_forallDomain___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3857,6 +3964,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_updateLet_x21Impl(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 8)
@@ -3974,6 +4082,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_fvarId_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -3993,6 +4102,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Literal_natVal_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4052,6 +4162,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_projIdx_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4061,6 +4172,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_hasLevelMVarEx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4111,6 +4223,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_instSingletonFVarIdFVarIdSet_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -4157,6 +4270,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_mkAppData___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -4170,6 +4284,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4189,6 +4304,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getBoundedAppFn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -4323,6 +4439,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Expr_isAppOf(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4347,6 +4464,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_mkApp10(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; 
@@ -4356,6 +4474,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Expr_traverseApp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -4412,6 +4531,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkIntMod(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -4421,6 +4541,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_stripArgsN(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -4463,6 +4584,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_withAppRevAux___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 5)
@@ -4509,6 +4631,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_setPPUniverses(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -4518,6 +4641,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_isMVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4528,6 +4652,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_isLambda___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4559,6 +4684,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkIntMul(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -4568,6 +4694,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_updateSort_x21Impl___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4577,6 +4704,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getForallBody___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4586,6 +4714,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_foldlM___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4595,6 +4724,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_cleanupAnnotations(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -4636,6 +4766,7 @@ return x_6;
 }
 }
 public static uint l_Lean_Expr_approxDepth(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; uint x_4 = 0; 
@@ -4660,6 +4791,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_mvar___override(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; uint x_6 = 0; byte x_7 = 0; byte x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -4722,6 +4854,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Literal_type(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4786,6 +4919,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_annotation_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4815,6 +4949,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_setPPExplicit___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4834,6 +4969,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_isForall___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4844,6 +4980,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_appFn_x21_x27(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -4981,6 +5118,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_forallE_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4996,6 +5134,7 @@ return x_1;
 }
 }
 public static Obj lean_expr_mk_forall(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5014,6 +5153,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_isLHSGoal_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5046,6 +5186,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_BinderInfo_implicit_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5114,6 +5255,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_getAppNumArgs_x27_go___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5123,6 +5265,7 @@ return x_3;
 }
 }
 public static byte l_Lean_isPatternWithRef(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5158,6 +5301,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_isMData___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5187,6 +5331,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getAppFn_x27___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5196,6 +5341,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_quickLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5215,6 +5361,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_abstractRange___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5247,6 +5394,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getAppRevArgs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -5305,6 +5453,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_appArg_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -5352,6 +5501,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkNatLitCore(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5431,6 +5581,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00List_repr___at___00Lean_instReprExpr_repr_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5543,6 +5694,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_MVarIdSet_ofArray___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5552,6 +5704,7 @@ return x_2;
 }
 }
 public static byte l___private_Lean_Expr_0__Lean_Expr_hasAnyFVar_visit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -5769,6 +5922,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Expr_isHeadBetaTargetFn(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -5829,6 +5983,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_replaceFVarId(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -6011,6 +6166,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Expr_containsFVar(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -6040,6 +6196,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Expr_hasMVar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; 
@@ -6058,6 +6215,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Expr_isSemiOutParam(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -6068,6 +6226,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_isLHSGoal_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -6159,6 +6318,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_Data_hasFVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -6170,6 +6330,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_updateLambda_x21Impl(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 6)
@@ -6249,6 +6410,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instHashableFVarId_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -6271,6 +6433,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_patternAnnotation_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6329,6 +6492,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkNatAdd(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -6397,6 +6561,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_sizeWithoutSharing(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -6515,6 +6680,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Expr_updateForallE_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -6645,6 +6811,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkIntDvd(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -6673,6 +6840,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_updateSort_x21Impl(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 3)
@@ -6719,6 +6887,7 @@ return x_2;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_MVarIdSet_insert_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6771,6 +6940,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_mkAppRev(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -6812,6 +6982,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_dbgToString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6821,6 +6992,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_getNumHeadForalls___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6881,6 +7053,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Expr_isAppOfArity_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -6944,6 +7117,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_mkAppRange(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6997,6 +7171,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getNumHeadForalls(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -7027,6 +7202,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_mkPropEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -7055,6 +7231,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_mkAppRangeAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -7081,6 +7258,7 @@ goto _start;
 }
 }
 public static ulong l_Lean_Expr_mkDataForBinder(ulong x_1, Obj x_2, uint x_3, byte x_4, byte x_5, byte x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; 
@@ -7153,6 +7331,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_getAppArgs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -7183,6 +7362,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_MVarIdMap_insert___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7208,6 +7388,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_fvar_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7216,6 +7397,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_litValue_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 9)
@@ -7235,6 +7417,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_setOption___at___00Lean_Expr_setPPExplicit_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -7265,6 +7448,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getRevArg_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -7302,6 +7486,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Expr_updateFVar_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7388,6 +7573,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkInaccessible(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7411,6 +7597,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_isProp___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -7421,6 +7608,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkLambda___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -7465,6 +7653,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_withAppAux___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 5)
@@ -7525,6 +7714,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instBEqFVarId_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7558,6 +7748,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_withApp___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -7597,6 +7788,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_isHeadBetaTarget___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -7608,6 +7800,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_bindingBody_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7617,6 +7810,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_getBoundedAppArgsAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -7667,6 +7861,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_getLambdaBody(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -7741,6 +7936,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00Lean_mkAppRev_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -7764,6 +7960,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_inaccessible_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7844,6 +8041,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getOptParamDefault_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7871,6 +8069,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_FVarIdMap_insert(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7879,6 +8078,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_withAppRev___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -7890,6 +8090,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_letE_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7898,6 +8099,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_patternWithRef_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7995,6 +8197,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_equal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8006,6 +8209,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_setPPExplicit(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -8015,6 +8219,7 @@ return x_4;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_instSingletonFVarIdFVarIdSet_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -8023,6 +8228,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_isAutoParam___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -8054,6 +8260,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_FVarIdSet_ofArray___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8063,6 +8270,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_letType_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 8)
@@ -8082,6 +8290,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_setPPNumericTypes___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8139,6 +8348,7 @@ return x_1;
 }
 }
 public static byte lean_expr_has_level_mvar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -8160,6 +8370,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_projIdx_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 11)
@@ -8188,6 +8399,7 @@ return x_2;
 }
 }
 public static Obj l_panic___at___00Lean_Expr_appFn_x21_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -8269,6 +8481,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_MVarIdSet_ofList(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -8278,6 +8491,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_const_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8335,6 +8549,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instBEqBinderInfo_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -8469,6 +8684,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_Data_approxDepth___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -8490,6 +8706,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_forallE___override(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; uint x_7 = 0; ulong x_8 = 0; Obj x_9 = null; byte x_10 = 0; byte x_11 = 0; ulong x_15 = 0; byte x_16 = 0; uint x_17 = 0; ulong x_18 = 0; byte x_19 = 0; byte x_20 = 0; uint x_21 = 0; ulong x_22 = 0; Obj x_23 = null; byte x_24 = 0; byte x_28 = 0; uint x_29 = 0; ulong x_30 = 0; Obj x_31 = null; byte x_32 = 0; uint x_36 = 0; ulong x_37 = 0; Obj x_38 = null; byte x_39 = 0; uint x_43 = 0; ulong x_44 = 0; Obj x_45 = null; uint x_49 = 0; byte x_65 = 0; uint x_66 = 0; byte x_67 = 0; 
@@ -8664,6 +8881,7 @@ goto block_48;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_MVarIdSet_insert_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8696,6 +8914,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_appArg_x21_x27___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8705,6 +8924,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instEmptyCollectionMVarIdMap___aux__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8727,6 +8947,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_quickComp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8790,6 +9011,7 @@ return x_3;
 }
 }
 public static ulong l_Lean_Expr_mkDataForLet(ulong x_1, Obj x_2, uint x_3, byte x_4, byte x_5, byte x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; 
@@ -8819,6 +9041,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_inferImplicit(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -8893,6 +9116,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_BinderInfo_isExplicit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -8928,6 +9152,7 @@ return x_4;
 }
 }
 public static byte lean_expr_has_level_param(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -8961,6 +9186,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instSingletonFVarIdFVarIdSet___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -9024,6 +9250,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_consumeMData___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9046,6 +9273,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkAndN(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -9108,6 +9336,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_replaceFVar(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -9122,6 +9351,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Expr_instantiateRev___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9173,6 +9403,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_BinderInfo_strictImplicit_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9182,6 +9413,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_proj_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9223,6 +9455,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instCoeExprExprStructEq___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9232,6 +9465,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_appFnCleanup(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9240,6 +9474,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_isBoolFalse___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -9303,6 +9538,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Expr_isHeadBetaTarget(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -9332,6 +9568,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_updateConst_x21Impl(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -9367,6 +9604,7 @@ return x_9;
 }
 }
 public static byte l_Lean_Expr_isOutParam(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -9377,6 +9615,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_forallBody___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9386,6 +9625,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_instantiateRange___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9766,6 +10006,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkNatSub(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -9893,6 +10134,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkNatLE(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -9912,6 +10154,7 @@ return x_1;
 }
 }
 public static Obj lean_expr_mk_fvar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9939,6 +10182,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_forallName___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10009,6 +10253,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_mkData___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; uint x_9 = 0; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; ulong x_14 = 0; Obj x_15 = null; 
@@ -10026,6 +10271,7 @@ return x_15;
 }
 }
 public static byte l___private_Lean_Expr_0__Lean_Expr_hasAnyFVar_visit___at___00Lean_Expr_containsFVar_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -10171,6 +10417,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_etaExpanded_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -10300,6 +10547,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_instSingletonFVarIdFVarIdSet___aux__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -10322,6 +10570,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_bindingDomain_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10369,6 +10618,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Expr_isFalse___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -10378,6 +10628,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_updateFVar_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -10713,6 +10964,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_bvarIdx_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10743,6 +10995,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_letE___override(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; byte x_8 = 0; Obj x_9 = null; uint x_10 = 0; byte x_11 = 0; byte x_12 = 0; ulong x_16 = 0; byte x_17 = 0; byte x_18 = 0; Obj x_19 = null; uint x_20 = 0; byte x_21 = 0; ulong x_22 = 0; byte x_23 = 0; ulong x_26 = 0; byte x_27 = 0; uint x_28 = 0; ulong x_29 = 0; ulong x_30 = 0; byte x_31 = 0; Obj x_32 = null; uint x_33 = 0; byte x_34 = 0; ulong x_35 = 0; byte x_36 = 0; byte x_40 = 0; ulong x_41 = 0; Obj x_42 = null; uint x_43 = 0; byte x_44 = 0; ulong x_45 = 0; byte x_46 = 0; ulong x_49 = 0; Obj x_50 = null; uint x_51 = 0; byte x_52 = 0; ulong x_53 = 0; byte x_54 = 0; ulong x_58 = 0; Obj x_59 = null; uint x_60 = 0; byte x_61 = 0; ulong x_62 = 0; byte x_63 = 0; ulong x_66 = 0; Obj x_67 = null; uint x_68 = 0; ulong x_69 = 0; byte x_70 = 0; ulong x_74 = 0; Obj x_75 = null; uint x_76 = 0; ulong x_77 = 0; byte x_78 = 0; ulong x_81 = 0; uint x_82 = 0; ulong x_83 = 0; Obj x_84 = null; ulong x_88 = 0; Obj x_89 = null; uint x_90 = 0; ulong x_91 = 0; Obj x_92 = null; ulong x_98 = 0; uint x_99 = 0; uint x_116 = 0; byte x_122 = 0; uint x_123 = 0; byte x_124 = 0; 
@@ -11087,6 +11340,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_appFn_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11186,6 +11440,7 @@ return x_1;
 }
 }
 public static Obj lean_expr_consume_type_annotations(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_6 = 0; byte x_13 = 0; 
@@ -11270,6 +11525,7 @@ return x_1;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_instSingletonFVarIdFVarIdSet_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -11338,6 +11594,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkPatternWithRef(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11362,6 +11619,7 @@ return x_1;
 }
 }
 public static Obj l_List_repr___at___00Lean_instReprExpr_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11400,6 +11658,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_betaRev_go(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_5)) {
@@ -11595,6 +11854,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11628,6 +11888,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_ctorName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11677,6 +11938,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instEmptyCollectionMVarIdMap___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11725,6 +11987,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkNot(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -11886,6 +12149,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_BinderInfo_implicit_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -11905,6 +12169,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_withAppRev(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -11996,6 +12261,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_hasExprMVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -12053,6 +12319,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_letNondep_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -12089,6 +12356,7 @@ return x_3;
 }
 }
 public static Obj l_List_any___at___00Lean_Expr_const___override_spec__6___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -12197,6 +12465,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkIntLit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -12238,6 +12507,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_withApp(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -12290,6 +12560,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_app_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12298,6 +12569,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkIntAdd(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -12343,6 +12615,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_updateForallBinderInfos(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -12388,6 +12661,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_mkAppN_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -12456,6 +12730,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_hasExprMVarEx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -12474,6 +12749,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkIntNatCast(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -12526,6 +12802,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_lit_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12544,6 +12821,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_ctorName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -12640,6 +12918,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Expr_hasLooseBVarInExplicitDomain(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -12734,6 +13013,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_mkAppRevRangeAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -12744,6 +13024,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_sort_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12874,6 +13155,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_updateLambdaE_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 6)
@@ -12962,6 +13244,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getBoundedAppArgs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -12991,6 +13274,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_getAppArgsN_loop(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13060,6 +13344,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkLambda(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -13087,6 +13372,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_getAppNumArgs_x27_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -13142,6 +13428,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkOr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -13161,6 +13448,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_eta(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 6)
@@ -13382,6 +13670,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getForallBinderNames___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13435,6 +13724,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instHashableMVarId_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -13536,6 +13826,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_getAppRevArgsAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -13637,6 +13928,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_letBody_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13646,6 +13938,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Expr_isFalse(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -13677,6 +13970,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Literal_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13686,6 +13980,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_FVarIdSet_insert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -13717,6 +14012,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_lam_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -13740,6 +14036,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Literal_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13815,6 +14112,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_constLevels_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -13934,6 +14232,7 @@ return x_1;
 }
 }
 public static Obj l_List_repr___at___00Lean_instReprExpr_repr_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14001,6 +14300,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_mkAppRevRangeAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -14059,6 +14359,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_replaceFVars(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -14111,6 +14412,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_isTrue___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14186,6 +14488,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_isFVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14196,6 +14499,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_app___override(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -14248,6 +14552,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_getForallBody(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -14353,6 +14658,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Expr_setPPPiBinderTypes___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -14401,6 +14707,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14501,6 +14808,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_FVarIdMap_insert___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14509,6 +14817,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_isBoolTrue___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14537,6 +14846,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_etaExpandedAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 6)
@@ -14562,6 +14872,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Expr_hasLevelParam___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14652,6 +14963,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instReprLiteral_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14670,6 +14982,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getArgD(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -14682,6 +14995,7 @@ return x_8;
 }
 }
 public static Obj l_List_any___at___00Lean_Expr_const___override_spec__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14718,6 +15032,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getForallArity(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -14787,6 +15102,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Expr_getRevArgD(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -14863,6 +15179,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_mkAnd(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -14890,6 +15207,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Expr_mvar_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14939,6 +15257,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_lam___override___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -14948,6 +15267,7 @@ return x_6;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Expr_const___override_spec__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -14960,6 +15280,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_patternWithRef_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 10)
@@ -15057,6 +15378,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_getForallBinderNames(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -15123,6 +15445,7 @@ return x_3;
 }
 }
 public static Obj lean_expr_mk_lambda(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15193,6 +15516,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_MVarIdSet_insert_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -16527,6 +16851,7 @@ return x_290;
 }
 }
 public static Obj l_Lean_Expr_bvar_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16590,6 +16915,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_mdataExpr_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16599,6 +16925,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_getAppFn_x27(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -16634,6 +16961,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_mkNatSucc(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -16896,6 +17224,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_betaRev___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -17016,6 +17345,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_getAppFn(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -17033,6 +17363,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_bindingInfo_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -17268,6 +17599,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_setAppPPExplicitForExposingMVars(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -17357,6 +17689,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_isBinding___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -17443,6 +17776,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_int_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; byte x_15 = 0; 
@@ -17700,6 +18034,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_withAppAux___at___00Lean_Expr_getAppFnArgs_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -17742,6 +18077,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_mdata_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -17821,6 +18157,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkEM(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -17958,6 +18295,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_forallE_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18079,6 +18417,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_appArg_x21_x27(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -18190,6 +18529,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Expr_Data_looseBVarRange___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -18201,6 +18541,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_updateFn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18414,6 +18755,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_mkAppRevRange___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -18475,6 +18817,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkIntPowNat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -18677,6 +19020,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instReprExpr_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -19446,6 +19790,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getArg_x21_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -19486,6 +19831,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_instSingletonFVarIdFVarIdSet_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -20830,6 +21176,7 @@ return x_1;
 }
 }
 public static Obj l_List_repr___at___00Lean_instReprExpr_repr_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -20962,6 +21309,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_instantiate1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -20972,6 +21320,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_getAppArgsAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -21107,6 +21456,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_sortLevel_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21168,6 +21518,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_updateFn(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -21457,6 +21808,7 @@ return x_6;
 }
 }
 public static ulong l_List_foldl___at___00Lean_Expr_const___override_spec__4(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -21747,6 +22099,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_bvarIdx_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -21766,6 +22119,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Expr_0__Lean_Expr_etaExpandedBody(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -22016,6 +22370,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getNumHeadLambdas___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22385,6 +22740,7 @@ return x_4;
 }
 }
 public static byte l_List_any___at___00Lean_Expr_const___override_spec__6(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -22547,6 +22903,7 @@ return x_4;
 }
 }
 public static byte lean_expr_has_expr_mvar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -22626,6 +22983,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Expr_consumeMData(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 10)
@@ -22789,6 +23147,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Expr_hasLevelMVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -23072,6 +23431,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_BinderInfo_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23121,6 +23481,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getRevArg_x21_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -23242,6 +23603,7 @@ return x_1;
 }
 }
 public static byte l_List_any___at___00Lean_Expr_const___override_spec__5(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -23401,6 +23763,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_getNumHeadLambdas(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

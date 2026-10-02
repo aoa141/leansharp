@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Option_Basic {
 public static Obj l_Option_isEqSome___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -16,6 +17,7 @@ return x_5;
 }
 }
 public static Obj l_Option_tryCatch___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -68,6 +70,7 @@ return x_3;
 }
 }
 public static Obj l_Option_decidableNoneEq___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -121,6 +124,7 @@ return x_1;
 }
 }
 public static Obj l_Option_getDM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -147,6 +151,7 @@ return x_3;
 }
 }
 public static Obj l_Option_join___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -156,6 +161,7 @@ return x_3;
 }
 }
 public static Obj l_Option_max(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -181,6 +187,7 @@ return x_3;
 }
 }
 public static Obj l_Option_mapM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_6) == 0)
@@ -234,6 +241,7 @@ return x_5;
 }
 }
 public static byte l_Option_instDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -287,6 +295,7 @@ return x_3;
 }
 }
 public static Obj l_instMonadOption___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -296,6 +305,7 @@ return x_5;
 }
 }
 public static Obj l_Option_join___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -321,6 +331,7 @@ return x_1;
 }
 }
 public static Obj l_Option_instOrElse(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -372,6 +383,7 @@ return x_5;
 }
 }
 public static Obj l_Option_mapA(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_6) == 0)
@@ -427,6 +439,7 @@ return x_7;
 }
 }
 public static Obj l_Option_instDecidableRelLe___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -436,6 +449,7 @@ return x_8;
 }
 }
 public static Obj l_Option_tryCatch___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -510,6 +524,7 @@ return x_8;
 }
 }
 public static Obj l_Option_all___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -539,6 +554,7 @@ return x_5;
 }
 }
 public static Obj l_Option_getM(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -557,6 +573,7 @@ return x_1;
 }
 }
 public static Obj l_Option_toArray(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -788,6 +805,7 @@ return x_14;
 }
 }
 public static Obj l_Option_instDecidableRelLt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -807,6 +825,7 @@ return x_4;
 }
 }
 public static Obj l_instLTOption___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -815,6 +834,7 @@ return x_2;
 }
 }
 public static Obj l_Option_toList___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -856,6 +876,7 @@ return x_11;
 }
 }
 public static Obj l_Option_getDM___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -981,6 +1002,7 @@ return x_1;
 }
 }
 public static Obj l_Option_decidableEqNone___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1137,6 +1159,7 @@ return x_3;
 }
 }
 public static Obj l_Option_isNone___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1185,6 +1208,7 @@ return x_1;
 }
 }
 public static byte l_Option_instBEq_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1376,6 +1400,7 @@ return x_7;
 }
 }
 public static Obj l_Option_instBEq_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1531,6 +1556,7 @@ return x_3;
 }
 }
 public static Obj l_Option_any___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1540,6 +1566,7 @@ return x_4;
 }
 }
 public static Obj l_instLEOption___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1626,6 +1653,7 @@ return x_3;
 }
 }
 public static Obj l_Option_get___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1762,6 +1790,7 @@ return x_7;
 }
 }
 public static Obj l_Option_isSome___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1988,6 +2017,7 @@ return x_1;
 }
 }
 public static Obj l_Option_instDecidableRelLt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2106,6 +2136,7 @@ return x_5;
 }
 }
 public static Obj l_instAlternativeOption___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2191,6 +2222,7 @@ return x_5;
 }
 }
 public static byte l_Option_instDecidableRelLe(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -2247,6 +2279,7 @@ return x_1;
 }
 }
 public static Obj l_Option_instDecidableRelLe___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

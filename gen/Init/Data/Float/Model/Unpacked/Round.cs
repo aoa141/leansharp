@@ -35,6 +35,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_shiftToTargetExponent___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -46,6 +47,7 @@ return x_5;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_Accuracy_exact_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -54,6 +56,7 @@ return x_5;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ExtendedMantissa_instHShiftRightNat___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -63,6 +66,7 @@ return x_4;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_Accuracy_ctorElim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -72,6 +76,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_roundWithAccuracy___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -101,6 +106,7 @@ return x_9;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_shiftToExponent___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -150,6 +156,7 @@ return x_8;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_shiftToTargetExponent(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -162,6 +169,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00Float_Model_UnpackedFloat_shiftToExponent_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -270,6 +278,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_Accuracy_inexact_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -279,6 +288,7 @@ return x_5;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_Accuracy_exact_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -287,6 +297,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_round___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -299,6 +310,7 @@ return x_6;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ExtendedMantissa_accuracy___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -308,6 +320,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_round(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -347,6 +360,7 @@ return x_11;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ExtendedMantissa_accuracy(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -388,6 +402,7 @@ return x_8;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_normalize___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -412,6 +427,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ExtendedMantissa_roundedMantissa___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -421,6 +437,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_roundWithAccuracy(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; 
@@ -496,6 +513,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_Accuracy_inexact_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -505,6 +523,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_Accuracy_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -523,6 +542,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_Accuracy_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -564,6 +584,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_Accuracy_inexact_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

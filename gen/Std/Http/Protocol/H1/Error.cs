@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Protocol_H1_Error {
 public static Obj l_Std_Http_Protocol_H1_Error_invalidHeader_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15,6 +16,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Error_tooManyHeaders_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -23,6 +25,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Error_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -42,6 +45,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_instReprError_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -51,6 +55,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Error_tooManyHeaders_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -69,6 +74,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Error_headersTooLarge_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -99,6 +105,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Error_other_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -107,6 +114,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Error_invalidHeader_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -115,6 +123,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Error_badMessage_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -133,6 +142,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Error_entityTooLarge_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -206,6 +216,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_instBEqError_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -217,6 +228,7 @@ return x_4;
 }
 }
 public static byte l_Std_Http_Protocol_H1_instBEqError_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -406,6 +418,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_instToStringError___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -762,6 +775,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_instToStringError___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -882,6 +896,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_instReprError_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; Obj x_45 = null; Obj x_52 = null; Obj x_59 = null; Obj x_66 = null; Obj x_73 = null; 

@@ -104,6 +104,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_main(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -112,6 +113,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_init___redArg___lam__7(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -314,6 +316,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Util_ParamMinimizer_Status_approx_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -508,6 +511,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_erase___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -517,6 +521,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Util_ParamMinimizer_search___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8) {
+lean_stack_probe();
 _start:
 {
 if (x_8 == 0)
@@ -560,6 +565,7 @@ return x_18;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_main___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -569,6 +575,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_markFound___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -578,6 +585,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_restore(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -603,6 +611,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_main___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -807,6 +816,7 @@ return x_31;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_tryCur___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1086,6 +1096,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Util_ParamMinimizer_Status_approx_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1103,6 +1114,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_tryCur___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1137,6 +1149,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_tryCur(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1418,6 +1431,7 @@ return x_25;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_init___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1427,6 +1441,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Util_ParamMinimizer_Status_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1545,6 +1560,7 @@ return x_24;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_restore___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1579,6 +1595,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_init___redArg___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -1707,6 +1724,7 @@ return x_23;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_tryCur___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1749,6 +1767,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_prune(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2067,6 +2086,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_tryCur___redArg___lam__9___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2192,6 +2212,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_main___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -2223,6 +2244,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_prune___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2240,6 +2262,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_init(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2462,6 +2485,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_main___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2995,6 +3019,7 @@ return x_41;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_add___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3229,6 +3254,7 @@ return x_40;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_tryCur___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3238,6 +3264,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_init___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3415,6 +3442,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Util_ParamMinimizer_Status_missing_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3561,6 +3589,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Util_ParamMinimizer_instReprStatus_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3916,6 +3945,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Util_ParamMinimizer_0__Lean_Util_ParamMinimizer_incNumCalls(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4834,6 +4864,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Util_ParamMinimizer_instReprStatus_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; 
@@ -4947,6 +4978,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_Util_ParamMinimizer_Status_missing_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

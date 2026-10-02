@@ -19,6 +19,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarFunDecl___lam__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -37,6 +38,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__5(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -57,6 +59,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_mapFVarM___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -66,6 +69,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__25(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, byte x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -106,6 +110,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__10___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -115,6 +120,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_mapFVarM___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -124,6 +130,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -140,6 +147,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_mapFVarM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -149,6 +157,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_anyFVarM___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -167,6 +176,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__30(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -197,6 +207,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_FVarUtil_0__Lean_Compiler_LCNF_anyFVarM_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -215,6 +226,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_forFVarM(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -223,6 +235,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -315,6 +328,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_forFVarM___redArg___lam__12(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -324,6 +338,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -334,6 +349,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_forFVarM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -721,6 +737,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarAlt___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -741,6 +758,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_mapFVarM___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -750,6 +768,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__28___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_12 = 0; Obj x_13 = null; 
@@ -759,6 +778,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__22___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; 
@@ -768,6 +788,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarParam(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -824,6 +845,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__24___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 byte x_17 = 0; Obj x_18 = null; 
@@ -833,6 +855,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_mapFVarM___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -842,6 +865,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__8(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -858,6 +882,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarParam___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -900,6 +925,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -908,6 +934,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_mapFVarM___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -969,6 +996,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1004,6 +1032,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_mapFVarM___redArg___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -1013,6 +1042,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarLetValue___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1023,6 +1053,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_mapFVarM___redArg___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -1034,6 +1065,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_mapFVarM___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1043,6 +1075,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_forFVarM___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1051,6 +1084,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarCodeDecl___lam__14(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_6)) {
@@ -1411,6 +1445,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_mapFVarM___redArg___lam__2(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -1433,6 +1468,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__18___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; Obj x_15 = null; 
@@ -1453,6 +1489,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_mapFVarM___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -1462,6 +1499,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__20___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1473,6 +1511,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarCodeDecl___lam__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -1483,6 +1522,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1492,6 +1532,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_forFVarM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1500,6 +1541,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_forFVarM___redArg___lam__10(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -1523,6 +1565,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarAlt___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -1676,6 +1719,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_anyFVar___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1685,6 +1729,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__33___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1704,6 +1749,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_FVarUtil_0__Lean_Compiler_LCNF_allFVarM_go___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1736,6 +1782,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1745,6 +1792,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_anyFVar___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1765,6 +1813,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_anyFVar___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1791,6 +1840,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_mapFVarM___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1811,6 +1861,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_forFVarM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1903,6 +1954,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__19___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; 
@@ -1912,6 +1964,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_forFVarM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1920,6 +1973,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_allFVarM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1928,6 +1982,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarFunDecl___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1946,6 +2001,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_mapFVarM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1987,6 +2043,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__28(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -2033,6 +2090,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__31___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; byte x_12 = 0; Obj x_13 = null; 
@@ -2045,6 +2103,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_forFVarM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2103,6 +2162,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarLetDecl___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2112,6 +2172,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarCode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2121,6 +2182,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2130,6 +2192,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_mapFVarM___redArg(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_4)) {
@@ -2190,6 +2253,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarLetValue___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2207,6 +2271,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_forFVarM(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2259,6 +2324,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__23___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -2352,6 +2418,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_mapFVarM(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2360,6 +2427,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_mapFVarM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2368,6 +2436,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarExpr___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2384,6 +2453,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarCodeDecl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2393,6 +2463,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; Obj x_15 = null; 
@@ -2411,6 +2482,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_allFVar___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2475,6 +2547,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarParam___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2484,6 +2557,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_mapFVarM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2587,6 +2661,7 @@ return x_28;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_forFVarM___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2622,6 +2697,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarCode___lam__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2724,6 +2800,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_anyFVarM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2742,6 +2819,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarAlt___lam__4(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_6)) {
@@ -2837,6 +2915,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2845,6 +2924,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__29___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -2857,6 +2937,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__34(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -2873,6 +2954,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetDecl_mapFVarM(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2881,6 +2963,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarCodeDecl___lam__8(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -3367,6 +3450,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_forFVarM___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -3376,6 +3460,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_forFVarM___redArg___lam__8(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3384,6 +3469,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_allFVar___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3459,6 +3545,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarLetDecl___lam__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3476,6 +3563,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_FVarUtil_0__Lean_Compiler_LCNF_anyFVarM_go___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3494,6 +3582,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__18(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -3513,6 +3602,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__6(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -3580,6 +3670,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_forFVarM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -3591,6 +3682,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_mapFVarM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -3611,6 +3703,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_FVarUtil_0__Lean_Compiler_LCNF_anyFVarM_go___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3643,6 +3736,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_mapFVarM(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3651,6 +3745,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_mapFVarM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -3828,6 +3923,7 @@ return x_42;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__32___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; Obj x_18 = null; 
@@ -3863,6 +3959,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_mapFVarM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -3880,6 +3977,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3982,6 +4080,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__15___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4147,6 +4246,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarExpr___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4709,6 +4809,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarCodeDecl___lam__12___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -4781,6 +4882,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_mapFVarM___redArg___lam__1(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -4861,6 +4963,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarAlt(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -4875,6 +4978,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetDecl_forFVarM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -4897,6 +5001,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__24(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, byte x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -5011,6 +5116,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instTraverseFVarCodeDecl___lam__17(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5028,6 +5134,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_5)) {
@@ -5688,6 +5795,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_forFVarM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -5889,6 +5997,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetDecl_mapFVarM___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5913,6 +6022,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_forFVarM___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -5931,6 +6041,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Expr_forFVarM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -6398,6 +6509,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_mapFVarM___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -6407,6 +6519,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_mapFVarM___redArg___lam__26___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_15 = 0; Obj x_16 = null; 

@@ -41,6 +41,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_withParams___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -61,6 +62,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_withNewScope___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -70,6 +72,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_withNewScope___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -119,6 +122,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_withNewScope___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -150,6 +154,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_withFVar___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -250,6 +255,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instMonadScopeScopeTOfMonad___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

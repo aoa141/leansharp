@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_Parser_natCore(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -125,6 +126,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_Json_Parser_objectCore(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -666,6 +668,7 @@ return x_2;
 }
 }
 public static Obj l_panic___at___00Std_DTreeMap_Internal_Impl_insert_x21___at___00Lean_Json_Parser_objectCore_spec__2_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -743,6 +746,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert_x21___at___00Lean_Json_Parser_objectCore_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2587,6 +2591,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_Parser_natNumDigits(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -2645,6 +2650,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Json_Parser_hexChar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2817,6 +2823,7 @@ return x_51;
 }
 }
 public static Obj l_Lean_Json_Parser_lookahead___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2862,6 +2869,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_Parser_finishSurrogatePair___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; Obj x_4 = null; 
@@ -2939,6 +2947,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_Parser_lookahead___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -3021,6 +3030,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_Parser_escapedChar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -3721,6 +3731,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_Parser_natCoreNumDigits(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -4502,6 +4513,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_Parser_natNonZero(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -4580,6 +4592,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_Parser_lookahead(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -4661,6 +4674,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_Parser_strCore(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -4907,6 +4921,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_Parser_num(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_49 = null; Obj x_50 = null; byte x_51 = 0; Obj x_76 = null; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_109 = null; Obj x_110 = null; Obj x_111 = null; Obj x_112 = null; Obj x_113 = null; Obj x_122 = null; Obj x_123 = null; Obj x_124 = null; byte x_125 = 0; Obj x_174 = null; Obj x_178 = null; Obj x_179 = null; Obj x_180 = null; Obj x_181 = null; Obj x_182 = null; Obj x_205 = null; Obj x_206 = null; byte x_207 = 0; Obj x_226 = null; Obj x_227 = null; Obj x_228 = null; Obj x_229 = null; Obj x_245 = null; Obj x_246 = null; Obj x_247 = null; byte x_248 = 0; 
@@ -6001,6 +6016,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_Parser_any(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_27 = 0; 
@@ -6245,6 +6261,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_Parser_nat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -6421,6 +6438,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_Parser_arrayCore(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6688,6 +6706,7 @@ return x_54;
 }
 }
 public static Obj l_Lean_Json_Parser_numWithDecimals(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_52 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_83 = null; Obj x_84 = null; byte x_85 = 0; Obj x_104 = null; Obj x_105 = null; Obj x_106 = null; Obj x_107 = null; Obj x_123 = null; Obj x_124 = null; Obj x_125 = null; byte x_126 = 0; 

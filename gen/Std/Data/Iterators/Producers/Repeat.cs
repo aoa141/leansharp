@@ -36,6 +36,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Data_Iterators_Producers_Repeat_0__Std_Iterators_Types_RepeatIterator_instProductivenessRelation___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -85,6 +86,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Iter_repeat___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

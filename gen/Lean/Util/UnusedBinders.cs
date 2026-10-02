@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Util_UnusedBinders {
 public static Obj l_Lean_Expr_hasUnusedForallBindersWhere___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -16,6 +17,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Expr_hasUnusedForallBindersWhere(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

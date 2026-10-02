@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Range_Polymorphic_SInt {
 public static Obj l_Int64_instUpwardEnumerable___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -37,6 +38,7 @@ return x_1;
 }
 }
 public static Obj l_Int64_instRxoHasSize___lam__0(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -57,6 +59,7 @@ return x_10;
 }
 }
 public static Obj l_Int16_instRxoHasSize___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; Obj x_5 = null; 
@@ -98,6 +101,7 @@ return x_1;
 }
 }
 public static Obj l_Int32_instRxiHasSize___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -129,6 +133,7 @@ return x_2;
 }
 }
 public static Obj l_Int8_instRxiHasSize___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -177,6 +182,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_instRxcHasSize___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -288,6 +294,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_instRxoHasSize___lam__0(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -425,6 +432,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_instRxiHasSize___lam__0(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -449,6 +457,7 @@ return x_2;
 }
 }
 public static Obj l_Int16_instUpwardEnumerable___lam__0(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; ushort x_3 = 0; ushort x_4 = 0; byte x_5 = 0; 
@@ -520,6 +529,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Range_Polymorphic_SInt_0__HasModel_instUpwardEnumerable(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -654,6 +664,7 @@ return x_1;
 }
 }
 public static Obj l_Int8_instUpwardEnumerable___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -728,6 +739,7 @@ return x_2;
 }
 }
 public static Obj l_Int32_instUpwardEnumerable___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -870,6 +882,7 @@ return x_1;
 }
 }
 public static Obj l_ISize_instUpwardEnumerable___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; 
@@ -937,6 +950,7 @@ return x_1;
 }
 }
 public static Obj l_Int64_instUpwardEnumerable___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -998,6 +1012,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_instUpwardEnumerable___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; Obj x_4 = null; 
@@ -1031,6 +1046,7 @@ return x_3;
 }
 }
 public static Obj l_Int32_instRxiHasSize___lam__0(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1044,6 +1060,7 @@ return x_5;
 }
 }
 public static Obj l_Int64_instRxiHasSize___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1057,6 +1074,7 @@ return x_5;
 }
 }
 public static Obj l_Int8_instUpwardEnumerable___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1109,6 +1127,7 @@ return x_2;
 }
 }
 public static Obj l_ISize_instRxiHasSize___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1189,6 +1208,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Range_Polymorphic_SInt_0__HasModel_instRxiHasSize___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1397,6 +1417,7 @@ return x_3;
 }
 }
 public static Obj l_ISize_instUpwardEnumerable___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -1470,6 +1491,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Range_Polymorphic_SInt_0__HasModel_instRxcHasSize___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1584,6 +1606,7 @@ return x_8;
 }
 }
 public static Obj l_Int8_instUpwardEnumerable___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; 
@@ -2039,6 +2062,7 @@ return x_1;
 }
 }
 public static Obj l_Int16_instUpwardEnumerable___lam__1(Obj x_1, ushort x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -2117,6 +2141,7 @@ return x_3;
 }
 }
 public static Obj l_Int64_instUpwardEnumerable___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; 

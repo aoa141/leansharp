@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_Duration {
 public static Obj l_Std_Time_instReprDuration_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25,6 +26,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_subWeeks___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -35,6 +37,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_ofNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -98,6 +101,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_instHMulInt___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -108,6 +112,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_subHours(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -155,6 +160,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_toNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -164,6 +170,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Duration_sub___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -184,6 +191,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_addHours___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -194,6 +202,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_subMinutes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -221,6 +230,7 @@ return x_15;
 }
 }
 public static Obj l_Std_Time_Duration_addWeeks___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -231,6 +241,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_subSeconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -263,6 +274,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Duration_fromComponents(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -308,6 +320,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_ofSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -360,6 +373,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Duration_toNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -373,6 +387,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_instToStringDuration___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_24 = null; byte x_25 = 0; 
@@ -485,6 +500,7 @@ goto block_7;
 }
 }
 public static Obj l_Std_Time_Duration_subNanoseconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -529,6 +545,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Duration_instHSubPlainTime___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -603,6 +620,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_addDays___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -623,6 +641,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_instHAddPlainTime___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -633,6 +652,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_subDays(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -670,6 +690,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_subWeeks(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -697,6 +718,7 @@ return x_15;
 }
 }
 public static byte l_Std_Time_Duration_instDecidableLe(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -732,6 +754,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instReprDuration__1___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -833,6 +856,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_addMilliseconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -843,6 +867,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_addHours(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -908,6 +933,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_isZero___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -928,6 +954,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_instHAddPlainTime___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1016,6 +1043,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_instHMulInt__1___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1026,6 +1054,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_toSeconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1056,6 +1085,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instToStringDuration_leftPad___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1113,6 +1143,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instReprDuration__1___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_27 = null; byte x_28 = 0; 
@@ -1248,6 +1279,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_subMilliseconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1292,6 +1324,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Duration_addWeeks(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -1337,6 +1370,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_addNanoseconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1396,6 +1430,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Duration_addDays(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -1453,6 +1488,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instOrdDuration___lam__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1526,6 +1562,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Duration_toMinutes___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1737,6 +1774,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instReprDuration_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_44 = 0; 
@@ -1990,6 +2028,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instOfNatDuration(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -2144,6 +2183,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instOrdDuration___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2284,6 +2324,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Time_instToStringDuration_leftPad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2305,6 +2346,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Duration_add___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2355,6 +2397,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instDecidableEqDuration___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2366,6 +2409,7 @@ return x_4;
 }
 }
 public static byte l_Std_Time_Duration_isZero(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2503,6 +2547,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Duration_addMinutes___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2578,6 +2623,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00Std_Time_instToStringDuration_leftPad_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2676,6 +2722,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_addSeconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2686,6 +2733,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Duration_addMinutes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 

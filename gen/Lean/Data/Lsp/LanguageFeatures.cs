@@ -54,6 +54,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__5_spec__10_spec__11(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -174,6 +175,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemTag_ofNat___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -192,6 +194,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCompletionItemKind___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -228,6 +231,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_enum_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -292,6 +296,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInsertReplaceEdit_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -345,6 +350,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_macro_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -518,6 +524,7 @@ return x_27;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -561,6 +568,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCallHierarchyOutgoingCall_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -818,6 +826,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonReferenceParams_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -839,6 +848,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_array_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -849,6 +859,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_property_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -868,6 +879,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1024,6 +1036,7 @@ return x_35;
 }
 }
 public static Obj l_Lean_Lsp_InlayHintLabel_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1045,6 +1058,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1066,6 +1080,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCallHierarchyItem_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1085,6 +1100,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Lsp_instHashableCallHierarchyItem_hash_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -1101,6 +1117,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonInlayHint_toJson_spec__3_spec__4(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1156,6 +1173,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionItem_toJson_spec__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1165,6 +1183,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonInlayHint_toJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1184,6 +1203,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelp_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1219,6 +1239,7 @@ return x_3;
 }
 }
 public static byte l_Array_isEqvAux___at___00Option_instBEq_beq___at___00Lean_Lsp_instBEqCallHierarchyItem_beq_spec__0_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1241,6 +1262,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHintLabelPart_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1361,6 +1383,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_DocumentHighlightKind_read_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1478,6 +1501,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionIdentifier_fvar_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1498,6 +1522,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_string_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1538,6 +1563,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelp_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -1650,6 +1676,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_enumMember_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1767,6 +1794,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instHashableSemanticTokenType_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -1852,6 +1880,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_property_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1872,6 +1901,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_comment_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1914,6 +1944,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instBEqResolvableCompletionItem_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1925,6 +1956,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCallHierarchyIncomingCall_fromJson_spec__0_spec__0_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -2032,6 +2064,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_toNat(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2040,6 +2073,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_function_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2109,6 +2143,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonInlayHintParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2463,6 +2498,7 @@ return x_68;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_constructor_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2493,6 +2529,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelpParams_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2513,6 +2550,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_FoldingRangeKind_comment_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2556,6 +2594,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonInlayHintClientCapabilities_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_19 = 0; 
@@ -2710,6 +2749,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonColorInformation_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -2814,6 +2854,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonResolvableCompletionItemData___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2842,6 +2883,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonResolvableCompletionList_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2851,6 +2893,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_CompletionIdentifier_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2860,6 +2903,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSemanticTokenModifier_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3012,6 +3056,7 @@ return x_35;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonResolvableCompletionList_toJson_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -3071,6 +3116,7 @@ return x_1;
 }
 }
 public static Obj l_Array_isEqvAux___at___00Option_instBEq_beq___at___00Lean_Lsp_instBEqCallHierarchyItem_beq_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3094,6 +3140,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instHashableSymbolKind_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -3104,6 +3151,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_enum_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3195,6 +3243,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_ParameterInformationLabel_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3300,6 +3349,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_regexp_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3321,6 +3371,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonDocumentColorOptions_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -3480,6 +3531,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSemanticTokensRangeParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -3563,6 +3615,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSymbolKind___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5998,6 +6051,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -6007,6 +6061,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionItem_toJson_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6035,6 +6090,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Lsp_FoldingRangeKind_imports_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6045,6 +6101,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_decorator_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6055,6 +6112,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_leanSorryLike_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6089,6 +6147,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonDocumentSymbolAux_toJson___at___00Lean_Lsp_instToJsonDocumentSymbol_go_spec__0_spec__0_spec__1_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -6111,6 +6170,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonDocumentSymbolAux_fromJson___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -6827,6 +6887,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_class_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6837,6 +6898,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelp_fromJson_spec__0_spec__0_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6958,6 +7020,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Lsp_instBEqCallHierarchyItem_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; byte x_19 = 0; 
@@ -7045,6 +7108,7 @@ return x_26;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__5_spec__10_spec__11_spec__12(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7122,6 +7186,7 @@ goto _start;
 }
 }
 public static byte l_Lean_Lsp_instBEqResolvableCompletionItem_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; byte x_19 = 0; 
@@ -7321,6 +7386,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionOptions_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -7343,6 +7409,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_file_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7418,6 +7485,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonRenameOptions_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7653,6 +7721,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCompletionList_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7902,6 +7971,7 @@ return x_48;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_parameter_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -7931,6 +8001,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelpContext_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7947,6 +8018,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonInlayHint_toJson_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7975,6 +8047,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8050,6 +8123,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenModifier_declaration_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8095,6 +8169,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_boolean_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8115,6 +8190,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonSymbolInformation_toJson_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -8304,6 +8380,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCompletionItem_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -9122,6 +9199,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonColorInformation_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9141,6 +9219,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSymbolInformation_fromJson_spec__1_spec__1_spec__3(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_11 = 0; 
@@ -9390,6 +9469,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instHashableResolvableCompletionItemData_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -9502,6 +9582,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -9587,6 +9668,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_operator_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9608,6 +9690,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_DocumentHighlightKind_text_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9679,6 +9762,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonCallHierarchyIncomingCall_toJson_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -9691,6 +9775,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_object_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9884,6 +9969,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenModifier_deprecated_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9929,6 +10015,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonSemanticTokens_toJson_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -9974,6 +10061,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonHover_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_21 = 0; 
@@ -10090,6 +10178,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__5_spec__10(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10224,6 +10313,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonDocumentSymbolAux_toJson___at___00Lean_Lsp_instToJsonDocumentSymbol_go_spec__0_spec__0_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -10367,6 +10457,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSemanticTokens_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_21 = 0; 
@@ -10456,6 +10547,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonColorInformation_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -10703,6 +10795,7 @@ return x_47;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -10713,6 +10806,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonResolvableCompletionList_toJson_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -10738,6 +10832,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonSignatureHelp_toJson_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -10785,6 +10880,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_enum_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -10812,6 +10908,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_ParameterInformationLabel_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10898,6 +10995,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSemanticTokensOptions_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -11250,6 +11348,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Array_toJson___at___00Lean_Lsp_instToJsonCompletionList_toJson_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -11262,6 +11361,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Lsp_FoldingRangeKind_imports_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11383,6 +11483,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_CompletionIdentifier_fvar_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11586,6 +11687,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_Lsp_instDecidableEqCompletionItemKind___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -11619,6 +11721,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonInlayHintLabelPart_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -12094,6 +12197,7 @@ return x_3;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00Lean_Lsp_instBEqCompletionItem_beq_spec__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -12156,6 +12260,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSymbolInformation_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; 
@@ -14451,6 +14556,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14513,6 +14619,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHintLabelPart_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14632,6 +14739,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonColor_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -14652,6 +14760,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Lsp_instDecidableEqCompletionItemKind(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -14707,6 +14816,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_struct_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14766,6 +14876,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_folder_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14775,6 +14886,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonSignatureInformation_toJson_spec__0_spec__0_spec__2(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -14842,6 +14954,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionOptions_fromJson_spec__0_spec__0_spec__2_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -14864,6 +14977,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonReferenceContext_toJson(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -14898,6 +15012,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__4(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -14962,6 +15077,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSignatureHelpParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -15462,6 +15578,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemTag_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15483,6 +15600,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_interface_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -15657,6 +15775,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonResolvableCompletionItem_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; 
@@ -15773,6 +15892,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionItem_toJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15809,6 +15929,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_method_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -15843,6 +15964,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCompletionOptions_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -16216,6 +16338,7 @@ return x_1;
 }
 }
 public static byte l_Option_instBEq_beq___at___00Lean_Lsp_instBEqResolvableCompletionItemData_beq_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -16302,6 +16425,7 @@ return x_1;
 }
 }
 public static byte l_Option_instBEq_beq___at___00Lean_Lsp_instBEqCompletionItem_beq_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -16364,6 +16488,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonInlayHintKind___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -16572,6 +16697,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonParameterInformation_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16832,6 +16958,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_package_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16848,6 +16975,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCallHierarchyIncomingCall_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -16905,6 +17033,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonCallHierarchyItem_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -17107,6 +17236,7 @@ return x_3;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00Lean_Lsp_instBEqCompletionItem_beq_spec__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -17138,6 +17268,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_DocumentHighlightKind_write_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17201,6 +17332,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionItem_toJson_spec__5_spec__5(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -17257,6 +17389,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -17303,6 +17436,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHintLabelPart_fromJson_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -17312,6 +17446,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonFoldingRangeParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -17523,6 +17658,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_enum_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -17570,6 +17706,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_function_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17622,6 +17759,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_ParameterInformationLabel_name_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -17630,6 +17768,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00Lean_Lsp_instToJsonCompletionOptions_toJson_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -17685,6 +17824,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureInformation_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -17694,6 +17834,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_method_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -17731,6 +17872,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_typeParameter_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -17816,6 +17958,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonTypeDefinitionParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -18131,6 +18274,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonResolvableCompletionItem_fromJson_spec__0_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18164,6 +18308,7 @@ return x_3;
 }
 }
 public static ulong l_Lean_Lsp_instHashableResolvableCompletionItemData_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; 
@@ -18230,6 +18375,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonHover_fromJson_spec__1_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -18331,6 +18477,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonParameterInformationLabel___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -18602,6 +18749,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonResolvableCompletionItemData___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; 
@@ -18845,6 +18993,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_function_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18995,6 +19144,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SignatureHelpTriggerKind_invoked_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19004,6 +19154,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -19047,6 +19198,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_InlayHintLabel_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -19056,6 +19208,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonResolvableCompletionItem_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -19393,6 +19546,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSemanticTokenModifier_toJson___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -19710,6 +19864,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_event_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19719,6 +19874,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonHover_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -20006,6 +20162,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonResolvableCompletionItem_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -20679,6 +20836,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_event_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -20713,6 +20871,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelpContext_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -20917,6 +21076,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonResolvableCompletionItem_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -21836,6 +21996,7 @@ return x_173;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionList_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -21855,6 +22016,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_key_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21912,6 +22074,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_module_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21939,6 +22102,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonResolvableCompletionItem_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -22589,6 +22753,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCallHierarchyPrepareParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -22918,6 +23083,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Lsp_instHashableCompletionItem_hash_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -22966,6 +23132,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_InlayHintTooltip_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -23148,6 +23315,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonReferenceParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -23519,6 +23687,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonColor_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; double x_3 = 0.0; double x_4 = 0.0; double x_5 = 0.0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; 
@@ -23579,6 +23748,7 @@ return x_29;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_variable_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -23631,6 +23801,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_struct_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -23761,6 +23932,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_field_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23789,6 +23961,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonInlayHintLabel___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -23955,6 +24128,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_folder_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -23974,6 +24148,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instHashableResolvableCompletionItem_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -23984,6 +24159,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonCallHierarchyIncomingCall_toJson_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -24042,6 +24218,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSemanticTokensRangeParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -24289,6 +24466,7 @@ return x_47;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonInsertReplaceEdit_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
@@ -24352,6 +24530,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_type_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24525,6 +24704,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_leanSorryLike_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24568,6 +24748,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSignatureHelpOptions_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -24608,6 +24789,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHintLabelPart_fromJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24675,6 +24857,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHintLabelPart_fromJson_spec__1_spec__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -24921,6 +25104,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelpParams_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -24967,6 +25151,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_InlayHintTooltip_markdown_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24975,6 +25160,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonResolvableCompletionList_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -25012,6 +25198,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonSignatureHelpContext_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -25260,6 +25447,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonDocumentColorParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -25683,6 +25871,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_function_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -25703,6 +25892,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_FoldingRangeKind_comment_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -25749,6 +25939,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_regexp_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -25759,6 +25950,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonInlayHintParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -25805,6 +25997,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDocumentSymbolAux_toJson___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -26077,6 +26270,7 @@ return x_41;
 }
 }
 public static Obj l_Lean_Lsp_instHashableCompletionItemKind_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -26087,6 +26281,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCompletionItemTag___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26188,6 +26383,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSemanticTokensLegend_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -26268,6 +26464,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_FoldingRangeKind_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -26356,6 +26553,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCallHierarchyItem_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -27215,6 +27413,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_InlayHintTooltip_markdown_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -27223,6 +27422,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -27232,6 +27432,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_namespace_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27325,6 +27526,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSignatureInformation_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -27798,6 +28000,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_class_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27807,6 +28010,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_keyword_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -27841,6 +28045,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonPrepareRenameParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -28111,6 +28316,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSemanticTokenType_toJson(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -28281,6 +28487,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_event_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28290,6 +28497,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_FoldingRangeKind_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -28318,6 +28526,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instBEqSemanticTokenType_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -28329,6 +28538,7 @@ return x_6;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Lsp_instHashableCompletionItem_hash_spec__0___redArg(ulong x_1, ulong x_2, ulong x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -28468,6 +28678,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_instReprCompletionItemTag_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -28579,6 +28790,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_CompletionIdentifier_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -28619,6 +28831,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__3_spec__6(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -28975,6 +29188,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSemanticTokensLegend_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -29003,6 +29217,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionOptions_fromJson_spec__0_spec__0_spec__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -29043,6 +29258,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_enumMember_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29122,6 +29338,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_event_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -29166,6 +29383,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionList_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -29244,6 +29462,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_keyword_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29263,6 +29482,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonInlayHintOptions_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -29294,6 +29514,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -29431,6 +29652,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSemanticTokens_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -29547,6 +29769,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCompletionParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -29632,6 +29855,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -29671,6 +29895,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonFoldingRange_toJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -29699,6 +29924,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_modifier_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29769,6 +29995,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_FoldingRangeKind_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29778,6 +30005,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonHoverParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -29886,6 +30114,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instReprCompletionItemKind_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; Obj x_45 = null; Obj x_52 = null; Obj x_59 = null; Obj x_66 = null; Obj x_73 = null; Obj x_80 = null; Obj x_87 = null; Obj x_94 = null; Obj x_101 = null; Obj x_108 = null; Obj x_115 = null; Obj x_122 = null; Obj x_129 = null; Obj x_136 = null; Obj x_143 = null; Obj x_150 = null; Obj x_157 = null; Obj x_164 = null; Obj x_171 = null; 
@@ -30823,6 +31052,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCallHierarchyItem_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -31148,6 +31378,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_DocumentHighlightKind_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -31194,6 +31425,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -31267,6 +31499,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCompletionList_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -31319,6 +31552,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionOptions_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -31428,6 +31662,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_constant_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -31437,6 +31672,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionOptions_fromJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -31517,6 +31753,7 @@ return x_3;
 }
 }
 public static byte l_Array_isEqvAux___at___00Option_instBEq_beq___at___00Lean_Lsp_instBEqCompletionItem_beq_spec__5_spec__5___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -31581,6 +31818,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionOptions_toJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -31635,6 +31873,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCallHierarchyIncomingCall_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -31741,6 +31980,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenModifier_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -31793,6 +32033,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonDefinitionParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -32279,6 +32520,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Lsp_InlayHintKind_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -32311,6 +32553,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSymbolInformation_fromJson_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -32320,6 +32563,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelpContext_fromJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -32493,6 +32737,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Lsp_instHashableInsertReplaceEdit_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -32808,6 +33053,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCallHierarchyItem_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -32938,6 +33184,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonInlayHintClientCapabilities_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -33214,6 +33461,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCallHierarchyIncomingCall_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -33276,6 +33524,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonDocumentSymbolParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -33456,6 +33705,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_comment_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33477,6 +33727,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCompletionParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -33763,6 +34014,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDocumentColorOptions_toJson(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -33826,6 +34078,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_file_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -33899,6 +34152,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instBEqCompletionItem_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -33927,6 +34181,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCompletionIdentifier___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -34028,6 +34283,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonInlayHint_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -34839,6 +35095,7 @@ return x_155;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDefinitionParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -34929,6 +35186,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSemanticTokensOptions_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
@@ -35119,6 +35377,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_property_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35139,6 +35398,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonTypeDefinitionParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -35248,6 +35508,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonRenameParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_36 = 0; 
@@ -35407,6 +35668,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSignatureHelpContext_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -36013,6 +36275,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_enumMember_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -36073,6 +36336,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenModifier_readonly_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36158,6 +36422,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSignatureHelpTriggerKind___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -36258,6 +36523,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_operator_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -36344,6 +36610,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instHashableCompletionItemTag_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -36449,6 +36716,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSemanticTokenType_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36918,6 +37186,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCompletionItemTag___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36926,6 +37195,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_InlayHintTooltip_plaintext_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -36934,6 +37204,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonFoldingRange_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
@@ -37011,6 +37282,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonDocumentHighlightParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -37258,6 +37530,7 @@ return x_47;
 }
 }
 public static Obj l_Lean_Lsp_instBEqResolvableCompletionItemData_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -37281,6 +37554,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDocumentSymbolParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -37372,6 +37646,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonInlayHint_toJson_spec__1_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -37467,6 +37742,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonWorkspaceSymbolParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -37491,6 +37767,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonInlayHintOptions_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -37883,6 +38160,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenModifier_readonly_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -37941,6 +38219,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonInlayHint_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -38041,6 +38320,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDocumentSymbol_go(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -38081,6 +38361,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDocumentHighlightKind___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -38114,6 +38395,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonWorkspaceSymbolParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -38376,6 +38658,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDocumentColorParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -38428,6 +38711,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonResolvableCompletionList_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -38814,6 +39098,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_event_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -38843,6 +39128,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCallHierarchyIncomingCallsParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -39014,6 +39300,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_InlayHintKind_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -39162,6 +39449,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionOptions_fromJson_spec__0_spec__0_spec__2_spec__3(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -39363,6 +39651,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSignatureInformation_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
@@ -39719,6 +40008,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSemanticTokens_fromJson_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -39731,6 +40021,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__2_spec__4_spec__6_spec__9(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -39865,6 +40156,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_file_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -39967,6 +40259,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonReferenceContext_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -40422,6 +40715,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHintLabelPart_fromJson_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -40431,6 +40725,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instBEqCompletionIdentifier_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -40487,6 +40782,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_constructor_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -40557,6 +40853,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_ParameterInformationLabel_range_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -40619,6 +40916,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_unit_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -40715,6 +41013,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSemanticTokens_fromJson_spec__0_spec__0_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -40815,6 +41114,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionList_fromJson_spec__0_spec__0_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -40936,6 +41236,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonPrepareRenameParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -41226,6 +41527,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_function_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -41311,6 +41613,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instHashableCompletionIdentifier_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -41321,6 +41624,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCallHierarchyOutgoingCallsParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -41473,6 +41777,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSymbolTag___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -41720,6 +42025,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_string_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -41781,6 +42087,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionItem_toJson_spec__5_spec__5_spec__6___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -42051,6 +42358,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSignatureHelpTriggerKind___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -42116,6 +42424,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDeclarationParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -42301,6 +42610,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -42352,6 +42662,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonFoldingRangeParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -42413,6 +42724,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_enumMember_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -42515,6 +42827,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionOptions_toJson_spec__0_spec__0_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -42601,6 +42914,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureInformation_fromJson_spec__0_spec__0_spec__1_spec__4(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -42791,6 +43105,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSymbolInformation_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -43061,6 +43376,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenModifier_abstract_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -43071,6 +43387,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSymbolInformation_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -43700,6 +44017,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonInlayHint_fromJson_spec__0_spec__0_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -43901,6 +44219,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonFoldingRangeKind___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -43932,6 +44251,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -44018,6 +44338,7 @@ return x_3;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Lsp_instHashableCallHierarchyItem_hash_spec__0(Obj x_1, ulong x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; 
@@ -44149,6 +44470,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelpContext_fromJson_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -44236,6 +44558,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonCallHierarchyIncomingCall_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -44493,6 +44816,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSemanticTokens_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -44502,6 +44826,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonInlayHint_toJson_spec__1_spec__1_spec__3(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -44623,6 +44948,7 @@ return x_4;
 }
 }
 public static ulong l_Lean_Lsp_instHashableResolvableCompletionItem_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; ulong x_16 = 0; ulong x_17 = 0; ulong x_30 = 0; ulong x_31 = 0; ulong x_39 = 0; ulong x_40 = 0; ulong x_48 = 0; ulong x_49 = 0; ulong x_57 = 0; ulong x_58 = 0; ulong x_67 = 0; ulong x_68 = 0; ulong x_69 = 0; ulong x_70 = 0; 
@@ -44902,6 +45228,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSemanticTokens_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -45258,6 +45585,7 @@ return x_1;
 }
 }
 public static ulong l_Lean_Lsp_instHashableCallHierarchyItem_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; ulong x_27 = 0; ulong x_28 = 0; ulong x_29 = 0; ulong x_30 = 0; ulong x_31 = 0; ulong x_32 = 0; ulong x_40 = 0; 
@@ -45408,6 +45736,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureInformation_fromJson_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -45553,6 +45882,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonDocumentSymbolAux_toJson___at___00Lean_Lsp_instToJsonDocumentSymbol_go_spec__0_spec__0_spec__1_spec__2(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -45622,6 +45952,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonCompletionList_toJson_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -45673,6 +46004,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonSignatureInformation_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -45713,6 +46045,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -45821,6 +46154,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_CompletionItemKind_typeParameter_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -45830,6 +46164,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSymbolKind___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -45993,6 +46328,7 @@ return x_27;
 }
 }
 public static Obj l_Lean_Lsp_ParameterInformationLabel_range_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -46100,6 +46436,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSignatureHelpOptions_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -46586,6 +46923,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonHover_fromJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -46740,6 +47078,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCompletionOptions_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -46877,6 +47216,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSemanticTokenModifier_toJson(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -47160,6 +47500,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonColor_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -48016,6 +48357,7 @@ return x_11;
 }
 }
 public static ulong l_Lean_Lsp_instHashableCompletionItem_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; ulong x_16 = 0; ulong x_17 = 0; ulong x_30 = 0; ulong x_31 = 0; ulong x_39 = 0; ulong x_40 = 0; ulong x_48 = 0; ulong x_49 = 0; ulong x_57 = 0; ulong x_58 = 0; ulong x_67 = 0; ulong x_68 = 0; ulong x_69 = 0; ulong x_70 = 0; 
@@ -48266,6 +48608,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonInlayHintKind___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -49026,6 +49369,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_boolean_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -49066,6 +49410,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCompletionItem_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; 
@@ -49384,6 +49729,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCallHierarchyIncomingCallsParams_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -49495,6 +49841,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonReferenceParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_30 = 0; 
@@ -49593,6 +49940,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCallHierarchyOutgoingCallsParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -49616,6 +49964,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonResolvableCompletionList_fromJson_spec__0_spec__0_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -49666,6 +50015,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDocumentHighlight_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_21 = 0; 
@@ -50040,6 +50390,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__1_spec__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -50366,6 +50717,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCallHierarchyOutgoingCall_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -50452,6 +50804,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSignatureHelpParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_32 = 0; 
@@ -50542,6 +50895,7 @@ return x_28;
 }
 }
 public static Obj l_Lean_Lsp_SymbolKind_array_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -50589,6 +50943,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonRenameOptions_toJson___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -51193,6 +51548,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonRenameParams_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -52221,6 +52577,7 @@ return x_1;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Lsp_instHashableCallHierarchyItem_hash_spec__0___redArg(ulong x_1, ulong x_2, ulong x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -52432,6 +52789,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonDocumentHighlight_toJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -52670,6 +53028,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Lsp_SemanticTokenType_string_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -52791,6 +53150,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSignatureHelp_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -53255,6 +53615,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Json_opt___at___00Lean_Lsp_instToJsonCompletionItem_toJson_spec__5_spec__5_spec__6(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -53560,6 +53921,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonInsertReplaceEdit_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -54169,6 +54531,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_Lsp_instToJsonCompletionList_toJson_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -54247,6 +54610,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonResolvableCompletionList_fromJson_spec__0_spec__0_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -54336,6 +54700,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Json_opt___at___00Lean_Lsp_instToJsonSignatureHelpParams_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -54658,6 +55023,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureHelpContext_fromJson_spec__1_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -54934,6 +55300,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonParameterInformation_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_41 = 0; 
@@ -55071,6 +55438,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonSignatureHelpContext_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -55150,6 +55518,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCallHierarchyIncomingCallsParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -55371,6 +55740,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonDocumentHighlightParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -55475,6 +55845,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonRenameOptions_toJson(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -55522,6 +55893,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonResolvableCompletionList_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -55726,6 +56098,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonCallHierarchyPrepareParams_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -56164,6 +56537,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonSignatureInformation_fromJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -56192,6 +56566,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonSignatureHelp_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -57725,6 +58100,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___at___00Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonCompletionItem_fromJson_spec__3_spec__6(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

@@ -44,6 +44,22 @@ Closures can be saved (`--incr-save` snapshots): the file lists the static metho
 point to by assembly, type and name (`Compact/FunctionTable.cs`), the managed counterpart of the
 native library-relative function addresses.
 
+## Stack overflow and heartbeats
+
+A .NET stack overflow cannot be caught and would take down every Lean program hosted by the OS
+process. The emitter therefore puts `lean_stack_probe()` at the start of every function that can
+take part in a recursion among compiled functions (it calls itself or a function later in its
+module; every cycle of a module's call graph contains such a call), and `lean_apply_N` probes for
+recursion through closures. The probe compares the stack pointer with a per-thread limit set when
+a Lean thread starts (`Core/LeanRt.Stack.cs`); past the limit the program prints
+"Stack overflow detected. Aborting." and ends with status 134, as natively.
+
+Heartbeats follow the native rules: the counter read by `IO.getNumHeartbeats` is incremented by
+the allocations native Lean makes with `lean_alloc_small_object` (constructors, thunks, refs,
+big-number objects, external objects, tasks, promises; not closures, arrays or strings), and the
+kernel's `check_heartbeat` has its own per-thread counter and limit (`lean --timeout`), reset
+when a task starts.
+
 ## Calls between runtime and generated code
 
 * Generated code calls runtime functions directly (`using static LeanSharp.Runtime.LeanRt`).

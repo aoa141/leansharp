@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_IR_EmitLLVM {
 public static Obj lean_ir_emit_llvm(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -580,6 +581,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callIODeclInitFn(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -588,6 +590,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_emitLLVM_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -615,6 +618,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_builderAppendBasicBlock___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_24 = 0; 
@@ -722,6 +726,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOMkWorld___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -736,6 +741,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitArgVal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -770,6 +776,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFnDecl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -784,6 +791,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitApp(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -1454,6 +1462,7 @@ return x_117;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getOrCreateFunctionPrototype___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -1470,6 +1479,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanInitTaskManager(ulong x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1478,6 +1488,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMarkPersistentFn___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -1493,6 +1504,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanSetupLibUV___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; ulong x_19 = 0; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; byte x_48 = 0; 
@@ -1610,6 +1622,7 @@ return x_40;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_buildLeanBoolTrue_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -1626,6 +1639,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_LLVM_size__tType___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -1647,6 +1661,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Lean_IR_EmitLLVM_emitExternCall_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -1659,6 +1674,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorRelease(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1678,6 +1694,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitNumLit___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -1693,6 +1710,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitAllocCtor___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -1707,6 +1725,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOMarkEndInitialization___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; ulong x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_27 = 0; 
@@ -1774,6 +1793,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFnArgs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; byte x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -1792,6 +1812,7 @@ return x_13;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_IR_EmitLLVM_emitLhsSlot___00spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1800,6 +1821,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_EmitLLVM_emitFnDeclAux_spec__0(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; byte x_17 = 0; 
@@ -2007,6 +2029,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getEnv___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -2019,6 +2042,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_EmitLLVM_quoteString_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2050,6 +2074,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMkString(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2078,6 +2103,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_EmitLLVM_quoteString_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2086,6 +2112,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_getModuleFunctions(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
@@ -2096,6 +2123,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_constIntSizeT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -2109,6 +2137,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitExternDeclAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; 
@@ -2123,6 +2152,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOResultGetValue___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_41 = 0; 
@@ -2233,6 +2263,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanUnsignedToNatFn___redArg(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; ulong x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; ulong x_15 = 0; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; ulong x_22 = 0; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; byte x_26 = 0; byte x_43 = 0; 
@@ -2349,6 +2380,7 @@ return x_35;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_declareVars(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -2447,6 +2479,7 @@ return x_25;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitArgVal(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2598,6 +2631,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0_spec__1___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -2623,6 +2657,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitDeclInit___lam__0(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; Obj x_9 = null; 
@@ -2634,6 +2669,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOResultShowError___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_34 = 0; 
@@ -2709,6 +2745,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMainFn(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2727,6 +2764,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitProj___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -2742,6 +2780,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitReset___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -2756,6 +2795,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_constIntUnsigned(ulong x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2797,6 +2837,7 @@ return x_1;
 }
 }
 public static Obj l_List_forM___at___00Lean_IR_EmitLLVM_emitInitFn_spec__0(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -2836,6 +2877,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_ShouldForwardControlFlow_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2845,6 +2887,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitJp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2864,6 +2907,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMarkPersistentFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -2880,6 +2924,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2898,6 +2943,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2906,6 +2952,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_addJpToState(ulong x_1, Obj x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2914,6 +2961,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_getModuleGlobals___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -2926,6 +2974,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_LLVM_getOrAddFunction___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -2942,6 +2991,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitInitFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -2958,6 +3008,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_EmitLLVM_emitFnDecls_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -2976,6 +3027,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getFunIdTy(ulong x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3360,6 +3412,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___at___00Lean_IR_EmitLLVM_emitCtorSetArgs_spec__0(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -3378,6 +3431,7 @@ return x_1;
 }
 }
 public static Obj l_List_forM___at___00Lean_IR_EmitLLVM_emitFns_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -3404,6 +3458,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitMainFn___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; Obj x_15 = null; 
@@ -3423,6 +3478,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_EmitLLVM_emitFnDecls_spec__1(ulong x_1, Obj x_2, Obj x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; byte x_18 = 0; 
@@ -3650,6 +3706,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3658,6 +3715,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_buildLeanBoolTrue_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -3672,6 +3730,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanUnsignedToNatFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -3687,6 +3746,7 @@ return x_10;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_IR_EmitLLVM_emitJp_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3695,6 +3755,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitInitFn___lam__0(ulong x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null; 
@@ -4010,6 +4071,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitDeclInit(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_661 = 0; 
@@ -7209,6 +7271,7 @@ return x_655;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIsScalar___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -7234,6 +7297,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanAllocCtor___redArg(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; ulong x_28 = 0; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; byte x_57 = 0; 
@@ -7380,6 +7444,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_buildPrologueAlloca___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -7396,6 +7461,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitPartialApp(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -7951,6 +8017,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitDec(ulong x_1, ulong x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -8126,6 +8193,7 @@ return x_41;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_IR_EmitLLVM_emitLhsSlot___00spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8166,6 +8234,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitCtorSetArgs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -8191,6 +8260,7 @@ return x_1;
 }
 }
 public static Obj l_List_forM___at___00Lean_IR_EmitLLVM_emitFns_spec__0(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -8235,6 +8305,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_instInhabitedM___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8243,6 +8314,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_RefcountKind_dec_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8252,6 +8324,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitTailCall___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -8294,6 +8367,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOResultIsError(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -8312,6 +8386,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_buildPrologueAlloca___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; ulong x_7 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; byte x_37 = 0; 
@@ -8413,6 +8488,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOResultMKOk___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -8438,6 +8514,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___at___00Lean_IR_EmitLLVM_emitReset_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -8483,6 +8560,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitUnreachable___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -8497,6 +8575,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOResultIsOk(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -8522,6 +8601,7 @@ Obj x_14 = _args[13];
 Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
+lean_stack_probe();
 _start:
 {
 ulong x_18 = 0; ulong x_19 = 0; ulong x_20 = 0; ulong x_21 = 0; ulong x_22 = 0; ulong x_23 = 0; ulong x_24 = 0; ulong x_25 = 0; Obj x_26 = null; 
@@ -8549,6 +8629,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitReset(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -8859,6 +8940,7 @@ return x_69;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callModInitFn___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -8888,6 +8970,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_toHexDigit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8917,6 +9000,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_EmitLLVM_quoteString_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8927,6 +9011,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_buildWhile___00__boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -8954,6 +9039,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getLLVMModule(ulong x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8962,6 +9048,7 @@ return x_5;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_IR_EmitLLVM_emitApp_spec__1(Obj x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -9027,6 +9114,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitReset___lam__0(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -9456,6 +9544,7 @@ return x_87;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanDecRef(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -9474,6 +9563,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanFinalizeTaskManager___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; ulong x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_27 = 0; 
@@ -9541,6 +9631,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorSetTag___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -9558,6 +9649,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitArgSlot___00__boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -9572,6 +9664,7 @@ return x_9;
 }
 }
 public static Obj l_panic___at___00Lean_IR_EmitLLVM_toLLVMType_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -9584,6 +9677,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorSet___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; byte x_45 = 0; 
@@ -9682,6 +9776,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOMkWorld___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; ulong x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_34 = 0; 
@@ -9794,6 +9889,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitMainFnIfNeeded___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -9817,6 +9913,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_EmitLLVM_getFunIdTy_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -9850,6 +9947,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_throwInvalidExportName___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9885,6 +9983,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_IR_EmitLLVM_emitJp_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9920,6 +10019,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_getLeanHBcPath___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9956,6 +10056,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanInitialize___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -9969,6 +10070,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getModName___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9978,6 +10080,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_ShouldForwardControlFlow_yes_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -9988,6 +10091,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_LLVM_getOrAddGlobal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -10004,6 +10108,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getOrCreateFunctionPrototype(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -10032,6 +10137,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -10134,6 +10240,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitBlock(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -10696,6 +10803,7 @@ return x_119;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0_spec__1_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10723,6 +10831,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callUnboxForType___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -10750,6 +10859,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callPureDeclInitFn___redArg(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_34 = 0; 
@@ -10850,6 +10960,7 @@ return x_26;
 }
 }
 public static Obj l_panic___at___00Lean_IR_EmitLLVM_emitExternCall_spec__0(ulong x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10874,6 +10985,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitMainFn___lam__5(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, Obj x_7, ulong x_8, Obj x_9, Obj x_10, ulong x_11, ulong x_12, ulong x_13, ulong x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 Obj x_18 = null; 
@@ -12217,6 +12329,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanInitialize___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -12231,6 +12344,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCStrToNatFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -12245,6 +12359,7 @@ return x_10;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -12253,6 +12368,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFnBody___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -12313,6 +12429,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_builderGetInsertionFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -12327,6 +12444,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitApp___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -12351,6 +12469,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_throwInvalidExportName(ulong x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -12359,6 +12478,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_instInhabitedM(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12367,6 +12487,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCStrToNatFn___redArg(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_44 = 0; 
@@ -12491,6 +12612,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___at___00Lean_IR_EmitLLVM_emitPartialApp_spec__0(Obj x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -12499,6 +12621,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFullApp(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_384 = 0; 
@@ -14372,6 +14495,7 @@ return x_66;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitReuse___lam__1(ulong x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, ulong x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -14946,6 +15070,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorGet___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -14963,6 +15088,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitUnreachable(ulong x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14971,6 +15097,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitTag___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -14986,6 +15113,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMkString___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_41 = 0; 
@@ -15096,6 +15224,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitJDecl___redArg(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -15396,6 +15525,7 @@ return x_62;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFns(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -15421,6 +15551,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_buildIfThenElse___00__boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -15437,6 +15568,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_constInt64(ulong x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -15477,6 +15609,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_EmitLLVM_emitInitFn_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; ulong x_15 = 0; ulong x_16 = 0; Obj x_17 = null; 
@@ -15509,6 +15642,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_toCName___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -15579,6 +15713,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanRefcountFn(ulong x_1, ulong x_2, byte x_3, byte x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -15597,6 +15732,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_EmitLLVM_emitSimpleExternalCall_spec__0(ulong x_1, ulong x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_15 = null; byte x_19 = 0; 
@@ -15880,6 +16016,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitMainFn___lam__0(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, ulong x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; Obj x_12 = null; 
@@ -16207,6 +16344,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanSetPanicMessages(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -16215,6 +16353,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitTag(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -16285,6 +16424,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_toLLVMType___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -16316,6 +16456,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_hasMainFn___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16325,6 +16466,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanClosureSetFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; Obj x_15 = null; 
@@ -16345,6 +16487,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_ShouldForwardControlFlow_yes_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16354,6 +16497,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___at___00Lean_IR_EmitLLVM_emitReset_spec__0___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_9 = 0; 
@@ -16414,6 +16558,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitDecl(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -16546,6 +16691,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_main___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -16558,6 +16704,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitExternCall(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_21 = null; Obj x_22 = null; 
@@ -16723,6 +16870,7 @@ return x_19;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -16734,6 +16882,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitUSet(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; ulong x_25 = 0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; ulong x_30 = 0; Obj x_31 = null; Obj x_32 = null; 
@@ -17094,6 +17243,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_EmitLLVM_emitFnArgs_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 ulong x_14 = 0; ulong x_15 = 0; ulong x_16 = 0; Obj x_17 = null; 
@@ -17145,6 +17295,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIsExclusive___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -17161,6 +17312,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_48 = 0; 
@@ -17314,6 +17466,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitJp(ulong x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -17351,6 +17504,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorSet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -17371,6 +17525,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanClosureSetFn___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; ulong x_25 = 0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_46 = 0; 
@@ -17456,6 +17611,7 @@ return x_42;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorGet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -17474,6 +17630,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitAllocCtor___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -17489,6 +17646,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanBox___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -17535,6 +17693,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getDecl___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_32 = 0; 
@@ -17684,6 +17843,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitProj(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -18005,6 +18165,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getDecl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -18017,6 +18178,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanInitialize___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; ulong x_6 = 0; Obj x_7 = null; byte x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; byte x_27 = 0; 
@@ -18084,6 +18246,7 @@ return x_23;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -18169,6 +18332,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanObjTag___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -18199,6 +18363,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Compiler_IR_EmitLLVM_0__Lean_IR_getModuleGlobals_go(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -18239,6 +18404,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_getModuleGlobals(ulong x_1, ulong x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
@@ -18249,6 +18415,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsSlotStore___redArg(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_37 = 0; 
@@ -18410,6 +18577,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_buildIfThenElse__(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; Obj x_14 = null; ulong x_15 = 0; Obj x_16 = null; Obj x_17 = null; ulong x_18 = 0; Obj x_19 = null; Obj x_20 = null; ulong x_21 = 0; Obj x_27 = null; Obj x_28 = null; ulong x_61 = 0; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; 
@@ -18752,6 +18920,7 @@ return x_55;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanInitTaskManager___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; ulong x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_27 = 0; 
@@ -18841,6 +19010,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMkStringUncheckedFn___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -18876,6 +19046,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanAllocClosureFn___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; ulong x_25 = 0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_53 = 0; 
@@ -19016,6 +19187,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_EmitLLVM_emitFnArgs_spec__1___redArg(Obj x_1, Obj x_2, ulong x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; byte x_15 = 0; 
@@ -19360,6 +19532,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsSlot___00__redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -19384,6 +19557,7 @@ return x_10;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0_spec__1_spec__2_spec__3___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -19470,6 +19644,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanObjTag___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_44 = 0; 
@@ -19606,6 +19781,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_emitLLVM_spec__0(ulong x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -19636,6 +19812,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanSetPanicMessages___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -19685,6 +19862,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_toCName___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_40 = 0; 
@@ -19875,6 +20053,7 @@ return x_34;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitReset___lam__1(ulong x_1, Obj x_2, Obj x_3, Obj x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -20444,6 +20623,7 @@ return x_118;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIsScalar(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -20483,6 +20663,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitCtor___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -20499,6 +20680,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMarkPersistentFn(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -20527,6 +20709,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitAllocCtor___redArg(ulong x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -20545,6 +20728,7 @@ return x_14;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_IR_EmitLLVM_emitApp_spec__1___redArg(Obj x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -20694,6 +20878,7 @@ return x_8;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00Lean_IR_EmitLLVM_emitMainFn_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -20705,6 +20890,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_instToStringRefcountKind___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -21021,6 +21207,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOResultMKOk(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -21029,6 +21216,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitIsShared___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -21086,6 +21274,7 @@ return x_1;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -21113,6 +21302,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorGetUsize(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -21131,6 +21321,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0_spec__1_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -21149,6 +21340,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lean_IR_emitLLVM_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -21200,6 +21392,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLit(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -21546,6 +21739,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitDel(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; ulong x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; 
@@ -21741,6 +21935,7 @@ return x_52;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitMainFn___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; ulong x_15 = 0; ulong x_16 = 0; Obj x_17 = null; 
@@ -21763,6 +21958,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitOffset___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -21789,6 +21985,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getOrAddFunIdValue(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -22538,6 +22735,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorGet(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -22546,6 +22744,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIsExclusive___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -22580,6 +22779,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorSetTag___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -22598,6 +22798,7 @@ return x_13;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_IR_EmitLLVM_emitJp_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; ulong x_15 = 0; ulong x_16 = 0; Obj x_17 = null; Obj x_18 = null; 
@@ -22650,6 +22851,7 @@ return x_8;
 }
 }
 public static Obj l_panic___at___00Lean_IR_EmitLLVM_toLLVMType_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -22670,6 +22872,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitSSet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -22736,6 +22939,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitBox(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_35 = null; 
@@ -23016,6 +23220,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFnDeclAux(ulong x_1, ulong x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; ulong x_18 = 0; Obj x_31 = null; Obj x_32 = null; byte x_33 = 0; 
@@ -23587,6 +23792,7 @@ goto block_13;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitDeclAux(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; byte x_193 = 0; 
@@ -24430,6 +24636,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_addJpToState___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -24441,6 +24648,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_IR_EmitLLVM_emitLhsSlot___00spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24451,6 +24659,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIsExclusive___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_44 = 0; 
@@ -24564,6 +24773,7 @@ return x_36;
 }
 }
 public static Obj l_List_any___at___00Lean_IR_EmitLLVM_hasMainFn_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -24585,6 +24795,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOResultIsOk___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_41 = 0; 
@@ -24695,6 +24906,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_hasMainFn(ulong x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -24774,6 +24986,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFnDecl(ulong x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -25134,6 +25347,7 @@ return x_8;
 }
 }
 public static ulong l_Lean_IR_LLVM_getOrAddFunction(ulong x_1, ulong x_2, Obj x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -25261,6 +25475,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsSlot___00__boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -25273,6 +25488,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanObjTag___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -25289,6 +25505,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_ShouldForwardControlFlow_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -25298,6 +25515,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitSimpleExternalCall___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -25316,6 +25534,7 @@ return x_13;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -25337,6 +25556,7 @@ return x_7;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -25364,6 +25584,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitSSet(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; ulong x_12 = 0; Obj x_13 = null; Obj x_14 = null; 
@@ -25808,6 +26029,7 @@ return x_95;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_EmitLLVM_emitJmp_spec__0(ulong x_1, ulong x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_14 = 0; 
@@ -25946,6 +26168,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_toCInitName___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -26079,6 +26302,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_RefcountKind_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26115,6 +26339,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_addVarToState(ulong x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -26199,6 +26424,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitOffset(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -26217,6 +26443,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_toCInitName___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_37 = 0; 
@@ -26397,6 +26624,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMainFn___redArg(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; ulong x_16 = 0; ulong x_17 = 0; Obj x_18 = null; 
@@ -26515,6 +26743,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_getModName(ulong x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -26540,6 +26769,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsVal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -26570,6 +26800,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_EmitLLVM_emitInitFn_spec__1___lam__0(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; Obj x_8 = null; Obj x_9 = null; 
@@ -26581,6 +26812,7 @@ return x_9;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lean_IR_EmitLLVM_ensureHasDefault_x27_spec__0(Obj x_1, ulong x_2, ulong x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -26627,6 +26859,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitSet(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; ulong x_25 = 0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; ulong x_30 = 0; Obj x_31 = null; Obj x_32 = null; 
@@ -26980,6 +27213,7 @@ return x_92;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_EmitLLVM_emitInitFn_spec__1(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; byte x_19 = 0; 
@@ -27521,6 +27755,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___at___00Lean_IR_EmitLLVM_emitCtorSetArgs_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -27572,6 +27807,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_main(ulong x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -27675,6 +27911,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callModInitFn(ulong x_1, ulong x_2, Obj x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -27683,6 +27920,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsVal___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -27769,6 +28007,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanUnboxUint32___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -27784,6 +28023,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitMainFn___lam__4(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, ulong x_8, ulong x_9, ulong x_10, Obj x_11, ulong x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; ulong x_22 = 0; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; 
@@ -28375,6 +28615,7 @@ return x_143;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___at___00Lean_IR_EmitLLVM_emitPartialApp_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -28401,6 +28642,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMarkPersistentFn___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; ulong x_16 = 0; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; byte x_20 = 0; byte x_34 = 0; 
@@ -28543,6 +28785,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_EmitLLVM_emitDeclAux_spec__0(ulong x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -28715,6 +28958,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_get_x3f___at___00Std_DHashMap_Internal_Raw_u2080_Const_get_x3f___at___00Lean_IR_EmitLLVM_emitJp_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -28747,6 +28991,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitCase(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; Obj x_18 = null; Obj x_21 = null; 
@@ -29130,6 +29375,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitSProj___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -29176,6 +29422,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorSetTag___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; ulong x_21 = 0; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; byte x_40 = 0; 
@@ -29285,6 +29532,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitVDecl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -29323,6 +29571,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMkStringUncheckedFn___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; ulong x_25 = 0; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_53 = 0; 
@@ -29443,6 +29692,7 @@ return x_45;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanBox___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -29586,6 +29836,7 @@ return x_9;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_EmitLLVM_emitFnArgs_spec__0___redArg(Obj x_1, Obj x_2, ulong x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; byte x_15 = 0; 
@@ -29806,6 +30057,7 @@ return x_13;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addJpToState_spec__0_spec__1_spec__2_spec__3___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -29903,6 +30155,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_IR_EmitLLVM_0__Lean_IR_getModuleFunctions_go(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -29927,6 +30180,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_hasMainFn___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_22 = 0; 
@@ -30092,6 +30346,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_EmitLLVM_emitApp_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -30161,6 +30416,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitJmp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -30261,6 +30517,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIsScalar___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_41 = 0; 
@@ -30381,6 +30638,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___at___00Lean_IR_EmitLLVM_emitCtorSetArgs_spec__0___redArg(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_11 = 0; 
@@ -30791,6 +31049,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitUProj___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -30818,6 +31077,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFnDecls___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -30841,6 +31101,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorGetUsize___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; ulong x_19 = 0; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; byte x_47 = 0; 
@@ -31092,6 +31353,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsVal(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -31100,6 +31362,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanUnboxUint32___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -31446,6 +31709,7 @@ return x_7;
 }
 }
 public static Obj l_panic___at___00Lean_IR_EmitLLVM_emitExternCall_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -31472,6 +31736,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitIsShared(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -31800,6 +32065,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_declareVar(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -32046,6 +32312,7 @@ return x_3;
 }
 }
 public static Obj l_Array_filterMapM___at___00Lean_IR_emitLLVM_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -32059,6 +32326,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitNumLit(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -32283,6 +32551,7 @@ return x_54;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_EmitLLVM_emitTailCall_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -32301,6 +32570,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_toLLVMType(ulong x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -32419,6 +32689,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanUnboxUint32(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -32538,6 +32809,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanIOResultMKOk___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; ulong x_16 = 0; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; byte x_20 = 0; byte x_40 = 0; 
@@ -32728,6 +33000,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0_spec__1_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -32757,6 +33030,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitMainFn(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; ulong x_16 = 0; Obj x_17 = null; Obj x_70 = null; Obj x_71 = null; Obj x_72 = null; Obj x_73 = null; Obj x_74 = null; 
@@ -34564,6 +34838,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitVDecl(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_5)) {
@@ -34881,6 +35156,7 @@ return x_76;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitReuse___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 ulong x_11 = 0; ulong x_12 = 0; byte x_13 = 0; Obj x_14 = null; 
@@ -34897,6 +35173,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitUnbox(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -35349,6 +35626,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitArgSlot__(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -35699,6 +35977,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_addVarToState___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_22 = 0; 
@@ -35758,6 +36037,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_ShouldForwardControlFlow_no_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -35768,6 +36048,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanDecRef___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -35783,6 +36064,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_replace___at___00Std_DHashMap_Internal_Raw_u2080_insert___at___00Lean_IR_EmitLLVM_addVarToState_spec__0_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -35914,6 +36196,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_buildIfThen__(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_75 = 0; 
@@ -36177,6 +36460,7 @@ return x_34;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitFnArgs(ulong x_1, ulong x_2, byte x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 if (x_3 == 0)
@@ -36373,6 +36657,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanUnboxUint32___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_41 = 0; 
@@ -36554,6 +36839,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitCtor(ulong x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_104 = 0; 
@@ -37022,6 +37308,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_EmitLLVM_emitCase_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 ulong x_13 = 0; ulong x_14 = 0; ulong x_15 = 0; ulong x_16 = 0; ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; 
@@ -37060,6 +37347,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitUnreachable___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_28 = 0; 
@@ -37128,6 +37416,7 @@ return x_24;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_EmitLLVM_emitFnArgs_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 ulong x_14 = 0; ulong x_15 = 0; ulong x_16 = 0; Obj x_17 = null; 
@@ -37190,6 +37479,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callIODeclInitFn___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -37257,6 +37547,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanMkStringUncheckedFn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; Obj x_15 = null; 
@@ -37296,6 +37587,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitInitFn(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; ulong x_21 = 0; ulong x_22 = 0; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; byte x_30 = 0; ulong x_31 = 0; byte x_32 = 0; Obj x_33 = null; ulong x_34 = 0; ulong x_35 = 0; Obj x_36 = null; Obj x_37 = null; ulong x_38 = 0; Obj x_39 = null; Obj x_40 = null; ulong x_41 = 0; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; ulong x_46 = 0; ulong x_47 = 0; Obj x_48 = null; ulong x_49 = 0; Obj x_50 = null; Obj x_51 = null; ulong x_52 = 0; Obj x_53 = null; Obj x_54 = null; 
@@ -37775,6 +38067,7 @@ return x_54;
 }
 }
 public static Obj l_List_foldl___at___00Lean_IR_EmitLLVM_emitFnDecls_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -37835,6 +38128,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsSlot__(ulong x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -38016,6 +38310,7 @@ return x_12;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_EmitLLVM_emitTailCall_spec__0(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -38256,6 +38551,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsSlot___00__redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -38329,6 +38625,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanInitializeRuntimeModule(ulong x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -38760,6 +39057,7 @@ return x_5;
 }
 }
 public static byte l_List_any___at___00Lean_IR_EmitLLVM_hasMainFn_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -38800,6 +39098,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitInc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -38816,6 +39115,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanInitializeRuntimeModule___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; ulong x_6 = 0; Obj x_7 = null; byte x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; byte x_27 = 0; 
@@ -38883,6 +39183,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorGet___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; ulong x_19 = 0; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; byte x_27 = 0; byte x_50 = 0; 
@@ -39022,6 +39323,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_EmitLLVM_emitFullApp_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -39052,6 +39354,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanRefcountFn___redArg(ulong x_1, ulong x_2, byte x_3, byte x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_51 = 0; Obj x_52 = null; Obj x_53 = null; Obj x_70 = null; Obj x_71 = null; Obj x_78 = null; Obj x_79 = null; 
@@ -39265,6 +39568,7 @@ goto block_77;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanCtorRelease___redArg(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; ulong x_21 = 0; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; byte x_40 = 0; 
@@ -39353,6 +39657,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callUnboxForType(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; ulong x_10 = 0; Obj x_11 = null; 
@@ -40202,6 +40507,7 @@ return x_36;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitLhsSlotStore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -40354,6 +40660,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitInc(ulong x_1, ulong x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -40589,6 +40896,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callIODeclInitFn___redArg(ulong x_1, ulong x_2, Obj x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; ulong x_16 = 0; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; byte x_20 = 0; byte x_41 = 0; 
@@ -40746,6 +41054,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_callLeanBox___redArg(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; ulong x_17 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_41 = 0; 
@@ -41072,6 +41381,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lean_IR_EmitLLVM_quoteString_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -41204,6 +41514,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_EmitLLVM_getFunIdTy_spec__0(ulong x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -41600,6 +41911,7 @@ return x_31;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Array_filterMapM___at___00Lean_IR_emitLLVM_spec__1_spec__1(ulong x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_12 = 0; 
@@ -41914,6 +42226,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_toCInitName___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; Obj x_7 = null; 
@@ -41936,6 +42249,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_emitLLVM_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -42124,6 +42438,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_emitLLVM_spec__3(ulong x_1, ulong x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -42175,6 +42490,7 @@ return x_25;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_emitLLVM_spec__2(ulong x_1, ulong x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -43211,6 +43527,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitMainFn___lam__2(Obj x_1, ulong x_2, ulong x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7, ulong x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -44310,6 +44627,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_EmitLLVM_emitFullApp_spec__0(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -44581,6 +44899,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_IR_EmitLLVM_emitCase_spec__0(Obj x_1, ulong x_2, ulong x_3, ulong x_4, ulong x_5, Obj x_6, ulong x_7, ulong x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; byte x_20 = 0; 
@@ -44950,6 +45269,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_EmitLLVM_declareVars_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -45021,6 +45341,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___at___00Lean_IR_EmitLLVM_emitPartialApp_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_11 = 0; 
@@ -45305,6 +45626,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_IR_EmitLLVM_emitSetTag___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -45927,6 +46249,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_IR_EmitLLVM_emitApp_spec__0(ulong x_1, ulong x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -46113,6 +46436,7 @@ return x_14;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_IR_EmitLLVM_declareVars_spec__0(ulong x_1, ulong x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 

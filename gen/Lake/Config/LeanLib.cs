@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Config_LeanLib {
 public static Obj l_Lake_LeanLib_requiresModuleSystem___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -17,6 +18,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LeanLib_sharedLibFileName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; 
@@ -38,6 +40,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLib_precompileModules___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -144,6 +147,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_LeanLib_leanOptions___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -153,6 +157,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLib_defaultFacets___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -239,6 +244,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LeanLib_staticLibFileName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; 
@@ -274,6 +280,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Package_findLeanLib_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -292,6 +299,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_leanLibs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -323,6 +331,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_LeanLib_sharedLibFile(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; 
@@ -406,6 +415,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_LeanLib_staticLibFile(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; 
@@ -524,6 +534,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LeanLib_isBuildableModule___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -820,6 +831,7 @@ return x_2;
 }
 }
 public static byte l_Lake_LeanLib_isPlugin(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -856,6 +868,7 @@ return x_13;
 }
 }
 public static Obj l_Lake_LeanLib_staticExportLibFile(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -900,6 +913,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LeanLib_libName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; 
@@ -1039,6 +1053,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLib_allowNonModules___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1105,6 +1120,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_Package_leanLibs___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1343,6 +1359,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_LeanLib_shouldPrecompile___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

@@ -81,6 +81,7 @@ return x_4;
 }
 }
 public static Obj l_StateCpsT_instMonadAttach___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -89,6 +90,7 @@ return x_2;
 }
 }
 public static Obj l_StateCpsT_instMonad___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -151,6 +153,7 @@ return x_1;
 }
 }
 public static Obj l_StateCpsT_run_x27___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -160,6 +163,7 @@ return x_4;
 }
 }
 public static Obj l_StateCpsT_instMonad___redArg___lam__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -178,6 +182,7 @@ return x_6;
 }
 }
 public static Obj l_StateCpsT_instMonad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -244,6 +249,7 @@ return x_4;
 }
 }
 public static Obj l_StateCpsT_instMonadStateOf___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -253,6 +259,7 @@ return x_5;
 }
 }
 public static Obj l_StateCpsT_instMonad___redArg___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

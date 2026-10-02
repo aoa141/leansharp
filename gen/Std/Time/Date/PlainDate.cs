@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_Date_PlainDate {
 public static Obj l_Std_Time_PlainDate_subDays___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -27,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainDate_ofEpochDay(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; byte x_15 = 0; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_70 = null; byte x_114 = 0; 
@@ -377,6 +379,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_weekYear(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -497,6 +500,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_PlainDate_withDaysRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -554,6 +558,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_startOfWeekBasedYear___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -564,6 +569,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_PlainDate_weekOfYear___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -586,6 +592,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainDate_alignedWeekOfMonth___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -606,6 +613,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instReprPlainDate_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_65 = null; Obj x_66 = null; byte x_67 = 0; 
@@ -810,6 +818,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainDate_dayOfYear(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_13 = 0; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -882,6 +891,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_toEpochDay(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_33 = null; Obj x_34 = null; Obj x_44 = null; byte x_50 = 0; 
@@ -1021,6 +1031,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainDate_addWeeks___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1030,6 +1041,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_subYearsRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1043,6 +1055,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_PlainDate_alignedWeekOfMonth(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1121,6 +1134,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainDate_era___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1131,6 +1145,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_subMonthsRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1165,6 +1180,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instDecidableEqPlainDate___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1176,6 +1192,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_PlainDate_subYearsClip___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1246,6 +1263,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Date_PlainDate_0__Std_Time_PlainDate_localizedDayOfWeek___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -1267,6 +1285,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Date_PlainDate_0__Std_Time_PlainDate_localizedDayOfWeek(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1284,6 +1303,7 @@ return x_8;
 }
 }
 public static byte l_Std_Time_PlainDate_inLeapYear(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -1320,6 +1340,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Time_PlainDate_quarter(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1430,6 +1451,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_withWeekday___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1530,6 +1552,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_PlainDate_addMonthsClip___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1550,6 +1573,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainDate_weekday___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1660,6 +1684,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_withDaysClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_31 = 0; 
@@ -1798,6 +1823,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_subMonthsClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1940,6 +1966,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainDate_subWeeks___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1982,6 +2009,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_PlainDate_weekOfMonth___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2322,6 +2350,7 @@ goto block_10;
 }
 }
 public static Obj l_Std_Time_PlainDate_rollOver(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_11 = null; byte x_12 = 0; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; byte x_21 = 0; byte x_22 = 0; Obj x_24 = null; Obj x_25 = null; byte x_26 = 0; 
@@ -2528,6 +2557,7 @@ goto block_9;
 }
 }
 public static Obj l_Std_Time_PlainDate_weekOfYear(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -2740,6 +2770,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instReprPlainDate_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2788,6 +2819,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_addMonthsRollOver___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2797,6 +2829,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_addYearsRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2839,6 +2872,7 @@ return x_2;
 }
 }
 public static byte l_Std_Time_PlainDate_weekday(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; 
@@ -2906,6 +2940,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_addYearsClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2950,6 +2985,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_addMonthsClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_40 = 0; 
@@ -3311,6 +3347,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainDate_ofYearOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

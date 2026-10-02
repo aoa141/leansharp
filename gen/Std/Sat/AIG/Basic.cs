@@ -41,6 +41,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_Decl_atom_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -146,6 +147,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG___aux__Std__Sat__AIG__Basic______macroRules__Std__Sat__AIG__term_u27e6___x2c___u27e7__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -316,6 +318,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_AIG_instReprDecl_repr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -325,6 +328,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Sat_AIG_denote___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -357,6 +361,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG_toGraphviz_toGraphvizString___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -382,6 +387,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_Decl_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -519,6 +525,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Sat_AIG_instHashableFanin_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -529,6 +536,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_unexpandDenote___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -552,6 +560,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_Ref_not___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -587,6 +596,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -681,6 +691,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Sat_AIG_instMembership___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -732,6 +743,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_AIG_toGraphviz___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -756,6 +768,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_toGraphviz___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; 
@@ -823,6 +836,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Sat_AIG_BinaryInput_invert___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; Obj x_10 = null; 
@@ -862,6 +876,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG_Decl_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -871,6 +886,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_ofAtoms___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -880,6 +896,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_AIG_instDecidableEqDecl___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -936,6 +953,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG___aux__Std__Sat__AIG__Basic______macroRules__Std__Sat__AIG__term_u27e6___x2c___x2c___u27e7__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -957,6 +975,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_instReprDecl_repr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1148,6 +1167,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Sat_AIG_isConstant___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1160,6 +1180,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_AIG_Decl_gate_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1168,6 +1189,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_get_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1321,6 +1343,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_Decl_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1329,6 +1352,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Sat_AIG_instDecidableEqDecl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1370,6 +1394,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG_getConstant___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1453,6 +1478,7 @@ return x_1;
 }
 }
 public static byte l_Std_Sat_AIG_instDecidableEqDecl(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1471,6 +1497,7 @@ return x_1;
 }
 }
 public static byte l_Std_Sat_AIG_Cache_insert___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1512,6 +1539,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_AIG_TernaryInput_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1571,6 +1599,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_AIG_unexpandDenote(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2879,6 +2908,7 @@ return x_491;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_ofAtoms___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2937,6 +2967,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_ofAtoms_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2945,6 +2976,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Sat_AIG_instDecidableEqDecl_decEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2954,6 +2986,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_toGraphviz_toGraphvizString___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3005,6 +3038,7 @@ return x_25;
 }
 }
 public static byte l_Std_Sat_AIG_instDecidableEqDecl_decEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3088,6 +3122,7 @@ return x_10;
 }
 }
 public static byte l_Std_Sat_AIG_isConstant(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -3140,6 +3175,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_instDecidableEqFanin___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3163,6 +3199,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_denote_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -3188,6 +3225,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3196,6 +3234,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG_Decl_false_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3382,6 +3421,7 @@ goto block_28;
 }
 }
 public static Obj l_Std_Sat_AIG_instReprFanin_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -3542,6 +3582,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_empty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3731,6 +3772,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_insert___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3750,6 +3792,7 @@ return x_1;
 }
 }
 public static ulong l_Std_Sat_AIG_instHashableDecl_hash(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; 
@@ -3864,6 +3907,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Sat_AIG_toGraphviz_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3940,6 +3984,7 @@ return x_2;
 }
 }
 public static byte l_Std_Sat_AIG_denote___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; byte x_8 = 0; 
@@ -4028,6 +4073,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Sat_AIG_toGraphviz_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -4072,6 +4118,7 @@ return x_9;
 }
 }
 public static byte l_Std_Sat_AIG_denote_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_8 = null; 
@@ -4353,6 +4400,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Sat_AIG_Decl_gate_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4532,6 +4580,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_ofAtoms_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -4581,6 +4630,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Sat_AIG_Decl_false_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4768,6 +4818,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Sat_AIG_Cache_empty(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5104,6 +5155,7 @@ goto block_24;
 }
 }
 public static Obj l_Std_Sat_AIG_toGraphviz_invEdgeStyle___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5415,6 +5467,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Sat_AIG___aux__Std__Sat__AIG__Basic______macroRules__Std__Sat__AIG__term_u27e6___x2c___x2c___u27e7__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5659,6 +5712,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Sat_AIG_instReprFanin_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7027,6 +7081,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Sat_AIG_toGraphviz_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 

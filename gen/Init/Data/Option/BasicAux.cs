@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Option_get_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -56,6 +57,7 @@ return x_1;
 }
 }
 public static Obj l_Option_get_x21___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

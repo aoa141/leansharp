@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Cadical_Internal {
 public static Obj l_Lean_Cadical_Internal_Solver_redundant___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -27,6 +28,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_resize___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -38,6 +40,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Status_satisfiable_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -48,6 +51,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_isValidLongOption___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -58,6 +62,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_isValidLimit___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -79,6 +84,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Internal_instReprStatus_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -89,6 +95,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_irredundant___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -99,6 +106,7 @@ return x_4;
 }
 }
 public static uint l_Lean_Cadical_Internal_Status_toInt32(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -124,6 +132,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_vars___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -134,6 +143,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_flippable___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -153,6 +163,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Status_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -173,6 +184,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_flip___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -185,6 +197,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_fixed___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -227,6 +240,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_configure___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -249,6 +263,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Cadical_Internal_instDecidableEqStatus(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -270,6 +285,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Cadical_Internal_instReprStatus_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; 
@@ -383,6 +399,7 @@ return x_22;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_optimize___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -394,6 +411,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_val___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -509,6 +527,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_constraintFailed___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -559,6 +578,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_statistics___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -568,6 +588,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_clause___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -607,6 +628,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_get___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -668,6 +690,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_resetConstraint___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -808,6 +831,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Status_unsatisfiable_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -947,6 +971,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_inconsistent___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -968,6 +993,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_set___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -1036,6 +1062,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Internal_Solver_melt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 

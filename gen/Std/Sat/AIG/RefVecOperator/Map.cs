@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Sat_AIG_RefVecOperator_Map {
 public static Obj l_Std_Sat_AIG_RefVec_map(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -15,6 +16,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_map_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -25,6 +27,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_map_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -56,6 +59,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_map___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -81,6 +85,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Sat_AIG_RefVec_map_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_22 = 0; 

@@ -39,6 +39,7 @@ return x_2;
 }
 }
 public static Obj l_String_Pos_Splits_rotateRight___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -65,6 +66,7 @@ return x_7;
 }
 }
 public static Obj l_String_Slice_Pos_Splits_rotateLeft___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -74,6 +76,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pos_Splits_rotateRight___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

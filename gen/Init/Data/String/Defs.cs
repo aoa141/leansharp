@@ -32,6 +32,7 @@ return x_6;
 }
 }
 public static Obj l_String_join(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -42,6 +43,7 @@ return x_4;
 }
 }
 public static Obj l_String_rawStartPos___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -51,6 +53,7 @@ return x_2;
 }
 }
 public static Obj l_String_instDecidableLePos__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -84,6 +87,7 @@ return x_4;
 }
 }
 public static Obj l_String_pushn___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -94,6 +98,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_endPos___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -111,6 +116,7 @@ return x_3;
 }
 }
 public static Obj l_String_instLTPos___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -120,6 +126,7 @@ return x_2;
 }
 }
 public static Obj l_String_instLTPos__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -137,6 +144,7 @@ return x_2;
 }
 }
 public static Obj l_String_endValidPos___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -156,6 +164,7 @@ return x_7;
 }
 }
 public static Obj l_String_Slice_getUTF8Byte___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -167,6 +176,7 @@ return x_4;
 }
 }
 public static Obj l_String_startPos___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -175,6 +185,7 @@ return x_2;
 }
 }
 public static Obj l_String_append___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -207,6 +218,7 @@ return x_2;
 }
 }
 public static Obj l_String_instDecidableLtPos___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -230,6 +242,7 @@ return x_5;
 }
 }
 public static Obj l_String_startValidPos___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -239,6 +252,7 @@ return x_2;
 }
 }
 public static byte l_String_Slice_getUTF8Byte_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -286,6 +300,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_String_Defs_0__String_push_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -296,6 +311,7 @@ return x_5;
 }
 }
 public static Obj l_String_propagateMark___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -316,6 +332,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_getUTF8Byte___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -327,6 +344,7 @@ return x_5;
 }
 }
 public static Obj lean_string_intercalate(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -409,6 +427,7 @@ return x_2;
 }
 }
 public static Obj l_String_instDecidableEqPos_decEq___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -437,6 +456,7 @@ return x_2;
 }
 }
 public static Obj l_String_rawStartPos___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -483,6 +503,7 @@ return x_1;
 }
 }
 public static Obj l_String_instDecidableEqPos___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -495,6 +516,7 @@ return x_5;
 }
 }
 public static Obj l_String_toUTF8___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -512,6 +534,7 @@ return x_2;
 }
 }
 public static Obj l_String_intercalate___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -529,6 +552,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_startPos___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -545,6 +569,7 @@ return x_2;
 }
 }
 public static Obj l_String_instDecidableEqPos_decEq___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -565,6 +590,7 @@ return x_2;
 }
 }
 public static Obj l_String_instDecidableLtPos__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -577,6 +603,7 @@ return x_5;
 }
 }
 public static Obj l_String_instInhabitedPos__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -622,6 +649,7 @@ return x_4;
 }
 }
 public static Obj l_String_instDecidableIsAtEnd___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -831,6 +859,7 @@ return x_4;
 }
 }
 public static Obj l_String_instHAddRawSlice___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -841,6 +870,7 @@ return x_3;
 }
 }
 public static Obj l_String_instDecidableLePos__1___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -862,6 +892,7 @@ return x_4;
 }
 }
 public static Obj l_String_endPos___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -887,6 +918,7 @@ return x_3;
 }
 }
 public static Obj l_String_instHAddSliceRaw___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -986,6 +1018,7 @@ return x_2;
 }
 }
 public static byte l_String_instDecidableLtPos(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -994,6 +1027,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00String_Internal_pushnImpl_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -1027,6 +1061,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_String_Defs_0__String_intercalate_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1071,6 +1106,7 @@ return x_3;
 }
 }
 public static Obj l_String_instDecidableEqPos___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1121,6 +1157,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00String_Internal_pushnImpl_spec__0(uint x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1279,6 +1316,7 @@ return x_7;
 }
 }
 public static Obj l_String_Internal_pushnImpl___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -1328,6 +1366,7 @@ return x_3;
 }
 }
 public static Obj l_String_intercalate(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1368,6 +1407,7 @@ return x_2;
 }
 }
 public static Obj l_String_instInhabitedPos___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1402,6 +1442,7 @@ return x_3;
 }
 }
 public static Obj l_String_instInhabitedPos__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1530,6 +1571,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_String_Defs_0__String_intercalate_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

@@ -48,6 +48,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Glob_forEachModuleIn___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -193,6 +194,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instDecidableEqGlob_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -344,6 +346,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instReprGlob_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -412,6 +415,7 @@ return x_3;
 }
 }
 public static Obj l_Lake___aux__Lake__Config__Glob______macroRules__Lake__term_____x2e_x2a__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -569,6 +573,7 @@ return x_1;
 }
 }
 public static Obj l_Lake___aux__Lake__Config__Glob______macroRules__Lake__term_____x2e_x2b__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -685,6 +690,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Glob_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -705,6 +711,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Glob_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -954,6 +961,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Glob_matches___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1204,6 +1212,7 @@ return x_10;
 }
 }
 public static Obj l_Lake___aux__Lake__Config__Glob______macroRules__Lake__term_____x2e_x2b__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

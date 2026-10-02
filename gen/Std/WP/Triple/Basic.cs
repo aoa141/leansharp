@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_WP_Triple_Basic {
 public static Obj l___private_Std_WP_Triple_Basic_0__Std_WP_hintProgram___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -135,6 +136,7 @@ return x_1;
 }
 }
 public static Obj l_Std_WP___aux__Std__WP__Triple__Basic______macroRules__Std__WP__tripleExceptPost__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -392,6 +394,7 @@ return x_4;
 }
 }
 public static Obj l_Std_WP_unexpandTriple___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -632,6 +635,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_WP_Triple_Basic_0__Std_WP_hintProgram(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -892,6 +896,7 @@ return x_2;
 }
 }
 public static Obj l_Std_WP_unexpandTriple(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1264,6 +1269,7 @@ return x_5;
 }
 }
 public static Obj l_Std_WP___aux__Std__WP__Triple__Basic______macroRules__Std__WP__tripleNotation__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1458,6 +1464,7 @@ return x_1;
 }
 }
 public static Obj l_Std_WP___aux__Std__WP__Triple__Basic______macroRules__Std__WP__tripleExceptPost__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1887,6 +1894,7 @@ return x_4;
 }
 }
 public static byte l___private_Std_WP_Triple_Basic_0__Std_WP_isSplitProgram(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Format_Basic {
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_pushGroup___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -24,6 +25,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_spaceUptoLine_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -250,6 +252,7 @@ return x_25;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -267,6 +270,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_pretty(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -285,6 +289,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Format_tag_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -293,6 +298,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_pushGroup___redArg___lam__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; byte x_27 = 0; Obj x_28 = null; byte x_29 = 0; 
@@ -459,6 +465,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_join_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -517,6 +524,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Format_FlattenAllowability_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -535,6 +543,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_pushGroup___at___00__private_Init_Data_Format_Basic_0__Std_Format_be___at___00Std_Format_prettyM___at___00Std_Format_pretty_spec__0_spec__0_spec__1(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_12 = null; byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; byte x_27 = 0; Obj x_28 = null; byte x_29 = 0; 
@@ -703,6 +712,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_group_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -711,6 +721,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -729,6 +740,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_merge___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -767,6 +779,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_spaceUptoLine___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -790,6 +803,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Format_paren(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; 
@@ -813,6 +827,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Format_nil_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -821,6 +836,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_instMonadPrettyFormatStateMState___lam__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -830,6 +846,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg___lam__12___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -856,6 +873,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -953,6 +971,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00__private_Init_Data_Format_Basic_0__Std_Format_be___at___00Std_Format_prettyM___at___00Std_Format_pretty_spec__0_spec__0_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -996,6 +1015,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Format_join(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1005,6 +1025,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_text_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1013,6 +1034,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_pushGroup___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1022,6 +1044,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Format_nil_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1030,6 +1053,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg___lam__7(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -1069,6 +1093,7 @@ return x_20;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15) {
+lean_stack_probe();
 _start:
 {
 byte x_16 = 0; Obj x_17 = null; 
@@ -1082,6 +1107,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Format_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1091,6 +1117,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Format_joinSep(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1118,6 +1145,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1979,6 +2007,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Format_nest_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1996,6 +2025,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___at___00Std_Format_prettyM___at___00Std_Format_pretty_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2194,6 +2224,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_pushGroup___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2270,6 +2301,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Format_FlattenAllowability_disallow_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2292,6 +2324,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Format_FlattenAllowability_disallow_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2301,6 +2334,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_FlattenBehavior_allOrNone_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2311,6 +2345,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -2328,6 +2363,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_align_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2336,6 +2372,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Format_joinSuffix(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2368,6 +2405,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Format_append_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2396,6 +2434,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2405,6 +2444,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Format_FlattenAllowability_allow_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2423,6 +2463,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_line_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2443,6 +2484,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Format_nestD(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2488,6 +2530,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Format_text_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2496,6 +2539,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_append_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2504,6 +2548,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2513,6 +2558,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Format_instBEqFlattenBehavior_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2547,6 +2593,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Format_group_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2555,6 +2602,7 @@ return x_5;
 }
 }
 public static byte l_Std_Format_isEmpty(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -2636,6 +2684,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Format_align_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2654,6 +2703,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_prefixJoin(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2662,6 +2712,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_instMonadPrettyFormatStateMState___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2871,6 +2922,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Format_nest_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2952,6 +3004,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Format_tag_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2960,6 +3013,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Format_prettyM___at___00Std_Format_pretty_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -2996,6 +3050,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___redArg___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -3015,6 +3070,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_FlattenAllowability_allow_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3232,6 +3288,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_be___at___00Std_Format_prettyM___at___00Std_Format_pretty_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4532,6 +4589,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Format_FlattenBehavior_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4663,6 +4721,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Format_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4671,6 +4730,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Format_line_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4679,6 +4739,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_instMonadPrettyFormatStateMState___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_16 = 0; 
@@ -5235,6 +5296,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Format_Basic_0__Std_Format_spaceUptoLine(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Grind_Ring_CommSemiringAdapter {
 public static Obj l_Lean_Grind_CommRing_Expr_toPolyS(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -278,6 +279,7 @@ return x_62;
 }
 }
 public static Obj l_Lean_Grind_CommRing_denoteSInt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -287,6 +289,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Grind_CommRing_eq__normS__nc__cert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -328,6 +331,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_denoteS___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -505,6 +509,7 @@ return x_32;
 }
 }
 public static Obj l_Lean_Grind_CommRing_denoteSInt___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -514,6 +519,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denoteS___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -552,6 +558,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Grind_CommRing_denoteSInt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -643,6 +650,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_toPolyS__nc(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1091,6 +1099,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_denoteS___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -1612,6 +1621,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denoteS___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1621,6 +1631,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_denoteSAsRing___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1639,6 +1650,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_denoteSAsRing___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {

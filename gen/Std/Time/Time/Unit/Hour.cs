@@ -19,6 +19,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Hour_Ordinal_shiftTo1BasedHour___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -66,6 +67,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Hour_instDecidableLtOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -140,6 +142,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_instOfNatOrdinal___aux__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -170,6 +173,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Hour_instAddOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -180,6 +184,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Hour_instDecidableLtOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -191,6 +196,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Hour_instReprOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -209,6 +215,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Ordinal_ofInt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -229,6 +236,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_instSubOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -429,6 +437,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Hour_instOrdOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -487,6 +496,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Hour_instDecidableLeOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -518,6 +528,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Hour_instOrdOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -548,6 +559,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Hour_instReprOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -558,6 +570,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_ofInt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -593,6 +606,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Hour_instDecidableEqOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -825,6 +839,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Ordinal_toRelative(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -870,6 +885,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_instDecidableLeOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

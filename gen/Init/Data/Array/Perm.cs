@@ -278,6 +278,7 @@ return x_1;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Perm______macroRules__Array__term___x7e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

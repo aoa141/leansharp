@@ -31,6 +31,7 @@ return x_5;
 }
 }
 public static Obj l_Int_dvdProdDvdOfDvdProd___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -61,6 +62,7 @@ return x_2;
 }
 }
 public static Obj l_Int_dvdProdDvdOfDvdProd(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

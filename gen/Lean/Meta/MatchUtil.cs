@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_MatchUtil {
 public static Obj l_Lean_Meta_matchNot_x3f___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -202,6 +203,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_testHelper___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -214,6 +216,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_matchEqHEq_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -591,6 +594,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_matchEq_x3f___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -630,6 +634,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_Meta_matchHelper_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -749,6 +754,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_matchFalse___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -858,6 +864,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_matchHEq_x3f___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -916,6 +923,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Meta_matchEq_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -928,6 +936,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_matchNe_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -951,6 +960,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_matchFalse(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -1026,6 +1036,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_matchNot_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1058,6 +1069,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_matchHEq_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1070,6 +1082,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_matchNe_x3f___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1105,6 +1118,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_matchEqHEqLHS_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1490,6 +1504,7 @@ return x_78;
 }
 }
 public static Obj l_Lean_Meta_matchConstructorApp_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1513,6 +1528,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_matchNe_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1884,6 +1900,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_matchNe_x3f___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 

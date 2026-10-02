@@ -160,6 +160,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Do_Except_instWP(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -168,6 +169,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_unexpandWP(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -468,6 +470,7 @@ return x_111;
 }
 }
 public static Obj l_Std_Do_EStateM_instWP(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -523,6 +526,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_ExceptT_instWP___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -567,6 +571,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_State_instWP___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -586,6 +591,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_Reader_instWP(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -594,6 +600,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do___aux__Std__Do__WP__Basic______macroRules__Std__Do__termWp_u27e6___x3a___u27e7__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -829,6 +836,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Do_EStateM_instWP___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -877,6 +885,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Do_Reader_instWP___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1026,6 +1035,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_StateT_instWP___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1035,6 +1045,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Do_EStateM_instWP___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1069,6 +1080,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_EStateM_instWP___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1110,6 +1122,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Do_Except_instWP___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

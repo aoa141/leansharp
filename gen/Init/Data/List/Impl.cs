@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_List_Impl {
 public static Obj l_List_zipWithTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -16,6 +17,7 @@ return x_8;
 }
 }
 public static Obj l_List_find_x3f___at___00List_findRev_x3fTR_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -34,6 +36,7 @@ return x_1;
 }
 }
 public static Obj l_List_zipWithTR___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -43,6 +46,7 @@ return x_5;
 }
 }
 public static Obj l_List_flatMapTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -62,6 +66,7 @@ return x_1;
 }
 }
 public static Obj l_List_eraseTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -73,6 +78,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00List_zipIdxTR_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -91,6 +97,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_takeWhileTR_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -130,6 +137,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_takeTR_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -139,6 +147,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_takeTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -183,6 +192,7 @@ goto _start;
 }
 }
 public static Obj l_List_insertIdxTR___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -192,6 +202,7 @@ return x_5;
 }
 }
 public static Obj l_List_zipIdxTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -301,6 +312,7 @@ return x_16;
 }
 }
 public static Obj l_List_findSome_x3f___at___00List_findSomeRev_x3fTR_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -309,6 +321,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_erasePTR_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -318,6 +331,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_setTR_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -327,6 +341,7 @@ return x_7;
 }
 }
 public static Obj l_List_filterMapTR_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -335,6 +350,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_setTR_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -355,6 +371,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -423,6 +440,7 @@ return x_13;
 }
 }
 public static Obj l_List_setTR___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -466,6 +484,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_eraseIdxTR_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -475,6 +494,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Init_Data_List_Impl_0__List_setTR_go_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -517,6 +537,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_insertIdxTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -577,6 +598,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_eraseTR_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -595,6 +617,7 @@ return x_6;
 }
 }
 public static Obj l_List_takeTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -606,6 +629,7 @@ return x_5;
 }
 }
 public static Obj l_List_findSomeRev_x3fTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -614,6 +638,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_intercalateTR_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -633,6 +658,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_eraseTR_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -641,6 +667,7 @@ return x_7;
 }
 }
 public static Obj l_List_eraseTR___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -652,6 +679,7 @@ return x_5;
 }
 }
 public static Obj l_List_takeWhileTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -663,6 +691,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_replaceTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -793,6 +822,7 @@ return x_7;
 }
 }
 public static Obj l_List_intercalateTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -801,6 +831,7 @@ return x_4;
 }
 }
 public static Obj l_List_filterMapTR_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -948,6 +979,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00List_zipIdxTR_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -961,6 +993,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_erasePTR_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -969,6 +1002,7 @@ return x_6;
 }
 }
 public static Obj l_List_findRev_x3fTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1066,6 +1100,7 @@ return x_11;
 }
 }
 public static Obj l_List_intercalateTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1105,6 +1140,7 @@ return x_9;
 }
 }
 public static Obj l_List_find_x3f___at___00List_findRev_x3fTR_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1153,6 +1189,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_filter_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1162,6 +1199,7 @@ return x_6;
 }
 }
 public static Obj l_List_eraseIdxTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1173,6 +1211,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldrTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1181,6 +1220,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_setTR_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1207,6 +1247,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Init_Data_List_Impl_0__List_setTR_go_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1220,6 +1261,7 @@ return x_7;
 }
 }
 public static Obj l_List_eraseIdxTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1231,6 +1273,7 @@ return x_5;
 }
 }
 public static Obj l_List_findSome_x3f___at___00List_findSomeRev_x3fTR_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1265,6 +1308,7 @@ return x_6;
 }
 }
 public static Obj l_List_erasePTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1331,6 +1375,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_take_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1371,6 +1416,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00List_zipIdxTR_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1453,6 +1499,7 @@ return x_6;
 }
 }
 public static Obj l_List_erasePTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1464,6 +1511,7 @@ return x_4;
 }
 }
 public static Obj l_List_modifyTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1472,6 +1520,7 @@ return x_5;
 }
 }
 public static Obj l_List_takeWhileTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1483,6 +1532,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_eraseIdxTR_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1654,6 +1704,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_setTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1757,6 +1808,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_eraseIdxTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1980,6 +2032,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_take_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1989,6 +2042,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_intercalateTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2150,6 +2204,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_modifyTR_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2158,6 +2213,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldrMUnsafe_fold___at___00__private_Init_Data_List_Impl_0__List_setTR_go_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2183,6 +2239,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_zipWithTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 1)
@@ -2230,6 +2287,7 @@ return x_13;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_erasePTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2286,6 +2344,7 @@ return x_18;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_takeWhileTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2422,6 +2481,7 @@ return x_15;
 }
 }
 public static Obj l_List_modifyTR___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2464,6 +2524,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_modifyTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2559,6 +2620,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_eraseTR_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)

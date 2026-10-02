@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Data_URI_Encoding {
 public static Obj l_Std_Http_URI_EncodedQueryParam_encode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -26,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Data_URI_Encoding_0__Std_Http_URI_EncodedString_byteToHex___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -35,6 +37,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_URI_EncodedSegment_encode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -54,6 +57,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instBEq___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -70,6 +74,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_hexDigit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -97,6 +102,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_instReprEncodedQueryString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -106,6 +112,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instBEq___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -131,6 +138,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Http_URI_EncodedQueryString_decode_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -141,6 +149,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instToString___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -149,6 +158,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_instHashableOptionEncodedQueryString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -157,6 +167,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_decode___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -176,6 +187,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_EncodedUserInfo_encode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -194,6 +206,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_ofString_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -203,6 +216,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_EncodedSegment_ofByteArray_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -221,6 +235,7 @@ return x_2;
 }
 }
 public static byte l_Std_Http_URI_instDecidableIsAllowedEncodedChars___lam__0(Obj x_1, byte x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -255,6 +270,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Http_URI_EncodedString_decode_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -273,6 +289,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_instDecidableIsAllowedEncodedChars___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -282,6 +299,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_instInhabited___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -291,6 +309,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryParam_decode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -310,6 +329,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_EncodedFragment_encode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -434,6 +454,7 @@ return x_3;
 }
 }
 public static byte l_Std_Http_URI_instDecidableIsAllowedEncodedQueryChars(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -493,6 +514,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_empty___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -502,6 +524,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedFragment_encode___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -537,6 +560,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_decode___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -573,6 +597,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instToString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -582,6 +607,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryParam_ofByteArray_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -598,6 +624,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_ofString_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -607,6 +634,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_decode(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -615,6 +643,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instHashable___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -624,6 +653,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -632,6 +662,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedSegment_ofByteArray_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -658,6 +689,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_instBEqEncodedQueryString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -677,6 +709,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Data_URI_Encoding_0__Std_Http_URI_EncodedString_push___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -694,6 +727,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_instBEqEncodedQueryString___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -702,6 +736,7 @@ return x_2;
 }
 }
 public static byte l___private_Std_Http_Data_URI_Encoding_0__Std_Http_URI_isValidPercentEncoding_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -909,6 +944,7 @@ goto _start;
 }
 }
 public static Obj l___private_Std_Http_Data_URI_Encoding_0__Std_Http_URI_EncodedString_byteToHex___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -933,6 +969,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instToString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -952,6 +989,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instBEq(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -980,6 +1018,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instHashable(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -998,6 +1037,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_URI_EncodedFragment_decode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1267,6 +1307,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1275,6 +1316,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedUserInfo_ofByteArray_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1312,6 +1354,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_ofString_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1339,6 +1382,7 @@ return x_1;
 }
 }
 public static byte l_Std_Http_URI_instDecidableIsAllowedEncodedChars(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1399,6 +1443,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_instInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1407,6 +1452,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_instHashableOptionEncodedQueryString___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1434,6 +1480,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryParam_fromString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1443,6 +1490,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryParam_encode___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1453,6 +1501,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Http_Data_URI_Encoding_0__Std_Http_URI_EncodedString_byteToHex___redArg(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -1487,6 +1536,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Data_URI_Encoding_0__Std_Http_URI_EncodedQueryString_push___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1507,6 +1557,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_ofString_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1516,6 +1567,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_instHashableOptionEncodedQueryString___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -1526,6 +1578,7 @@ return x_3;
 }
 }
 public static Obj l_ByteArray_foldlMUnsafe_fold___at___00Std_Http_URI_EncodedString_encode_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -1630,6 +1683,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_decode___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1900,6 +1954,7 @@ return x_49;
 }
 }
 public static Obj l_Std_Http_URI_EncodedUserInfo_decode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1932,6 +1987,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_empty___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1965,6 +2021,7 @@ return x_9;
 }
 }
 public static Obj l_ByteArray_foldlMUnsafe_fold___at___00Std_Http_URI_EncodedQueryString_encode_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -2049,6 +2106,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_ofByteArray_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2089,6 +2147,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Data_URI_Encoding_0__ByteArray_push_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2098,6 +2157,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_ofByteArray_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2120,6 +2180,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_URI_EncodedSegment_decode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2147,6 +2208,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_EncodedFragment_encode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2175,6 +2237,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_EncodedSegment_decode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2183,6 +2246,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_EncodedFragment_ofByteArray_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2202,6 +2266,7 @@ return x_3;
 }
 }
 public static ulong l_Std_Http_URI_instHashableOptionEncodedQueryString___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2361,6 +2426,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_isEncodedChar___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -2388,6 +2454,7 @@ return x_2;
 }
 }
 public static byte l_Std_Http_URI_isEncodedQueryChar(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -2474,6 +2541,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Data_URI_Encoding_0__Std_Http_URI_EncodedQueryString_byteToHex___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2493,6 +2561,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Http_Data_URI_Encoding_0__Std_Http_URI_EncodedQueryString_byteToHex___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2512,6 +2581,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_URI_EncodedUserInfo_ofByteArray_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2865,6 +2935,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Http_URI_EncodedQueryString_decode_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_80 = 0; 
@@ -3179,6 +3250,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryParam_ofByteArray_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -3229,6 +3301,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_URI_EncodedUserInfo_encode___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -3282,6 +3355,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Http_URI_EncodedString_decode_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3305,6 +3379,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_URI_EncodedQueryString_ofString_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -3406,6 +3481,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_URI_instBEqEncodedQueryString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3518,6 +3594,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_URI_EncodedString_decode___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -3589,6 +3666,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_URI_instHashableEncodedQueryString___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3597,6 +3675,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Http_URI_EncodedString_decode_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_70 = 0; 

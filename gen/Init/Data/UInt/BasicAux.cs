@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_UInt_BasicAux {
 public static ulong l_UInt64_instOfNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; 
@@ -23,6 +24,7 @@ return x_2;
 }
 }
 public static Obj l_UInt32_add___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -36,6 +38,7 @@ return x_6;
 }
 }
 public static Obj l_USize_toFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -54,6 +57,7 @@ return x_2;
 }
 }
 public static uint l_UInt32_ofNatTruncate(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; 
@@ -70,6 +74,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_toUInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; Obj x_3 = null; 
@@ -80,6 +85,7 @@ return x_3;
 }
 }
 public static Obj l_USize_instOfNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -99,6 +105,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_toUSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -109,6 +116,7 @@ return x_3;
 }
 }
 public static Obj l_UInt64_ofNatTruncate___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -129,6 +137,7 @@ return x_4;
 }
 }
 public static ulong l_USize_ofNatTruncate(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; 
@@ -147,6 +156,7 @@ return x_4;
 }
 }
 public static Obj l_UInt32_toUInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; ushort x_3 = 0; Obj x_4 = null; 
@@ -158,6 +168,7 @@ return x_4;
 }
 }
 public static Obj l_UInt8_toUInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -168,6 +179,7 @@ return x_4;
 }
 }
 public static uint l_Nat_toUInt32(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; 
@@ -186,6 +198,7 @@ return x_1;
 }
 }
 public static Obj l_UInt16_ofNatTruncate___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; Obj x_3 = null; 
@@ -196,6 +209,7 @@ return x_3;
 }
 }
 public static Obj l_UInt32_ofNatClamp___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -219,6 +233,7 @@ return x_6;
 }
 }
 public static ulong l_UInt64_ofNatTruncate(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; 
@@ -227,6 +242,7 @@ return x_2;
 }
 }
 public static Obj l_UInt16_toNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; Obj x_3 = null; 
@@ -236,6 +252,7 @@ return x_3;
 }
 }
 public static Obj l_UInt32_instOfNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -246,6 +263,7 @@ return x_3;
 }
 }
 public static ushort l_UInt16_ofNatTruncate(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; 
@@ -264,6 +282,7 @@ return x_3;
 }
 }
 public static ushort l_Nat_toUInt16(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; 
@@ -282,6 +301,7 @@ return x_1;
 }
 }
 public static Obj l_USize_decLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -325,6 +345,7 @@ return x_1;
 }
 }
 public static Obj l_USize_toNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -335,6 +356,7 @@ return x_3;
 }
 }
 public static Obj l_UInt64_toUInt8___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -374,6 +396,7 @@ return x_4;
 }
 }
 public static Obj l_UInt32_toFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -463,6 +486,7 @@ return x_3;
 }
 }
 public static Obj l_UInt8_toNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -499,6 +523,7 @@ return x_1;
 }
 }
 public static Obj l_UInt16_toUInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -599,6 +624,7 @@ return x_1;
 }
 }
 public static Obj l_USize_sub___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -620,6 +646,7 @@ return x_2;
 }
 }
 public static Obj l_UInt16_instOfNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; Obj x_3 = null; 
@@ -669,6 +696,7 @@ return x_3;
 }
 }
 public static Obj l_UInt16_toUInt32___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -779,6 +807,7 @@ return x_2;
 }
 }
 public static Obj l_UInt64_toFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 

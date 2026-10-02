@@ -30,6 +30,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadExceptOfForall___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -57,6 +58,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadReaderOfForall___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -65,6 +67,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__6(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -136,6 +139,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -148,6 +152,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadExceptOfProdForall(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -156,6 +161,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadLiftForall___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -197,6 +203,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadLiftForall(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -205,6 +212,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order_PredTrans_get(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -213,6 +221,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instPartialOrder___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -269,6 +278,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Order_pushExcept(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -277,6 +287,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadReaderOfForall(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -392,6 +403,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadExceptOfProdForall___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -411,6 +423,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -429,6 +442,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -550,6 +564,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -570,6 +585,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadExceptOfProdForall__1___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -704,6 +720,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadExceptOfProdForall___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -771,6 +788,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadExceptOfProdForall__1___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -888,6 +906,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Order_PredTrans_pure___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -897,6 +916,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -906,6 +926,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonadExceptOfProdForall___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -914,6 +935,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order_PredTrans_get___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1033,6 +1055,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1056,6 +1079,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__8(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -1066,6 +1090,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1235,6 +1260,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order_PredTrans_instMonad___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_DateTime {
 public static Obj l_Std_Time_DateTime_subDays(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_28 = 0; 
@@ -99,6 +100,7 @@ return x_24;
 }
 }
 public static Obj l_Std_Time_DateTime_subMinutes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_28 = 0; 
@@ -274,6 +276,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_DateTime_addMonthsClip___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -283,6 +286,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_addYearsClip___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -292,6 +296,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_toTimestamp___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -301,6 +306,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_withMonthRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_41 = 0; 
@@ -439,6 +445,7 @@ return x_33;
 }
 }
 public static Obj l_Std_Time_DateTime_addMinutes___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -448,6 +455,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_toPlainDateTime___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -467,6 +475,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_addMonthsRollOver___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -476,6 +485,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_withDaysRollOver___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -485,6 +495,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_millisecond___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -494,6 +505,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_hour___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -531,6 +543,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_ofTimestamp___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -555,6 +568,7 @@ return x_15;
 }
 }
 public static Obj l_Std_Time_DateTime_subMonthsRollOver___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -564,6 +578,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_quarter___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -573,6 +588,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_toEpochDay___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -674,6 +690,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Time_DateTime_ofTimestampWithZone___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -683,6 +700,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_withMinutes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_49 = 0; 
@@ -862,6 +880,7 @@ return x_36;
 }
 }
 public static Obj l_Std_Time_DateTime_time___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -871,6 +890,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_minute___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -890,6 +910,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_weekOfMonth___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -900,6 +921,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_DateTime_addYearsRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_41 = 0; 
@@ -1045,6 +1067,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_addYearsClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_41 = 0; 
@@ -1180,6 +1203,7 @@ return x_33;
 }
 }
 public static Obj l_Std_Time_DateTime_subWeeks___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1199,6 +1223,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_subYearsClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_42 = 0; 
@@ -1372,6 +1397,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_ofEpochDay___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1381,6 +1407,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_DateTime_subMilliseconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_30 = 0; 
@@ -1480,6 +1507,7 @@ return x_26;
 }
 }
 public static Obj l_Std_Time_DateTime_withSeconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_49 = 0; 
@@ -1668,6 +1696,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_dayOfYear(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_30 = 0; 
@@ -1774,6 +1803,7 @@ goto block_15;
 }
 }
 public static Obj l_Std_Time_DateTime_day___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1812,6 +1842,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_convertZoneRules___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1822,6 +1853,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_DateTime_withDaysClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_71 = 0; 
@@ -2082,6 +2114,7 @@ goto block_53;
 }
 }
 public static Obj l_Std_Time_DateTime_subSeconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_26 = 0; 
@@ -2171,6 +2204,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Time_DateTime_subMonthsClip___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2180,6 +2214,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_instHAddDuration___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2246,6 +2281,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_withWeekday___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2265,6 +2301,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_withYearRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_41 = 0; 
@@ -2403,6 +2440,7 @@ return x_33;
 }
 }
 public static Obj l_Std_Time_DateTime_withMonthClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_71 = 0; 
@@ -2664,6 +2702,7 @@ goto block_53;
 }
 }
 public static Obj l_Std_Time_DateTime_withHours(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_49 = 0; 
@@ -2875,6 +2914,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_ofPlainDateTimeWithZone___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2884,6 +2924,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_subWeeks(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_30 = 0; 
@@ -3043,6 +3084,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_month___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3190,6 +3232,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_DateTime_instHSubDuration__1___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3236,6 +3279,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_ofPlainDateTimeWithZone___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3275,6 +3319,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_subYearsRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_42 = 0; 
@@ -3463,6 +3508,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_DateTime_withMilliseconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_54 = 0; 
@@ -3692,6 +3738,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_DateTime_withNanoseconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_49 = 0; 
@@ -3967,6 +4014,7 @@ return x_24;
 }
 }
 public static Obj l_Std_Time_DateTime_instHSubDuration___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3977,6 +4025,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_subMonthsRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_40 = 0; 
@@ -4136,6 +4185,7 @@ return x_16;
 }
 }
 public static Obj l_Std_Time_DateTime_addDays___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4264,6 +4314,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_withWeekday(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_30 = 0; 
@@ -4355,6 +4406,7 @@ return x_26;
 }
 }
 public static Obj l_Std_Time_DateTime_addWeeks___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4396,6 +4448,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_ofEpochDay(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; 
@@ -4514,6 +4567,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_inLeapYear___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4533,6 +4587,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_era___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4543,6 +4598,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_withDaysRollOver(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_41 = 0; 
@@ -4774,6 +4830,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_ofPlainDateTime(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 
@@ -4828,6 +4885,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_subMonthsClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_40 = 0; 
@@ -4982,6 +5040,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_DateTime_subHours(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_28 = 0; 
@@ -5200,6 +5259,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_DateTime_ofPlainDateTimeWithZone(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; 
@@ -5396,6 +5456,7 @@ return x_8;
 }
 }
 public static byte l_Std_Time_DateTime_inLeapYear(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -5460,6 +5521,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_DateTime_ofTimestampWithZone(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -5559,6 +5621,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_DateTime_withYearClip(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_71 = 0; 
@@ -6258,6 +6321,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_DateTime_addHours___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

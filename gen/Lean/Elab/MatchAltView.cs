@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_MatchAltView {
 public static Obj l_Lean_Elab_Term_instInhabitedMatchAltView___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16,6 +17,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_Term_instInhabitedMatchAltView___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -77,6 +79,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Term_instInhabitedMatchAltView_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

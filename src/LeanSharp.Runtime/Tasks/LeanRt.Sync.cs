@@ -152,8 +152,7 @@ public static unsafe partial class LeanRt
     static readonly ExternalClass s_baserecmutexClass = new(null, null);
     static readonly ExternalClass s_basesharedmutexClass = new(null, null);
 
-    static Obj MkExternal(ExternalClass cls, object data) =>
-        new ExternalObj { m_tag = LeanExternal, m_class = cls, m_data = data };
+    static Obj MkExternal(ExternalClass cls, object data) => lean_alloc_external(cls, data);
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     static T ExternalData<T>(Obj o) where T : class => Unsafe.As<T>(Unsafe.As<ExternalObj>(o).m_data);

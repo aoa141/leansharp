@@ -14,6 +14,7 @@ return x_1;
 }
 }
 public static Obj l_instSizeOfDefault___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -40,6 +41,7 @@ return x_3;
 }
 }
 public static Obj l_instSizeOfDefault(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

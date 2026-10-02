@@ -108,6 +108,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Sat_AIG_mkOrCached(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -522,6 +523,7 @@ goto block_45;
 }
 }
 public static Obj l_Std_Sat_AIG_mkBEqCached(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

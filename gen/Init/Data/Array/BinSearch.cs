@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Array_BinSearch {
 public static Obj l_Array_binSearchAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -33,6 +34,7 @@ return x_5;
 }
 }
 public static byte l_Array_binSearchContains___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -90,6 +92,7 @@ return x_10;
 }
 }
 public static byte l_Array_binSearchContains(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -147,6 +150,7 @@ return x_11;
 }
 }
 public static Obj l_Array_binInsert___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -218,6 +222,7 @@ return x_5;
 }
 }
 public static Obj l_Array_binSearch(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -277,6 +282,7 @@ return x_11;
 }
 }
 public static Obj l_Array_binSearchAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -326,6 +332,7 @@ return x_1;
 }
 }
 public static Obj l_Array_binSearch___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -365,6 +372,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_BinSearch_0__Array_binInsertAux___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -374,6 +382,7 @@ return x_5;
 }
 }
 public static Obj l_Array_binInsert___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -408,6 +417,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_BinSearch_0__Array_binInsertAux___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -523,6 +533,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Array_BinSearch_0__Array_binInsertAux___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -540,6 +551,7 @@ return x_13;
 }
 }
 public static Obj l_Array_binSearch___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -617,6 +629,7 @@ return x_4;
 }
 }
 public static Obj l_Array_binSearchAux___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -719,6 +732,7 @@ goto _start;
 }
 }
 public static Obj l_Array_binInsertM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

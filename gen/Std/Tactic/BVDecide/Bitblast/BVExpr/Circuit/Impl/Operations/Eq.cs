@@ -32,6 +32,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVPred_mkEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

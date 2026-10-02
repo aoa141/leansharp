@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Sync_Channel {
 public static Obj l_Std_Channel_sync___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Std_CloseableChannel_trySend___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -36,6 +38,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_close_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -44,6 +47,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector___redArg___lam__5(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -132,6 +136,7 @@ return x_27;
 }
 }
 public static Obj l_Std_Channel_recv___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; 
@@ -148,6 +153,7 @@ return x_11;
 }
 }
 public static Obj l_Std_CloseableChannel_send(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -156,6 +162,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_Error_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -166,6 +173,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_trySend_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -174,6 +182,7 @@ return x_7;
 }
 }
 public static Obj l_Std_CloseableChannel_close___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -248,6 +257,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_select_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -305,6 +315,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recv___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -338,6 +349,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_trySend_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -370,6 +382,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -397,6 +410,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__1___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -485,6 +499,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recv___redArg___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -617,6 +632,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Channel_recvSelector___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -625,6 +641,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvReady_x27___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -634,6 +651,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__0___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -642,6 +660,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__0___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; Obj x_18 = null; 
@@ -656,6 +675,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__2___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -664,6 +684,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncWriteOfInhabited___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -673,6 +694,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_trySend___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -692,6 +714,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -700,6 +723,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Channel_instAsyncWriteOfInhabited___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -718,6 +742,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Channel_new(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -726,6 +751,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -736,6 +762,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -746,6 +773,7 @@ return x_12;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_isClosed___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -755,6 +783,7 @@ return x_4;
 }
 }
 public static byte l___private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_resolve(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -763,6 +792,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_instHashableError_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -773,6 +803,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -782,6 +813,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_Error_closed_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -826,6 +858,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv_x27___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -835,6 +868,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -844,6 +878,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__0___redArg___lam__3(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, byte x_9, Obj x_10, byte x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_13) == 0)
@@ -1008,6 +1043,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_send___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1042,6 +1078,7 @@ return x_9;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_tryRecv___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1050,6 +1087,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__3___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1140,6 +1178,7 @@ return x_2;
 }
 }
 public static byte l_Std_Channel_Sync_trySend___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1181,6 +1220,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_close___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1189,6 +1229,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__10___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1198,6 +1239,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1212,6 +1254,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Channel_new___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1240,6 +1283,7 @@ return x_2;
 }
 }
 public static byte l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_trySend(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -1265,6 +1309,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1274,6 +1319,7 @@ return x_3;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__1_spec__1___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1351,6 +1397,7 @@ return x_19;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__0___redArg___lam__1(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1362,6 +1409,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1392,6 +1440,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Channel_instAsyncWriteOfInhabited___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1401,6 +1450,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_close___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1409,6 +1459,7 @@ return x_3;
 }
 }
 public static byte l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_trySend___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1431,6 +1482,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_trySend_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1454,6 +1506,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Channel_Sync_new___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1462,6 +1515,7 @@ return x_4;
 }
 }
 public static byte l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_resolve_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1470,6 +1524,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__1___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1548,6 +1603,7 @@ return x_21;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_25 = 0; 
@@ -1634,6 +1690,7 @@ return x_19;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_recv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1670,6 +1727,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_trySend___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1680,6 +1738,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__2___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1803,6 +1862,7 @@ return x_27;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__3___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1811,6 +1871,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_isClosed___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1819,6 +1880,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Channel_trySend___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1828,6 +1890,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1847,6 +1910,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_close___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2010,6 +2074,7 @@ return x_40;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2019,6 +2084,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_new(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2037,6 +2103,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Channel_send___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2046,6 +2113,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncWriteOfInhabited___redArg___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -2114,6 +2182,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_send___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2122,6 +2191,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_instMonadLiftEIOErrorIO___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2242,6 +2312,7 @@ return x_22;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_send___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2251,6 +2322,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_Flavors_bounded_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2259,6 +2331,7 @@ return x_6;
 }
 }
 public static Obj l_Std_CloseableChannel_tryRecv___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2277,6 +2350,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Channel_recv___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2286,6 +2360,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_close___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2357,6 +2432,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncWriteOfInhabited___redArg___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2366,6 +2442,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__0___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2563,6 +2640,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_close_spec__0___redArg(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -2589,6 +2667,7 @@ goto _start;
 }
 }
 public static Obj l_Std_CloseableChannel_Flavors_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2598,6 +2677,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_trySend_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2607,6 +2687,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg___lam__8___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2743,6 +2824,7 @@ return x_9;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2752,6 +2834,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Channel_send___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2760,6 +2843,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2786,6 +2870,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_trySend_x27_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; byte x_10 = 0; byte x_30 = 0; 
@@ -2909,6 +2994,7 @@ return x_28;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2918,6 +3004,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2927,6 +3014,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recv___redArg___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -3026,6 +3114,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Channel_Sync_tryRecv___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3042,6 +3131,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3050,6 +3140,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3078,6 +3169,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3087,6 +3179,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -3110,6 +3203,7 @@ return x_13;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_send___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3119,6 +3213,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3210,6 +3305,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__0___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3218,6 +3314,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Channel_Sync_tryRecv___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3226,6 +3323,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Channel_recvSelector(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3234,6 +3332,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__3___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -3257,6 +3356,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Channel_Sync_new(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3265,6 +3365,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3283,6 +3384,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncReadOptionOfInhabited(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3291,6 +3393,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3301,6 +3404,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3310,6 +3414,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Channel_Sync_new___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3327,6 +3432,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CloseableChannel_Error_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3338,6 +3444,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3346,6 +3453,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_close_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -3361,6 +3469,7 @@ return x_12;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__1_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3369,6 +3478,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_isClosed___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3378,6 +3488,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__2___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -3592,6 +3703,7 @@ return x_26;
 }
 }
 public static Obj l_Std_Channel_forAsync___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3612,6 +3724,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_close___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3749,6 +3862,7 @@ return x_29;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_send___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3768,6 +3882,7 @@ return x_6;
 }
 }
 public static Obj l_Std_CloseableChannel_recv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3814,6 +3929,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvReady_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3823,6 +3939,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_isClosed___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -3832,6 +3949,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Channel_instAsyncStreamOfInhabited(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3858,6 +3976,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_send___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3870,6 +3989,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recv___redArg___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3959,6 +4079,7 @@ return x_27;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__3_spec__3___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4061,6 +4182,7 @@ return x_28;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_close_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4069,6 +4191,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Channel_Sync_tryRecv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4077,6 +4200,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_send(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4085,6 +4209,7 @@ return x_5;
 }
 }
 public static byte l_Std_Channel_trySend(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4121,6 +4246,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_send___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4129,6 +4255,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvReady_x27___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4147,6 +4274,7 @@ return x_4;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__3_spec__3___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4237,6 +4365,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4256,6 +4385,7 @@ return x_2;
 }
 }
 public static Obj l_Std_CloseableChannel_tryRecv___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -4290,6 +4420,7 @@ return x_8;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__3_spec__3___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4318,6 +4449,7 @@ return x_12;
 }
 }
 public static Obj l_Std_CloseableChannel_forAsync___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4337,6 +4469,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Channel_instAsyncWriteOfInhabited(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4345,6 +4478,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_trySend___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4354,6 +4488,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__9___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4363,6 +4498,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4372,6 +4508,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_Flavors_unbounded_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4380,6 +4517,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_trySend_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4413,6 +4551,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__5(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -4424,6 +4563,7 @@ return x_6;
 }
 }
 public static Obj l_Std_CloseableChannel_trySend___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -4528,6 +4668,7 @@ return x_19;
 }
 }
 public static Obj l_Std_CloseableChannel_new___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4620,6 +4761,7 @@ return x_18;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncWriteOfInhabited___redArg___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4705,6 +4847,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_isClosed___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4883,6 +5026,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4892,6 +5036,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_trySend___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4901,6 +5046,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4910,6 +5056,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4918,6 +5065,7 @@ return x_4;
 }
 }
 public static byte l___private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_resolve___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4939,6 +5087,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Channel_instAsyncStreamOfInhabited___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4957,6 +5106,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__1___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4965,6 +5115,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Channel_recvSelector___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -4995,6 +5146,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Channel_Sync_instForInOfInhabitedOfMonadOfMonadLiftTBaseIO___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -5003,6 +5155,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Channel_trySend___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5030,6 +5183,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_isClosed___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5039,6 +5193,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__2___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; 
@@ -5207,6 +5362,7 @@ return x_14;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_close___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -5330,6 +5486,7 @@ return x_32;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_new___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; 
@@ -5366,6 +5523,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Sync_forIn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -5397,6 +5555,7 @@ return x_12;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -5406,6 +5565,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_Flavors_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5427,6 +5587,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5436,6 +5597,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5470,6 +5632,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_send___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5478,6 +5641,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Channel_Sync_send___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -5487,6 +5651,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_new___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5495,6 +5660,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5504,6 +5670,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_new___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5530,6 +5697,7 @@ return x_6;
 }
 }
 public static Obj l_Std_CloseableChannel_instToStringError___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5539,6 +5707,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__2___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5564,6 +5733,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_Consumer_resolve___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -5574,6 +5744,7 @@ return x_6;
 }
 }
 public static byte l_Std_CloseableChannel_Sync_trySend___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -5582,6 +5753,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_close___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5590,6 +5762,7 @@ return x_3;
 }
 }
 public static byte l_Std_Channel_Sync_trySend(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -5598,6 +5771,7 @@ return x_5;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__3_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5796,6 +5970,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5804,6 +5979,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_close___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5833,6 +6009,7 @@ return x_11;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5940,6 +6117,7 @@ return x_24;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_recv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6057,6 +6235,7 @@ return x_32;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_trySend___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -6083,6 +6262,7 @@ return x_1;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__2_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6101,6 +6281,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CloseableChannel_Flavors_bounded_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6109,6 +6290,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6117,6 +6299,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6169,6 +6352,7 @@ return x_14;
 }
 }
 public static byte l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_isClosed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6179,6 +6363,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_close_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -6192,6 +6377,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6208,6 +6394,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Channel_recvSelector___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_9 = null; 
@@ -6311,6 +6498,7 @@ goto block_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_close_spec__1(Obj x_1, byte x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -6354,6 +6542,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_trySend___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -6379,6 +6568,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6395,6 +6585,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_close_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6426,6 +6617,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_close(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6434,6 +6626,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6443,6 +6636,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__0___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; 
@@ -6453,6 +6647,7 @@ return x_14;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6461,6 +6656,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6497,6 +6693,7 @@ return x_11;
 }
 }
 public static Obj l_panic___at___00Std_Channel_send_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6599,6 +6796,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg___lam__7(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6689,6 +6887,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_select_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6718,6 +6917,7 @@ return x_9;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_send___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6852,6 +7052,7 @@ return x_21;
 }
 }
 public static byte l_Std_CloseableChannel_Sync_isClosed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6860,6 +7061,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_new___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6868,6 +7070,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_trySend_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -6888,6 +7091,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CloseableChannel_instToStringError___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -6913,6 +7117,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvReady_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6930,6 +7135,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6938,6 +7144,7 @@ return x_4;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__2_spec__2___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7028,6 +7235,7 @@ return x_22;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_send___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7059,6 +7267,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Channel_send___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7077,6 +7286,7 @@ return x_5;
 }
 }
 public static byte l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_trySend(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -7116,6 +7326,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_new___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7342,6 +7553,7 @@ return x_12;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -7370,6 +7582,7 @@ return x_8;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncWriteOfInhabited___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7418,6 +7631,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_recv___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7426,6 +7640,7 @@ return x_3;
 }
 }
 public static byte l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_trySend_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -7442,6 +7657,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CloseableChannel_recv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7450,6 +7666,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_close_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -7463,6 +7680,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7480,6 +7698,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_isClosed___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7503,6 +7722,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncReadOptionOfInhabited___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7530,6 +7750,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__1___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7538,6 +7759,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7555,6 +7777,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_forAsync___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; 
@@ -7571,6 +7794,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Channel_send___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7579,6 +7803,7 @@ return x_4;
 }
 }
 public static byte l_Std_CloseableChannel_Sync_isClosed___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -7587,6 +7812,7 @@ return x_3;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__1_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -7678,6 +7904,7 @@ return x_23;
 }
 }
 public static Obj l___private_Init_Data_Vector_Basic_0__Vector_mapM_go___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_new_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -7811,6 +8038,7 @@ return x_20;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7957,6 +8185,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8010,6 +8239,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8033,6 +8263,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8041,6 +8272,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CloseableChannel_Flavors_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8050,6 +8282,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_isClosed___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -8067,6 +8300,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_Sync_instForInOfMonadOfMonadLiftTBaseIO___private__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8217,6 +8451,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_tryRecv_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8255,6 +8490,7 @@ return x_3;
 }
 }
 public static byte l_Std_CloseableChannel_trySend(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -8297,6 +8533,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_isClosed___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8404,6 +8641,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Channel_instAsyncWriteOfInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8462,6 +8700,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_send(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8478,6 +8717,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8523,6 +8763,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector___redArg___lam__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -8638,6 +8879,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_send___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8691,6 +8933,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -8717,6 +8960,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Channel_recvSelector___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8725,6 +8969,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_close_spec__1___redArg(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -8752,6 +8997,7 @@ goto _start;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -8817,6 +9063,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Channel_Sync_recv___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8825,6 +9072,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__2___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8886,6 +9134,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_isClosed___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -8895,6 +9144,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_close___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8987,6 +9237,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncWriteOfInhabited___redArg___lam__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9003,6 +9254,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -9123,6 +9375,7 @@ return x_32;
 }
 }
 public static Obj l_Std_CloseableChannel_Error_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9251,6 +9504,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_send___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -9438,6 +9692,7 @@ return x_10;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9489,6 +9744,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_close(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9516,6 +9772,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9570,6 +9827,7 @@ return x_6;
 }
 }
 public static byte l_Std_CloseableChannel_isClosed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -9578,6 +9836,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_recvSelector(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9586,6 +9845,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncWriteOfInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9601,6 +9861,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CloseableChannel_recv___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9609,6 +9870,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CloseableChannel_instAsyncReadOptionOfInhabited___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9716,6 +9978,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recv___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9780,6 +10043,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_close___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9788,6 +10052,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector___redArg___lam__6(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -9853,6 +10118,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Channel_recvSelector___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10331,6 +10597,7 @@ return x_7;
 }
 }
 public static Obj l_Std_CloseableChannel_recv___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -10400,6 +10667,7 @@ return x_5;
 }
 }
 public static byte l_Std_CloseableChannel_trySend___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -10708,6 +10976,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__1___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10733,6 +11002,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvReady_x27___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10742,6 +11012,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_send___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -10834,6 +11105,7 @@ return x_28;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -10931,6 +11203,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_normal_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10950,6 +11223,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11190,6 +11464,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11210,6 +11485,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_recvSelector_spec__0___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11219,6 +11495,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_close(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11275,6 +11552,7 @@ return x_11;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector_spec__0___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11672,6 +11950,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Channel_Sync_send___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11717,6 +11996,7 @@ return x_9;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11735,6 +12015,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_tryRecv___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12177,6 +12458,7 @@ return x_22;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_new___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12324,6 +12606,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_x27___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_tryRecv_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12332,6 +12615,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CloseableChannel_instReprError_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; 
@@ -12657,6 +12941,7 @@ return x_20;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_trySend_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -12977,6 +13262,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_new___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12985,6 +13271,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_resolve_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -13004,6 +13291,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Consumer_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -13081,6 +13369,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Zero_close_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -13507,6 +13796,7 @@ return x_2;
 }
 }
 public static byte l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_trySend___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -13632,6 +13922,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_recvSelector___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -13796,6 +14087,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_trySend_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; byte x_10 = 0; byte x_34 = 0; 
@@ -14093,6 +14385,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_close___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -14257,6 +14550,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Unbounded_close_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -14340,6 +14634,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -14379,6 +14674,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_isClosed___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -14428,6 +14724,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00__private_Std_Sync_Channel_0__Std_CloseableChannel_Bounded_recvSelector_registerAux_spec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

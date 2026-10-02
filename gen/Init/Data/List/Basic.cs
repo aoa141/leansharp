@@ -52,6 +52,7 @@ return x_1;
 }
 }
 public static Obj l_List_head_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -60,6 +61,7 @@ return x_3;
 }
 }
 public static Obj l_List_findIdx_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -69,6 +71,7 @@ return x_4;
 }
 }
 public static Obj l_List_tail___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -87,6 +90,7 @@ return x_4;
 }
 }
 public static byte l_List_decidableLT___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -103,6 +107,7 @@ return x_4;
 }
 }
 public static Obj l_List_isEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -113,6 +118,7 @@ return x_3;
 }
 }
 public static Obj l_List_eraseReps(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -121,6 +127,7 @@ return x_4;
 }
 }
 public static Obj l_List_getLast(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -211,6 +218,7 @@ return x_2;
 }
 }
 public static Obj l_List_zipWithAll___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -293,6 +301,7 @@ return x_18;
 }
 }
 public static Obj l_List_headD___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -303,6 +312,7 @@ return x_3;
 }
 }
 public static byte l_List_all(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -311,6 +321,7 @@ return x_4;
 }
 }
 public static Obj l_List_findRev_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -319,6 +330,7 @@ return x_4;
 }
 }
 public static Obj l_List_rotateRight(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -327,6 +339,7 @@ return x_4;
 }
 }
 public static Obj l_List_replicate(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -347,6 +360,7 @@ return x_2;
 }
 }
 public static Obj l_List_countP(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -377,6 +391,7 @@ return x_2;
 }
 }
 public static Obj l_List_leftpadTR___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -410,6 +425,7 @@ return x_8;
 }
 }
 public static Obj l_List_decidableLE___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -419,6 +435,7 @@ return x_6;
 }
 }
 public static Obj l_List_min_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -427,6 +444,7 @@ return x_4;
 }
 }
 public static Obj l_List_zipWith(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -449,6 +467,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldr___at___00List_unzipTR_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -458,6 +477,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapTR_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -480,6 +500,7 @@ return x_5;
 }
 }
 public static Obj l_List_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -536,6 +557,7 @@ return x_8;
 }
 }
 public static Obj l_List_eraseIdx(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -568,6 +590,7 @@ return x_3;
 }
 }
 public static Obj l_List_zipIdx___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -634,6 +657,7 @@ return x_12;
 }
 }
 public static Obj l_List_lex___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -643,6 +667,7 @@ return x_6;
 }
 }
 public static Obj l_List_extract___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -688,6 +713,7 @@ return x_3;
 }
 }
 public static Obj l_List_eraseIdx___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -697,6 +723,7 @@ return x_3;
 }
 }
 public static Obj l_List_tail___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -706,6 +733,7 @@ return x_3;
 }
 }
 public static Obj l_List_rotateRight___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -715,6 +743,7 @@ return x_3;
 }
 }
 public static byte l_List_isPrefixOf___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -781,6 +810,7 @@ return x_1;
 }
 }
 public static Obj l_List_elem___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -790,6 +820,7 @@ return x_6;
 }
 }
 public static Obj l_List_isSuffixOf___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -799,6 +830,7 @@ return x_6;
 }
 }
 public static Obj l_List_unzipTR___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -808,6 +840,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapTR_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -870,6 +903,7 @@ goto _start;
 }
 }
 public static byte l_List_nodupDecidable(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -878,6 +912,7 @@ return x_4;
 }
 }
 public static Obj l_List_isInfixOf__internal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -887,6 +922,7 @@ return x_6;
 }
 }
 public static Obj l_List_rightpad___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -896,6 +932,7 @@ return x_4;
 }
 }
 public static Obj l_List_getLast_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -970,6 +1007,7 @@ return x_6;
 }
 }
 public static Obj l_List_eraseDupsBy(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -978,6 +1016,7 @@ return x_4;
 }
 }
 public static Obj l_List_lex___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -987,6 +1026,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_List_Basic_0__List_filter_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -996,6 +1036,7 @@ return x_5;
 }
 }
 public static Obj l_List_leftpad___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1005,6 +1046,7 @@ return x_4;
 }
 }
 public static Obj l_List_range_x27TR_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -1036,6 +1078,7 @@ goto _start;
 }
 }
 public static byte l_List_isInfixOf__internal___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1092,6 +1135,7 @@ return x_2;
 }
 }
 public static byte l_List_elem(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1100,6 +1144,7 @@ return x_5;
 }
 }
 public static Obj l_List_unzip___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1243,6 +1288,7 @@ return x_18;
 }
 }
 public static Obj l_List_filterTR_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1262,6 +1308,7 @@ return x_5;
 }
 }
 public static Obj l_List_span_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1347,6 +1394,7 @@ goto _start;
 }
 }
 public static Obj l_List_findIdx_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1385,6 +1433,7 @@ return x_3;
 }
 }
 public static Obj l_List_count___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1397,6 +1446,7 @@ return x_6;
 }
 }
 public static Obj l_List_replace___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1490,6 +1540,7 @@ return x_15;
 }
 }
 public static Obj l_List_decidableBAll___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1499,6 +1550,7 @@ return x_6;
 }
 }
 public static Obj l_List_findFinIdx_x3f_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1543,6 +1595,7 @@ return x_12;
 }
 }
 public static Obj l_List_prod___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1552,6 +1605,7 @@ return x_4;
 }
 }
 public static Obj l_List_min(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1560,6 +1614,7 @@ return x_5;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______unexpand__List__IsSuffix__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1569,6 +1624,7 @@ return x_4;
 }
 }
 public static Obj l_List_getLast___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1664,6 +1720,7 @@ return x_3;
 }
 }
 public static Obj l_List_leftpad___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1687,6 +1744,7 @@ return x_1;
 }
 }
 public static byte l_List_decidableLT(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1716,6 +1774,7 @@ return x_1;
 }
 }
 public static byte l_List_isEqv(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1733,6 +1792,7 @@ return x_3;
 }
 }
 public static byte l_List_contains(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1741,6 +1801,7 @@ return x_5;
 }
 }
 public static Obj l_List_tail_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1749,6 +1810,7 @@ return x_3;
 }
 }
 public static Obj l_List_headD___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1759,6 +1821,7 @@ return x_4;
 }
 }
 public static Obj l_List_removeAll(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1767,6 +1830,7 @@ return x_5;
 }
 }
 public static Obj l_List_prod___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1777,6 +1841,7 @@ return x_5;
 }
 }
 public static Obj l_List_insertIdx(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1880,6 +1945,7 @@ return x_7;
 }
 }
 public static Obj l_List_sum(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1888,6 +1954,7 @@ return x_5;
 }
 }
 public static Obj l_List_decidableLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1897,6 +1964,7 @@ return x_8;
 }
 }
 public static Obj l_List_range_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1961,6 +2029,7 @@ return x_2;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______macroRules__List__term___x3c_x2b____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1979,6 +2048,7 @@ return x_5;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______unexpand__List__Perm__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2079,6 +2149,7 @@ return x_3;
 }
 }
 public static byte l_List_decidableBEx___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2151,6 +2222,7 @@ return x_10;
 }
 }
 public static Obj l_List_find_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2159,6 +2231,7 @@ return x_4;
 }
 }
 public static Obj l_List_reverseAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2167,6 +2240,7 @@ return x_4;
 }
 }
 public static Obj l_List_decidableLex___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2176,6 +2250,7 @@ return x_8;
 }
 }
 public static byte l_List_any___at___00List_eraseDupsBy_loop_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2222,6 +2297,7 @@ return x_2;
 }
 }
 public static Obj l_List_filterTR_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2296,6 +2372,7 @@ goto _start;
 }
 }
 public static Obj l_List_countP_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2333,6 +2410,7 @@ goto _start;
 }
 }
 public static Obj l_List_and___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2354,6 +2432,7 @@ return x_2;
 }
 }
 public static Obj l_List_modifyTailIdx_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2386,6 +2465,7 @@ return x_3;
 }
 }
 public static byte l_List_contains___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -2394,6 +2474,7 @@ return x_4;
 }
 }
 public static Obj l_List_intersperseTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2402,6 +2483,7 @@ return x_4;
 }
 }
 public static Obj l_List_extract___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2421,6 +2503,7 @@ return x_5;
 }
 }
 public static Obj l_List_rightpad___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2446,6 +2529,7 @@ return x_4;
 }
 }
 public static Obj l_List_modify___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2481,6 +2565,7 @@ return x_4;
 }
 }
 public static Obj l_List_sum___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2513,6 +2598,7 @@ return x_5;
 }
 }
 public static Obj l_List_modify(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -2534,6 +2620,7 @@ return x_1;
 }
 }
 public static Obj l_List_partition___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2557,6 +2644,7 @@ return x_5;
 }
 }
 public static Obj l_List_any___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2574,6 +2662,7 @@ return x_5;
 }
 }
 public static byte l_List_decidableLE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2678,6 +2767,7 @@ return x_1;
 }
 }
 public static Obj l_List_decidableBEx___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2687,6 +2777,7 @@ return x_6;
 }
 }
 public static Obj l_List_any___at___00List_eraseDupsBy_loop_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2696,6 +2787,7 @@ return x_5;
 }
 }
 public static Obj l_List_splitAt_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2784,6 +2876,7 @@ goto _start;
 }
 }
 public static Obj l_List_isSublist___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2815,6 +2908,7 @@ return x_2;
 }
 }
 public static Obj l_List_isPerm___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2824,6 +2918,7 @@ return x_6;
 }
 }
 public static Obj l_List_isSuffixOf_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2889,6 +2984,7 @@ return x_4;
 }
 }
 public static Obj l_List_eraseDupsBy_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3018,6 +3114,7 @@ return x_1;
 }
 }
 public static byte l_List_all___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3055,6 +3152,7 @@ goto _start;
 }
 }
 public static Obj l_List_modifyTailIdx_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3126,6 +3224,7 @@ return x_14;
 }
 }
 public static byte l_List_or(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -3134,6 +3233,7 @@ return x_2;
 }
 }
 public static Obj l_List_isEmpty___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3144,6 +3244,7 @@ return x_4;
 }
 }
 public static byte l_List_lex___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3231,6 +3332,7 @@ return x_18;
 }
 }
 public static Obj l_List_insertIdx___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3303,6 +3405,7 @@ return x_15;
 }
 }
 public static byte l_List_decidableLex(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -3319,6 +3422,7 @@ return x_2;
 }
 }
 public static Obj l_List_dropWhile___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3351,6 +3455,7 @@ goto _start;
 }
 }
 public static Obj l_List_foldr___at___00List_intersperseTR_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3360,6 +3465,7 @@ return x_5;
 }
 }
 public static Obj l_List_eraseReps___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -3386,6 +3492,7 @@ return x_4;
 }
 }
 public static Obj l_List_tail_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3395,6 +3502,7 @@ return x_2;
 }
 }
 public static Obj l_List_findIdx_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -3404,6 +3512,7 @@ return x_5;
 }
 }
 public static Obj l_List_instDecidableMemOfLawfulBEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3501,6 +3610,7 @@ return x_7;
 }
 }
 public static Obj l_List_splitBy_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3635,6 +3745,7 @@ return x_4;
 }
 }
 public static Obj l_List_zip(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3655,6 +3766,7 @@ return x_3;
 }
 }
 public static Obj l_List_dropLast(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3663,6 +3775,7 @@ return x_3;
 }
 }
 public static Obj l_List_leftpadTR___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3674,6 +3787,7 @@ return x_6;
 }
 }
 public static Obj l_List_removeAll___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -3685,6 +3799,7 @@ return x_5;
 }
 }
 public static Obj l_List_find_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3724,6 +3839,7 @@ return x_9;
 }
 }
 public static Obj l_List_idxOf___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3751,6 +3867,7 @@ return x_5;
 }
 }
 public static Obj l_List_getLastD___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3761,6 +3878,7 @@ return x_3;
 }
 }
 public static Obj l_List_leftpad___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3770,6 +3888,7 @@ return x_5;
 }
 }
 public static Obj l_List_reverseAux___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3835,6 +3954,7 @@ return x_4;
 }
 }
 public static Obj l_List_instLE___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3870,6 +3990,7 @@ return x_4;
 }
 }
 public static Obj l_List_insertIdx___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3887,6 +4008,7 @@ return x_4;
 }
 }
 public static byte l_List_isPerm___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3939,6 +4061,7 @@ return x_1;
 }
 }
 public static Obj l_List_findSome_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3989,6 +4112,7 @@ return x_5;
 }
 }
 public static Obj l_List_isPrefixOf___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3998,6 +4122,7 @@ return x_6;
 }
 }
 public static Obj l_List_range(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -4007,6 +4132,7 @@ return x_3;
 }
 }
 public static Obj l_List_rotateLeft___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -4033,6 +4159,7 @@ return x_1;
 }
 }
 public static Obj l_List_take___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -4178,6 +4305,7 @@ return x_2;
 }
 }
 public static Obj l_List_replicateTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4196,6 +4324,7 @@ return x_1;
 }
 }
 public static Obj l_List_filter___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4267,6 +4396,7 @@ return x_11;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______unexpand__List__IsInfix__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4320,6 +4450,7 @@ return x_12;
 }
 }
 public static Obj l_List_eraseDups(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4328,6 +4459,7 @@ return x_4;
 }
 }
 public static Obj l_List_modifyTailIdx_go___at___00List_insertIdx_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4337,6 +4469,7 @@ return x_4;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______macroRules__List__term___x3c_x3a_x2b_x3a____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4346,6 +4479,7 @@ return x_4;
 }
 }
 public static Obj l_List_getLast_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4371,6 +4505,7 @@ return x_5;
 }
 }
 public static Obj l_List_rotateRight___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -4399,6 +4534,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_List_Basic_0__List_filter_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4465,6 +4601,7 @@ return x_11;
 }
 }
 public static byte l_List_decidableBAll(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4473,6 +4610,7 @@ return x_5;
 }
 }
 public static Obj l_List_modifyTailIdx_go___at___00List_insertIdx_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4517,6 +4655,7 @@ return x_5;
 }
 }
 public static Obj l_List_replicateTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -4538,6 +4677,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldr___at___00List_unzipTR_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4546,6 +4686,7 @@ return x_5;
 }
 }
 public static Obj l_List_splitBy(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4578,6 +4719,7 @@ return x_8;
 }
 }
 public static byte l_List_isSublist(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4594,6 +4736,7 @@ return x_3;
 }
 }
 public static byte l_List_and(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -4602,6 +4745,7 @@ return x_2;
 }
 }
 public static byte l_List_instDecidableRelSubsetOfDecidableEq___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -4697,6 +4841,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4718,6 +4863,7 @@ return x_3;
 }
 }
 public static byte l_List_isSublist___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4798,6 +4944,7 @@ return x_6;
 }
 }
 public static Obj l_List_replicate___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4925,6 +5072,7 @@ return x_21;
 }
 }
 public static Obj l_List_erase___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5058,6 +5206,7 @@ return x_11;
 }
 }
 public static Obj l_List_rotateLeft___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5087,6 +5236,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5183,6 +5333,7 @@ return x_4;
 }
 }
 public static Obj l_List_modifyTailIdx_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5235,6 +5386,7 @@ return x_2;
 }
 }
 public static Obj l_List_any___at___00List_or_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5265,6 +5417,7 @@ return x_7;
 }
 }
 public static Obj l_List_zip___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5273,6 +5426,7 @@ return x_3;
 }
 }
 public static Obj l_List_zipWith___at___00List_zip_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5396,6 +5550,7 @@ return x_5;
 }
 }
 public static byte l_List_decidableLex___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -5517,6 +5672,7 @@ return x_4;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______unexpand__List__IsSuffix__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5660,6 +5816,7 @@ return x_6;
 }
 }
 public static Obj l_List_drop(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5668,6 +5825,7 @@ return x_4;
 }
 }
 public static Obj l_List_appendTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -5728,6 +5886,7 @@ return x_8;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______unexpand__List__IsInfix__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5851,6 +6010,7 @@ return x_5;
 }
 }
 public static byte l_List_instDecidablePairwise___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -5927,6 +6087,7 @@ return x_14;
 }
 }
 public static Obj l_List_findIdx_x3f_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5946,6 +6107,7 @@ return x_2;
 }
 }
 public static Obj l_List_isPrefixOf_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6031,6 +6193,7 @@ return x_3;
 }
 }
 public static Obj l_List_eraseDups___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -6041,6 +6204,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldr___at___00List_intersperseTR_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6115,6 +6279,7 @@ return x_3;
 }
 }
 public static Obj l_List_lookup(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6142,6 +6307,7 @@ return x_5;
 }
 }
 public static byte l_List_any___at___00List_or_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6192,6 +6358,7 @@ return x_1;
 }
 }
 public static Obj l_List_extract(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -6231,6 +6398,7 @@ return x_4;
 }
 }
 public static Obj l_List_getLastD(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6248,6 +6416,7 @@ return x_4;
 }
 }
 public static byte l_List_isSuffixOf(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -6380,6 +6549,7 @@ return x_3;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______macroRules__List__term___x3c_x2b____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6479,6 +6649,7 @@ return x_1;
 }
 }
 public static Obj l_List_sum___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -6489,6 +6660,7 @@ return x_5;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______macroRules__List__term___x3c_x3a_x2b____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6542,6 +6714,7 @@ return x_26;
 }
 }
 public static byte l_List_instDecidableMemOfLawfulBEq___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -6560,6 +6733,7 @@ return x_1;
 }
 }
 public static Obj l_List_dropLast___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6641,6 +6815,7 @@ return x_3;
 }
 }
 public static Obj l_List_eraseIdx___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6711,6 +6886,7 @@ return x_12;
 }
 }
 public static Obj l_List_elem___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -6776,6 +6952,7 @@ return x_8;
 }
 }
 public static Obj l_List_eraseRepsBy_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6906,6 +7083,7 @@ return x_13;
 }
 }
 public static Obj l_List_rightpad___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -6993,6 +7171,7 @@ return x_4;
 }
 }
 public static Obj l_List_modifyTailIdx_go___at___00List_insertIdx_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -7082,6 +7261,7 @@ return x_4;
 }
 }
 public static byte l_List_isSuffixOf___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -7108,6 +7288,7 @@ return x_4;
 }
 }
 public static Obj l_List_reverse(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7256,6 +7437,7 @@ return x_4;
 }
 }
 public static Obj l_List_findSomeRev_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -7291,6 +7473,7 @@ return x_6;
 }
 }
 public static Obj l_List_idxOf_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -7322,6 +7505,7 @@ return x_4;
 }
 }
 public static Obj l_List_insert___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7352,6 +7536,7 @@ return x_5;
 }
 }
 public static Obj l_List_prod___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7379,6 +7564,7 @@ return x_1;
 }
 }
 public static Obj l_List_leftpadTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -7390,6 +7576,7 @@ return x_7;
 }
 }
 public static Obj l_List_idxOf_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -7422,6 +7609,7 @@ return x_5;
 }
 }
 public static byte l_List_any(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7550,6 +7738,7 @@ return x_1;
 }
 }
 public static Obj l_List_instDecidableRelSubsetOfDecidableEq___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -7559,6 +7748,7 @@ return x_5;
 }
 }
 public static Obj l_List_splitAt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7588,6 +7778,7 @@ return x_8;
 }
 }
 public static Obj l_List_drop___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7639,6 +7830,7 @@ return x_6;
 }
 }
 public static Obj l_List___aux__Init__Data__List__Basic______unexpand__List__IsPrefix__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7648,6 +7840,7 @@ return x_4;
 }
 }
 public static Obj l_List_tailD___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7844,6 +8037,7 @@ return x_29;
 }
 }
 public static Obj l_List_replicateTR_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -7872,6 +8066,7 @@ goto _start;
 }
 }
 public static Obj l_List_replicate___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -7984,6 +8179,7 @@ return x_3;
 }
 }
 public static byte l_List_elem___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -8343,6 +8539,7 @@ return x_15;
 }
 }
 public static byte l_List_all___at___00List_and_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -8391,6 +8588,7 @@ return x_4;
 }
 }
 public static Obj l_List_isEqv___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -8813,6 +9011,7 @@ return x_15;
 }
 }
 public static Obj l_List_intersperse___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8887,6 +9086,7 @@ return x_9;
 }
 }
 public static Obj l_List_eraseP(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8904,6 +9104,7 @@ return x_6;
 }
 }
 public static Obj l_List_partition_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8912,6 +9113,7 @@ return x_5;
 }
 }
 public static Obj l_List_modifyTailIdx___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -8985,6 +9187,7 @@ return x_2;
 }
 }
 public static Obj l_List_partition_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -9246,6 +9449,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9283,6 +9487,7 @@ return x_4;
 }
 }
 public static Obj l_List_takeWhile(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9291,6 +9496,7 @@ return x_4;
 }
 }
 public static Obj l_List_eraseP___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -9362,6 +9568,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldr___at___00List_unzipTR_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -9531,6 +9738,7 @@ return x_2;
 }
 }
 public static Obj l_List_zipWith___at___00List_zip_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -9712,6 +9920,7 @@ return x_2;
 }
 }
 public static Obj l_List_decidableBAll___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -9898,6 +10107,7 @@ return x_4;
 }
 }
 public static byte l_List_isEqv___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -9972,6 +10182,7 @@ return x_4;
 }
 }
 public static Obj l_List_findIdx_x3f_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10044,6 +10255,7 @@ return x_5;
 }
 }
 public static Obj l_List_foldr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -10084,6 +10296,7 @@ return x_4;
 }
 }
 public static byte l_List_any___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10164,6 +10377,7 @@ return x_3;
 }
 }
 public static Obj l_List_lookup___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -10239,6 +10453,7 @@ return x_4;
 }
 }
 public static Obj l_List_findRev_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10287,6 +10502,7 @@ return x_6;
 }
 }
 public static Obj l_List_zipWith___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10446,6 +10662,7 @@ return x_4;
 }
 }
 public static Obj l_List_range_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -10481,6 +10698,7 @@ return x_4;
 }
 }
 public static Obj l_List_drop___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -10554,6 +10772,7 @@ return x_3;
 }
 }
 public static Obj l_List_takeWhile___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10780,6 +10999,7 @@ return x_4;
 }
 }
 public static byte l_List_decidableBAll___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

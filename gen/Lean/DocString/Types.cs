@@ -54,6 +54,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedPart_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -62,6 +63,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Inline_image_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -70,6 +72,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Inline_linebreak_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -102,6 +105,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedBlock_default(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -110,6 +114,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_instReprBlock_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -118,6 +123,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Block_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -126,6 +132,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instBEqListItem_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -137,6 +144,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedInline___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -145,6 +153,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedListItem_default(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -187,6 +196,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedPart___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -229,6 +239,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedInline_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -237,6 +248,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Block_concat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -245,6 +257,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Inline_concat_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -253,6 +266,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Block_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -273,6 +287,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedListItem_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -281,6 +296,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instBEqInline_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -340,6 +356,7 @@ return x_10;
 }
 }
 public static byte l_Lean_Doc_instBEqInline_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -360,6 +377,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instOrdMathMode_ord___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -403,6 +421,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_instReprInline_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -421,6 +440,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedBlock(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -502,6 +522,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Doc_instBEqBlock_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -530,6 +551,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instReprBlock_repr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1086,6 +1108,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_instOrdInline_ord___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1105,6 +1128,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Block_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1130,6 +1154,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedPart_default(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1171,6 +1196,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instBEqDescItem_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1194,6 +1220,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Doc_instBEqListItem_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1216,6 +1243,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Inline_link_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1224,6 +1252,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Doc_instBEqBlock_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1232,6 +1261,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_MathMode_display_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1256,6 +1286,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Inline_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1658,6 +1689,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_Inline_emph_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1738,6 +1770,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_instAppendInline___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1746,6 +1779,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_MathMode_display_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1756,6 +1790,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedDescItem_default(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1764,6 +1799,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Doc_instOrdBlock_ord(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1808,6 +1844,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Inline_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1816,6 +1853,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_instReprListItem_repr___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -1851,6 +1889,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Doc_Inline_link_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1859,6 +1898,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Inline_other_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1910,6 +1950,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_instAppendInline(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2070,6 +2111,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_instBEqMathMode_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2137,6 +2179,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_MathMode_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2175,6 +2218,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedBlock_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2368,6 +2412,7 @@ return x_32;
 }
 }
 public static Obj l_Lean_Doc_Inline_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2407,6 +2452,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Doc_instOrdPart_ord___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -2477,6 +2523,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_instOrdPart_ord___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2523,6 +2570,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Inline_concat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2531,6 +2579,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_instReprPart_repr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2558,6 +2607,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Doc_instOrdInline_ord___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -2906,6 +2956,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_instOrdDescItem_ord___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2929,6 +2980,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instReprInline_repr___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2978,6 +3030,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_instOrdInline_ord___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3042,6 +3095,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instReprPart_repr___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; Obj x_69 = null; Obj x_70 = null; Obj x_71 = null; 
@@ -3269,6 +3323,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_instReprInline_repr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4099,6 +4154,7 @@ return x_232;
 }
 }
 public static byte l_Lean_Doc_instOrdDescItem_ord(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -4117,6 +4173,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedPart(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4301,6 +4358,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Inline_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4330,6 +4388,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_instInhabitedInline_default(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4338,6 +4397,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Inline_emph_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4354,6 +4414,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Block_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4917,6 +4978,7 @@ return x_74;
 }
 }
 public static Obj l_Lean_Doc_Inline_footnote_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5047,6 +5109,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Inline_bold_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5149,6 +5212,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instReprDescItem_repr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5215,6 +5279,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Inline_math_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5223,6 +5288,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_instOrdListItem_ord___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5423,6 +5489,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Doc_instBEqInline_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5859,6 +5926,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Block_ctorIdx(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5867,6 +5935,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_instReprMathMode_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5994,6 +6063,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Doc_instBEqListItem_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -6023,6 +6093,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Inline_code_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6081,6 +6152,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Doc_Inline_footnote_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6254,6 +6326,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Inline_code_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6262,6 +6335,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Inline_linebreak_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6282,6 +6356,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_Inline_text_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6572,6 +6647,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Inline_bold_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6591,6 +6667,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_instReprDescItem_repr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_37 = 0; 
@@ -6868,6 +6945,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Inline_text_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6876,6 +6954,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_Block_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6924,6 +7003,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_Inline_other_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6987,6 +7067,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_Inline_image_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7087,6 +7168,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_Inline_math_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

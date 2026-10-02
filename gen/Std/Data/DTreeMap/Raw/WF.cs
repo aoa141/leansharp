@@ -13,6 +13,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Std_DTreeMap_Raw_WF_instCoeTypeForall___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

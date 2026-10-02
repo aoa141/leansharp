@@ -32,6 +32,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_removeNumLeadingSpaces_saveLine(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -82,6 +83,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_removeNumLeadingSpaces___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -91,6 +93,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_findLeadingSpacesSize_findNextLine(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -129,6 +132,7 @@ return x_3;
 }
 }
 public static Obj l_String_removeLeadingSpaces(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -151,6 +155,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_crlfToLf_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -160,6 +165,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Init_Data_String_Extra_0__String_findLeadingSpacesSize_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -200,6 +206,7 @@ return x_2;
 }
 }
 public static Obj l_String_crlfToLf(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -219,6 +226,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_findLeadingSpacesSize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -265,6 +273,7 @@ return x_10;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Init_Data_String_Extra_0__String_findLeadingSpacesSize_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -276,6 +285,7 @@ return x_5;
 }
 }
 public static Obj l_String_utf8DecodeChar_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -286,6 +296,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_removeNumLeadingSpaces_consumeSpaces___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -320,6 +331,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_removeNumLeadingSpaces_consumeSpaces(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -407,6 +419,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_crlfToLf_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -511,6 +524,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_findLeadingSpacesSize_consumeSpaces___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -521,6 +535,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_String_Extra_0__String_findLeadingSpacesSize_consumeSpaces(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_11 = 0; 
@@ -605,6 +620,7 @@ goto _start;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Init_Data_String_Extra_0__String_findLeadingSpacesSize_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

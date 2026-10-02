@@ -86,6 +86,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_Package_isLocalModule_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -101,6 +102,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_Package_moreLinkArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -110,6 +112,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_moreLeancArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -119,6 +122,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_restoreAllArtifacts_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -128,6 +132,7 @@ return x_2;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_Package_isBuildableModule_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -212,6 +217,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_NPackage_instCoeOutPackage___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -220,6 +226,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_moreGlobalServerArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -239,6 +246,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_backend___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -258,6 +266,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instInhabitedPostUpdateHook_default(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -273,6 +282,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_instInhabitedPackage_default_spec__1(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -316,6 +326,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_plugins___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -354,6 +365,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Package_weakLeancArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -404,6 +416,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_get_x3f___at___00Lake_Package_findTargetDecl_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -412,6 +425,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_Package_isLocalModule___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -453,6 +467,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_versionTags___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -462,6 +477,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instInhabitedPostUpdateHook_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -537,6 +553,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_weakLeanArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -748,6 +765,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instInhabitedPostUpdateHook_default___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -889,6 +907,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_description___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -898,6 +917,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instInhabitedPostUpdateHook___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -906,6 +926,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_moreLinkLibs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -915,6 +936,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_findTargetDecl_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -924,6 +946,7 @@ return x_4;
 }
 }
 public static byte l_Lake_Package_isLocalModule(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -963,6 +986,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_lintDriverArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -992,6 +1016,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_licenseFiles(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; ulong x_11 = 0; Obj x_12 = null; 
@@ -1016,6 +1041,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_Package_moreLeanArgs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1109,6 +1135,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_remoteUrl_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1128,6 +1155,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Package_relLicenseFiles(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -1167,6 +1195,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_Package_libPrefixOnWindows___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1294,6 +1323,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_allowNonModules___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1304,6 +1334,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Package_releaseRepo_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1332,6 +1363,7 @@ return x_1;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_Package_isLocalModule_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1382,6 +1414,7 @@ return x_18;
 }
 }
 public static Obj l_Lake_Package_extraDepTargets___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1467,6 +1500,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Package_isBuildableModule___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1524,6 +1558,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_Package_relLakeDir___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1562,6 +1597,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instInhabitedPostUpdateHook___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1592,6 +1628,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_Package_version___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1657,6 +1694,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_Package_requiresModuleSystem___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1714,6 +1752,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_platformIndependent___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1732,6 +1771,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lake_instInhabitedPackage_default_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1785,6 +1825,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Package_instBEq___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1887,6 +1928,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lake_instInhabitedPackage_default_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3524,6 +3566,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_isPlatformIndependent___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3603,6 +3646,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_get_x3f___at___00Lake_Package_findTargetDecl_x3f_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3721,6 +3765,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_buildType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

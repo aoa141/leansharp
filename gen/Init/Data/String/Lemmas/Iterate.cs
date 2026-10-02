@@ -47,6 +47,7 @@ return x_14;
 }
 }
 public static Obj l_String_Slice_Model_positionsFrom(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -127,6 +128,7 @@ return x_11;
 }
 }
 public static Obj l_String_Model_positionsFrom(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -178,6 +180,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Model_revPositionsFrom(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -204,6 +207,7 @@ return x_10;
 }
 }
 public static Obj l_String_Model_revPositionsFrom(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 

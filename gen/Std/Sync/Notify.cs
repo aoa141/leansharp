@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Notify_notify___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -31,6 +32,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Notify_Consumer_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -61,6 +63,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Notify_Consumer_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -84,6 +87,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_Notify_Consumer_resolve_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -94,6 +98,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Notify_notify_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -102,6 +107,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Notify_notifyOne_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -112,6 +118,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00Std_Notify_selector_spec__1___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -156,6 +163,7 @@ return x_2;
 }
 }
 public static byte l_Std_Async_Waiter_race___at___00Std_Notify_Consumer_resolve_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -164,6 +172,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Notify_notifyOne_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -172,6 +181,7 @@ return x_5;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00Std_Notify_selector_spec__1_spec__1___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -180,6 +190,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00Std_Notify_selector_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -189,6 +200,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Notify_Consumer_resolve___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -199,6 +211,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Notify_Consumer_normal_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -219,6 +232,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Notify_wait_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -251,6 +265,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Notify_notify_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -278,6 +293,7 @@ return x_7;
 }
 }
 public static byte l_Std_Notify_Consumer_resolve___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -348,6 +364,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Notify_notify_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -379,6 +396,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Notify_selector___lam__4(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -389,6 +407,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Notify_wait(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -398,6 +417,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Notify_wait_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -439,6 +459,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Notify_notifyOne_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -448,6 +469,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Notify_selector_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -541,6 +563,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Notify_selector___lam__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -554,6 +577,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Notify_selector___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -563,6 +587,7 @@ return x_5;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00Std_Notify_selector_spec__1_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -665,6 +690,7 @@ return x_2;
 }
 }
 public static byte l_Std_Notify_notifyOne___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -691,6 +717,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_Notify_notifyOne_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -878,6 +905,7 @@ return x_26;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Notify_selector_spec__0___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -886,6 +914,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Notify_selector___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -972,6 +1001,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Notify_selector___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -981,6 +1011,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Notify_Consumer_resolve___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -1078,6 +1109,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Notify_new___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1094,6 +1126,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Notify_Consumer_resolve___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1104,6 +1137,7 @@ return x_6;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00Std_Notify_selector_spec__1_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1224,6 +1258,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Notify_wait___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1632,6 +1667,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Notify_selector_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1648,6 +1684,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00Std_Notify_selector_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -1671,6 +1708,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Notify_notify(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 

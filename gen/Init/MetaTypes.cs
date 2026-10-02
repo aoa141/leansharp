@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_MetaTypes {
 public static Obj l_Lean_Meta_Occurrences_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -51,6 +52,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_TransparencyMode_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -130,6 +132,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Meta_Simp_instBEqConfig_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; byte x_18 = 0; byte x_19 = 0; byte x_20 = 0; byte x_21 = 0; byte x_22 = 0; byte x_23 = 0; byte x_24 = 0; byte x_25 = 0; byte x_26 = 0; byte x_27 = 0; byte x_28 = 0; byte x_29 = 0; byte x_30 = 0; byte x_31 = 0; Obj x_32 = null; byte x_33 = 0; byte x_34 = 0; Obj x_35 = null; Obj x_36 = null; byte x_37 = 0; byte x_38 = 0; byte x_39 = 0; byte x_40 = 0; byte x_41 = 0; byte x_42 = 0; byte x_43 = 0; byte x_44 = 0; byte x_45 = 0; byte x_46 = 0; byte x_47 = 0; byte x_48 = 0; byte x_49 = 0; byte x_50 = 0; byte x_51 = 0; byte x_52 = 0; byte x_53 = 0; byte x_54 = 0; byte x_55 = 0; byte x_56 = 0; byte x_57 = 0; byte x_58 = 0; byte x_59 = 0; byte x_60 = 0; byte x_61 = 0; byte x_62 = 0; byte x_63 = 0; Obj x_64 = null; byte x_65 = 0; byte x_66 = 0; byte x_67 = 0; byte x_89 = 0; byte x_97 = 0; byte x_99 = 0; 
@@ -938,6 +941,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_EtaStructMode_all_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -948,6 +952,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_EtaStructMode_notClasses_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -964,6 +969,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Meta_DSimp_instBEqConfig_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; byte x_18 = 0; byte x_19 = 0; byte x_20 = 0; byte x_21 = 0; byte x_22 = 0; byte x_23 = 0; byte x_24 = 0; byte x_25 = 0; byte x_26 = 0; byte x_27 = 0; byte x_28 = 0; byte x_29 = 0; byte x_30 = 0; byte x_31 = 0; byte x_32 = 0; byte x_33 = 0; byte x_34 = 0; byte x_35 = 0; byte x_37 = 0; byte x_39 = 0; byte x_41 = 0; byte x_43 = 0; byte x_45 = 0; byte x_47 = 0; byte x_49 = 0; byte x_51 = 0; byte x_53 = 0; byte x_55 = 0; 
@@ -1398,6 +1404,7 @@ goto block_59;
 }
 }
 public static Obj l_Lean_Meta_instBEqEtaStructMode_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1456,6 +1463,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_Occurrences_all_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1464,6 +1472,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_TransparencyMode_instances_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1473,6 +1482,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Occurrences_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1481,6 +1491,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_TransparencyMode_all_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1514,6 +1525,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_TransparencyMode_instances_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1541,6 +1553,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_EtaStructMode_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1568,6 +1581,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_instBEqTransparencyMode_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1644,6 +1658,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_TransparencyMode_reducible_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1654,6 +1669,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_EtaStructMode_none_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1718,6 +1734,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_TransparencyMode_all_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2005,6 +2022,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_EtaStructMode_all_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2104,6 +2122,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_TransparencyMode_implicit_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2122,6 +2141,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Occurrences_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2331,6 +2351,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Meta_instBEqEtaStructMode_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 

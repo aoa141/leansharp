@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Server_ServerTask {
 public static Obj l_Lean_Server_ServerTask_IO_asTask___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15,6 +16,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_asTask___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -39,6 +41,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_mapTaskCheap___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -77,6 +80,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_mapTaskCheap(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -121,6 +125,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_bindTaskCheap(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -157,6 +162,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_asTask___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -165,6 +171,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_asTask___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -192,6 +199,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_mapTaskCostly(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -219,6 +227,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_mapTaskCostly___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -236,6 +245,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Server_ServerTask_join_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -244,6 +254,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_mapTaskCheap___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -343,6 +354,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Server_ServerTask_waitAny___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -351,6 +363,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_asTask___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -382,6 +395,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Server_instCoeTaskServerTask(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -414,6 +428,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_bindTaskCheap___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -500,6 +515,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_bindTaskCheap___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -621,6 +637,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_bindTaskCheap___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -629,6 +646,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_asTask___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -661,6 +679,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_ServerTask_waitAny(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -709,6 +728,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_asTask___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -729,6 +749,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_bindTaskCheap___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -769,6 +790,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_bindTaskCostly___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -784,6 +806,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Server_ServerTask_join___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -793,6 +816,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_bindTaskCostly___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -801,6 +825,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_bindTaskCostly___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -809,6 +834,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_instCoeTaskServerTask___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -829,6 +855,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_join___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -850,6 +877,7 @@ return x_6;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_Server_ServerTask_waitAny_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -908,6 +936,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_mapTaskCheap___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -916,6 +945,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Server_ServerTask_wait___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -942,6 +972,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Server_instCoeTaskServerTask___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1059,6 +1090,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_asTask(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1220,6 +1252,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_bindTaskCheap(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1264,6 +1297,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_mapTaskCheap___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1280,6 +1314,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_mapTaskCheap___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1325,6 +1360,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_asTask(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1333,6 +1369,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_asTask(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1509,6 +1546,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Server_ServerTask_cancel___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1687,6 +1725,7 @@ return x_16;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Server_ServerTask_join_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1741,6 +1780,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_bindCheap(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1758,6 +1798,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_bindTaskCostly(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1821,6 +1862,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Server_ServerTask_EIO_mapTaskCostly___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1829,6 +1871,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Task_asServerTask___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1860,6 +1903,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_IO_bindTaskCheap___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1962,6 +2006,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Server_ServerTask_join_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2056,6 +2101,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_mapTaskCheap___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2110,6 +2156,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Server_ServerTask_BaseIO_mapTaskCheap(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

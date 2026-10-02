@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_LitValues {
 public static Obj l_Lean_Meta_getUInt32Value_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -29,6 +30,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_getFloat32Value_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -280,6 +282,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Meta_getListLitOf_x3f_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -292,6 +295,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Meta_LitValues_0__Lean_Meta_getRatValue_x3f_getRatValueNum_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -304,6 +308,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_getListLitOf_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -317,6 +322,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Meta_normLitValue_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -326,6 +332,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_getCharValue_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -611,6 +618,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_getLitValueModulus_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -623,6 +631,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_getNatValue_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -898,6 +907,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_getArrayLitOf_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -934,6 +944,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_getUInt64Value_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -1095,6 +1106,7 @@ return x_35;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Meta_getListLitOf_x3f_spec__0___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -1247,6 +1259,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_getArrayLitOf_x3f___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -1360,6 +1373,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_getUInt32Value_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -1531,6 +1545,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_normLitValue(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -2599,6 +2614,7 @@ return x_248;
 }
 }
 public static Obj l_Lean_Meta_getIntValue_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2621,6 +2637,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Meta_getListLitOf_x3f_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2675,6 +2692,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_LitValues_0__Lean_Meta_getFloatLit_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2723,6 +2741,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_getListLit_x3f___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2819,6 +2838,7 @@ return x_20;
 }
 }
 public static Obj l___private_Lean_Meta_LitValues_0__Lean_Meta_getBoolLit_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2852,6 +2872,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_litToCtor___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2887,6 +2908,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_getUInt16Value_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2965,6 +2987,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Lean_Meta_getListLitOf_x3f_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_29 = null; Obj x_30 = null; byte x_31 = 0; byte x_117 = 0; 
@@ -3644,6 +3667,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_getIntValue_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -4072,6 +4096,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_getListLitOf_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4095,6 +4120,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_LitValues_0__Lean_Meta_getFloatLit_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_45 = null; 
@@ -4831,6 +4857,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_getBitVecValue_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_82 = null; Obj x_83 = null; Obj x_84 = null; Obj x_85 = null; Obj x_86 = null; Obj x_87 = null; Obj x_139 = null; 
@@ -5595,6 +5622,7 @@ return x_133;
 }
 }
 public static Obj l_Lean_Meta_getRatValue_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5980,6 +6008,7 @@ return x_80;
 }
 }
 public static Obj l___private_Lean_Meta_LitValues_0__Lean_Meta_getRatValue_x3f_getRatValueNum_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; 
@@ -6386,6 +6415,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Meta_LitValues_0__Lean_Meta_getBoolLit_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6531,6 +6561,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_getUInt8Value_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -6692,6 +6723,7 @@ return x_35;
 }
 }
 public static Obj l_Lean_Meta_getUInt16Value_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -7090,6 +7122,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Meta_LitValues_0__Lean_Meta_getFloat32Lit_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7212,6 +7245,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instantiateMVars___at___00Lean_Meta_normLitValue_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -7246,6 +7280,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_getArrayLit_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -7289,6 +7324,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_getFinValue_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -7752,6 +7788,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_getOfNatValue_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -8061,6 +8098,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_getRawNatValue_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8241,6 +8279,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_getLitValueModulus_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_22 = null; 
@@ -8580,6 +8619,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_Meta_getListLit_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8623,6 +8663,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_isLitValue___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8701,6 +8742,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_getFloatValue_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -8919,6 +8961,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_litToCtor(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 

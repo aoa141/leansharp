@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_Proc {
 public static Obj l_Lake_rawProc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -55,6 +56,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_proc___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -64,6 +66,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_logOutput(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -122,6 +125,7 @@ return x_23;
 }
 }
 public static Obj l_Lake_logOutput___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -177,6 +181,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_proc___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -197,6 +202,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Lake_mkCmdLog_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -230,6 +236,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_captureProc_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -328,6 +335,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_proc___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -389,6 +397,7 @@ return x_19;
 }
 }
 public static Obj l_Lake_mkCmdLog(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -443,6 +452,7 @@ return x_19;
 }
 }
 public static Obj l_Lake_testProc___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -452,6 +462,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_proc___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -470,6 +481,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_captureProc(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -587,6 +599,7 @@ return x_27;
 }
 }
 public static Obj l_Lake_captureProc_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_9 = null; 
@@ -741,6 +754,7 @@ return x_7;
 }
 }
 public static Obj l_List_foldl___at___00Lake_mkCmdLog_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -880,6 +894,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_rawProc(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -963,6 +978,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_rawProc___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -972,6 +988,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_proc(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_12 = null; Obj x_15 = null; byte x_16 = 0; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -1210,6 +1227,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_rawProc___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1258,6 +1276,7 @@ return x_21;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lake_mkCmdLog_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

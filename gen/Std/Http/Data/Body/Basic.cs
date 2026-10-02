@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Data_Body_Basic {
 public static Obj l_Std_Http_Body_instFromByteArrayString___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 

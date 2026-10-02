@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Sorry {
 public static Obj l_Lean_Meta_mkSorry(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_34 = 0; Obj x_35 = null; Obj x_36 = null; byte x_37 = 0; 
@@ -168,6 +169,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_SorryLabelView_encode(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -243,6 +245,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_forEachSorryM___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -291,6 +294,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_SorryLabelView_decode_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -502,6 +506,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_hasConst___at___00Lean_Meta_mkSorry_spec__0(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -510,6 +515,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_mkLabeledSorry(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; Obj x_69 = null; byte x_113 = 0; Obj x_114 = null; Obj x_115 = null; byte x_116 = 0; 
@@ -977,6 +983,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_throwAbortCommand___at___00Lean_Meta_mkSorry_spec__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1007,6 +1014,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_throwAbortCommand___at___00Lean_Meta_mkSorry_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1037,6 +1045,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getMainModule___at___00Lean_Meta_mkLabeledSorry_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1062,6 +1071,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_forEachSorryM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1116,6 +1126,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_getSorry_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1158,6 +1169,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_isLabeledSorry_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1324,6 +1336,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_hasConst___at___00Lean_Meta_mkSorry_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 

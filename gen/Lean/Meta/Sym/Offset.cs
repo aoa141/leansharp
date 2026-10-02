@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Sym_Offset {
 public static byte l_Lean_Meta_Sym_isOffset(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -135,6 +136,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Sym_Offset_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -154,6 +156,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Offset_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -162,6 +165,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Sym_isNatValue_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -183,6 +187,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_isQuasiOffset___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -234,6 +239,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Offset_num_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -242,6 +248,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Sym_Offset_inc___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -261,6 +268,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_Offset_num_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -279,6 +287,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_isOffset_x3f_x27___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -288,6 +297,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Offset_0__Lean_Meta_Sym_isNatType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -298,6 +308,7 @@ return x_3;
 }
 }
 public static byte l___private_Lean_Meta_Sym_Offset_0__Lean_Meta_Sym_isNatType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -388,6 +399,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Sym_toOffset(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_9 = 0; 
@@ -753,6 +765,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Offset_0__Lean_Meta_Sym_evalNat_x3f_visit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1305,6 +1318,7 @@ return x_105;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Offset_0__Lean_Meta_Sym_isOffset_x3f_get(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1479,6 +1493,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_isOffset_x27___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1506,6 +1521,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_isOffset_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1707,6 +1723,7 @@ return x_47;
 }
 }
 public static Obj l___private_Lean_Meta_Sym_Offset_0__Lean_Meta_Sym_evalNat_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

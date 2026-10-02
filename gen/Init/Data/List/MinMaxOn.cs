@@ -45,6 +45,7 @@ return x_10;
 }
 }
 public static Obj l_List_maxOn___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

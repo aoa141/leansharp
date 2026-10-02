@@ -126,6 +126,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Time_PlainTime_addMinutes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -153,6 +154,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainTime_ofHours(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -164,6 +166,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_PlainTime_ofSeconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -193,6 +196,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_PlainTime_toNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -202,6 +206,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_subSeconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -233,6 +238,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_toNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -258,6 +264,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Time_PlainTime_millisecond___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -321,6 +328,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Time_instOrdPlainTime___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -366,6 +374,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainTime_subHours___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -429,6 +438,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_addHours___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -530,6 +540,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainTime_subMilliseconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -553,6 +564,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainTime_addSeconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -701,6 +713,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_subSeconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -730,6 +743,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_PlainTime_ofHourMinuteSeconds(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -743,6 +757,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_instReprPlainTime_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_54 = null; byte x_55 = 0; 
@@ -881,6 +896,7 @@ return x_52;
 }
 }
 public static Obj l_Std_Time_PlainTime_toSeconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -957,6 +973,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_PlainTime_ofNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -966,6 +983,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_addNanoseconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1067,6 +1085,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instDecidableEqPlainTime___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1090,6 +1109,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_ofNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -1116,6 +1136,7 @@ return x_13;
 }
 }
 public static byte l_Std_Time_instDecidableEqPlainTime(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1219,6 +1240,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_withMilliseconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1292,6 +1314,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Time_PlainTime_ofMilliseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1316,6 +1339,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_PlainTime_toMinutes___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1453,6 +1477,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_toMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -1558,6 +1583,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_PlainTime_toMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1897,6 +1923,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instDecidableEqPlainTime_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2064,6 +2091,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instReprPlainTime_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

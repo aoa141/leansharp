@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_toLeanConfig___proj___redArg___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -113,6 +114,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_LeanLibConfig_instConfigFields___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -150,6 +152,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_libPrefixOnWindows___proj___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -170,6 +173,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LeanLibConfig_globs___proj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -261,6 +265,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_libName___proj___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -309,6 +314,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_LeanLibConfig_isLocalModule_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -324,6 +330,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_LeanLibConfig_toLeanConfig_instConfigParent___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -372,6 +379,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_precompileLibrary___proj___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -382,6 +390,7 @@ return x_3;
 }
 }
 public static byte l_Lake_LeanLibConfig_isBuildableModule___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -483,6 +492,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_needs___proj___redArg___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -531,6 +541,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lake_instInhabitedLeanLibConfig_default_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -557,6 +568,7 @@ goto _start;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_LeanLibConfig_isLocalModule_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -588,6 +600,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_LeanLibConfig_srcDir___proj___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -608,6 +621,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_LeanLibConfig_isLocalModule_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -652,6 +666,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_precompileLibrary___proj___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -757,6 +772,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_LeanLibConfig_roots___proj___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -826,6 +842,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_nativeFacets_instConfigField___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -854,6 +871,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_libPrefixOnWindows_instConfigField___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -932,6 +950,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_nativeFacets___proj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -941,6 +960,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_precompileLibrary_instConfigField___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1050,6 +1070,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_LeanLibConfig_needs___proj___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1149,6 +1170,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_defaultFacets___proj(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1157,6 +1179,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instInhabitedLeanLibConfig_default(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -1192,6 +1215,7 @@ return x_15;
 }
 }
 public static Obj l_Lake_LeanLibConfig_srcDir___proj___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1217,6 +1241,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_LeanLibConfig_libName___proj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1246,6 +1271,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instInhabitedLeanLibConfig_default___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1528,6 +1554,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_LeanLibConfig_needs___proj___redArg___lam__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1649,6 +1676,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_nativeFacets_instConfigField(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1761,6 +1789,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_LeanLibConfig_srcDir_instConfigField___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1769,6 +1798,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_precompileLibrary_instConfigField___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1777,6 +1807,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_globs___proj___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1813,6 +1844,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_needs_instConfigField___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1857,6 +1889,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_LeanLibConfig_isBuildableModule_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -1901,6 +1934,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_name___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1938,6 +1972,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_LeanLibConfig_precompileModules_instConfigField___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2090,6 +2125,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_srcDir___proj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2120,6 +2156,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_isLocalModule___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2131,6 +2168,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_LeanLibConfig_instEmptyCollection(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -2197,6 +2235,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LeanLibConfig_srcDir_instConfigField(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2216,6 +2255,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_LeanLibConfig_extraDepTargets___proj___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2224,6 +2264,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_precompileModules___proj___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2240,6 +2281,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_allowImportAll___proj___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2312,6 +2354,7 @@ return x_3;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_LeanLibConfig_isBuildableModule_spec__0(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -2401,6 +2444,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_isLocalModule___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2632,6 +2676,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_instConfigFields(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2650,6 +2695,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_needs_instConfigField(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2705,6 +2751,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_extraDepTargets___proj___redArg___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2724,6 +2771,7 @@ return x_1;
 }
 }
 public static byte l_Lake_LeanLibConfig_isLocalModule(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -2732,6 +2780,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_LeanLibConfig_roots_instConfigField(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2783,6 +2832,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_defaultFacets___proj___redArg___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2870,6 +2920,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_toLeanConfig___proj(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2964,6 +3015,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_precompileLibrary_instConfigField(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2972,6 +3024,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_allowImportAll___proj___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3101,6 +3154,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_defaultFacets_instConfigField(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3209,6 +3263,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_libName_instConfigField___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3225,6 +3280,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_allowImportAll_instConfigField___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3243,6 +3299,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_LeanLibConfig_libName___proj___redArg___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3284,6 +3341,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_extraDepTargets_instConfigField___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3521,6 +3579,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_LeanLibConfig_precompileLibrary___proj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3760,6 +3819,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_LeanLibConfig_defaultFacets___proj___redArg___lam__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -3937,6 +3997,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_needs___proj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4340,6 +4401,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_LeanLibConfig_srcDir___proj___redArg___lam__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4367,6 +4429,7 @@ return x_1;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_LeanLibConfig_isLocalModule_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4532,6 +4595,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_toLeanConfig_instConfigParent___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4541,6 +4605,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_extraDepTargets___proj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4550,6 +4615,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_LeanLibConfig_extraDepTargets___proj___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4623,6 +4689,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_LeanLibConfig_toLeanConfig_instConfigParent(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5008,6 +5075,7 @@ return x_19;
 }
 }
 public static Obj l_Lake_LeanLibConfig_libPrefixOnWindows_instConfigField___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

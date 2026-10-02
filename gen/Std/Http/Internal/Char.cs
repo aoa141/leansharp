@@ -483,6 +483,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Internal_Char_vchar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -803,6 +804,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_Internal_Char_obsText___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -814,6 +816,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isQueryChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -824,6 +827,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_quotedPairChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1207,6 +1211,7 @@ return x_19;
 }
 }
 public static Obj l_Std_Http_Internal_Char_rws___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1218,6 +1223,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isUserInfoChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1228,6 +1234,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isAlphaNum___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1238,6 +1245,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isHexDigitByte___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1248,6 +1256,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_tchar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1269,6 +1278,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isDigitByte___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1279,6 +1289,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isValidSchemeChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1290,6 +1301,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_ows___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1320,6 +1332,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isAsciiByte___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1330,6 +1343,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Http_Internal_Char_0__Std_Http_Internal_Char_quotedPairChar_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 uint x_6 = 0; Obj x_7 = null; 
@@ -1340,6 +1354,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isSubDelims___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1350,6 +1365,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isAsciiAlphaNumChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1428,6 +1444,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Http_Internal_Char_isValidDomainNameChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1618,6 +1635,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Internal_Char_quotedStringChar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -2771,6 +2789,7 @@ goto block_14;
 }
 }
 public static Obj l___private_Std_Http_Internal_Char_0__Std_Http_Internal_Char_qdtext_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -2814,6 +2833,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Http_Internal_Char_0__Std_Http_Internal_Char_quotedPairChar_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -3194,6 +3214,7 @@ return x_20;
 }
 }
 public static Obj l_Std_Http_Internal_Char_fieldVchar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 

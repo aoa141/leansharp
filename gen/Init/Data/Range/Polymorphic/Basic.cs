@@ -21,6 +21,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Rci_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -52,6 +53,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Roc_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -73,6 +75,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Rco_isEmpty___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -127,6 +130,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Rii_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -214,6 +218,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Ric_isEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -679,6 +684,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Rcc_isEmpty___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -751,6 +757,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Roo_isEmpty___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -896,6 +903,7 @@ return x_1;
 }
 }
 public static Obj l_Std___aux__Init__Data__Range__Polymorphic__Basic______macroRules__tacticGet__elem__tactic__extensible__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1326,6 +1334,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Rio_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1346,6 +1355,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Ric_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

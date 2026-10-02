@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Tactic_BVDecide_Bitblast_BoolExpr_Basic {
 public static Obj l_Std_Tactic_BVDecide_BoolExpr_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16,6 +17,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BoolExpr_toString(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -24,6 +26,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_beq_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -44,6 +47,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instHashableBoolExpr_hash___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -100,6 +104,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_xor_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -110,6 +115,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BoolExpr_eval___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -129,6 +135,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BoolExpr_literal_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -137,6 +144,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instDecidableEqBoolExpr_decEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -156,6 +164,7 @@ return x_1;
 }
 }
 public static ulong l_Std_Tactic_BVDecide_instHashableBoolExpr_hash___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -346,6 +355,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_beq_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -355,6 +365,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instDecidableEqBoolExpr_decEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -404,6 +415,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Tactic_BVDecide_Bitblast_BoolExpr_Basic_0__Std_Tactic_BVDecide_Gate_toString_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -413,6 +425,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -493,6 +506,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -502,6 +516,7 @@ return x_3;
 }
 }
 public static byte l_Std_Tactic_BVDecide_instDecidableEqBoolExpr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -510,6 +525,7 @@ return x_4;
 }
 }
 public static byte l_Std_Tactic_BVDecide_BoolExpr_eval___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -624,6 +640,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instDecidableEqBoolExpr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -643,6 +660,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_xor_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -668,6 +686,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BoolExpr_eval___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -786,6 +805,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -802,6 +822,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instDecidableEqGate___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -825,6 +846,7 @@ return x_8;
 }
 }
 public static byte l_Std_Tactic_BVDecide_instDecidableEqBoolExpr_decEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -876,6 +898,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_and_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -893,6 +916,7 @@ return x_4;
 }
 }
 public static byte l_Std_Tactic_BVDecide_instDecidableEqBoolExpr_decEq___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -1148,6 +1172,7 @@ return x_6;
 }
 }
 public static byte l_Std_Tactic_BVDecide_instDecidableEqGate(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1209,6 +1234,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_Gate_or_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1225,6 +1251,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BoolExpr_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1244,6 +1271,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BoolExpr_ctorIdx(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1269,6 +1297,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BoolExpr_toString___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {

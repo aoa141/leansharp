@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_NameMangling {
 public static Obj l_Lean_mkModuleInitializationFunctionName___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -17,6 +18,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_fromHex_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -50,6 +52,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_nameStart(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -173,6 +176,7 @@ return x_3;
 }
 }
 public static uint l___private_Lean_Compiler_NameMangling_0__String_digitChar(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; 
@@ -181,6 +185,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_parseLowerHex_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -272,6 +277,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00__private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -297,6 +303,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -308,6 +315,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_mkModuleInitializationStem(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -340,6 +348,7 @@ return x_1;
 }
 }
 public static Obj l_String_Internal_mangle___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -349,6 +358,7 @@ return x_2;
 }
 }
 public static Obj lean_mk_mangled_boxed_name(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -389,6 +399,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -713,6 +724,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_mkModuleInitializationFunctionName(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -736,6 +748,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__String_digitChar___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -769,6 +782,7 @@ return x_7;
 }
 }
 public static byte l___private_Lean_Compiler_NameMangling_0__Lean_checkLowerHex(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -913,6 +927,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_mkPackageSymbolPrefix(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -946,6 +961,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_decodeNum(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -1016,6 +1032,7 @@ return x_24;
 }
 }
 public static byte l___private_Lean_Compiler_NameMangling_0__Lean_checkDisambiguation(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1136,6 +1153,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_match__6_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -1156,6 +1174,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkModuleInitializationPrefix___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1215,6 +1234,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_match__4_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -1289,6 +1309,7 @@ return x_1;
 }
 }
 public static Obj l_String_Internal_mangle(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1299,6 +1320,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -1360,6 +1382,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_mangleAux(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1526,6 +1549,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_match__6_splitter___redArg(uint x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; byte x_6 = 0; 
@@ -1568,6 +1592,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__String_pushHex_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1713,6 +1738,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Name_demangle_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -1738,6 +1764,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Name_demangle___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1772,6 +1799,7 @@ return x_11;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__Lean_Name_demangleAux_match__4_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -1803,6 +1831,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__String_mangleAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2016,6 +2045,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__String_pushHex___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -2075,6 +2105,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_NameMangling_0__String_pushHex(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

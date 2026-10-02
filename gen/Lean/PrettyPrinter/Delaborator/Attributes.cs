@@ -128,6 +128,7 @@ return x_1;
 }
 public static Obj l_Lean_ppUsingAnonymousConstructorAttr;
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Attributes_0__Lean_ppUsingAnonymousConstructorAttr___regBuiltin_Lean_ppUsingAnonymousConstructorAttr_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -136,6 +137,7 @@ return x_2;
 }
 }
 public static byte l_Lean_hasPPNoDotAttribute(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -237,6 +239,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Attributes_0__Lean_ppNoDotAttr___regBuiltin_Lean_ppNoDotAttr_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -343,6 +346,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_hasPPUsingAnonymousConstructorAttribute___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

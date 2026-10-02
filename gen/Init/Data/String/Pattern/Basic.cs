@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_Pattern_Basic {
 public static byte l___private_Init_Data_String_Pattern_Basic_0__String_Slice_Pattern_Internal_memcmpStr_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -60,6 +61,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_String_Pattern_Basic_0__String_Slice_Pattern_ToBackwardSearcher_DefaultBackwardSearcher_finitenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -97,6 +99,7 @@ return x_12;
 }
 }
 public static Obj l_String_Slice_Pattern_instInhabitedSearchStep_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -219,6 +222,7 @@ return x_20;
 }
 }
 public static Obj l_String_Slice_Pattern_instBEqSearchStep_beq___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -230,6 +234,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pattern_ToBackwardSearcher_instInhabitedDefaultBackwardSearcher___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -248,6 +253,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_ctorIdx(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -256,6 +262,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_rejected_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -265,6 +272,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -273,6 +281,7 @@ return x_7;
 }
 }
 public static Obj l_String_Slice_Pattern_ToBackwardSearcher_DefaultBackwardSearcher_instIteratorLoopIdSearchStep___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -308,6 +317,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_instInhabitedSearchStep___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -317,6 +327,7 @@ return x_2;
 }
 }
 public static byte l_String_Slice_Pattern_Internal_memcmpSlice(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -361,6 +372,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -380,6 +392,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pattern_ToForwardSearcher_DefaultForwardSearcher_iter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -398,6 +411,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_matched_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -429,6 +443,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_rejected_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -466,6 +481,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pattern_Internal_memcmpSlice___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -488,6 +504,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_String_Pattern_Basic_0__String_Slice_Pattern_ToBackwardSearcher_DefaultBackwardSearcher_finitenessRelation___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -517,6 +534,7 @@ return x_3;
 }
 }
 public static byte l_String_Slice_Pattern_Internal_memcmpSlice___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -595,6 +613,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_rejected_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -759,6 +778,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pattern_ToBackwardSearcher_DefaultBackwardSearcher_iter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -843,6 +863,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_ofSliceFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -869,6 +890,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pattern_ToForwardSearcher_instInhabitedDefaultForwardSearcher___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -879,6 +901,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pattern_ForwardPattern_dropPrefix_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -969,6 +992,7 @@ return x_2;
 }
 }
 public static byte l_String_Slice_Pattern_instBEqSearchStep_beq(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1088,6 +1112,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pattern_ToForwardSearcher_DefaultForwardSearcher_instIteratorIdSearchStepOfForwardPattern___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1097,6 +1122,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pattern_ToForwardSearcher_instInhabitedDefaultForwardSearcher_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1222,6 +1248,7 @@ return x_37;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_startPos___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1439,6 +1466,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pattern_ToBackwardSearcher_DefaultBackwardSearcher_instIteratorIdSearchStepOfBackwardPattern___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1448,6 +1476,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pattern_SearchStep_endPos___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

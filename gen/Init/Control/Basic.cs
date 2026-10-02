@@ -67,6 +67,7 @@ return x_7;
 }
 }
 public static Obj l_instOrElseOfAlternative(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -143,6 +144,7 @@ return x_11;
 }
 }
 public static Obj l_instMonadControlTOfPure___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -166,6 +168,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3d_x3c_x3c____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -269,6 +272,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadControlTOfPure___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -287,6 +291,7 @@ return x_10;
 }
 }
 public static Obj l___aux__Init__Control__Basic______unexpand__andM__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -296,6 +301,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3c_x26_x26_x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -352,6 +358,7 @@ return x_1;
 }
 }
 public static Obj l_instToBoolBool___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -372,6 +379,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3c_x7c_x7c_x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -430,6 +438,7 @@ return x_3;
 }
 }
 public static Obj l_ForInStep_value___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -504,6 +513,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Control__Basic______unexpand__Bind__kleisliRight__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -634,6 +644,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3c_x3d_x3c____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -708,6 +719,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3c_x26_x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -796,6 +808,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Control__Basic______unexpand__Bind__kleisliRight__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -887,6 +900,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3c_x26_x26_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1005,6 +1019,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Control__Basic______unexpand__Bind__kleisliLeft__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1168,6 +1183,7 @@ return x_6;
 }
 }
 public static Obj l___aux__Init__Control__Basic______unexpand__Bind__kleisliLeft__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1484,6 +1500,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Control__Basic______unexpand__Functor__mapRev__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1655,6 +1672,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3e_x3d_x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1702,6 +1720,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Control__Basic______unexpand__andM__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1797,6 +1816,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3e_x3d_x3e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1958,6 +1978,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3d_x3c_x3c____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2144,6 +2165,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Control__Basic______unexpand__orM__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2198,6 +2220,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Control__Basic______macroRules__term___x3c_x3d_x3c____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

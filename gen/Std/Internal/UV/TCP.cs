@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Internal_UV_TCP {
 public static Obj l_Std_Internal_UV_TCP_Socket_keepAlive___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; uint x_6 = 0; Obj x_7 = null; 
@@ -26,6 +27,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Std_Internal_UV_TCP_Socket_tryAccept___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -45,6 +47,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_UV_TCP_Socket_recv_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 

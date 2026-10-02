@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_AddressFamily_ipv4_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26,6 +27,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Net_IPv4Addr_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35,6 +37,7 @@ return x_2;
 }
 }
 public static byte l_Std_Net_instDecidableEqIPv4Addr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -43,6 +46,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Net_SocketAddress_v4_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -70,6 +74,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_instDecidableEqMACAddr_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -91,6 +96,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_instDecidableEqInterfaceAddress___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -102,6 +108,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Net_SocketAddress_family___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -130,6 +137,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Net_IPv4Addr_ofString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -158,6 +166,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_instDecidableEqInterfaceAddress_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -179,6 +188,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_SocketAddressV4_instToString___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -315,6 +325,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Net_IPAddr_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -353,6 +364,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_instDecidableEqIPv6Addr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -383,6 +395,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_interfaceAddresses___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -391,6 +404,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Net_IPAddr_v6_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -408,6 +422,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Net_SocketAddress_instToString___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -446,6 +461,7 @@ return x_21;
 }
 }
 public static byte l_Std_Net_instDecidableEqInterfaceAddress_decEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_17 = 0; 
@@ -528,6 +544,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_AddressFamily_ipv4_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -555,6 +572,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Net_SocketAddress_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -573,6 +591,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Net_IPAddr_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -589,6 +608,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_instDecidableEqSocketAddress___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -637,6 +657,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Net_instDecidableEqIPAddr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -648,6 +669,7 @@ return x_4;
 }
 }
 public static byte l_Std_Net_instDecidableEqIPAddr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -656,6 +678,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Net_instDecidableEqSocketAddressV4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -667,6 +690,7 @@ return x_4;
 }
 }
 public static byte l_Std_Net_instDecidableEqSocketAddress(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -675,6 +699,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Net_IPv6Addr_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -707,6 +732,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Net_IPAddr_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -743,6 +769,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_IPv4Addr_ofParts___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -794,6 +821,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Net_SocketAddress_v6_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -831,6 +859,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_instDecidableEqSocketAddressV6___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -934,6 +963,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Net_SocketAddress_v4_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -942,6 +972,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Net_IPv6Addr_ofString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1003,6 +1034,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_SocketAddressV6_instToString___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1031,6 +1063,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_instDecidableEqSocketAddress_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1053,6 +1086,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Net_instDecidableEqSocketAddressV6_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1082,6 +1116,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_AddressFamily_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1188,6 +1223,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_instDecidableEqAddressFamily___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1236,6 +1272,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Net_SocketAddress_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1289,6 +1326,7 @@ return x_1;
 }
 }
 public static byte l_Std_Net_instDecidableEqSocketAddress_decEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1398,6 +1436,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Net_SocketAddress_port___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; Obj x_3 = null; 
@@ -1656,6 +1695,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Net_SocketAddressV4_instToString___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; ushort x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 

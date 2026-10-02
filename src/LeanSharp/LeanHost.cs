@@ -62,6 +62,8 @@ public static unsafe class LeanHost
         LeanTaskManager.ClearPendingExit();
         LeanRuntimeSettings.MaxMemory = 0;
         LeanRuntimeSettings.MaxHeartbeat = 0;
+        LeanSharp.Kernel.KernelLimits.MaxHeartbeat = 0;
+        LeanSharp.Kernel.KernelLimits.ResetHeartbeat();
         LeanRuntimeSettings.ThreadStackSize = 0;
         LeanHeartbeats.Set(0);
         return new ProgramScope(InitTimeEnvironment.Enter());
@@ -93,7 +95,11 @@ public static unsafe class LeanHost
         System.Runtime.ExceptionServices.ExceptionDispatchInfo error = null;
         var th = new Thread(() =>
         {
-            try { result = f(); }
+            try
+            {
+                LeanSharp.Runtime.LeanRt.lean_declare_thread_stack(stackSize ?? MainThreadStackSize);
+                result = f();
+            }
             catch (Exception e) { error = System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture(e); }
         }, stackSize ?? MainThreadStackSize);
         th.Start();

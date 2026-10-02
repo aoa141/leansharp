@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Grind_Module_Envelope {
 public static Obj l_Lean_Grind_IntModule_OfNatModule_ofNatModule___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -42,6 +43,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_IntModule_OfNatModule_Q_liftOn_u2082___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -209,6 +211,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Grind_IntModule_OfNatModule_neg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -485,6 +488,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Grind_IntModule_OfNatModule_zero(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -510,6 +514,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_IntModule_OfNatModule_nsmul(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

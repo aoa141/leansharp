@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Fin_Fold {
 public static Obj l___private_Init_Data_Fin_Fold_0__Fin_foldrM_loop_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -41,6 +42,7 @@ return x_13;
 }
 }
 public static Obj l_Fin_foldlTR___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -50,6 +52,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Fin_Fold_0__Fin_foldr_loop_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -83,6 +86,7 @@ return x_10;
 }
 }
 public static Obj l_Fin_foldlTR(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -92,6 +96,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_foldl___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -121,6 +126,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Fin_Fold_0__Fin_foldlM_loop___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -131,6 +137,7 @@ return x_8;
 }
 }
 public static Obj l_Fin_foldrM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -139,6 +146,7 @@ return x_7;
 }
 }
 public static Obj l_Fin_foldl___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -148,6 +156,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_foldrM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -156,6 +165,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Fin_Fold_0__Fin_foldlM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -164,6 +174,7 @@ return x_8;
 }
 }
 public static Obj l_Fin_foldr(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -172,6 +183,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_foldr_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -189,6 +201,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Fin_Fold_0__Fin_foldl_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -198,6 +211,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_foldl_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -207,6 +221,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_foldlM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -258,6 +273,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_foldl_loop___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -293,6 +309,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_foldr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -392,6 +409,7 @@ return x_13;
 }
 }
 public static Obj l_Fin_foldr_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -428,6 +446,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Fin_Fold_0__Fin_foldr_loop_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -471,6 +490,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Fin_Fold_0__Fin_foldrM_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

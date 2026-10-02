@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Data_Body_Full {
 public static Obj l_Std_Http_Response_Builder_json___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -26,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_State_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -116,6 +118,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Body_Full_close___lam__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -127,6 +130,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_instBEqState_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -138,6 +142,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Response_Builder_fromBytes___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -146,6 +151,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Body_Full_getKnownSize___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -155,6 +161,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_takeChunk___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -200,6 +207,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Http_Body_Full_recv_spec__0___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -218,6 +226,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Body_Full_isClosed___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -236,6 +245,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Body_Full_recv(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -271,6 +281,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Request_Builder_fromBytes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
@@ -294,6 +305,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Http_Body_Full_recv_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -324,6 +336,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_takeChunk___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -407,6 +420,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Body_Full_ofByteArray___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -596,6 +610,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Request_Builder_bytes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -607,6 +622,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Http_Body_Full_recv_spec__0___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -617,6 +633,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Body_Full_getKnownSize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -715,6 +732,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_State_sent_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -724,6 +742,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_Http_Body_Full_recv_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -732,6 +751,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Response_Builder_bytes___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -946,6 +966,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Body_Full_getKnownSize___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1050,6 +1071,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Http_Body_Full_recvSelector___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1058,6 +1080,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Body_Full_tryRecv___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1078,6 +1101,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_Http_Body_Full_recvSelector_spec__0___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1087,6 +1111,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Response_Builder_bytes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1106,6 +1131,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Body_Full_close___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1126,6 +1152,7 @@ return x_2;
 }
 }
 public static byte l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_instBEqState_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1179,6 +1206,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Request_Builder_fromBytes___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1198,6 +1226,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_State_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1224,6 +1253,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Http_Request_Builder_text(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1267,6 +1297,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Body_instCoeContextAsyncResponseFullAny___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1276,6 +1307,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_State_sent_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1310,6 +1342,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_Body_instCoeContextAsyncResponseFullAny___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1444,6 +1477,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Response_Builder_html(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1492,6 +1526,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_State_ready_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1502,6 +1537,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Http_Data_Body_Full_0__Std_Http_Body_Full_State_ready_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1647,6 +1683,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Http_Request_Builder_json(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1690,6 +1727,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Response_Builder_text(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1818,6 +1856,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Request_Builder_html___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2087,6 +2126,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Body_Full_recvSelector___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2215,6 +2255,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Http_Body_instFull___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2283,6 +2324,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Body_Full_recvSelector(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2477,6 +2519,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Body_Full_recvSelector___lam__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2852,6 +2895,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Body_Full_tryRecv(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; 
@@ -2894,6 +2938,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Response_Builder_json(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 

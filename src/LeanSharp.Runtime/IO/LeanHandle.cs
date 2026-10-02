@@ -133,8 +133,7 @@ public sealed class LeanHandle
     };
 
     /// <summary>Wrap as a Lean `IO.FS.Handle` object.</summary>
-    public static Obj Wrap(LeanHandle h) =>
-        new ExternalObj { m_tag = (byte)LeanRt.LeanExternal, m_class = Class, m_data = h };
+    public static Obj Wrap(LeanHandle h) => LeanRt.lean_alloc_external(Class, h);
 
     /// <summary>The handle of an `IO.FS.Handle` object (borrowed).</summary>
     public static LeanHandle Of(Obj o) => (LeanHandle)Unsafe.As<ExternalObj>(o).m_data;

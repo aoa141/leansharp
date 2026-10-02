@@ -15,6 +15,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_fetchOrCreate___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -37,6 +38,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instMonadStore1OfMonadStore1Of(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -199,6 +201,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_instMonadStore1OfOfMonadDStore(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -207,6 +210,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_instMonadDStoreOfMonadLift(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

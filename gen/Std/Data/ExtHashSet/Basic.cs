@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_ExtHashSet_Basic {
 public static Obj l_Std_ExtHashSet_instMembershipOfEquivBEqOfLawfulHashable___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -17,6 +18,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtHashSet_emptyWithCapacity___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -28,6 +30,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtHashSet_ofList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -57,6 +60,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtHashSet_instMembershipOfEquivBEqOfLawfulHashable___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -65,6 +69,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtHashSet_instInhabited(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -81,6 +86,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtHashSet_get_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -103,6 +109,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtHashSet_instEmptyCollection(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -111,6 +118,7 @@ return x_4;
 }
 }
 public static Obj l_Std_ExtHashSet_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -121,6 +129,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtHashSet_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -133,6 +142,7 @@ return x_8;
 }
 }
 public static Obj l_Std_ExtHashSet_size___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -152,6 +162,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtHashSet_emptyWithCapacity___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -188,6 +199,7 @@ return x_8;
 }
 }
 public static byte l_Std_ExtHashSet_instDecidableEqOfLawfulBEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -237,6 +249,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtHashSet_instDecidableEqOfLawfulBEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -270,6 +283,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtHashSet_diff___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -363,6 +377,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtHashSet_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -393,6 +408,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtHashSet_contains___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -592,6 +608,7 @@ return x_53;
 }
 }
 public static Obj l_Std_ExtHashSet_instBEqOfEquivBEqOfLawfulHashable___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -753,6 +770,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtHashSet_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -811,6 +829,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtHashSet_filter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1065,6 +1084,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtHashSet_union___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -1099,6 +1119,7 @@ return x_16;
 }
 }
 public static Obj l_Std_ExtHashSet_diff(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1145,6 +1166,7 @@ return x_1;
 }
 }
 public static Obj l_Std_ExtHashSet_filter___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1486,6 +1508,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtHashSet_union(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 

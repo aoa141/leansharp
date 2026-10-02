@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Classical {
 public static byte l_Classical_decidable__of__decidable__not(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Float_Model_Unpacked_Basic {
 public static Obj l_Float_Model_UnpackedFloat_notANumber_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -38,6 +39,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -69,6 +71,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_instReprUnpackedFloat_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -116,6 +119,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -125,6 +129,7 @@ return x_6;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_zero_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -143,6 +148,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -296,6 +302,7 @@ return x_7;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_zero_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -304,6 +311,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_finite_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -312,6 +320,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_notANumber_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -354,6 +363,7 @@ return x_1;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_finite_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -374,6 +384,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_instReprUnpackedFloat_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_16 = null; 
@@ -604,6 +615,7 @@ return x_21;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_infinity_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -612,6 +624,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_infinity_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

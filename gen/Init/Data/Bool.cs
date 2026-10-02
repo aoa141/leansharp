@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Bool {
 public static Obj l_Bool___aux__Init__Data__Bool______macroRules__Bool__term___x5e_x5e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16,6 +17,7 @@ return x_4;
 }
 }
 public static byte l_Bool_instDecidableForallOfDecidablePred(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -37,6 +39,7 @@ return x_2;
 }
 }
 public static Obj l_Bool_toInt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -46,6 +49,7 @@ return x_3;
 }
 }
 public static Obj l_Bool_instDecidableForallOfDecidablePred___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -95,6 +99,7 @@ return x_1;
 }
 }
 public static Obj l_Bool_instMin___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -128,6 +133,7 @@ return x_2;
 }
 }
 public static Obj l_Bool___aux__Init__Data__Bool______unexpand__Bool__xor__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -137,6 +143,7 @@ return x_4;
 }
 }
 public static Obj l_Bool_instDecidableExistsOfDecidablePred___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -146,6 +153,7 @@ return x_4;
 }
 }
 public static Obj l_Bool_or_x27___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -174,6 +182,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Bool_instMax___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -185,6 +194,7 @@ return x_6;
 }
 }
 public static Obj l_Bool_not_x27___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -195,6 +205,7 @@ return x_4;
 }
 }
 public static Obj l_Bool_instDecidableLe___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -258,6 +269,7 @@ return x_3;
 }
 }
 public static Obj l_Bool_xor___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -518,6 +530,7 @@ return x_3;
 }
 }
 public static Obj l_boolRelToRel___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -536,6 +549,7 @@ return x_1;
 }
 }
 public static Obj l_Bool___aux__Init__Data__Bool______unexpand__Bool__xor__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -733,6 +747,7 @@ return x_3;
 }
 }
 public static Obj l_Bool___aux__Init__Data__Bool______macroRules__Bool__term___x5e_x5e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -797,6 +812,7 @@ return x_2;
 }
 }
 public static Obj l_Bool_toInt(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)

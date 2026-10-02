@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_DateTime_Timestamp {
 public static Obj l_Std_Time_instReprTimestamp__1___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -26,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_subSeconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -50,6 +52,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Time_Timestamp_addHours(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -85,6 +88,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_subMilliseconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; 
@@ -132,6 +136,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Timestamp_subMinutes___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -142,6 +147,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_toDurationSinceUnixEpoch___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -163,6 +169,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Timestamp_ofNanosecondsSinceUnixEpoch___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -183,6 +190,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Timestamp_toMillisecondsSinceUnixEpoch___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -202,6 +210,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_addSeconds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -288,6 +297,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instReprTimestamp_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -335,6 +345,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_ofDurationSinceUnixEpoch___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -354,6 +365,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_toDaysSinceUnixEpoch___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -373,6 +385,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_instDecidableLtTimestamp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -429,6 +442,7 @@ return x_15;
 }
 }
 public static Obj l_Std_Time_instDecidableLeTimestamp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -459,6 +473,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_ofMillisecondsSinceUnixEpoch___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -588,6 +603,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_toSecondsSinceUnixEpoch___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -597,6 +613,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Timestamp_ofSecondsSinceUnixEpoch(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -608,6 +625,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_subDays___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -618,6 +636,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_addWeeks(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -656,6 +675,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_addMinutes___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -676,6 +696,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_subMinutes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -723,6 +744,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_addMinutes(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -748,6 +770,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Time_instDecidableEqTimestamp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -788,6 +811,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Timestamp_addDuration___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -848,6 +872,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_addDays(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -894,6 +919,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Timestamp_subWeeks___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -940,6 +966,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_toMillisecondsSinceUnixEpoch(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1019,6 +1046,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_subDays(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -1073,6 +1101,7 @@ return x_15;
 }
 }
 public static Obj l_Std_Time_Timestamp_now___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1081,6 +1110,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Timestamp_since(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1338,6 +1368,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_instOfNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -1471,6 +1502,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instDecidableEqTimestamp_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1570,6 +1602,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Timestamp_subHours___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1642,6 +1675,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Timestamp_subWeeks(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -1722,6 +1756,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instReprTimestamp_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_56 = 0; 
@@ -1899,6 +1934,7 @@ goto block_28;
 }
 }
 public static Obj l_Std_Time_Timestamp_addNanoseconds___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

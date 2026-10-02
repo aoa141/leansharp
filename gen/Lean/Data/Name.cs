@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Data_Name {
 public static Obj l_Lean_Name_getNumParts(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -28,6 +29,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Name_quickLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -49,6 +51,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Name_isInternal___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -59,6 +62,7 @@ return x_3;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00__private_Lean_Data_Name_0__Lean_Name_isInternalDetail_matchPrefix_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -78,6 +82,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Name_isInternalOrNum___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -105,6 +110,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Name_lt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -143,6 +149,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Name_isInternalDetail(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -254,6 +261,7 @@ return x_21;
 }
 }
 public static byte l_Lean_Name_isInternalOrNum(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -321,6 +329,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Name_quickCmpAux___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -342,6 +351,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Name_quickCmpAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -441,6 +451,7 @@ return x_22;
 }
 }
 public static byte l_Lean_Name_quickLt(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -463,6 +474,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Name_cmp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -474,6 +486,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Name_isNum___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -484,6 +497,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Name_hasNum___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -494,6 +508,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Name_isPrefixOf(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -529,6 +544,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_Name_0__Lean_Name_quickCmpImpl___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -540,6 +556,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Name_isImplementationDetail(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -667,6 +684,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Name_cmp(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -794,6 +812,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Data_Name_0__Lean_Name_isInternalDetail_matchPrefix(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -854,6 +873,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Name_components(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -873,6 +893,7 @@ return x_1;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00__private_Lean_Data_Name_0__Lean_Name_isInternalDetail_matchPrefix_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -892,6 +913,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Name_isSuffixOf___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -903,6 +925,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Name_componentsRev(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1004,6 +1027,7 @@ return x_13;
 }
 }
 public static byte l_Lean_Name_isMetaprogramming(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1052,6 +1076,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Name_getString_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1061,6 +1086,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Name_anyS___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1104,6 +1130,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_Data_Name_0__Lean_Name_isInternalDetail_matchPrefix_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1113,6 +1140,7 @@ return x_3;
 }
 }
 public static Obj l_panic___at___00Lean_Name_getString_x21_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1176,6 +1204,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Name_hasNum(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1321,6 +1350,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_Data_Name_0__Lean_Name_isInternalDetail_matchPrefix_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -1434,6 +1464,7 @@ return x_4;
 }
 }
 public static Obj l_List_any___at___00Lean_Name_isMetaprogramming_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1444,6 +1475,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Name_isSuffixOf(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1513,6 +1545,7 @@ return x_17;
 }
 }
 public static byte l_Lean_Name_anyS(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1593,6 +1626,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Name_isInternal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1752,6 +1786,7 @@ goto block_10;
 }
 }
 public static byte l_List_any___at___00Lean_Name_isMetaprogramming_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

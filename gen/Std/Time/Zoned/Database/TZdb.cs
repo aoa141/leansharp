@@ -44,6 +44,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_TZSpec_zoneId_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -52,6 +53,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_Time_Database_TZdb_getZoneRules_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -193,6 +195,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_instReprTZSpec_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -403,6 +406,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_TZSpec_zoneId_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -431,6 +435,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_getLocalZoneRules(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -493,6 +498,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_getZoneRules(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -633,6 +639,7 @@ return x_31;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_parseTZif(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -692,6 +699,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_localRules(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -842,6 +850,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_TZSpec_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -851,6 +860,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_parseTZValue(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -977,6 +987,7 @@ return x_1;
 }
 }
 public static Obj l_IO_ofExcept___at___00Std_Time_Database_TZdb_parseTZIfFromDisk_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -985,6 +996,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_resolveZonesPaths___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1044,6 +1056,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_findInPaths___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1092,6 +1105,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_parseTZIfFromDisk___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1122,6 +1136,7 @@ return x_1;
 }
 }
 public static Obj l_IO_ofExcept___at___00Std_Time_Database_TZdb_parseTZIfFromDisk_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1130,6 +1145,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_findInPaths(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -1266,6 +1282,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_parseTZIfFromDisk(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1439,6 +1456,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_readRulesFromDisk___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1447,6 +1465,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Std_Time_Database_TZdb_findInPaths_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1723,6 +1742,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_idFromPath(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -2019,6 +2039,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Database_TZdb_resolveLocalPath(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 

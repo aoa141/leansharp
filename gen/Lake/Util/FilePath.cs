@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_String_dropSuffix___at___00Lake_modOfFilePath_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -40,6 +41,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Util_FilePath_0__Lake_modOfFilePath_removeExts(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -92,6 +94,7 @@ return x_15;
 }
 }
 public static Obj l_List_foldl___at___00Lake_modOfFilePath_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -124,6 +127,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_relPathFrom(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -205,6 +209,7 @@ return x_2;
 }
 }
 public static Obj l_String_mapAux___at___00Lake_mkRelPathString_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_9 = null; byte x_10 = 0; 
@@ -250,6 +255,7 @@ goto _start;
 }
 }
 public static Obj l_String_Slice_dropSuffix___at___00String_dropSuffix___at___00Lake_modOfFilePath_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -270,6 +276,7 @@ return x_3;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00Lake_relPathFrom_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -346,6 +353,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_dropSuffix___at___00String_dropSuffix___at___00Lake_modOfFilePath_spec__0_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -444,6 +452,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instToJsonFilePath__lake___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 

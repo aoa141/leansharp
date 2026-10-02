@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_LCNF_PublicDeclsExt {
 public static Obj l_Lean_Compiler_LCNF_isDeclPublic___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -35,6 +36,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_mkOrderedDeclSetExt___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -86,6 +88,7 @@ return x_2;
 }
 public static Obj l___private_Lean_Compiler_LCNF_PublicDeclsExt_0__Lean_Compiler_LCNF_publicDeclsExt;
 public static byte l_Lean_Compiler_LCNF_isDeclPublic(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -158,6 +161,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Compiler_LCNF_mkOrderedDeclSetExt_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -175,6 +179,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_mkOrderedDeclSetExt___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -197,6 +202,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldl___at___00Lean_Compiler_LCNF_mkOrderedDeclSetExt_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

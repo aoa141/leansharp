@@ -25,6 +25,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Weekday_instReprOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -47,6 +48,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instReprWeekday_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -57,6 +59,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Weekday_sunday_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -66,6 +69,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Weekday_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -87,6 +91,7 @@ return x_3;
 }
 }
 public static byte l_Std_Time_Weekday_ofOrdinal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -199,6 +204,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Weekday_thursday_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -349,6 +355,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Weekday_instDecidableEqOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -360,6 +367,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Weekday_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -370,6 +378,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Weekday_thursday_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -409,6 +418,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Weekday_saturday_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -486,6 +496,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Weekday_ofNat_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -600,6 +611,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Date_Unit_Weekday_0__Std_Time_instReprWeekday_repr_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -629,6 +641,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Weekday_monday_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -639,6 +652,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Time_Weekday_instReprOrdinal___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -704,6 +718,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Weekday_tuesday_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -853,6 +868,7 @@ return x_6;
 }
 }
 public static byte l_Std_Time_instDecidableEqWeekday(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1203,6 +1219,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Weekday_wednesday_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1249,6 +1266,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Weekday_tuesday_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1361,6 +1379,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Weekday_isWeekend___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1371,6 +1390,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Weekday_instDecidableLeOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1382,6 +1402,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Weekday_instDecidableLeOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1446,6 +1467,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Weekday_toOrdinal(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -1603,6 +1625,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Weekday_toNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1643,6 +1666,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Weekday_wednesday_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

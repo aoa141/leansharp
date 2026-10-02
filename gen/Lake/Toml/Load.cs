@@ -167,6 +167,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_get___at___00Lake_Toml_loadToml_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -267,6 +268,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Toml_loadToml(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; uint x_4 = 0; Obj x_5 = null; 

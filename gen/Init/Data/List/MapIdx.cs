@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_List_MapIdx {
 public static Obj l_List_mapFinIdxM_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -16,6 +17,7 @@ return x_10;
 }
 }
 public static Obj l_List_mapIdx(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -67,6 +69,7 @@ return x_15;
 }
 }
 public static Obj l_List_mapFinIdx_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -76,6 +79,7 @@ return x_8;
 }
 }
 public static Obj l_List_mapFinIdx___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -85,6 +89,7 @@ return x_4;
 }
 }
 public static Obj l_List_mapIdxM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -129,6 +134,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapIdx_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -137,6 +143,7 @@ return x_6;
 }
 }
 public static Obj l_List_mapFinIdx(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -146,6 +153,7 @@ return x_6;
 }
 }
 public static Obj l_List_mapFinIdxM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -155,6 +163,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapIdx_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -183,6 +192,7 @@ goto _start;
 }
 }
 public static Obj l_List_mapFinIdxM_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -200,6 +210,7 @@ return x_7;
 }
 }
 public static Obj l_List_mapFinIdxM_go___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -362,6 +373,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_List_MapIdx_0__List_mapFinIdx_go_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -404,6 +416,7 @@ return x_4;
 }
 }
 public static Obj l_List_mapFinIdx_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -421,6 +434,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapFinIdx_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

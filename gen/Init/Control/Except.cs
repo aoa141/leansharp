@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Control_Except {
 public static Obj l_liftExcept(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -109,6 +110,7 @@ return x_16;
 }
 }
 public static Obj l_Except_orElseLazy___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -242,6 +244,7 @@ return x_10;
 }
 }
 public static Obj l_instMonadExceptOfExcept(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -360,6 +363,7 @@ return x_15;
 }
 }
 public static Obj l_ExceptT_run___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -435,6 +439,7 @@ return x_16;
 }
 }
 public static Obj l_instInhabitedExceptTOfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -523,6 +528,7 @@ return x_10;
 }
 }
 public static Obj l_instMonadExceptOfExcept___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -711,6 +717,7 @@ return x_1;
 }
 }
 public static Obj l_ExceptT_instMonad___redArg___lam__8___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -768,6 +775,7 @@ return x_4;
 }
 }
 public static Obj l_Except_toBool___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -787,6 +795,7 @@ return x_4;
 }
 }
 public static Obj l_MonadExcept_orelse_x27___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -860,6 +869,7 @@ return x_3;
 }
 }
 public static Obj l_MonadExcept_orelse_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -888,6 +898,7 @@ return x_3;
 }
 }
 public static Obj l_ExceptT_lift(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1176,6 +1187,7 @@ return x_18;
 }
 }
 public static Obj l_Except_isOk___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1186,6 +1198,7 @@ return x_5;
 }
 }
 public static Obj l_tryFinally(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1666,6 +1679,7 @@ return x_15;
 }
 }
 public static Obj l_tryFinally___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1689,6 +1703,7 @@ return x_3;
 }
 }
 public static Obj l_Except_instMonad(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1697,6 +1712,7 @@ return x_2;
 }
 }
 public static Obj l_ExceptT_mk___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1706,6 +1722,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadControlExceptTOfMonad___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1775,6 +1792,7 @@ return x_11;
 }
 }
 public static Obj l_instMonadControlExceptTOfMonad___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1791,6 +1809,7 @@ return x_2;
 }
 }
 public static Obj l_Except_orElseLazy___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2010,6 +2029,7 @@ return x_1;
 }
 }
 public static Obj l_MonadExcept_orelse_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2036,6 +2056,7 @@ return x_10;
 }
 }
 public static Obj l_tryFinally___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2446,6 +2467,7 @@ return x_6;
 }
 }
 public static Obj l_instMonadAttachExceptTOfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

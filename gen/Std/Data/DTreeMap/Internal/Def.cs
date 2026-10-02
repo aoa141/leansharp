@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_DTreeMap_Internal_Def {
 public static Obj l_Std_DTreeMap_Internal_Impl_inner_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15,6 +16,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instInhabitedImpl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23,6 +25,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_treeSize___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -57,6 +60,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -66,6 +70,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_leaf_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -74,6 +79,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instInhabitedImpl_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -82,6 +88,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_toListModel___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -109,6 +116,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -170,6 +178,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_toListModel___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -213,6 +222,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_toListModel___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -253,6 +263,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_inner_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -269,6 +280,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -302,6 +314,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_leaf_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

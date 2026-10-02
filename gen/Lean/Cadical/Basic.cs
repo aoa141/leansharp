@@ -24,6 +24,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Solver_val(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_4 = 0; ushort x_5 = 0; byte x_6 = 0; 
@@ -165,6 +166,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Cadical_State_isInvalid(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; ushort x_3 = 0; ushort x_4 = 0; byte x_5 = 0; 
@@ -187,6 +189,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Cadical_Solver_state___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; Obj x_4 = null; 
@@ -225,6 +228,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Cadical_Status_toString(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -299,6 +303,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_instReprStatus_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -309,6 +314,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Cadical_instDecidableEqState_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -335,6 +341,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Cadical_Solver_assume(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; ushort x_16 = 0; ushort x_17 = 0; ushort x_18 = 0; ushort x_19 = 0; byte x_20 = 0; 
@@ -474,6 +481,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Solver_clause___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -484,6 +492,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Cadical_State_toString(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; byte x_3 = 0; 
@@ -625,6 +634,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Cadical_instDecidableEqStatus(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -675,6 +685,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Solver_configure___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -686,6 +697,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Cadical_Solver_solve___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -758,6 +770,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Solver_isValidOption___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -777,6 +790,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_instReprStatus_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; 
@@ -899,6 +913,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Cadical_Solver_setLongOption(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_4 = 0; ushort x_5 = 0; byte x_6 = 0; 
@@ -996,6 +1011,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Cadical_Solver_terminate(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_7 = 0; byte x_8 = 0; 
@@ -1045,6 +1061,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Cadical_Solver_setOption___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -1110,6 +1127,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Solver_inconsistent___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1190,6 +1208,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Cadical_instDecidableEqState___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_3 = 0; ushort x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1315,6 +1334,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Cadical_State_isReady___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1436,6 +1456,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Cadical_Solver_printStatistics___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1445,6 +1466,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Cadical_Status_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1513,6 +1535,7 @@ return x_5;
 }
 }
 public static Obj l_panic___at___00Lean_Cadical_Solver_setOption_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1560,6 +1583,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Solver_clause(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_4 = 0; ushort x_5 = 0; ushort x_6 = 0; ushort x_7 = 0; byte x_8 = 0; 
@@ -1804,6 +1828,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sat_CNF_Basic_0__Std_Sat_CNF_Clause_forIn_x27ImplUnsafe_loop___at___00Lean_Cadical_Solver_clause_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -1818,6 +1843,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Cadical_Solver_printConfigurations___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1915,6 +1941,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Cadical_Solver_configure(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ushort x_4 = 0; ushort x_5 = 0; byte x_6 = 0; 
@@ -1996,6 +2023,7 @@ return x_1;
 }
 }
 public static uint l_Lean_Cadical_Status_toInt32(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -2274,6 +2302,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Cadical_Status_satisfiable_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2514,6 +2543,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Sat_CNF_Basic_0__Std_Sat_CNF_Clause_forIn_x27ImplUnsafe_loop___at___00Lean_Cadical_Solver_clause_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 

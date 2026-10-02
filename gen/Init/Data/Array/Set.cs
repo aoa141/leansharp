@@ -21,6 +21,7 @@ return x_5;
 }
 }
 public static Obj l_Array_set___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -104,6 +105,7 @@ return x_1;
 }
 }
 public static Obj l_Array_setIfInBounds___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -314,6 +316,7 @@ return x_5;
 }
 }
 public static Obj l_Array_setIfInBounds___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

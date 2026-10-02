@@ -42,6 +42,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readUTF8(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; ulong x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
@@ -177,6 +178,7 @@ return x_4;
 }
 }
 public static Obj l_IO_ofExcept___at___00Lean_IO_FS_Stream_readJson_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -185,6 +187,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_IO_FS_Stream_readJson(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; ulong x_5 = 0; Obj x_6 = null; Obj x_7 = null; 
@@ -297,6 +300,7 @@ return x_24;
 }
 }
 public static Obj l_IO_ofExcept___at___00Lean_IO_FS_Stream_readJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

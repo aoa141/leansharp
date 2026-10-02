@@ -35,6 +35,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_NeverExtractAttr_0__Lean_neverExtractAttr___regBuiltin_Lean_neverExtractAttr_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -53,6 +54,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_hasNeverExtractAttribute___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -129,6 +131,7 @@ return x_3;
 }
 }
 public static byte l_Lean_hasNeverExtractAttribute(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -201,6 +204,7 @@ return x_4;
 }
 }
 public static byte l___private_Lean_Compiler_NeverExtractAttr_0__Lean_hasNeverExtractAttribute_visit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 

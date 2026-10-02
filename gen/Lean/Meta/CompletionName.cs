@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_CompletionName {
 public static Obj l___private_Lean_Meta_CompletionName_0__Lean_Meta_isBlacklisted___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -36,6 +37,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Meta_CompletionName_0__Lean_Meta_isInternalNameModuloPrivate(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -115,6 +117,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Meta_allowCompletion___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -134,6 +137,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Meta_CompletionName_0__Lean_Meta_isBlacklisted(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_12 = 0; 

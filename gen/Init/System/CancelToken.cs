@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_System_CancelToken {
 public static Obj l_IO_CancelToken_new___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -64,6 +65,7 @@ return x_9;
 }
 }
 public static Obj l_IO_CancelToken_set___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -88,6 +90,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_System_CancelToken_0__IO_CancelToken_isSetExport___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

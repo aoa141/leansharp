@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Language_Basic {
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlFromMAux___at___00Lean_PersistentArray_foldlM___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__4_spec__4_spec__5(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -44,6 +45,7 @@ return x_17;
 }
 }
 public static Obj l_IO_println___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -52,6 +54,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_mkIncrementalProcessor___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -61,6 +64,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_bindIO___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -70,6 +74,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_forM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -114,6 +119,7 @@ return x_1;
 }
 }
 public static Obj l_IO_println___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -160,6 +166,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_cancelRec___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -168,6 +175,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ReportingRange_some_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -186,6 +194,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_cancelRec(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -194,6 +203,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_instInhabitedTransformedSnap(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -212,6 +222,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlMAux___at___00Lean_PersistentArray_foldlM___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__4_spec__6(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -338,6 +349,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ReportingRange_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -347,6 +359,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Language_instToSnapshotTreeSnapshotLeaf___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -356,6 +369,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Language_SnapshotTree_transform_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -392,6 +406,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlFromMAux___at___00Lean_PersistentArray_foldlM___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__4_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; byte x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -428,6 +443,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ReportingRange_skip_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -436,6 +452,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentArray_foldlM___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__4(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; byte x_10 = 0; 
@@ -558,6 +575,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_waitAll___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -611,6 +629,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_withHeaderExceptions___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -649,6 +668,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Language_withHeaderExceptions___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -679,6 +699,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transformWith___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -700,6 +721,7 @@ return x_3;
 }
 }
 public static Obj l_IO_print___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -708,6 +730,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ofIO(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -716,6 +739,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Language_SnapshotTreeTransform_isIdentity___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -726,6 +750,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_instInhabitedSnapshotTask_default___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -796,6 +821,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_Snapshot_transform___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -805,6 +831,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldM___at___00Lean_Language_SnapshotTree_getAll_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -946,6 +973,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ReportingRange_skip_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -996,6 +1024,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Language_SnapshotTree_foldM___at___00Lean_Language_SnapshotTree_runAndReport_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -1059,6 +1088,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Language_Basic_0__Lean_Language_initFn_00___x40_Lean_Language_Basic_709047587____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1090,6 +1120,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldM___at___00Lean_Language_SnapshotTree_runAndReport_spec__0(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1145,6 +1176,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_instToSnapshotTreeDynamicSnapshot___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1154,6 +1186,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_Snapshot_transform(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1294,6 +1327,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_getAll(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1313,6 +1347,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1356,6 +1391,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_cancelRec___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1375,6 +1411,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_defaultReportingRange___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1415,6 +1452,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_transform___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1424,6 +1462,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Language_SnapshotTree_foldM___at___00Lean_Language_SnapshotTree_getAll_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1513,6 +1552,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Language_Basic_0__Lean_Language_SnapshotTree_waitAll_go___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1636,6 +1676,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transformWith___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; 
@@ -1734,6 +1775,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transformWith___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1756,6 +1798,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1776,6 +1819,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_waitAll(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1809,6 +1853,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1852,6 +1897,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Language_SnapshotTree_transform_spec__0___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1861,6 +1907,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_diagnosticsOfHeaderError___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1880,6 +1927,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_register___at___00__private_Lean_Language_Basic_0__Lean_Language_initFn_00___x40_Lean_Language_Basic_1801653074____hygCtx___hyg_4__spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1958,6 +2006,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Language_Basic_0__Lean_Language_reportMessages(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; 
@@ -1972,6 +2021,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_get_x3f___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1997,6 +2047,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_register___at___00__private_Lean_Language_Basic_0__Lean_Language_initFn_00___x40_Lean_Language_Basic_709047587____hygCtx___hyg_4__spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2006,6 +2057,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_get_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2220,6 +2272,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Language_toSnapshotTree(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2238,6 +2291,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_diagnosticsOfHeaderError(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -2317,6 +2371,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ReportingRange_inherit_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2483,6 +2538,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_defaultReportingRange(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2544,6 +2600,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_DynamicSnapshot_ofTyped(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2552,6 +2609,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Language_SnapshotTree_foldM___at___00Lean_Language_SnapshotTree_getAll_spec__0_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2779,6 +2837,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ReportingRange_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2874,6 +2933,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ReportingRange_inherit_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2882,6 +2942,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTreeTransform_compose___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2900,6 +2961,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_cancelRec___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2908,6 +2970,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Language_TransformedSnap_compose(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2949,6 +3012,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_map___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2958,6 +3022,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Language_instToSnapshotTreeOption___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2967,6 +3032,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_map(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2995,6 +3061,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_PersistentArray_0__Lean_PersistentArray_foldlFromMAux___at___00Lean_PersistentArray_foldlM___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__4_spec__4(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -3193,6 +3260,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_ReportingRange_some_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3226,6 +3294,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_cancelRec___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -3280,6 +3349,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_map___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3305,6 +3375,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Language_SnapshotTree_transform_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3368,6 +3439,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Language_Basic_0__Lean_Language_SnapshotTree_waitAll_go___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -3552,6 +3624,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Language_SnapshotTree_transform_spec__0___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3660,6 +3733,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_PersistentArray_foldlM___at___00__private_Lean_Language_Basic_0__Lean_Language_reportMessages_spec__4_spec__5(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; byte x_15 = 0; Obj x_16 = null; byte x_28 = 0; Obj x_29 = null; Obj x_30 = null; byte x_31 = 0; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; byte x_57 = 0; byte x_82 = 0; Obj x_83 = null; Obj x_84 = null; Obj x_92 = null; byte x_93 = 0; 
@@ -4177,6 +4251,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Language_SnapshotTree_foldM___at___00Lean_Language_SnapshotTree_runAndReport_spec__0_spec__0(Obj x_1, byte x_2, Obj x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 

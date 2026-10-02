@@ -73,6 +73,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00List_repr_x27___at___00Lake_instReprCliError_repr_spec__0_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -166,6 +167,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_missingScriptDoc_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -268,6 +270,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_missingArg_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -319,6 +322,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_unknownCommand_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -339,6 +343,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_unknownExe_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -347,6 +352,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00List_repr_x27___at___00Lake_instReprCliError_repr_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -385,6 +391,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_CliError_invalidFacet_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -456,6 +463,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_missingArg_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -522,6 +530,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_outputConfigExists_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -530,6 +539,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_invalidEnv_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -574,6 +584,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_unknownTemplate_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -582,6 +593,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_invalidTargetSpec_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -604,6 +616,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_unknownFacet_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -622,6 +635,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_missingRootDir_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -684,6 +698,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_leanRevMismatch_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -702,6 +717,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_invalidFacet_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -710,6 +726,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CliError_unknownScript_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -752,6 +769,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_unknownFacet_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -770,6 +788,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_missingOptArg_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -842,6 +861,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -851,6 +871,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_CliError_unknownModulePath_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -869,6 +890,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_unknownTemplate_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -964,6 +986,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_unknownTarget_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -992,6 +1015,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_missingRootDir_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1036,6 +1060,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_unknownConfigLang_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1080,6 +1105,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_invalidBuildTarget_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1122,6 +1148,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1572,6 +1599,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_invalidOptArg_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1590,6 +1618,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1778,6 +1807,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_unknownLongOption_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1796,6 +1826,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_unknownPackage_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1804,6 +1835,7 @@ return x_3;
 }
 }
 public static Obj l_List_repr_x27___at___00Lake_instReprCliError_repr_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1812,6 +1844,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_unexpectedPlus_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1831,6 +1864,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_missingCommand_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1839,6 +1873,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_missingModule_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1873,6 +1908,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_missingTarget_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1903,6 +1939,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_unknownModulePath_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1931,6 +1968,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_unexpectedArguments_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1939,6 +1977,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_CliError_missingModule_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1947,6 +1986,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instReprCliError_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; 
@@ -4150,6 +4190,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_CliError_missingCommand_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4172,6 +4213,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_invalidTargetSpec_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4236,6 +4278,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_CliError_unknownCommand_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4624,6 +4667,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_CliError_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4887,6 +4931,7 @@ return x_5;
 }
 }
 public static Obj l_List_repr_x27___at___00Lake_instReprCliError_repr_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

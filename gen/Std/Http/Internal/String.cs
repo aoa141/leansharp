@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Internal_String {
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Std_Http_Internal_unquoteHttpString_x3f_spec__1___redArg(Obj x_1, Obj x_2, uint x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -319,6 +320,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_invalid_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -327,6 +329,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_invalid_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -366,6 +369,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -375,6 +379,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Internal_quoteCore___redArg(uint x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; byte x_16 = 0; uint x_22 = 0; byte x_23 = 0; 
@@ -493,6 +498,7 @@ goto block_4;
 }
 }
 public static Obj l_List_foldl___at___00Std_Http_Internal_quoteHttpString_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -515,6 +521,7 @@ goto _start;
 }
 }
 public static Obj l_List_all___at___00Std_Http_Internal_quoteHttpString_x3f_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -534,6 +541,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_start_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -552,6 +560,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_done_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -560,6 +569,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00Std_Http_Internal_unquoteHttpString_x3f_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -569,6 +579,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Internal_isToken___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -578,6 +589,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_valid_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -595,6 +607,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Internal_quoteHttpString(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -603,6 +616,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -620,6 +634,7 @@ return x_3;
 }
 }
 public static byte l_List_all___at___00Std_Http_Internal_isToken_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -906,6 +921,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_done_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -914,6 +930,7 @@ return x_3;
 }
 }
 public static byte l_List_all___at___00Std_Http_Internal_quoteHttpString_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1190,6 +1207,7 @@ goto block_14;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00Std_Http_Internal_unquoteHttpString_x3f_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; 
@@ -1485,6 +1503,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Internal_quoteHttpString_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1658,6 +1677,7 @@ return x_9;
 }
 }
 public static Obj l___private_Std_Http_Internal_String_0__Std_Http_Internal_UnquoteState_start_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1785,6 +1805,7 @@ goto block_7;
 }
 }
 public static byte l_List_all___at___00Std_Http_Internal_quoteHttpString_x3f_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

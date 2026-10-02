@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_InitTemplate_std_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -46,6 +47,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_contains___at___00__private_Lake_CLI_Init_0__Lake_validatePkgName_spec__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -66,6 +68,7 @@ return x_1;
 }
 }
 public static Obj l_List_elem___at___00__private_Lake_CLI_Init_0__Lake_validatePkgName_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -78,6 +81,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_InitTemplate_mathLax_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -87,6 +91,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_InitTemplate_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -106,6 +111,7 @@ return x_1;
 }
 }
 public static byte l_WellFounded_opaqueFix_u2083___at___00String_Slice_contains___at___00__private_Lake_CLI_Init_0__Lake_validatePkgName_spec__2_spec__2___redArg(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -154,6 +160,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_createLeanActionWorkflow___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -205,6 +212,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_escapeIdent(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -216,6 +224,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_libLeanConfigFileContents(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -287,6 +296,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_readmeFileContents___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -327,6 +337,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_libRootFileContents___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -358,6 +369,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_new___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -380,6 +392,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00__private_Lake_CLI_Init_0__Lake_escapeName_x21_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -389,6 +402,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_InitTemplate_configFileContents(byte x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -561,6 +575,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_InitTemplate_ofString_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -570,6 +585,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_mathLeanConfigFileContents(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -599,6 +615,7 @@ return x_21;
 }
 }
 public static Obj l_Lake_instReprInitTemplate_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -700,6 +717,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lake_CLI_Init_0__Lake_validatePkgName_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -777,6 +795,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_mathLaxLeanConfigFileContents(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -872,6 +891,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_createLeanActionWorkflow(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1209,6 +1229,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_InitTemplate_std_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1241,6 +1262,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instDecidableEqInitTemplate___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1282,6 +1304,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_escapeName_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1301,6 +1324,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_mainFileContents(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1364,6 +1388,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_CLI_Init_0__Lake_initPkg_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1391,6 +1416,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_initPkg(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5, byte x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_28 = null; Obj x_29 = null; Obj x_33 = null; Obj x_34 = null; Obj x_38 = null; Obj x_39 = null; byte x_40 = 0; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_113 = null; Obj x_114 = null; Obj x_115 = null; Obj x_116 = null; Obj x_120 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; Obj x_124 = null; Obj x_126 = null; Obj x_127 = null; Obj x_128 = null; Obj x_129 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_154 = null; Obj x_156 = null; Obj x_157 = null; Obj x_158 = null; Obj x_159 = null; byte x_160 = 0; Obj x_179 = null; Obj x_180 = null; Obj x_181 = null; Obj x_182 = null; Obj x_191 = null; Obj x_192 = null; Obj x_193 = null; Obj x_194 = null; Obj x_195 = null; Obj x_196 = null; Obj x_212 = null; Obj x_213 = null; Obj x_214 = null; Obj x_215 = null; Obj x_216 = null; byte x_217 = 0; Obj x_226 = null; Obj x_227 = null; Obj x_228 = null; Obj x_229 = null; Obj x_240 = null; Obj x_241 = null; Obj x_242 = null; Obj x_243 = null; Obj x_244 = null; Obj x_245 = null; byte x_246 = 0; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_284 = null; Obj x_285 = null; Obj x_296 = null; Obj x_297 = null; Obj x_298 = null; Obj x_299 = null; Obj x_300 = null; Obj x_302 = null; Obj x_303 = null; Obj x_304 = null; Obj x_305 = null; Obj x_306 = null; Obj x_307 = null; Obj x_308 = null; Obj x_324 = null; Obj x_325 = null; Obj x_326 = null; Obj x_327 = null; Obj x_328 = null; Obj x_329 = null; Obj x_338 = null; Obj x_339 = null; Obj x_340 = null; Obj x_341 = null; Obj x_342 = null; Obj x_343 = null; Obj x_344 = null; byte x_345 = 0; Obj x_376 = null; Obj x_377 = null; Obj x_378 = null; Obj x_379 = null; Obj x_380 = null; Obj x_381 = null; Obj x_382 = null; Obj x_383 = null; Obj x_412 = null; Obj x_413 = null; Obj x_423 = null; Obj x_424 = null; byte x_425 = 0; Obj x_429 = null; byte x_430 = 0; Obj x_454 = null; byte x_456 = 0; Obj x_489 = null; byte x_490 = 0; byte x_491 = 0; 
@@ -3318,6 +3344,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_stdTomlConfigFileContents(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; 
@@ -3396,6 +3423,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_validatePkgName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; byte x_16 = 0; 
@@ -3497,6 +3525,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_InitTemplate_math_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3506,6 +3535,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_InitTemplate_mathLax_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3516,6 +3546,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_mathLaxTomlConfigFileContents(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; 
@@ -3553,6 +3584,7 @@ return x_27;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_mathReadmeFileContents___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3580,6 +3612,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_InitTemplate_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3646,6 +3679,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_InitTemplate_exe_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3727,6 +3761,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_InitTemplate_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3827,6 +3862,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_stdLeanConfigFileContents(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -3909,6 +3945,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_exeLeanConfigFileContents(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -4028,6 +4065,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_init___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; Obj x_12 = null; 
@@ -4107,6 +4145,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_initPkg___at___00Lake_init_spec__0(Obj x_1, Obj x_2, Obj x_3, byte x_4, byte x_5, Obj x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_28 = null; Obj x_29 = null; Obj x_33 = null; Obj x_34 = null; Obj x_38 = null; Obj x_39 = null; byte x_40 = 0; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_113 = null; Obj x_114 = null; Obj x_115 = null; Obj x_116 = null; Obj x_120 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; Obj x_124 = null; Obj x_126 = null; Obj x_127 = null; Obj x_128 = null; Obj x_129 = null; Obj x_150 = null; Obj x_151 = null; Obj x_152 = null; Obj x_153 = null; Obj x_154 = null; Obj x_156 = null; Obj x_157 = null; Obj x_158 = null; Obj x_159 = null; byte x_160 = 0; Obj x_179 = null; Obj x_180 = null; Obj x_181 = null; Obj x_182 = null; Obj x_191 = null; Obj x_192 = null; Obj x_193 = null; Obj x_194 = null; Obj x_195 = null; Obj x_196 = null; Obj x_212 = null; Obj x_213 = null; Obj x_214 = null; Obj x_215 = null; Obj x_216 = null; byte x_217 = 0; Obj x_226 = null; Obj x_227 = null; Obj x_228 = null; Obj x_229 = null; Obj x_240 = null; Obj x_241 = null; Obj x_242 = null; Obj x_243 = null; Obj x_244 = null; Obj x_245 = null; byte x_246 = 0; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_284 = null; Obj x_285 = null; Obj x_296 = null; Obj x_297 = null; Obj x_298 = null; Obj x_299 = null; Obj x_300 = null; Obj x_302 = null; Obj x_303 = null; Obj x_304 = null; Obj x_305 = null; Obj x_306 = null; Obj x_307 = null; Obj x_308 = null; Obj x_324 = null; Obj x_325 = null; Obj x_326 = null; Obj x_327 = null; Obj x_328 = null; Obj x_329 = null; Obj x_338 = null; Obj x_339 = null; Obj x_340 = null; Obj x_341 = null; Obj x_342 = null; Obj x_343 = null; Obj x_344 = null; byte x_345 = 0; Obj x_376 = null; Obj x_377 = null; Obj x_378 = null; Obj x_379 = null; Obj x_380 = null; Obj x_381 = null; Obj x_382 = null; Obj x_383 = null; Obj x_412 = null; Obj x_413 = null; Obj x_423 = null; Obj x_424 = null; byte x_425 = 0; Obj x_429 = null; byte x_430 = 0; Obj x_454 = null; byte x_456 = 0; Obj x_489 = null; byte x_490 = 0; byte x_491 = 0; 
@@ -6096,6 +6135,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_new(Obj x_1, byte x_2, byte x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_36 = null; Obj x_38 = null; Obj x_39 = null; 
@@ -6404,6 +6444,7 @@ return x_3;
 }
 }
 public static Obj l_List_elem___at___00__private_Lake_CLI_Init_0__Lake_validatePkgName_spec__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6550,6 +6591,7 @@ return x_9;
 }
 }
 public static Obj l_String_mapAux___at___00__private_Lake_CLI_Init_0__Lake_dotlessName_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_9 = null; byte x_10 = 0; 
@@ -6602,6 +6644,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_escapeName_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -6647,6 +6690,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_InitTemplate_ofString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -6715,6 +6759,7 @@ return x_17;
 }
 }
 public static byte l_List_elem___at___00__private_Lake_CLI_Init_0__Lake_validatePkgName_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -6742,6 +6787,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_libTomlConfigFileContents(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 
@@ -6785,6 +6831,7 @@ return x_3;
 }
 }
 public static Obj l_String_mapAux___at___00__private_Lake_CLI_Init_0__Lake_InitTemplate_configFileContents_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_9 = null; byte x_10 = 0; 
@@ -6847,6 +6894,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lake_CLI_Init_0__Lake_exeTomlConfigFileContents(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 
@@ -7290,6 +7338,7 @@ return x_11;
 }
 }
 public static Obj l_Lake_instReprInitTemplate_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; 
@@ -7754,6 +7803,7 @@ return x_4;
 }
 }
 public static byte l_List_elem___at___00__private_Lake_CLI_Init_0__Lake_validatePkgName_spec__0(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

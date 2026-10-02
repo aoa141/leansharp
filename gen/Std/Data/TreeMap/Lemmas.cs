@@ -13,6 +13,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Std_TreeMap_Equiv_instTrans___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_ParseImportsFast {
 public static Obj l_IO_println___at___00Lean_printImportsJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -33,6 +34,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ParseImports_isIdCont___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -44,6 +46,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParseImports_takeUntil___at___00__private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_moduleIdent_parse_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; uint x_6 = 0; Obj x_7 = null; 
@@ -56,6 +59,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_ParseImports_takeWhile___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -67,6 +71,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00Lean_instToJsonPrintImportResult_toJson_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -91,6 +96,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_ParseImports_takeWhile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -121,6 +127,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParseImports_takeUntil___at___00__private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_moduleIdent_parse_spec__0(byte x_1, uint x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; byte x_13 = 0; byte x_27 = 0; 
@@ -397,6 +404,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParseImports_setExported(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -439,6 +447,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_finishCommentBlock_eoi(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; byte x_10 = 0; byte x_16 = 0; 
@@ -625,6 +634,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -749,6 +759,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParseImports_keyword___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -759,6 +770,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParseImports_moduleIdent___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; byte x_16 = 0; byte x_26 = 0; 
@@ -870,6 +882,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ParseImports_isIdRestFast___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -881,6 +894,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_printImportsJson_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1032,6 +1046,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1157,6 +1172,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParseImports_takeUntil___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1166,6 +1182,7 @@ return x_4;
 }
 }
 public static Obj l_IO_print___at___00IO_println___at___00Lean_printImportsJson_spec__1_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1174,6 +1191,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_instToJsonPrintImportResult_toJson_spec__1_spec__1(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1200,6 +1218,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1209,6 +1228,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_ParseImports_takeUntil(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; 
@@ -1303,6 +1323,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_printImportsJson___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1311,6 +1332,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1321,6 +1343,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_instToJsonPrintImportsResult_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1354,6 +1377,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParseImports_setImportAll___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1418,6 +1442,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_ParseImports_whitespace(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_15 = 0; 
@@ -1795,6 +1820,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_ParseImports_setImportAll(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1813,6 +1839,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParseImports_keywordCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1822,6 +1849,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_ParseImports_takeUntil___at___00__private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_moduleIdent_parse_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1841,6 +1869,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1961,6 +1990,7 @@ return x_28;
 }
 }
 public static Obj l_Lean_ParseImports_State_next___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1971,6 +2001,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParseImports_setIsModule___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1980,6 +2011,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParseImports_setMeta___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2104,6 +2136,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParseImports_setIsModule___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2144,6 +2177,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Array_toJson___at___00Lean_instToJsonPrintImportsResult_toJson_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -2156,6 +2190,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Array_toJson___at___00Lean_instToJsonPrintImportsResult_toJson_spec__0_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -2181,6 +2216,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_ParseImports_finishCommentBlock___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2224,6 +2260,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_ParseImports_keyword(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2367,6 +2404,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2491,6 +2529,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_moduleIdent_parse(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; byte x_13 = 0; Obj x_18 = null; Obj x_19 = null; byte x_20 = 0; Obj x_21 = null; byte x_22 = 0; byte x_23 = 0; byte x_24 = 0; byte x_25 = 0; byte x_26 = 0; 
@@ -3165,6 +3204,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_ParseImports_State_mkEOIError(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; byte x_10 = 0; byte x_16 = 0; 
@@ -3247,6 +3287,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_24 = 0; 
@@ -3544,6 +3585,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3554,6 +3596,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_ParseImports_setMeta(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3562,6 +3605,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ParseImports_State_next_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3572,6 +3616,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_ParseImports_manyImports___at___00Lean_ParseImports_main_spec__6(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; Obj x_16 = null; Obj x_43 = null; Obj x_73 = null; Obj x_74 = null; Obj x_75 = null; Obj x_76 = null; 
@@ -3946,6 +3991,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -4080,6 +4126,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_ParseImports_isIdRestCold___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -4195,6 +4242,7 @@ return x_16;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -4393,6 +4441,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_ParseImports_takeUntil___at___00Lean_ParseImports_whitespace_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; 
@@ -4503,6 +4552,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_ParseImports_takeUntil___at___00__private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_moduleIdent_parse_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; byte x_7 = 0; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; 
@@ -4603,6 +4653,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_parseImports_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -4810,6 +4861,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ParseImports_finishCommentBlock(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; byte x_11 = 0; byte x_12 = 0; 
@@ -5207,6 +5259,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_ParseImports_moduleIdent(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -5473,6 +5526,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Elab_ParseImportsFast_0__Lean_ParseImports_keywordCore_go___at___00Lean_ParseImports_main_spec__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -5786,6 +5840,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_printImportsJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -5935,6 +5990,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_ParseImports_manyImports(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 

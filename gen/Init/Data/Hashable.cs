@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_instHashableUInt64___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -58,6 +59,7 @@ return x_5;
 }
 }
 public static Obj l_instHashable___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -66,6 +68,7 @@ return x_2;
 }
 }
 public static Obj l_instHashableInt___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -86,6 +89,7 @@ return x_1;
 }
 }
 public static Obj l_instHashableBool___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -104,6 +108,7 @@ return x_2;
 }
 }
 public static Obj l_hash64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -188,6 +193,7 @@ return x_2;
 }
 }
 public static Obj l_instHashableArray___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -292,6 +298,7 @@ return x_1;
 }
 }
 public static Obj l_instHashableFin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -301,6 +308,7 @@ return x_2;
 }
 }
 public static Obj l_instHashableFin___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -394,6 +402,7 @@ return x_1;
 }
 }
 public static Obj l_instHashable(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

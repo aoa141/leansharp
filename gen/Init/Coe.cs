@@ -64,6 +64,7 @@ return x_4;
 }
 }
 public static Obj l_instCoeOTC(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -72,6 +73,7 @@ return x_2;
 }
 }
 public static Obj l_decPropToBool___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -111,6 +113,7 @@ return x_2;
 }
 }
 public static Obj l_instCoeTOfCoeDep___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -199,6 +202,7 @@ return x_3;
 }
 }
 public static Obj l_instCoeTC(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -224,6 +228,7 @@ return lean_box(0);
 }
 }
 public static Obj l_instCoeHTC___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -274,6 +279,7 @@ return x_1;
 }
 }
 public static Obj l_instCoeTOfCoeDep___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -299,6 +305,7 @@ return x_4;
 }
 }
 public static Obj l_instCoeHTCT___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -354,6 +361,7 @@ return x_4;
 }
 }
 public static Obj l_subtypeCoe(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -418,6 +426,7 @@ return x_1;
 }
 }
 public static Obj l_subtypeCoe___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -436,6 +445,7 @@ return x_1;
 }
 }
 public static Obj l_instCoeT___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -445,6 +455,7 @@ return x_3;
 }
 }
 public static Obj l_instCoeOTC___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

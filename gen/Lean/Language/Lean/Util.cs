@@ -36,6 +36,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_Language_Lean_Util_0__Lean_Language_Lean_findCmdParsedSnap_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -99,6 +100,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1_spec__4(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -117,6 +119,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1_spec__1___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -126,6 +129,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -147,6 +151,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldSnaps_Control_proceed_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -156,6 +161,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_collectMessagesInRange(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -197,6 +203,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1_spec__2___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -212,6 +219,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Language_Lean_Util_0__Lean_Language_SnapshotTree_foldSnaps_traverseTree___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -224,6 +232,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldSnaps(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -232,6 +241,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_Lean_findCmdDataAtPos___lam__2(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -269,6 +279,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldSnaps___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; 
@@ -281,6 +292,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Language_Lean_findCmdParsedSnap(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -319,6 +331,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_findInfoTreeAtPos___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -328,6 +341,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_findInfoTreeAtPos___lam__1(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -405,6 +419,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Language_Lean_findCmdDataAtPos___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -467,6 +482,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldSnaps_Control_proceed_elim___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -476,6 +492,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1_spec__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -485,6 +502,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1_spec__3___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -494,6 +512,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Language_Lean_Util_0__Lean_Language_SnapshotTree_foldSnaps_traverseChildren___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -669,6 +688,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_collectMessagesInRange___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -678,6 +698,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldInfosInRange___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -782,6 +803,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldSnaps_Control_proceed_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -801,6 +823,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_findInfoTreeAtPos___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -820,6 +843,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldSnaps_Control_done_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -828,6 +852,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_collectMessagesInRange___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -837,6 +862,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Language_Lean_Util_0__Lean_Language_Lean_findCmdParsedSnap_containsHoverPos___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -898,6 +924,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Language_Lean_Util_0__Lean_Language_SnapshotTree_foldSnaps_traverseChildren___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -957,6 +984,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_FileMap_rangeIncludesRequestedRange___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -980,6 +1008,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1_spec__3___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1042,6 +1071,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; 
@@ -1212,6 +1242,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_SnapshotTree_foldInfosInRange___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1230,6 +1261,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_toSnapshotTree___at___00Lean_Language_Lean_findCmdDataAtPos_spec__1_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1239,6 +1271,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_Lean_findInfoTreeAtPos(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; 
@@ -1780,6 +1813,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_FileMap_rangeOverlapsRequestedRange___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 

@@ -58,6 +58,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instInhabitedExternLibConfig_default(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -66,6 +67,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instInhabitedExternLibConfig(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -74,6 +76,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instInhabitedExternLibConfig___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -82,6 +85,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instInhabitedExternLibConfig_default___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

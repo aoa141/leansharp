@@ -28,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_instToJsonUnit___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36,6 +37,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_NameMap_toJson___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -48,6 +50,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_instToJsonEmpty___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -67,6 +70,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -75,6 +79,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_parseCtorFields___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -104,6 +109,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Name_fromJson_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -249,6 +255,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_Prod_fromJson_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -314,6 +321,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_opt(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -341,6 +349,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instFromJsonUnit___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -418,6 +427,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToJsonSlice___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -507,6 +517,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_toJson(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -890,6 +901,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_UInt64_fromJson_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1066,6 +1078,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_List_toJson___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1207,6 +1220,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Option_fromJson_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1577,6 +1591,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Json_parseCtorFields_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1699,6 +1714,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_parseTagged___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1709,6 +1725,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instToJsonUInt64___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -1729,6 +1746,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Prod_toJson(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2028,6 +2046,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToJsonUSize___lam__0(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2099,6 +2118,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Json_parseTagged_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -2152,6 +2172,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_bignumFromJson_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2295,6 +2316,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instToJsonBool___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2736,6 +2758,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_parseTagged(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -3044,6 +3067,7 @@ return x_74;
 }
 }
 public static Obj l_Lean_USize_fromJson_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3177,6 +3201,7 @@ return x_27;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00Lean_Json_parseTagged_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -3371,6 +3396,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Float_fromJson_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3854,6 +3880,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_NameMap_fromJson_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3862,6 +3889,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Json_toStructured_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -3911,6 +3939,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_NameMap_fromJson_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3983,6 +4012,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_Structured_fromJson_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -4130,6 +4160,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_List_fromJson_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4263,6 +4294,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Array_fromJson_x3f___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Sym_DSimp_DSimpM {
 public static Obj l_Lean_Meta_Sym_DSimp_post___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -24,6 +25,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_getConfig___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -41,6 +43,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_getMethods___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -50,6 +53,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_Result_rfl_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -68,6 +72,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_dsimp(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; 
@@ -217,6 +222,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_dsimp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -225,6 +231,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_DSimpM_run___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -303,6 +310,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_Result_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -312,6 +320,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_instInhabitedDSimpM(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -343,6 +352,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_Methods_toMethodsRefImpl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -362,6 +372,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_instInhabitedDSimpM___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -436,6 +447,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_DSimpM_run_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -462,6 +474,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_DSimpM_run(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -578,6 +591,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_Result_rfl_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -599,6 +613,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_DSimpM_run___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -802,6 +817,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_DSimpM_run_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1050,6 +1066,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Sym_DSimp_pre___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 

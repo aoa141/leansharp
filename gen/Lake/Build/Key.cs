@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildKey_packageTarget_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -25,6 +26,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00__private_Lake_Build_Key_0__Lake_PartialBuildKey_parse_parseTarget_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -100,6 +102,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Build_Key_0__Lake_PartialBuildKey_parse_parsePackageTarget(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -169,6 +172,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_BuildKey_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -178,6 +182,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lake_PartialBuildKey_parse_spec__0___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -186,6 +191,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_Build_Key_0__Lake_PartialBuildKey_parse_parseTarget_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -218,6 +224,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_BuildKey_package_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -250,6 +257,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00__private_Lake_Build_Key_0__Lake_PartialBuildKey_parse_parseTarget_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -258,6 +266,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_BuildKey_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -320,6 +329,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lake_PartialBuildKey_parse_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -328,6 +338,7 @@ return x_8;
 }
 }
 public static Obj l_List_foldlM___at___00Lake_PartialBuildKey_parse_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -463,6 +474,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildKey_facet_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -481,6 +493,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildKey_quickCmp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -544,6 +557,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lake_PartialBuildKey_parse_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -553,6 +567,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Build_Key_0__Lake_PartialBuildKey_instRepr___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -753,6 +768,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lake_Build_Key_0__Lake_PartialBuildKey_toString_getPkgName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -772,6 +788,7 @@ return x_1;
 }
 }
 public static byte l_Lake_instDecidableEqBuildKey_decEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -897,6 +914,7 @@ return x_31;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lake_PartialBuildKey_parse_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -906,6 +924,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_BuildKey_module_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1070,6 +1089,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_PartialBuildKey_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1272,6 +1292,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildKey_toSimpleString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1354,6 +1375,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00__private_Lake_Build_Key_0__Lake_PartialBuildKey_parse_parseTarget_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1490,6 +1512,7 @@ goto _start;
 }
 }
 public static Obj l_Lake_instReprBuildKey_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1581,6 +1604,7 @@ return x_16;
 }
 }
 public static Obj l___private_Lake_Build_Key_0__Lake_PartialBuildKey_instRepr___aux__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1599,6 +1623,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildKey_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1714,6 +1739,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instHashableBuildKey_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -1736,6 +1762,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Build_Key_0__Lake_PartialBuildKey_parse_parseTarget(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -2131,6 +2158,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_PartialBuildKey_parse(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -2264,6 +2292,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instDecidableEqBuildKey___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2319,6 +2348,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_Key_0__Lake_BuildKey_quickCmp_match__7_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2381,6 +2411,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprBuildKey_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -2876,6 +2907,7 @@ return x_19;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lake_PartialBuildKey_parse_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3098,6 +3130,7 @@ return x_1;
 }
 }
 public static byte l_Lake_BuildKey_quickCmp(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3374,6 +3407,7 @@ return x_3;
 }
 }
 public static ulong l_Lake_instHashableBuildKey_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

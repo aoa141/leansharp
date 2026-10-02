@@ -51,6 +51,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Heyting______macroRules__Lean__Order__term___u21e8____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -226,6 +227,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Heyting______unexpand__Lean__Order__himp__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

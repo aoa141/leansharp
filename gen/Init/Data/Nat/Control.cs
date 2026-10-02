@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Nat_Control {
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_allM_loop___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -17,6 +18,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_allM_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -26,6 +28,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_foldRevM_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -36,6 +39,7 @@ return x_9;
 }
 }
 public static Obj l_Nat_foldRevM___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -45,6 +49,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_allM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -53,6 +58,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_foldRevM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -61,6 +67,7 @@ return x_9;
 }
 }
 public static Obj l_Nat_foldRevM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -70,6 +77,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -79,6 +87,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -88,6 +97,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_foldM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -96,6 +106,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forRevM_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -105,6 +116,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_forRevM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -113,6 +125,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forRevM_loop___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -122,6 +135,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -131,6 +145,7 @@ return x_7;
 }
 }
 public static Obj l_Nat_foldM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -141,6 +156,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_anyM_loop___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -189,6 +205,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_anyM_loop___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 if (x_6 == 0)
@@ -211,6 +228,7 @@ return x_9;
 }
 }
 public static Obj l_Nat_foldM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -221,6 +239,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_anyM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -229,6 +248,7 @@ return x_7;
 }
 }
 public static Obj l_Nat_allM(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -239,6 +259,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_anyM(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -249,6 +270,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_forM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -259,6 +281,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_foldRevM_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -268,6 +291,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_anyM_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -277,6 +301,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forRevM_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -287,6 +312,7 @@ return x_7;
 }
 }
 public static Obj l_Nat_allM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -353,6 +379,7 @@ return x_9;
 }
 }
 public static Obj l_Nat_anyM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -396,6 +423,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -413,6 +441,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_forM_loop___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -478,6 +507,7 @@ return x_19;
 }
 }
 public static Obj l_Nat_forM(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -488,6 +518,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Control_0__Nat_foldM_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -538,6 +569,7 @@ return x_18;
 }
 }
 public static Obj l_Nat_foldRevM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -592,6 +624,7 @@ return x_18;
 }
 }
 public static Obj l_Nat_foldRevM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

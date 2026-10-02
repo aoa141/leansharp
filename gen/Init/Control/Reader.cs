@@ -44,6 +44,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadAttachReaderTOfMonad___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -53,6 +54,7 @@ return x_2;
 }
 }
 public static Obj l_instMonadControlReaderT___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -63,6 +65,7 @@ return x_4;
 }
 }
 public static Obj l_ReaderT_failure___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -268,6 +271,7 @@ return x_2;
 }
 }
 public static Obj l_instMonadAttachReaderTOfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -276,6 +280,7 @@ return x_5;
 }
 }
 public static Obj l_ReaderT_orElse___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -301,6 +306,7 @@ return x_11;
 }
 }
 public static Obj l_instMonadAttachReaderTOfMonad___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -345,6 +351,7 @@ return x_1;
 }
 }
 public static Obj l_ReaderT_orElse___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -354,6 +361,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadControlReaderT(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

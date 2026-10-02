@@ -29,6 +29,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_Total_toExtHashSet(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -79,6 +80,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Iter_Total_toTreeSet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -116,6 +118,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Iter_Total_toTreeSet___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -147,6 +150,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_toExtHashSet(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -160,6 +164,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Iter_Total_toTreeSet(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -199,6 +204,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Iter_Total_toExtTreeSet___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -222,6 +228,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Iter_toExtHashSet___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -263,6 +270,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_toHashSet___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -380,6 +388,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Iter_Total_toHashSet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -389,6 +398,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Iter_toHashSet(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -402,6 +412,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Iter_toExtTreeSet(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -414,6 +425,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Iter_toTreeSet(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -437,6 +449,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Iter_Total_toExtTreeSet(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -493,6 +506,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_Total_toHashSet(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -515,6 +529,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Iter_toTreeSet___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -527,6 +542,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Iter_toExtTreeSet___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -576,6 +592,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Iter_Total_toExtHashSet___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -716,6 +733,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Iter_Total_toHashSet___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 

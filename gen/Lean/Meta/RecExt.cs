@@ -32,6 +32,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_markAsRecursive___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -41,6 +42,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_markAsRecursive(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -49,6 +51,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_isRecursiveDefinition___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -91,6 +94,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_isRecursiveDefinition___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -100,6 +104,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_markAsRecursive___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_26 = 0; 
@@ -182,6 +187,7 @@ return x_22;
 }
 }
 public static Obj l___private_Lean_Meta_RecExt_0__Lean_Meta_initFn_00___x40_Lean_Meta_RecExt_2067193597____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -211,6 +217,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_isRecursiveDefinition(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

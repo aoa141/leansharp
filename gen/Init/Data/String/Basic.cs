@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_Basic {
 public static Obj l_String_next_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -17,6 +18,7 @@ return x_4;
 }
 }
 public static Obj l_String_pos_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -133,6 +135,7 @@ return x_11;
 }
 }
 public static Obj l_String_Pos_sliceOrPanic___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -172,6 +175,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_next_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -182,6 +186,7 @@ return x_4;
 }
 }
 public static Obj l_String_next___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -201,6 +206,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_String_Basic_0__String_Slice_Pos_prevAux_go_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -211,6 +217,7 @@ return x_9;
 }
 }
 public static Obj l_String_Pos_Raw_offsetOfPos___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -221,6 +228,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_sliceOrPanic___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -233,6 +241,7 @@ return x_6;
 }
 }
 public static Obj l_ByteArray_utf8Decode_x3f_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_11 = null; byte x_12 = 0; 
@@ -615,6 +624,7 @@ goto _start;
 }
 }
 public static byte l_ByteArray_validateUTF8_go___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_24 = 0; Obj x_26 = null; byte x_27 = 0; 
@@ -986,6 +996,7 @@ return x_3;
 }
 }
 public static Obj l_String_firstDiffPos_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1070,6 +1081,7 @@ return x_3;
 }
 }
 public static Obj l_String_replaceStartEnd_x21___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1080,6 +1092,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_Raw_prev___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1145,6 +1158,7 @@ return x_10;
 }
 }
 public static byte l_String_instDecidableIsValid(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1160,6 +1174,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pos_slice___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1178,6 +1193,7 @@ return x_5;
 }
 }
 public static Obj l_String_Pos_Raw_utf8GetAux_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1188,6 +1204,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_sliceOrPanic(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_12 = 0; 
@@ -1224,6 +1241,7 @@ return x_10;
 }
 }
 public static Obj lean_string_offsetofpos(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1235,6 +1253,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pos_nextFast___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1257,6 +1276,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pos_ofSliceTo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1308,6 +1328,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_Pos_ofReplaceStart___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1333,6 +1354,7 @@ return x_3;
 }
 }
 public static Obj l_String_get_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -1344,6 +1366,7 @@ return x_5;
 }
 }
 public static Obj l_String_Pos_get_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -1354,6 +1377,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_get___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -1376,6 +1400,7 @@ return x_5;
 }
 }
 public static Obj l_String_Pos_get_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1401,6 +1426,7 @@ return x_4;
 }
 }
 public static Obj l_String_pos___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1419,6 +1445,7 @@ return x_3;
 }
 }
 public static uint l_String_Pos_Raw_utf8GetAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1457,6 +1484,7 @@ return x_12;
 }
 }
 public static Obj l_String_Slice_Pos_get_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -1498,6 +1526,7 @@ return x_4;
 }
 }
 public static Obj l_String_toList___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1506,6 +1535,7 @@ return x_2;
 }
 }
 public static Obj l_String_Pos_Raw_offsetOfPosAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1556,6 +1586,7 @@ return x_1;
 }
 }
 public static Obj l_String_Pos_ofReplaceStart___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1574,6 +1605,7 @@ return x_7;
 }
 }
 public static Obj l_String_Slice_Pos_ofSlice___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1592,6 +1624,7 @@ return x_3;
 }
 }
 public static Obj l_String_fromUTF8_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -1614,6 +1647,7 @@ return x_6;
 }
 }
 public static Obj l_String_Pos_Raw_offsetOfPos(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1630,6 +1664,7 @@ return x_1;
 }
 }
 public static Obj l_String_data___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1662,6 +1697,7 @@ return x_8;
 }
 }
 public static uint l_String_Slice_Pos_get_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -1697,6 +1733,7 @@ return x_4;
 }
 }
 public static Obj l_String_atEnd___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1716,6 +1753,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_Raw_get_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -1727,6 +1765,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pos_get_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1822,6 +1861,7 @@ return x_13;
 }
 }
 public static Obj l_String_Slice_Pos_next_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1862,6 +1902,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_pos___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1894,6 +1935,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00String_Slice_Pos_next_x21_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1903,6 +1945,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_slice_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1915,6 +1958,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pos_toCopy___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1924,6 +1968,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pos_prevAux_go___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_14 = 0; byte x_15 = 0; byte x_16 = 0; byte x_17 = 0; 
@@ -2012,6 +2057,7 @@ return x_1;
 }
 }
 public static Obj l_String_Pos_Raw_get___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -2033,6 +2079,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_toReplaceEnd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2042,6 +2089,7 @@ return x_2;
 }
 }
 public static Obj l_String_Pos_sliceOrPanic___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_10 = 0; 
@@ -2110,6 +2158,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_ofCopy___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2140,6 +2189,7 @@ return x_9;
 }
 }
 public static Obj l_String_Pos_next_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2155,6 +2205,7 @@ return x_6;
 }
 }
 public static Obj l_ByteArray_utf8Decode_x3f___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2174,6 +2225,7 @@ return x_1;
 }
 }
 public static Obj l_String_firstDiffPos___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2297,6 +2349,7 @@ return x_6;
 }
 }
 public static byte l___private_Init_Data_String_Basic_0__String_Pos_Raw_substrEq_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2340,6 +2393,7 @@ goto _start;
 }
 }
 public static Obj l_String_Slice_pos_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2371,6 +2425,7 @@ return x_2;
 }
 }
 public static Obj l_panic___at___00String_Slice_Pos_get_x21_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -2380,6 +2435,7 @@ return x_3;
 }
 }
 public static uint l_String_Slice_Pos_get___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; uint x_6 = 0; 
@@ -2404,6 +2460,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_ofSliceFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2415,6 +2472,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_sliceTo___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2424,6 +2482,7 @@ return x_3;
 }
 }
 public static Obj l_String_substrEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2436,6 +2495,7 @@ return x_7;
 }
 }
 public static Obj l_String_Pos_toReplaceEnd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2469,6 +2529,7 @@ return x_9;
 }
 }
 public static Obj l_String_Slice_Pos_next_x21(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -2493,6 +2554,7 @@ return x_9;
 }
 }
 public static Obj l_String_Slice_Pos_slice_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2504,6 +2566,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_replaceStartEnd_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2512,6 +2575,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_Raw_isValidForSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2534,6 +2598,7 @@ return x_5;
 }
 }
 public static Obj l_String_utf8GetAux_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2552,6 +2617,7 @@ return x_3;
 }
 }
 public static Obj l_String_utf8SetAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -2621,6 +2687,7 @@ return x_5;
 }
 }
 public static Obj l_String_Pos_extract___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2632,6 +2699,7 @@ return x_4;
 }
 }
 public static Obj l_String_instDecidableIsValidForSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2675,6 +2743,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_extract_go_u2081___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2724,6 +2793,7 @@ return x_1;
 }
 }
 public static byte l_instDecidableIsValidUTF8(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -2732,6 +2802,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pos_next(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2748,6 +2819,7 @@ return x_6;
 }
 }
 public static Obj l_String_fromUTF8_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -2780,6 +2852,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_offsetOfPosAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2814,6 +2887,7 @@ return x_4;
 }
 }
 public static byte l_String_instDecidableIsValidForSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -2878,6 +2952,7 @@ return x_8;
 }
 }
 public static Obj l_String_Pos_Raw_extract___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2889,6 +2964,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_sliceFrom___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2908,6 +2984,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_ofSliceFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2993,6 +3070,7 @@ return x_9;
 }
 }
 public static uint l_panic___at___00String_Slice_Pos_get_x21_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -3004,6 +3082,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pos_next_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -3091,6 +3170,7 @@ return x_1;
 }
 }
 public static Obj l_String_Pos_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3102,6 +3182,7 @@ return x_5;
 }
 }
 public static Obj l_String_firstDiffPos(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -3129,6 +3210,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_replaceEnd___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3138,6 +3220,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_extract_go_u2082(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3212,6 +3295,7 @@ return x_16;
 }
 }
 public static Obj l_String_Slice_Pos_ofStr___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3263,6 +3347,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_sliceTo___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3272,6 +3357,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_String_Basic_0__ByteArray_validateUTF8_go_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3281,6 +3367,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_String_Basic_0__String_Slice_Pos_nextn_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3351,6 +3438,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_String_Basic_0__ByteArray_validateUTF8_go_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3360,6 +3448,7 @@ return x_5;
 }
 }
 public static Obj l_String_Pos_ofToSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3430,6 +3519,7 @@ return x_11;
 }
 }
 public static Obj l_String_Slice_Pos_ofSliceTo___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3466,6 +3556,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_Pos_ofSlice_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3549,6 +3640,7 @@ return x_11;
 }
 }
 public static Obj l_String_Slice_Pos_next___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3649,6 +3741,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_slice_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3661,6 +3754,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pos_nextFast___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3735,6 +3829,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_Pos_sliceOrPanic(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_12 = 0; 
@@ -3771,6 +3866,7 @@ return x_10;
 }
 }
 public static Obj l_String_firstDiffPos_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_12 = 0; 
@@ -3832,6 +3928,7 @@ goto block_8;
 }
 }
 public static Obj l_String_Slice_Pos_sliceOrPanic___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_10 = 0; 
@@ -3908,6 +4005,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pos_nextn___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3945,6 +4043,7 @@ return x_2;
 }
 }
 public static Obj l_String_utf8SetAux(uint x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4028,6 +4127,7 @@ return x_1;
 }
 }
 public static Obj l_String_Pos_sliceTo___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4146,6 +4246,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_slice_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -4427,6 +4528,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_prevAux___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4470,6 +4572,7 @@ return x_7;
 }
 }
 public static Obj l_String_Pos_Raw_get_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -4548,6 +4651,7 @@ return x_1;
 }
 }
 public static Obj l_String_replaceStartEnd_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4645,6 +4749,7 @@ return x_7;
 }
 }
 public static Obj l_String_Pos_Raw_substrEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -4657,6 +4762,7 @@ return x_7;
 }
 }
 public static Obj l_String_Pos_get___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -4698,6 +4804,7 @@ return x_7;
 }
 }
 public static Obj l_String_Pos_Raw_utf8SetAux(uint x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4788,6 +4895,7 @@ return x_18;
 }
 }
 public static Obj l_String_Slice_replaceStartEnd___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4869,6 +4977,7 @@ return x_8;
 }
 }
 public static Obj l_String_Pos_Raw_extract_go_u2081(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4909,6 +5018,7 @@ return x_12;
 }
 }
 public static Obj l_String_Slice_Pos_get___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -5004,6 +5114,7 @@ return x_3;
 }
 }
 public static Obj l_String_pos_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5033,6 +5144,7 @@ return x_3;
 }
 }
 public static byte l_String_substrEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -5041,6 +5153,7 @@ return x_6;
 }
 }
 public static Obj l_String_utf8PrevAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5243,6 +5356,7 @@ return x_4;
 }
 }
 public static Obj l_String_Slice_Pos_nextn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5334,6 +5448,7 @@ return x_4;
 }
 }
 public static Obj l_String_offsetOfPos___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5344,6 +5459,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_ofReplaceEnd___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5471,6 +5587,7 @@ return x_2;
 }
 }
 public static Obj l_String_utf8GetAux_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5578,6 +5695,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_String_Basic_0__String_Slice_Pos_nextn_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5603,6 +5721,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pos_ofSlice_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5745,6 +5864,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_utf8PrevAux___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5891,6 +6011,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_ofSliceTo___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5925,6 +6046,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_utf8PrevAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6036,6 +6158,7 @@ return x_7;
 }
 }
 public static Obj l_String_Pos_Raw_utf8GetAux_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

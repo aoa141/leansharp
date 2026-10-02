@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_DocString_View {
 public static Obj l_Lean_Doc_mkVersoTextFromRef___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -40,6 +41,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_LinkTargetView_ref_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -72,6 +74,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_mkVersoCodeBlockFromRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -83,6 +86,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_LinebreakView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -163,6 +167,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_ArgValView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -352,6 +357,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_mkVersoCodeFromRef___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -361,6 +367,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_MathView_getVersoCode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -380,6 +387,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Doc_DescListView_of_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -392,6 +400,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00Lean_Doc_OrderedListItemView_number_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -401,6 +410,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_InlineView_math_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -419,6 +429,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_RoleView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -592,6 +603,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_ArgValView_str_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -615,6 +627,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_LinkRefView_getName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -634,6 +647,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_ArgView_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -642,6 +656,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_DocString_View_0__Lean_Doc_codeLinesFrom___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -651,6 +666,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_InlineView_emph_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -659,6 +675,7 @@ return x_3;
 }
 }
 public static Obj l_List_elem___at___00Lean_Doc_UnorderedListItemView_of_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -704,6 +721,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_OrderedListItemView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -877,6 +895,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_ArgValView_str_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -885,6 +904,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinkUrlFromRef(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -908,6 +928,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Doc_UnorderedListView_of_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -951,6 +972,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Doc_InlineView_stx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -970,6 +992,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_ArgView_named_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -987,6 +1010,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinebreakFromRef___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -996,6 +1020,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_mkVersoRefNameFromRef___redArg___lam__0(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -1005,6 +1030,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_LinkTargetView_url_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1013,6 +1039,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_mkVersoCodeBlockFrom(Obj x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -1072,6 +1099,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_InlineView_bold_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1114,6 +1142,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_BlockView_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1157,6 +1186,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_BlockView_ul_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1165,6 +1195,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinkRefUrlFromRef(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1173,6 +1204,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_CodeBlockView_getVersoCodeBlock___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1182,6 +1214,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_InlineView_text_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1190,6 +1223,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_mkVersoImageAltFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1261,6 +1295,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_BlockView_ol_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1269,6 +1304,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_DocString_View_0__Lean_Doc_codeLinesFrom(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -1315,6 +1351,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinebreakFrom___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1334,6 +1371,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_CodeBlockView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1583,6 +1621,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_CommandView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1637,6 +1676,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Doc_HeaderView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1701,6 +1741,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_DocString_View_0__Lean_Doc_escapeVersoText_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1774,6 +1815,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_InlineView_link_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1824,6 +1866,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_UnorderedListView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1928,6 +1971,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_mkVersoRefNameFromRef___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1937,6 +1981,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_DocString_View_0__Lean_Doc_escapeVersoText(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1994,6 +2039,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinkUrlFromRef___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2031,6 +2077,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_FootnoteView_getName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2123,6 +2170,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_mkVersoImageAltFromRef___redArg___lam__0(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -2132,6 +2180,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_ImageView_getAlt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2174,6 +2223,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_mkVersoTextFromRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2185,6 +2235,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_FootnoteView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -2244,6 +2295,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinkRefUrlFromRef___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2263,6 +2315,7 @@ return x_5;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_DocString_View_0__Lean_Doc_codeLinesFrom_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -2399,6 +2452,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_LinkTargetView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -2535,6 +2589,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinkRefUrlFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2565,6 +2620,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_mkVersoCodeBlockFromRef___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2593,6 +2649,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_MetadataView_fields(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -2704,6 +2761,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_ArgValView_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2728,6 +2786,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_InlineView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3254,6 +3313,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_ArgValView_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3278,6 +3338,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_mkVersoRefNameFromRef___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3321,6 +3382,7 @@ return x_6;
 }
 }
 public static byte l_List_elem___at___00Lean_Doc_UnorderedListItemView_of_spec__0(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -3370,6 +3432,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_ArgView_flag_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3402,6 +3465,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_InlineView_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3421,6 +3485,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_LinkView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -3507,6 +3572,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_Doc_ArgView_named_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3733,6 +3799,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_ArgView_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3796,6 +3863,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_mkVersoCodeFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3807,6 +3875,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_TextView_getVersoTextSource___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3923,6 +3992,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Doc_OrderedListView_of_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -3950,6 +4020,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00__private_Lean_DocString_View_0__Lean_Doc_codeLinesFrom_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3998,6 +4069,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_VersoBlock_view(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4019,6 +4091,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Doc_UnorderedListItemView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -4171,6 +4244,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_mkVersoCodeFromRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4236,6 +4310,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_FootnoteRefView_getName___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4293,6 +4368,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinebreakFromRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -4425,6 +4501,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinkRefUrlFromRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4583,6 +4660,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_mkVersoCodeBlockFromRef(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4679,6 +4757,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Doc_ArgView_anon_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4715,6 +4794,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_DirectiveView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -4824,6 +4904,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinebreakFrom(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -4934,6 +5015,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_ArgView_stx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4943,6 +5025,7 @@ return x_2;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00Lean_Doc_OrderedListItemView_number_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -5118,6 +5201,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_mkVersoTextFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5415,6 +5499,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Doc_BlockquoteView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -5448,6 +5533,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_BlockView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6074,6 +6160,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_mkVersoCodeBlockFromRef___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6093,6 +6180,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_ArgView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -6386,6 +6474,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_BlockView_stx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6489,6 +6578,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Doc_TextView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -6596,6 +6686,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Doc_CodeView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -6747,6 +6838,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_BlockView_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6804,6 +6896,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Doc_OrderedListView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -7004,6 +7097,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Doc_mkVersoLinkUrlFromRef___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -7084,6 +7178,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Doc_DescListView_of_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7127,6 +7222,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Doc_BoldView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -7275,6 +7371,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_ArgView_flag_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7396,6 +7493,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Doc_MetadataView_fields_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7420,6 +7518,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Doc_OrderedListView_of_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7463,6 +7562,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Doc_MathView_of(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -7912,6 +8012,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Doc_ArgView_anon_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

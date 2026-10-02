@@ -73,6 +73,7 @@ return x_9;
 }
 }
 public static Obj l_Int_shiftLeft___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -126,6 +127,7 @@ return x_1;
 }
 }
 public static Obj l_Int_shiftRight___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

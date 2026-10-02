@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static ulong l_Lean_Meta_Grind_AC_instHashableExpr__lean_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -43,6 +44,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_erase__dup_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -51,6 +53,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_swap_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -76,6 +79,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__suffix_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -84,6 +88,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_erase__dup_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -201,6 +206,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__prefix_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -209,6 +215,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_erase__dup_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -217,6 +224,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose__ac__idempotent_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -243,6 +251,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__middle_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -261,6 +270,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_refl_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -269,6 +279,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_core_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -277,6 +288,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_erase__dup__rhs_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -305,6 +317,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__middle_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -333,6 +346,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__suffix_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -354,6 +368,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_erase0__rhs_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -384,6 +399,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__prefix_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -402,6 +418,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_swap_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -410,6 +427,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstr_compare___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -421,6 +439,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__exact_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -429,6 +448,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_erase0_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -462,6 +482,7 @@ return x_2;
 }
 public static Obj l_Lean_Meta_Grind_AC_acExt;
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_erase0_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -470,6 +491,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -496,6 +518,7 @@ return x_2;
 }
 }
 public static ulong l_Lean_Meta_Grind_AC_instHashableSeq__lean_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -522,6 +545,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose__ac_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -530,6 +554,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose__head__idempotent_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -538,6 +563,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -546,6 +572,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__ac_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -554,6 +581,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_core_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -562,6 +590,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose__tail__idempotent_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -570,6 +599,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_erase0_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -578,6 +608,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__ac_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -597,6 +628,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -605,6 +637,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_erase__dup_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -623,6 +656,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__prefix_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -647,6 +681,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_erase0_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -674,6 +709,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose__ac__idempotent_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -682,6 +718,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose__ac_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -690,6 +727,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose__tail__idempotent_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -698,6 +736,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_core_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -706,6 +745,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -724,6 +764,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__suffix_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -732,6 +773,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_core_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -740,6 +782,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__ac_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -757,6 +800,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -785,6 +829,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_refl_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -793,6 +838,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__prefix_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -801,6 +847,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_DiseqCnstrProof_simp__middle_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -871,6 +918,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose__head__idempotent_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -925,6 +973,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__exact_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -933,6 +982,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__ac_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -966,6 +1016,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__suffix_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1059,6 +1110,7 @@ return x_29;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__exact_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1067,6 +1119,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_simp__middle_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1084,6 +1137,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_superpose_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1092,6 +1146,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_AC_EqCnstrProof_erase__dup__rhs_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

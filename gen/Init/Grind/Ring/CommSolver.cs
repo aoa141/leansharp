@@ -43,6 +43,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_toPolyC__nc(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -51,6 +52,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote_x27___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -60,6 +62,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_mulPow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -217,6 +220,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_toPoly(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -574,6 +578,7 @@ return x_56;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMonC__nc_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -669,6 +674,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_addConstC(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -771,6 +777,7 @@ return x_21;
 }
 }
 public static byte l_Lean_Grind_CommRing_instBEqPoly_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -921,6 +928,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_natCast_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -929,6 +937,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denoteAsIntModule_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -938,6 +947,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMon_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1027,6 +1037,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_num_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1035,6 +1046,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Grind_Ring_CommSolver_0__cond_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1044,6 +1056,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_combineC(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1337,6 +1350,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulC(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1346,6 +1360,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1523,6 +1538,7 @@ return x_32;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_mul_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1531,6 +1547,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Grind_Ring_CommSolver_0__Lean_Grind_CommRing_Poly_insert_go_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1540,6 +1557,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_var_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1610,6 +1628,7 @@ return x_16;
 }
 }
 public static Obj l___private_Init_Grind_Ring_CommSolver_0__Lean_Grind_CommRing_Poly_pow_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1697,6 +1716,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1706,6 +1726,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_isSorted___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1716,6 +1737,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instReprPower_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1736,6 +1758,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_add_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1744,6 +1767,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_denoteTerm(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -1902,6 +1926,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_combine_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2218,6 +2243,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instReprPoly_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2443,6 +2469,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_normEq0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2548,6 +2575,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_cancelVar_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2617,6 +2645,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Grind_CommRing_eq__gcd__cert___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2641,6 +2670,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mul__nc_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2842,6 +2872,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Grind_CommRing_Mon_revlexWF(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2934,6 +2965,7 @@ return x_20;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMon___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2952,6 +2984,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denoteAsIntModule_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3027,6 +3060,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_length(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3048,6 +3082,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Grind_Ring_CommSolver_0__Lean_Grind_CommRing_instBEqPower_beq_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3057,6 +3092,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMonC_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -3242,6 +3278,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_add_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3250,6 +3287,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulConstC(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -3289,6 +3327,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_powC__nc___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3308,6 +3347,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_denoteTerm___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -3479,6 +3519,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instReprExpr_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3498,6 +3539,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denoteAsIntModule_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3507,6 +3549,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote_x27_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3516,6 +3559,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_neg_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3533,6 +3577,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denote_x27_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3751,6 +3796,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3817,6 +3863,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_powC__nc(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4027,6 +4074,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mul_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4061,6 +4109,7 @@ goto _start;
 }
 }
 public static byte l_Lean_Grind_CommRing_Mon_revlex(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -4070,6 +4119,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Grind_CommRing_instBEqMon_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4127,6 +4177,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instReprPower_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_37 = 0; 
@@ -4232,6 +4283,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_addConst_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -4341,6 +4393,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_mul__nc(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4412,6 +4465,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote_x27_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4501,6 +4555,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_mult_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4509,6 +4564,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4517,6 +4573,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denote_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -4700,6 +4757,7 @@ return x_63;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_cancelVar(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4767,6 +4825,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_pow___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4776,6 +4835,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_num_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4784,6 +4844,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denoteAsIntModule___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4793,6 +4854,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_add_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4809,6 +4871,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulConst_go___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4828,6 +4891,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulC__nc_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -4864,6 +4928,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_concat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4930,6 +4995,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_concat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5006,6 +5072,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_divConst(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5350,6 +5417,7 @@ return x_32;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMon(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5385,6 +5453,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_mult_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5393,6 +5462,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulConstC_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -5517,6 +5587,7 @@ goto _start;
 }
 }
 public static byte l_Lean_Grind_CommRing_Mon_grevlex(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -5562,6 +5633,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_pow_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5570,6 +5642,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5599,6 +5672,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_var_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5637,6 +5711,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_insertC___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5646,6 +5721,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instHashableMon_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -5673,6 +5749,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_gcdCoeffs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5682,6 +5759,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_sub_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5727,6 +5805,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_maxDegreeOf___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5758,6 +5837,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_degree(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5861,6 +5941,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_degreeOf(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -5905,6 +5986,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_gcdCoeffs_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -5943,6 +6025,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5975,6 +6058,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_mul_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6245,6 +6329,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Var_revlex___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6266,6 +6351,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_pow__nc(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -6324,6 +6410,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMon__nc_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6333,6 +6420,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denote_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -6516,6 +6604,7 @@ return x_64;
 }
 }
 public static Obj l___private_Init_Grind_Ring_CommSolver_0__Lean_Grind_CommRing_Poly_denote_x27_go_match__1_splitter___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -6623,6 +6712,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMonC__nc(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -6667,6 +6757,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMonC(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -6827,6 +6918,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulConst___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6860,6 +6952,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6887,6 +6980,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Grind_Ring_CommSolver_0__Lean_Grind_CommRing_Poly_insert_go_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6915,6 +7009,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_toPoly__nc(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -7281,6 +7376,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -7359,6 +7455,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7419,6 +7516,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_natCast_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7451,6 +7549,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_num_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7459,6 +7558,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Power_revlex___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7470,6 +7570,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_mul_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7478,6 +7579,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Grind_Ring_CommSolver_0__Lean_Grind_CommRing_Poly_pow_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7487,6 +7589,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denoteAsIntModule___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -7524,6 +7627,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Var_denote___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7534,6 +7638,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7599,6 +7704,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_toPolyC(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7657,6 +7763,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_addConst___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7689,6 +7796,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denote___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7801,6 +7909,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_insert_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -8056,6 +8165,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Grind_CommRing_Mon_revlexFuel(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8165,6 +8275,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulConst(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -8497,6 +8608,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instReprMon_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8548,6 +8660,7 @@ return x_7;
 }
 }
 public static ulong l_Lean_Grind_CommRing_instHashableExpr_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -8727,6 +8840,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_insertC_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -8921,6 +9035,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denote(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8929,6 +9044,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instHashablePoly_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -9022,6 +9138,7 @@ return x_27;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_intCast_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9227,6 +9344,7 @@ return x_33;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_ofVar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -9236,6 +9354,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_toPolyC_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9562,6 +9681,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_toPolyC__nc_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9841,6 +9961,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denoteAsIntModule___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9965,6 +10086,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9974,6 +10096,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denote___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -10019,6 +10142,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_sub_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10058,6 +10182,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instBEqExpr_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -10176,6 +10301,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_maxDegreeOf_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10249,6 +10375,7 @@ return x_10;
 }
 }
 public static ulong l_Lean_Grind_CommRing_instHashableMon_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10331,6 +10458,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMon__nc_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -10366,6 +10494,7 @@ goto _start;
 }
 }
 public static ulong l_Lean_Grind_CommRing_instHashablePoly_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10457,6 +10586,7 @@ return x_28;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote_x27_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10566,6 +10696,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_unit_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10603,6 +10734,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulConst_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -10823,6 +10955,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Grind_CommRing_Poly_isSorted(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -10865,6 +10998,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_insert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10950,6 +11084,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_denote_x27_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10968,6 +11103,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_addConst(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -10986,6 +11122,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_powC(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11077,6 +11214,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulMon__nc(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -11152,6 +11290,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_maxDegreeOf(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -11161,6 +11300,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Grind_Ring_CommSolver_0__Lean_Grind_CommRing_Poly_denote_x27_go_match__1_splitter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -11207,6 +11347,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_insertC(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -11292,6 +11433,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Expr_pow_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11365,6 +11507,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote_x27___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -11542,6 +11685,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_pow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -11713,6 +11857,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Mon_denote_x27_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -11795,6 +11940,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_mulC_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -11862,6 +12008,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Grind_CommRing_instBEqExpr_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -12093,6 +12240,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instReprExpr_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -13105,6 +13253,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_CommRing_Poly_maxDegreeOf_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -13236,6 +13385,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Grind_CommRing_instReprMon_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

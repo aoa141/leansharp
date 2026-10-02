@@ -38,6 +38,7 @@ structure Ctx where
   jpMap      : JPParamsMap := {}
   mainFn     : FunId := default
   mainParams : Array Param := #[]
+  declIdx    : Std.HashMap Name Nat := {}  -- position of each function in the module
 
 abbrev M := ReaderT Ctx (EStateM String String)
 
@@ -539,6 +540,27 @@ partial def emitFnBody (b : FnBody) : M Unit := do
 
 end
 
+/-- The functions called (full applications) in a function body. -/
+partial def collectCalls : FnBody → Array FunId → Array FunId
+  | .vdecl _ _ (.fap f _) b, acc => collectCalls b (acc.push f)
+  | .jdecl _ _ v b, acc          => collectCalls b (collectCalls v acc)
+  | .case _ _ _ alts, acc        => alts.foldl (fun acc alt => collectCalls alt.body acc) acc
+  | e, acc                       => if e.isTerminal then acc else collectCalls e.body acc
+
+/--
+Whether function `f` (with body `b`) gets a stack probe. A recursion among compiled functions
+is a cycle in the call graph of one module (imports are acyclic), and every cycle contains a call
+from a function to itself or to one that comes later in the module's list of functions; probing
+the callers of such calls covers every cycle. (Recursion through closures goes through
+`lean_apply_N`, which probes as well.)
+-/
+def needsStackProbe (f : FunId) (b : FnBody) : M Bool := do
+  let idx := (← read).declIdx
+  let some i := idx[f]? | return false
+  return (collectCalls b #[]).any fun g => match idx[g]? with
+    | some j => j >= i
+    | none   => false
+
 def emitDeclAux (d : Decl) : M Unit := do
   let (_, jpMap) := mkVarJPMaps d
   withReader (fun ctx => { ctx with jpMap := jpMap }) do
@@ -583,6 +605,8 @@ def emitDeclAux (d : Decl) : M Unit := do
       xs.size.forM fun i _ => do
         let x := xs[i]!
         emit "Obj "; emit x.x; emit " = _args["; emit i; emitLn "];"
+    if xs.size > 0 then
+      if ← needsStackProbe f b then emitLn "lean_stack_probe();"
     emitLn "_start:"
     withReader (fun ctx => { ctx with mainFn := f, mainParams := d.params }) (emitFnBody b)
     emitLn "}"
@@ -769,8 +793,11 @@ def emitModule (decls : Array Decl) (info : InitInfo) (initClass : Std.HashMap S
   for d in decls do
     if d.params.isEmpty then
       types := types.insert (← toCName d.name) d.resultType
+  let mut declIdx : Std.HashMap Name Nat := {}
+  for h : i in [0:decls.size] do
+    declIdx := declIdx.insert decls[i].name i
   for d in decls do
-    emitDecl d
+    withReader (fun ctx => { ctx with declIdx := declIdx }) (emitDecl d)
   emitInitFn info initClass types
   -- exported functions (`@[export]`), registered in `LeanExports`
   emitLn "public static void __RegisterExports() {"

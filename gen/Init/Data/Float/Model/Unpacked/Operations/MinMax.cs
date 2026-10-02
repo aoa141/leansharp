@@ -80,6 +80,7 @@ return x_3;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_maximumNumber___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

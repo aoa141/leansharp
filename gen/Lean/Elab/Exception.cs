@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_Exception {
 public static Obj l_Lean_Elab_throwAbortTactic(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -15,6 +16,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_throwAbortCommand___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -27,6 +29,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_isAbortTacticException___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -37,6 +40,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Elab_isAbortExceptionId(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_6 = null; byte x_7 = 0; 
@@ -72,6 +76,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Elab_Exception_0__Lean_Elab_initFn_00___x40_Lean_Elab_Exception_2911972506____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -90,6 +95,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_throwIllFormedSyntax___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -99,6 +105,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_mkMessageCore(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; 
@@ -176,6 +183,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_throwAbortTerm___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -240,6 +248,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_throwAutoBoundImplicitLocal(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -272,6 +281,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_throwAutoBoundImplicitLocal___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_16 = 0; 
@@ -446,6 +456,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_isAutoBoundImplicitLocalException_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -522,6 +533,7 @@ return x_9;
 }
 }
 public static byte l_Lean_Elab_isAbortTacticException(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -694,6 +706,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Elab_Exception_0__Lean_Elab_initFn_00___x40_Lean_Elab_Exception_125629251____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

@@ -87,6 +87,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______macroRules__Lean__Order__term___u2293____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -252,6 +253,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______macroRules__Lean__Order__term_u22a4__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -293,6 +295,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______macroRules__Lean__Order__term___u2294____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -328,6 +331,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______macroRules__Lean__Order__term___u2294____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -418,6 +422,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______unexpand__Lean__Order__join__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -437,6 +442,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______unexpand__Lean__Order__meet__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -490,6 +496,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______unexpand__Lean__Order__join__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -609,6 +616,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______unexpand__Lean__Order__top__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -774,6 +782,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______macroRules__Lean__Order__term_u2a05___x2c____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1372,6 +1381,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Order___aux__Std__Internal__Order__Basic______macroRules__Lean__Order__term_u2a06___x2c____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

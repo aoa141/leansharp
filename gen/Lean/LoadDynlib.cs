@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_LoadDynlib {
 public static Obj l_Lean_Dynlib_get_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -23,6 +24,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Lean_Dynlib_Symbol_runAsInit___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -33,6 +35,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_LoadDynlib_0__Lean_loadPlugin_unsafe__7___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -43,6 +46,7 @@ return x_4;
 }
 }
 public static Obj l_String_dropPrefix___at___00Lean_loadPlugin_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -52,6 +56,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_dropSuffix___at___00Lean_loadPlugin_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -140,6 +145,7 @@ return x_17;
 }
 }
 public static Obj l___private_Lean_LoadDynlib_0__Lean_loadPlugin_unsafe__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -148,6 +154,7 @@ return x_3;
 }
 }
 public static Obj l_String_Slice_dropPrefix___at___00String_dropPrefix___at___00Lean_loadPlugin_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -163,6 +170,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Lean_loadPlugin___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -171,6 +179,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_LoadDynlib_0__Lean_Dynlib_SymbolImpl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -180,6 +189,7 @@ return x_2;
 }
 }
 public static Obj l_String_dropPrefix___at___00Lean_loadPlugin_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -212,6 +222,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Dynlib_load___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -241,6 +252,7 @@ return x_1;
 }
 }
 public static Obj lean_load_plugin(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -637,6 +649,7 @@ return x_1;
 }
 }
 public static Obj lean_load_dynlib(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

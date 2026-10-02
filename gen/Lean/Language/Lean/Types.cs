@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Language_Lean_Types {
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_Lean_instToSnapshotTreeCommandParsedSnapshot_go_spec__0___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -95,6 +96,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_Lean_instToSnapshotTreeCommandParsedSnapshot_go_spec__2___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -107,6 +109,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_Lean_instToSnapshotTreeCommandParsedSnapshot_go_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -198,6 +201,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_Lean_instToSnapshotTreeCommandParsedSnapshot_go_spec__3(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -217,6 +221,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Language_Lean_instToSnapshotTreeCommandResultSnapshot___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -288,6 +293,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Language_Lean_instToSnapshotTreeHeaderParsedSnapshot___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -306,6 +312,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_Lean_HeaderParsedSnapshot_processedResult(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -339,6 +346,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Language_SnapshotTask_transform___at___00Lean_Language_Lean_instToSnapshotTreeCommandParsedSnapshot_go_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -380,6 +388,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Language_Lean_instToSnapshotTreeCommandParsedSnapshot_go___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

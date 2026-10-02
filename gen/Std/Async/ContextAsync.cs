@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Async_ContextAsync {
 public static Obj l_Std_Async_ContextAsync_race___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -15,6 +16,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_race___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -44,6 +46,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -64,6 +67,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Async_ContextAsync_background___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -290,6 +294,7 @@ return x_31;
 }
 }
 public static Obj l_Std_Async_ContextAsync_isCancelled(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -306,6 +311,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_raceAll___redArg___lam__10___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -315,6 +321,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instForInLoopUnit___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -441,6 +448,7 @@ return x_32;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__9___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -449,6 +457,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instForInLoopUnit___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -582,6 +591,7 @@ return x_29;
 }
 }
 public static Obj l_Std_Async_ContextAsync_race(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -805,6 +815,7 @@ return x_23;
 }
 }
 public static Obj l_Std_Async_ContextAsync_awaitCancellation(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -821,6 +832,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_raceAll(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -898,6 +910,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -946,6 +959,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrentlyAll___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -955,6 +969,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -963,6 +978,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_ContextAsync_race___redArg___lam__9___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1002,6 +1018,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrentlyAll(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; 
@@ -1041,6 +1058,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__13___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1049,6 +1067,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Async_ContextAsync_raceAll___redArg___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1144,6 +1163,7 @@ return x_29;
 }
 }
 public static Obj l_Std_Async_ContextAsync_run___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1684,6 +1704,7 @@ return x_20;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instInhabited___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1735,6 +1756,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_ContextAsync_raceAll___redArg___lam__12___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1744,6 +1766,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Async_Selector_cancelled(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1792,6 +1815,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instMonadExceptError___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1895,6 +1919,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_run___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2060,6 +2085,7 @@ return x_42;
 }
 }
 public static Obj l_Std_Async_ContextAsync_isCancelled___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2091,6 +2117,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrentlyAll___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2272,6 +2299,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__15___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -2292,6 +2320,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instFunctor___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2375,6 +2404,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_cancel___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2393,6 +2423,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instMonad___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2401,6 +2432,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Async_ContextAsync_getCancellationReason(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2417,6 +2449,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_disown___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2425,6 +2458,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instMonadExceptError___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2433,6 +2467,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_run___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2442,6 +2477,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_async___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2587,6 +2623,7 @@ return x_28;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2719,6 +2756,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_ContextAsync_run___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2959,6 +2997,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_ContextAsync_background___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2967,6 +3006,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instInhabited(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2975,6 +3015,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_ContextAsync_raceAll___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2984,6 +3025,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2992,6 +3034,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrentlyAll___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3019,6 +3062,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instMonadAsyncAsyncTask___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3028,6 +3072,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instMonadExceptError___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3218,6 +3263,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_ContextAsync_run(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -3237,6 +3283,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrentlyAll___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3256,6 +3303,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_ContextAsync_race___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3482,6 +3530,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Async_ContextAsync_raceAll___redArg___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3500,6 +3549,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__14___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -3653,6 +3703,7 @@ return x_21;
 }
 }
 public static Obj l_Std_Async_ContextAsync_forIn___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3715,6 +3766,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Async_ContextAsync_run___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -3864,6 +3916,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrentlyAll___redArg___lam__9___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3892,6 +3945,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Async_ContextAsync_async___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3901,6 +3955,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_runIn___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4011,6 +4066,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instMonadLiftIO___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4019,6 +4075,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4545,6 +4602,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_ContextAsync_background___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4554,6 +4612,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_race___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4603,6 +4662,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -4630,6 +4690,7 @@ return x_16;
 }
 }
 public static Obj l_Std_Async_ContextAsync_background___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4639,6 +4700,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_ContextAsync_getCancellationReason___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4751,6 +4813,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrentlyAll___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -4905,6 +4968,7 @@ return x_31;
 }
 }
 public static Obj l_Std_Async_ContextAsync_doneSelector___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5083,6 +5147,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Async_ContextAsync_background(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -5393,6 +5458,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Async_ContextAsync_async(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -5620,6 +5686,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Async_ContextAsync_raceAll___redArg___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5686,6 +5753,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_ContextAsync_disown___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5694,6 +5762,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrentlyAll___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5711,6 +5780,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_runIn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5743,6 +5813,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Async_ContextAsync_instForInLoopUnit___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5793,6 +5864,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_ContextAsync_raceAll___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6540,6 +6612,7 @@ return x_27;
 }
 }
 public static Obj l_Std_Async_ContextAsync_doneSelector___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6678,6 +6751,7 @@ return x_27;
 }
 }
 public static Obj l_Std_Async_ContextAsync_awaitCancellation___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6927,6 +7001,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Async_ContextAsync_concurrently___redArg___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

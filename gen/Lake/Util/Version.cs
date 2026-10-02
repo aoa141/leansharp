@@ -39,6 +39,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ToolchainVer_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -153,6 +154,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00Array_repr___at___00Array_repr___at___00Lake_instReprVerRange_repr_spec__0_spec__0_spec__1_spec__2_spec__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -239,6 +241,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ToolchainVer_release___override(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -254,6 +257,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instReprVerRange_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -272,6 +276,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ComparatorOp_eq_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -291,6 +296,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instOrdSemVerCore_ord___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -351,6 +357,7 @@ return x_1;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_ToolchainVer_ofString_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -492,6 +499,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseVerComponent___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -502,6 +510,7 @@ return x_4;
 }
 }
 public static byte l_Lake_ToolchainVer_ble(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -638,6 +647,7 @@ return x_32;
 }
 }
 public static Obj l_Lake_SemVerCore_instMin___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -648,6 +658,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ComparatorOp_ge_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -658,6 +669,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_ComparatorOp_gt_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -699,6 +711,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_StdVer_parseM(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -856,6 +869,7 @@ return x_30;
 }
 }
 public static Obj l_Lake_VerComparator_test___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -893,6 +907,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instDecodeVersionToolchainVer___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1003,6 +1018,7 @@ return x_21;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerRange_parseM(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; 
@@ -1116,6 +1132,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerRange_parseM_parseCaret(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_230 = 0; 
@@ -2031,6 +2048,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerComponent_wild_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2039,6 +2057,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ComparatorOp_toString(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -2092,6 +2111,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseVerNat(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2151,6 +2171,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ToolchainVer_ofDir_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -2162,6 +2183,7 @@ return x_5;
 }
 }
 public static byte l_Lake_instDecidableEqStdVer(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -2200,6 +2222,7 @@ return x_1;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00Lake_ToolchainVer_ofString_spec__3___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -2248,6 +2271,7 @@ return x_13;
 }
 }
 public static Obj l_Lake_ComparatorOp_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2259,6 +2283,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instReprComparatorOp_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2277,6 +2302,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerComponent_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2286,6 +2312,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_VerRange_parse(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
@@ -2379,6 +2406,7 @@ return x_23;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_ComparatorOp_parseM_trie___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2418,6 +2446,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseSpecialDescr_x3f_nextUntilWhitespace___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2447,6 +2476,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Util_Version_0__Lake_VerRange_ofClauses_fmtOrs_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -2491,6 +2521,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseSpecialDescr_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2562,6 +2593,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_SemVerCore_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -2604,6 +2636,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Util_Version_0__Lake_VerRange_ofClauses_fmtAnds_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -2630,6 +2663,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_VerRange_test_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -2645,6 +2679,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_ComparatorOp_le_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2676,6 +2711,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerRange_parseM_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2692,6 +2728,7 @@ return x_4;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00Lake_ToolchainVer_ofString_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2730,6 +2767,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Util_Version_0__Lake_VerRange_ofClauses_fmtOrs_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2756,6 +2794,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instReprVerRange_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_37 = 0; 
@@ -2897,6 +2936,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseVerComponent___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 1)
@@ -3028,6 +3068,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprStdVer_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_36 = 0; 
@@ -3131,6 +3172,7 @@ return x_32;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerRange_ofClauses_fmtAnds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3150,6 +3192,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerComponent_nat_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3195,6 +3238,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_StdVer_instMin___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3205,6 +3249,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_ComparatorOp_parseM___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3224,6 +3269,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprSemVerCore_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3256,6 +3302,7 @@ return x_3;
 }
 }
 public static byte l_Lake_instDecidableEqToolchainVer_decEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3379,6 +3426,7 @@ return x_22;
 }
 }
 public static Obj l_Lake_StdVer_instCoeSemVerCore___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3398,6 +3446,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instReprComparatorOp_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; 
@@ -3803,6 +3852,7 @@ return x_2;
 }
 }
 public static Obj l_String_dropPrefix_x3f___at___00Lake_ToolchainVer_ofString_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3811,6 +3861,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instReprVerComparator_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3847,6 +3898,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseSpecialDescr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -3996,6 +4048,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_ToolchainVer_ofString_spec__4___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4017,6 +4070,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ComparatorOp_ne_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4057,6 +4111,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerComponent_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4065,6 +4120,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_StdVer_instMax___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -4102,6 +4158,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ToolchainVer_decLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4135,6 +4192,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseVerNat___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4177,6 +4235,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_SemVerCore_parseM(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; byte x_15 = 0; byte x_64 = 0; 
@@ -4388,6 +4447,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_StdVer_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -4484,6 +4544,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_normalizeToolchain(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -4525,6 +4586,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerComponent_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4534,6 +4596,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_ToolchainVer_ofString_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -4546,6 +4609,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_ToolchainVer_toString___override___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4555,6 +4619,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_SemVerCore_instFromJson___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4658,6 +4723,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_VerRange_test___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4681,6 +4747,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ComparatorOp_lt_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4691,6 +4758,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00Array_repr___at___00Lake_instReprVerRange_repr_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4729,6 +4797,7 @@ return x_9;
 }
 }
 public static Obj l_Lake_ToolchainVer_ofString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; byte x_28 = 0; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; byte x_42 = 0; Obj x_43 = null; Obj x_44 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; byte x_50 = 0; Obj x_97 = null; Obj x_98 = null; Obj x_120 = null; Obj x_129 = null; Obj x_130 = null; Obj x_131 = null; Obj x_132 = null; 
@@ -5370,6 +5439,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Lake_ToolchainVer_ofString_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -5438,6 +5508,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_VerComparator_parse(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -5532,6 +5603,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ComparatorOp_le_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5541,6 +5613,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_StdVer_instFromJson___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5617,6 +5690,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseVerComponents(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -5637,6 +5711,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerComponent_none_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5645,6 +5720,7 @@ return x_3;
 }
 }
 public static Obj l_Option_repr___at___00Lake_instReprToolchainVer_repr_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5654,6 +5730,7 @@ return x_3;
 }
 }
 public static byte l_Lake_ToolchainVer_decLt(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -5662,6 +5739,7 @@ return x_3;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00Array_repr___at___00Array_repr___at___00Lake_instReprVerRange_repr_spec__0_spec__0_spec__1_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -5755,6 +5833,7 @@ return x_1;
 }
 }
 public static Obj l_Array_repr___at___00Array_repr___at___00Lake_instReprVerRange_repr_spec__0_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -5953,6 +6032,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_ComparatorOp_lt_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5962,6 +6042,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_VerComparator_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -6117,6 +6198,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerRange_ofClauses_fmtOrs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6126,6 +6208,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ComparatorOp_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6167,6 +6250,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_StdVer_instMin___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -6230,6 +6314,7 @@ return x_1;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_VerRange_test_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -6327,6 +6412,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerComponent_none_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6345,6 +6431,7 @@ return x_1;
 }
 }
 public static byte l_Lake_ToolchainVer_blt(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -6628,6 +6715,7 @@ return x_2;
 }
 }
 public static Obj l_Array_repr___at___00Lake_instReprVerRange_repr_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -6761,6 +6849,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instReprVerComparator_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; 
@@ -6916,6 +7005,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerRange_parseM_parseWild(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_8 = null; Obj x_13 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; byte x_167 = 0; 
@@ -7630,6 +7720,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ToolchainVer_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7680,6 +7771,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerRange_ofClauses_fmtAnds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -7901,6 +7993,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseVerComponents_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7919,6 +8012,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ToolchainVer_pr___override(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -7934,6 +8028,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instDecidableEqStdVer_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7965,6 +8060,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerComponent_nat_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8133,6 +8229,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ComparatorOp_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -8233,6 +8330,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseVerComponents_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_9 = 0; 
@@ -8385,6 +8483,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_VerRange_test_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -8400,6 +8499,7 @@ return x_8;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00Array_repr___at___00Lake_instReprVerRange_repr_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -8875,6 +8975,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_instReprSemVerCore_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; 
@@ -9095,6 +9196,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lake_Util_Version_0__Lake_VerRange_ofClauses_fmtAnds_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -9439,6 +9541,7 @@ return x_22;
 }
 }
 public static Obj l_Lake_instReprToolchainVer_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -9776,6 +9879,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_VerRange_parseM_go(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; byte x_13 = 0; 
@@ -10452,6 +10556,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_ToolchainVer_ofFile_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11149,6 +11254,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_runVerParse___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12148,6 +12254,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Util_Version_0__Lake_parseSpecialDescr_x3f_nextUntilWhitespace(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -12401,6 +12508,7 @@ return x_1;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Lake_VerRange_test_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 

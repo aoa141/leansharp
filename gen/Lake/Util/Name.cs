@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_Name {
 public static Obj l___private_Lake_Util_Name_0__Lean_Name_cmp_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -16,6 +17,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_DNameMap_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -145,6 +147,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Name_quoteFrom___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -154,6 +157,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lake_Util_Name_0__Lake_instCoeTreeMapNameQuickCmpNameMap__lake(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -418,6 +422,7 @@ return x_13;
 }
 }
 public static Obj l_Lake_mkOrdNameMap___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -474,6 +479,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Name_eraseHead(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -662,6 +668,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_mkOrdNameMap(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

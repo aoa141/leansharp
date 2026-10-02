@@ -31,6 +31,7 @@ return x_1;
 }
 }
 public static Obj l_Std_WP___aux__Std__WP__EStack______macroRules__Std__WP__termEStack_u27e8___u27e9__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -99,6 +100,7 @@ return x_1;
 }
 }
 public static Obj l_Std_WP_unexpandEStackEndMk___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -248,6 +250,7 @@ return x_3;
 }
 }
 public static Obj l_Std_WP___aux__Std__WP__EStack______macroRules__Std__WP__termEstack_u27e8___u27e9__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -271,6 +274,7 @@ return x_3;
 }
 }
 public static Obj l_Std_WP_unexpandEStackMk(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -546,6 +550,7 @@ return x_2;
 }
 }
 public static Obj l_Std_WP_unexpandEStackEnd(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -605,6 +610,7 @@ return x_2;
 }
 }
 public static Obj l_Std_WP_unexpandEStackEndMk(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -672,6 +678,7 @@ return x_1;
 }
 }
 public static Obj l_Std_WP_unexpandEStackEndMk___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -759,6 +766,7 @@ return x_1;
 }
 }
 public static Obj l_Std_WP_unexpandEStackEnd___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -792,6 +800,7 @@ return x_4;
 }
 }
 public static Obj l_Std_WP_unexpandEStack___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -862,6 +871,7 @@ return x_2;
 }
 }
 public static Obj l_Std_WP___aux__Std__WP__EStack______macroRules__Std__WP__termEstack_u27e8___u27e9__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1220,6 +1230,7 @@ return x_1;
 }
 }
 public static Obj l_Std_WP___aux__Std__WP__EStack______macroRules__Std__WP__termEStack_u27e8___u27e9__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

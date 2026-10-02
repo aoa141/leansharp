@@ -15,6 +15,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instReprOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -68,6 +69,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLtOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -79,6 +81,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLeSpan___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -98,6 +101,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instOrdOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -117,6 +121,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_instDecidableLeOfDay___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -136,6 +141,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLeOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -147,6 +153,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_instDecidableLeOfDay___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -158,6 +165,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instReprOffset___aux__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -183,6 +191,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLtOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -194,6 +203,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_ofInt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -223,6 +233,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_instDecidableLtOfDay___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -270,6 +281,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instOfNatOrdinal___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -312,6 +324,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLtSpan___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -323,6 +336,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instOrdSpan___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -392,6 +406,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLeOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -411,6 +426,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_instOrdOfDay___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -459,6 +475,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableEqOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -477,6 +494,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLtSpan___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -526,6 +544,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_instReprOfDay___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -612,6 +631,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instReprOrdinal___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -637,6 +657,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instReprSpan___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -691,6 +712,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableEqOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -710,6 +732,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLtOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -736,6 +759,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_instDecidableEqOfDay___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -747,6 +771,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_instDecidableEqOfDay___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -768,6 +793,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Nanosecond_instDecidableLtOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -844,6 +870,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Ordinal_ofInt___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

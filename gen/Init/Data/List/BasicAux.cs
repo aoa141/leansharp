@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_List_BasicAux {
 public static Obj l_List_mapMono___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -36,6 +37,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapMonoM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -54,6 +56,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_List_BasicAux_0__List_partitionMap_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -62,6 +65,7 @@ return x_8;
 }
 }
 public static Obj l_List_partitionM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -81,6 +85,7 @@ return x_1;
 }
 }
 public static Obj l_List_partitionMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -90,6 +95,7 @@ return x_7;
 }
 }
 public static Obj l_List___aux__Init__Data__List__BasicAux______macroRules__tacticDecreasing__trivial__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -171,6 +177,7 @@ return x_1;
 }
 }
 public static Obj l_List_getD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -219,6 +226,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_List_BasicAux_0__List_partitionM_go___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -353,6 +361,7 @@ return x_1;
 }
 }
 public static Obj l_List_head_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -395,6 +404,7 @@ return x_1;
 }
 }
 public static Obj l_List___aux__Init__Data__List__BasicAux______macroRules__List__tacticSizeOf__list__dec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -632,6 +642,7 @@ return x_5;
 }
 }
 public static Obj l_List_getD(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -689,6 +700,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_List_BasicAux_0__List_mapMonoMImp___at___00List_mapMono_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -916,6 +928,7 @@ return x_25;
 }
 }
 public static Obj l_List_getLast_x21___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -950,6 +963,7 @@ return x_1;
 }
 }
 public static Obj l_List_getLast_x21___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -978,6 +992,7 @@ return x_3;
 }
 }
 public static Obj l_List_head_x21___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1100,6 +1115,7 @@ return x_4;
 }
 }
 public static Obj l_List_tail_x21___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1119,6 +1135,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00List_tail_x21_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1215,6 +1232,7 @@ return x_4;
 }
 }
 public static Obj l_List_partitionM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -1257,6 +1275,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapMono(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1265,6 +1284,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_BasicAux_0__List_get_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1298,6 +1318,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_List_BasicAux_0__List_mapMonoMImp___at___00List_mapMono_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1464,6 +1485,7 @@ return x_5;
 }
 }
 public static Obj l_List_getD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1534,6 +1556,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_List_BasicAux_0__List_mapMonoMImp___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1646,6 +1669,7 @@ return x_1;
 }
 }
 public static Obj l_List_tail_x21___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1728,6 +1752,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_List_BasicAux_0__List_get_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1814,6 +1839,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_List_BasicAux_0__List_partitionMap_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2100,6 +2126,7 @@ return x_2;
 }
 }
 public static Obj l_List_partitionMap___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 

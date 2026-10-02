@@ -19,6 +19,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Iterators_Types_Zip_instFinitenessRelation_u2081___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -370,6 +371,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Iterators_Types_Zip_instFinitenessRelation_u2082___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -437,6 +439,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Iterators_Types_Zip_instProductivenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -445,6 +448,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Iterators_Types_Zip_instIterator(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_ReduceEval {
 public static Obj l_Lean_Meta_instReduceEvalString___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -38,6 +39,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00__private_Lean_Meta_ReduceEval_0__Lean_Meta_throwFailedToEval_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -56,6 +58,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalFVarId___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -217,6 +220,7 @@ return x_37;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalList___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -255,6 +259,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalFinOfNeZeroNat___private__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -278,6 +283,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalLevelMVarId___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -290,6 +296,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Meta_ReduceEval_0__Lean_Meta_throwFailedToEval(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -308,6 +315,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalString___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -434,6 +442,7 @@ return x_23;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalMVarId___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -595,6 +604,7 @@ return x_37;
 }
 }
 public static Obj l___private_Lean_Meta_ReduceEval_0__Lean_Meta_evalName___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -617,6 +627,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalBitVec___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -788,6 +799,7 @@ return x_43;
 }
 }
 public static Obj l_Lean_Meta_reduceEval___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -800,6 +812,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_addMessageContextFull___at___00Lean_throwError___at___00__private_Lean_Meta_ReduceEval_0__Lean_Meta_throwFailedToEval_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -832,6 +845,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_reduceEval___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -844,6 +858,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Meta_ReduceEval_0__Lean_Meta_evalName(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1261,6 +1276,7 @@ return x_93;
 }
 }
 public static Obj l___private_Lean_Meta_ReduceEval_0__Lean_Meta_throwFailedToEval___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1287,6 +1303,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_ReduceEval_0__Lean_Meta_evalList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1295,6 +1312,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalMVarId___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -1456,6 +1474,7 @@ return x_37;
 }
 }
 public static Obj l___private_Lean_Meta_ReduceEval_0__Lean_Meta_evalList___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1819,6 +1838,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalOption___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2084,6 +2104,7 @@ return x_58;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalLevelMVarId___private__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2096,6 +2117,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalLiteral___private__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2155,6 +2177,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalOption___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2177,6 +2200,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalNat___private__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2257,6 +2281,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwError___at___00__private_Lean_Meta_ReduceEval_0__Lean_Meta_throwFailedToEval_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2455,6 +2480,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalLevelMVarId___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -2616,6 +2642,7 @@ return x_37;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalList___private__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2640,6 +2667,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalFinOfNeZeroNat___private__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2653,6 +2681,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalLiteral___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -2947,6 +2976,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalFVarId___private__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3128,6 +3158,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalFVarId___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -3321,6 +3352,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalBool___private__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3567,6 +3599,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalOption___private__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -3642,6 +3675,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalBool___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -3803,6 +3837,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalBinderInfo___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4127,6 +4162,7 @@ return x_64;
 }
 }
 public static Obj l_Lean_Meta_reduceEval___at___00__private_Lean_Meta_ReduceEval_0__Lean_Meta_evalName_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4183,6 +4219,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalOption___private__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4551,6 +4588,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalLevelMVarId___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; 
@@ -4789,6 +4827,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_reduceEval___at___00__private_Lean_Meta_ReduceEval_0__Lean_Meta_evalName_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4826,6 +4865,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_instReduceEvalFinOfNeZeroNat___private__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 

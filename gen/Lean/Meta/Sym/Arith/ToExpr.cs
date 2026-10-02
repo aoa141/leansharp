@@ -34,6 +34,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_ofPoly(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -119,6 +120,7 @@ return x_24;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_ofRingExpr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -691,6 +693,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_ofMon(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

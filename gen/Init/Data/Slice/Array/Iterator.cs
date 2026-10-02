@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Slice_Array_Iterator {
 public static Obj l_Array_Subarray_repr(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -41,6 +42,7 @@ return x_8;
 }
 }
 public static Obj l_Array_instReprSubarray___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -50,6 +52,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Slice_Array_Iterator_0__SubarrayIterator_instFinitelessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -58,6 +61,7 @@ return x_2;
 }
 }
 public static Obj l_instCoeSubarrayArray___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -66,6 +70,7 @@ return x_2;
 }
 }
 public static Obj l_Array_Subarray_repr___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -221,6 +226,7 @@ return x_14;
 }
 }
 public static Obj l_Array_instAppendSubarray___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -321,6 +327,7 @@ return x_15;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Subarray_copy_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -355,6 +362,7 @@ return x_8;
 }
 }
 public static Obj l_instCoeSubarrayArray(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -386,6 +394,7 @@ return x_13;
 }
 }
 public static Obj l_instForInSubarrayOfMonad(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -394,6 +403,7 @@ return x_4;
 }
 }
 public static Obj l_Subarray_copy(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -425,6 +435,7 @@ return x_10;
 }
 }
 public static Obj l_Subarray_copy___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -455,6 +466,7 @@ return x_1;
 }
 }
 public static Obj l_Array_ofSubarray(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -478,6 +490,7 @@ return x_1;
 }
 }
 public static Obj l_Array_instToStringSubarray(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -486,6 +499,7 @@ return x_3;
 }
 }
 public static Obj l_Array_ofSubarray___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -603,6 +617,7 @@ return x_1;
 }
 }
 public static Obj l_Array_instAppendSubarray___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -627,6 +642,7 @@ return x_2;
 }
 }
 public static Obj l_instIteratorSubarrayIteratorId___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -723,6 +739,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Subarray_copy_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_18 = 0; 

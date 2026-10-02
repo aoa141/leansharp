@@ -29,6 +29,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_realPathNormalized___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -37,6 +38,7 @@ return x_3;
 }
 }
 public static Obj l_List_lookup___at___00Lean_findOLean_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -128,6 +130,7 @@ return x_1;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00Lean_SearchPath_findAllWithExt_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -150,6 +153,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Util_Path_0__Lean_modToFilePath_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -209,6 +213,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SearchPath_findAllWithExt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -228,6 +233,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_forEachModuleInDir___redArg___lam__4(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, byte x_11) {
+lean_stack_probe();
 _start:
 {
 if (x_11 == 0)
@@ -288,6 +294,7 @@ return x_30;
 }
 }
 public static Obj l_Lean_getBuiltinSearchPath___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -326,6 +333,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_findLean___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -364,6 +372,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_findOLean___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -372,6 +381,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_moduleNameOfFileName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -688,6 +698,7 @@ return x_79;
 }
 }
 public static Obj l_List_findM_x3f___at___00Lean_SearchPath_findRootWithExt_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -697,6 +708,7 @@ return x_5;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_findOLean_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -755,6 +767,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_modToFilePath___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -774,6 +787,7 @@ return x_13;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_SearchPath_findAllWithExt_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -812,6 +826,7 @@ return x_2;
 }
 }
 public static Obj l_panic___at___00__private_Lean_Util_Path_0__Lean_modToFilePath_go_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -851,6 +866,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_initSearchPath(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -951,6 +967,7 @@ return x_22;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_SearchPath_findAllWithExt_spec__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -959,6 +976,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_findSysroot___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -977,6 +995,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_findSysroot(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1149,6 +1168,7 @@ return x_40;
 }
 }
 public static Obj l_Lean_getSrcSearchPath___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1157,6 +1177,7 @@ return x_2;
 }
 }
 public static byte l_List_beq___at___00Lean_findOLean_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1419,6 +1440,7 @@ return x_29;
 }
 }
 public static Obj l_Lean_SearchPath_findRootWithExt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
@@ -1440,6 +1462,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SearchPath_findModuleWithExt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1515,6 +1538,7 @@ return x_4;
 }
 }
 public static Obj l_List_lookup___at___00Lean_findOLean_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1563,6 +1587,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_getBuildDir___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1631,6 +1656,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_SearchPath_findModuleWithExt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_18 = 0; 
@@ -1704,6 +1730,7 @@ goto block_7;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_SearchPath_findAllWithExt_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1849,6 +1876,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_SearchPath_findAllWithExt_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -1862,6 +1890,7 @@ return x_8;
 }
 }
 public static Obj l_List_lookup___at___00Lean_findOLean_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1880,6 +1909,7 @@ return x_4;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_searchModuleNameOfFileName_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1888,6 +1918,7 @@ return x_7;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_searchModuleNameOfFileName_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2003,6 +2034,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SearchPath_findWithExt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -2100,6 +2132,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_searchModuleNameOfFileName(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_19 = 0; 
@@ -2292,6 +2325,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_findOLean(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_58 = null; Obj x_59 = null; byte x_60 = 0; 
@@ -2511,6 +2545,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getBuiltinSearchPath(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_13 = 0; 
@@ -2560,6 +2595,7 @@ return x_9;
 }
 }
 public static Obj l_List_forIn_x27_loop___at___00Lean_searchModuleNameOfFileName_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2692,6 +2728,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_SearchPath_findAllWithExt_spec__1(Obj x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -2739,6 +2776,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_findLean(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_36 = 0; 
@@ -2841,6 +2879,7 @@ return x_32;
 }
 }
 public static Obj l_List_findM_x3f___at___00Lean_SearchPath_findRootWithExt_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2985,6 +3024,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_getLibDir___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3085,6 +3125,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Lean_moduleNameOfFileName_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

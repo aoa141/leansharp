@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Nat_Lemmas {
 public static byte l_Nat_decidableBallLTTR(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -15,6 +16,7 @@ return x_4;
 }
 }
 public static byte l___private_Init_Data_Nat_Lemmas_0__Nat_allLTTR_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -23,6 +25,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_decidableExistsLE___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -33,6 +36,7 @@ return x_5;
 }
 }
 public static byte l_Nat_decidableBallLE___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -74,6 +78,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_decidableExistsFin___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -83,6 +88,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Nat_Lemmas_0__Nat_allLTTR_loop_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -93,6 +99,7 @@ return x_7;
 }
 }
 public static Obj l_Nat_decidableExistsFin___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -126,6 +133,7 @@ return x_9;
 }
 }
 public static Obj l_Nat_decidableExistsLT_x27TR___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -135,6 +143,7 @@ return x_5;
 }
 }
 public static byte l_Nat_decidableExistsLTTR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -147,6 +156,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_decidableBallLE___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -157,6 +167,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_decidableForallFin___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -166,6 +177,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_decidableBallLTTR___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -175,6 +187,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_decidableExistsLTTR___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -193,6 +206,7 @@ return x_5;
 }
 }
 public static byte l_Nat_decidableExistsLE(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -259,6 +273,7 @@ return x_4;
 }
 }
 public static byte l___private_Init_Data_Nat_Lemmas_0__Nat_anyLTTR_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -294,6 +309,7 @@ return x_6;
 }
 }
 public static byte l_Nat_decidableExistsLT_x27TR___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -306,6 +322,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Nat_Lemmas_0__Nat_allLTTR_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -326,6 +343,7 @@ return x_4;
 }
 }
 public static byte l_Nat_decidableExistsLE___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -340,6 +358,7 @@ return x_6;
 }
 }
 public static Obj l_Nat_decidableExistsLE_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -358,6 +377,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_decidableForallFin___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -367,6 +387,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_decidableExistsLE_x27___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -377,6 +398,7 @@ return x_4;
 }
 }
 public static byte l_Nat_allLTTR(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -387,6 +409,7 @@ return x_3;
 }
 }
 public static byte l___private_Init_Data_Nat_Lemmas_0__Nat_allLTTR_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -460,6 +483,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_anyLTTR___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -469,6 +493,7 @@ return x_4;
 }
 }
 public static byte l___private_Init_Data_Nat_Lemmas_0__Nat_anyLTTR_loop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -521,6 +546,7 @@ return x_5;
 }
 }
 public static byte l_Nat_decidableExistsFin(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -550,6 +576,7 @@ return x_4;
 }
 }
 public static byte l_Nat_decidableForallFin(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 

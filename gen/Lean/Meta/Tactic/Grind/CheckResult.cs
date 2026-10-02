@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_CheckResult {
 public static byte l_Lean_Meta_Grind_CheckResult_le(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -56,6 +57,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_progress_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -72,6 +74,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_lt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -83,6 +86,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_propagated_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -93,6 +97,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -109,6 +114,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_closed_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -194,6 +200,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_none_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -227,6 +234,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -238,6 +246,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_progress_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -248,6 +257,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -284,6 +294,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_propagated_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -310,6 +321,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_CheckResult_closed_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -362,6 +374,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_instBEqCheckResult_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -448,6 +461,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_instReprCheckResult_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; 
@@ -618,6 +632,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Meta_Grind_instBEqCheckResult_beq(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 

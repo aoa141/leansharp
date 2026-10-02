@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_IR_LLVMBindings {
 public static Obj l_Lean_LLVM_createTargetMachine___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -23,6 +24,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_LLVM_pointerType___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -36,6 +38,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_i16Type___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -47,6 +50,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_LLVM_getNextFunction___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -60,6 +64,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_countParams___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -73,6 +78,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_getInsertBlock___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -93,6 +99,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_buildAdd___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -119,6 +126,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_isDeclaration___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -150,6 +158,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_getTargetFromTriple___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -180,6 +189,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_LLVM_getNamedGlobal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -193,6 +203,7 @@ return x_7;
 }
 }
 public static ulong l_Lean_LLVM_constInt64(ulong x_1, ulong x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; 
@@ -202,6 +213,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_LLVM_voidPtrType___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -213,6 +225,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_LLVM_positionBuilderBefore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -227,6 +240,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_LLVM_buildCondBr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -246,6 +260,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_LLVM_addGlobal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -262,6 +277,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_LLVM_setInitializer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -276,6 +292,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_LLVM_constIntUnsigned___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -290,6 +307,7 @@ return x_9;
 }
 }
 public static ulong l_Lean_LLVM_i64Type(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; 
@@ -308,6 +326,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_constInt8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -331,6 +350,7 @@ return x_1;
 }
 }
 public static ulong l_Lean_LLVM_constInt8(ulong x_1, ulong x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; 
@@ -360,6 +380,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_LLVM_buildNot___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -375,6 +396,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_LLVM_constInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; byte x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -391,6 +413,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_LLVM_addCase___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -407,6 +430,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_LLVM_buildPtrToInt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -438,6 +462,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_LLVM_createMemoryBufferWithContentsOfFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -450,6 +475,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_LLVM_i8Type___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -461,6 +487,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_LLVM_constInt1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -475,6 +502,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_LLVM_setDLLStorageClass___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -489,6 +517,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_LLVM_i1Type___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -500,6 +529,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_LLVM_getBasicBlockParent___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -513,6 +543,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_createBuilderInContext___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -546,6 +577,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_constArray___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -583,6 +615,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_LLVM_arrayType___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -598,6 +631,7 @@ return x_9;
 }
 }
 public static ulong l_Lean_LLVM_voidPtrType(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; 
@@ -623,6 +657,7 @@ return x_10;
 }
 }
 public static ulong l_Lean_LLVM_i16Type(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; 
@@ -632,6 +667,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_LLVM_createStringAttribute___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -643,6 +679,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_constInt32___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -657,6 +694,7 @@ return x_9;
 }
 }
 public static ulong l_Lean_LLVM_i1Type(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; 
@@ -666,6 +704,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_LLVM_clearInsertionPosition___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -685,6 +724,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_constTrue___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -705,6 +745,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_parseBitcode___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -718,6 +759,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_getDefaultTargetTriple___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -726,6 +768,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_LLVM_getFirstInstruction___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -738,6 +781,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_LLVM_verifyModule___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -759,6 +803,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_createModule___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -780,6 +825,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_buildICmp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; 
@@ -799,6 +845,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_LLVM_printModuletoString___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -832,6 +879,7 @@ return x_6;
 }
 }
 public static ulong l_Lean_LLVM_constTrue(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; ulong x_6 = 0; 
@@ -843,6 +891,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_LLVM_linkModules___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -878,6 +927,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_getNamedFunction___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -891,6 +941,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_buildCall2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -909,6 +960,7 @@ return x_13;
 }
 }
 public static ulong l_Lean_LLVM_constInt32(ulong x_1, ulong x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; 
@@ -956,6 +1008,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_LLVM_setLinkage___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -970,6 +1023,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_LLVM_buildMul___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -1037,6 +1091,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_LLVM_intTypeInContext___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1111,6 +1166,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_LLVM_getNextGlobal___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1151,6 +1207,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_disposeTargetMachine___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1203,6 +1260,7 @@ return x_4;
 }
 }
 public static ulong l_Lean_LLVM_constIntSizeT(ulong x_1, ulong x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; 
@@ -1242,6 +1300,7 @@ return x_3;
 }
 }
 public static ulong l_Lean_LLVM_constInt_x27(ulong x_1, ulong x_2, ulong x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; 
@@ -1268,6 +1327,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_LLVM_buildRet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -1283,6 +1343,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_LLVM_getFirstFunction___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1324,6 +1385,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_LLVM_buildSext___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -1442,6 +1504,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_LLVM_buildGlobalString___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -1492,6 +1555,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_LLVM_constFalse___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 

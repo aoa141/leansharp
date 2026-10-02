@@ -787,6 +787,7 @@ Obj x_50 = _args[49];
 Obj x_51 = _args[50];
 Obj x_52 = _args[51];
 Obj x_53 = _args[52];
+lean_stack_probe();
 _start:
 {
 Obj x_54 = null; 
@@ -1476,6 +1477,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__aux__Init__Data__UInt__Lemmas______macroRules__commandDeclare__uint__theorems______1_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -2262,6 +2264,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Data__UInt__Lemmas______macroRules__commandDeclare__uint__theorems______1___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -2438,6 +2441,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__aux__Init__Data__UInt__Lemmas______macroRules__commandDeclare__uint__theorems______1_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3311,6 +3315,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Data__UInt__Lemmas______macroRules__commandDeclare__uint__theorems______1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4323,6 +4328,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Data__UInt__Lemmas______macroRules__commandDeclare__uint__theorems______1___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6639,6 +6645,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Data__UInt__Lemmas______macroRules__commandDeclare__uint__theorems______1___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19, Obj x_20, Obj x_21, Obj x_22, Obj x_23, Obj x_24, Obj x_25, Obj x_26, Obj x_27, Obj x_28, Obj x_29, Obj x_30, Obj x_31, Obj x_32, Obj x_33, Obj x_34, Obj x_35, Obj x_36, Obj x_37, Obj x_38, Obj x_39, Obj x_40, Obj x_41, Obj x_42, Obj x_43, Obj x_44, Obj x_45, Obj x_46, Obj x_47, Obj x_48, Obj x_49, Obj x_50, Obj x_51, Obj x_52, Obj x_53) {
+lean_stack_probe();
 _start:
 {
 Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_121 = null; Obj x_122 = null; Obj x_123 = null; Obj x_250 = null; Obj x_251 = null; Obj x_379 = null; byte x_380 = 0; 
@@ -8514,6 +8521,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Data__UInt__Lemmas______macroRules__commandDeclare__uint__theorems______1___lam__1(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -10205,6 +10213,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Data__UInt__Lemmas______macroRules__commandDeclare__uint__theorems______1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_24 = null; byte x_25 = 0; 

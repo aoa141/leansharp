@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Package_externLibs___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -48,6 +49,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_ExternLib_config___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -57,6 +59,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_externLibs(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -97,6 +100,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Package_findExternLib_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

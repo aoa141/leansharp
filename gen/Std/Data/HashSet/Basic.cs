@@ -18,6 +18,7 @@ return x_3;
 }
 }
 public static Obj l_Std_HashSet_Internal_numBuckets___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Std_HashSet___aux__Std__Data__HashSet__Basic______unexpand__Std__HashSet__Equiv__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -36,6 +38,7 @@ return x_4;
 }
 }
 public static byte l_Std_HashSet_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -44,6 +47,7 @@ return x_6;
 }
 }
 public static Obj l_Std_HashSet_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -80,6 +84,7 @@ return x_7;
 }
 }
 public static Obj l_Std_HashSet_instMembership___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -108,6 +113,7 @@ return x_7;
 }
 }
 public static Obj l_Std_HashSet_emptyWithCapacity___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -127,6 +133,7 @@ return x_1;
 }
 }
 public static Obj l_Std_HashSet_any___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -177,6 +184,7 @@ return x_20;
 }
 }
 public static Obj l_Std_HashSet_union___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -211,6 +219,7 @@ return x_16;
 }
 }
 public static Obj l_Std_HashSet___aux__Std__Data__HashSet__Basic______unexpand__Std__HashSet__Equiv__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -294,6 +303,7 @@ return x_29;
 }
 }
 public static Obj l_Std_HashSet_ofArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -335,6 +345,7 @@ return x_1;
 }
 }
 public static byte l_Std_HashSet_any___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; Obj x_12 = null; 
@@ -376,6 +387,7 @@ return x_15;
 }
 }
 public static byte l_Std_HashSet_all___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; Obj x_12 = null; 
@@ -425,6 +437,7 @@ return x_2;
 }
 }
 public static Obj l_Std_HashSet_partition___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -501,6 +514,7 @@ return x_20;
 }
 }
 public static Obj l_Std_HashSet_emptyWithCapacity___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -512,6 +526,7 @@ return x_5;
 }
 }
 public static Obj l_Std_HashSet_instRepr___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_26 = 0; 
@@ -622,6 +637,7 @@ return x_2;
 }
 }
 public static Obj l_Std_HashSet_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -631,6 +647,7 @@ return x_6;
 }
 }
 public static Obj l_Std_HashSet_diff(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -670,6 +687,7 @@ return x_2;
 }
 }
 public static Obj l_Std_HashSet_instRepr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -727,6 +745,7 @@ return x_5;
 }
 }
 public static byte l_Std_HashSet_beq___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -772,6 +791,7 @@ return x_1;
 }
 }
 public static Obj l_Std_HashSet_diff___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -793,6 +813,7 @@ return x_1;
 }
 }
 public static Obj l_Std_HashSet_getD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -813,6 +834,7 @@ return x_1;
 }
 }
 public static Obj l_Std_HashSet_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -895,6 +917,7 @@ return x_2;
 }
 }
 public static Obj l_Std_HashSet_fold(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -927,6 +950,7 @@ return x_17;
 }
 }
 public static Obj l_Std_HashSet_toArray___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1008,6 +1032,7 @@ return x_6;
 }
 }
 public static Obj l_Std_HashSet_get___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1027,6 +1052,7 @@ return x_4;
 }
 }
 public static Obj l_Std_HashSet_all___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1048,6 +1074,7 @@ return x_5;
 }
 }
 public static Obj l_Std_HashSet_ofList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1079,6 +1106,7 @@ return x_6;
 }
 }
 public static Obj l_Std_HashSet_filter___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1088,6 +1116,7 @@ return x_5;
 }
 }
 public static Obj l_Std_HashSet_forIn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1098,6 +1127,7 @@ return x_10;
 }
 }
 public static Obj l_Std_HashSet_instInhabited___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1223,6 +1253,7 @@ return x_7;
 }
 }
 public static Obj l_Std_HashSet_instDecidableMem___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1314,6 +1345,7 @@ return x_8;
 }
 }
 public static Obj l_Std_HashSet_size___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1344,6 +1376,7 @@ return x_4;
 }
 }
 public static Obj l_Std_HashSet___aux__Std__Data__HashSet__Basic______macroRules__Std__HashSet__term___x7em____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1414,6 +1447,7 @@ return x_2;
 }
 }
 public static Obj l_Std_HashSet_foldM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1506,6 +1540,7 @@ return x_2;
 }
 }
 public static Obj l_Std_HashSet_instEmptyCollection___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1516,6 +1551,7 @@ return x_4;
 }
 }
 public static Obj l_Std_HashSet_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1663,6 +1699,7 @@ return x_1;
 }
 }
 public static Obj l_Std_HashSet_partition(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -1823,6 +1860,7 @@ return x_5;
 }
 }
 public static Obj l_Std_HashSet_instDecidableMem___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1880,6 +1918,7 @@ return x_5;
 }
 }
 public static Obj l_Std_HashSet_union(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1924,6 +1963,7 @@ return x_1;
 }
 }
 public static byte l_Std_HashSet_any(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; ulong x_12 = 0; ulong x_13 = 0; Obj x_14 = null; Obj x_15 = null; 
@@ -2383,6 +2423,7 @@ return x_4;
 }
 }
 public static Obj l_Std_HashSet_toList___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -2485,6 +2526,7 @@ return x_5;
 }
 }
 public static Obj l_Std_HashSet_instRepr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2573,6 +2615,7 @@ return x_5;
 }
 }
 public static Obj l_Std_HashSet_contains___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2661,6 +2704,7 @@ return x_6;
 }
 }
 public static Obj l_Std_HashSet_toArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -2778,6 +2822,7 @@ return x_13;
 }
 }
 public static Obj l_Std_HashSet_get_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2788,6 +2833,7 @@ return x_7;
 }
 }
 public static Obj l_Std_HashSet_get_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3231,6 +3277,7 @@ return x_6;
 }
 }
 public static Obj l_Std_HashSet_isEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

@@ -57,6 +57,7 @@ return x_1;
 }
 }
 public static byte l_Lean_SubExpr_Pos_all(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -105,6 +106,7 @@ return x_4;
 }
 }
 public static Obj l_panic___at___00Lean_SubExpr_bindingBody_x21_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -114,6 +116,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_tail(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -169,6 +172,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushAppFn(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -178,6 +182,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Expr_traverseAppWithPos(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -196,6 +201,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_fromString_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -226,6 +232,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_SubExpr_0__Lean_SubExpr_Pos_ofStringCoord___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -326,6 +333,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushProj___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -345,6 +353,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00List_toString___at___00Lean_SubExpr_Pos_fromString_x3f_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -366,6 +375,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldrM___at___00Lean_SubExpr_Pos_all_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -484,6 +494,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_ofArray___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -505,6 +516,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00Lean_SubExpr_instToJsonGoalsLocation_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -529,6 +541,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_SubExpr_Pos_fromString_x3f_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -541,6 +554,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldrM___at___00Lean_SubExpr_Pos_all_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -606,6 +620,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushLetBody(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -615,6 +630,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldlM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -654,6 +670,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_GoalLocation_hypType_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -682,6 +699,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_instFromJsonGoalLocation_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1638,6 +1656,7 @@ return x_1;
 }
 }
 public static byte l_Lean_SubExpr_isRoot(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -1692,6 +1711,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SubExpr_instFromJsonGoalsLocation_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1939,6 +1959,7 @@ return x_47;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushAppArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1948,6 +1969,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldr(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1968,6 +1990,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_instRepr___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1978,6 +2001,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushBindingBody___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1987,6 +2011,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_instToJsonGoalsLocation_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_25 = 0; 
@@ -2110,6 +2135,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_instDecidableEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2130,6 +2156,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushNaryFn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2149,6 +2176,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_toArray___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2158,6 +2186,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushNaryArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2200,6 +2229,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_traverseAppWithPos___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 5)
@@ -2251,6 +2281,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Expr_traverseAppWithPos___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -2300,6 +2331,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_push___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2328,6 +2360,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2373,6 +2406,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldlM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -2435,6 +2469,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldrM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2464,6 +2499,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_SubExpr_0__Lean_SubExpr_Pos_ofStringCoord(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -2523,6 +2559,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_SubExpr_bindingBody_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_17 = 0; 
@@ -2607,6 +2644,7 @@ return x_8;
 }
 }
 public static Obj l_List_toString___at___00Lean_SubExpr_Pos_fromString_x3f_spec__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2616,6 +2654,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_toArray(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -2635,6 +2674,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2645,6 +2685,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2673,6 +2714,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushLetVarType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2682,6 +2724,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushBindingDomain___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2725,6 +2768,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushNthBindingDomain(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2763,6 +2807,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_asNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2772,6 +2817,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_append___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2801,6 +2847,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lean_SubExpr_Pos_fromString_x3f_spec__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2828,6 +2875,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_SubExpr_Pos_ofArray_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -2852,6 +2900,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushLetValue___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2882,6 +2931,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_head___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2913,6 +2963,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushBindingDomain(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -2930,6 +2981,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_SubExpr_Pos_fromString_x3f_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2939,6 +2991,7 @@ return x_8;
 }
 }
 public static Obj l_String_Slice_splitToSubslice___at___00Lean_SubExpr_Pos_fromString_x3f_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2963,6 +3016,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushNthBindingBody(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -2997,6 +3051,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldl___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3017,6 +3072,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_fromString_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -3201,6 +3257,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_pushLetVarType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -3290,6 +3347,7 @@ return x_1;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_SubExpr_Pos_toString_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3377,6 +3435,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_push(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -3435,6 +3494,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_head(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -3456,6 +3516,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldl___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3674,6 +3735,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_SubExpr_instToJsonGoalLocation_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3939,6 +4001,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_depth(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -3949,6 +4012,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_SubExpr_Pos_fromString_x3f_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -4363,6 +4427,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -4474,6 +4539,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldrM___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4588,6 +4654,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_SubExpr_instFromJsonGoalsLocation_fromJson_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4643,6 +4710,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_SubExpr_Pos_fromString_x3f_spec__3(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -4983,6 +5051,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_SubExpr_Pos_foldlM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

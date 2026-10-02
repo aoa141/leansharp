@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_String {
 public static Obj l_Lake_zpad(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; uint x_4 = 0; Obj x_5 = null; 
@@ -18,6 +19,7 @@ return x_5;
 }
 }
 public static byte l___private_Init_Data_Nat_Fold_0__Nat_allTR_loop___at___00Lake_isHex_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -104,6 +106,7 @@ return x_5;
 }
 }
 public static uint l___private_Lake_Util_String_0__Lake_lowerHexChar(byte x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; uint x_3 = 0; 
@@ -113,6 +116,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_lowerHexUInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -123,6 +127,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lake_Util_String_0__Lake_lowerHexByte___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -133,6 +138,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_rpadAscii(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -174,6 +180,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_lpadAscii(Obj x_1, uint x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -248,6 +255,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00Lake_lpadAscii_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -394,6 +402,7 @@ return x_97;
 }
 }
 public static Obj l___private_Init_Data_Nat_Basic_0__Nat_repeatTR_loop___at___00Lake_lpadAscii_spec__0(uint x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

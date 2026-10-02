@@ -31,6 +31,7 @@ return x_1;
 }
 }
 public static Obj l_DoResultBC_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -62,6 +63,7 @@ return x_4;
 }
 }
 public static Obj l_ForInStep_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -70,6 +72,7 @@ return x_7;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2287____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -79,6 +82,7 @@ return x_4;
 }
 }
 public static Obj l_DoResultPR_pure_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -87,6 +91,7 @@ return x_3;
 }
 }
 public static Obj l_PSum_inr_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -95,6 +100,7 @@ return x_7;
 }
 }
 public static Obj l_PSum_inr_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -103,6 +109,7 @@ return x_3;
 }
 }
 public static Obj l_DoResultBC_ctorIdx(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -121,6 +128,7 @@ return x_1;
 }
 }
 public static Obj l_Sum_inr_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -195,6 +203,7 @@ return x_4;
 }
 }
 public static Obj l_DoResultPR_ctorIdx(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -214,6 +223,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___x5c____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -233,6 +243,7 @@ return x_1;
 }
 }
 public static Obj l_instDecidableEqOfIff___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -276,6 +287,7 @@ return lean_box(0);
 }
 }
 public static Obj l_DoResultSBC_break_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -284,6 +296,7 @@ return x_3;
 }
 }
 public static Obj l_Thunk_map___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -295,6 +308,7 @@ return x_4;
 }
 }
 public static byte l_instBEqOption_beq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -303,6 +317,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2287____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -419,6 +434,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__SSuperset__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -524,6 +540,7 @@ return x_2;
 }
 }
 public static Obj l_instDecidableEqEmpty___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -549,6 +566,7 @@ return x_3;
 }
 }
 public static Obj l_instHasEquivOfSetoid___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -567,6 +585,7 @@ return x_5;
 }
 }
 public static Obj l_noConfusionEnum___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; 
@@ -599,6 +618,7 @@ return x_2;
 }
 }
 public static Obj l_instDecidableEqPEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -634,6 +654,7 @@ return x_3;
 }
 }
 public static Obj l_toBoolUsing___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -668,6 +689,7 @@ return x_5;
 }
 }
 public static Obj l_Task_pure___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -712,6 +734,7 @@ return x_2;
 }
 }
 public static Obj l_DoResultPR_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -730,6 +753,7 @@ return x_1;
 }
 }
 public static Obj l_instDecidableEqSum___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -753,6 +777,7 @@ return x_3;
 }
 }
 public static Obj l_Sum_ctorIdx(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -802,6 +827,7 @@ return x_2;
 }
 }
 public static Obj l_DoResultPRBC_return_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -856,6 +882,7 @@ return x_1;
 }
 }
 public static Obj l_Eq_ndrecOn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -867,6 +894,7 @@ return x_7;
 }
 }
 public static Obj l_thunkCoe___redArg___lam__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -877,6 +905,7 @@ return x_3;
 }
 }
 public static byte l_instDecidableEqPSigma(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -894,6 +923,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__PSum__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -977,6 +1007,7 @@ return x_29;
 }
 }
 public static Obj l_iteInduction(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -985,6 +1016,7 @@ return x_9;
 }
 }
 public static Obj l_instInhabitedThunk(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1015,6 +1047,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2260____2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1034,6 +1067,7 @@ return x_1;
 }
 }
 public static byte l_instDecidableEqProd(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1042,6 +1076,7 @@ return x_7;
 }
 }
 public static Obj l_instDecidableIff___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1071,6 +1106,7 @@ return x_1;
 }
 }
 public static Obj l_instDecidableEqOfLawfulBEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1096,6 +1132,7 @@ return x_4;
 }
 }
 public static Obj l_DoResultBC_continue_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1120,6 +1157,7 @@ return x_4;
 }
 }
 public static Obj l_thunkCoe(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1128,6 +1166,7 @@ return x_2;
 }
 }
 public static Obj l_Quotient_mk___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1137,6 +1176,7 @@ return x_2;
 }
 }
 public static Obj l_Squash_mk___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1184,6 +1224,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__EmptyCollection__emptyCollection__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1237,6 +1278,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__HasSSubset__SSubset__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1320,6 +1362,7 @@ return x_29;
 }
 }
 public static Obj l_DoResultSBC_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1379,6 +1422,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__HasEquiv__Equiv__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1486,6 +1530,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2295_x27____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1539,6 +1584,7 @@ return x_26;
 }
 }
 public static Obj l_ForInStep_yield_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1579,6 +1625,7 @@ return x_3;
 }
 }
 public static byte l_instDecidableEqSum(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -1633,6 +1680,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u222a____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1665,6 +1713,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term_x7b_x7d__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1700,6 +1749,7 @@ return x_3;
 }
 }
 public static Obj l_Sum_inr_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1717,6 +1767,7 @@ return x_1;
 }
 }
 public static Obj l_DoResultPR_return_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1751,6 +1802,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___x21_x3d____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1806,6 +1858,7 @@ return x_26;
 }
 }
 public static Obj l_eagerReduce___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1823,6 +1876,7 @@ return x_7;
 }
 }
 public static Obj l_instDecidableEqProd___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1852,6 +1906,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term_u2205__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1911,6 +1966,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2260____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1982,6 +2038,7 @@ return x_4;
 }
 }
 public static Obj l_decidable__of__decidable__of__iff___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1992,6 +2049,7 @@ return x_4;
 }
 }
 public static Obj l_noConfusionEnum(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; 
@@ -2016,6 +2074,7 @@ return x_1;
 }
 }
 public static Obj l_DoResultSBC_continue_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2059,6 +2118,7 @@ return x_13;
 }
 }
 public static Obj l_Sum_inl_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2076,6 +2136,7 @@ return x_2;
 }
 }
 public static Obj l_inline___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2105,6 +2166,7 @@ return x_1;
 }
 }
 public static byte l_Prod_lexLtDec(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -2203,6 +2265,7 @@ throw lean_internal_panic_unreachable();
 }
 }
 public static Obj l_Subtype_instDecidableEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2212,6 +2275,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__bne__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2221,6 +2285,7 @@ return x_4;
 }
 }
 public static Obj l_DoResultBC_break_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2384,6 +2449,7 @@ return x_13;
 }
 }
 public static Obj l_PSum_inl_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2444,6 +2510,7 @@ return x_1;
 }
 }
 public static Obj l_Quotient_decidableEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2453,6 +2520,7 @@ return x_5;
 }
 }
 public static Obj l_Quotient_mk_x27___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2476,6 +2544,7 @@ return x_3;
 }
 }
 public static Obj l_Thunk_fnImpl___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2505,6 +2574,7 @@ return x_6;
 }
 }
 public static Obj l_thunkCoe___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2514,6 +2584,7 @@ return x_3;
 }
 }
 public static Obj l_Not_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2522,6 +2593,7 @@ return x_2;
 }
 }
 public static Obj l_DoResultPRBC_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2584,6 +2656,7 @@ return x_3;
 }
 }
 public static Obj l_DoResultPRBC_pure_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2646,6 +2719,7 @@ return x_3;
 }
 }
 public static Obj l_instDecidableEqEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2713,6 +2787,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__EmptyCollection__emptyCollection__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2809,6 +2884,7 @@ return x_1;
 }
 }
 public static Obj l_Quotient_mk_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2818,6 +2894,7 @@ return x_4;
 }
 }
 public static Obj l_Thunk_bind___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2845,6 +2922,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Union__union__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2862,6 +2940,7 @@ return x_8;
 }
 }
 public static Obj l_DoResultPR_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2887,6 +2966,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__SDiff__sdiff__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2970,6 +3050,7 @@ return x_29;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u222a____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3033,6 +3114,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___x3c_x2d_x3e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3185,6 +3267,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Iff__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3245,6 +3328,7 @@ return x_6;
 }
 }
 public static Obj l_ForInStep_yield_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3271,6 +3355,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2248____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3365,6 +3450,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2283____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3374,6 +3460,7 @@ return x_4;
 }
 }
 public static Obj l_decidable__of__decidable__of__eq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -3395,6 +3482,7 @@ return x_6;
 }
 }
 public static Obj l_ForInStep_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3415,6 +3503,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Union__union__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3566,6 +3655,7 @@ return x_1;
 }
 }
 public static Obj l_Squash_mk___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3610,6 +3700,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Ne__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3619,6 +3710,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Inter__inter__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3669,6 +3761,7 @@ return x_4;
 }
 }
 public static Obj l_PSum_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3695,6 +3788,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2260____2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3777,6 +3871,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term_x7b_x7d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3818,6 +3913,7 @@ return x_18;
 }
 }
 public static Obj l_instInhabitedThunk___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3826,6 +3922,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Ne__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3944,6 +4041,7 @@ return x_1;
 }
 }
 public static Obj l_DoResultSBC_pureReturn_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3952,6 +4050,7 @@ return x_3;
 }
 }
 public static Obj l_Task_map___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -4077,6 +4176,7 @@ return x_3;
 }
 }
 public static Obj l_instDecidableDite___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -4087,6 +4187,7 @@ return x_9;
 }
 }
 public static Obj l_thunkCoe___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4183,6 +4284,7 @@ return x_3;
 }
 }
 public static Obj l_PSum_inl_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4191,6 +4293,7 @@ return x_3;
 }
 }
 public static Obj l_Thunk_bind___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -4202,6 +4305,7 @@ return x_6;
 }
 }
 public static Obj l_Thunk_fnImpl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4269,6 +4373,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Iff__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4352,6 +4457,7 @@ return x_29;
 }
 }
 public static Obj l_decidable__of__decidable__of__iff___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -4362,6 +4468,7 @@ return x_7;
 }
 }
 public static Obj l_DoResultSBC_pureReturn_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4370,6 +4477,7 @@ return x_7;
 }
 }
 public static byte l_instDecidableEqSum___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4378,6 +4486,7 @@ return x_5;
 }
 }
 public static Obj l_Thunk_map(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -4398,6 +4507,7 @@ return x_6;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__HasSubset__Subset__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4416,6 +4526,7 @@ return x_2;
 }
 }
 public static Obj l_ForInStep_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4497,6 +4608,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2229____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4560,6 +4672,7 @@ return x_1;
 }
 }
 public static Obj l_DoResultSBC_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4568,6 +4681,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_opaqueId___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4589,6 +4703,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2283____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4722,6 +4837,7 @@ return x_3;
 }
 }
 public static Obj l_Eq_ndrecOn___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4741,6 +4857,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2194____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4794,6 +4911,7 @@ return x_26;
 }
 }
 public static Obj l_bne___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -4811,6 +4929,7 @@ return x_2;
 }
 }
 public static Obj l_Prod_lexLtDec___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -4920,6 +5039,7 @@ return x_2;
 }
 }
 public static Obj l_DoResultPRBC_continue_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -4956,6 +5076,7 @@ return x_6;
 }
 }
 public static Obj l_Thunk_bind(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -5114,6 +5235,7 @@ return x_3;
 }
 }
 public static Obj l_inline___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5269,6 +5391,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Sum__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5427,6 +5550,7 @@ return x_1;
 }
 }
 public static Obj l_Subtype_instBEq___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5436,6 +5560,7 @@ return x_5;
 }
 }
 public static Obj l_ForInStep_ctorIdx(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5578,6 +5703,7 @@ return x_4;
 }
 }
 public static Obj l_DoResultBC_break_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5698,6 +5824,7 @@ return x_22;
 }
 }
 public static Obj l_DoResultSBC_break_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5730,6 +5857,7 @@ return x_1;
 }
 }
 public static Obj l_DoResultPRBC_continue_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5760,6 +5888,7 @@ return x_1;
 }
 }
 public static Obj l_DoResultPRBC_return_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5777,6 +5906,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Iff__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5795,6 +5925,7 @@ return x_6;
 }
 }
 public static Obj l_Sum_inl_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -6047,6 +6178,7 @@ return x_2;
 }
 }
 public static Obj l_instBEqOption_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -6422,6 +6554,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2286____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6447,6 +6580,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___x21_x3d____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6467,6 +6601,7 @@ return x_2;
 }
 }
 public static Obj l_instDecidableEqOfLawfulBEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -6521,6 +6656,7 @@ return x_3;
 }
 }
 public static Obj l_Subtype_instDecidableEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -6530,6 +6666,7 @@ return x_7;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2286____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6592,6 +6729,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___x21_x3d____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6668,6 +6806,7 @@ return x_4;
 }
 }
 public static Obj l_DoResultPRBC_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -6686,6 +6825,7 @@ return x_2;
 }
 }
 public static Obj l_DoResultSBC_continue_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6694,6 +6834,7 @@ return x_3;
 }
 }
 public static Obj l_PSum_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -6728,6 +6869,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__Superset__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6805,6 +6947,7 @@ return x_3;
 }
 }
 public static Obj l_Sum_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7201,6 +7344,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2295____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -7339,6 +7483,7 @@ return x_2;
 }
 }
 public static Obj l_Sum_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -7386,6 +7531,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__Core______unexpand__HasSubset__Subset__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -7491,6 +7637,7 @@ return x_3;
 }
 }
 public static Obj l_instDecidableIff___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -7538,6 +7685,7 @@ return x_8;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2260____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -8161,6 +8309,7 @@ return x_1;
 }
 }
 public static Obj l___aux__Init__Core______macroRules__term___u2282____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

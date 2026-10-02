@@ -19,6 +19,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_fma(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {

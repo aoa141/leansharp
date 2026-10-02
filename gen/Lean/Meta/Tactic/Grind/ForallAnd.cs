@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_Grind_ForallAnd {
 public static Obj l___private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_isCandidate___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -17,6 +18,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_go___lam__0(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; Obj x_13 = null; 
@@ -1012,6 +1014,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1024,6 +1027,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_withLocalDecl___at___00__private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_go_spec__0(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5, byte x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -1032,6 +1036,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Meta_Grind_forallImpAnd_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1044,6 +1049,7 @@ return x_7;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_isCandidate(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_5 = 0; 
@@ -1080,6 +1086,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_hasDepBinder___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1130,6 +1137,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_withLocalDecl___at___00__private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_go_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; byte x_12 = 0; Obj x_13 = null; 
@@ -1154,6 +1162,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_hasDepBinder(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -1230,6 +1239,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_125 = null; 
@@ -1910,6 +1920,7 @@ return x_123;
 }
 }
 public static Obj l_Lean_Meta_withLocalDecl___at___00__private_Lean_Meta_Tactic_Grind_ForallAnd_0__Lean_Meta_Grind_forallImpAnd_x3f_go_spec__0___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

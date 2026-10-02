@@ -55,6 +55,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_AssocList_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -64,6 +65,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AssocList_foldlM___at___00Lean_AssocList_toList_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -101,6 +103,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instInhabitedAssocList___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -109,6 +112,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Data_AssocList_0__Lean_AssocList_forIn_loop___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -136,6 +140,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_AssocList_foldl(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -156,6 +161,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_List_toAssocList_x27___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -165,6 +171,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AssocList_all___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -191,6 +198,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AssocList_forIn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -199,6 +207,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_AssocList_foldlM___at___00Lean_AssocList_toList_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -207,6 +216,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_AssocList_toList___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -217,6 +227,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_AssocList_toList___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -249,6 +260,7 @@ return x_3;
 }
 }
 public static byte l_Lean_AssocList_contains(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -257,6 +269,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_AssocList_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -265,6 +278,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_AssocList_find_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -273,6 +287,7 @@ return x_6;
 }
 }
 public static byte l_Lean_AssocList_any___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -312,6 +327,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_AssocList_isEmpty___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -344,6 +360,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_List_toAssocList_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -353,6 +370,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_List_toAssocList_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -378,6 +396,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_List_toAssocList_x27___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -413,6 +432,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_AssocList_find_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -483,6 +503,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_AssocList_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -492,6 +513,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_AssocList_insert___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -518,6 +540,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_instInhabitedAssocList_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -526,6 +549,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AssocList_all___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -544,6 +568,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AssocList_replace___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -642,6 +667,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_AssocList_findEntry_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -658,6 +684,7 @@ return x_3;
 }
 }
 public static byte l_Lean_AssocList_isEmpty(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -666,6 +693,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_AssocList_findEntry_x3f___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -714,6 +742,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_AssocList_instForInProdOfMonad___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -755,6 +784,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_AssocList_foldl___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -766,6 +796,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_AssocList_foldlM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -782,6 +813,7 @@ return x_7;
 }
 }
 public static byte l_Lean_AssocList_all___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -831,6 +863,7 @@ return x_3;
 }
 }
 public static byte l_Lean_AssocList_contains___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -941,6 +974,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_AssocList_0__Lean_AssocList_forIn_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -949,6 +983,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_AssocList_mapKey___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1033,6 +1068,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_AssocList_erase___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -1131,6 +1167,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_AssocList_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1164,6 +1201,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_AssocList_foldlM___at___00Lean_AssocList_toList_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1376,6 +1414,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_AssocList_mapVal___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

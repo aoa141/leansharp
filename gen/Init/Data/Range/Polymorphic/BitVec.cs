@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Range_Polymorphic_BitVec {
 public static Obj l_BitVec_instRxoHasSize___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -39,6 +40,7 @@ return x_6;
 }
 }
 public static Obj l_BitVec_instRxcHasSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -79,6 +81,7 @@ return x_3;
 }
 }
 public static Obj l_BitVec_instUpwardEnumerable___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -115,6 +118,7 @@ return x_3;
 }
 }
 public static Obj l_BitVec_instRxoHasSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

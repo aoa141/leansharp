@@ -320,6 +320,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_InsertionSort_0__Array_insertionSort_swapLoop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -448,6 +449,7 @@ return x_4;
 }
 }
 public static Obj l_Array_insertionSort(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -488,6 +490,7 @@ return x_3;
 }
 }
 public static Obj l_Array_insertionSort___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -570,6 +573,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_InsertionSort_0__Array_insertionSort_traverse___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -727,6 +731,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_InsertionSort_0__Array_insertionSort_swapLoop___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

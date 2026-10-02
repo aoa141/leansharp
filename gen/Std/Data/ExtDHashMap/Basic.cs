@@ -15,6 +15,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_ofList___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -61,6 +62,7 @@ return x_10;
 }
 }
 public static Obj l_Std_ExtDHashMap_instEmptyCollection___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -231,6 +233,7 @@ return x_50;
 }
 }
 public static Obj l_Std_ExtDHashMap_getKeyD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -248,6 +251,7 @@ return x_1;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_unitOfArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -284,6 +288,7 @@ return x_1;
 }
 }
 public static Obj l_Std_ExtDHashMap_diff(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -312,6 +317,7 @@ return x_16;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_unitOfArray___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -363,6 +369,7 @@ return x_3;
 }
 }
 public static Obj l_Std_ExtDHashMap_diff___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -395,6 +402,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_beq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -414,6 +422,7 @@ return x_10;
 }
 }
 public static Obj l_Std_ExtDHashMap_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -424,6 +433,7 @@ return x_10;
 }
 }
 public static Obj l_Std_ExtDHashMap_get_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -441,6 +451,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtDHashMap_instDecidableMem___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -451,6 +462,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtDHashMap_instMembershipOfEquivBEqOfLawfulHashable___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -515,6 +527,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtDHashMap_getKey_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -524,6 +537,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtDHashMap_lift___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -558,6 +572,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtDHashMap_size___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -615,6 +630,7 @@ return x_10;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_get___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -634,6 +650,7 @@ return x_1;
 }
 }
 public static Obj l_Std_ExtDHashMap_isEmpty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -863,6 +880,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtDHashMap_getKey_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -872,6 +890,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_get_x21___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -955,6 +974,7 @@ return x_1;
 }
 }
 public static Obj l_Std_ExtDHashMap_instInhabited___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -965,6 +985,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtDHashMap_filter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -975,6 +996,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtDHashMap_filterMap___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1162,6 +1184,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtDHashMap_map___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1298,6 +1321,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtDHashMap_union(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -1373,6 +1397,7 @@ return x_9;
 }
 }
 public static Obj l_Std_ExtDHashMap_instInhabited(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1463,6 +1488,7 @@ return x_10;
 }
 }
 public static Obj l_Std_ExtDHashMap_instBEqOfLawfulBEq___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1484,6 +1510,7 @@ return x_2;
 }
 }
 public static Obj l_Std_ExtDHashMap_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1858,6 +1885,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_get___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1867,6 +1895,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2228,6 +2257,7 @@ return x_7;
 }
 }
 public static Obj l_Std_ExtDHashMap_union___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -2262,6 +2292,7 @@ return x_16;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_getD___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2314,6 +2345,7 @@ return x_10;
 }
 }
 public static Obj l_Std_ExtDHashMap_Const_beq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -2323,6 +2355,7 @@ return x_11;
 }
 }
 public static Obj l_Std_ExtDHashMap_get___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2332,6 +2365,7 @@ return x_5;
 }
 }
 public static Obj l_Std_ExtDHashMap_getKeyD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -3035,6 +3069,7 @@ return x_6;
 }
 }
 public static Obj l_Std_ExtDHashMap_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 

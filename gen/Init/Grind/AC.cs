@@ -26,6 +26,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_AC_instBEqExpr_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -37,6 +38,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Grind_AC_Expr_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -56,6 +58,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_concat(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -118,6 +121,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Grind_AC_instReprSeq_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -127,6 +131,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_AC_Expr_toSeq_x27___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -136,6 +141,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_AC_Expr_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -144,6 +150,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_var_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -223,6 +230,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Grind_AC_instBEqSeq_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -273,6 +281,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Grind_AC_Expr_toSeq(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -332,6 +341,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -341,6 +351,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_sort_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -378,6 +389,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_union(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -412,6 +424,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Grind_AC_Expr_var_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -431,6 +444,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_cons_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -439,6 +453,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_eraseDup(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -595,6 +610,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_AC_instReprExpr_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -618,6 +634,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_cons_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -661,6 +678,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Grind_AC_0__Lean_Grind_AC_Seq_unionFuel_match__3_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -767,6 +785,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_unionFuel(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -966,6 +985,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_erase0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1097,6 +1117,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_insert(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1311,6 +1332,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_var_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1478,6 +1500,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Grind_AC_Expr_toSeq_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1624,6 +1647,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1650,6 +1674,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Grind_AC_instBEqExpr_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1700,6 +1725,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Grind_AC_Seq_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1787,6 +1813,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_AC_instReprExpr_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1998,6 +2025,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Grind_AC_instReprSeq_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

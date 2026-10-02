@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lake_Build_Store_0__Lake_BuildStore_getPackageFacetJob_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -27,6 +28,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_BuildStore_collectPackageFacetArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -45,6 +47,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_Store_0__Lake_BuildStore_getPackageFacetJob_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -54,6 +57,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_BuildStore_collectSharedExternLibs___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -63,6 +67,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_BuildStore_collectTargetFacetArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -71,6 +76,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_BuildStore_collectModuleFacetArray___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -80,6 +86,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_BuildStore_collectModuleFacetArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -223,6 +230,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lake_Build_Store_0__Lake_BuildStore_getTargetFacetJob_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -233,6 +241,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_BuildStore_collectModuleFacetArray___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -294,6 +303,7 @@ return x_16;
 }
 }
 public static Obj l___private_Lake_Build_Store_0__Lake_BuildStore_getModuleFacetJob_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -322,6 +332,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildStore_collectTargetFacetArray___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -468,6 +479,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lake_Build_Store_0__Lake_BuildStore_getModuleFacetJob_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -486,6 +498,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_BuildStore_collectModuleFacetMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -494,6 +507,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_BuildStore_collectTargetFacetArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -519,6 +533,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_BuildStore_collectModuleFacetMap___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -738,6 +753,7 @@ return x_38;
 }
 }
 public static Obj l_Lake_BuildStore_collectModuleFacetMap___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 

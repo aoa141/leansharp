@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_Internal_List_Defs {
 public static Obj l_Std_Internal_List_keys___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -68,6 +69,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_List_values(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -76,6 +78,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Internal_List_values___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

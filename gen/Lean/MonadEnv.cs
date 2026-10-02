@@ -63,6 +63,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_setEnv___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -111,6 +112,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_getConstInfo(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -119,6 +121,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_isLargeEliminating___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_7) == 5)
@@ -161,6 +164,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_isEnumType___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -172,6 +176,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_getAsyncConstInfo(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -180,6 +185,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_withEnv___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -209,6 +215,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_isInductive_x3f___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -229,6 +236,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_getConstInfoRec___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -316,6 +324,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_withEnv___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -335,6 +344,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_evalConst___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -344,6 +354,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_getAsyncConstInfo___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -353,6 +364,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_isRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -361,6 +373,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_withoutModifyingEnv_x27___redArg___lam__5(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -379,6 +392,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_hasCompileError___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -388,6 +402,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_withEnv___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -406,6 +421,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_matchConstNonRecStructure___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_16 = 0; Obj x_17 = null; 
@@ -635,6 +651,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_isInductive(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -643,6 +660,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_matchConstStructure___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; 
@@ -780,6 +798,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_hasConst___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -811,6 +830,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_getConstInfoCtor(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -916,6 +936,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_isDefn_x3f___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1055,6 +1076,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_getConstInfoRec(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1131,6 +1153,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_getAsyncConstInfo___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -1251,6 +1274,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_evalConst___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1310,6 +1334,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_findModuleOf_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1351,6 +1376,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_isLargeEliminating___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1376,6 +1402,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_evalConst(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, byte x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1468,6 +1495,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_withoutModifyingEnv_x27___redArg___lam__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1640,6 +1668,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_getConstInfoCtor___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -1703,6 +1732,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_isInductive___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
@@ -1713,6 +1743,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_getConstInfoDefn___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -1747,6 +1778,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_isEnumType(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1774,6 +1806,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_withEnv___redArg___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1794,6 +1827,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_withoutModifyingEnv_x27(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -2022,6 +2056,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_withEnv___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2031,6 +2066,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_isRec___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; 
@@ -2129,6 +2165,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_evalConst___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -2168,6 +2205,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_isCtor_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2241,6 +2279,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_findModuleOf_x3f___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2297,6 +2336,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_evalConst___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2327,6 +2367,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_isInductiveCore___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2362,6 +2403,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_getConstInfoInduct___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2398,6 +2440,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_evalConstCheck(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -2740,6 +2783,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_isCtor_x3f___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2927,6 +2971,7 @@ return x_44;
 }
 }
 public static Obj l_Lean_evalConstCheck___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 

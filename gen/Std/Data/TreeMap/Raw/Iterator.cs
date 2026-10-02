@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_TreeMap_Raw_Iterator {
 public static Obj l_Std_TreeMap_Raw_valuesIter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -59,6 +60,7 @@ return x_5;
 }
 }
 public static Obj l_Std_TreeMap_Raw_keysIter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

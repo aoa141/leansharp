@@ -132,6 +132,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_cumulativeDays___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -178,6 +179,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_instReprQuarter___aux__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -203,6 +205,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Month_Quarter_ofMonth___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -223,6 +226,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Month_instDecidableLeOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -254,6 +258,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_toSeconds(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -316,6 +321,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Month_instDecidableLeOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -337,6 +343,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Month_instReprOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -394,6 +401,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_instOrdOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -405,6 +413,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_toOffset___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -426,6 +435,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_ofInt___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -576,6 +586,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_days(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -718,6 +729,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Offset_ofInt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -727,6 +739,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Month_instDecidableEqOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -738,6 +751,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Month_instOfNatOrdinal___aux__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -1006,6 +1020,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_toMinutes(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -1076,6 +1091,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_ofInt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1241,6 +1257,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_toDays___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1271,6 +1288,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_toNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1488,6 +1506,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_toHours(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1569,6 +1588,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_clipDay___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1580,6 +1600,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Month_instDecidableLeOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1833,6 +1854,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_instToStringOffset___aux__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1934,6 +1956,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_toDays(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -2042,6 +2065,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Month_instReprOrdinal___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2190,6 +2214,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Month_Quarter_ofMonth(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2704,6 +2729,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Month_Ordinal_cumulativeDays(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -2765,6 +2791,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Month_instOrdQuarter___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3293,6 +3320,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Month_instOfNatQuarter___aux__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 

@@ -63,6 +63,7 @@ return x_15;
 }
 }
 public static Obj l_List_instTransLeOfIsLinearOrderOfLawfulOrderLT___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -83,6 +84,7 @@ return lean_box(0);
 }
 }
 public static Obj l_List_instTransLt___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

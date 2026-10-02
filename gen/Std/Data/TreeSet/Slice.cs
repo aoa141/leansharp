@@ -27,6 +27,7 @@ return x_3;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRciSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -46,6 +47,7 @@ return x_2;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRocSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -54,6 +56,7 @@ return x_2;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRciSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -131,6 +134,7 @@ return x_3;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRcoSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -168,6 +172,7 @@ return x_1;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRccSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -177,6 +182,7 @@ return x_3;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRicSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -185,6 +191,7 @@ return x_3;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRcoSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -256,6 +263,7 @@ return x_1;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRioSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -313,6 +321,7 @@ return x_1;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRioSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -351,6 +360,7 @@ return x_1;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRiiSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -565,6 +575,7 @@ return x_3;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRooSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -768,6 +779,7 @@ return x_2;
 }
 }
 public static Obj l_Std_TreeSet_instSliceableRocSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

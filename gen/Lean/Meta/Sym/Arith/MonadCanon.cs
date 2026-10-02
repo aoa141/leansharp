@@ -106,6 +106,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_Sym_Arith_MonadCanon_synthInstance(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

@@ -61,6 +61,7 @@ return x_5;
 }
 }
 public static Obj l_Id_instOfNat___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -80,6 +81,7 @@ return x_1;
 }
 }
 public static Obj l_Id_run___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -104,6 +106,7 @@ return x_4;
 }
 }
 public static Obj l_ForIn_toArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -131,6 +134,7 @@ return x_1;
 }
 }
 public static Obj l_Id_instMonad___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -276,6 +280,7 @@ return x_2;
 }
 }
 public static Obj l_ForIn_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

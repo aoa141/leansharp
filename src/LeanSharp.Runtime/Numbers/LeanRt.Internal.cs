@@ -77,7 +77,10 @@ public static unsafe partial class LeanRt
     /* setMaxHeartbeat (max : USize) : BaseIO Unit */
     public static Obj lean_internal_set_max_heartbeat(ulong max)
     {
+        // `g_max_heartbeat`: the limit of the kernel's `check_heartbeat` on this thread
+        // (`lean --timeout`); threads started from here inherit it
         LeanRuntimeSettings.MaxHeartbeat = max;
+        LeanSharp.Kernel.KernelLimits.MaxHeartbeat = max;
         return lean_box(0);
     }
 

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_PosRaw {
 public static Obj l_String_Pos_Raw_increaseBy___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -26,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_String_getUtf8Byte___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -35,6 +37,7 @@ return x_5;
 }
 }
 public static Obj l_String_instDecidableLeRaw___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -73,6 +76,7 @@ return x_1;
 }
 }
 public static Obj l_String_instHSubRawChar___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -84,6 +88,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_Raw_offsetBy___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -104,6 +109,7 @@ return x_1;
 }
 }
 public static Obj l_String_getUTF8Byte___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -114,6 +120,7 @@ return x_5;
 }
 }
 public static Obj l_String_instHAddRaw___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -124,6 +131,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_decreaseBy___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -134,6 +142,7 @@ return x_3;
 }
 }
 public static Obj l_String_Pos_Raw_dec___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -173,6 +182,7 @@ return x_3;
 }
 }
 public static Obj l_String_instHSubRaw___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -210,6 +220,7 @@ return x_1;
 }
 }
 public static Obj l_String_Pos_Raw_min___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -239,6 +250,7 @@ return x_1;
 }
 }
 public static Obj l_String_Pos_Raw_byteDistance___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -278,6 +290,7 @@ return x_4;
 }
 }
 public static Obj l_String_instDecidableLtRaw___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static byte l_Sum_isRight(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -25,6 +26,7 @@ return x_4;
 }
 }
 public static Obj l_Sum_getRight___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -34,6 +36,7 @@ return x_5;
 }
 }
 public static Obj l_Sum_swap(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -42,6 +45,7 @@ return x_4;
 }
 }
 public static Obj l_Sum_getRight_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -67,6 +71,7 @@ return x_3;
 }
 }
 public static Obj l_Sum_swap___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -153,6 +158,7 @@ return x_4;
 }
 }
 public static Obj l_Sum_instDecidableRelSumLex___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -162,6 +168,7 @@ return x_6;
 }
 }
 public static Obj l_Sum_map(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -187,6 +194,7 @@ return x_3;
 }
 }
 public static Obj l_Sum_getLeft___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -223,6 +231,7 @@ return x_5;
 }
 }
 public static Obj l_Sum_getLeft_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -330,6 +339,7 @@ return x_5;
 }
 }
 public static Obj l_Sum_instDecidableLiftRel___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; Obj x_12 = null; 
@@ -339,6 +349,7 @@ return x_12;
 }
 }
 public static Obj l_Sum_instDecidableLiftRel___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -348,6 +359,7 @@ return x_6;
 }
 }
 public static byte l_Sum_instDecidableLiftRel(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; 
@@ -413,6 +425,7 @@ return x_14;
 }
 }
 public static Obj l_Sum_getRight___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -422,6 +435,7 @@ return x_2;
 }
 }
 public static Obj l_Sum_instDecidableRelSumLex___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 

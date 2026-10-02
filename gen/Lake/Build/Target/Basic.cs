@@ -19,6 +19,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Target_instRepr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -79,6 +80,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Target_instCoePartialBuildKey___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -122,6 +124,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Target_repr(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -152,6 +155,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Target_instRepr___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -193,6 +197,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Target_repr___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

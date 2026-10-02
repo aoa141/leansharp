@@ -78,6 +78,7 @@ return x_8;
 }
 }
 public static Obj l_ByteArray_Iterator_hasPrev___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -88,6 +89,7 @@ return x_3;
 }
 }
 public static Obj l_ByteArray_Iterator_atEnd___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -109,6 +111,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_foldl___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -119,6 +122,7 @@ return x_7;
 }
 }
 public static Obj l_ByteArray_foldlMUnsafe_fold___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -183,6 +187,7 @@ return x_6;
 }
 }
 public static Obj l_ByteArray_set_x21___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -204,6 +209,7 @@ return x_3;
 }
 }
 public static byte l_ByteArray_instGetElemUSizeUInt8LtNatValToFinSize___lam__0(Obj x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -281,6 +287,7 @@ return x_2;
 }
 }
 public static Obj l_ByteArray_instSizeOfIterator___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -290,6 +297,7 @@ return x_2;
 }
 }
 public static Obj l_ByteArray_instDecidableEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -301,6 +309,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_findFinIdx_x3f_loop(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -343,6 +352,7 @@ return x_14;
 }
 }
 public static Obj l_ByteArray_toList_loop(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -403,6 +413,7 @@ return x_1;
 }
 }
 public static byte l_ByteArray_instDecidableEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -460,6 +471,7 @@ return x_1;
 }
 }
 public static Obj l_ByteArray_forInUnsafe_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -481,6 +493,7 @@ return x_2;
 }
 }
 public static Obj l_ByteArray_foldl___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -491,6 +504,7 @@ return x_6;
 }
 }
 public static Obj l_ByteArray_forIn_loop___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -512,6 +526,7 @@ return x_8;
 }
 }
 public static Obj l_ByteArray_foldlMUnsafe_fold___redArg(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -615,6 +630,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_Iterator_curr_x27___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -633,6 +649,7 @@ return x_9;
 }
 }
 public static Obj l_ByteArray_forInUnsafe_loop___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; 
@@ -645,6 +662,7 @@ return x_10;
 }
 }
 public static Obj l_ByteArray_findIdx_x3f(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -685,6 +703,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_findIdx_x3f_loop(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -749,6 +768,7 @@ return x_1;
 }
 }
 public static Obj l_ByteArray_propagateMark___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -868,6 +888,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_instGetElemNatUInt8LtSize___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -900,6 +921,7 @@ return x_1;
 }
 }
 public static Obj l_ByteArray_foldlM_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 Obj x_11 = null; 
@@ -918,6 +940,7 @@ return x_1;
 }
 }
 public static Obj l_ByteArray_forInUnsafe_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, ulong x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -976,6 +999,7 @@ return x_21;
 }
 }
 public static Obj l_ByteArray_foldlMUnsafe___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1011,6 +1035,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_Iterator_curr_x27___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1021,6 +1046,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_foldlM_loop___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1246,6 +1272,7 @@ return x_8;
 }
 }
 public static Obj l_ByteArray_get_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1268,6 +1295,7 @@ return x_2;
 }
 }
 public static Obj l_ByteArray_foldl___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -1352,6 +1380,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_forInUnsafe___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1394,6 +1423,7 @@ return x_3;
 }
 }
 public static Obj l_ByteArray_uset___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -1405,6 +1435,7 @@ return x_7;
 }
 }
 public static Obj l_ByteArray_forIn_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -1482,6 +1513,7 @@ return x_2;
 }
 }
 public static Obj l_ByteArray_markLinear___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1744,6 +1776,7 @@ return x_8;
 }
 }
 public static Obj l_ByteArray_findFinIdx_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1779,6 +1812,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_forInUnsafe_loop___redArg___lam__0(Obj x_1, ulong x_2, Obj x_3, Obj x_4, Obj x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_7) == 0)
@@ -1885,6 +1919,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_foldlM_loop___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1962,6 +1997,7 @@ return x_2;
 }
 }
 public static Obj l_ByteArray_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2019,6 +2055,7 @@ return x_3;
 }
 }
 public static Obj l_ByteArray_fastAppend___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2039,6 +2076,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_foldlM_loop___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 

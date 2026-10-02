@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Std_PRange_instHasSizeNat___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -516,6 +517,7 @@ return x_14;
 }
 }
 public static Obj l_Std_instHasRcoIntersectionNat__2___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -668,6 +670,7 @@ return x_1;
 }
 }
 public static Obj l_Std_instHasRcoIntersectionNat___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

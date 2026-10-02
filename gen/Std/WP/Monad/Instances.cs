@@ -49,6 +49,7 @@ return x_3;
 }
 }
 public static Obj l_Std_WP_Id_wpInst___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -64,6 +65,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Std_WP_EStateM_wpInst___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -83,6 +85,7 @@ return x_2;
 }
 }
 public static Obj l_Std_WP_EStateM_instWPMonad___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -143,6 +146,7 @@ return x_4;
 }
 }
 public static Obj l_Std_WP_Except_wpInst___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -161,6 +165,7 @@ return x_2;
 }
 }
 public static Obj l_Std_WP_ReaderT_instWPMonad___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -170,6 +175,7 @@ return x_4;
 }
 }
 public static Obj l_Std_WP_EStateM_wpInst___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -178,6 +184,7 @@ return x_2;
 }
 }
 public static Obj l_Std_WP_Option_wpInst___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -251,6 +258,7 @@ return x_1;
 }
 }
 public static Obj l_Std_WP_Except_wpInst___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -270,6 +278,7 @@ return x_2;
 }
 }
 public static Obj l_Std_WP_StateT_instWPMonad___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -333,6 +342,7 @@ return x_9;
 }
 }
 public static Obj l_Std_WP_ExceptT_wpInst(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -388,6 +398,7 @@ return x_13;
 }
 }
 public static Obj l_Std_WP_Except_instWPMonad___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -521,6 +532,7 @@ return x_8;
 }
 }
 public static Obj l_Std_WP_StateT_wpInst(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

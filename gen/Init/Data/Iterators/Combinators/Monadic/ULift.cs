@@ -24,6 +24,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Iterators_Combinators_Monadic_ULift_0__Std_Iterators_Types_ULiftIterator_instFinitenessRelation___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -148,6 +149,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Iterators_Combinators_Monadic_ULift_0__Std_Iterators_Types_ULiftIterator_instProductivenessRelation___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -156,6 +158,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Iterators_ULiftT_run___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -354,6 +357,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Iterators_instMonadULiftT___redArg___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -566,6 +570,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Iterators_ULiftT_run___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

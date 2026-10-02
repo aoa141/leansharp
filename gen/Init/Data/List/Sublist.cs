@@ -13,6 +13,7 @@ return lean_box(0);
 }
 }
 public static byte l_List_instDecidableIsPrefixOfDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -21,6 +22,7 @@ return x_5;
 }
 }
 public static Obj l_List_instTransSublist___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -82,6 +84,7 @@ return x_14;
 }
 }
 public static byte l_List_instDecidableSublistOfDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -166,6 +169,7 @@ return lean_box(0);
 }
 }
 public static Obj l_List_instDecidableIsInfixOfDecidableEq___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -216,6 +220,7 @@ return x_12;
 }
 }
 public static Obj l_List_instDecidableIsInfixOfDecidableEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -289,6 +294,7 @@ return x_5;
 }
 }
 public static Obj l_List_instDecidableIsSuffixOfDecidableEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -351,6 +357,7 @@ return lean_box(0);
 }
 }
 public static byte l_List_instDecidableIsInfixOfDecidableEq(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -386,6 +393,7 @@ return x_5;
 }
 }
 public static Obj l_List_instTransSubset___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

@@ -231,9 +231,9 @@ internal static class KList
 
 /// <summary>Heartbeats, recursion depth and cancellation for the kernel.</summary>
 /// <remarks>
-/// In the C++ runtime the heartbeat counter is a thread-local value that is also incremented by the
-/// small object allocator. Here the kernel keeps its own per-thread counter; the runtime can replace
-/// it by setting <see cref="GetHeartbeatHook"/> and <see cref="AddHeartbeatsHook"/>.
+/// As in the C++ runtime (`g_heartbeat`, `g_max_heartbeat` in interrupt.cpp) the kernel counts its
+/// own `check_heartbeat` calls per thread, separately from the allocation counter that
+/// `IO.getNumHeartbeats` reads. The count is reset when a task starts.
 /// </remarks>
 public static class KernelLimits
 {
@@ -243,23 +243,15 @@ public static class KernelLimits
     [ThreadStatic] static ulong t_recDepth;
     [ThreadStatic] static Obj t_cancelTk;
 
-    /// <summary>Optional hook returning the current heartbeat count of the thread.</summary>
-    public static Func<ulong> GetHeartbeatHook;
-    /// <summary>Optional hook adding heartbeats to the current thread's counter.</summary>
-    public static Action<ulong> AddHeartbeatsHook;
-
     /// <summary>`g_kernel_rec_depth_factor`.</summary>
     public const ulong KernelRecDepthFactor = 16;
 
-    public static ulong Heartbeat => GetHeartbeatHook != null ? GetHeartbeatHook() : t_heartbeat;
+    /// <summary>`g_heartbeat`: number of `check_heartbeat` calls on this thread since the current task started.</summary>
+    public static ulong Heartbeat => t_heartbeat;
 
     public static ulong MaxHeartbeat { get => t_maxHeartbeat; set => t_maxHeartbeat = value; }
 
-    public static void AddHeartbeats(ulong n)
-    {
-        if (AddHeartbeatsHook != null) AddHeartbeatsHook(n);
-        else t_heartbeat += n;
-    }
+    public static void AddHeartbeats(ulong n) => t_heartbeat += n;
 
     public static void ResetHeartbeat() => t_heartbeat = 0;
 

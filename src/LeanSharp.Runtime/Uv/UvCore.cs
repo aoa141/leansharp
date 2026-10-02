@@ -375,8 +375,7 @@ internal static unsafe class UvUtil
     public static Obj IoOkUnit() => lean_io_result_mk_ok(lean_box(0));
 
     /// <summary>`lean_alloc_external(cls, data)`.</summary>
-    public static Obj AllocExternal(ExternalClass cls, object data) =>
-        new ExternalObj { m_tag = LeanExternal, m_class = cls, m_data = data };
+    public static Obj AllocExternal(ExternalClass cls, object data) => lean_alloc_external(cls, data);
 
     public static T ExternalData<T>(Obj o) where T : class => (T)Unsafe.As<ExternalObj>(o).m_data;
 

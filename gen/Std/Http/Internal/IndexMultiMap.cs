@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Internal_IndexMultiMap {
 public static Obj l_Std_Internal_IndexMultiMap_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15,6 +16,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_get_x21___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -45,6 +47,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_getAll___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -79,6 +82,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_eraseMany___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -251,6 +255,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_getAll_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -295,6 +300,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_get_x21___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -361,6 +367,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_get___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -379,6 +386,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_get_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -433,6 +441,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_ofList___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -464,6 +473,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_getLast_x3f___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -527,6 +537,7 @@ return x_21;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_instDecidableMem___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -644,6 +655,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Internal_instInhabitedIndexMultiMap(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -652,6 +664,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_contains___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -850,6 +863,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_merge___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -920,6 +934,7 @@ return x_14;
 }
 }
 public static byte l_Std_Internal_IndexMultiMap_instDecidableMem(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -928,6 +943,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_instEmptyCollection(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -950,6 +966,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_empty___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1036,6 +1053,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_toArray___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1047,6 +1065,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_update___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1140,6 +1159,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_erase(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -1211,6 +1231,7 @@ return x_23;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_get___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1301,6 +1322,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_getAll___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; ulong x_10 = 0; ulong x_11 = 0; Obj x_12 = null; 
@@ -1332,6 +1354,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_get_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1392,6 +1415,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_eraseMany(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -1458,6 +1482,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_instSingletonProdOfEquivBEqOfLawfulHashable___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1480,6 +1505,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_contains___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1520,6 +1546,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_get_x21(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1555,6 +1582,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_hasEntry___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -1573,6 +1601,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_getAll(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; ulong x_13 = 0; ulong x_14 = 0; Obj x_15 = null; 
@@ -1633,6 +1662,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_instDecidableMem___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1643,6 +1673,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_update(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; 
@@ -2008,6 +2039,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_instEmptyCollection___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2295,6 +2327,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Internal_instReprIndexMultiMap_repr___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_70 = 0; 
@@ -2581,6 +2614,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_getD___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2798,6 +2832,7 @@ return x_15;
 }
 }
 public static Obj l_Std_Internal_IndexMultiMap_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3164,6 +3199,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Internal_instReprIndexMultiMap_repr___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

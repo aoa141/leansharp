@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofScientific___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -40,6 +41,7 @@ return x_2;
 }
 }
 public static Obj l_Float_Model_UnpackedFloat_ofScientific(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

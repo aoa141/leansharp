@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Util_Opaque {
 public static Obj l_Lake_POpaque_mk___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -30,6 +31,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Lake_Opaque_mk___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -46,6 +48,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_POpaque_cast___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -55,6 +58,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_POpaque_mk___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -108,6 +112,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_Opaque_mk___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

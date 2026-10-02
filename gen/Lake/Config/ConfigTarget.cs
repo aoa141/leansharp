@@ -74,6 +74,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_instHashableConfigTarget(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -113,6 +114,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instHashableConfigTarget___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -123,6 +125,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Package_findConfigTarget_x3f___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -263,6 +266,7 @@ return x_15;
 }
 }
 public static Obj l_Lake_instBEqConfigTarget___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -390,6 +394,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instHashableConfigTarget___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -398,6 +403,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instBEqConfigTarget___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -416,6 +422,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instBEqConfigTarget(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

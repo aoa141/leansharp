@@ -114,6 +114,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRccSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -280,6 +281,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRocSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -321,6 +323,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRiiSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -329,6 +332,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRoiSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -481,6 +485,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRiiSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -538,6 +543,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRicSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -564,6 +570,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRocSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -582,6 +589,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRooSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -637,6 +645,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRioSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -794,6 +803,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRciSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -893,6 +903,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Raw_instSliceableRoiSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

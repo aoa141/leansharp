@@ -497,6 +497,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_ofPoly(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -610,6 +611,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_Arith_Linear_ofLinExpr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

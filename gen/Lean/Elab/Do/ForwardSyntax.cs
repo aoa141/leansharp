@@ -56,6 +56,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Do_Forward_matchApp_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 

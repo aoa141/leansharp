@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Parser_Command {
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_section___regBuiltin_Lean_Parser_Command_section_formatter__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24,6 +25,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_version___regBuiltin_Lean_Parser_Command_version__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -123,6 +125,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_initialize_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -133,6 +136,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_deriving___regBuiltin_Lean_Parser_Command_deriving__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -244,6 +248,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_set__option___regBuiltin_Lean_Parser_Term_set__option_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -274,6 +279,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_declModifiersT_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -311,6 +317,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_open___regBuiltin_Lean_Parser_Command_openRenaming_parenthesizer__47___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -335,6 +342,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_printAxioms_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -361,6 +369,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_variable___regBuiltin_Lean_Parser_Command_variable_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -399,6 +408,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_open___regBuiltin_Lean_Parser_Command_openSimple_parenthesizer__55___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -449,6 +459,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_nonrec_parenthesizer__245___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -497,6 +508,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declId_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -537,6 +549,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_assertNotImported___regBuiltin_Lean_Parser_Command_assertNotImported__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -660,6 +673,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_ctor_formatter__135___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -680,6 +694,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_extends_formatter__179___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -688,6 +703,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_definition_parenthesizer__307___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -696,6 +712,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_extends_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -761,6 +778,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_monotonicityBy___regBuiltin_Lean_Parser_Command_monotonicityBy_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -837,6 +855,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_structImplicitBinder_formatter__191___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -845,6 +864,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_unsafe_formatter__29___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -972,6 +992,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_coinductive_parenthesizer__365___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -980,6 +1001,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_printEqns_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1071,6 +1093,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_structCtor_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1081,6 +1104,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_moduleDoc_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1170,6 +1194,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declModifiers_parenthesizer___lam__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -1282,6 +1307,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_instance_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1314,6 +1340,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_derivingClasses_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1338,6 +1365,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_openSimple_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1428,6 +1456,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_printEqns_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1572,6 +1601,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_partial_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1582,6 +1612,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_withExporting_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1679,6 +1710,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Tactic_set__option_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1703,6 +1735,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_exit_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1791,6 +1824,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_protected_formatter__17___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1813,6 +1847,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_monotonicityBy_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1857,6 +1892,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_structSimpleBinder_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1962,6 +1998,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_openRenaming_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2138,6 +2175,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Tactic_set__option___regBuiltin_Lean_Parser_Tactic_set__option_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2158,6 +2196,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_register__tactic__tag___regBuiltin_Lean_Parser_Command_register__tactic__tag_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2262,6 +2301,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_InternalSyntax_endLocalScopeSyntax(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2301,6 +2341,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_tactic__extension___regBuiltin_Lean_Parser_Command_tactic__extension_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2387,6 +2428,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Tactic_open___regBuiltin_Lean_Parser_Tactic_open_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2430,6 +2472,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_moduleDoc_parenthesizer___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2620,6 +2663,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printTacTags___regBuiltin_Lean_Parser_Command_printTacTags_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2747,6 +2791,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_protected_parenthesizer__225___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2755,6 +2800,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_meta___regBuiltin_Lean_Parser_Command_meta_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2825,6 +2871,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_showDeprecatedModules_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2837,6 +2884,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_deprecatedSyntax___regBuiltin_Lean_Parser_Command_deprecatedSyntax_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2845,6 +2893,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_contractDeclVal_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3082,6 +3131,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_openRenamingItem_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3208,6 +3258,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_optDeclSig_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3385,6 +3436,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_moduleDoc_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3456,6 +3508,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_mutual___regBuiltin_Lean_Parser_Command_mutual_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3508,6 +3561,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_public_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3518,6 +3572,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_openHiding_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3629,6 +3684,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_structImplicitBinder_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3969,6 +4025,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_tactic__extension_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -4008,6 +4065,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_import_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4058,6 +4116,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_universe___regBuiltin_Lean_Parser_Command_universe__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4098,6 +4157,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_skipUntilWsOrDelim___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -4151,6 +4211,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_recallCmd___regBuiltin_Lean_Parser_Command_recallCmd_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4171,6 +4232,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_classTk_formatter__171___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4179,6 +4241,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_quot___regBuiltin_Lean_Parser_Term_quot_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4267,6 +4330,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_showDeprecatedModules_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -4365,6 +4429,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_coinductive_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -4375,6 +4440,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_open___regBuiltin_Lean_Parser_Command_open__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4395,6 +4461,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_declModifiers_parenthesizer(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 
@@ -4750,6 +4817,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_importPath_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4897,6 +4965,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_recommended__spelling_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -5022,6 +5091,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_throwsClause_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5065,6 +5135,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_end___regBuiltin_Lean_Parser_Command_end_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5073,6 +5144,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_structParent_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5135,6 +5207,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_recallCmd___regBuiltin_Lean_Parser_Command_recallCmd__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5157,6 +5230,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_deprecatedSyntax___regBuiltin_Lean_Parser_Command_deprecatedSyntax__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5223,6 +5297,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_deprecated__module_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -5270,6 +5345,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_section_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5392,6 +5468,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declVal___regBuiltin_Lean_Parser_Command_declVal_docString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5427,6 +5504,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_definition_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -5545,6 +5623,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_docs__to__verso_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5854,6 +5933,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_eraseAttr_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -5864,6 +5944,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_requiresClause_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -5917,6 +5998,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printEqns___regBuiltin_Lean_Parser_Command_printEqns__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5937,6 +6019,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_printTacTags_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5949,6 +6032,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_addDocString___regBuiltin_Lean_Parser_Command_addDocString_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5985,6 +6069,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Term_set__option_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6038,6 +6123,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_structFields_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6059,6 +6145,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_printEqns_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6165,6 +6252,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_opaque_formatter__113___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6247,6 +6335,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_initialize_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6259,6 +6348,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_ensuresClause_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6283,6 +6373,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_openScoped_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6355,6 +6446,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_deprecated__module___regBuiltin_Lean_Parser_Command_deprecated__module_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6375,6 +6467,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_exit_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6385,6 +6478,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_structure_parenthesizer__413___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6521,6 +6615,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_declId_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6624,6 +6719,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Tactic_open_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6636,6 +6732,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_structExplicitBinder_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6704,6 +6801,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Term_set__option_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -6911,6 +7009,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_optNamedPrio_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6972,6 +7071,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_open___regBuiltin_Lean_Parser_Command_openScoped_formatter__29___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6980,6 +7080,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_importPath___regBuiltin_Lean_Parser_Command_importPath_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7006,6 +7107,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_coinductive_formatter__159___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7029,6 +7131,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_checkAssertions_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7041,6 +7144,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_monotonicityBy_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -7248,6 +7352,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_registerErrorExplanationStx_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -7346,6 +7451,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_export___regBuiltin_Lean_Parser_Command_export__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7406,6 +7512,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_check___regBuiltin_Lean_Parser_Command_check_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7616,6 +7723,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_check___regBuiltin_Lean_Parser_Command_check_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7663,6 +7771,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declSig_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -7800,6 +7909,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_deprecatedSyntax___regBuiltin_Lean_Parser_Command_deprecatedSyntax_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8055,6 +8165,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_opaque_parenthesizer__319___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8137,6 +8248,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_quot___regBuiltin_Lean_Parser_Term_quot__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8261,6 +8373,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_end___regBuiltin_Lean_Parser_Command_end_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8500,6 +8613,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Tactic_set__option___regBuiltin_Lean_Parser_Tactic_set__option_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8560,6 +8674,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_abbrev_parenthesizer__275___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8580,6 +8695,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_declModifiers_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -8738,6 +8854,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printAxioms___regBuiltin_Lean_Parser_Command_printAxioms__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9131,6 +9248,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_variable_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -9141,6 +9259,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_initializeKeyword_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -9151,6 +9270,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_printTacTags_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -9185,6 +9305,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_omit___regBuiltin_Lean_Parser_Command_omit_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9271,6 +9392,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_dumpAsyncEnvState_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -9361,6 +9483,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_quot___regBuiltin_Lean_Parser_Term_quot_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9369,6 +9492,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printEqns___regBuiltin_Lean_Parser_Command_printEqns_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9377,6 +9501,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_structFields_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -9433,6 +9558,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_register__tactic__tag_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9485,6 +9611,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_omit___regBuiltin_Lean_Parser_Command_omit_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9593,6 +9720,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_eval_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9762,6 +9890,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_end_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9838,6 +9967,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_requiresClause_formatter___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -10006,6 +10136,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_synth___regBuiltin_Lean_Parser_Command_synth_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10024,6 +10155,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_eval_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10036,6 +10168,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_declBody_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10085,6 +10218,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_declValEqns_parenthesizer__265___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10107,6 +10241,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_register__tactic__tag___regBuiltin_Lean_Parser_Command_register__tactic__tag__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10115,6 +10250,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_assertNotExists_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10231,6 +10367,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_ctor_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10369,6 +10506,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_where___regBuiltin_Lean_Parser_Command_where__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10546,6 +10684,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_contractDeclVal_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -10633,6 +10772,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_initialize___regBuiltin_Lean_Parser_Command_initialize_parenthesizer__19___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10701,6 +10841,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_omit___regBuiltin_Lean_Parser_Command_omit__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10709,6 +10850,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_section___regBuiltin_Lean_Parser_Command_sectionHeader_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10794,6 +10936,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_structureTk_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -10900,6 +11043,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_initialize___regBuiltin_Lean_Parser_Command_initializeKeyword_parenthesizer__15___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10978,6 +11122,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printEqns___regBuiltin_Lean_Parser_Command_printEqns_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11269,6 +11414,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_init__quot_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -11293,6 +11439,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_in_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11354,6 +11501,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_structSimpleBinder_formatter__199___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11553,6 +11701,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_where_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -11607,6 +11756,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_opaque_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -11629,6 +11779,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_moduleDoc___regBuiltin_Lean_Parser_Command_moduleDoc__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11649,6 +11800,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_version___regBuiltin_Lean_Parser_Command_version_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11657,6 +11809,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_declaration_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11705,6 +11858,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_where_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -11742,6 +11896,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_recallCmd___regBuiltin_Lean_Parser_Command_recallCmd_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11805,6 +11960,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_derivingClasses_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11841,6 +11997,7 @@ return x_3;
 }
 }
 public static Obj l_List_elem___at___00Lean_Parser_Command_declId_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -12284,6 +12441,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_partial_formatter__33___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12292,6 +12450,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_in_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12332,6 +12491,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_requiresClause_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12494,6 +12654,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_docs__to__verso___regBuiltin_Lean_Parser_Command_docs__to__verso_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12502,6 +12663,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_visibility_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12535,6 +12697,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_protected_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12629,6 +12792,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_mutual___regBuiltin_Lean_Parser_Command_mutual_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12701,6 +12865,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_optDeriving_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -12711,6 +12876,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_synth___regBuiltin_Lean_Parser_Command_synth_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12719,6 +12885,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_nonrec_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -12784,6 +12951,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_quot___regBuiltin_Lean_Parser_Command_quot__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12792,6 +12960,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Tactic_open_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -12843,6 +13012,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_structSimpleBinder_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -12951,6 +13121,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_mutual_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -13004,6 +13175,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_ensuresClause_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -13014,6 +13186,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_omit_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13074,6 +13247,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_deriving_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -13164,6 +13338,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_registerErrorExplanationStx___regBuiltin_Lean_Parser_Command_registerErrorExplanationStx_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13209,6 +13384,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_optDefDeriving_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13253,6 +13429,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_init__quot___regBuiltin_Lean_Parser_Command_init__quot_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13297,6 +13474,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_structure_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -13386,6 +13564,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_structParent_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13398,6 +13577,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_print_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -13408,6 +13588,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_include___regBuiltin_Lean_Parser_Command_include_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13462,6 +13643,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_axiom_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -13578,6 +13760,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_open___regBuiltin_Lean_Parser_Command_openRenamingItem_formatter__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13747,6 +13930,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_assertNotImported_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -13769,6 +13953,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_computedFields_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13795,6 +13980,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declValEqns_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13910,6 +14096,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_coinductive_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13981,6 +14168,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_public_formatter__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13989,6 +14177,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_evalBang_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14132,6 +14321,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_classTk_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -14217,6 +14407,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_derivingClass_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -14401,6 +14592,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_section___regBuiltin_Lean_Parser_Command_section_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14409,6 +14601,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_docs__to__verso___regBuiltin_Lean_Parser_Command_docs__to__verso_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14437,6 +14630,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_givenClause_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14449,6 +14643,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_dumpAsyncEnvState___regBuiltin_Lean_Parser_Command_dumpAsyncEnvState__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14532,6 +14727,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_classInductive_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14577,6 +14773,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_declValSimple_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -14681,6 +14878,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_openOnly_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14843,6 +15041,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_attribute___regBuiltin_Lean_Parser_Command_eraseAttr_parenthesizer__15___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14880,6 +15079,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_requiresClause_formatter__77___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15073,6 +15273,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_initialize___regBuiltin_Lean_Parser_Command_initialize_formatter__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15198,6 +15399,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_printAxioms_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -15253,6 +15455,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_deprecated__module___regBuiltin_Lean_Parser_Command_deprecated__module_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15415,6 +15618,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_instance_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -15427,6 +15631,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_synth___regBuiltin_Lean_Parser_Command_synth_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15693,6 +15898,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Term_precheckedQuot_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -16048,6 +16254,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_import_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -16095,6 +16302,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_optDeclSig_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -16107,6 +16315,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_givenClause_parenthesizer__279___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16203,6 +16412,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_namespace___regBuiltin_Lean_Parser_Command_namespace_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16274,6 +16484,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_optDeriving_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -16412,6 +16623,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_open___regBuiltin_Lean_Parser_Term_open_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16645,6 +16857,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_recommended__spelling___regBuiltin_Lean_Parser_Command_recommended__spelling_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16918,6 +17131,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_synth_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -16928,6 +17142,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_checkAssertions___regBuiltin_Lean_Parser_Command_checkAssertions_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17013,6 +17228,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_declaration_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17036,6 +17252,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_set__option___regBuiltin_Lean_Parser_Term_set__option__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17120,6 +17337,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_check__failure___regBuiltin_Lean_Parser_Command_check__failure_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17174,6 +17392,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_recallQuestionCmd_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -17201,6 +17420,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_openHiding_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -17257,6 +17477,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_initialize___regBuiltin_Lean_Parser_Command_initialize_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17338,6 +17559,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_axiom_formatter__127___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17539,6 +17761,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_open___regBuiltin_Lean_Parser_Term_open_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17652,6 +17875,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_assertNotExists_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -17677,6 +17901,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printTacTags___regBuiltin_Lean_Parser_Command_printTacTags_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17864,6 +18089,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_eval___regBuiltin_Lean_Parser_Command_eval_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17900,6 +18126,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_genInjectiveTheorems_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -17947,6 +18174,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Term_quot_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -17959,6 +18187,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_eraseAttr_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -17990,6 +18219,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_monotonicityBy_formatter__151___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17998,6 +18228,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_in_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -18010,6 +18241,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Parser_Command_open_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -18122,6 +18354,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_universe___regBuiltin_Lean_Parser_Command_universe_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18169,6 +18402,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_showDeprecatedModules___regBuiltin_Lean_Parser_Command_showDeprecatedModules_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18223,6 +18457,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_addDocString___regBuiltin_Lean_Parser_Command_addDocString_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18231,6 +18466,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_optDefDeriving_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -18303,6 +18539,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_declId_formatter__43___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18384,6 +18621,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_tactic__extension_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -18536,6 +18774,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printTacTags___regBuiltin_Lean_Parser_Command_printTacTags_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18544,6 +18783,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_eval___regBuiltin_Lean_Parser_Command_eval_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18625,6 +18865,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_set__option_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -18958,6 +19199,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_version_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -18998,6 +19240,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_structParent_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -19057,6 +19300,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_tactic__extension___regBuiltin_Lean_Parser_Command_tactic__extension_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19207,6 +19451,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_deprecated__module_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -19231,6 +19476,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_eval___regBuiltin_Lean_Parser_Command_eval_docString__15___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19261,6 +19507,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_withWeakNamespace_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -19308,6 +19555,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_tactic__extension_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -19318,6 +19566,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_assertNotImported___regBuiltin_Lean_Parser_Command_assertNotImported_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19617,6 +19866,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_opaque_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -19842,6 +20092,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_derivingClass_formatter__93___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19880,6 +20131,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_printAxioms_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -19994,6 +20246,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_eval_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -20004,6 +20257,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_end_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -20065,6 +20319,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_import___regBuiltin_Lean_Parser_Command_import__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20122,6 +20377,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Tactic_set__option___regBuiltin_Lean_Parser_Tactic_set__option_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20190,6 +20446,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_recommended__spelling___regBuiltin_Lean_Parser_Command_recommended__spelling__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -20413,6 +20670,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_checkAssertions_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -20840,6 +21098,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_check__failure___regBuiltin_Lean_Parser_Command_check__failure_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21079,6 +21338,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_universe___regBuiltin_Lean_Parser_Command_universe_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21292,6 +21552,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_universe_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -21581,6 +21842,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_set__option___regBuiltin_Lean_Parser_Term_set__option_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21699,6 +21961,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_withExporting___regBuiltin_Lean_Parser_Command_withExporting_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21794,6 +22057,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_assertNotExists_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -21958,6 +22222,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_set__option___regBuiltin_Lean_Parser_Term_set__option_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22035,6 +22300,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_importPath_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -22094,6 +22360,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_attribute___regBuiltin_Lean_Parser_Command_attribute_formatter__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22328,6 +22595,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_withExporting_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -22483,6 +22751,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_omit_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -22523,6 +22792,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_check___regBuiltin_Lean_Parser_Command_check__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22694,6 +22964,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_include_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -22766,6 +23037,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_assertNotImported___regBuiltin_Lean_Parser_Command_assertNotImported_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22786,6 +23058,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_givenClause_formatter___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -22839,6 +23112,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_initialize___regBuiltin_Lean_Parser_Command_initialize__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23024,6 +23298,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_import___regBuiltin_Lean_Parser_Command_import_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23056,6 +23331,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_check__failure___regBuiltin_Lean_Parser_Command_check__failure__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23140,6 +23416,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_partial_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -23259,6 +23536,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_structCtor_formatter__183___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23770,6 +24048,7 @@ return x_106;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_whereStructInst_parenthesizer__269___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23995,6 +24274,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_addDocString___regBuiltin_Lean_Parser_Command_addDocString_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24011,6 +24291,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_axiom_parenthesizer__333___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -24029,6 +24310,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Term_precheckedQuot_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -24237,6 +24519,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_optDeriving_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -24303,6 +24586,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_mutual_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -24313,6 +24597,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_export_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -24351,6 +24636,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_coinductive_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -24724,6 +25010,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Term_precheckedQuot_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -24778,6 +25065,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declVal_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -24843,6 +25131,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Tactic_open___regBuiltin_Lean_Parser_Tactic_open_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -25293,6 +25582,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_dumpAsyncEnvState___regBuiltin_Lean_Parser_Command_dumpAsyncEnvState_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -25318,6 +25608,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_declValEqns_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -25330,6 +25621,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_meta_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -25466,6 +25758,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_declModifiersF_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -25713,6 +26006,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_deprecatedSyntax_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -25758,6 +26052,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_skipUntil___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -25811,6 +26106,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_assertNotImported_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -25875,6 +26171,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_check_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -25920,6 +26217,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_recallQuestionCmd_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -26003,6 +26301,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_skipUntil___lam__2___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -26344,6 +26643,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_recallQuestionCmd___regBuiltin_Lean_Parser_Command_recallQuestionCmd_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26420,6 +26720,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_end___regBuiltin_Lean_Parser_Command_end_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26491,6 +26792,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_check__failure_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -26860,6 +27162,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_unlock__limits_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -26872,6 +27175,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_export___regBuiltin_Lean_Parser_Command_export_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26949,6 +27253,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_dumpAsyncEnvState_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -26995,6 +27300,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_openHiding_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -27095,6 +27401,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_theorem_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -27107,6 +27414,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_addDocString_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -27266,6 +27574,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_eoi_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -27615,6 +27924,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_abbrev_formatter__69___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27651,6 +27961,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_protected_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -27681,6 +27992,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_printSig_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -27788,6 +28100,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_import_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -27871,6 +28184,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_structParent_parenthesizer__381___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -27976,6 +28290,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_example_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -27998,6 +28313,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_dumpAsyncEnvState___regBuiltin_Lean_Parser_Command_dumpAsyncEnvState_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28159,6 +28475,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_derivingClass_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -28302,6 +28619,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_include___regBuiltin_Lean_Parser_Command_include__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28310,6 +28628,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_moduleDoc_formatter___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -28374,6 +28693,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_end___regBuiltin_Lean_Parser_Command_end__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28406,6 +28726,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_namespace___regBuiltin_Lean_Parser_Command_namespace__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28504,6 +28825,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_attribute_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -28629,6 +28951,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_evalBang_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -28641,6 +28964,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Tactic_set__option_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -28710,6 +29034,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_evalBang___regBuiltin_Lean_Parser_Command_evalBang_parenthesizer__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28797,6 +29122,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_mutual___regBuiltin_Lean_Parser_Command_mutual_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -28867,6 +29193,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_openScoped_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -28966,6 +29293,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_requiresClause_parenthesizer___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -29032,6 +29360,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_initializeKeyword_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -29052,6 +29381,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_structExplicitBinder_formatter__187___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29410,6 +29740,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_optDeclSig_formatter__49___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29568,6 +29899,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_structInstBinder_parenthesizer__401___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29605,6 +29937,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_sectionHeader_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -29721,6 +30054,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_eval___regBuiltin_Lean_Parser_Command_eval__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -29729,6 +30063,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_declValEqns_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -29807,6 +30142,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_withExporting___regBuiltin_Lean_Parser_Command_withExporting__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -30014,6 +30350,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_open_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -30124,6 +30461,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_showDeprecatedModules_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -30196,6 +30534,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printSig___regBuiltin_Lean_Parser_Command_printSig_formatter__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -30406,6 +30745,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_sectionHeader_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -30483,6 +30823,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_unlock__limits_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -30506,6 +30847,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_structInstBinder_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -30787,6 +31129,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_computedField_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -30797,6 +31140,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_openScoped_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -30902,6 +31246,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_variable_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -30948,6 +31293,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_withWeakNamespace___regBuiltin_Lean_Parser_Command_withWeakNamespace_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -30982,6 +31328,7 @@ return x_6;
 }
 }
 public static byte l_List_elem___at___00Lean_Parser_Command_declId_spec__0(uint x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -31022,6 +31369,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printTacTags___regBuiltin_Lean_Parser_Command_printTacTags__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -31127,6 +31475,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_optionValue_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -31330,6 +31679,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_openDecl_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -31340,6 +31690,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_meta_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -31350,6 +31701,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_givenClause_formatter__73___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -31466,6 +31818,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Term_open_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -31590,6 +31943,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_structureTk_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -31664,6 +32018,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Tactic_open_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -31782,6 +32137,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_open___regBuiltin_Lean_Parser_Command_openHiding_parenthesizer__39___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -31810,6 +32166,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_deprecatedSyntax_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -31928,6 +32285,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_deriving_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -32254,6 +32612,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_classInductive_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -32360,6 +32719,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declModifiersT_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -32390,6 +32750,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_inductive_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -32462,6 +32823,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_unlock__limits_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -32566,6 +32928,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_public_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -32714,6 +33077,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_namespace_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -32966,6 +33330,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_namedPrio_parenthesizer__323___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33045,6 +33410,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_include_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -33072,6 +33438,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_docs__to__verso_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -33309,6 +33676,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_derivingClasses_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -33357,6 +33725,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_evalBang_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -33394,6 +33763,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_private_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -33474,6 +33844,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_openRenamingItem_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -33660,6 +34031,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_namedPrio_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -33857,6 +34229,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_addDocString___regBuiltin_Lean_Parser_Command_addDocString__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -33875,6 +34248,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_set__option_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -34065,6 +34439,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_whereStructInst_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -34134,6 +34509,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_showDeprecatedModules___regBuiltin_Lean_Parser_Command_showDeprecatedModules_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -34142,6 +34518,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_openDecl_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -34154,6 +34531,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_givenClause_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -34271,6 +34649,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_genInjectiveTheorems___regBuiltin_Lean_Parser_Command_genInjectiveTheorems_parenthesizer__13___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -34341,6 +34720,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_declId___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -34475,6 +34855,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Tactic_set__option_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -34945,6 +35326,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_init__quot___regBuiltin_Lean_Parser_Command_init__quot_parenthesizer__11___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35084,6 +35466,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_export_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -35211,6 +35594,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_moduleDoc___regBuiltin_Lean_Parser_Command_moduleDoc_declRange__5___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -35269,6 +35653,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_structImplicitBinder_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -35325,6 +35710,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Term_quot_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -35657,6 +36043,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_printSig_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -35679,6 +36066,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_computedFields_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -35765,6 +36153,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_openOnly_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -35812,6 +36201,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_eoi_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -35877,6 +36267,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_noncomputable_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -35950,6 +36341,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_defTypeSpec_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -36023,6 +36415,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_structureTk_parenthesizer__373___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36055,6 +36448,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_precheckedQuot___regBuiltin_Lean_Parser_Term_precheckedQuot_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36063,6 +36457,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Term_open_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -36398,6 +36793,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_unlock__limits___regBuiltin_Lean_Parser_Command_unlock__limits__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36670,6 +37066,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_optDeclSig_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -36680,6 +37077,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_section_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -36772,6 +37170,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_contractDeclVal_formatter__89___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -36780,6 +37179,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_classInductive_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -37551,6 +37951,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_noncomputable_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -37563,6 +37964,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_check__failure_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -37772,6 +38174,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declaration_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -37796,6 +38199,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_section___regBuiltin_Lean_Parser_Command_sectionHeader_parenthesizer__17___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -38523,6 +38927,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Tactic_set__option_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -38557,6 +38962,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_declModifiers___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -38605,6 +39011,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_structure_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -39005,6 +39412,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_computedField_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -39082,6 +39490,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_unlock__limits___regBuiltin_Lean_Parser_Command_unlock__limits_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -39124,6 +39533,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_declBody_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -39310,6 +39720,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_quot_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -39338,6 +39749,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_variable___regBuiltin_Lean_Parser_Command_variable__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -39859,6 +40271,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_declVal_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -40215,6 +40628,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_synth_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -40676,6 +41090,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_openRenaming_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -40737,6 +41152,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declBody_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -40857,6 +41273,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_version_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -40961,6 +41378,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_dumpAsyncEnvState___regBuiltin_Lean_Parser_Command_dumpAsyncEnvState_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -40999,6 +41417,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_classTk_parenthesizer__377___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -41082,6 +41501,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printAxioms___regBuiltin_Lean_Parser_Command_printAxioms_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -41341,6 +41761,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printTacTags___regBuiltin_Lean_Parser_Command_printTacTags_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -41393,6 +41814,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_whereStructInst_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -41513,6 +41935,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_tactic__extension___regBuiltin_Lean_Parser_Command_tactic__extension_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -41521,6 +41944,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_unsafe_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -41678,6 +42102,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Parser_Command_theorem_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -41814,6 +42239,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_theorem_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -41919,6 +42345,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_synth___regBuiltin_Lean_Parser_Command_synth__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -42351,6 +42778,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_universe_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -42505,6 +42933,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_optDeclSig_formatter___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -42549,6 +42978,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_export___regBuiltin_Lean_Parser_Command_export_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -42569,6 +42999,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_import___regBuiltin_Lean_Parser_Command_import_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -42619,6 +43050,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_eoi_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -42690,6 +43122,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_derivingClasses_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -42754,6 +43187,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_structInstBinder_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -42820,6 +43254,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_namespace_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -43305,6 +43740,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_printEqns___regBuiltin_Lean_Parser_Command_printEqns_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -43325,6 +43761,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_register__tactic__tag_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -43419,6 +43856,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Term_open___regBuiltin_Lean_Parser_Term_open_formatter__9___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -43844,6 +44282,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_computedField_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -44078,6 +44517,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_importPath___regBuiltin_Lean_Parser_Command_importPath_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -44492,6 +44932,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_example_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -44621,6 +45062,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_version_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -44812,6 +45254,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_exit_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -44837,6 +45280,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_structureTk_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -45058,6 +45502,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_registerErrorExplanationStx_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -45138,6 +45583,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_definition_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -45190,6 +45636,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_section___regBuiltin_Lean_Parser_Command_section_parenthesizer__21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -45386,6 +45833,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_declaration_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -45869,6 +46317,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_open___regBuiltin_Lean_Parser_Command_openRenaming_formatter__17___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -45919,6 +46368,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_recommended__spelling___regBuiltin_Lean_Parser_Command_recommended__spelling_formatter__7___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -45927,6 +46377,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_withWeakNamespace_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -45997,6 +46448,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_check__failure___regBuiltin_Lean_Parser_Command_check__failure_declRange__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -46134,6 +46586,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_printEqns_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -46242,6 +46695,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_abbrev_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -46852,6 +47306,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_declSig_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -47968,6 +48423,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_check__failure_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -48198,6 +48654,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_declValSimple_formatter__55___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -48496,6 +48953,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_theorem_parenthesizer__315___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -48700,6 +49158,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_register__tactic__tag_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -48735,6 +49194,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_namespace_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -48908,6 +49368,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_export_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -49035,6 +49496,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_nonrec_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -49103,6 +49565,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_throwsClause_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -49261,6 +49724,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_genInjectiveTheorems_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -49425,6 +49889,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_requiresClause_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -49735,6 +50200,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_throwsClause_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -50283,6 +50749,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_namedPrio_formatter__117___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -50988,6 +51455,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_set__option___regBuiltin_Lean_Parser_Command_set__option__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -51210,6 +51678,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Term_quot_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -51414,6 +51883,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_declModifiersF_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -51717,6 +52187,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_attribute_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -52193,6 +52664,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_openOnly_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -52307,6 +52779,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_classInductive_parenthesizer___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -52451,6 +52924,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_declValEqns_formatter__59___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -52517,6 +52991,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_Command_end_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -52866,6 +53341,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_inductive_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -53339,6 +53815,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_requiresClause_parenthesizer__283___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -53667,6 +54144,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_printSig_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -53798,6 +54276,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_init__quot_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -53850,6 +54329,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Parser_Command_addDocString_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -54194,6 +54674,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Parser_Command_addDocString_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -56752,6 +57233,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Parser_Command_visibility_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -56973,6 +57455,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_structExplicitBinder_formatter(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -57418,6 +57901,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_withWeakNamespace___regBuiltin_Lean_Parser_Command_withWeakNamespace_docString__3___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -58908,6 +59392,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Parser_Command_abbrev_parenthesizer___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -59591,6 +60076,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Parser_Command_ctor_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -61201,6 +61687,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Parser_Command_0__Lean_Parser_Command_declaration___regBuiltin_Lean_Parser_Command_optDeclSig_parenthesizer__257___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -61866,6 +62353,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_quot_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -61913,6 +62401,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Parser_Command_end_parenthesizer(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -62823,6 +63312,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Parser_Command_computedFields_formatter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

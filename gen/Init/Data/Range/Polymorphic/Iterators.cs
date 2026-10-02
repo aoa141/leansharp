@@ -17,6 +17,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Rii_toArray___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -168,6 +169,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Rio_Internal_iter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -177,6 +179,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Roi_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -247,6 +250,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Rcc_toArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_20 = 0; 
@@ -302,6 +306,7 @@ return x_16;
 }
 }
 public static Obj l_Std_Roi_toList___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -425,6 +430,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Rco_toArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; byte x_20 = 0; 
@@ -602,6 +608,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Rci_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -640,6 +647,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Rci_Internal_iter___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -799,6 +807,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Rii_Internal_iter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -808,6 +817,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Rcc_toList___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_17 = 0; 
@@ -886,6 +896,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Rii_toList___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -895,6 +906,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Rci_toArray___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -973,6 +985,7 @@ return x_19;
 }
 }
 public static Obj l_Std_Ric_toList___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -989,6 +1002,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Rco_toList___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_17 = 0; 
@@ -1045,6 +1059,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Roc_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_22 = 0; 
@@ -1147,6 +1162,7 @@ return x_16;
 }
 }
 public static Obj l_Std_Ric_toArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1174,6 +1190,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Ric_toList(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -1190,6 +1207,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Roc_toList___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_18 = 0; 
@@ -1249,6 +1267,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Rio_toArray___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1352,6 +1371,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Roi_toArray(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1367,6 +1387,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Roc_toArray___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_17 = 0; 
@@ -1425,6 +1446,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Roo_toArray___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_17 = 0; 

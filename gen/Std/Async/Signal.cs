@@ -14,6 +14,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Signal_sigcont_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -23,6 +24,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -50,6 +52,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigvtalrm_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -74,6 +77,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Signal_sigwinch_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -84,6 +88,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_Signal_sigio_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -121,6 +126,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_Async_Signal_Waiter_selector_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_16 = 0; 
@@ -187,6 +193,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Signal_sigusr2_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -196,6 +203,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -225,6 +233,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigtstp_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -234,6 +243,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigttin_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -244,6 +254,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_Signal_sigchld_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -254,6 +265,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_Signal_sigxcpu_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -288,6 +300,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -343,6 +356,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__5(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_6 = null; 
@@ -483,6 +497,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigterm_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -563,6 +578,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__10___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -641,6 +657,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Signal_sigtrap_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -650,6 +667,7 @@ return x_2;
 }
 }
 public static byte l_Std_Async_instDecidableEqSignal(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -662,6 +680,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_Signal_sigprof_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -726,6 +745,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -735,6 +755,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Signal_sigquit_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -765,6 +786,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigalrm_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -823,6 +845,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__6___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -831,6 +854,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_Signal_sigterm_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -840,6 +864,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -849,6 +874,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Async_Signal_sigwinch_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -906,6 +932,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__4___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1070,6 +1097,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Signal_sigchld_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1542,6 +1570,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Signal_sighup_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1573,6 +1602,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_instReprSignal_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1700,6 +1730,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_wait(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1933,6 +1964,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigusr1_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1954,6 +1986,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_instBEqSignal_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1983,6 +2016,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigurg_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2206,6 +2240,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_mk___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2216,6 +2251,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_selector___lam__9___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2232,6 +2268,7 @@ return x_1;
 }
 }
 public static uint l___private_Std_Async_Signal_0__Std_Async_Signal_toInt32(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -2492,6 +2529,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Async_Signal_sigquit_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2536,6 +2574,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Async_instReprSignal_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; Obj x_31 = null; Obj x_38 = null; Obj x_45 = null; Obj x_52 = null; Obj x_59 = null; Obj x_66 = null; Obj x_73 = null; Obj x_80 = null; Obj x_87 = null; Obj x_94 = null; Obj x_101 = null; Obj x_108 = null; Obj x_115 = null; Obj x_122 = null; Obj x_129 = null; Obj x_136 = null; Obj x_143 = null; Obj x_150 = null; 
@@ -3378,6 +3417,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Signal_Waiter_stop___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3411,6 +3451,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigvtalrm_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3462,6 +3503,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Signal_sigprof_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 

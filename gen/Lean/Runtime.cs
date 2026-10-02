@@ -74,6 +74,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getMaxCtorScalarsSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -82,6 +83,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_getMaxCtorFields___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -90,6 +92,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_getUSizeSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static byte l_Float32_Model_instDecidableLE(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -25,6 +26,7 @@ return x_3;
 }
 }
 public static Obj l_Float32_Model_maximumNumber___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -38,6 +40,7 @@ return x_6;
 }
 }
 public static uint l_Float32_Model_div(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; uint x_7 = 0; 
@@ -51,6 +54,7 @@ return x_7;
 }
 }
 public static uint l_Float32_Model_ofInt32(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -62,6 +66,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_maximum(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; uint x_6 = 0; 
@@ -76,6 +81,7 @@ return x_6;
 }
 }
 public static byte l_Float32_Model_instDecidableLT(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -84,6 +90,7 @@ return x_3;
 }
 }
 public static uint l_Float32_Model_ofScientific(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; uint x_5 = 0; 
@@ -115,6 +122,7 @@ return x_1;
 }
 }
 public static uint l_Float32_Model_mul(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; uint x_7 = 0; 
@@ -128,6 +136,7 @@ return x_7;
 }
 }
 public static Obj l_Float32_Model_toInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; ushort x_3 = 0; Obj x_4 = null; 
@@ -139,6 +148,7 @@ return x_4;
 }
 }
 public static ulong l_Float32_Model_toISize(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; ulong x_3 = 0; 
@@ -149,6 +159,7 @@ return x_3;
 }
 }
 public static uint l_Float32_Model_ofInt16(ushort x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -160,6 +171,7 @@ return x_4;
 }
 }
 public static Obj l_Float32_Model_isFinite___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -181,6 +193,7 @@ return x_1;
 }
 }
 public static Obj l_Float32_Model_compare(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -206,6 +219,7 @@ return x_6;
 }
 }
 public static byte l_Float32_Model_lt(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -218,6 +232,7 @@ return x_5;
 }
 }
 public static uint l_Float32_Model_add(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; uint x_7 = 0; 
@@ -231,6 +246,7 @@ return x_7;
 }
 }
 public static Obj l_Float32_Model_minimumNumber___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -252,6 +268,7 @@ return x_3;
 }
 }
 public static uint l_Float32_Model_minimum(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; uint x_6 = 0; 
@@ -266,6 +283,7 @@ return x_6;
 }
 }
 public static uint l_Float32_Model_sqrt(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; uint x_5 = 0; 
@@ -279,6 +297,7 @@ return x_5;
 }
 }
 public static byte l_Float32_Model_beq(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -291,6 +310,7 @@ return x_5;
 }
 }
 public static Obj l_Float32_Model_fma___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; uint x_5 = 0; uint x_6 = 0; uint x_7 = 0; Obj x_8 = null; 
@@ -306,6 +326,7 @@ return x_8;
 }
 }
 public static Obj l_Float32_Model_ofInt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -329,6 +350,7 @@ return x_6;
 }
 }
 public static Obj l_Float32_Model_isNaN___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -340,6 +362,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_ofInt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -351,6 +374,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_fma(uint x_1, uint x_2, uint x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; uint x_9 = 0; 
@@ -365,6 +389,7 @@ return x_9;
 }
 }
 public static Obj l_Float32_Model_sub___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; uint x_5 = 0; Obj x_6 = null; 
@@ -398,6 +423,7 @@ return x_1;
 }
 }
 public static Obj l_Float32_instDecidableEqModel___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -431,6 +457,7 @@ return x_2;
 }
 }
 public static Obj l_Float32_Model_isInf___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -442,6 +469,7 @@ return x_4;
 }
 }
 public static byte l_Float32_Model_isFinite(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -452,6 +480,7 @@ return x_3;
 }
 }
 public static uint l_Float32_Model_ofUInt32(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -463,6 +492,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_ofBits(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; uint x_5 = 0; 
@@ -500,6 +530,7 @@ return x_6;
 }
 }
 public static Obj l_Float32_Model_neg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -511,6 +542,7 @@ return x_4;
 }
 }
 public static Obj l_Float32_Model_unpack(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -542,6 +574,7 @@ return x_1;
 }
 }
 public static uint l_Float32_Model_ofNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -553,6 +586,7 @@ return x_4;
 }
 }
 public static Obj l_Float32_Model_toUInt8___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -564,6 +598,7 @@ return x_4;
 }
 }
 public static Obj l_Float32_Model_pack___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -585,6 +620,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_maximumNumber(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; uint x_6 = 0; 
@@ -629,6 +665,7 @@ return x_1;
 }
 }
 public static uint l_Float32_Model_ofUInt64(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -640,6 +677,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_ofUInt8(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -688,6 +726,7 @@ return x_1;
 }
 }
 public static uint l_Float32_Model_minimumNumber(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; uint x_6 = 0; 
@@ -767,6 +806,7 @@ return x_1;
 }
 }
 public static Obj l_Float32_Model_ofUSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -788,6 +828,7 @@ return x_4;
 }
 }
 public static Obj l_Float32_Model_toUInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -819,6 +860,7 @@ return x_3;
 }
 }
 public static Obj l_Float32_Model_toInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -840,6 +882,7 @@ return x_3;
 }
 }
 public static Obj l_Float32_Model_toUSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; ulong x_3 = 0; Obj x_4 = null; 
@@ -864,6 +907,7 @@ return x_6;
 }
 }
 public static Obj l_Float32_Model_ofISize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -875,6 +919,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_ofInt64(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -907,6 +952,7 @@ return x_4;
 }
 }
 public static Obj l_Float32_Model_toUInt32___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -931,6 +977,7 @@ return x_6;
 }
 }
 public static Obj l_Float32_Model_le___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -954,6 +1001,7 @@ return x_3;
 }
 }
 public static uint l_Float32_Model_ofInt8(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -996,6 +1044,7 @@ return x_5;
 }
 }
 public static Obj l_Float32_Model_toInt32___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -1030,6 +1079,7 @@ return x_1;
 }
 }
 public static uint l_Float32_Model_ofISize(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -1082,6 +1132,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_neg(uint x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; uint x_4 = 0; 
@@ -1093,6 +1144,7 @@ return x_4;
 }
 }
 public static uint l_Float32_Model_sub(uint x_1, uint x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; uint x_7 = 0; 
@@ -1186,6 +1238,7 @@ return x_4;
 }
 }
 public static Obj l_Float32_Model_ofUInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ushort x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -1206,6 +1259,7 @@ return x_1;
 }
 }
 public static Obj l_Float32_Model_abs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; uint x_3 = 0; Obj x_4 = null; 

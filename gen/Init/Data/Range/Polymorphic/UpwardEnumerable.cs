@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Range_Polymorphic_UpwardEnumerable {
 public static Obj l_Std_PRange_UpwardEnumerable_instLETransOfLawfulUpwardEnumerableLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -30,6 +31,7 @@ return x_6;
 }
 }
 public static Obj l_Std_PRange_UpwardEnumerable_instLTTransOfLawfulUpwardEnumerableLT___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -53,6 +55,7 @@ return x_6;
 }
 }
 public static Obj l_Std_PRange_UpwardEnumerable_least___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -121,6 +124,7 @@ return lean_box(0);
 }
 }
 public static Obj l_Std_PRange_UpwardEnumerable_instLETransOfLawfulUpwardEnumerableLE___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

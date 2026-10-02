@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_GetElem {
 public static Obj l_instGetElem_x3fOfGetElemOfDecidable(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -80,6 +81,7 @@ return x_1;
 }
 }
 public static Obj l_instGetElem_x3fOfGetElemOfDecidable___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -211,6 +213,7 @@ return x_9;
 }
 }
 public static Obj l_Array_instGetElemNatLtSize___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -367,6 +370,7 @@ return x_4;
 }
 }
 public static Obj l_List_get_x21Internal(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -489,6 +493,7 @@ return x_2;
 }
 }
 public static Obj l_List_get_x3fInternal___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -538,6 +543,7 @@ return x_1;
 }
 }
 public static Obj l_List_instGetElem_x3fNatLtLength___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -631,6 +637,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__GetElem______macroRules__term_____x5b___x5d_x27____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -664,6 +671,7 @@ return x_1;
 }
 }
 public static Obj l_Array_instGetElemNatLtSize___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -878,6 +886,7 @@ return x_3;
 }
 }
 public static Obj l_Array_instGetElem_x3fNatLtSize___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -959,6 +968,7 @@ return x_1;
 }
 }
 public static Obj l_List_get_x3fInternal___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -968,6 +978,7 @@ return x_4;
 }
 }
 public static Obj l_outOfBounds___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1127,6 +1138,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__GetElem______macroRules__term_____x5b___x5d__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1136,6 +1148,7 @@ return x_4;
 }
 }
 public static Obj l_outOfBounds(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1233,6 +1246,7 @@ return x_7;
 }
 }
 public static Obj l_decidableGetElem_x3f___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -1322,6 +1336,7 @@ return x_5;
 }
 }
 public static Obj l___aux__Init__GetElem______macroRules__term_____x5b___x5d_x27____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1696,6 +1711,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Syntax_instGetElemNatTrue___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1718,6 +1734,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__GetElem______macroRules__term_____x5b___x5d__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2057,6 +2074,7 @@ return x_2;
 }
 }
 public static Obj l_instGetElem_x3fOfGetElemOfDecidable___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2118,6 +2136,7 @@ return x_4;
 }
 }
 public static Obj l___aux__Init__GetElem______macroRules__term_____x5b___x5d___x21__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2687,6 +2706,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_instGetElem_x3fFinVal___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2717,6 +2737,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__GetElem______macroRules__term_____x5b___x5d___x3f__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2975,6 +2996,7 @@ return x_1;
 }
 }
 public static Obj l_Fin___aux__Init__GetElem______macroRules__tacticGet__elem__tactic__extensible__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3367,6 +3389,7 @@ return x_1;
 }
 }
 public static Obj l_List_get_x21Internal___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3947,6 +3970,7 @@ return x_1;
 }
 }
 public static Obj l_List_get_x21Internal___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 1)

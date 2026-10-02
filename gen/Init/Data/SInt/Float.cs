@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_SInt_Float {
 public static Obj l_ISize_toFloat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; double x_3 = 0.0; Obj x_4 = null; 
@@ -18,6 +19,7 @@ return x_4;
 }
 }
 public static Obj l_Float_toInt8___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; byte x_3 = 0; Obj x_4 = null; 
@@ -29,6 +31,7 @@ return x_4;
 }
 }
 public static Obj l_Int8_toFloat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; double x_3 = 0.0; Obj x_4 = null; 
@@ -39,6 +42,7 @@ return x_4;
 }
 }
 public static Obj l_Float_toInt64___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; ulong x_3 = 0; Obj x_4 = null; 
@@ -50,6 +54,7 @@ return x_4;
 }
 }
 public static Obj l_Int32_toFloat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; double x_3 = 0.0; Obj x_4 = null; 
@@ -104,6 +109,7 @@ return x_4;
 }
 }
 public static Obj l_Float_toInt16___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; ushort x_3 = 0; Obj x_4 = null; 

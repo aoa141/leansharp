@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Internal_instEncodeV11Version___lam__0(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

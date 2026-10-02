@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Data_DTreeMap_Internal_Zipper {
 public static Obj l_Std_DTreeMap_Internal_Unit_RccSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_15 = 0; 
@@ -81,6 +82,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__Std_DTreeMap_Internal_Impl_pruneLE___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -198,6 +200,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRciSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -207,6 +210,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRooSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -215,6 +219,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRccSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -223,6 +228,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__Std_DTreeMap_Internal_Zipper_size___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -232,6 +238,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__List_filter_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -241,6 +248,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rocIterator(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -270,6 +278,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RxoIterator_step(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -296,6 +305,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_RciSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -319,6 +329,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_roiIterator(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -347,6 +358,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_RicSlice_instToIterator(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -355,6 +367,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_RicSlice_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -383,6 +396,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_iterOfTree___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -392,6 +406,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRocSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -434,6 +449,7 @@ return x_10;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRioSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -442,6 +458,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rocIterator___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -454,6 +471,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_iter___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -473,6 +491,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_toList___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -505,6 +524,7 @@ return x_12;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_riiIterator___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -514,6 +534,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RxcIterator_instIteratorLoop___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -548,6 +569,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRoiSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -566,6 +588,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -574,6 +597,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_RooSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_15 = 0; 
@@ -637,6 +661,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_prependMap___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -665,6 +690,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rcoIterator(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -703,6 +729,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRicSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -711,6 +738,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -720,6 +748,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRioSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -729,6 +758,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__Std_DTreeMap_Internal_Impl_pruneLE_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -746,6 +776,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rooIterator(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -758,6 +789,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRocSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -767,6 +799,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRicSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -783,6 +816,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rccIterator(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -812,6 +846,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RcoSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_15 = 0; 
@@ -897,6 +932,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RiiSlice_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -905,6 +941,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRicSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -950,6 +987,7 @@ return x_16;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRcoSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -958,6 +996,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RoiSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1065,6 +1104,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__Std_DTreeMap_Internal_RxcIterator_FinitenessRelation___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1074,6 +1114,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__Std_DTreeMap_Internal_Zipper_size___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1092,6 +1133,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_cons_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1127,6 +1169,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RiiSlice_instToIterator___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1136,6 +1179,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRccSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1144,6 +1188,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RiiSlice_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1178,6 +1223,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RicSlice_instToIterator(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1239,6 +1285,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instIteratorRxcIteratorIdSigma___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1255,6 +1302,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_ctorIdx(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1263,6 +1311,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_iter___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1272,6 +1321,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRcoSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1289,6 +1339,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RoiSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1312,6 +1363,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_toList___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1380,6 +1432,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRciSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1389,6 +1442,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRicSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1398,6 +1452,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRccSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1407,6 +1462,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__List_filter_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1416,6 +1472,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RioSlice_instToIterator___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1425,6 +1482,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRciSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1433,6 +1491,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRioSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1442,6 +1501,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RioSlice_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1450,6 +1510,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_step(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1458,6 +1519,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RicSlice_instToIterator(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1475,6 +1537,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_done_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1483,6 +1546,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__Std_DTreeMap_Internal_Impl_pruneLT___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1581,6 +1645,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_RoiSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1645,6 +1710,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRioSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1684,6 +1750,7 @@ return x_13;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRocSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1692,6 +1759,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRiiSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1716,6 +1784,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRooSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1724,6 +1793,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_prependMapGT___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1772,6 +1842,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_RcoSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_15 = 0; 
@@ -1826,6 +1897,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRooSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1834,6 +1906,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRocSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1925,6 +1998,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1934,6 +2008,7 @@ return x_8;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_foldrM___at___00Std_DTreeMap_Internal_Zipper_toList_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1963,6 +2038,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRioSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2013,6 +2089,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rciIterator___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2022,6 +2099,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RicSlice_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2084,6 +2162,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRciSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2155,6 +2234,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRooSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2191,6 +2271,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instIteratorRxoIteratorIdSigma___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2234,6 +2315,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRooSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2243,6 +2325,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Data_DTreeMap_Internal_Zipper_0__Std_DTreeMap_Internal_Zipper_size___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2269,6 +2352,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRiiSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2394,6 +2478,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_iterOfTree___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2437,6 +2522,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRoiSlice___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2493,6 +2579,7 @@ return x_16;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRiiSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2501,6 +2588,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRoiSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2549,6 +2637,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRcoSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2585,6 +2674,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_RiiSlice_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2614,6 +2704,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_riiIterator(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2642,6 +2733,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRooSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2710,6 +2802,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_instIteratorLoop___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -2759,6 +2852,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRioSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2777,6 +2871,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instIteratorZipperIdSigma___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2905,6 +3000,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rciIterator(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -2989,6 +3085,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRccSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3024,6 +3121,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_RioSlice_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3040,6 +3138,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rcoIterator___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -3077,6 +3176,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_riiIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3138,6 +3238,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_instToIterator(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3172,6 +3273,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRciSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3232,6 +3334,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_iterOfTree(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3513,6 +3616,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRcoSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3521,6 +3625,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRicSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3564,6 +3669,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRoiSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3757,6 +3863,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RciSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3800,6 +3907,7 @@ return x_4;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RcoSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_15 = 0; 
@@ -3864,6 +3972,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RciSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -4010,6 +4119,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_RiiSlice_instToIterator(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4149,6 +4259,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRccSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4302,6 +4413,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RccSlice_instToIterator___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_15 = 0; 
@@ -4374,6 +4486,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_RioSlice_instToIterator___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4390,6 +4503,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_instSliceableImplRcoSlice___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4548,6 +4662,7 @@ return x_14;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_instToIterator___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4651,6 +4766,7 @@ return x_11;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRccSlice(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4765,6 +4881,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_prependMapGE(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4790,6 +4907,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Const_instSliceableImplRoiSlice(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4963,6 +5081,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Unit_instSliceableImplUnitRcoSlice___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4972,6 +5091,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_rccIterator___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -5078,6 +5198,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Zipper_prependMapGE___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

@@ -20,6 +20,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Elab_AutoBound_0__Lean_Elab_initFn_00___x40_Lean_Elab_AutoBound_323533819____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -138,6 +139,7 @@ return x_5;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_Elab_AutoBound_0__Lean_Elab_isValidAutoBoundSuffix_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -147,6 +149,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Option_register___at___00__private_Lean_Elab_AutoBound_0__Lean_Elab_initFn_00___x40_Lean_Elab_AutoBound_366037992____hygCtx___hyg_4__spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -201,6 +204,7 @@ return x_5;
 }
 }
 public static byte l_Lean_Elab_isValidAutoBoundLevelName(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -319,6 +323,7 @@ return x_1;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00__private_Lean_Elab_AutoBound_0__Lean_Elab_isValidAutoBoundSuffix_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_15 = 0; Obj x_17 = null; Obj x_18 = null; byte x_19 = 0; 
@@ -437,6 +442,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_checkValidAutoBoundImplicitName___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -805,6 +811,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Elab_checkValidAutoBoundImplicitName(Obj x_1, byte x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 

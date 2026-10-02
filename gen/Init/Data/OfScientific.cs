@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_OfScientific {
 public static float l_Nat_toFloat32(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 float x_2 = 0.0f; 
@@ -88,6 +89,7 @@ return x_2;
 }
 }
 public static double l_Int_toFloat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 double x_2 = 0.0; 
@@ -182,6 +184,7 @@ return x_2;
 }
 }
 public static float l_instOfNatFloat32(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 float x_2 = 0.0f; 
@@ -433,6 +436,7 @@ return x_2;
 }
 }
 public static float l_Float32_ofScientific(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_8 = 0; Obj x_22 = null; byte x_23 = 0; 
@@ -520,6 +524,7 @@ return x_2;
 }
 }
 public static double lean_float_of_nat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; double x_4 = 0.0; 
@@ -561,6 +566,7 @@ return x_2;
 }
 }
 public static Obj l_Float32_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 float x_2 = 0.0f; Obj x_3 = null; 
@@ -702,6 +708,7 @@ return x_2;
 }
 }
 public static Obj l_Int_toFloat32___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 float x_2 = 0.0f; Obj x_3 = null; 
@@ -751,6 +758,7 @@ return x_2;
 }
 }
 public static Obj l_Float_ofScientific___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; double x_5 = 0.0; Obj x_6 = null; 
@@ -802,6 +810,7 @@ return x_2;
 }
 }
 public static double l_Float_ofScientific(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_8 = 0; Obj x_22 = null; byte x_23 = 0; 
@@ -990,6 +999,7 @@ return x_2;
 }
 }
 public static float l_Int_toFloat32(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 float x_2 = 0.0f; 
@@ -1017,6 +1027,7 @@ return x_3;
 }
 }
 public static Obj l_Float32_ofInt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 float x_2 = 0.0f; Obj x_3 = null; 

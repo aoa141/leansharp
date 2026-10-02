@@ -25,6 +25,7 @@ return x_5;
 }
 }
 public static Obj l_StateRefT_x27_get___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -73,6 +74,7 @@ return x_12;
 }
 }
 public static Obj l_StateRefT_x27_instMonadStateOfOfMonadLiftTST___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -95,6 +97,7 @@ return x_7;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__5___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -125,6 +128,7 @@ return x_5;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -134,6 +138,7 @@ return x_5;
 }
 }
 public static Obj l_StateRefT_x27_instAlternativeOfMonad___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -143,6 +148,7 @@ return x_4;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -175,6 +181,7 @@ return x_10;
 }
 }
 public static Obj l_StateRefT_x27_instAlternativeOfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -194,6 +201,7 @@ return x_6;
 }
 }
 public static Obj l_StateRefT_x27_get___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -203,6 +211,7 @@ return x_3;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -269,6 +278,7 @@ return x_9;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__5___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -297,6 +307,7 @@ return x_14;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__9___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -306,6 +317,7 @@ return x_10;
 }
 }
 public static Obj l_StateRefT_x27_instMonadLift___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -314,6 +326,7 @@ return x_2;
 }
 }
 public static Obj l_StateRefT_x27_instAlternativeOfMonad___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -334,6 +347,7 @@ return x_7;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__7___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -367,6 +381,7 @@ return x_9;
 }
 }
 public static Obj l_instMonadControlStateRefT_x27___aux__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -439,6 +454,7 @@ return x_9;
 }
 }
 public static Obj l_StateRefT_x27_instMonadStateOfOfMonadLiftTST(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -447,6 +463,7 @@ return x_5;
 }
 }
 public static Obj l_StateRefT_x27_instMonadFunctor___aux__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -576,6 +593,7 @@ return x_5;
 }
 }
 public static Obj l_StateRefT_x27_instMonadFunctor(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -631,6 +649,7 @@ return x_9;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -699,6 +718,7 @@ return x_4;
 }
 }
 public static Obj l_StateRefT_x27_instMonadFunctor___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -715,6 +735,7 @@ return x_2;
 }
 }
 public static Obj l_StateRefT_x27_lift___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -731,6 +752,7 @@ return x_1;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__9___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -755,6 +777,7 @@ return x_4;
 }
 }
 public static Obj l_StateRefT_x27_instMonadAttachOfMonad___aux__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; 
@@ -776,6 +799,7 @@ return x_15;
 }
 }
 public static Obj l_instMonadControlStateRefT_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -784,6 +808,7 @@ return x_4;
 }
 }
 public static Obj l_StateRefT_x27_instMonad___aux__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -802,6 +827,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadControlStateRefT_x27___aux__3___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -949,6 +975,7 @@ return x_14;
 }
 }
 public static Obj l_StateRefT_x27_lift___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 

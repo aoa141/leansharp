@@ -156,6 +156,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_String_Decode_0__ByteArray_utf8DecodeChar_x3f_FirstByte_utf8ByteSize_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -438,6 +439,7 @@ return x_1;
 }
 }
 public static Obj l_UInt8_utf8ByteSize___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -447,6 +449,7 @@ return x_3;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -704,6 +707,7 @@ return x_6;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_FirstByte_invalid_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -762,6 +766,7 @@ return x_17;
 }
 }
 public static Obj l___private_Init_Data_String_Decode_0__ByteArray_utf8DecodeChar_x3f_FirstByte_utf8ByteSize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -771,6 +776,7 @@ return x_3;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_assemble_u2082___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -792,6 +798,7 @@ return x_7;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_assemble_u2083Unchecked___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; uint x_7 = 0; Obj x_8 = null; 
@@ -804,6 +811,7 @@ return x_8;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_isInvalidContinuationByte___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -814,6 +822,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_assemble_u2081___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -982,6 +991,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_verify_u2081___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1135,6 +1145,7 @@ return x_2;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_FirstByte_invalid_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1232,6 +1243,7 @@ return x_7;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_verify_u2082___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -1615,6 +1627,7 @@ return x_5;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -1626,6 +1639,7 @@ return x_4;
 }
 }
 public static Obj l_ByteArray_utf8DecodeChar_x3f_verify_u2081___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 

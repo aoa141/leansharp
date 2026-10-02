@@ -219,6 +219,7 @@ return x_5;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Mem______macroRules__Array__tacticArray__mem__dec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -434,6 +435,7 @@ return x_2;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Mem______macroRules__Array__tacticArray__mem__dec__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -654,6 +656,7 @@ return x_2;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Mem______macroRules__Array__tacticArray__get__dec__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -849,6 +852,7 @@ return x_1;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Mem______macroRules__tacticDecreasing__trivial__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1004,6 +1008,7 @@ return x_1;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Mem______macroRules__tacticDecreasing__trivial__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1325,6 +1330,7 @@ return x_1;
 }
 }
 public static Obj l_Array___aux__Init__Data__Array__Mem______macroRules__tacticDecreasing__trivial__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

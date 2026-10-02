@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Data_Iterators_Producers_PersistentHashMap {
 public static Obj l_Lean_PersistentHashMap_Zipper_measure___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -63,6 +64,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Zipper_done_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -81,6 +83,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Zipper_ctorIdx___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -251,6 +254,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Zipper_prependNode(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -259,6 +263,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Zipper_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -284,6 +289,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Data_Iterators_Producers_PersistentHashMap_0__Lean_PersistentHashMap_Node_measure_measureEntries___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -294,6 +300,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_iter___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -445,6 +452,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Data_Iterators_Producers_PersistentHashMap_0__Lean_PersistentHashMap_Node_measure_measureEntries___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -499,6 +507,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Entry_measure(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -507,6 +516,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Node_measure(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -524,6 +534,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldr___at___00List_sum___at___00Lean_PersistentHashMap_subarrayMeasure_spec__2_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -544,6 +555,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_PersistentHashMap_iter(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -553,6 +565,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Zipper_step(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -829,6 +842,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_PersistentHashMap_instIterator___redArg___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1175,6 +1189,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Zipper_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1184,6 +1199,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Data_Iterators_Producers_PersistentHashMap_0__Lean_PersistentHashMap_Node_measure_measureEntries___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1250,6 +1266,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_PersistentHashMap_subarrayMeasure_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1258,6 +1275,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_PersistentHashMap_subarrayMeasure___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1328,6 +1346,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Entry_measure___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -1376,6 +1395,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_WFExtrinsicFix_0__WellFounded_opaqueFix_u2082___at___00Lean_PersistentHashMap_subarrayMeasure_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_18 = 0; 
@@ -1449,6 +1469,7 @@ goto _start;
 }
 }
 public static Obj l_List_mapTR_loop___at___00Lean_PersistentHashMap_subarrayMeasure_spec__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1510,6 +1531,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_PersistentHashMap_Node_measure___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

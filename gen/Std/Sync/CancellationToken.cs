@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Sync_CancellationToken {
 public static Obj l_Std_CancellationToken_wait___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -27,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__6(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -55,6 +57,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_CancellationToken_wait_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -83,6 +86,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CancellationReason_cancel_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -91,6 +95,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CancellationToken_wait___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -108,6 +113,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -117,6 +123,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_CancellationToken_selector_spec__0___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -208,6 +215,7 @@ return x_2;
 }
 }
 public static Obj l_Std_CancellationToken_getCancellationReason___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -316,6 +324,7 @@ return x_21;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00Std_CancellationToken_selector_spec__2___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -393,6 +402,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_CancellationToken_wait_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -424,6 +434,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CancellationToken_Consumer_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -587,6 +598,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00Std_CancellationToken_selector_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -596,6 +608,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__4(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -630,6 +643,7 @@ return x_2;
 }
 }
 public static Obj l_Std_CancellationToken_cancel___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -702,6 +716,7 @@ return x_20;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_CancellationToken_cancel_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -710,6 +725,7 @@ return x_4;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00Std_CancellationToken_selector_spec__2_spec__2___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -848,6 +864,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -857,6 +874,7 @@ return x_5;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00Std_CancellationToken_selector_spec__2_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -875,6 +893,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CancellationReason_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -894,6 +913,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CancellationToken_Consumer_resolve___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -904,6 +924,7 @@ return x_4;
 }
 }
 public static Obj l_Std_CancellationToken_getCancellationReason(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -921,6 +942,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_CancellationToken_Consumer_resolve_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -945,6 +967,7 @@ return x_3;
 }
 }
 public static Obj l_Std_CancellationToken_wait(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -999,6 +1022,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__8(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1069,6 +1093,7 @@ return x_20;
 }
 }
 public static Obj l_Std_CancellationToken_Consumer_normal_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1101,6 +1126,7 @@ return x_2;
 }
 }
 public static Obj l_Std_instToStringCancellationReason___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1129,6 +1155,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_CancellationToken_cancel_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1157,6 +1184,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_CancellationToken_selector_spec__1___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1180,6 +1208,7 @@ return x_3;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00Std_CancellationToken_selector_spec__2_spec__2___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1198,6 +1227,7 @@ return x_1;
 }
 }
 public static byte l_Std_CancellationToken_isCancelled(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1209,6 +1239,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_CancellationToken_selector_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1235,6 +1266,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CancellationToken_new___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1243,6 +1275,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_CancellationToken_selector_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1252,6 +1285,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CancellationToken_isCancelled___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1287,6 +1321,7 @@ return x_2;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__9___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1315,6 +1350,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_CancellationToken_selector_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; byte x_13 = 0; byte x_21 = 0; 
@@ -1363,6 +1399,7 @@ return x_19;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_CancellationToken_selector_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1413,6 +1450,7 @@ return x_2;
 }
 }
 public static byte l_Std_CancellationToken_Consumer_resolve(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1435,6 +1473,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Mutex_atomically___at___00Std_CancellationToken_cancel_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1473,6 +1512,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1515,6 +1555,7 @@ return x_1;
 }
 }
 public static Obj l_Std_instBEqCancellationReason_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1550,6 +1591,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00Std_CancellationToken_selector_spec__2___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1570,6 +1612,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_CancellationToken_cancel_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1588,6 +1631,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1606,6 +1650,7 @@ return x_1;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__5(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2237,6 +2282,7 @@ return x_9;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__7(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2309,6 +2355,7 @@ return x_6;
 }
 }
 public static Obj l_Std_CancellationToken_cancel___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2340,6 +2387,7 @@ return x_6;
 }
 }
 public static Obj l_Std_CancellationToken_cancel(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -2350,6 +2398,7 @@ return x_5;
 }
 }
 public static Obj l_Std_CancellationToken_selector___lam__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2706,6 +2755,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Queue_filterM___at___00Std_CancellationToken_selector_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -2737,6 +2787,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_While_0__repeatM_erased___at___00Std_CancellationToken_cancel_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3033,6 +3084,7 @@ return x_6;
 }
 }
 public static Obj l_List_filterAuxM___at___00Std_Queue_filterM___at___00Std_CancellationToken_selector_spec__2_spec__2___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3284,6 +3336,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Async_Waiter_race___at___00Std_CancellationToken_selector_spec__0___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 

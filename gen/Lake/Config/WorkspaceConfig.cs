@@ -29,6 +29,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_WorkspaceConfig_packagesDir___proj___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -38,6 +39,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instReprWorkspaceConfig_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -560,6 +562,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instReprWorkspaceConfig_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; 

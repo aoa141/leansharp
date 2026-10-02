@@ -26,6 +26,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_instOfNatOfYear___aux__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -54,6 +55,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_instDecidableLtOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -103,6 +105,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Day_Offset_ofNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -137,6 +140,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Day_instDecidableLtOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -156,6 +160,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_instAddOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -166,6 +171,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Offset_toHours(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -215,6 +221,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Offset_toMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -329,6 +336,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Day_instOfNatOrdinal(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -409,6 +417,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Offset_ofMilliseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -418,6 +427,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_instInhabitedOfYear(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -537,6 +547,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_instToStringOffset___aux__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -603,6 +614,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Day_instDecidableLeOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -626,6 +638,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_instDecidableLeOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -658,6 +671,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Offset_toSeconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -711,6 +725,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Day_instReprOrdinal___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -731,6 +746,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Day_instSubOffset___aux__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -761,6 +777,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Day_Offset_toNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -800,6 +817,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_instReprOfYear___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -821,6 +839,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_instReprOfYear___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -918,6 +937,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Day_instNegOffset___aux__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -937,6 +957,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Day_Offset_toOrdinal___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -946,6 +967,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_instOfNatOfYear___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -966,6 +988,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_OfYear_toOffset___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1029,6 +1052,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_instInhabitedOfYear___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1084,6 +1108,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_OfYear_ofNat___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1107,6 +1132,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Time_Day_Offset_ofMinutes___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1128,6 +1154,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Offset_toSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1137,6 +1164,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Offset_ofMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1218,6 +1246,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time_Day_Offset_ofMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1392,6 +1421,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_ofInt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1464,6 +1494,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_Day_Offset_ofSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1491,6 +1522,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Offset_toMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1780,6 +1812,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_Ordinal_instReprOfYear(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1828,6 +1861,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Day_instDecidableEqOffset___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1997,6 +2031,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Day_Offset_ofInt___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

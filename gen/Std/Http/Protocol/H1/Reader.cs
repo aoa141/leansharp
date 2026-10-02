@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Http_Protocol_H1_Reader {
 public static Obj l_Std_Http_Protocol_H1_Reader_State_pending_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -162,6 +163,7 @@ return x_2;
 }
 }
 public static byte l_Std_Http_Protocol_H1_Reader_instBEqState_beq___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -298,6 +300,7 @@ return x_26;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_addHeaderBytes___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -326,6 +329,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_advance___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -336,6 +340,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_readBody_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -344,6 +349,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_BodyState_chunkedBody_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -376,6 +382,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_complete_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -384,6 +391,7 @@ return x_3;
 }
 }
 public static byte l_Std_Http_Protocol_H1_Reader_instBEqBodyState_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -499,6 +507,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0_spec__1_spec__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -563,6 +572,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -601,6 +611,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_advance___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -680,6 +691,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_isComplete___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -700,6 +712,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_needsMoreInput___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -720,6 +733,7 @@ return x_1;
 }
 }
 public static Obj l_Prod_repr___at___00Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -728,6 +742,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00Prod_repr___at___00Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0_spec__0_spec__2(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -764,6 +779,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_instReprState_repr___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; 
@@ -1118,6 +1134,7 @@ return x_29;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_readBody_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1138,6 +1155,7 @@ return x_2;
 }
 }
 public static Obj l_Option_repr___at___00Prod_repr___at___00Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1210,6 +1228,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_pending_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1298,6 +1317,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_BodyState_chunkedBody_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1348,6 +1368,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_instInhabitedState___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1429,6 +1450,7 @@ return x_11;
 }
 }
 public static Obj l_Array_isEqvAux___at___00Std_Http_Protocol_H1_Reader_instBEqBodyState_beq_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1440,6 +1462,7 @@ return x_7;
 }
 }
 public static byte l_Array_isEqvAux___at___00Std_Http_Protocol_H1_Reader_instBEqBodyState_beq_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1492,6 +1515,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_needsMoreInput___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -1545,6 +1569,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_addBodyBytes___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1555,6 +1580,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_instReprBodyState_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1564,6 +1590,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_isClosed___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -1762,6 +1789,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_isComplete___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -1773,6 +1801,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_ctorIdx(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1903,6 +1932,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_startHeaders___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1923,6 +1953,7 @@ return x_4;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0_spec__1_spec__4_spec__7(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -2008,6 +2039,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_failed_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2064,6 +2096,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2118,6 +2151,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_shouldKeepAlive___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -2141,6 +2175,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_instInhabitedState_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2270,6 +2305,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_setMessageHead___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2279,6 +2315,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_needHeader_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2297,6 +2334,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_instReprBodyState_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; 
@@ -2605,6 +2643,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_complete_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2622,6 +2661,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_continue_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2777,6 +2817,7 @@ return x_26;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_instBEqState_beq___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2811,6 +2852,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2820,6 +2862,7 @@ return x_2;
 }
 }
 public static Obj l_Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; 
@@ -2857,6 +2900,7 @@ return x_15;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_BodyState_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2901,6 +2945,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_startChunkedBody___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; byte x_9 = 0; byte x_15 = 0; 
@@ -2964,6 +3009,7 @@ return x_11;
 }
 }
 public static Obj l_Prod_repr___at___00Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_26 = 0; 
@@ -3040,6 +3086,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_close___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3237,6 +3284,7 @@ return x_11;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00Prod_repr___at___00Array_repr___at___00Std_Http_Protocol_H1_Reader_instReprBodyState_repr_spec__0_spec__0_spec__2_spec__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3585,6 +3633,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_hasFailed___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3868,6 +3917,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_addHeader(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -4535,6 +4585,7 @@ return x_19;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_getError___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4691,6 +4742,7 @@ return x_3;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00Std_Http_Protocol_H1_Reader_instBEqBodyState_beq_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4702,6 +4754,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_State_failed_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5029,6 +5082,7 @@ return x_14;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_setInput___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5074,6 +5128,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Reader_markComplete___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

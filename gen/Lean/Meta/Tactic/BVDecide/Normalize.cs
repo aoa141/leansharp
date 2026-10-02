@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Meta_Tactic_BVDecide_Normalize {
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_withCaches___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -26,6 +27,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_addTrace___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; byte x_55 = 0; 
@@ -242,6 +244,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_passPipeline___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -287,6 +290,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_getResetTraces___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; byte x_35 = 0; 
@@ -412,6 +416,7 @@ return x_26;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -431,6 +436,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_addMessageContextFull___at___00Lean_addTrace___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__3_spec__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -542,6 +548,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_withCaches___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_12 = null; 
@@ -627,6 +634,7 @@ return x_16;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_withCaches_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -742,6 +750,7 @@ return x_29;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_addTraceNode___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__2_spec__2___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; ushort x_13 = 0; byte x_14 = 0; byte x_15 = 0; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; ulong x_22 = 0; ulong x_23 = 0; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; byte x_29 = 0; byte x_65 = 0; 
@@ -1043,6 +1052,7 @@ return x_27;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_passPipeline(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1051,6 +1061,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_addTraceNode___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__2_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 Obj x_17 = null; 
@@ -1098,6 +1109,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -1183,6 +1195,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Util_Trace_0__Lean_addTraceNode___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__2_spec__2_spec__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -1195,6 +1208,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_withCaches(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -1215,6 +1229,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_withCaches___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -1234,6 +1249,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; 
@@ -1335,6 +1351,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_getResetTraces___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1375,6 +1392,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_MVarId_withContext___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_withCaches_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; 
@@ -1420,6 +1438,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_30 = null; Obj x_31 = null; byte x_32 = 0; 
@@ -1814,6 +1833,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_13 = null; 
@@ -1967,6 +1987,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_passPipeline___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; Obj x_13 = null; Obj x_17 = null; 
@@ -2056,6 +2077,7 @@ Obj x_17 = _args[16];
 Obj x_18 = _args[17];
 Obj x_19 = _args[18];
 Obj x_20 = _args[19];
+lean_stack_probe();
 _start:
 {
 byte x_21 = 0; byte x_22 = 0; Obj x_23 = null; 
@@ -2147,6 +2169,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__2(Obj x_1, byte x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17, Obj x_18, Obj x_19) {
+lean_stack_probe();
 _start:
 {
 Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; byte x_40 = 0; Obj x_41 = null; Obj x_42 = null; byte x_57 = 0; double x_89 = 0.0; 
@@ -2530,6 +2553,7 @@ return x_13;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_withCaches___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12) {
+lean_stack_probe();
 _start:
 {
 Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_85 = null; Obj x_86 = null; 
@@ -3064,6 +3088,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 byte x_13 = 0; byte x_14 = 0; Obj x_15 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; byte x_38 = 0; Obj x_39 = null; Obj x_40 = null; byte x_41 = 0; Obj x_42 = null; Obj x_43 = null; byte x_44 = 0; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; byte x_48 = 0; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; Obj x_66 = null; Obj x_67 = null; Obj x_68 = null; Obj x_69 = null; byte x_70 = 0; Obj x_71 = null; Obj x_72 = null; byte x_73 = 0; Obj x_74 = null; byte x_75 = 0; Obj x_76 = null; Obj x_77 = null; Obj x_78 = null; byte x_79 = 0; Obj x_80 = null; Obj x_81 = null; Obj x_82 = null; Obj x_83 = null; Obj x_96 = null; Obj x_97 = null; Obj x_98 = null; Obj x_99 = null; Obj x_100 = null; Obj x_101 = null; Obj x_102 = null; byte x_103 = 0; Obj x_104 = null; Obj x_105 = null; Obj x_106 = null; byte x_107 = 0; Obj x_108 = null; Obj x_109 = null; byte x_110 = 0; Obj x_111 = null; Obj x_112 = null; byte x_113 = 0; Obj x_114 = null; Obj x_115 = null; Obj x_157 = null; byte x_158 = 0; Obj x_159 = null; Obj x_160 = null; Obj x_161 = null; Obj x_162 = null; Obj x_163 = null; Obj x_164 = null; Obj x_165 = null; Obj x_166 = null; Obj x_167 = null; Obj x_168 = null; Obj x_169 = null; Obj x_206 = null; Obj x_207 = null; Obj x_208 = null; Obj x_209 = null; Obj x_210 = null; Obj x_211 = null; Obj x_212 = null; Obj x_213 = null; Obj x_214 = null; byte x_215 = 0; Obj x_216 = null; Obj x_217 = null; Obj x_218 = null; Obj x_219 = null; Obj x_231 = null; Obj x_232 = null; byte x_233 = 0; Obj x_234 = null; Obj x_235 = null; Obj x_236 = null; Obj x_237 = null; Obj x_238 = null; Obj x_239 = null; Obj x_240 = null; Obj x_241 = null; Obj x_242 = null; byte x_243 = 0; Obj x_244 = null; Obj x_245 = null; Obj x_246 = null; Obj x_247 = null; byte x_248 = 0; Obj x_249 = null; Obj x_250 = null; Obj x_251 = null; Obj x_252 = null; Obj x_262 = null; Obj x_263 = null; byte x_264 = 0; Obj x_265 = null; Obj x_266 = null; Obj x_267 = null; Obj x_268 = null; Obj x_269 = null; Obj x_270 = null; Obj x_271 = null; Obj x_272 = null; Obj x_273 = null; byte x_274 = 0; Obj x_275 = null; Obj x_276 = null; Obj x_277 = null; Obj x_278 = null; byte x_279 = 0; Obj x_280 = null; Obj x_281 = null; Obj x_282 = null; Obj x_283 = null; Obj x_296 = null; Obj x_297 = null; byte x_298 = 0; Obj x_299 = null; Obj x_300 = null; Obj x_301 = null; Obj x_302 = null; Obj x_303 = null; Obj x_304 = null; Obj x_305 = null; Obj x_306 = null; byte x_307 = 0; Obj x_308 = null; Obj x_309 = null; Obj x_310 = null; Obj x_311 = null; byte x_312 = 0; Obj x_313 = null; Obj x_314 = null; Obj x_315 = null; Obj x_357 = null; byte x_358 = 0; byte x_359 = 0; Obj x_360 = null; Obj x_361 = null; Obj x_362 = null; Obj x_363 = null; Obj x_364 = null; Obj x_365 = null; Obj x_366 = null; Obj x_367 = null; Obj x_368 = null; Obj x_369 = null; Obj x_370 = null; Obj x_388 = null; Obj x_389 = null; Obj x_390 = null; Obj x_391 = null; Obj x_392 = null; Obj x_393 = null; Obj x_394 = null; Obj x_395 = null; Obj x_396 = null; byte x_397 = 0; Obj x_398 = null; Obj x_399 = null; Obj x_400 = null; Obj x_401 = null; Obj x_414 = null; Obj x_415 = null; Obj x_416 = null; Obj x_417 = null; Obj x_418 = null; Obj x_419 = null; Obj x_420 = null; byte x_421 = 0; Obj x_422 = null; Obj x_423 = null; Obj x_424 = null; Obj x_425 = null; byte x_426 = 0; Obj x_427 = null; Obj x_428 = null; byte x_429 = 0; Obj x_430 = null; Obj x_431 = null; Obj x_432 = null; Obj x_433 = null; Obj x_434 = null; Obj x_435 = null; Obj x_445 = null; Obj x_446 = null; Obj x_447 = null; Obj x_448 = null; Obj x_449 = null; Obj x_450 = null; Obj x_451 = null; Obj x_452 = null; byte x_453 = 0; Obj x_454 = null; Obj x_455 = null; Obj x_456 = null; Obj x_457 = null; byte x_458 = 0; Obj x_459 = null; Obj x_460 = null; byte x_461 = 0; Obj x_462 = null; Obj x_463 = null; Obj x_464 = null; Obj x_465 = null; Obj x_466 = null; Obj x_479 = null; Obj x_480 = null; Obj x_481 = null; Obj x_482 = null; Obj x_483 = null; Obj x_484 = null; byte x_485 = 0; Obj x_486 = null; Obj x_487 = null; Obj x_488 = null; Obj x_489 = null; byte x_490 = 0; Obj x_491 = null; Obj x_492 = null; Obj x_493 = null; byte x_494 = 0; Obj x_495 = null; Obj x_496 = null; Obj x_497 = null; Obj x_498 = null; Obj x_540 = null; byte x_541 = 0; byte x_542 = 0; byte x_543 = 0; Obj x_544 = null; Obj x_545 = null; Obj x_546 = null; Obj x_547 = null; Obj x_548 = null; Obj x_549 = null; Obj x_550 = null; Obj x_551 = null; Obj x_552 = null; Obj x_553 = null; Obj x_554 = null; Obj x_572 = null; Obj x_573 = null; Obj x_574 = null; Obj x_575 = null; Obj x_576 = null; Obj x_577 = null; Obj x_578 = null; Obj x_579 = null; Obj x_580 = null; Obj x_581 = null; Obj x_582 = null; byte x_583 = 0; Obj x_584 = null; Obj x_585 = null; Obj x_599 = null; Obj x_600 = null; Obj x_601 = null; Obj x_602 = null; Obj x_603 = null; Obj x_604 = null; Obj x_605 = null; byte x_606 = 0; Obj x_607 = null; byte x_608 = 0; Obj x_609 = null; Obj x_610 = null; Obj x_611 = null; Obj x_612 = null; Obj x_613 = null; Obj x_614 = null; Obj x_615 = null; Obj x_616 = null; Obj x_617 = null; byte x_618 = 0; Obj x_619 = null; Obj x_620 = null; Obj x_633 = null; Obj x_634 = null; Obj x_635 = null; Obj x_636 = null; Obj x_637 = null; Obj x_638 = null; Obj x_639 = null; byte x_640 = 0; Obj x_641 = null; byte x_642 = 0; Obj x_643 = null; Obj x_644 = null; Obj x_645 = null; Obj x_646 = null; Obj x_647 = null; Obj x_648 = null; Obj x_649 = null; Obj x_650 = null; Obj x_651 = null; byte x_652 = 0; Obj x_653 = null; Obj x_654 = null; Obj x_664 = null; Obj x_665 = null; Obj x_666 = null; Obj x_667 = null; Obj x_668 = null; Obj x_669 = null; Obj x_670 = null; byte x_671 = 0; Obj x_672 = null; Obj x_673 = null; byte x_674 = 0; Obj x_675 = null; Obj x_676 = null; Obj x_677 = null; Obj x_678 = null; Obj x_679 = null; Obj x_680 = null; Obj x_681 = null; byte x_682 = 0; Obj x_683 = null; Obj x_725 = null; Obj x_726 = null; Obj x_727 = null; Obj x_728 = null; Obj x_729 = null; Obj x_730 = null; Obj x_731 = null; Obj x_732 = null; Obj x_733 = null; Obj x_734 = null; Obj x_735 = null; Obj x_736 = null; Obj x_737 = null; Obj x_769 = null; Obj x_770 = null; Obj x_771 = null; Obj x_772 = null; Obj x_773 = null; Obj x_774 = null; Obj x_775 = null; Obj x_776 = null; Obj x_777 = null; Obj x_778 = null; byte x_779 = 0; Obj x_780 = null; Obj x_781 = null; Obj x_782 = null; Obj x_783 = null; Obj x_784 = null; byte x_785 = 0; Obj x_786 = null; Obj x_787 = null; Obj x_788 = null; Obj x_789 = null; Obj x_799 = null; Obj x_800 = null; Obj x_801 = null; Obj x_802 = null; Obj x_803 = null; Obj x_804 = null; Obj x_805 = null; Obj x_806 = null; Obj x_807 = null; Obj x_808 = null; byte x_809 = 0; Obj x_810 = null; Obj x_811 = null; Obj x_812 = null; Obj x_813 = null; byte x_814 = 0; Obj x_815 = null; Obj x_816 = null; Obj x_817 = null; Obj x_818 = null; Obj x_819 = null; Obj x_832 = null; Obj x_833 = null; Obj x_834 = null; Obj x_835 = null; Obj x_836 = null; Obj x_837 = null; Obj x_838 = null; Obj x_839 = null; byte x_840 = 0; Obj x_841 = null; Obj x_842 = null; Obj x_843 = null; Obj x_844 = null; byte x_845 = 0; Obj x_846 = null; Obj x_847 = null; Obj x_848 = null; Obj x_849 = null; Obj x_850 = null; Obj x_892 = null; Obj x_893 = null; Obj x_894 = null; Obj x_895 = null; Obj x_896 = null; Obj x_897 = null; Obj x_898 = null; Obj x_899 = null; Obj x_900 = null; Obj x_901 = null; Obj x_902 = null; Obj x_903 = null; Obj x_921 = null; Obj x_922 = null; Obj x_923 = null; Obj x_924 = null; Obj x_925 = null; byte x_926 = 0; Obj x_927 = null; Obj x_928 = null; Obj x_929 = null; Obj x_930 = null; Obj x_931 = null; Obj x_932 = null; Obj x_933 = null; Obj x_934 = null; byte x_946 = 0; Obj x_947 = null; Obj x_948 = null; Obj x_949 = null; Obj x_950 = null; Obj x_951 = null; Obj x_952 = null; Obj x_953 = null; byte x_954 = 0; Obj x_955 = null; byte x_956 = 0; Obj x_957 = null; Obj x_958 = null; Obj x_959 = null; Obj x_960 = null; Obj x_961 = null; Obj x_962 = null; Obj x_963 = null; Obj x_964 = null; Obj x_965 = null; Obj x_966 = null; Obj x_967 = null; byte x_977 = 0; Obj x_978 = null; Obj x_979 = null; Obj x_980 = null; Obj x_981 = null; Obj x_982 = null; Obj x_983 = null; Obj x_984 = null; byte x_985 = 0; Obj x_986 = null; byte x_987 = 0; Obj x_988 = null; Obj x_989 = null; Obj x_990 = null; Obj x_991 = null; Obj x_992 = null; Obj x_993 = null; Obj x_994 = null; Obj x_995 = null; Obj x_996 = null; Obj x_997 = null; Obj x_998 = null; byte x_1011 = 0; Obj x_1012 = null; Obj x_1013 = null; Obj x_1014 = null; Obj x_1015 = null; Obj x_1016 = null; Obj x_1017 = null; Obj x_1018 = null; byte x_1019 = 0; Obj x_1020 = null; Obj x_1021 = null; byte x_1022 = 0; Obj x_1023 = null; Obj x_1024 = null; Obj x_1025 = null; Obj x_1026 = null; Obj x_1027 = null; Obj x_1028 = null; Obj x_1029 = null; Obj x_1030 = null; Obj x_1072 = null; Obj x_1073 = null; Obj x_1074 = null; Obj x_1075 = null; Obj x_1076 = null; Obj x_1077 = null; Obj x_1078 = null; Obj x_1079 = null; Obj x_1080 = null; Obj x_1081 = null; Obj x_1082 = null; Obj x_1083 = null; Obj x_1101 = null; Obj x_1102 = null; Obj x_1103 = null; Obj x_1104 = null; Obj x_1105 = null; Obj x_1106 = null; Obj x_1107 = null; Obj x_1108 = null; Obj x_1109 = null; Obj x_1110 = null; Obj x_1111 = null; Obj x_1116 = null; Obj x_1117 = null; byte x_1118 = 0; 
@@ -6838,6 +6863,7 @@ goto block_1100;
 }
 }
 public static Obj l___private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; byte x_25 = 0; 
@@ -7032,6 +7058,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Util_Trace_0__Lean_addTraceNode___at___00__private_Lean_Util_Trace_0__Lean_withTraceNode_postCallback___at___00__private_Lean_Meta_Tactic_BVDecide_Normalize_0__Lean_Meta_Tactic_BVDecide_Normalize_bvNormalize_runPipeline_spec__2_spec__2_spec__3(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 

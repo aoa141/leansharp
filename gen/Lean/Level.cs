@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Level {
 public static Obj l_Lean_Level_Data_hasParam___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -18,6 +19,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Nat_toLevel(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -26,6 +28,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Level_isSucc___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -36,6 +39,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_normalize___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -45,6 +49,7 @@ return x_2;
 }
 }
 public static Obj lean_level_mk_param(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -200,6 +205,7 @@ return x_29;
 }
 }
 public static Obj l_Lean_instEmptyCollectionLMVarIdMap___aux__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -208,6 +214,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qpartition_loop___at___00__private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Level_normalize_spec__1_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -254,6 +261,7 @@ goto _start;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_Level_collectMVars_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -270,6 +278,7 @@ return x_2;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_Level_collectMVars_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -302,6 +311,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_Level_collectMVars_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -313,6 +323,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Level_mvar___override(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; ulong x_4 = 0; Obj x_5 = null; byte x_6 = 0; byte x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -346,6 +357,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_find_x3f_visit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -427,6 +439,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Level_PP_Result_offset_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -454,6 +467,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instReprData___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -465,6 +479,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instReprLevelMVarId_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -543,6 +558,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Level_max_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -551,6 +567,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_mkIMaxAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -623,6 +640,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Level_isAlwaysZero(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -675,6 +693,7 @@ return x_1;
 }
 }
 public static byte lean_level_has_mvar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -684,6 +703,7 @@ return x_2;
 }
 }
 public static Obj lean_level_mk_succ(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -786,6 +806,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instHashableLevelMVarId_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -806,6 +827,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_instantiateParams(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -841,6 +863,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_mkLevelMaxCore(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -990,6 +1013,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_isMaxIMax___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1000,6 +1024,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Level_hasParam(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; 
@@ -1009,6 +1034,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instReprData___lam__0(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_7 = null; Obj x_8 = null; Obj x_13 = null; Obj x_20 = null; Obj x_21 = null; Obj x_26 = null; Obj x_33 = null; ulong x_34 = 0; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; uint x_38 = 0; uint x_39 = 0; byte x_40 = 0; 
@@ -1133,6 +1159,7 @@ goto block_25;
 }
 }
 public static Obj l_Lean_Level_addOffsetAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -1380,6 +1407,7 @@ return x_44;
 }
 }
 public static Obj l_Lean_Level_succ___override(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; uint x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -1425,6 +1453,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkLevelZeroEx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1480,6 +1509,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_mkLevelMax_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1576,6 +1606,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_updateSucc_x21Impl(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -1610,6 +1641,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Level_mkData___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; byte x_6 = 0; byte x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -1623,6 +1655,7 @@ return x_9;
 }
 }
 public static uint lean_level_depth(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; 
@@ -1727,6 +1760,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_isMVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1760,6 +1794,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Level_Data_hasMVar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; Obj x_4 = null; 
@@ -1771,6 +1806,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Level_isExplicit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1816,6 +1852,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Level_max___override(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; Obj x_10 = null; byte x_11 = 0; byte x_12 = 0; Obj x_16 = null; byte x_17 = 0; Obj x_21 = null; uint x_27 = 0; Obj x_28 = null; uint x_29 = 0; Obj x_30 = null; byte x_31 = 0; 
@@ -1924,6 +1961,7 @@ return x_3;
 }
 }
 public static uint lean_level_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; 
@@ -1976,6 +2014,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_Data_depth___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -2025,6 +2064,7 @@ return x_5;
 }
 }
 public static Obj lean_level_mk_imax(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2033,6 +2073,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_isExplicitSubsumedAux___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2044,6 +2085,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Level_PP_Result_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2052,6 +2094,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Level_isParam___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2097,6 +2140,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_PP_toResult___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2120,6 +2164,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Level_substParams(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2225,6 +2270,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_normLtAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2236,6 +2282,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_instReprLevel_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2536,6 +2583,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Level_ofNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -2571,6 +2619,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_mkLevelMaxCore___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2609,6 +2658,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_mkMaxAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2644,6 +2694,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_getMaxArgsAux___at___00Lean_Level_normalize_spec__0(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -2681,6 +2732,7 @@ return x_11;
 }
 }
 public static byte l_Lean_Level_isEquiv(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -2702,6 +2754,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_PP_Result_format___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2721,6 +2774,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_data___override___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -2757,6 +2811,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_geq_go___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2785,6 +2840,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Level_normalize_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2793,6 +2849,7 @@ return x_8;
 }
 }
 public static byte l___private_Lean_Level_0__Lean_Level_isExplicitSubsumedAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2875,6 +2932,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Level_normalize_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2885,6 +2943,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Level_hasParamEx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2914,6 +2973,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_instQuoteMkStr1___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; Obj x_5 = null; 
@@ -2983,6 +3043,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Level_quote(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2996,6 +3057,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_getMaxArgsAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3005,6 +3067,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Level_any___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3033,6 +3096,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_isExplicitSubsumed___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3043,6 +3107,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Level_toNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3062,6 +3127,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_mvarId_x21___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3089,6 +3155,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Level_occurs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -3188,6 +3255,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_QSort_Basic_0__Array_qsort_sort___at___00Lean_Level_normalize_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_16 = 0; 
@@ -3458,6 +3526,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_normLt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3555,6 +3624,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Level_PP_toResult(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -3706,6 +3776,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Level_PP_Result_quote_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; Obj x_6 = null; 
@@ -3748,6 +3819,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Level_0__Lean_Level_isExplicitSubsumed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -3795,6 +3867,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_isNeverZero___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3805,6 +3878,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Level_hasMVar(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; byte x_3 = 0; 
@@ -3814,6 +3888,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_simpLevelIMax_x27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3833,6 +3908,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_instOfNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3872,6 +3948,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_instToFormat___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3911,6 +3988,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_isIMax___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3921,6 +3999,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Level_normLt(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -3930,6 +4009,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Level_getParamSubst___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3941,6 +4021,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Level_PP_Result_quote_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -4004,6 +4085,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Level_isAlreadyNormalizedCheap(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -4052,6 +4134,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_instToFormat___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4061,6 +4144,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_simpLevelIMax_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -4296,6 +4380,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Level_mvarId_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -4354,6 +4439,7 @@ return x_3;
 }
 }
 public static byte l___private_Lean_Level_0__Lean_mkLevelMaxCore___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_10 = 0; 
@@ -4410,6 +4496,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Level_geq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4431,6 +4518,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_depth___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4458,6 +4546,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Level_PP_Result_quote(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4642,6 +4731,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_dec___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4651,6 +4741,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Level_geq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -4693,6 +4784,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Level_collectMVars(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -4778,6 +4870,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_substParams_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -4948,6 +5041,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_updateMax_x21Impl(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -5093,6 +5187,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lean_Level_collectMVars_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -6526,6 +6621,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_getOffset(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -6545,6 +6641,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_isMax___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -6603,6 +6700,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Level_getLevelOffset(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -6763,6 +6861,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Level_instToString___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -6775,6 +6874,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_skipExplicit___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6827,6 +6927,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkLevelIMax(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6835,6 +6936,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_depth(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; uint x_3 = 0; Obj x_4 = null; 
@@ -6885,6 +6987,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Level_dec(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -7008,6 +7111,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Level_format(Obj x_1, byte x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; 
@@ -7056,6 +7160,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_Level_0__Lean_Level_geq_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_17 = 0; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; byte x_25 = 0; 
@@ -7450,6 +7555,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_mkLevelIMax_x27(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -7507,6 +7613,7 @@ return x_2;
 }
 }
 public static ulong l_Lean_Level_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; ulong x_3 = 0; 
@@ -7567,6 +7674,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Level_getParamSubst(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -7632,6 +7740,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Level_mkNaryMax(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -8065,6 +8174,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Level_isNeverZero(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -8127,6 +8237,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_PP_Result_formatLst(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -8193,6 +8304,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Level_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8303,6 +8415,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_simpLevelMax_x27(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -8388,6 +8501,7 @@ return x_1;
 }
 }
 public static byte l_Std_DTreeMap_Internal_Impl_contains___at___00Lean_Level_collectMVars_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -8492,6 +8606,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Level_PP_Result_format(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -8774,6 +8889,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_getMaxArgsAux(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 2)
@@ -8911,6 +9027,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Level_normLtAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; 
@@ -9236,6 +9353,7 @@ return x_21;
 }
 }
 public static Obj l_Lean_Level_normalize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -9723,6 +9841,7 @@ return x_45;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_skipExplicit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -9784,6 +9903,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Level_ctorToNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9844,6 +9964,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Level_getOffsetAux___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9980,6 +10101,7 @@ goto block_20;
 }
 }
 public static Obj l___private_Lean_Level_0__Lean_Level_mkMaxAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; byte x_8 = 0; 
@@ -10074,6 +10196,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Level_getOffsetAux(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)

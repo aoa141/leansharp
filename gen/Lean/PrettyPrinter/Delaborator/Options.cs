@@ -24,6 +24,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPMVars___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -68,6 +69,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_getPPStructureInstanceType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -217,6 +219,7 @@ return x_1;
 }
 public static Obj l_Lean_pp_motives_nonConst;
 public static Obj l_Lean_getPPBeta___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -265,6 +268,7 @@ return x_1;
 }
 }
 public static byte l_Lean_getPPMVarsAnonymous(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_11 = 0; 
@@ -328,6 +332,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getPPMotivesAll___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -338,6 +343,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_getPPNotation___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -348,6 +354,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_getPPFVarsAnonymous___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -490,6 +497,7 @@ return x_5;
 }
 }
 public static byte l_Lean_getPPNumericTypes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -573,6 +581,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_getPPFullNames___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -583,6 +592,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_getPPFunBinderTypes___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -645,6 +655,7 @@ return x_3;
 }
 }
 public static byte l_Lean_getPPCoercionsTypes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -780,6 +791,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_1352222462____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -879,6 +891,7 @@ return x_1;
 }
 }
 public static byte l_Lean_getPPMotivesAll(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -917,6 +930,7 @@ return x_10;
 }
 }
 public static byte l_Lean_getPPFunBinderTypes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -951,6 +965,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_1900330263____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -959,6 +974,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_getPPMotivesPi___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1015,6 +1031,7 @@ return x_1;
 }
 }
 public static byte l_Lean_getPPFieldNotation(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_10 = 0; 
@@ -1068,6 +1085,7 @@ return x_4;
 }
 public static Obj l_Lean_pp_notation;
 public static Obj l_Lean_getPPMotivesNonConst___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1079,6 +1097,7 @@ return x_3;
 }
 public static Obj l_Lean_pp_unicode_fun;
 public static byte l_Lean_getPPStructureInstancesFlatten(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1197,6 +1216,7 @@ return x_10;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_2070467515____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1216,6 +1236,7 @@ return x_5;
 }
 }
 public static byte l_Lean_getPPParens(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1265,6 +1286,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_218093965____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1286,6 +1308,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_141571828____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1305,6 +1328,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPMData___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1325,6 +1349,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getPPMVarsLevels___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1378,6 +1403,7 @@ return x_5;
 }
 }
 public static byte l_Lean_getPPBeta(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1503,6 +1529,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_760538935____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1544,6 +1571,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_2248579234____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1579,6 +1607,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPUniverses___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1589,6 +1618,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_565042913____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1597,6 +1627,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_1325818894____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1660,6 +1691,7 @@ return x_4;
 }
 }
 public static byte l_Lean_getPPMVarsWithType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1698,6 +1730,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_getPPInstantiateMVars___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1735,6 +1768,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPProofsThreshold(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1785,6 +1819,7 @@ return x_4;
 }
 }
 public static byte l_Lean_getPPStructureInstancesDefaults(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1823,6 +1858,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_getPPMatch___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1868,6 +1904,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_1210529748____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1877,6 +1914,7 @@ return x_2;
 }
 public static Obj l_Lean_pp_beta;
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_2147881510____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1912,6 +1950,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_2610318467____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1931,6 +1970,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_547122284____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1940,6 +1980,7 @@ return x_2;
 }
 public static Obj l_Lean_pp_fieldNotation_generalized;
 public static Obj l_Lean_getPPPrivateNames___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1960,6 +2001,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_1327993095____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1968,6 +2010,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_714017495____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2175,6 +2218,7 @@ return x_2;
 }
 }
 public static byte l_Lean_getPPMVarsDelayed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_11 = 0; 
@@ -2302,6 +2346,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_getPPPiBinderNames___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2312,6 +2357,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_getPPStructureInstances___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2322,6 +2368,7 @@ return x_3;
 }
 }
 public static byte l_Lean_getPPSafeShadowing(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2591,6 +2638,7 @@ return x_1;
 }
 }
 public static byte l_Lean_getPPMotivesPi(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2652,6 +2700,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Option_register___at___00__private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_4080382135____hygCtx___hyg_4__spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2661,6 +2710,7 @@ return x_5;
 }
 }
 public static byte l_Lean_getPPInstantiateMVars(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -2699,6 +2749,7 @@ return x_10;
 }
 }
 public static byte l_Lean_getPPUniverses(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -2752,6 +2803,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getPPInstanceTypes___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2782,6 +2834,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_3406008996____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2790,6 +2843,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_697692632____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2806,6 +2860,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_2409783491____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2870,6 +2925,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_1378879936____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2931,6 +2987,7 @@ return x_1;
 }
 public static Obj l_Lean_pp_universes;
 public static byte l_Lean_getPPPiBinderNames(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -2982,6 +3039,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPProofs___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3134,6 +3192,7 @@ return x_10;
 }
 }
 public static byte l_Lean_getPPFVarsAnonymous(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3249,6 +3308,7 @@ return x_5;
 }
 }
 public static byte l_Lean_getPPInstances(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -3339,6 +3399,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getPPCoercions___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3395,6 +3456,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_getPPTagAppFns___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3646,6 +3708,7 @@ return x_1;
 }
 }
 public static byte l_Lean_getPPNatLit(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_10 = 0; 
@@ -3828,6 +3891,7 @@ return x_1;
 }
 public static Obj l_Lean_pp_structureInstances_defaults;
 public static byte l_Lean_getPPMatch(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_10 = 0; 
@@ -3948,6 +4012,7 @@ return x_5;
 }
 public static Obj l_Lean_pp_numericTypes;
 public static byte l_Lean_getPPStructureInstances(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_10 = 0; 
@@ -4000,6 +4065,7 @@ return x_4;
 }
 }
 public static byte l_Lean_getPPCoercions(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_10 = 0; 
@@ -4156,6 +4222,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getPPDeepTermsThreshold___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4238,6 +4305,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getPPForalls___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4325,6 +4393,7 @@ return x_3;
 }
 }
 public static byte l_Lean_getPPNotation(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; byte x_4 = 0; byte x_10 = 0; 
@@ -4570,6 +4639,7 @@ return x_3;
 }
 }
 public static byte l_Lean_getPPPrivateNames(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -4604,6 +4674,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPAll___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4826,6 +4897,7 @@ return x_5;
 }
 }
 public static byte l_Lean_getPPPiBinderNamesHygienic(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -4874,6 +4946,7 @@ return x_1;
 }
 }
 public static byte l_Lean_getPPMVarsLevels(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_11 = 0; 
@@ -4927,6 +5000,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPDeepTerms___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -4964,6 +5038,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPProofsWithType___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5117,6 +5192,7 @@ return x_3;
 }
 }
 public static byte l_Lean_getPPFullNames(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -5246,6 +5322,7 @@ return x_3;
 }
 }
 public static byte l_Lean_getPPLetVarTypes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -5308,6 +5385,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_getPPUnicode___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5351,6 +5429,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_74134663____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5371,6 +5450,7 @@ return x_5;
 }
 public static Obj l_Lean_pp_safeShadowing;
 public static byte l_Lean_getPPUnicode(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -5588,6 +5668,7 @@ return x_3;
 }
 }
 public static byte l_Lean_getPPStructureInstanceType(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; 
@@ -5906,6 +5987,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_getPPExplicit___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -6139,6 +6221,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_PrettyPrinter_Delaborator_Options_0__Lean_initFn_00___x40_Lean_PrettyPrinter_Delaborator_Options_3540906103____hygCtx___hyg_4____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

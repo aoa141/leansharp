@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Nat_Internal_SOM {
 public static Obj l___private_Init_Data_Nat_Internal_SOM_0__Nat_Internal_SOM_Poly_mul_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -38,6 +39,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Nat_Internal_SOM_0__Nat_Internal_SOM_Mon_mul_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -253,6 +255,7 @@ return x_41;
 }
 }
 public static Obj l_Nat_Internal_SOM_Expr_toPoly(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -324,6 +327,7 @@ return x_24;
 }
 }
 public static Obj l_Nat_Internal_SOM_Poly_mulMon___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -424,6 +428,7 @@ return x_13;
 }
 }
 public static Obj l_Nat_Internal_SOM_Poly_add(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -579,6 +584,7 @@ return x_16;
 }
 }
 public static Obj l___private_Init_Data_Nat_Internal_SOM_0__Nat_Internal_SOM_Poly_mulMon_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -611,6 +617,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Nat_Internal_SOM_0__Nat_Internal_SOM_Poly_add_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -894,6 +901,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_Internal_SOM_Poly_insertSorted(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)

@@ -251,7 +251,9 @@ internal sealed unsafe class TaskManager
     void spawn_worker()
     {
         if (m_shutting_down) return;
-        var th = new Thread(WorkerMain, LeanTaskManager.ThreadStackSize)
+        // `mk_thread_proc`: a new thread inherits the creating thread's heartbeat limit
+        ulong maxHeartbeat = LeanSharp.Kernel.KernelLimits.MaxHeartbeat;
+        var th = new Thread(() => { LeanSharp.Kernel.KernelLimits.MaxHeartbeat = maxHeartbeat; WorkerMain(); }, LeanTaskManager.ThreadStackSize)
         {
             IsBackground = true,
             Name = "Lean worker",
@@ -262,6 +264,7 @@ internal sealed unsafe class TaskManager
 
     void WorkerMain()
     {
+        LeanRt.lean_declare_thread_stack(LeanTaskManager.ThreadStackSize);
         Lock();
         try
         {
@@ -305,8 +308,11 @@ internal sealed unsafe class TaskManager
     void spawn_dedicated_worker(TaskObj t)
     {
         m_num_dedicated_workers++;
+        ulong maxHeartbeat = LeanSharp.Kernel.KernelLimits.MaxHeartbeat;
         var th = new Thread(() =>
         {
+            LeanSharp.Kernel.KernelLimits.MaxHeartbeat = maxHeartbeat;
+            LeanRt.lean_declare_thread_stack(LeanTaskManager.ThreadStackSize);
             Lock();
             try
             {

@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Array_Lemmas {
 public static Obj l_Array_instDecidableForallForallMemOfDecidablePred___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -39,6 +40,7 @@ return x_7;
 }
 }
 public static Obj l_Array_instDecidableExistsAndMemOfDecidablePred___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -120,6 +122,7 @@ return x_1;
 }
 }
 public static Obj l_Array_instDecidableMemOfLawfulBEq___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -157,6 +160,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Lemmas_0__Array_foldlM_loop_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -166,6 +170,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Lemmas_0__Array_isEqvAux_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -299,6 +304,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Lemmas_0__Array_shrink_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -308,6 +314,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Lemmas_0__List_anyM_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -522,6 +529,7 @@ return x_3;
 }
 }
 public static Obj l_Array_toListRev___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -617,6 +625,7 @@ return x_11;
 }
 }
 public static Obj l___private_Init_Data_Array_Lemmas_0__Array_erase_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -649,6 +658,7 @@ return x_9;
 }
 }
 public static Obj l___private_Init_Data_Array_Lemmas_0__Array_shrink_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1123,6 +1133,7 @@ return x_1;
 }
 }
 public static byte l_Array_instDecidableForallForallMemOfDecidablePred(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -1176,6 +1187,7 @@ return x_4;
 }
 }
 public static Obj l_Array_instDecidableForallForallMemOfDecidablePred___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1368,6 +1380,7 @@ return x_1;
 }
 }
 public static Obj l_Array_toListRev(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 

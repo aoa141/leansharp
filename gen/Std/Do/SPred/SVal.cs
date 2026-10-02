@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Do_SPred_SVal {
 public static Obj l_Std_Do_SVal_uncurry___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -34,6 +35,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_SVal_instInhabitedStateTupleCons___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -50,6 +52,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Do_SPred_SVal_0__Std_Do_SVal_uncurry_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -59,6 +62,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Do_SVal_curry___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -79,6 +83,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Do_SVal_uncurry___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -88,6 +93,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Do_SVal_getThe___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -137,6 +143,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Do_SVal_uncurry___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -171,6 +178,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Do_SVal_instGetTyCons___redArg___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -210,6 +218,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Do_SVal_instGetTyCons___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

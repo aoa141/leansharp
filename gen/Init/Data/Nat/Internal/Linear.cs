@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Nat_Internal_Linear {
 public static Obj l___private_Init_Data_Nat_Internal_Linear_0__Nat_Internal_Linear_Poly_cancelAux_match__3_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -16,6 +17,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_toPoly(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -26,6 +28,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_inc(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -37,6 +40,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_toPoly_go(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -265,6 +269,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_Internal_Linear_PolyCnstr_isUnsat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -275,6 +280,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -361,6 +367,7 @@ return x_19;
 }
 }
 public static Obj l_Nat_Internal_Linear_Poly_cancelAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; 
@@ -733,6 +740,7 @@ return x_14;
 }
 }
 public static Obj l_Nat_Internal_Linear_Poly_insert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -934,6 +942,7 @@ return x_38;
 }
 }
 public static Obj l___private_Init_Data_Nat_Internal_Linear_0__Nat_Internal_Linear_Poly_cancelAux_match__3_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -943,6 +952,7 @@ return x_4;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_mulR_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -951,6 +961,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_Internal_Linear_Poly_norm(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -969,6 +980,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_Internal_Linear_PolyCnstr_isValid___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1050,6 +1062,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_Internal_elimOffset___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1061,6 +1074,7 @@ return x_7;
 }
 }
 public static Obj l_Nat_Internal_Linear_ExprCnstr_toNormPoly(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_16 = 0; 
@@ -1130,6 +1144,7 @@ return x_3;
 }
 }
 public static Obj l_Nat_Internal_Linear_instBEqPolyCnstr_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1235,6 +1250,7 @@ return x_16;
 }
 }
 public static Obj l_Nat_Internal_Linear_Poly_norm_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1280,6 +1296,7 @@ return x_1;
 }
 }
 public static byte l_Nat_Internal_Linear_PolyCnstr_isUnsat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1343,6 +1360,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_num_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1351,6 +1369,7 @@ return x_3;
 }
 }
 public static byte l_Nat_Internal_Linear_instBEqPolyCnstr_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; 
@@ -1425,6 +1444,7 @@ return x_11;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_mulR_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1462,6 +1482,7 @@ return x_2;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_num_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1470,6 +1491,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_Internal_Linear_PolyCnstr_norm(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_16 = 0; 
@@ -1528,6 +1550,7 @@ return x_12;
 }
 }
 public static Obj l_Nat_Internal_Linear_Poly_isNonZero___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1538,6 +1561,7 @@ return x_3;
 }
 }
 public static byte l_Nat_Internal_Linear_instBEqExpr_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -1663,6 +1687,7 @@ return x_31;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_mulL_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1671,6 +1696,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_Internal_Linear_Poly_isNum_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1716,6 +1742,7 @@ return x_11;
 }
 }
 public static Obj l_List_beq___at___00Nat_Internal_Linear_instBEqPolyCnstr_beq_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1737,6 +1764,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_var_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1755,6 +1783,7 @@ return x_1;
 }
 }
 public static byte l_Nat_Internal_Linear_Poly_isNonZero(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1788,6 +1817,7 @@ return x_11;
 }
 }
 public static Obj l_Nat_Internal_Linear_Poly_toExpr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1878,6 +1908,7 @@ return x_5;
 }
 }
 public static Obj l_Nat_Internal_Linear_Poly_toExpr_go(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -2002,6 +2033,7 @@ return x_10;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_mulL_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2135,6 +2167,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_var_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2173,6 +2206,7 @@ return x_11;
 }
 }
 public static byte l_List_beq___at___00Nat_Internal_Linear_instBEqPolyCnstr_beq_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -2285,6 +2319,7 @@ return x_10;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_add_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2342,6 +2377,7 @@ return x_1;
 }
 }
 public static Obj l_Nat_Internal_Linear_Expr_add_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

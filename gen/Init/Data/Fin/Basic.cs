@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_Fin_Basic {
 public static Obj l_Fin_pred___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -34,6 +35,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_neg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -44,6 +46,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_succ___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -64,6 +67,7 @@ return x_1;
 }
 }
 public static Obj l_Fin_div___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -92,6 +96,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_elim0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -118,6 +123,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_last___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -127,6 +133,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_pred___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -144,6 +151,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Fin_Basic_0__Fin_modn_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -153,6 +161,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_succ(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -177,6 +186,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_xor___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -210,6 +220,7 @@ return x_1;
 }
 }
 public static Obj l_Fin_coeToNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -219,6 +230,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_succ___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -228,6 +240,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_castSucc___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -340,6 +353,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_cast___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -388,6 +402,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_lor___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -406,6 +421,7 @@ return x_1;
 }
 }
 public static Obj l_Fin_castSucc___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -436,6 +452,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_mod___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -447,6 +464,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_instOfNat___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -464,6 +482,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_instInhabited___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -473,6 +492,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_land___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -540,6 +560,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_toNat___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -605,6 +626,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_subNat___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -631,6 +653,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_castAdd___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -640,6 +663,7 @@ return x_2;
 }
 }
 public static Obj l_Fin_castLT___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -912,6 +936,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_toNat___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

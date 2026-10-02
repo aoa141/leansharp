@@ -24,6 +24,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_Package_key___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -130,6 +131,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_BuildInfo_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

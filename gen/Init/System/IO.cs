@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_System_IO {
 public static Obj l_IO_FS_Handle_lock___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -36,6 +37,7 @@ return x_13;
 }
 }
 public static Obj l_IO_FS_Stream_ofBuffer___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -47,6 +49,7 @@ return x_5;
 }
 }
 public static Obj l_IO_FS_Handle_readToEnd___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -92,6 +95,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_System_IO_0__IO_FS_Handle_readBinToEndInto_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; Obj x_5 = null; 
@@ -175,6 +179,7 @@ return x_1;
 }
 }
 public static Obj l_IO_eprint___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -188,6 +193,7 @@ return x_7;
 }
 }
 public static Obj l_IO_ofExcept___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -205,6 +211,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_withIsolatedStreams___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -226,6 +233,7 @@ return x_3;
 }
 }
 public static Obj l_EIO_mapTask___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -374,6 +382,7 @@ return x_19;
 }
 }
 public static Obj l_instMonadEIO___aux__5___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -393,6 +402,7 @@ return x_1;
 }
 }
 public static Obj l_IO_getNumHeartbeats___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -418,6 +428,7 @@ return x_3;
 }
 }
 public static Obj l_EIO_bindTask___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -427,6 +438,7 @@ return x_10;
 }
 }
 public static Obj l_unsafeBaseIO(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -435,6 +447,7 @@ return x_3;
 }
 }
 public static Obj l_EIO_chainTask(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -587,6 +600,7 @@ return x_2;
 }
 }
 public static Obj l_instOrElseEIO___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -595,6 +609,7 @@ return x_2;
 }
 }
 public static Obj l_IO_toEIO___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -694,6 +709,7 @@ return x_16;
 }
 }
 public static Obj l_IO_TaskState_waiting_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -909,6 +925,7 @@ return x_1;
 }
 }
 public static Obj l_IO_TaskState_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -918,6 +935,7 @@ return x_3;
 }
 }
 public static Obj l_System_FilePath_walkDir(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -1101,6 +1119,7 @@ return x_16;
 }
 }
 public static Obj l___private_Init_System_IO_0__BaseIO_mapTasks_go___redArg(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1161,6 +1180,7 @@ return x_20;
 }
 }
 public static Obj l_IO_FS_removeFile___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1232,6 +1252,7 @@ return x_17;
 }
 }
 public static Obj l_IO_FS_withIsolatedStreams___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -1251,6 +1272,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Process_spawn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1296,6 +1318,7 @@ return x_15;
 }
 }
 public static Obj l_IO_chainTask___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1314,6 +1337,7 @@ return x_1;
 }
 }
 public static Obj l_IO_println(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1332,6 +1356,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_readFile___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1341,6 +1366,7 @@ return x_3;
 }
 }
 public static Obj l_Runtime_markPersistent___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1349,6 +1375,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_withIsolatedStreams___redArg___lam__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 byte x_10 = 0; Obj x_11 = null; 
@@ -1358,6 +1385,7 @@ return x_11;
 }
 }
 public static Obj l_EIO_adapt___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1366,6 +1394,7 @@ return x_4;
 }
 }
 public static Obj l_IO_appPath___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1374,6 +1403,7 @@ return x_2;
 }
 }
 public static Obj l_instMonadAttachEIO___aux__3___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1390,6 +1420,7 @@ return x_9;
 }
 }
 public static Obj l_IO_FS_createDirAll___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1398,6 +1429,7 @@ return x_3;
 }
 }
 public static byte l_IO_hasFinished(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1417,6 +1449,7 @@ return x_6;
 }
 }
 public static Obj l_IO_FS_withIsolatedStreams___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -1462,6 +1495,7 @@ return x_17;
 }
 }
 public static Obj l___private_Init_System_IO_0__IO_FS_Stream_lines_read___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1481,6 +1515,7 @@ return x_2;
 }
 }
 public static Obj l_EIO_asTask(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -1493,6 +1528,7 @@ return x_7;
 }
 }
 public static Obj l_EIO_throw___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1605,6 +1641,7 @@ return x_1;
 }
 }
 public static Obj l_EIO_map___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1613,6 +1650,7 @@ return x_7;
 }
 }
 public static Obj l_IO_FS_instInhabitedStream_default___lam__2___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1622,6 +1660,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00__private_Init_System_IO_0__System_FilePath_walkDir_go_spec__0(Obj x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; byte x_15 = 0; 
@@ -1918,6 +1957,7 @@ goto _start;
 }
 }
 public static Obj l_instMonadBaseIO___aux__13___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1936,6 +1976,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadBaseIO___aux__11___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1966,6 +2007,7 @@ return x_3;
 }
 }
 public static Obj l_IO_eprintln___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2001,6 +2043,7 @@ return x_5;
 }
 }
 public static Obj l_IO_asTask___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2009,6 +2052,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadEIO___aux__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2050,6 +2094,7 @@ return x_1;
 }
 }
 public static Obj l_BaseIO_mapTasks(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2058,6 +2103,7 @@ return x_8;
 }
 }
 public static Obj l_instMonadFinallyEIO___aux__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2066,6 +2112,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadEIO___aux__7___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2074,6 +2121,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_Stream_readBinToEndInto(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2094,6 +2142,7 @@ return x_2;
 }
 }
 public static Obj l_IO_FS_Handle_getLine___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2103,6 +2152,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_rename___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2113,6 +2163,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FileRight_flags___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -2147,6 +2198,7 @@ return x_5;
 }
 }
 public static Obj l_IO_lazyPure___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2155,6 +2207,7 @@ return x_3;
 }
 }
 public static Obj l_instMonadAttachEIO___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2171,6 +2224,7 @@ return x_3;
 }
 }
 public static Obj l_IO_mapTask___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2180,6 +2234,7 @@ return x_7;
 }
 }
 public static Obj l_IO_withStderr(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -2188,6 +2243,7 @@ return x_8;
 }
 }
 public static Obj l_instMonadLiftBaseIOEIO___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2298,6 +2354,7 @@ return x_17;
 }
 }
 public static Obj l_instMonadEIO___aux__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2306,6 +2363,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadBaseIO___aux__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2346,6 +2404,7 @@ return x_6;
 }
 }
 public static Obj lean_io_eprintln(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2354,6 +2413,7 @@ return x_3;
 }
 }
 public static Obj l_instMonadLiftBaseIOEIO___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2362,6 +2422,7 @@ return x_2;
 }
 }
 public static Obj l_IO_eprint___at___00__private_Init_System_IO_0__IO_eprintAux_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2370,6 +2431,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_Handle_write___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2380,6 +2442,7 @@ return x_4;
 }
 }
 public static Obj l_IO_mapTasks___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2399,6 +2462,7 @@ return x_1;
 }
 }
 public static byte l_IO_instDecidableEqTaskState(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2435,6 +2499,7 @@ return x_2;
 }
 }
 public static Obj l_IO_bindTask___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -2454,6 +2519,7 @@ return x_1;
 }
 }
 public static Obj l_IO_TaskState_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -2465,6 +2531,7 @@ return x_7;
 }
 }
 public static Obj l_IO_wait___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2473,6 +2540,7 @@ return x_4;
 }
 }
 public static Obj l_IO_TaskState_waiting_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -2483,6 +2551,7 @@ return x_6;
 }
 }
 public static Obj l_IO_FS_Stream_lines(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2492,6 +2561,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_instReprDirEntry_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_42 = 0; 
@@ -2604,6 +2674,7 @@ return x_38;
 }
 }
 public static Obj l_IO_iterate(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2995,6 +3066,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_instBEqFileType_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -3006,6 +3078,7 @@ return x_6;
 }
 }
 public static Obj l_IO_mapTask___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -3016,6 +3089,7 @@ return x_7;
 }
 }
 public static Obj l_instMonadAttachBaseIO___aux__3___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3135,6 +3209,7 @@ return x_15;
 }
 }
 public static Obj l_IO_println___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3155,6 +3230,7 @@ return x_2;
 }
 }
 public static Obj l_IO_mapTasks___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -3224,6 +3300,7 @@ return x_10;
 }
 }
 public static Obj l_instMonadExceptOfEIO___aux__1___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3274,6 +3351,7 @@ return x_4;
 }
 }
 public static Obj l_IO_appDir___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3300,6 +3378,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Process_Stdio_null_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3331,6 +3410,7 @@ return x_3;
 }
 }
 public static Obj l_IO_monoMsNow___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3339,6 +3419,7 @@ return x_2;
 }
 }
 public static Obj l_IO_mapTasks(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, byte x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; 
@@ -3363,6 +3444,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_instReprSystemTime_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; uint x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_34 = null; Obj x_35 = null; byte x_36 = 0; 
@@ -3463,6 +3545,7 @@ return x_4;
 }
 }
 public static Obj l_allocprof___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3603,6 +3686,7 @@ return x_1;
 }
 }
 public static Obj l_EIO_catchExceptions___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3623,6 +3707,7 @@ return x_2;
 }
 }
 public static Obj l_IO_FS_FileType_file_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3632,6 +3717,7 @@ return x_2;
 }
 }
 public static Obj l_IO_FS_Mode_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3666,6 +3752,7 @@ return x_3;
 }
 }
 public static Obj l_EIO_tryCatch___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3865,6 +3952,7 @@ return x_7;
 }
 }
 public static Obj l_ByteArray_findIdx_x3f_loop___at___00IO_FS_Stream_ofBuffer_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3894,6 +3982,7 @@ return x_1;
 }
 }
 public static Obj l_System_FilePath_readDir___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4000,6 +4089,7 @@ return x_14;
 }
 }
 public static Obj l_instMonadEIO___aux__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4008,6 +4098,7 @@ return x_7;
 }
 }
 public static Obj l_EIO_bindTask___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -4017,6 +4108,7 @@ return x_7;
 }
 }
 public static Obj l_BaseIO_chainTask(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4150,6 +4242,7 @@ return x_6;
 }
 }
 public static Obj l_IO_getStdout___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4176,6 +4269,7 @@ return x_3;
 }
 }
 public static Obj l_IO_bindTask___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -4185,6 +4279,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_System_IO_0__IO_FS_Handle_lines_read(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4486,6 +4581,7 @@ return x_5;
 }
 }
 public static Obj l_instMonadExceptOfEIO___aux__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4503,6 +4599,7 @@ return x_7;
 }
 }
 public static Obj l_IO_FS_lines(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4583,6 +4680,7 @@ return x_5;
 }
 }
 public static Obj l_IO_FS_withTempFile(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -4651,6 +4749,7 @@ return x_2;
 }
 }
 public static byte l_IO_instMaxTaskState___lam__0(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -4685,6 +4784,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_System_IO_0__IO_FS_Stream_lines_read(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -5015,6 +5115,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_instReprSystemTime_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5151,6 +5252,7 @@ return x_2;
 }
 }
 public static Obj l_List_mapIdx_go___at___00IO_waitAny_x27_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5159,6 +5261,7 @@ return x_4;
 }
 }
 public static Obj l_EIO_chainTask___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5206,6 +5309,7 @@ return x_1;
 }
 }
 public static Obj l_IO_withStdin(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -5224,6 +5328,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadBaseIO___aux__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -5232,6 +5337,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_createDirAll(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_18 = 0; 
@@ -5519,6 +5625,7 @@ return x_31;
 }
 }
 public static Obj l_IO_FS_FileType_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5541,6 +5648,7 @@ return x_4;
 }
 }
 public static Obj l_IO_withStdin___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5640,6 +5748,7 @@ goto block_15;
 }
 }
 public static Obj l_BaseIO_mapTasks___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5677,6 +5786,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_writeBinFile(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5756,6 +5866,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_Mode_writeNew_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -5791,6 +5902,7 @@ return x_7;
 }
 }
 public static Obj l_IO_instOrdTaskState_ord___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -5802,6 +5914,7 @@ return x_6;
 }
 }
 public static Obj l_instMonadBaseIO___aux__5___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5924,6 +6037,7 @@ return x_15;
 }
 }
 public static Obj l_EIO_toBaseIO___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5987,6 +6101,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_instInhabitedStream_default___lam__4(ulong x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -6006,6 +6121,7 @@ return x_4;
 }
 }
 public static Obj l_EIO_mapTask(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -6016,6 +6132,7 @@ return x_10;
 }
 }
 public static Obj l_IO_FS_Mode_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -6027,6 +6144,7 @@ return x_7;
 }
 }
 public static Obj l_IO_FS_Stream_ofBuffer___lam__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_29 = 0; 
@@ -6211,6 +6329,7 @@ return x_1;
 }
 }
 public static Obj l_unsafeEIO(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -6223,6 +6342,7 @@ return x_5;
 }
 }
 public static Obj l_BaseIO_mapTask___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -6241,6 +6361,7 @@ return x_2;
 }
 }
 public static Obj l___aux__Init__System__IO______macroRules__termPrintln_x21______1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6250,6 +6371,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Process_Stdio_null_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6295,6 +6417,7 @@ return x_1;
 }
 }
 public static Obj l_IO_getStdin___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6379,6 +6502,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_FileType_other_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6389,6 +6513,7 @@ return x_6;
 }
 }
 public static Obj l_IO_bindTask___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -6470,6 +6595,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_Handle_truncate___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6479,6 +6605,7 @@ return x_3;
 }
 }
 public static Obj l_EIO_toIO___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6495,6 +6622,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_Stream_readBinToEnd(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -6504,6 +6632,7 @@ return x_4;
 }
 }
 public static byte l_System_FilePath_isDir(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6530,6 +6659,7 @@ return x_8;
 }
 }
 public static Obj l_IO_waitAny___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6539,6 +6669,7 @@ return x_5;
 }
 }
 public static Obj l_IO_waitAny_x27___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6856,6 +6987,7 @@ return x_1;
 }
 }
 public static Obj l_IO_sleep___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6898,6 +7030,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_System_IO_0__BaseIO_mapTasks_go___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -6929,6 +7062,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_Mode_read_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6950,6 +7084,7 @@ return x_1;
 }
 }
 public static Obj l_IO_instMonadLiftSTRealWorldBaseIO___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6958,6 +7093,7 @@ return x_4;
 }
 }
 public static Obj l_instMonadEIO(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6997,6 +7133,7 @@ return x_2;
 }
 }
 public static Obj l_IO_getTaskState___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -7054,6 +7191,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Process_output___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7153,6 +7291,7 @@ return x_2;
 }
 }
 public static Obj l_IO_mapTasks___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7171,6 +7310,7 @@ return x_5;
 }
 }
 public static Obj l_EIO_chainTask___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7179,6 +7319,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_Mode_read_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7246,6 +7387,7 @@ return x_10;
 }
 }
 public static Obj l_IO_FS_withFile(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7463,6 +7605,7 @@ return x_7;
 }
 }
 public static Obj l_IO_FS_Stream_ofBuffer___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7473,6 +7616,7 @@ return x_4;
 }
 }
 public static Obj l_IO_TaskState_finished_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -7483,6 +7627,7 @@ return x_6;
 }
 }
 public static Obj l_IO_FS_Mode_write_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7504,6 +7649,7 @@ return x_2;
 }
 }
 public static Obj l_IO_instMinTaskState___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -7546,6 +7692,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_removeDirAll___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7555,6 +7702,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Process_getCurrentDir___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7624,6 +7772,7 @@ return x_7;
 }
 }
 public static Obj l_IO_eprintln___at___00__private_Init_System_IO_0__IO_eprintlnAux_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7642,6 +7791,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_forIn_x27Unsafe_loop___at___00IO_FS_removeDirAll_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -7908,6 +8058,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_Handle_mk___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -7918,6 +8069,7 @@ return x_5;
 }
 }
 public static Obj l_Runtime_markMultiThreaded___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -7963,6 +8115,7 @@ return x_8;
 }
 }
 public static Obj l_IO_FS_Handle_isTty___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -7981,6 +8134,7 @@ return x_6;
 }
 }
 public static Obj l_IO_print(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -8303,6 +8457,7 @@ return x_7;
 }
 }
 public static Obj l_IO_FS_withTempFile___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -8329,6 +8484,7 @@ return x_12;
 }
 }
 public static Obj l_IO_FS_Handle_lines___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8346,6 +8502,7 @@ return x_5;
 }
 }
 public static Obj l_IO_FS_Mode_writeNew_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8382,6 +8539,7 @@ return x_8;
 }
 }
 public static Obj l_EIO_chainTask___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -8433,6 +8591,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_FileType_dir_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8451,6 +8610,7 @@ return x_7;
 }
 }
 public static Obj l_IO_hasFinished___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8461,6 +8621,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_removeDirAll(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8633,6 +8794,7 @@ return x_3;
 }
 }
 public static Obj l_IO_waitAny_x27___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_15 = 0; 
@@ -8781,6 +8943,7 @@ return x_2;
 }
 }
 public static Obj l_IO_FS_instOrdSystemTime_ord___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8792,6 +8955,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Process_output(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9380,6 +9544,7 @@ return x_46;
 }
 }
 public static byte l_IO_hasFinished___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -9399,6 +9564,7 @@ return x_5;
 }
 }
 public static Obj l_IO_Process_exit___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -9424,6 +9590,7 @@ return x_5;
 }
 }
 public static Obj l_IO_FS_instInhabitedStream_default___lam__2(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -9434,6 +9601,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_instInhabitedStream_default___lam__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -9464,6 +9632,7 @@ return x_2;
 }
 }
 public static Obj l_IO_Process_Child_pid___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -9492,6 +9661,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_System_IO_0__IO_FS_Stream_readBinToEndInto_loop___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9510,6 +9680,7 @@ return x_1;
 }
 }
 public static Obj l_EIO_catchExceptions___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9518,6 +9689,7 @@ return x_6;
 }
 }
 public static Obj l_IO_FS_instInhabitedStream_default___lam__5___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -9554,6 +9726,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_Stream_ofBuffer(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -9579,6 +9752,7 @@ return x_8;
 }
 }
 public static Obj l_BaseIO_toIO___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9604,6 +9778,7 @@ return x_2;
 }
 }
 public static Obj l_IO_withStdout(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -9642,6 +9817,7 @@ return x_3;
 }
 }
 public static Obj l_BaseIO_map___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10012,6 +10188,7 @@ return x_3;
 }
 }
 public static Obj l_IO_Process_run___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10021,6 +10198,7 @@ return x_4;
 }
 }
 public static Obj l_unsafeIO___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -10166,6 +10344,7 @@ return x_3;
 }
 }
 public static Obj l_instMonadEIO___aux__9___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10182,6 +10361,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_instReprMetadata_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10339,6 +10519,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_withFile___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -10349,6 +10530,7 @@ return x_6;
 }
 }
 public static Obj l_IO_FS_withTempDir(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -10580,6 +10762,7 @@ return x_2;
 }
 }
 public static Obj l_EIO_mapTasks___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -10605,6 +10788,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_Mode_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10624,6 +10808,7 @@ return x_1;
 }
 }
 public static Obj l_IO_TaskState_running_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -10697,6 +10882,7 @@ return x_8;
 }
 }
 public static Obj l_instMonadBaseIO___aux__13___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10705,6 +10891,7 @@ return x_6;
 }
 }
 public static Obj l_IO_getRandomBytes___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; 
@@ -10715,6 +10902,7 @@ return x_4;
 }
 }
 public static Obj l_IO_asTask___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10723,6 +10911,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Process_Stdio_inherit_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10828,6 +11017,7 @@ return x_2;
 }
 }
 public static Obj l_EIO_adapt___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -10944,6 +11134,7 @@ return x_13;
 }
 }
 public static Obj l_instMonadFinallyEIO___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11021,6 +11212,7 @@ return x_2;
 }
 }
 public static Obj l_IO_TaskState_toString(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -11076,6 +11268,7 @@ return x_2;
 }
 }
 public static Obj l_IO_Process_Stdio_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11099,6 +11292,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapIdx_go___at___00IO_waitAny_x27_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -11308,6 +11502,7 @@ return x_17;
 }
 }
 public static Obj l_IO_FS_readFile(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11525,6 +11720,7 @@ return x_16;
 }
 }
 public static Obj l_IO_FS_readBinFile___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11608,6 +11804,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_createDir___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11617,6 +11814,7 @@ return x_3;
 }
 }
 public static Obj l_EIO_toIO_x27___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11625,6 +11823,7 @@ return x_3;
 }
 }
 public static Obj l_IO_print___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11719,6 +11918,7 @@ return x_11;
 }
 }
 public static Obj l_BaseIO_bindTask___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -11754,6 +11954,7 @@ return x_2;
 }
 }
 public static byte l_IO_instMinTaskState___lam__0(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -11802,6 +12003,7 @@ return x_3;
 }
 }
 public static Obj l_IO_FS_writeFile___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11858,6 +12060,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_System_IO_0__IO_FS_Stream_readBinToEndInto_loop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -12010,6 +12213,7 @@ return x_3;
 }
 }
 public static Obj l_instMonadEIO___aux__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -12018,6 +12222,7 @@ return x_7;
 }
 }
 public static Obj l_instMonadBaseIO___aux__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12286,6 +12491,7 @@ return x_3;
 }
 }
 public static Obj l_IO_instReprTaskState_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; 
@@ -12515,6 +12721,7 @@ return x_3;
 }
 }
 public static Obj l_EIO_bindTask(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, byte x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; Obj x_10 = null; 
@@ -12555,6 +12762,7 @@ return x_2;
 }
 }
 public static Obj l_BaseIO_toEIO___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12563,6 +12771,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_System_IO_0__IO_eprintAux___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12599,6 +12808,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_hardLink___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12629,6 +12839,7 @@ return x_1;
 }
 }
 public static Obj l_instMonadBaseIO___aux__9___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12658,6 +12869,7 @@ return x_3;
 }
 }
 public static Obj l___aux__Init__System__IO______macroRules__termPrintln_x21______1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -12850,6 +13062,7 @@ return x_106;
 }
 }
 public static Obj l_ByteArray_findIdx_x3f_loop___at___00IO_FS_Stream_ofBuffer_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -12918,6 +13131,7 @@ return x_4;
 }
 }
 public static Obj l_IO_FS_instReprMetadata_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12926,6 +13140,7 @@ return x_3;
 }
 }
 public static Obj l_IO_setAccessRights___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13106,6 +13321,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Process_getPID___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -13216,6 +13432,7 @@ return x_5;
 }
 }
 public static Obj l_IO_iterate___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13259,6 +13476,7 @@ return x_2;
 }
 }
 public static Obj l_IO_Prim_setAccessRights___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -13270,6 +13488,7 @@ return x_5;
 }
 }
 public static Obj l_EIO_bindTask___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -13392,6 +13611,7 @@ return x_12;
 }
 }
 public static Obj l_instMonadBaseIO___aux__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -13548,6 +13768,7 @@ return x_17;
 }
 }
 public static Obj l_IO_currentDir___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13697,6 +13918,7 @@ return x_1;
 }
 }
 public static Obj l_IO_FS_FileType_dir_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -13707,6 +13929,7 @@ return x_6;
 }
 }
 public static Obj l_BaseIO_chainTask___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -13750,6 +13973,7 @@ return x_10;
 }
 }
 public static Obj l_IO_eprintln___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -13758,6 +13982,7 @@ return x_5;
 }
 }
 public static Obj l_IO_ofExcept___at___00IO_Process_output_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14029,6 +14254,7 @@ return x_5;
 }
 }
 public static Obj l_BaseIO_toEIO___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -14109,6 +14335,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_System_IO_0__System_FilePath_walkDir_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -14252,6 +14479,7 @@ return x_7;
 }
 }
 public static Obj l_EIO_bindTask___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14860,6 +15088,7 @@ return x_2;
 }
 }
 public static Obj l_instMonadExceptOfEIO___aux__3___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14887,6 +15116,7 @@ return x_10;
 }
 }
 public static Obj l_instMonadAttachEIO(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15349,6 +15579,7 @@ return x_1;
 }
 }
 public static Obj l_IO_Process_Stdio_piped_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -16079,6 +16310,7 @@ return x_17;
 }
 }
 public static Obj l_IO_FS_Handle_rewind___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -16307,6 +16539,7 @@ return x_4;
 }
 }
 public static Obj l_IO_Process_Stdio_inherit_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -16866,6 +17099,7 @@ return x_3;
 }
 }
 public static Obj l_IO_iterate___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 

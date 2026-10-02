@@ -19,6 +19,7 @@ return x_3;
 }
 }
 public static Obj l_List_mapTR_loop___at___00__private_Lean_Util_ReplaceLevel_0__Lean_Expr_ReplaceLevelImpl_replaceUnsafeM_visit_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -81,6 +82,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Expr_ReplaceLevelImpl_replaceUnsafeM(Obj x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -98,6 +100,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Expr_ReplaceLevelImpl_cache___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; Obj x_6 = null; 
@@ -108,6 +111,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Expr_ReplaceLevelImpl_replaceUnsafe(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -121,6 +125,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Level_replace(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -242,6 +247,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Util_ReplaceLevel_0__Lean_Expr_ReplaceLevelImpl_replaceUnsafeM_visit(Obj x_1, ulong x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; ulong x_10 = 0; byte x_11 = 0; 

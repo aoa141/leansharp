@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_RecAppSyntax {
 public static Obj l_Lean_getRecAppSyntax_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 10)
@@ -123,6 +124,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_mkRecAppWithSyntax(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; 
@@ -201,6 +203,7 @@ return x_1;
 }
 }
 public static byte l_Lean_hasRecAppSyntax(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 10)
@@ -219,6 +222,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00__private_Lean_Elab_RecAppSyntax_0__Lean_detachSyntax_spec__0(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -543,6 +547,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_MData_isRecApp___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 

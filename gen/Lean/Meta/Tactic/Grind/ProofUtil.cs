@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkLetOfMap___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; byte x_38 = 0; 
@@ -162,6 +163,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_Grind_mkLetOfMap___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 

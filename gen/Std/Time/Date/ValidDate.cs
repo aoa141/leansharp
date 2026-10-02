@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_Date_ValidDate {
 public static Obj l_Std_Time_ValidDate_ofOrdinal(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; 
@@ -17,6 +18,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Date_ValidDate_0__Std_Time_ValidDate_ofOrdinal_go___redArg(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -51,6 +53,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Time_instDecidableEqValidDate___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -60,6 +63,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Date_ValidDate_0__Std_Time_ValidDate_ofOrdinal_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -158,6 +162,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_instOrdValidDate___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -180,6 +185,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_ValidDate_dayOfYear___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -190,6 +196,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time_instOrdValidDate(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -282,6 +289,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instInhabitedValidDate___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -388,6 +396,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_instDecidableEqValidDate___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -493,6 +502,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_instOrdValidDate___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

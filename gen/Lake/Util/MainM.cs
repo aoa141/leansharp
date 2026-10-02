@@ -45,6 +45,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instMonadLiftBaseIOMainM___aux__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -318,6 +319,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_MainM_liftLogIO___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -364,6 +366,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_MainM_orElse(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -528,6 +531,7 @@ return x_16;
 }
 }
 public static Obj l_Lake_MainM_runLoggerIO___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -537,6 +541,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_MainM_liftLoggerIO___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -564,6 +569,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_MainM_runLoggerIO___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -603,6 +609,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instMonadMainM___aux__9___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -721,6 +728,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_MainM_exit___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -731,6 +739,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_MainM_orElse___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -756,6 +765,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instMonadMainM___aux__13___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -794,6 +804,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instMonadMainM___aux__13___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -904,6 +915,7 @@ return x_19;
 }
 }
 public static Obj l_Lake_MainM_runLogIO___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1178,6 +1190,7 @@ goto block_54;
 }
 }
 public static Obj l_Lake_instMonadMainM___aux__5___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1253,6 +1266,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_MainM_instMonadError___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1269,6 +1283,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_MainM_liftLogIO_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -1427,6 +1442,7 @@ return x_30;
 }
 }
 public static Obj l_Lake_MainM_liftLoggerIO___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1435,6 +1451,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMonadFinallyMainM___aux__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1443,6 +1460,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMonadMainM___aux__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1451,6 +1469,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_MainM_tryCatchError___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1825,6 +1844,7 @@ return x_45;
 }
 }
 public static Obj l_Lake_instMonadFinallyMainM___aux__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1900,6 +1920,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMonadMainM___aux__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1908,6 +1929,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_MainM_instMonadLiftIO___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1916,6 +1938,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMonadMainM___aux__9___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1934,6 +1957,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lake_MainM_liftLogIO_spec__0(Obj x_1, byte x_2, byte x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; 
@@ -1966,6 +1990,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_MainM_tryCatchError___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1982,6 +2007,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_MainM_liftLogIO___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2453,6 +2479,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_MainM_error___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -2483,6 +2510,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_MainM_tryCatchError(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3029,6 +3057,7 @@ return x_17;
 }
 }
 public static Obj l_Lake_MainM_failure___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3295,6 +3324,7 @@ return x_12;
 }
 }
 public static Obj l_Lake_MainM_error___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -3305,6 +3335,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_MainM_orElse___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3387,6 +3418,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_MainM_run___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; Obj x_4 = null; 
@@ -3793,6 +3825,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_MainM_tryCatchError___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3996,6 +4029,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instMonadMainM___aux__11___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4113,6 +4147,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_MainM_mk___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

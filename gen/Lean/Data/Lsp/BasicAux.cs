@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Data_Lsp_BasicAux {
 public static Obj l_Lean_Lsp_instBEqRange_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -175,6 +176,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instBEqPosition_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -427,6 +429,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Lsp_instBEqRange_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -462,6 +465,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instReprPosition_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -480,6 +484,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToStringPosition___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -554,6 +559,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instReprRange_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -572,6 +578,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instHashableRange_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -771,6 +778,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonPosition_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_25 = 0; 
@@ -858,6 +866,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Lsp_instReprPosition_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_38 = 0; 
@@ -964,6 +973,7 @@ return x_34;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonRange_fromJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -1047,6 +1057,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Json_getObjValAs_x3f___at___00Lean_Lsp_instFromJsonPosition_fromJson_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1078,6 +1089,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instFromJsonPosition_fromJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1474,6 +1486,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instToJsonRange_toJson(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_23 = 0; 
@@ -1547,6 +1560,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Lsp_instReprRange_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_36 = 0; 
@@ -1649,6 +1663,7 @@ return x_32;
 }
 }
 public static Obj l_Lean_Lsp_instOrdRange_ord___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1745,6 +1760,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_List_Impl_0__List_flatMapTR_go___at___00Lean_Lsp_instToJsonPosition_toJson_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1868,6 +1884,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Lsp_instHashablePosition_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -2190,6 +2207,7 @@ return x_2;
 }
 }
 public static ulong l_Lean_Lsp_instHashableRange_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; 

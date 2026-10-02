@@ -19,6 +19,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Dyadic_Basic_0__Dyadic_add_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -120,6 +121,7 @@ return x_2;
 }
 }
 public static Obj l_Dyadic_ofOdd_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -203,6 +205,7 @@ return x_2;
 }
 }
 public static Obj l_Dyadic_instDecidableLT___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -214,6 +217,7 @@ return x_4;
 }
 }
 public static Obj l_Dyadic_blt___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -236,6 +240,7 @@ return x_2;
 }
 }
 public static Obj l_Dyadic_instDecidableLE___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -247,6 +252,7 @@ return x_4;
 }
 }
 public static Obj l_Dyadic_shiftLeft___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -266,6 +272,7 @@ return x_1;
 }
 }
 public static Obj l_Rat_toDyadic(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -317,6 +324,7 @@ return x_21;
 }
 }
 public static Obj l_Dyadic_shiftRight___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -362,6 +370,7 @@ return x_11;
 }
 }
 public static Obj l_Dyadic_add(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -540,6 +549,7 @@ return x_37;
 }
 }
 public static Obj l_Dyadic_ofIntWithPrec(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -570,6 +580,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_Dyadic_Basic_0__Int_trailingZeros_aux_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -580,6 +591,7 @@ return x_7;
 }
 }
 public static Obj l_instDecidableEqDyadic___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -690,6 +702,7 @@ return x_25;
 }
 }
 public static Obj l_Dyadic_ofOdd_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -698,6 +711,7 @@ return x_3;
 }
 }
 public static byte l_Dyadic_instDecidableLT(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -706,6 +720,7 @@ return x_3;
 }
 }
 public static Obj l_Dyadic_instOfNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -850,6 +865,7 @@ return x_4;
 }
 }
 public static Obj l_Dyadic_instNatCast___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1030,6 +1046,7 @@ return x_19;
 }
 }
 public static Obj l_Dyadic_mul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1049,6 +1066,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Dyadic_Basic_0__Rat_toDyadic_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1067,6 +1085,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Dyadic_Basic_0__Dyadic_add_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1086,6 +1105,7 @@ return x_1;
 }
 }
 public static Obj l_Int_trailingZeros_aux___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -1185,6 +1205,7 @@ return x_3;
 }
 }
 public static byte l_instDecidableEqDyadic(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1193,6 +1214,7 @@ return x_3;
 }
 }
 public static Obj l_Dyadic_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1367,6 +1389,7 @@ return x_8;
 }
 }
 public static Obj l_instDecidableEqDyadic_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1534,6 +1557,7 @@ return x_12;
 }
 }
 public static Obj l_Dyadic_roundDown___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1677,6 +1701,7 @@ return x_1;
 }
 }
 public static Obj l_Dyadic_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1874,6 +1899,7 @@ return x_3;
 }
 }
 public static Obj l_Dyadic_instHShiftRightNat___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -2175,6 +2201,7 @@ return x_1;
 }
 }
 public static Obj l_Dyadic_pow(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)

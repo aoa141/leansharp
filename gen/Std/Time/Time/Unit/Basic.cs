@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Time_Time_Unit_Basic {
 public static Obj l_Std_Time_Millisecond_Offset_ofMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -16,6 +17,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Second_Offset_ofMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -25,6 +27,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_ofSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -34,6 +37,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toHours___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -52,6 +56,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_ofMilliseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -72,6 +77,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Millisecond_Offset_toHours___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -81,6 +87,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_Offset_ofMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -90,6 +97,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Millisecond_Offset_ofSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -99,6 +107,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_toMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -108,6 +117,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_ofHours(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -117,6 +127,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toMilliseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -126,6 +137,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Millisecond_Offset_ofHours___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -135,6 +147,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_ofMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -144,6 +157,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Second_Offset_toNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -171,6 +185,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toHours(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -180,6 +195,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_ofMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -189,6 +205,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_ofHours(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -198,6 +215,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Second_Offset_ofNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -207,6 +225,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_toMilliseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -216,6 +235,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_ofSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -236,6 +256,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_ofNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -294,6 +315,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_ofNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -312,6 +334,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Second_Offset_toMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -321,6 +344,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Millisecond_Offset_toSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -348,6 +372,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toSeconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -357,6 +382,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Millisecond_Offset_toMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -366,6 +392,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -375,6 +402,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_Offset_ofHours___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -384,6 +412,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_toSeconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -393,6 +422,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_toNanoseconds___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -429,6 +459,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Second_Offset_toMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -483,6 +514,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_ofMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -510,6 +542,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Second_Offset_toHours___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -519,6 +552,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_ofNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -537,6 +571,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toSeconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -555,6 +590,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_toMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -564,6 +600,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_ofMinutes(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -573,6 +610,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Hour_Offset_toNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -591,6 +629,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time_Nanosecond_Offset_toHours(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -600,6 +639,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toNanoseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -609,6 +649,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time_Minute_Offset_toMilliseconds(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 

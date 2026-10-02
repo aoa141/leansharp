@@ -106,6 +106,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__14___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -115,6 +116,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__27___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -142,6 +144,7 @@ Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
 Obj x_18 = _args[17];
+lean_stack_probe();
 _start:
 {
 byte x_19 = 0; byte x_20 = 0; Obj x_21 = null; 
@@ -152,6 +155,7 @@ return x_21;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__34___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 uint x_6 = 0; Obj x_7 = null; 
@@ -163,6 +167,7 @@ return x_7;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg___lam__7___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -294,6 +299,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Server_shutdown___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -302,6 +308,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__12(Obj x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, Obj x_6, Obj x_7, Obj x_8, byte x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16, Obj x_17) {
+lean_stack_probe();
 _start:
 {
 Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; 
@@ -386,6 +393,7 @@ Obj x_16 = _args[15];
 Obj x_17 = _args[16];
 Obj x_18 = _args[17];
 Obj x_19 = _args[18];
+lean_stack_probe();
 _start:
 {
 byte x_20 = 0; byte x_21 = 0; Obj x_22 = null; 
@@ -397,6 +405,7 @@ return x_22;
 }
 }
 public static Obj l_Std_Http_Server_serve(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, uint x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -405,6 +414,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__6___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -413,6 +423,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg___lam__9___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -434,6 +445,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Server_shutdownAndWait(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -459,6 +471,7 @@ return x_13;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__31(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -587,6 +600,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__20___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -596,6 +610,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -672,6 +687,7 @@ return x_20;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -778,6 +794,7 @@ Obj x_15 = _args[14];
 Obj x_16 = _args[15];
 Obj x_17 = _args[16];
 Obj x_18 = _args[17];
+lean_stack_probe();
 _start:
 {
 uint x_19 = 0; Obj x_20 = null; 
@@ -789,6 +806,7 @@ return x_20;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg___lam__5___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -799,6 +817,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__26___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -808,6 +827,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Http_Server_waitShutdown(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -837,6 +857,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__33___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1032,6 +1053,7 @@ return x_42;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__4___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1255,6 +1277,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1352,6 +1375,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Http_Server_new___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1522,6 +1546,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__20(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -1647,6 +1672,7 @@ return x_31;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__10___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1665,6 +1691,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__16___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1705,6 +1732,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; Obj x_9 = null; 
@@ -1818,6 +1846,7 @@ return x_23;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; byte x_24 = 0; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; 
@@ -1972,6 +2001,7 @@ return x_21;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__3___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2019,6 +2049,7 @@ Obj x_18 = _args[17];
 Obj x_19 = _args[18];
 Obj x_20 = _args[19];
 Obj x_21 = _args[20];
+lean_stack_probe();
 _start:
 {
 byte x_22 = 0; byte x_23 = 0; Obj x_24 = null; 
@@ -2030,6 +2061,7 @@ return x_24;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -2187,6 +2219,7 @@ return x_17;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__11___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; Obj x_15 = null; 
@@ -2206,6 +2239,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__30(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13, Obj x_14, Obj x_15, Obj x_16) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_16) == 0)
@@ -3134,6 +3168,7 @@ Obj x_20 = _args[19];
 Obj x_21 = _args[20];
 Obj x_22 = _args[21];
 Obj x_23 = _args[22];
+lean_stack_probe();
 _start:
 {
 byte x_24 = 0; byte x_25 = 0; Obj x_26 = null; 
@@ -3161,6 +3196,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__8___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10) {
+lean_stack_probe();
 _start:
 {
 byte x_11 = 0; byte x_12 = 0; Obj x_13 = null; 
@@ -3247,6 +3283,7 @@ return x_23;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4101,6 +4138,7 @@ return x_22;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg___lam__5(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -4195,6 +4233,7 @@ return x_31;
 }
 }
 public static Obj l___private_Std_Http_Server_0__Std_Http_Server_frameCancellation___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4288,6 +4327,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__29___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; Obj x_10 = null; 
@@ -4601,6 +4641,7 @@ return x_10;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__3(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -4800,6 +4841,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Server_serve___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

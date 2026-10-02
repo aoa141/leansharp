@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_Substring {
 public static Obj l_Substring_Raw_Internal_isEmptyImpl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -16,6 +17,7 @@ return x_3;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Substring_Raw_toNat_x3f_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -24,6 +26,7 @@ return x_8;
 }
 }
 public static Obj l_Substring_Raw_extract(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_24 = 0; 
@@ -141,6 +144,7 @@ return x_15;
 }
 }
 public static Obj l_Substring_atEnd___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -152,6 +156,7 @@ return x_4;
 }
 }
 public static Obj l_Substring_Raw_commonPrefix(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_13 = 0; 
@@ -243,6 +248,7 @@ return x_4;
 }
 }
 public static Obj l_Substring_Raw_takeRightWhileAux___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -339,6 +345,7 @@ goto block_15;
 }
 }
 public static byte l_Substring_Raw_isNat(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_45 = 0; 
@@ -545,6 +552,7 @@ return x_1;
 }
 }
 public static Obj l_Substring_Raw_takeWhile(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_13 = 0; 
@@ -598,6 +606,7 @@ return x_9;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Substring_Raw_toNat_x3f_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -624,6 +633,7 @@ return x_6;
 }
 }
 public static Obj l_Substring_Raw_Internal_beqImpl___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -633,6 +643,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_String_Substring_0__Substring_Raw_commonSuffix_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -643,6 +654,7 @@ return x_5;
 }
 }
 public static Obj l_Substring_Raw_isNat___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; Obj x_10 = null; 
@@ -655,6 +667,7 @@ return x_10;
 }
 }
 public static Obj l___private_Init_Data_String_Substring_0__Substring_Raw_splitOn_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -686,6 +699,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_String_Substring_0__Substring_Raw_commonPrefix_loop___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -815,6 +829,7 @@ return x_2;
 }
 }
 public static Obj l_Substring_Raw_splitOn___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -824,6 +839,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_String_Substring_0__Substring_Raw_splitOn_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_11 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_33 = null; Obj x_44 = null; Obj x_50 = null; byte x_51 = 0; 
@@ -1233,6 +1249,7 @@ return x_3;
 }
 }
 public static Obj l_Substring_Raw_contains___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; byte x_4 = 0; Obj x_5 = null; 
@@ -1259,6 +1276,7 @@ return x_6;
 }
 }
 public static Obj l_String_Slice_Pos_skipWhile___at___00Substring_Raw_Internal_allImpl_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; 
@@ -1459,6 +1477,7 @@ return x_6;
 }
 }
 public static Obj l_Substring_Raw_posOf___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 uint x_10 = 0; Obj x_11 = null; 
@@ -1499,6 +1518,7 @@ return x_2;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Substring_Raw_toNat_x3f_spec__1___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1855,6 +1875,7 @@ goto block_13;
 }
 }
 public static Obj l_Substring_Raw_takeWhileAux___at___00Substring_Raw_Internal_takeWhileImpl_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -1905,6 +1926,7 @@ goto _start;
 }
 }
 public static Obj l_Substring_Raw_commonSuffix(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_13 = 0; 
@@ -1966,6 +1988,7 @@ return x_9;
 }
 }
 public static Obj l_Substring_Raw_sameAs___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1975,6 +1998,7 @@ return x_4;
 }
 }
 public static Obj l_Substring_Raw_drop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_15 = 0; 
@@ -2037,6 +2061,7 @@ return x_11;
 }
 }
 public static Obj l_Substring_Raw_toNat_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_57 = 0; 
@@ -2278,6 +2303,7 @@ goto block_12;
 }
 }
 public static Obj l_Substring_Raw_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2287,6 +2313,7 @@ return x_2;
 }
 }
 public static Obj l_Substring_Raw_nextn___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2296,6 +2323,7 @@ return x_4;
 }
 }
 public static Obj l_Substring_Raw_next___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2306,6 +2334,7 @@ return x_3;
 }
 }
 public static Obj l_Substring_Raw_contains___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2319,6 +2348,7 @@ return x_6;
 }
 }
 public static Obj l_Substring_Raw_Internal_allImpl___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2328,6 +2358,7 @@ return x_4;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Substring_Raw_toNat_x3f_spec__1___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -2389,6 +2420,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_String_Substring_0__Substring_Raw_nextn_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2455,6 +2487,7 @@ return x_6;
 }
 }
 public static Obj l_Substring_Raw_foldl___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2483,6 +2516,7 @@ return x_5;
 }
 }
 public static Obj l_Substring_Raw_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2492,6 +2526,7 @@ return x_4;
 }
 }
 public static Obj l_Substring_Raw_trimLeft(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_13 = 0; 
@@ -2544,6 +2579,7 @@ return x_9;
 }
 }
 public static Obj l_Substring_Raw_trimRight(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_13 = 0; 
@@ -2607,6 +2643,7 @@ return x_5;
 }
 }
 public static byte l_Substring_Raw_sameAs(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -2628,6 +2665,7 @@ return x_6;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Substring_Raw_toNat_x3f_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2638,6 +2676,7 @@ return x_5;
 }
 }
 public static Obj l_Substring_Raw_trim(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_14 = 0; 
@@ -2692,6 +2731,7 @@ return x_10;
 }
 }
 public static Obj l_Substring_Raw_prevn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2734,6 +2774,7 @@ goto _start;
 }
 }
 public static Obj l_Substring_Raw_prev___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2968,6 +3009,7 @@ return x_4;
 }
 }
 public static byte l_Substring_Raw_beq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; 
@@ -3109,6 +3151,7 @@ return x_3;
 }
 }
 public static Obj l_Substring_Raw_dropWhile(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_13 = 0; 
@@ -3285,6 +3328,7 @@ return x_2;
 }
 }
 public static Obj l_Substring_Raw_dropRightWhile(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_13 = 0; 
@@ -3336,6 +3380,7 @@ return x_9;
 }
 }
 public static Obj l_Substring_Raw_takeWhileAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 
@@ -3386,6 +3431,7 @@ goto _start;
 }
 }
 public static Obj l_Substring_Raw_Internal_frontImpl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -3429,6 +3475,7 @@ return x_1;
 }
 }
 public static Obj lean_substring_drop(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_15 = 0; 
@@ -3491,6 +3538,7 @@ return x_11;
 }
 }
 public static Obj l_Substring_Raw_takeRightWhileAux(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -3568,6 +3616,7 @@ return x_6;
 }
 }
 public static Obj l_Substring_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3577,6 +3626,7 @@ return x_4;
 }
 }
 public static Obj l_Substring_Raw_front___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 uint x_2 = 0; Obj x_3 = null; 
@@ -3607,6 +3657,7 @@ return x_7;
 }
 }
 public static Obj lean_substring_extract(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_24 = 0; 
@@ -3808,6 +3859,7 @@ return x_11;
 }
 }
 public static Obj l_Substring_toString___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3826,6 +3878,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_String_Substring_0__Substring_Raw_nextn_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4014,6 +4067,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_String_Substring_0__Substring_Raw_commonPrefix_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_17 = 0; 
@@ -4135,6 +4189,7 @@ return x_3;
 }
 }
 public static Obj l_Substring_Raw_any___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4572,6 +4627,7 @@ return x_7;
 }
 }
 public static Obj l_Substring_Raw_take(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_14 = 0; 
@@ -5038,6 +5094,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_String_Substring_0__Substring_Raw_commonSuffix_loop(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_17 = 0; 
@@ -5197,6 +5254,7 @@ goto block_20;
 }
 }
 public static Obj l_WellFounded_opaqueFix_u2083___at___00Substring_Raw_toNat_x3f_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -5491,6 +5549,7 @@ return x_4;
 }
 }
 public static Obj l_Substring_Raw_nextn(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

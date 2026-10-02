@@ -15,6 +15,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_reverseInduction(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -23,6 +24,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_succRec___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -33,6 +35,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_lastCases___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -43,6 +46,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_induction___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -51,6 +55,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_induction_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -61,6 +66,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_cases___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -71,6 +77,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_reverseInduction_go___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -107,6 +114,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_inductionOn___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -118,6 +126,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_addCases___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -137,6 +146,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_induction_go(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -145,6 +155,7 @@ return x_7;
 }
 }
 public static Obj l_Fin_inductionOn___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -187,6 +198,7 @@ return x_17;
 }
 }
 public static Obj l_Fin_inductionOn___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -195,6 +207,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_addCases(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -203,6 +216,7 @@ return x_7;
 }
 }
 public static Obj l_Fin_induction_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -246,6 +260,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_succRecOn___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -254,6 +269,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_succRecOn(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -262,6 +278,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_intCast___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -272,6 +289,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_succRec___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -292,6 +310,7 @@ return x_4;
 }
 }
 public static Obj l_Fin_intCast___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; byte x_4 = 0; 
@@ -368,6 +387,7 @@ return x_6;
 }
 }
 public static Obj l_Fin_cases___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -407,6 +427,7 @@ return x_3;
 }
 }
 public static Obj l_Fin_succRec___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; 
@@ -453,6 +474,7 @@ return x_12;
 }
 }
 public static Obj l_Fin_reverseInduction_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 
@@ -472,6 +494,7 @@ return x_5;
 }
 }
 public static Obj l_Fin_cases___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -508,6 +531,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Fin_Lemmas_0__Fin_reverseInduction_go_match__1_splitter___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 

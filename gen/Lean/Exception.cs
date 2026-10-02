@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Exception {
 public static Obj l_Lean_throwErrorAt___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -69,6 +70,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_throwInterruptException___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -90,6 +92,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Exception_internal_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -120,6 +123,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_instMonadRecDepthStateRefT_x27OfMonad___aux__5___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -130,6 +134,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_instMonadRecDepthMonadCacheTOfMonad___aux__5___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -139,6 +144,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Exception_getRef___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -183,6 +189,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Exception_isMaxRecDepth(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -227,6 +234,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_mkUnknownIdentifierMessage___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -243,6 +251,7 @@ return x_10;
 }
 }
 public static byte l_Lean_Exception_isInterrupt(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -368,6 +377,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_withIncRecDepth___redArg___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -528,6 +538,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_instMonadRecDepthStateRefT_x27OfMonad(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -536,6 +547,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_instAddErrorMessageContextOfAddMessageContextOfMonad(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -544,6 +556,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Exception_hasSyntheticSorry___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -591,6 +604,7 @@ return x_2;
 }
 }
 public static Obj l_Lean___aux__Lean__Exception______macroRules__Lean__termThrowError______1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -812,6 +826,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_mkUnknownIdentifierMessageCore___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -933,6 +948,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwKernelException___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -942,6 +958,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_throwError(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -950,6 +967,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_throwErrorAt(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1008,6 +1026,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_ofExcept___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1040,6 +1059,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_instMonadRecDepthMonadCacheTOfMonad___aux__3___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1052,6 +1072,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_ofExceptKernelException___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1131,6 +1152,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_withIncRecDepth___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1141,6 +1163,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Exception_internal_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1198,6 +1221,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Exception_error_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1222,6 +1246,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_throwUnknownConstant___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1266,6 +1291,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instMonadRecDepthMonadCacheTOfMonad___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 Obj x_10 = null; 
@@ -1316,6 +1342,7 @@ return x_8;
 }
 }
 public static Obj l_Lean___aux__Lean__Exception______macroRules__Lean__termThrowErrorAt__________1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1325,6 +1352,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_throwMaxRecDepthAt(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1356,6 +1384,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_mkUnknownIdentifierMessageCore___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -1507,6 +1536,7 @@ return x_53;
 }
 }
 public static Obj l___private_Lean_Exception_0__Lean_initFn_00___x40_Lean_Exception_2633972168____hygCtx___hyg_2____boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1585,6 +1615,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_throwNamedErrorAt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -1666,6 +1697,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwKernelException(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1771,6 +1803,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwNamedError(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1985,6 +2018,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwUnknownConstantAt___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -2036,6 +2070,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwMaxRecDepthAt___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; byte x_13 = 0; 
@@ -2143,6 +2178,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_throwUnknownIdentifierAt___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -2190,6 +2226,7 @@ return x_3;
 }
 }
 public static Obj l_Lean___aux__Lean__Exception______macroRules__Lean__termThrowErrorAt__________1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2354,6 +2391,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Exception_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2453,6 +2491,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_throwKernelException___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -2544,6 +2583,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instMonadRecDepthReaderT___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2942,6 +2982,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_throwError___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2971,6 +3012,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_throwInterruptException(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3133,6 +3175,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instMonadRecDepthStateRefT_x27OfMonad___aux__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; 

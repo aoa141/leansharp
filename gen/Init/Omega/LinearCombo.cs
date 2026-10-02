@@ -18,6 +18,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Omega_LinearCombo_instHMulInt___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -93,6 +94,7 @@ return x_2;
 }
 }
 public static Obj l_List_filterTR_loop___at___00Lean_Omega_LinearCombo_isAtom_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -164,6 +166,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Omega_LinearCombo_eval___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -194,6 +197,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00List_foldl___at___00Std_Format_joinSep___at___00List_repr_x27___at___00Lean_Omega_instReprLinearCombo_repr_spec__0_spec__0_spec__2_spec__3(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -338,6 +342,7 @@ goto _start;
 }
 }
 public static Obj l_List_foldl___at___00Std_Format_joinSep___at___00List_repr_x27___at___00Lean_Omega_instReprLinearCombo_repr_spec__0_spec__0_spec__2(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -509,6 +514,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_LinearCombo_instToString___private__1___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_14 = null; byte x_15 = 0; 
@@ -558,6 +564,7 @@ return x_12;
 }
 }
 public static Obj l_Lean_Omega_LinearCombo_smul___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -567,6 +574,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_instDecidableEqLinearCombo___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -668,6 +676,7 @@ return x_1;
 }
 }
 public static Obj l_List_foldl___at___00__private_Init_Omega_LinearCombo_0__Lean_Omega_LinearCombo_join_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -697,6 +706,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Omega_LinearCombo_0__Lean_Omega_instToStringInt___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -910,6 +920,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00List_repr_x27___at___00Lean_Omega_instReprLinearCombo_repr_spec__0_spec__0___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -919,6 +930,7 @@ return x_2;
 }
 }
 public static Obj l_List_foldl___at___00__private_Init_Omega_LinearCombo_0__Lean_Omega_LinearCombo_join_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -980,6 +992,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_instReprLinearCombo_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -998,6 +1011,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Omega_LinearCombo_isAtom(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1055,6 +1069,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Format_joinSep___at___00List_repr_x27___at___00Lean_Omega_instReprLinearCombo_repr_spec__0_spec__0___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -1152,6 +1167,7 @@ return x_2;
 }
 }
 public static Obj l_List_repr_x27___at___00Lean_Omega_instReprLinearCombo_repr_spec__0___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1269,6 +1285,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Omega_LinearCombo_instToString___private__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -1348,6 +1365,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Omega_LinearCombo_instToString___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_13 = null; byte x_14 = 0; 
@@ -1489,6 +1507,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_LinearCombo_coordinate(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -1503,6 +1522,7 @@ return x_6;
 }
 }
 public static byte l_List_all___at___00Lean_Omega_LinearCombo_isAtom_spec__1(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1656,6 +1676,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_instReprLinearCombo_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_64 = 0; 
@@ -1901,6 +1922,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Omega_LinearCombo_mul(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; 
@@ -1944,6 +1966,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Omega_LinearCombo_0__Lean_Omega_instReprInt___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

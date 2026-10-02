@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_InfoTree_Types {
 public static Obj l_Lean_Elab_Info_ofOptionInfo_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25,6 +26,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_PartialContextInfo_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -43,6 +45,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Info_ofPartialTermInfo_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -51,6 +54,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_PartialContextInfo_parentDeclCtx_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -59,6 +63,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_CompletionInfo_dotId_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -67,6 +72,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_Info_ofTacticInfo_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -75,6 +81,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_Info_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -92,6 +99,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_Info_ofCompletionInfo_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -135,6 +143,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_DocElabKind_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -185,6 +194,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_InfoTree_context_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -201,6 +211,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_PartialContextInfo_parentDeclCtx_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -290,6 +301,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Elab_setInfoState(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -298,6 +310,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Elab_CompletionInfo_errorName_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -334,6 +347,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_CompletionInfo_dot_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -342,6 +356,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_InfoTree_node_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -350,6 +365,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_InfoTree_hole_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -365,6 +381,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_CompletionInfo_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -373,6 +390,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_CompletionInfo_dotId_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -381,6 +399,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_PartialContextInfo_commandCtx_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -427,6 +446,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_InfoTree_context_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -444,6 +464,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_CompletionInfo_fieldId_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -452,6 +473,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_CompletionInfo_id_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -702,6 +724,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_InfoTree_node_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -710,6 +733,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_DocElabKind_role_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -720,6 +744,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Elab_DocElabKind_directive_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -966,6 +991,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Elab_instReprDocElabKind_repr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_10 = null; Obj x_17 = null; Obj x_24 = null; 
@@ -1140,6 +1166,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_DocElabKind_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1197,6 +1224,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_DocElabKind_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1229,6 +1257,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_InfoTree_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1272,6 +1301,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_DocElabKind_codeBlock_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1309,6 +1339,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Elab_InfoTree_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1327,6 +1358,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_InfoTree_hole_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1477,6 +1509,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Elab_DocElabKind_command_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 

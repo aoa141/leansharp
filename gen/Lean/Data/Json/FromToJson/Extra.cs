@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_instFromJsonTreeMapString___private__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -185,6 +186,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Data_Json_FromToJson_Extra_0__Lean_TreeMap_fromJson_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -203,6 +205,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_instToJsonTreeMapStringCompare___private__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -211,6 +214,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_instToJsonTreeMapStringCompare___private__1___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 

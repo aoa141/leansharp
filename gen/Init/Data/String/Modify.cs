@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Init_Data_String_Modify {
 public static Obj l_String_Pos_set___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -17,6 +18,7 @@ return x_6;
 }
 }
 public static Obj l_String_Pos_Raw_set___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -28,6 +30,7 @@ return x_5;
 }
 }
 public static Obj l_String_Pos_pastModify___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -45,6 +48,7 @@ return x_1;
 }
 }
 public static Obj l_String_set___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; 
@@ -103,6 +107,7 @@ return x_1;
 }
 }
 public static Obj l_String_modify___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -112,6 +117,7 @@ return x_4;
 }
 }
 public static Obj l_String_decapitalize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; uint x_3 = 0; byte x_4 = 0; uint x_10 = 0; byte x_11 = 0; 
@@ -169,6 +175,7 @@ return x_2;
 }
 }
 public static Obj l_String_Pos_pastSet___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 uint x_5 = 0; Obj x_6 = null; 
@@ -201,6 +208,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_Raw_modify___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -210,6 +218,7 @@ return x_4;
 }
 }
 public static Obj l_String_mapAux(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -274,6 +283,7 @@ return x_1;
 }
 }
 public static Obj l_String_modify(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; Obj x_6 = null; uint x_7 = 0; Obj x_8 = null; 
@@ -298,6 +308,7 @@ return x_4;
 }
 }
 public static Obj l_String_Pos_toSetOfLE___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 uint x_7 = 0; Obj x_8 = null; 
@@ -321,6 +332,7 @@ return x_6;
 }
 }
 public static Obj lean_string_capitalize(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; uint x_3 = 0; byte x_4 = 0; uint x_10 = 0; byte x_11 = 0; 
@@ -398,6 +410,7 @@ return x_2;
 }
 }
 public static Obj l_String_Pos_Raw_modify(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 uint x_4 = 0; Obj x_5 = null; Obj x_6 = null; uint x_7 = 0; Obj x_8 = null; 

@@ -17,6 +17,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_nameToSharedLib(Obj x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -213,6 +214,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_nameToStaticLib___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

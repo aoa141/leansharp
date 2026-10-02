@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Std_Tactic_BVDecide_Bitblast_BVExpr_Basic {
 public static Obj l_Std_Tactic_BVDecide_BVBinPred_toString(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -24,6 +25,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_toString(byte x_1) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -142,6 +144,7 @@ return x_8;
 }
 }
 public static byte l_Std_Tactic_BVDecide_instDecidableEqBVBinPred(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -178,6 +181,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_and_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -207,6 +211,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVPred_bin_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -236,6 +241,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_arithShiftRightConst_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -244,6 +250,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_xor_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -254,6 +261,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -265,6 +273,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinPred_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -293,6 +302,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_rotateLeft_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -301,6 +311,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVPred_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -309,6 +320,7 @@ return x_6;
 }
 }
 public static byte l_Std_Tactic_BVDecide_instDecidableEqBVPred_decEq(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -407,6 +419,7 @@ return x_27;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_bin___override(Obj x_1, Obj x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_16 = 0; 
@@ -575,6 +588,7 @@ return x_2;
 }
 }
 public static byte l_Std_Tactic_BVDecide_instDecidableEqBVUnOp(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -650,6 +664,7 @@ return x_12;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_decEq___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -661,6 +676,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_mul_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -754,6 +770,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_un___override(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; ulong x_6 = 0; ulong x_7 = 0; 
@@ -855,6 +872,7 @@ return x_2;
 }
 }
 public static ulong l_Std_Tactic_BVDecide_instHashableBVPred_hash(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1038,6 +1056,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_decEq___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1050,6 +1069,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1332,6 +1352,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_clz_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1340,6 +1361,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_extract_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1348,6 +1370,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_not_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1373,6 +1396,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_arithShiftRight_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1614,6 +1638,7 @@ return x_50;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVPred_toString(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1982,6 +2007,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_rotateLeft_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2074,6 +2100,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2112,6 +2139,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_append___override(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -2145,6 +2173,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_replicate_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2193,6 +2222,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instDecidableEqBVBinOp___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2204,6 +2234,7 @@ return x_6;
 }
 }
 public static byte l_Std_Tactic_BVDecide_BVExpr_decEq___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; ulong x_4 = 0; byte x_5 = 0; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; byte x_18 = 0; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; byte x_25 = 0; ulong x_28 = 0; ulong x_29 = 0; ulong x_108 = 0; 
@@ -2766,6 +2797,7 @@ goto block_107;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinPred_eval___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; byte x_6 = 0; Obj x_7 = null; 
@@ -2787,6 +2819,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVLogicalExpr_eval___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2806,6 +2839,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_not_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2835,6 +2869,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instHashableBVUnOp_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -2845,6 +2880,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinPred_ult_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2854,6 +2890,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_eval(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -3101,6 +3138,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVLogicalExpr_eval___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -3121,6 +3159,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinPred_ofNat___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -3178,6 +3217,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_cpop_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3233,6 +3273,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3720,6 +3761,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVPred_getLsbD_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3738,6 +3780,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinPred_eval___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -3767,6 +3810,7 @@ return x_3;
 }
 }
 public static byte l_Std_Tactic_BVDecide_instDecidableEqBVBinOp(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -3811,6 +3855,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_instHashable___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3843,6 +3888,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_var_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3872,6 +3918,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_shiftLeft_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3898,6 +3945,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_udiv_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3950,6 +3998,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_cpop_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3958,6 +4007,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_replicate___override(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3966,6 +4016,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_umod_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -3976,6 +4027,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instHashableBVBit_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -4094,6 +4146,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instDecidableEqBVBit___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4151,6 +4204,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_rotateRight_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4159,6 +4213,7 @@ return x_5;
 }
 }
 public static byte l_Std_Tactic_BVDecide_BVBinPred_eval(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4307,6 +4362,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4336,6 +4392,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_arithShiftRightConst_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -4355,6 +4412,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instToStringBVBit___lam__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; 
@@ -4436,6 +4494,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVPred_eval___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4446,6 +4505,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_instReprBVBit_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -4605,6 +4665,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_instHashable___redArg___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -4627,6 +4688,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_hashCode___override___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -4657,6 +4719,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_udiv_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4931,6 +4994,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_ctorElim(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5032,6 +5096,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5188,6 +5253,7 @@ return x_11;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_rotateRight_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5363,6 +5429,7 @@ return x_6;
 }
 }
 public static byte l_Std_Tactic_BVDecide_BVLogicalExpr_eval___lam__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -5610,6 +5677,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVPred_bin_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5743,6 +5811,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_reverse_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5850,6 +5919,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVPred_getLsbD_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5885,6 +5955,7 @@ return x_5;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVUnOp_reverse_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6158,6 +6229,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVExpr_toString(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -6447,6 +6519,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Tactic_BVDecide_BVBinOp_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 

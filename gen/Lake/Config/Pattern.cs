@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lake_Config_Pattern {
 public static byte l_Lake_Pattern_not___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -33,6 +34,7 @@ return x_6;
 }
 }
 public static Obj l_Lake_Pattern_star___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -57,6 +59,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_PatternDescr_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -109,6 +112,7 @@ return x_6;
 }
 }
 public static byte l_Lake_StrPatDescr_matches(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -192,6 +196,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_StrPat_mem(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -234,6 +239,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Pattern_star(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -269,6 +275,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_PatternDescr_empty(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -277,6 +284,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instIsPatternPattern(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -306,6 +314,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_StrPat_beq___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -355,6 +364,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_PatternDescr_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -364,6 +374,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_instIsPatternPattern___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -406,6 +417,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00Lake_StrPatDescr_matches_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -485,6 +497,7 @@ return x_2;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lake_versionTagPresets_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -493,6 +506,7 @@ return x_6;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00Array_contains___at___00Lake_StrPatDescr_matches_spec__0_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -541,6 +555,7 @@ return x_8;
 }
 }
 public static Obj l_Lake_isVerLike___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -606,6 +621,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_PatternDescr_ctorIdx(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -633,6 +649,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_PatternDescr_matches___redArg___lam__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -642,6 +659,7 @@ return x_4;
 }
 }
 public static byte l_Lake_PatternDescr_matches(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; 
@@ -660,6 +678,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_Pattern_matches___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -679,6 +698,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_PatternDescr_star___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -687,6 +707,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instCoeForallBoolPattern___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -766,6 +787,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instCoePatternDescr___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -832,6 +854,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_StrPat_mem___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -849,6 +872,7 @@ return x_2;
 }
 }
 public static Obj l_Lake___aux__Lake__Config__Pattern______unexpand__Lake__IsPattern__satisfies__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -932,6 +956,7 @@ return x_29;
 }
 }
 public static byte l_Lake_Pattern_ofDescr___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -982,6 +1007,7 @@ return x_3;
 }
 }
 public static Obj l_Lake___aux__Lake__Config__Pattern______macroRules__Lake__term___x3d_x7e____1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1025,6 +1051,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instCoePatternDescr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1121,6 +1148,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instInhabitedPattern_default__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1212,6 +1240,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_StrPat_beq(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1306,6 +1335,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_StrPat_endsWith(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1357,6 +1387,7 @@ return x_4;
 }
 }
 public static Obj l_Lake___aux__Lake__Config__Pattern______macroRules__Lake__term___x3d_x7e____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -1619,6 +1650,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_Pattern_matches___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1719,6 +1751,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_instEmptyCollectionPatternDescr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1756,6 +1789,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_PatternDescr_empty___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1804,6 +1838,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_PathPatDescr_eq(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1874,6 +1909,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instCoeForallBoolPattern(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1892,6 +1928,7 @@ return x_1;
 }
 }
 public static Obj l_Lake_StrPatDescr_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1901,6 +1938,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_PathPat_path___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -1999,6 +2037,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instEmptyCollectionPatternDescr___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2106,6 +2145,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_StrPat_startsWith(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -2174,6 +2214,7 @@ return x_1;
 }
 }
 public static byte l_Lake_PathPat_path___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -2267,6 +2308,7 @@ return x_3;
 }
 }
 public static Obj l_Std_DTreeMap_Internal_Impl_insert___at___00Lake_versionTagPresets_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -3601,6 +3643,7 @@ return x_290;
 }
 }
 public static Obj l_Lake_PathPat_extension(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -3624,6 +3667,7 @@ return x_8;
 }
 }
 public static byte l_Lake_StrPat_mem___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3676,6 +3720,7 @@ return x_14;
 }
 }
 public static Obj l_Lake_instCoePatternDescrPatternOfIsPattern___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -3951,6 +3996,7 @@ return x_2;
 }
 }
 public static Obj l_Array_contains___at___00Lake_StrPatDescr_matches_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4068,6 +4114,7 @@ return x_2;
 }
 }
 public static Obj l_Lake_instIsPatternPattern___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 

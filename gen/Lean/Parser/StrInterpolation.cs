@@ -67,6 +67,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Parser_interpolatedStr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; byte x_14 = 0; 
@@ -221,6 +222,7 @@ return x_1;
 }
 }
 public static Obj l_Option_instBEq_beq___at___00__private_Lean_Parser_StrInterpolation_0__Lean_Parser_interpolatedStrFn_parse_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -293,6 +295,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Parser_StrInterpolation_0__Lean_Parser_interpolatedStrFn_parse(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 

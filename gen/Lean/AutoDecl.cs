@@ -141,6 +141,7 @@ return x_3;
 }
 }
 public static Obj l_List_elem___at___00Lean_isAutoDeclOrPrivate__Internal_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -162,6 +163,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_isAutoDeclOrPrivate__Internal(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -266,6 +268,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_isAutoDeclOrPrivate__Internal___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -435,6 +438,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_isAutoDeclOrPrivate__Internal___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; 
@@ -1178,6 +1182,7 @@ return x_163;
 }
 }
 public static byte l_List_elem___at___00Lean_isAutoDeclOrPrivate__Internal_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

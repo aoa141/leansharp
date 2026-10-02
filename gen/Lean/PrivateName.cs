@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_PrivateName {
 public static Obj l_Lean_privateToUserName_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -29,6 +30,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_isPrivatePrefix___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -50,6 +52,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_privatePrefix_x3f(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -71,6 +74,7 @@ return x_5;
 }
 }
 public static byte l_Lean_isPrivatePrefix(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 2)
@@ -110,6 +114,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_privateToUserName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -127,6 +132,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_PrivateName_0__Lean_isPrivatePrefix_go___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -147,6 +153,7 @@ return x_1;
 }
 }
 public static byte l___private_Lean_PrivateName_0__Lean_isPrivatePrefix_go(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; byte x_3 = 0; 
@@ -173,6 +180,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_PrivateName_0__Lean_privatePrefixAux(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 1)
@@ -208,6 +216,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_PrivateName_0__Lean_privateToUserNameAux(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -256,6 +265,7 @@ return x_11;
 }
 }
 public static byte l_Lean_isPrivateName(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

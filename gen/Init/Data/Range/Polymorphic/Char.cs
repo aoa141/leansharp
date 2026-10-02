@@ -17,6 +17,7 @@ return x_2;
 }
 }
 public static Obj l_Char_instHasSize___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; Obj x_5 = null; 
@@ -49,6 +50,7 @@ return x_1;
 }
 }
 public static Obj l_Char_instHasSize__1___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 uint x_3 = 0; uint x_4 = 0; Obj x_5 = null; 

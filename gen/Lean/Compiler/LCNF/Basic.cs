@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Compiler_LCNF_Basic {
 public static Obj l_Lean_Compiler_LCNF_LetValue_box_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15,6 +16,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LitValue_uint32_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -31,6 +33,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_noinlineAttr___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -41,6 +44,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LitValue_uint16_elim(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -49,6 +53,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_eqAlt___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -72,6 +77,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_withAssertPurity___redArg(Obj x_1, byte x_2, byte x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -157,6 +163,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateUsetImp___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 8)
@@ -433,6 +440,7 @@ return x_66;
 }
 }
 public static byte l_Lean_Compiler_LCNF_instBEqLetDecl_beq(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; byte x_12 = 0; 
@@ -476,6 +484,7 @@ return x_15;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_sizeLe_inc___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -486,6 +495,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateProjImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -819,6 +829,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_jmp_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -855,6 +866,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_inc_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -872,6 +884,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_ctorIdx(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -890,6 +903,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateFapImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -900,6 +914,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instBEqDecl_beq___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -912,6 +927,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedFunDecl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -929,6 +945,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_fap_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -937,6 +954,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_unreach_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -946,6 +964,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateConstImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -955,6 +974,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_getArity___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -977,6 +997,7 @@ return x_2;
 }
 }
 public static byte l_Lean_Compiler_LCNF_instBEqParam_beq(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -985,6 +1006,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedLetValue_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1009,6 +1031,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateUnboxImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1017,6 +1040,7 @@ return x_4;
 }
 }
 public static byte l_Lean_Compiler_LCNF_Decl_noinlineAttr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1025,6 +1049,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Compiler_LCNF_Decl_alwaysInlineAttr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -1043,6 +1068,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateSsetImp(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 9)
@@ -1495,6 +1521,7 @@ return x_109;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_ctorElim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1503,6 +1530,7 @@ return x_7;
 }
 }
 public static ulong l_Lean_Compiler_LCNF_instHashableArg_hash(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 ulong x_3 = 0; 
@@ -1511,6 +1539,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CtorInfo_isRef___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1521,6 +1550,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -1531,6 +1561,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedDeclValue___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1540,6 +1571,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Arg_updateTypeImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 2)
@@ -1610,6 +1642,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_sproj_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -1619,6 +1652,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateUnboxImp___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 14)
@@ -1687,6 +1721,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateLetDeclCoreImp(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1695,6 +1730,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_findExtEntry_x3f___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1714,6 +1750,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_isFun___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1724,6 +1761,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_hasLocalInst___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1733,6 +1771,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_ctorElim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1741,6 +1780,7 @@ return x_7;
 }
 }
 public static Obj l_panic___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateAltImp_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1764,6 +1804,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableLetValue___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -1782,6 +1823,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_Cases_getCtorNames_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 ulong x_5 = 0; ulong x_6 = 0; Obj x_7 = null; 
@@ -1795,6 +1837,7 @@ return x_7;
 }
 }
 public static byte l_Array_isEqvAux___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_eqCases_spec__2___redArg(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -1843,6 +1886,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateAltImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -1852,6 +1896,7 @@ return x_6;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -1860,6 +1905,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedArg___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1887,6 +1933,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_isCasesOnParam_x3f___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1903,6 +1950,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Compiler_LCNF_CtorInfo_checkValid_spec__0___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -1913,6 +1961,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_markRecDecls_visit(byte x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_4)) {
@@ -2221,6 +2270,7 @@ return x_80;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instBEqCtorInfo_beq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2232,6 +2282,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instBEqLetDecl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -2241,6 +2292,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_isCasesOnParam_x3f___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2261,6 +2313,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_inc_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2269,6 +2322,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_instantiateValueLevelParams_instCode(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -2905,6 +2959,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_isShared_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -2913,6 +2968,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_eqImp___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -2925,6 +2981,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCodeDecl_default(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -2945,6 +3002,7 @@ return x_3;
 }
 }
 public static byte l_List_beq___at___00Lean_Compiler_LCNF_instBEqSignature_beq_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -3005,6 +3063,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedSignature___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3023,6 +3082,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCases_default__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3031,6 +3091,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_reset_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3040,6 +3101,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_sizeLe_go(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_3)) {
@@ -3398,6 +3460,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_code_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -3406,6 +3469,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Compiler_LCNF_Code_isFun(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -3414,6 +3478,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_binderName___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3423,6 +3488,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_collectUsed(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -3680,6 +3746,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateFapImp(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -3703,6 +3770,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_proj_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -3723,6 +3791,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateSetTagImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -3732,6 +3801,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Cases_alts___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -3741,6 +3811,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_Code_collectUsed_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -3755,6 +3826,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_instantiateParamsLevelParams(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -3769,6 +3841,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateJmpImp(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -3844,6 +3917,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Compiler_LCNF_LetValue_toExpr_spec__0___redArg(ulong x_1, ulong x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -3869,6 +3943,7 @@ goto _start;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Decl_isCasesOnParam_x3f_go___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -3913,6 +3988,7 @@ return x_14;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateSetTagImp(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 10)
@@ -4112,6 +4188,7 @@ return x_48;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_markRecDecls_go_spec__1(byte x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; 
@@ -4164,6 +4241,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectArgs_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -4187,6 +4265,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateResetImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -4196,6 +4275,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_fvar_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -4234,6 +4314,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Arg_updateTypeImp_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -4255,6 +4336,7 @@ return x_3;
 }
 }
 public static byte l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_eqImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 ulong x_4 = 0; ulong x_5 = 0; byte x_6 = 0; 
@@ -4865,6 +4947,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedLetValue(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -4883,6 +4966,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_hasLocalInst___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -5100,6 +5184,7 @@ return x_45;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_getParams___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5149,6 +5234,7 @@ return x_5;
 }
 }
 public static byte l_Array_isEqvAux___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_eqAlt_spec__4___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -5182,6 +5268,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_toArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5192,6 +5279,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_isPersistent___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5202,6 +5290,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LitValue_impureTypeScalarNumLit(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -5365,6 +5454,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_instantiateValueLevelParams_instAlt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_3) == 0)
@@ -5394,6 +5484,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_forM_go___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -5402,6 +5493,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_dec_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5622,6 +5714,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_inc_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5630,6 +5723,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateFunDeclCoreImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -5639,6 +5733,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCases___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5648,6 +5743,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_isDecl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5658,6 +5754,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updatePapImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -5668,6 +5765,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_size_go_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -5682,6 +5780,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedAlt_default__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -5690,6 +5789,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_collectUsedAtExpr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5698,6 +5798,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_withAssertPurity___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; byte x_7 = 0; Obj x_8 = null; 
@@ -5709,6 +5810,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateOsetImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -5767,6 +5869,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_inc_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5775,6 +5878,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -5785,6 +5889,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedDecl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -5794,6 +5899,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_size_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -5814,6 +5920,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Compiler_LCNF_CtorInfo_checkValid_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -5834,6 +5941,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_ctorElim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -5842,6 +5950,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_reuse_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5850,6 +5959,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_ctorIdx(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -5858,6 +5968,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateFunImp(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -6127,6 +6238,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -6147,6 +6259,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedDeclValue___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6177,6 +6290,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCode(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6203,6 +6317,7 @@ return x_1;
 }
 }
 public static Obj l_Array_findIdx_x3f_loop___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Decl_isCasesOnParam_x3f_go_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -6242,6 +6357,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CtorInfo_checkValid___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -6252,6 +6368,7 @@ return x_5;
 }
 }
 public static Obj l_List_beq___at___00Lean_Compiler_LCNF_instBEqLetValue_beq_spec__1___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6406,6 +6523,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_del_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6430,6 +6548,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_toLetValue___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6440,6 +6559,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_forCodeM___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_markRecDecls_go_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -6449,6 +6569,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_ctor_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -6476,6 +6597,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF___aux__Lean__Compiler__LCNF__Basic______macroRules__Lean__Compiler__LCNF__tacticPurity__tac__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -6485,6 +6607,7 @@ return x_4;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_instHashableLetValue_hash_spec__1(byte x_1, Obj x_2, ulong x_3, ulong x_4, ulong x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; 
@@ -6493,6 +6616,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00Lean_Compiler_LCNF_Cases_extractAlt_x21_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -6502,6 +6626,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_let_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -6511,6 +6636,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateAltsImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 4)
@@ -6681,6 +6807,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedDeclValue_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -6689,6 +6816,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_del_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -6697,6 +6825,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instToStringPurity___lam__0(byte x_1) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -6726,6 +6855,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateContImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -7421,6 +7551,7 @@ return x_174;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateJmpImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7476,6 +7607,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_BasicAux_0__mapMonoMImp_go___at___00Lean_Compiler_LCNF_Decl_instantiateParamsLevelParams_spec__0(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7484,6 +7616,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_isShared_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7492,6 +7625,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Cases_getCtorNames___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7687,6 +7821,7 @@ return x_58;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_setTag_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -7696,6 +7831,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedFunDecl(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -7735,6 +7871,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateDelImp(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 13)
@@ -7867,6 +8004,7 @@ return x_33;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectArgs_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; ulong x_7 = 0; ulong x_8 = 0; Obj x_9 = null; 
@@ -7881,6 +8019,7 @@ return x_9;
 }
 }
 public static byte l_Lean_Compiler_LCNF_instBEqSignature_beq(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -7889,6 +8028,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_uproj_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -7907,6 +8047,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_toLetValue(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -7915,6 +8056,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_fvarId___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8002,6 +8144,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Cases_alts___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -8012,6 +8155,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCodeDecl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8020,6 +8164,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedLetValue_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8028,6 +8173,7 @@ return x_2;
 }
 }
 public static Obj l_panic___at___00Lean_Compiler_LCNF_Decl_castPurity_x21_spec__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8036,6 +8182,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Cases_extractAlt_x21(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_29 = 0; 
@@ -8151,6 +8298,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_sset_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -8178,6 +8326,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_alt_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -8186,6 +8335,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateCasesImp(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 4)
@@ -8364,6 +8514,7 @@ return x_17;
 }
 }
 public static byte l_Lean_Compiler_LCNF_instBEqArg_beq(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -8372,6 +8523,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedFunDecl_default__1(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8395,6 +8547,7 @@ return x_8;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_instantiateValueLevelParams_instLetDecl(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -8421,6 +8574,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateDecImp(byte x_1, Obj x_2, Obj x_3, Obj x_4, byte x_5, byte x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 12)
@@ -8969,6 +9123,7 @@ return x_117;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Cases_typeName___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -8978,6 +9133,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_const_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9009,6 +9165,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_getCode___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -9019,6 +9176,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_extern_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9072,6 +9230,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectArgs___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -9130,6 +9289,7 @@ return x_12;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateIncImp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -9140,6 +9300,7 @@ return x_9;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateArgsImp___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -9149,6 +9310,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -9158,6 +9320,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_lit_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -9167,6 +9330,7 @@ return x_7;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0_spec__1_spec__3_spec__4(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9175,6 +9339,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_attachCodeDecls_go___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -9199,6 +9364,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9219,6 +9385,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_instantiateTypeLevelParams(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9227,6 +9394,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedAlt(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9235,6 +9403,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedDeclValue_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -9244,6 +9413,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_mapCodeM(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9252,6 +9422,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_dec_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -9261,6 +9432,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateFapImp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -9281,6 +9453,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectParams___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9290,6 +9463,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instReprCtorInfo_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; Obj x_35 = null; Obj x_36 = null; Obj x_37 = null; Obj x_38 = null; Obj x_39 = null; Obj x_40 = null; Obj x_41 = null; Obj x_42 = null; Obj x_43 = null; Obj x_44 = null; Obj x_45 = null; Obj x_46 = null; Obj x_47 = null; Obj x_48 = null; Obj x_49 = null; Obj x_50 = null; Obj x_51 = null; Obj x_52 = null; Obj x_53 = null; Obj x_54 = null; Obj x_55 = null; Obj x_56 = null; Obj x_57 = null; Obj x_58 = null; Obj x_59 = null; Obj x_60 = null; Obj x_61 = null; Obj x_62 = null; Obj x_63 = null; Obj x_64 = null; Obj x_65 = null; 
@@ -9441,6 +9615,7 @@ return x_65;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_proj_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -9470,6 +9645,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_reuse_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -9546,6 +9722,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -9580,6 +9757,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_toCodeDecl_x21___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -9600,6 +9778,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_size_go_spec__0(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_14 = 0; 
@@ -9652,6 +9831,7 @@ goto _start;
 }
 }
 public static byte l___private_Init_Data_Array_Basic_0__Array_anyMUnsafe_any___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_markRecDecls_visit_spec__0(Obj x_1, Obj x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -9695,6 +9875,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_addMessageContextPartial___at___00Lean_throwError___at___00Lean_Compiler_LCNF_CtorInfo_checkValid_spec__0_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -9705,6 +9886,7 @@ return x_5;
 }
 }
 public static Obj l_Array_isEqvAux___at___00Lean_Compiler_LCNF_instBEqLetValue_beq_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -9717,6 +9899,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_dec_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9744,6 +9927,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableLetValue_hash___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; ulong x_4 = 0; Obj x_5 = null; 
@@ -9755,6 +9939,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_getArity(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -9774,6 +9959,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updatePapImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -9828,6 +10014,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateDelImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 13)
@@ -10053,6 +10240,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_size(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -10062,6 +10250,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_ctorIdx___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10081,6 +10270,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_type_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -10090,6 +10280,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateParamCoreImp___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -10099,6 +10290,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_sset_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -10117,6 +10309,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_mapCode(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10143,6 +10336,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_collectUsed(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -10253,6 +10447,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_erased_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10272,6 +10467,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_throwError___at___00Lean_Compiler_LCNF_CtorInfo_checkValid_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_15 = 0; 
@@ -10368,6 +10564,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_oset_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10376,6 +10573,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CtorInfo_type___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10385,6 +10583,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_type_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10529,6 +10728,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateResetImp(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10555,6 +10755,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -10582,6 +10783,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_ctorAlt_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -10628,6 +10830,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_reset_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10636,6 +10839,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -10655,6 +10859,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateDecImp___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; Obj x_10 = null; 
@@ -10688,6 +10893,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instReprCtorInfo_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -10697,6 +10903,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedFunDecl_default__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -10705,6 +10912,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_box_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10762,6 +10970,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_uset_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -10771,6 +10980,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_ctorElim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -10789,6 +10999,7 @@ return x_8;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0_spec__1_spec__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -10797,6 +11008,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Cases_discr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -10807,6 +11019,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_uset_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -10823,6 +11036,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateFVarImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -10877,6 +11091,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_binderName___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -10887,6 +11102,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateReturnImp___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 5)
@@ -11036,6 +11252,7 @@ return x_1;
 }
 }
 public static ulong l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_instHashableLetValue_hash_spec__1___redArg(Obj x_1, ulong x_2, ulong x_3, ulong x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -11243,6 +11460,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_fun_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11274,6 +11492,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_fvarId___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11283,6 +11502,7 @@ return x_2;
 }
 }
 public static Obj l_Array_isEqvAux___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_eqAlt_spec__4___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -11313,6 +11533,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_ctorIdx___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -11323,6 +11544,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -11342,6 +11564,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCode_default__1___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11360,6 +11583,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_oset_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -11369,6 +11593,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateConstImp___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 3)
@@ -11526,6 +11751,7 @@ return x_38;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instantiateRangeArgs___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -11555,6 +11781,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_params___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11594,6 +11821,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_markRecDecls_go___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -11603,6 +11831,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_ctorIdx(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -11661,6 +11890,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableCtorInfo_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -11736,6 +11966,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Compiler_LCNF_instDecidableEqPurity(byte x_1, byte x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -11767,6 +11998,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_fvarId___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11804,6 +12036,7 @@ return x_5;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0_spec__0___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -11824,6 +12057,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateArgsImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11832,6 +12066,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LitValue_ctorElim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -11849,6 +12084,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Compiler_LCNF_Code_isDecl(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -11857,6 +12093,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_BasicAux_0__mapMonoMImp_go___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_instantiateValueLevelParams_instLetValue_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -11928,6 +12165,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_forCodeM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -11937,6 +12175,7 @@ return x_7;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectParams_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -11971,6 +12210,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_type___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -11988,6 +12228,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_sizeLe___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -12010,6 +12251,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_value___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -12019,6 +12261,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateIsSharedImp___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -12152,6 +12395,7 @@ return x_17;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_fun_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12191,6 +12435,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instBEqParam___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -12210,6 +12455,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_getParams(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -12228,6 +12474,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_let_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -12266,6 +12513,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateBoxImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -12285,6 +12533,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateFapImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; 
@@ -12339,6 +12588,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Cases_updateAlts___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -12356,6 +12606,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CtorInfo_checkValid(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_29 = null; Obj x_30 = null; Obj x_43 = null; byte x_44 = 0; 
@@ -12479,6 +12730,7 @@ goto block_28;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_toArg(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12502,6 +12754,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_fvar_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12527,6 +12780,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateOsetImp___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 7)
@@ -12878,6 +13132,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_fun_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -12887,6 +13142,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_forM___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12979,6 +13235,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_ctorIdx(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -12987,6 +13244,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_oproj_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -12996,6 +13254,7 @@ return x_7;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateAltsImp___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -13246,6 +13505,7 @@ return x_30;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_Compiler_LCNF_instBEqLetValue_beq_spec__0(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; 
@@ -13272,6 +13532,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_toArg___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -13281,6 +13542,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateReuseImp___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 12)
@@ -13562,6 +13824,7 @@ return x_61;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instantiateRevRangeArgs___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -13712,6 +13975,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCode_default__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -13754,6 +14018,7 @@ return x_1;
 }
 }
 public static ulong l_List_foldl___at___00Lean_Compiler_LCNF_instHashableLetValue_hash_spec__0(ulong x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -13812,6 +14077,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Compiler_LCNF_Decl_inlineAttr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -13820,6 +14086,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_isCasesOnParam_x3f___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -14105,6 +14372,7 @@ return x_51;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_isCodeAndM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -14131,6 +14399,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14140,6 +14409,7 @@ return x_3;
 }
 }
 public static byte l_Lean_Compiler_LCNF_Decl_inlineable(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -14148,6 +14418,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instBEqParam_beq___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -14189,6 +14460,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedAlt_default__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14198,6 +14470,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Cases_resultType___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14225,6 +14498,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_isCodeAndM(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14233,6 +14507,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedLetValue_default(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14241,6 +14516,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCases___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14325,6 +14601,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_forM_go(Obj x_1, byte x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14342,6 +14619,7 @@ return x_5;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Compiler_LCNF_markRecDecls_spec__0(Obj x_1, byte x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14350,6 +14628,7 @@ return x_6;
 }
 }
 public static Obj l_Array_isEqvAux___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_eqCases_spec__2___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; byte x_8 = 0; Obj x_9 = null; 
@@ -14399,6 +14678,7 @@ return x_6;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -14407,6 +14687,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_getArity___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14416,6 +14697,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_isTemplateLike(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -14424,6 +14706,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_impure_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -14482,6 +14765,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_toExpr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -14500,6 +14784,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_attachCodeDecls___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -14521,6 +14806,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateIncImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; byte x_9 = 0; byte x_10 = 0; Obj x_11 = null; 
@@ -14617,6 +14903,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_pure_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -14646,6 +14933,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_forM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -14682,6 +14970,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedSignature___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -14712,6 +15001,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectArg(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -14814,6 +15104,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_isInstanceReducible___at___00Lean_Compiler_LCNF_Decl_isTemplateLike_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -14845,6 +15136,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCases(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -14853,6 +15145,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LitValue_toExpr(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -15059,6 +15352,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedSignature_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -15076,6 +15370,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_markRecDecls(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 
@@ -15103,6 +15398,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateLetImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; Obj x_6 = null; 
@@ -15112,6 +15408,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_isTemplateLike___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -15409,6 +15706,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_eqFunDecl___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -15429,6 +15727,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedLetDecl___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15466,6 +15765,7 @@ return x_1;
 }
 }
 public static byte l_Lean_Compiler_LCNF_Decl_inlineIfReduceAttr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; 
@@ -15474,6 +15774,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_jp_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15534,6 +15835,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_ctorIdx___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -15552,6 +15854,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedParam_default(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -15560,6 +15863,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateBoxImp(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -15621,6 +15925,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_sset_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15639,6 +15944,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateUsetImp___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 byte x_7 = 0; Obj x_8 = null; 
@@ -15715,6 +16021,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_toExpr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -15733,6 +16040,7 @@ return x_1;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_Cases_getCtorNames_spec__0(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_10 = 0; 
@@ -15801,6 +16109,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CtorInfo_type(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; 
@@ -15868,6 +16177,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_dec_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -15928,6 +16238,7 @@ return x_1;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -15974,6 +16285,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateSetTagImp___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 10)
@@ -16219,6 +16531,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_BasicAux_0__mapMonoMImp_go___at___00Lean_Compiler_LCNF_Decl_instantiateParamsLevelParams_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -16271,6 +16584,7 @@ goto _start;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_impure_elim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -16280,6 +16594,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateFunImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -16666,6 +16981,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instHashableLitValue_hash___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 ulong x_2 = 0; Obj x_3 = null; 
@@ -16676,6 +16992,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_oset_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -16704,6 +17021,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateCasesImp___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 4)
@@ -16870,6 +17188,7 @@ return x_5;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectParams(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -16887,6 +17206,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_attachCodeDecls_go_match__1_splitter___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11, Obj x_12, Obj x_13) {
+lean_stack_probe();
 _start:
 {
 byte x_14 = 0; Obj x_15 = null; 
@@ -16913,6 +17233,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_setTag_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -16992,6 +17313,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateIncImp___redArg(Obj x_1, Obj x_2, Obj x_3, byte x_4, byte x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 11)
@@ -17445,6 +17767,7 @@ return x_93;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_toExpr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -17762,6 +18085,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_isReturnOf___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -17792,6 +18116,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedDeclValue(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -17877,6 +18202,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_return_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -17992,6 +18318,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateResetImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 11)
@@ -18141,6 +18468,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF___aux__Lean__Compiler__LCNF__Basic______macroRules__Lean__Compiler__LCNF__tacticPurity__tac__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -18401,6 +18729,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_ctorAlt_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -18409,6 +18738,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_addMessageContextPartial___at___00Lean_throwError___at___00Lean_Compiler_LCNF_CtorInfo_checkValid_spec__0_spec__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; 
@@ -18499,6 +18829,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_alt_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -18507,6 +18838,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Compiler_LCNF_instBEqDecl_beq(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; byte x_10 = 0; Obj x_11 = null; byte x_12 = 0; byte x_15 = 0; 
@@ -18599,6 +18931,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateUnreachImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 6)
@@ -18670,6 +19003,7 @@ return x_18;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_forM_go___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -18910,6 +19244,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedParam_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -18926,6 +19261,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateParamCoreImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -18934,6 +19270,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateArgsImp___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -19426,6 +19763,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCodeDecl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -19435,6 +19773,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_attachCodeDecls(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -19451,6 +19790,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_mapMUnsafe_map___at___00Lean_Compiler_LCNF_markRecDecls_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -19542,6 +19882,7 @@ goto _start;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_sizeLe_go_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 byte x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; Obj x_11 = null; 
@@ -19569,6 +19910,7 @@ return x_6;
 }
 }
 public static byte l_Lean_Compiler_LCNF_instBEqLetValue_beq(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_21 = null; Obj x_22 = null; byte x_23 = 0; 
@@ -19947,6 +20289,7 @@ return x_19;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedDecl_default___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -19955,6 +20298,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_uset_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -19975,6 +20319,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_unbox_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -20155,6 +20500,7 @@ return x_2;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; byte x_9 = 0; 
@@ -20303,6 +20649,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_default_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -20490,6 +20837,7 @@ return x_3;
 }
 }
 public static Obj l_panic___at___00Lean_Compiler_LCNF_Code_toCodeDecl_x21_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -20499,6 +20847,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_LetValue_pap_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -20517,6 +20866,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_attachCodeDecls_go___redArg___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -20559,6 +20909,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_collectUsed(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -20599,6 +20950,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectLetValue(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_8 = null; 
@@ -20787,6 +21139,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_oset_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -21079,6 +21432,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_params___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -21089,6 +21443,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedSignature(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21138,6 +21493,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_ctorElim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -21205,6 +21561,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_uset_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -21213,6 +21570,7 @@ return x_3;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_sizeLe_go_spec__0(byte x_1, Obj x_2, Obj x_3, ulong x_4, ulong x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; byte x_15 = 0; 
@@ -21281,6 +21639,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Arg_erased_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -21298,6 +21657,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_ctorElim___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -21411,6 +21771,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCases_default__1___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -21432,6 +21793,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_instantiateValueLevelParams_instFunDecl(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -21467,6 +21829,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_mapCodeM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; 
@@ -21518,6 +21881,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instantiateRangeArgs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -21530,6 +21894,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_FunDecl_value___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -21540,6 +21905,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Decl_castPurity_x21(byte x_1, Obj x_2, byte x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; byte x_6 = 0; 
@@ -21613,6 +21979,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instantiateRevRangeArgs___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -21633,6 +22000,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_setTag_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -21641,6 +22009,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_fvarId___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -21774,6 +22143,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_del_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -21974,6 +22344,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateLetImp(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -22356,6 +22727,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedCases_default__1(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -22417,6 +22789,7 @@ return x_9;
 }
 }
 public static Obj l_Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; ulong x_7 = 0; ulong x_8 = 0; ulong x_9 = 0; ulong x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; ulong x_13 = 0; ulong x_14 = 0; ulong x_15 = 0; ulong x_16 = 0; ulong x_17 = 0; ulong x_18 = 0; Obj x_19 = null; byte x_20 = 0; 
@@ -22549,6 +22922,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateIsSharedImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -22607,6 +22981,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_markRecDecls_visit_spec__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 byte x_9 = 0; byte x_10 = 0; ulong x_11 = 0; ulong x_12 = 0; Obj x_13 = null; 
@@ -22623,6 +22998,7 @@ return x_13;
 }
 }
 public static Obj l_Std_DHashMap_Internal_AssocList_foldlM___at___00__private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0_spec__1_spec__3_spec__4___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -23305,6 +23681,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Data_DHashMap_Internal_Defs_0__Std_DHashMap_Internal_Raw_u2080_expand_go___at___00Std_DHashMap_Internal_Raw_u2080_expand___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0_spec__1_spec__3___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -24013,6 +24390,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_setTag_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24179,6 +24557,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_attachCodeDecls_go(byte x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -24187,6 +24566,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_DeclValue_mapCodeM___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -24196,6 +24576,7 @@ return x_7;
 }
 }
 public static Obj l_panic___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateProjImp_spec__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -24251,6 +24632,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CtorInfo_isScalar___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -24600,6 +24982,7 @@ return x_6;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateIsSharedImp___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 15)
@@ -24677,6 +25060,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_default_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -24800,6 +25184,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_size_go(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -24973,6 +25358,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateLetImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -25371,6 +25757,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Lean_Compiler_LCNF_Cases_extractAlt_x21_spec__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25379,6 +25766,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedLetDecl___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -25468,6 +25856,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_attachCodeDecls___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; 
@@ -25645,6 +26034,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Arg_updateFVarImp___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -25674,6 +26064,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Purity_withAssertPurity(Obj x_1, Obj x_2, byte x_3, byte x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; 
@@ -25838,6 +26229,7 @@ return x_3;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateAltCodeImp(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -26056,6 +26448,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Param_toExpr(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -26263,6 +26656,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Code_toCodeDecl_x21(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_2)) {
@@ -26537,6 +26931,7 @@ return x_3;
 }
 }
 public static byte l_List_beq___at___00Lean_Compiler_LCNF_instBEqLetValue_beq_spec__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -27013,6 +27408,7 @@ return x_1;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_updateContImp___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -27802,6 +28198,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateBoxImp___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 13)
@@ -28008,6 +28405,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_CodeDecl_jp_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -28553,6 +28951,7 @@ return x_1;
 }
 }
 public static byte l_Array_isEqvAux___at___00Lean_Compiler_LCNF_instBEqLetValue_beq_spec__0___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -28620,6 +29019,7 @@ return x_2;
 }
 }
 public static Obj l___private_Init_Data_Array_BasicAux_0__mapMonoMImp_go___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_instantiateValueLevelParams_instCode_spec__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -29112,6 +29512,7 @@ return x_6;
 }
 }
 public static Obj l_panic___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_LetValue_updateProjImp_spec__0(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -29359,6 +29760,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_default_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -29484,6 +29886,7 @@ return x_4;
 }
 }
 public static Obj l___private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_attachCodeDecls_go___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -29900,6 +30303,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instInhabitedLetDecl_default___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 byte x_2 = 0; Obj x_3 = null; 
@@ -29909,6 +30313,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_Alt_ctorAlt_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -29917,6 +30322,7 @@ return x_6;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Compiler_LCNF_Code_collectUsed_spec__1(byte x_1, Obj x_2, ulong x_3, ulong x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; byte x_11 = 0; 
@@ -30422,6 +30828,7 @@ return x_25;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_markRecDecls_visit_spec__1(byte x_1, Obj x_2, byte x_3, Obj x_4, ulong x_5, ulong x_6, Obj x_7, Obj x_8) {
+lean_stack_probe();
 _start:
 {
 Obj x_9 = null; byte x_16 = 0; 
@@ -30730,6 +31137,7 @@ return x_4;
 }
 }
 public static Obj l___private_Init_Data_Array_BasicAux_0__mapMonoMImp_go___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_Code_instantiateValueLevelParams_instParams_spec__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -30903,6 +31311,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Compiler_LCNF_instBEqDeclValue_beq___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -30972,6 +31381,7 @@ return x_1;
 }
 }
 public static byte l_Std_DHashMap_Internal_AssocList_contains___at___00Std_DHashMap_Internal_Raw_u2080_insertIfNew___at___00__private_Lean_Compiler_LCNF_Basic_0__Lean_Compiler_LCNF_collectType_spec__0_spec__0___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)

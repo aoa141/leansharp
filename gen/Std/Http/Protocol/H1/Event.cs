@@ -15,6 +15,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_continue_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -24,6 +25,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_closeBody_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -55,6 +57,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_failed_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -64,6 +67,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_continue_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -94,6 +98,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_failed_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -102,6 +107,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_instInhabitedEvent_default(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -120,6 +126,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_closeBody_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -129,6 +136,7 @@ return x_7;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_continue_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -163,6 +171,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_needMoreData_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -171,6 +180,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_ctorIdx(byte x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -219,6 +229,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_next_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -237,6 +248,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_instReprEvent_repr(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_11 = null; Obj x_18 = null; Obj x_25 = null; Obj x_32 = null; 
@@ -550,6 +562,7 @@ return x_37;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_next_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -571,6 +584,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_closeBody_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -579,6 +593,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_endHeaders_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -587,6 +602,7 @@ return x_3;
 }
 }
 public static Obj l_Option_repr___at___00Std_Http_Protocol_H1_instReprEvent_repr_spec__0(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -703,6 +719,7 @@ return x_9;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_needMoreData_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -711,6 +728,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_close_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -719,6 +737,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_instInhabitedEvent(byte x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -727,6 +746,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_needAnswer_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -768,6 +788,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_ctorElim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -786,6 +807,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_next_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -827,6 +849,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_endHeaders_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -895,6 +918,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_needAnswer_elim___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -903,6 +927,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_close_elim___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -934,6 +959,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Protocol_H1_Event_close_elim(byte x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 

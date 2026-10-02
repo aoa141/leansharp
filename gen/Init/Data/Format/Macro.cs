@@ -125,6 +125,7 @@ return x_3;
 }
 }
 public static Obj l_Std___aux__Init__Data__Format__Macro______macroRules__Std__termF_x21____1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 

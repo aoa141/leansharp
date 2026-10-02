@@ -78,6 +78,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_foldM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -163,6 +164,7 @@ return x_15;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_foldValuesM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; 
@@ -174,6 +176,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_foldValues(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -202,6 +205,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_size___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; 
@@ -212,6 +216,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_mapArraysM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; 
@@ -234,6 +239,7 @@ return x_14;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_mapArrays(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -251,6 +257,7 @@ return x_10;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_containsValueP___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; byte x_5 = 0; Obj x_6 = null; 
@@ -261,6 +268,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_size(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -269,6 +277,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_foldValues___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -277,6 +286,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_nodeValues___redArg___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -308,6 +318,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_containsValueP___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 byte x_6 = 0; Obj x_7 = null; 
@@ -330,6 +341,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_foldValues(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -341,6 +353,7 @@ return x_8;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Meta_DiscrTree_Trie_size_spec__0___redArg(Obj x_1, ulong x_2, ulong x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 byte x_5 = 0; 
@@ -367,6 +380,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_foldValuesM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -383,6 +397,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_values(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -569,6 +584,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_fold___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; 
@@ -580,6 +596,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_size___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -681,6 +698,7 @@ return x_13;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_nodeValues___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -690,6 +708,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_mapArraysM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_22 = null; 
@@ -844,6 +863,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_nodeValues(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -862,6 +882,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_mapArraysM___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -979,6 +1000,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_mapArraysM___redArg___lam__0(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1001,6 +1023,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_mapArraysM___redArg___lam__3(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; 
@@ -1098,6 +1121,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_foldValuesM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -1118,6 +1142,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_nodeValues___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1154,6 +1179,7 @@ return x_2;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_containsValueP___redArg___lam__1(Obj x_1, Obj x_2, byte x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_7 = null; 
@@ -1163,6 +1189,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_asNode(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_2) == 0)
@@ -1286,6 +1313,7 @@ return x_3;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_fold___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1332,6 +1360,7 @@ return x_11;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_values___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -1353,6 +1382,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_foldM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_5) == 0)
@@ -1463,6 +1493,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_mapArrays___redArg___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1471,6 +1502,7 @@ return x_4;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_foldM___redArg___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1510,6 +1542,7 @@ return x_9;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_mapArrays___redArg(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; 
@@ -1680,6 +1713,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_size___redArg___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -1711,6 +1745,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_foldValuesM___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_4) == 0)
@@ -1863,6 +1898,7 @@ return x_6;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_Trie_mapArraysM(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -1882,6 +1918,7 @@ return x_5;
 }
 }
 public static Obj l_Lean_Meta_DiscrTree_containsValueP___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2047,6 +2084,7 @@ return x_17;
 }
 }
 public static Obj l___private_Init_Data_Array_Basic_0__Array_foldlMUnsafe_fold___at___00Lean_Meta_DiscrTree_Trie_size_spec__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 ulong x_6 = 0; ulong x_7 = 0; Obj x_8 = null; 

@@ -195,6 +195,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termOffset_x28___x29__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -374,6 +375,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertZoneId(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -607,6 +609,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termTimezone_x28___x29__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -829,6 +832,7 @@ return x_6;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertFormatPart(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1359,6 +1363,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_syntaxInt(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -2113,6 +2118,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertOffsetX(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -2663,6 +2669,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertText___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -2817,6 +2824,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termZoned_x28___x2c___x29__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -3351,6 +3359,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertTimezone___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3445,6 +3454,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termZoned_x28___x29__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3454,6 +3464,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertYear___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3565,6 +3576,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertPlainDate(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; byte x_17 = 0; byte x_36 = 0; 
@@ -3669,6 +3681,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertPlainDateTime___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -3814,6 +3827,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertNumber(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; 
@@ -3909,6 +3923,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertFraction___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -4199,6 +4214,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertDateTime(Obj x_1, byte x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_100 = 0; 
@@ -4513,6 +4529,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termTime_x28___x29__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -4934,6 +4951,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertModifier(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {
@@ -8565,6 +8583,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertOffsetZ(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -8669,6 +8688,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertFraction(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -9320,6 +9340,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termZoned_x28___x29__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -9863,6 +9884,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertText(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (x_1) {
@@ -10235,6 +10257,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_syntaxString___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10337,6 +10360,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termDatetime_x28___x29__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -10515,6 +10539,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertOffset___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -10615,6 +10640,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertOffset(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_27 = 0; 
@@ -10845,6 +10871,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertPlainDateTime(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; byte x_13 = 0; byte x_32 = 0; 
@@ -11318,6 +11345,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertOffsetO(byte x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 if (x_1 == 0)
@@ -11465,6 +11493,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termDate_x28___x29__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -11758,6 +11787,7 @@ return x_5;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_syntaxVal___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -12094,6 +12124,7 @@ return x_4;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertZoneName___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 byte x_4 = 0; Obj x_5 = null; 
@@ -12193,6 +12224,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertPlainTime(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; Obj x_8 = null; byte x_9 = 0; byte x_46 = 0; 
@@ -13163,6 +13195,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_syntaxVal(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_27 = 0; 
@@ -13410,6 +13443,7 @@ return x_3;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_syntaxBounded___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13656,6 +13690,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_syntaxBounded(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; byte x_59 = 0; 
@@ -13842,6 +13877,7 @@ return x_1;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_syntaxNat___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -13995,6 +14031,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Time___aux__Std__Time__Notation______macroRules__Std__Time__termDate_x28___x29__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; byte x_5 = 0; 
@@ -14143,6 +14180,7 @@ return x_2;
 }
 }
 public static Obj l___private_Std_Time_Notation_0__Std_Time_convertYear(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 switch (lean_obj_tag(x_1)) {

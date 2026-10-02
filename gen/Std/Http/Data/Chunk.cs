@@ -27,6 +27,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Trailer_erase___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -36,6 +37,7 @@ return x_6;
 }
 }
 public static Obj l_Std_Http_Chunk_instReprExtensionValue_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; 
@@ -146,6 +148,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Trailer_merge___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -256,6 +259,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Chunk_instReprExtensionValue_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -313,6 +317,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Trailer_getAll_x3f___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; 
@@ -366,6 +371,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Trailer_insert_x21(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_21 = 0; 
@@ -450,6 +456,7 @@ return x_8;
 }
 }
 public static Obj l_Std_Http_Trailer_instEncodeV11___lam__1___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -492,6 +499,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Chunk_ExtensionValue_instToString___lam__0___boxed(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -511,6 +519,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Trailer_instEncodeV11___lam__1(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; Obj x_27 = null; Obj x_28 = null; Obj x_29 = null; Obj x_30 = null; Obj x_31 = null; Obj x_32 = null; Obj x_33 = null; Obj x_34 = null; 
@@ -615,6 +624,7 @@ return x_18;
 }
 }
 public static Obj l_Std_Http_Chunk_instReprExtensionName_repr___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -676,6 +686,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Trailer_get_x3f(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; 
@@ -710,6 +721,7 @@ return x_14;
 }
 }
 public static Obj l_panic___at___00Std_Http_Chunk_ExtensionValue_ofString_x21_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -786,6 +798,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Trailer_insert(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; byte x_7 = 0; byte x_19 = 0; 
@@ -1016,6 +1029,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Chunk_instEncodeV11___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -1036,6 +1050,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Chunk_instEncodeV11___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5) {
+lean_stack_probe();
 _start:
 {
 Obj x_6 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; byte x_24 = 0; byte x_69 = 0; 
@@ -1273,6 +1288,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Chunk_ExtensionValue_ofString_x21(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; 
@@ -1359,6 +1375,7 @@ return x_1;
 }
 }
 public static Obj l_panic___at___00Std_Http_Chunk_ExtensionName_ofString_x21_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; 
@@ -1386,6 +1403,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Trailer_instEncodeV11___lam__0___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9, Obj x_10, Obj x_11) {
+lean_stack_probe();
 _start:
 {
 uint x_12 = 0; Obj x_13 = null; 
@@ -1663,6 +1681,7 @@ goto block_37;
 }
 }
 public static byte l_List_all___at___00Std_Http_Chunk_ExtensionValue_ofString_x3f_spec__0(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_1) == 0)
@@ -1799,6 +1818,7 @@ goto _start;
 }
 }
 public static Obj l_Std_Http_Chunk_instDecidableEqExtensionName_decEq___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -1854,6 +1874,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Chunk_instEncodeV11___lam__1(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; 
@@ -1907,6 +1928,7 @@ return x_1;
 }
 }
 public static Obj l_Std_Http_Trailer_erase(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; Obj x_4 = null; byte x_5 = 0; 
@@ -1952,6 +1974,7 @@ return x_15;
 }
 }
 public static Obj l_Std_Http_Trailer_instEncodeV11___lam__2___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -2119,6 +2142,7 @@ return x_4;
 }
 }
 public static Obj l_Std_Http_Trailer_contains___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 byte x_3 = 0; Obj x_4 = null; 
@@ -2625,6 +2649,7 @@ return x_3;
 }
 }
 public static Obj l_Std_Http_Chunk_instReprExtensionName_repr(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -2894,6 +2919,7 @@ return x_2;
 }
 }
 public static Obj l_Std_Http_Chunk_instReprExtensionName_repr___redArg(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_2 = null; Obj x_3 = null; Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; Obj x_7 = null; byte x_8 = 0; Obj x_9 = null; Obj x_10 = null; Obj x_11 = null; Obj x_12 = null; Obj x_13 = null; Obj x_14 = null; Obj x_15 = null; Obj x_16 = null; Obj x_17 = null; Obj x_18 = null; Obj x_19 = null; Obj x_20 = null; Obj x_21 = null; Obj x_22 = null; Obj x_23 = null; Obj x_24 = null; Obj x_25 = null; Obj x_26 = null; 

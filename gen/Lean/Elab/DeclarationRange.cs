@@ -7,6 +7,7 @@ using static LeanSharp.Runtime.LeanRt;
 namespace LeanSharp.Compiled;
 public static unsafe partial class M_Lean_Elab_DeclarationRange {
 public static Obj l_Lean_Elab_getDeclarationRange_x3f(Obj x_1, Obj x_2, Obj x_3, Obj x_4) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; 
@@ -45,6 +46,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_addDeclarationRangesFromSyntax___redArg___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -54,6 +56,7 @@ return x_7;
 }
 }
 public static Obj l_Lean_Elab_addDeclarationRangesFromSyntax___redArg___lam__0___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -77,6 +80,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Elab_addDeclarationRangesFromSyntax___redArg___lam__2(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7, Obj x_8, Obj x_9) {
+lean_stack_probe();
 _start:
 {
 if (lean_obj_tag(x_9) == 1)
@@ -119,6 +123,7 @@ return x_18;
 }
 }
 public static Obj l_Lean_Elab_getDeclarationSelectionRef(Obj x_1) {
+lean_stack_probe();
 _start:
 {
 Obj x_5 = null; byte x_6 = 0; 
@@ -270,6 +275,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_addDeclarationRangesFromSyntax___boxed(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -315,6 +321,7 @@ return x_1;
 }
 }
 public static Obj l_Lean_Elab_addDeclarationRangesFromSyntax(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6, Obj x_7) {
+lean_stack_probe();
 _start:
 {
 Obj x_8 = null; 
@@ -323,6 +330,7 @@ return x_8;
 }
 }
 public static Obj l_Lean_Elab_addDeclarationRangesForBuiltin___redArg(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; Obj x_8 = null; Obj x_9 = null; Obj x_10 = null; byte x_11 = 0; 

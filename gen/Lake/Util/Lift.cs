@@ -17,6 +17,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instMonadLiftTOptionOfAlternative__lake(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
@@ -25,6 +26,7 @@ return x_3;
 }
 }
 public static Obj l_Lake_instMonadLiftTStateTOfMonadOfMonadStateOf__lake(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -42,6 +44,7 @@ return x_5;
 }
 }
 public static Obj l_Lake_instMonadLiftTOptionTOfMonadOfAlternative__lake___redArg(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; Obj x_5 = null; Obj x_6 = null; 
@@ -158,6 +161,7 @@ return x_7;
 }
 }
 public static Obj l_Lake_instAlternativeOfMonadOfMonadExceptOfPUnit__lake___boxed(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -167,6 +171,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instMonadLiftTReaderTOfMonadOfMonadReaderOf__lake(Obj x_1, Obj x_2, Obj x_3, Obj x_4, Obj x_5, Obj x_6) {
+lean_stack_probe();
 _start:
 {
 Obj x_7 = null; 
@@ -240,6 +245,7 @@ return x_10;
 }
 }
 public static Obj l_Lake_instAlternativeOfMonadOfMonadExceptOfPUnit__lake(Obj x_1, Obj x_2, Obj x_3) {
+lean_stack_probe();
 _start:
 {
 Obj x_4 = null; 
@@ -248,6 +254,7 @@ return x_4;
 }
 }
 public static Obj l_Lake_instAlternativeOfMonadOfMonadExceptOfPUnit__lake___redArg___boxed(Obj x_1, Obj x_2) {
+lean_stack_probe();
 _start:
 {
 Obj x_3 = null; 
