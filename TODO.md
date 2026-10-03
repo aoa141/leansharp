@@ -52,12 +52,6 @@ No test that is run fails.
 
 ## 2. Not done yet
 
-- [ ] **Windows: executables built by Lake** are still shell scripts (the sysroot's `lean.exe`,
-      `lake.exe` etc. are real executables, copies of the .NET application host; docs/RUNNING.md,
-      "Windows"): `lake exe` and Git Bash run them, cmd.exe/PowerShell cannot. An application
-      host refers to its program by a path relative to itself, which breaks when Lake moves a
-      build directory or restores the file from its cache; a fix needs a host that finds the
-      sysroot another way (e.g. from `PATH` or a recorded absolute path).
 - [ ] **macOS** was the original development platform and has not been rerun since the Linux
       session.
 - [ ] **CI.** There is none. A draft GitHub Actions workflow was removed at the owner's request
@@ -129,15 +123,14 @@ No test that is run fails.
 - File locks (`IO.FS.Handle.lock`) only work within one process.
 - LLVM backend and native dynamic libraries/plugins: not supported.
 - Executables built by Lake are launchers that run the program with the IR interpreter
-  (`src/LeanSharp/ManagedToolchain.cs`). The `builtin_initialize` declarations of their modules
+  (`src/LeanSharp/ManagedToolchain.cs`; on Windows real executables, see docs/RUNNING.md). The `builtin_initialize` declarations of their modules
   run before `main`, after all `initialize` declarations (natively the two kinds are interleaved
   in declaration order).
 - Plugins (`lean --plugin`, `Lean.loadPlugin`) must be libraries built from Lean modules by the
   managed toolchain (Lake, or the `leanc` launcher). Loading one imports its modules and runs
   their initializers with the interpreter (`src/LeanSharp/InterpretedInit.cs`); the plugin's
   dependencies outside the library must be on the search path. Programs that link hand-written C, or whose behavior
-  depends on native symbol visibility, do not work. On Windows the launcher only works when
-  started from an in-process program (e.g. `lake exe`) or from Git Bash.
+  depends on native symbol visibility, do not work.
 - `leantar` is a managed port (`src/LeanSharp/Leantar`). Archives are interchangeable with the
   native tool's in both directions but not byte-identical (different zstd encoder).
 - `Lean.openSSLVersion` reports a fixed OpenSSL 3.0.0 number; nothing is linked.

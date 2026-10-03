@@ -22,7 +22,7 @@ public static class LeanSysroot
             if (s_root != null) return s_root;
             var env = Environment.GetEnvironmentVariable("LEANSHARP_SYSROOT");
             if (!string.IsNullOrEmpty(env)) return s_root = Path.GetFullPath(env);
-            return s_root = Path.Combine(AppContext.BaseDirectory, "lean-sysroot");
+            return s_root = Path.Combine(AppHost.WithoutExtendedPrefix(AppContext.BaseDirectory), "lean-sysroot");
         }
         set
         {
@@ -58,7 +58,7 @@ public static class LeanSysroot
     /// </summary>
     public static string LauncherAssembly { get; set; }
 
-    internal static string LauncherAssemblyPath => LauncherAssembly ?? Path.Combine(AppContext.BaseDirectory, "LeanSharp.Cli.dll");
+    internal static string LauncherAssemblyPath => AppHost.WithoutExtendedPrefix(LauncherAssembly ?? Path.Combine(AppContext.BaseDirectory, "LeanSharp.Cli.dll"));
 
     /// <summary>
     /// Windows: if this process was started through a launcher of a sysroot that is an
@@ -72,17 +72,19 @@ public static class LeanSysroot
         var exe = Environment.ProcessPath;
         if (!OperatingSystem.IsWindows() || exe == null) return args;
         string name = Path.GetFileNameWithoutExtension(exe).ToLowerInvariant();
-        string root = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(exe), ".."));
+        if (name == "dotnet") return args;
+        // a Lean program: the sysroot's tools (`leanchecker.exe`, ...) and executables built by
+        // Lake, whose description names the sysroot's `lean`
+        if (ManagedToolchain.AppHostLauncherArgs(exe, args, out var leanExe) is string[] leanArgs)
+        {
+            string sysroot = Path.GetDirectoryName(Path.GetDirectoryName(leanExe ?? exe));
+            Environment.SetEnvironmentVariable("LEANSHARP_SYSROOT", sysroot);
+            return leanArgs.Prepend("lean").ToArray();
+        }
         if (name is "lean" or "lake" or "leanc" or "leantar")
         {
-            Environment.SetEnvironmentVariable("LEANSHARP_SYSROOT", root);
+            Environment.SetEnvironmentVariable("LEANSHARP_SYSROOT", Path.GetFullPath(Path.Combine(Path.GetDirectoryName(exe), "..")));
             return args.Prepend(name).ToArray();
-        }
-        // the sysroot's tools that are Lean programs (`leanchecker.exe`, ...)
-        if (name != "dotnet" && ManagedToolchain.AppHostLauncherArgs(exe, args) is string[] leanArgs)
-        {
-            Environment.SetEnvironmentVariable("LEANSHARP_SYSROOT", root);
-            return leanArgs.Prepend("lean").ToArray();
         }
         return args;
     }

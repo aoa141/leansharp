@@ -332,14 +332,17 @@ public static class ManagedToolchain
     /// with the IR interpreter; `libDirs` (directories with the `.olean`/`.ir` files of the
     /// program's modules) are put on `LEAN_PATH`.
     /// </summary>
-    /// <param name="appHost">
-    /// Windows: make the launcher a real executable, a copy of the .NET application host of the
-    /// launcher assembly (see `AppHost`) followed by the launcher's description. It refers to
-    /// that assembly by a relative path, so this is only done for launchers that stay next to
-    /// the sysroot's `lean.exe` (the tools of the sysroot), not for programs built by Lake,
-    /// whose build directories are moved or restored from Lake's cache.
+    /// <remarks>
+    /// On Windows the launcher is a real executable when possible: a copy of the .NET
+    /// application host of the launcher assembly (see `AppHost`) followed by the launcher's
+    /// description; otherwise a shell script, as elsewhere.
+    /// </remarks>
+    /// <param name="inSysroot">
+    /// The launcher stays next to the sysroot's `lean.exe` (the sysroot's tools): it refers to
+    /// the launcher assembly by a relative path. Other launchers (programs built by Lake, which
+    /// moves them and restores them from its cache) refer to it by its absolute location.
     /// </param>
-    public static void WriteLauncher(string output, string mainModule, IReadOnlyList<string> libDirs, bool appHost = false)
+    public static void WriteLauncher(string output, string mainModule, IReadOnlyList<string> libDirs, bool inSysroot = false)
     {
         // The launcher must keep working when Lake restores it from its artifact cache (only the
         // file itself is cached) or the whole build directory is moved: library directories are
@@ -360,7 +363,7 @@ public static class ManagedToolchain
         info.Append("# module\t").Append(mainModule).Append('\n');
         foreach (var d in rel) info.Append("# path\t").Append(d).Append('\n');
         info.Append("# lean\t").Append(LeanSysroot.LeanExe).Append('\n');
-        if (appHost && AppHost.Create(LeanSysroot.LauncherAssemblyPath, output) is byte[] exe)
+        if (AppHost.Create(LeanSysroot.LauncherAssemblyPath, output, anchored: !inSysroot) is byte[] exe)
         {
             AppHost.WriteIfChanged(output, exe.Concat(Encoding.UTF8.GetBytes("\n" + info)).ToArray());
             return;
@@ -414,7 +417,7 @@ public static class ManagedToolchain
                 if (path == null) return false;
             }
             else return false;
-            if (!TryReadLauncher(path, out var source, out var dirs)) return false;
+            if (!TryReadLauncher(path, out var source, out var dirs, out _)) return false;
             leanArgs = new[] { "--run", source }.Concat(req.Args).ToArray();
             req.BuildEnvironment().TryGetValue("LEAN_PATH", out var existing);
             leanPath = string.Join(Path.PathSeparator, string.IsNullOrEmpty(existing) ? dirs : dirs.Append(existing));
@@ -426,13 +429,14 @@ public static class ManagedToolchain
     /// <summary>
     /// If this process was started through a launcher that is an application host (see
     /// <see cref="WriteLauncher"/>), sets up `LEAN_PATH` and returns the `lean` arguments that
-    /// run the program; null otherwise.
+    /// run the program and the `lean` executable of its sysroot; null otherwise.
     /// </summary>
-    internal static string[] AppHostLauncherArgs(string exe, string[] args)
+    internal static string[] AppHostLauncherArgs(string exe, string[] args, out string leanExe)
     {
+        leanExe = null;
         try
         {
-            if (!ReadHead(exe, 2).StartsWith("MZ", StringComparison.Ordinal) || !TryReadLauncher(exe, out var source, out var dirs))
+            if (!ReadHead(exe, 2).StartsWith("MZ", StringComparison.Ordinal) || !TryReadLauncher(exe, out var source, out var dirs, out leanExe))
                 return null;
             var existing = Environment.GetEnvironmentVariable("LEAN_PATH");
             Environment.SetEnvironmentVariable("LEAN_PATH", string.Join(Path.PathSeparator, string.IsNullOrEmpty(existing) ? dirs : dirs.Append(existing)));
@@ -445,11 +449,11 @@ public static class ManagedToolchain
     /// <summary>
     /// Reads a launcher: a script whose second line is the magic line, or an application host
     /// followed by the magic line and the description. Returns the program to run (recreated if
-    /// missing) and the library directories.
+    /// missing), the library directories and the `lean` executable recorded in it.
     /// </summary>
-    static bool TryReadLauncher(string path, out string source, out List<string> dirs)
+    static bool TryReadLauncher(string path, out string source, out List<string> dirs, out string leanExe)
     {
-        source = null; dirs = new List<string>();
+        source = null; dirs = new List<string>(); leanExe = null;
         if (!File.Exists(path)) return false;
         IEnumerable<string> lines;
         string head = ReadHead(path, 64);
@@ -479,6 +483,7 @@ public static class ManagedToolchain
             if (p.Length != 2) continue;
             if (p[0] == "module") module = p[1];
             else if (p[0] == "path") dirs.Add(Path.GetFullPath(p[1], dir));
+            else if (p[0] == "lean") leanExe = p[1];
         }
         if (module == null) return false;
         source = path + ".lean";

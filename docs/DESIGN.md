@@ -127,7 +127,8 @@ compiler command is called):
   imports its modules and runs their initializers, see below;
 * executable link: writes a *launcher*, a shell script that runs
   `lean --run <launcher>.lean` (a one-line file importing the main module) with the build's
-  library directories on `LEAN_PATH`. The IR interpreter executes `main` from the `.olean`/`.ir`
+  library directories on `LEAN_PATH` (on Windows a copy of the .NET application host of
+  `LeanSharp.Cli` that does the same, followed by that description; `src/LeanSharp/AppHost.cs`). The IR interpreter executes `main` from the `.olean`/`.ir`
   files Lake built anyway. Spawning a launcher from an in-process program (`lake exe`,
   `lake test`) runs it in-process.
 

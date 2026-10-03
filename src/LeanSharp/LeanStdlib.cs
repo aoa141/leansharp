@@ -130,7 +130,7 @@ public static class LeanStdlib
             string libDir = Path.Combine(sysroot, "lib", "lean");
             foreach (var (exe, module) in s_tools)
                 if (File.Exists(Path.Combine(libDir, module + ".olean")))
-                    ManagedToolchain.WriteLauncher(Path.Combine(sysroot, "bin", OperatingSystem.IsWindows() ? exe + ".exe" : exe), module, new[] { libDir }, appHost: true);
+                    ManagedToolchain.WriteLauncher(Path.Combine(sysroot, "bin", OperatingSystem.IsWindows() ? exe + ".exe" : exe), module, new[] { libDir }, inSysroot: true);
             // where Lake expects them (`leanSharedDynlibs`): `bin/lib<name>.dll` on Windows
             string dir = OperatingSystem.IsWindows() ? Path.Combine(sysroot, "bin") : libDir;
             string ext = OperatingSystem.IsWindows() ? ".dll" : OperatingSystem.IsMacOS() ? ".dylib" : ".so";

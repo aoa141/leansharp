@@ -220,8 +220,13 @@ unchanged in **Git Bash** (the `tools/*.sh` scripts need it); in PowerShell or c
     whatever their extension), with `lean.cmd`, `lake.cmd`, ... for cmd.exe and PowerShell.
   - The launchers point to the build that last used the sysroot (the test runner rebinds them to
     itself while it runs).
-  - Executables built by Lake (`foo.exe`) stay scripts, because Lake moves them and restores
-    them from its cache: `lake exe foo` runs them in-process, Git Bash runs them directly.
+* Executables built by Lake (`.lake\build\bin\foo.exe`, and by `leanc -o foo.exe`) are real
+  executables too, of the same kind, with the program's description (main module, library
+  directories, the sysroot's `lean.exe`) appended. They refer to `LeanSharp.Cli.dll` by its
+  absolute location (`AppHost.cs` explains how), so they keep working when Lake moves them or
+  restores them from its cache, as long as they stay on the drive of `LeanSharp.Cli.dll` and the
+  build that made them is not removed; otherwise they are shell scripts as on Linux, which
+  `lake exe` and Git Bash run.
 * The test runner looks for the `bash` of Git for Windows (next to `git.exe` on `PATH`, or
   `LEANSHARP_BASH`); the `bash.exe` in the Windows directory starts WSL and is not used.
   `tools/run-pile.sh` needs `LEAN4=/c/path/to/lean4` (the default is `~/Repos/lean4`).

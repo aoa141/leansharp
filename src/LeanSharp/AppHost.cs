@@ -7,6 +7,11 @@
 // recognizes the launcher by its own executable name (`lean`, `lake`, ...) and derives the
 // sysroot from its location, like native Lean (see `LeanSysroot.LauncherArgs`).
 //
+// Executables that are moved without the program (Lake's build directories, its artifact cache)
+// are *anchored*: the embedded path climbs to the drive's root with more `..\` than the
+// executable can be deep (Windows stops `..` at the root) and continues with the absolute
+// path of the program, so it names the same file wherever the executable is on that drive.
+//
 // The application host is native code, but it is part of the .NET SDK like `dotnet.exe`, and
 // nothing is compiled here.
 
@@ -20,18 +25,46 @@ static class AppHost
     const int PathSlotSize = 1024;
 
     /// <summary>
+    /// `C:\x` for `\\?\C:\x` and `\\server\share` for `\\?\UNC\server\share`: in a program
+    /// started by an application host, `AppContext.BaseDirectory` has that form.
+    /// </summary>
+    public static string WithoutExtendedPrefix(string path)
+    {
+        if (path.StartsWith(@"\\?\UNC\", StringComparison.OrdinalIgnoreCase)) return @"\\" + path.Substring(8);
+        if (path.StartsWith(@"\\?\", StringComparison.Ordinal)) return path.Substring(4);
+        return path;
+    }
+
+    /// <summary>
     /// The bytes of an application host at `exePath` that starts `assembly`, or null if there
     /// is none to copy (not Windows, no `<assembly>.exe`, or `exePath` on another drive).
     /// </summary>
-    public static byte[] Create(string assembly, string exePath)
+    /// <param name="anchored">
+    /// Refer to `assembly` by its absolute location (see the file comment) instead of its
+    /// location relative to `exePath`.
+    /// </param>
+    public static byte[] Create(string assembly, string exePath, bool anchored = false)
     {
         if (!OperatingSystem.IsWindows()) return null;
         try
         {
             string template = Path.ChangeExtension(assembly, ".exe");
             if (!File.Exists(template) || !File.Exists(assembly)) return null;
-            string rel = Path.GetRelativePath(Path.GetDirectoryName(Path.GetFullPath(exePath)), Path.GetFullPath(assembly));
-            if (Path.IsPathRooted(rel)) return null; // another drive: no relative path
+            string dir = Path.GetDirectoryName(Path.GetFullPath(WithoutExtendedPrefix(exePath)));
+            string full = Path.GetFullPath(WithoutExtendedPrefix(assembly));
+            string rel;
+            if (anchored)
+            {
+                string root = Path.GetPathRoot(full);
+                if (!string.Equals(root, Path.GetPathRoot(dir), StringComparison.OrdinalIgnoreCase)) return null;
+                int depth = dir.Substring(root.Length).Split(Path.DirectorySeparatorChar, StringSplitOptions.RemoveEmptyEntries).Length;
+                rel = string.Concat(Enumerable.Repeat(".." + Path.DirectorySeparatorChar, Math.Max(64, depth + 32))) + full.Substring(root.Length);
+            }
+            else
+            {
+                rel = Path.GetRelativePath(dir, full);
+                if (Path.IsPathRooted(rel)) return null; // another drive: no relative path
+            }
             byte[] path = Encoding.UTF8.GetBytes(rel);
             if (path.Length >= PathSlotSize) return null;
             byte[] data = File.ReadAllBytes(template);
