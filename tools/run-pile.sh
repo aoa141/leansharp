@@ -10,8 +10,12 @@ export PATH=$HOME/.dotnet:$PATH DOTNET_NOLOGO=1
 export LEANSHARP_SYSROOT=${LEANSHARP_SYSROOT:-$PWD/artifacts/selfhost}
 pile=$1; jobs=$2; shift 2
 mkdir -p artifacts/logs
-(while true; do echo "$(date +%T) $(free -m | awk 'NR==2{printf "used=%s avail=%s ",$3,$7}') $(ps -eo rss,comm --sort=-rss | sed -n 2,5p | tr '\n' ';')" >> artifacts/logs/$pile-mem.log; sleep 5; done) &
-W=$!
+W=
+# the memory log needs procps (not available in Git Bash on Windows)
+if command -v free >/dev/null 2>&1; then
+  (while true; do echo "$(date +%T) $(free -m | awk 'NR==2{printf "used=%s avail=%s ",$3,$7}') $(ps -eo rss,comm --sort=-rss | sed -n 2,5p | tr '\n' ';')" >> artifacts/logs/$pile-mem.log; sleep 5; done) &
+  W=$!
+fi
 dotnet "${LEANSHARP_RUNNER:-tests/LeanSharp.TestRunner/bin/Release/net10.0/LeanSharp.TestRunner.dll}" run --tests "${LEAN4:-$HOME/Repos/lean4}/tests" --pile $pile -j $jobs --show-diffs --results artifacts/$pile.tsv "$@" > artifacts/logs/$pile.log 2>&1
 echo "rc=$?" >> artifacts/logs/$pile.log
-kill $W
+[ -z "$W" ] || kill $W

@@ -59,27 +59,51 @@ public static unsafe partial class LeanRt
         return LeanErrno.ENOENT;
     }
 
+    /// <summary>
+    /// What `GetFinalPathNameByHandle` gives natively: every link and junction on the path
+    /// resolved, every component spelled as on disk (case, long names), the drive letter in
+    /// lower case.
+    /// </summary>
+    static string IoRealPathWindows(string path)
+    {
+        var full = Path.GetFullPath(path);
+        if (!IoEntryExists(full)) return null;
+        try
+        {
+            string root = Path.GetPathRoot(full);
+            var todo = new List<string>(full.Substring(root.Length).Split(Path.DirectorySeparatorChar, StringSplitOptions.RemoveEmptyEntries));
+            string cur = root.ToUpperInvariant();
+            int links = 0;
+            for (int i = 0; i < todo.Count; i++)
+            {
+                // the name as stored (a search for the exact name also finds it by its short name)
+                string name = Directory.EnumerateFileSystemEntries(cur, todo[i]).Select(Path.GetFileName).FirstOrDefault();
+                if (name == null) return null;
+                string next = Path.Combine(cur, name);
+                string target = new FileInfo(next).LinkTarget;
+                if (target == null) { cur = next; continue; }
+                if (++links > 40) return null;
+                // continue with the components of the target, then the rest of the path
+                string t = Path.GetFullPath(target, cur);
+                string troot = Path.GetPathRoot(t);
+                var rest = todo.GetRange(i + 1, todo.Count - i - 1);
+                todo = new List<string>(t.Substring(troot.Length).Split(Path.DirectorySeparatorChar, StringSplitOptions.RemoveEmptyEntries));
+                todo.AddRange(rest);
+                cur = troot.ToUpperInvariant();
+                i = -1;
+            }
+            full = cur;
+        }
+        catch (Exception) { }
+        if (full.Length >= 2 && full[1] == ':') full = char.ToLowerInvariant(full[0]) + full.Substring(1);
+        return full;
+    }
+
     /// <summary>`realpath(3)`: absolute path with all symbolic links resolved; null if it does not exist.</summary>
     public static string IoRealPath(string path)
     {
         path = LeanContext.ResolvePath(path);
-        if (OperatingSystem.IsWindows())
-        {
-            var full = Path.GetFullPath(path);
-            if (!IoEntryExists(full)) return null;
-            try
-            {
-                var fi = new FileInfo(full);
-                if (fi.LinkTarget != null)
-                {
-                    var t = fi.ResolveLinkTarget(true);
-                    if (t != null) full = t.FullName;
-                }
-            }
-            catch (Exception) { }
-            if (full.Length >= 2 && full[1] == ':') full = char.ToLowerInvariant(full[0]) + full.Substring(1);
-            return full;
-        }
+        if (OperatingSystem.IsWindows()) return IoRealPathWindows(path);
         string start = Path.IsPathRooted(path) ? path : Path.Combine(Directory.GetCurrentDirectory(), path);
         var todo = new List<string>(start.Split('/', StringSplitOptions.RemoveEmptyEntries));
         string cur = "/";
@@ -293,8 +317,10 @@ public static unsafe partial class LeanRt
         try
         {
             if (!IoEntryExists(path)) return LeanIOErrors.DecodeResult(IoMissingErrno(path), p);
-            if (!Directory.Exists(path) || IoIsSymlink(path)) return LeanIOErrors.DecodeResult(LeanErrno.ENOTDIR, p);
-            if (Directory.EnumerateFileSystemEntries(path).Any())
+            // Windows: removing a directory link or junction removes the link (`rmdir(2)` fails on a symlink)
+            bool link = IoIsSymlink(path);
+            if (!Directory.Exists(path) || (link && !OperatingSystem.IsWindows())) return LeanIOErrors.DecodeResult(LeanErrno.ENOTDIR, p);
+            if (!link && Directory.EnumerateFileSystemEntries(path).Any())
                 return LeanIOErrors.DecodeResult(LeanErrno.ENOTEMPTY, p);
             Directory.Delete(path, false);
             return IoOkUnit();
@@ -430,6 +456,12 @@ public static unsafe partial class LeanRt
             if (!IoEntryExists(path)) return LeanIOErrors.DecodeResult(IoMissingErrno(path), filename);
             if (Directory.Exists(path) && !IoIsSymlink(path))
                 return LeanIOErrors.DecodeResult(OperatingSystem.IsLinux() ? LeanErrno.EISDIR : LeanErrno.EPERM, filename);
+            if (OperatingSystem.IsWindows())
+            {
+                // as in C (`lean_io_remove_file`): read-only files can be removed, too
+                var attrs = File.GetAttributes(path);
+                if ((attrs & FileAttributes.ReadOnly) != 0) File.SetAttributes(path, attrs & ~FileAttributes.ReadOnly);
+            }
             File.Delete(path);
             IoHardLinks.Removed(path);
             return IoOkUnit();

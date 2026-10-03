@@ -181,6 +181,8 @@ if __name__ == '__main__':
         var total = Stopwatch.StartNew();
         string root = FindRepoRoot();
         string dictPath = Path.Combine(root, "artifacts", "leangz", "dict", "v1.dict");
+        // the same dictionary is part of the leantar port
+        if (!File.Exists(dictPath)) dictPath = Path.Combine(root, "src", "LeanSharp", "Leantar", "v1.dict");
         string initDir = Path.Combine(root, "artifacts", "selfhost", "lib", "lean", "Init");
         string leanDir = Path.Combine(root, "artifacts", "selfhost", "lib", "lean", "Lean");
         string work = Path.Combine(Path.GetTempPath(), "leansharp-zstd-check-" + Environment.ProcessId);
@@ -218,7 +220,7 @@ if __name__ == '__main__':
         byte[] prelude = File.ReadAllBytes(Path.Combine(initDir, "Prelude.olean"));
         byte[] core = File.ReadAllBytes(Path.Combine(initDir, "Core.olean"));
         string[] csFiles = Directory.GetFiles(Path.Combine(root, "src"), "*.cs", SearchOption.AllDirectories)
-            .Where(f => !f.Contains("/obj/") && !f.Contains("/bin/") && new FileInfo(f).Length is > 4000 and < 400000)
+            .Where(f => !f.Replace('\\', '/').Contains("/obj/") && !f.Replace('\\', '/').Contains("/bin/") && new FileInfo(f).Length is > 4000 and < 400000)
             .OrderBy(f => f, StringComparer.Ordinal).ToArray();
         byte[] text = ConcatFiles(csFiles, 3_000_000);
         byte[] rawDict = core.AsSpan(4096, 100_000).ToArray();

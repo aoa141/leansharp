@@ -1,7 +1,7 @@
 # Building and running LeanSharp
 
-Everything here works on Linux (developed on Ubuntu under WSL 2) and macOS. Windows is expected to
-work for the library and the in-process test piles but has not been run yet.
+Everything here works on Linux (developed on Ubuntu under WSL 2) and macOS. For Windows see the
+section "Windows" below.
 
 ## Requirements
 
@@ -194,6 +194,36 @@ expected and produced outputs are in the temp directory (`leansharp.expected`,
 `leansharp.produced`).
 
 Current results and open problems are in [TODO.md](../TODO.md).
+
+## Windows
+
+Run on Windows 11 x64 with the .NET 10 SDK and Git for Windows. The commands of this file work
+unchanged in **Git Bash** (the `tools/*.sh` scripts need it); in PowerShell or cmd.exe use the
+`dotnet ...` commands directly and `$env:LEANSHARP_SYSROOT = "C:\path\to\sysroot"`.
+
+* Check out the Lean sources with `git -c core.autocrlf=false clone ...` (the expected outputs of
+  the tests have LF line endings). This repository's shell scripts stay LF through
+  `.gitattributes`.
+* `<sysroot>\bin` gets two launchers per tool. `lean.exe`, `lake.exe`, ... are `#!/bin/sh` scripts
+  (there is no native code to put there): Lake only checks that they exist, and an MSYS shell
+  such as Git Bash runs them, so `PATH=$LEANSHARP_SYSROOT/bin:$PATH lake build` works there.
+  cmd.exe and PowerShell cannot start them; use `lean.cmd`, `lake.cmd`, ... instead.
+  Executables built by Lake (`foo.exe`) are scripts of the same kind: `lake exe foo` runs them
+  in-process, Git Bash runs them directly.
+* The test runner looks for the `bash` of Git for Windows (next to `git.exe` on `PATH`, or
+  `LEANSHARP_BASH`); the `bash.exe` in the Windows directory starts WSL and is not used.
+  `tools/run-pile.sh` needs `LEAN4=/c/path/to/lean4` (the default is `~/Repos/lean4`).
+* Without the privilege to create symbolic links (Developer Mode off), git checks out the few
+  links of the Lean repository as text files naming their target; the runner replaces such test
+  files by a copy of the target. `build-stdlib` makes `<sysroot>\src\lean` a junction instead of
+  a link.
+* The shared libraries Lake passes to `--load-dynlib` are stubs in `<sysroot>\bin`
+  (`libleanshared.dll`, ...), where Lake looks for them on Windows.
+* Differences from native Lean on Windows: the time zone rules come from .NET's `TimeZoneInfo`
+  (the Windows time zone database) instead of ICU; `Float` functions such as `tan` and `cbrt`
+  use the Universal C Runtime and can differ from other platforms in the last bits; the parent
+  process id is obtained by running PowerShell once; signal handlers other than
+  SIGINT/SIGQUIT/SIGTERM/SIGHUP can be installed but never fire.
 
 ## Memory
 

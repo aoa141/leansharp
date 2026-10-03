@@ -8,6 +8,11 @@
 using LeanSharp;
 
 LeanSharp.Runtime.LeanProgramState.TopLevelProgramOwnsProcess = true;
+if (OperatingSystem.IsWindows())
+{
+    // as native Lean does (`SetConsoleOutputCP(CP_UTF8)`): Lean writes UTF-8 whatever the console's code page
+    try { Console.OutputEncoding = new System.Text.UTF8Encoding(false); } catch (IOException) { }
+}
 if (args.Length > 0 && args[0] == "lake")
     return LakeShell.Main(args[1..]);
 if (args.Length > 0 && args[0] == "lean")

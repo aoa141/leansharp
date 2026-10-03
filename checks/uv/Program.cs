@@ -533,8 +533,14 @@ static class Program
             var g = Ok(lean_uv_os_get_group(lean_ctor_get_uint64_s(lean_ctor_get(gid, 0), 0)), "group");
             Console.WriteLine("     group: " + (lean_is_scalar(g) ? "none" : Str(lean_ctor_get(lean_ctor_get(g, 0), 0))));
         }
-        var g0 = Ok(lean_uv_os_get_group(0), "group 0");
-        Check(!lean_is_scalar(g0), "group 0 = " + (lean_is_scalar(g0) ? "none" : Str(lean_ctor_get(lean_ctor_get(g0, 0), 0))));
+        if (OperatingSystem.IsWindows())
+            // as in libuv: `uv_os_get_group` is not supported on Windows
+            Check(lean_io_result_is_error(lean_uv_os_get_group(0)), "group 0 is not supported");
+        else
+        {
+            var g0 = Ok(lean_uv_os_get_group(0), "group 0");
+            Check(!lean_is_scalar(g0), "group 0 = " + (lean_is_scalar(g0) ? "none" : Str(lean_ctor_get(lean_ctor_get(g0, 0), 0))));
+        }
 
         Ok(lean_uv_os_setenv(lean_mk_string("LEANSHARP_UV_TEST"), lean_mk_string("v1")), "setenv");
         var ge = Ok(lean_uv_os_getenv(lean_mk_string("LEANSHARP_UV_TEST")), "getenv");

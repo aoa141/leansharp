@@ -68,7 +68,8 @@ tools/run-checks.sh                                    # check programs of the h
 ## Status
 
 Work in progress; see [TODO.md](TODO.md) for details and open items. Lean's own test suite on
-Linux x64, using the standard library built by LeanSharp itself:
+Linux x64, using the standard library built by LeanSharp itself (Windows x64: the same, except
+that one more `lake` test is not run):
 
 | Lean test pile | Passing |
 |---|---|
@@ -94,7 +95,9 @@ diagnostics) are not run; see [TODO.md](TODO.md).
   Plugins work when they are built from Lean modules. Lake's artifact cache works through a
   managed port of `leantar` (with a managed Zstandard codec). Executables are launchers that run the program
   with the interpreter.
-* Platforms: developed on macOS arm64 and Linux x64 (WSL 2). Windows has not been run.
+* Platforms: developed on macOS arm64 and Linux x64 (WSL 2). Windows x64 passes the same test
+  piles (one more Lake test is not run there); the helper scripts and the script-driven piles
+  need Git Bash. See [docs/RUNNING.md](docs/RUNNING.md), "Windows".
 
 ## Third-party code
 

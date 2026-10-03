@@ -74,8 +74,29 @@ public static class LeanStdlib
             Directory.CreateDirectory(Path.Combine(sysroot, "src"));
             Directory.CreateSymbolicLink(link, leanSrcDir);
         }
-        catch (IOException) { }                 // e.g. no privilege to create links on Windows:
-        catch (UnauthorizedAccessException) { } // set `LEAN_SRC_PATH` instead
+        catch (IOException) { LinkSourcesWithJunction(leanSrcDir, sysroot); } // no privilege to create links on Windows
+        catch (UnauthorizedAccessException) { LinkSourcesWithJunction(leanSrcDir, sysroot); }
+    }
+
+    /// <summary>
+    /// Windows without the privilege to create symbolic links: a junction needs none. .NET cannot
+    /// create one, `mklink /J` of cmd.exe can. If that fails too, set `LEAN_SRC_PATH` instead.
+    /// </summary>
+    static void LinkSourcesWithJunction(string leanSrcDir, string sysroot)
+    {
+        if (!OperatingSystem.IsWindows()) return;
+        try
+        {
+            var psi = new System.Diagnostics.ProcessStartInfo(Path.Combine(Environment.SystemDirectory, "cmd.exe"))
+            {
+                UseShellExecute = false, CreateNoWindow = true, RedirectStandardOutput = true, RedirectStandardError = true,
+                Arguments = "/c mklink /J \"" + Path.Combine(sysroot, "src", "lean") + "\" \"" + leanSrcDir + "\"",
+            };
+            using var p = System.Diagnostics.Process.Start(psi);
+            p.StandardOutput.ReadToEnd();
+            p.WaitForExit(10000);
+        }
+        catch (Exception) { }
     }
 
     /// <summary>
@@ -109,12 +130,13 @@ public static class LeanStdlib
             string libDir = Path.Combine(sysroot, "lib", "lean");
             foreach (var (exe, module) in s_tools)
                 if (File.Exists(Path.Combine(libDir, module + ".olean")))
-                    ManagedToolchain.WriteLauncher(Path.Combine(sysroot, "bin", exe), module, new[] { libDir });
-            string prefix = OperatingSystem.IsWindows() ? "" : "lib";
+                    ManagedToolchain.WriteLauncher(Path.Combine(sysroot, "bin", OperatingSystem.IsWindows() ? exe + ".exe" : exe), module, new[] { libDir });
+            // where Lake expects them (`leanSharedDynlibs`): `bin/lib<name>.dll` on Windows
+            string dir = OperatingSystem.IsWindows() ? Path.Combine(sysroot, "bin") : libDir;
             string ext = OperatingSystem.IsWindows() ? ".dll" : OperatingSystem.IsMacOS() ? ".dylib" : ".so";
             foreach (var lib in s_sharedLibs)
             {
-                string path = Path.Combine(libDir, prefix + lib + ext);
+                string path = Path.Combine(dir, "lib" + lib + ext);
                 if (!File.Exists(path)) File.WriteAllText(path, LeanSharp.Runtime.LeanRt.ManagedLibMagic + "\n");
             }
         }

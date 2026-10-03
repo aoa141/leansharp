@@ -1,31 +1,36 @@
 # LeanSharp TODO
 
-State as of 2026-10-01 (Linux/WSL session). See [docs/RUNNING.md](docs/RUNNING.md) for how to
+State as of 2026-10-02 (Linux/WSL session, then a Windows session). See [docs/RUNNING.md](docs/RUNNING.md) for how to
 build and run, and [docs/DESIGN.md](docs/DESIGN.md) for the architecture.
 
 ## 1. Test status
 
 Measured on Linux x64 (Ubuntu 26.04 under WSL 2, 24 cores, 30 GB), Lean commit `77f336f7ae`, with
 the standard library **built by LeanSharp itself** (`artifacts/selfhost`). Command for every row:
-`tools/run-pile.sh <pile> 3`.
+`tools/run-pile.sh <pile> 3`. The Windows column: Windows 11 x64 (24 cores, 64 GB), same Lean
+commit and self-built standard library, run from Git Bash with 6 workers for the in-process piles
+(see docs/RUNNING.md, "Windows").
 
-| Pile (`~/Repos/lean4/tests/<pile>`) | Result | Notes |
-|---|---|---|
-| `elab` | 3,304 / 3,304 | |
-| `elab_fail` | 315 / 315 | |
-| `elab_bench` | 70 / 70 | |
-| `compile` (interpreter half) | 82 / 82 | |
-| `compile_bench` (interpreter half) | 29 / 29 | |
-| `docparse` | 303 / 303 | |
-| `server` | 4 / 4 | |
-| `server_interactive` | 154 / 154 | |
-| `misc` | 5 / 5 | |
-| `misc_dir` | 2 / 2 | 1 not run (unsupported) |
-| `pkg` | 43 / 43 | 1 not run (unsupported); 3 more are excluded as in Lean's CMake |
-| `lake` | 88 / 88 | 6 not run (unsupported), see below |
+| Pile (`~/Repos/lean4/tests/<pile>`) | Linux | Windows | Notes |
+|---|---|---|---|
+| `elab` | 3,304 / 3,304 | 3,304 / 3,304 | |
+| `elab_fail` | 315 / 315 | 315 / 315 | |
+| `elab_bench` | 70 / 70 | 70 / 70 | |
+| `compile` (interpreter half) | 82 / 82 | 82 / 82 | |
+| `compile_bench` (interpreter half) | 29 / 29 | 29 / 29 | |
+| `docparse` | 303 / 303 | 303 / 303 | |
+| `server` | 4 / 4 | 4 / 4 | |
+| `server_interactive` | 154 / 154 | 154 / 154 | |
+| `misc` | 5 / 5 | 5 / 5 | |
+| `misc_dir` | 2 / 2 | 2 / 2 | 1 not run (unsupported) |
+| `pkg` | 43 / 43 | 43 / 43 | 1 not run (unsupported); 3 more are excluded as in Lean's CMake |
+| `lake` | 88 / 88 | 87 / 87 | 6 not run (unsupported), see below; on Windows also `tests/env` |
 
 API tests (`dotnet test tests/LeanSharp.Tests`): 9 / 9. Runtime check programs
-(`tools/run-checks.sh`): 11 / 11.
+(`tools/run-checks.sh`): 11 / 11. Both on Linux and on Windows.
+
+Times on Windows: build 1 min 10 s (`LeanSharp.Lean` about 1 min), `build-stdlib` 8.0 min,
+`elab` 12.6 min, `server_interactive` 9.0 min, `pkg` 6.6 min, `lake` 29.9 min.
 
 Tests of scenarios LeanSharp does not support by design are **not run** by the test runner
 (the list with reasons is `s_unsupported` in `tests/LeanSharp.TestRunner/Program.cs`;
@@ -35,6 +40,9 @@ Tests of scenarios LeanSharp does not support by design are **not run** by the t
   `lake/examples/reverse-ffi`, `lake/tests/8448`, `lake/tests/externLib`, `misc_dir/rc_sticky`.
 - Tests that expect the diagnostics of a native linker: `lake/tests/precompileLink`,
   `pkg/def_clash`.
+- On Windows only (`s_unsupportedOnWindows`): `lake/tests/env`, whose last step looks for the
+  native `libleanshared.dll` on `PATH` with Git Bash's `which`, which only lists files that look
+  executable; LeanSharp's stub is a text file. The rest of the test passes.
 - `lake/tests/challenge-olean-issue`: the test forges an invalid `Nat` with `unsafeCast`. Native
   Lean's kernel accepts the forged proof when *building* (the comparator then rejects it);
   LeanSharp's kernel already rejects it during the build. The scenario is handled, soundly, but
@@ -44,10 +52,14 @@ No test that is run fails.
 
 ## 2. Not done yet
 
-- [ ] **Windows.** Never run. The code has Windows branches (paths, environment, launchers are
-      empty `.exe` placeholders that only work in-process), but nothing was verified: WSL cannot
-      start Windows programs on this machine. macOS was the original development platform and
-      has not been rerun since the changes of this session.
+- [ ] **Windows: real executables.** Everything passes on Windows (section 1), but `lean.exe`,
+      `lake.exe` and the executables Lake builds are shell scripts: Git Bash and in-process
+      programs run them, cmd.exe/PowerShell need the `.cmd` launchers, and tools that start a
+      real `lean.exe` (editor extensions) cannot use the sysroot. A fix would be a copy of the
+      .NET SDK's `apphost.exe` (which is native code, so it is a policy question like the
+      precompiled build).
+- [ ] **macOS** was the original development platform and has not been rerun since the Linux
+      session.
 - [ ] **CI.** There is none. A draft GitHub Actions workflow was removed at the owner's request
       (it ran on every push and sent failure mails). If one is added again: compiling
       `LeanSharp.Lean` needs a lot of memory, so hosted runners may be too small.
@@ -85,9 +97,10 @@ No test that is run fails.
 - [ ] **Snapshots (`--incr-save`, `--incr-header-save`, `--incr-load`)**: loading the header
       snapshot of `import Lean` takes 2.0 s (import without snapshot: 3.3 s, precompiled build);
       saving it takes 6.2 s (native: 1.9 s).
-- [ ] On Windows the `.olean` files are copied into native memory instead of being mapped
-      (untested, like everything on Windows): 1.9 GB for `import Lean`, not shared between
-      processes.
+- [ ] On Windows the `.olean` files are copied into native memory instead of being mapped by
+      default: 1.9 GB for `import Lean`, not shared between processes. `LEANSHARP_OLEAN_MMAP=1`
+      works on Windows too (tried on single files only); mapped files cannot be replaced or
+      deleted while a process uses them, which is presumably why it is off.
 - [ ] Scalar field access in generated code now goes through `lean_ctor_get_uint8(o, offset)`
       (which reads the number of object fields) instead of the `_s` variants; the emitter could
       keep the fast variants for constructors without `USize` fields when it knows the layout.

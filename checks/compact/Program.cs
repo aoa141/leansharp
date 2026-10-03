@@ -21,7 +21,13 @@ static unsafe class Program
 
     static int Main(string[] args)
     {
-        string lib = Path.Combine(Environment.GetEnvironmentVariable("HOME")!, "Repos/lean4/build/release/stage1/lib/lean");
+        // the library files to read: the sysroot (`LEANSHARP_SYSROOT`, else artifacts/selfhost of
+        // this repository), else a native build of the Lean repository
+        string sysroot = Environment.GetEnvironmentVariable("LEANSHARP_SYSROOT");
+        if (string.IsNullOrEmpty(sysroot)) sysroot = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../../artifacts/selfhost"));
+        string lib = Path.Combine(sysroot, "lib", "lean");
+        if (!File.Exists(Path.Combine(lib, "Init.olean")))
+            lib = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Repos/lean4/build/release/stage1/lib/lean");
         bool all = false, rtAll = false, perfOnly = false;
         foreach (var a in args)
         {

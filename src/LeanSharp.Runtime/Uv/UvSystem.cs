@@ -110,6 +110,8 @@ internal static class UvSys
         }
         var info = GC.GetGCMemoryInfo();
         long free = info.TotalAvailableMemoryBytes - info.MemoryLoadBytes;
+        // with a GC heap limit the total is the limit, not the machine's memory
+        if (free <= 0) free = info.TotalAvailableMemoryBytes - info.HeapSizeBytes;
         return (ulong)Math.Max(0, free);
     }
 
@@ -185,6 +187,9 @@ internal static class UvSys
         return (d, Environment.OSVersion.Version.ToString(), "");
     }
 
+    static readonly object s_ppidLock = new();
+    static ulong? s_winPpid;
+
     public static (bool ok, ulong ppid) ParentPid()
     {
         int pid = Environment.ProcessId;
@@ -197,6 +202,22 @@ internal static class UvSys
         {
             var s = UvUtil.RunCommand("ps", "-o", "ppid=", "-p", pid.ToString());
             if (s != null && ulong.TryParse(s.Trim(), out var pp)) return (true, pp);
+        }
+        else
+        {
+            // .NET has no API for it: ask the system's PowerShell once (the parent of a Windows
+            // process never changes)
+            lock (s_ppidLock)
+            {
+                if (s_winPpid == null)
+                {
+                    var ps = Path.Combine(Environment.SystemDirectory, "WindowsPowerShell", "v1.0", "powershell.exe");
+                    var s = UvUtil.RunCommand(ps, "-NoProfile", "-NonInteractive", "-Command",
+                        $"(Get-CimInstance Win32_Process -Filter 'ProcessId={pid}').ParentProcessId");
+                    s_winPpid = s != null && ulong.TryParse(s.Trim(), out var pp) ? pp : 0;
+                }
+                if (s_winPpid > 0) return (true, s_winPpid.Value);
+            }
         }
         return (false, 0);
     }

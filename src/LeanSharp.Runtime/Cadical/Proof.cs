@@ -24,7 +24,9 @@ public sealed class CFile
     {
         try
         {
-            var fs = new FileStream(path, FileMode.Create, FileAccess.Write, FileShare.Read, 1 << 16);
+            // Lean passes the path of a temporary file it still holds open for writing: on Windows
+            // the sharing mode must allow that
+            var fs = new FileStream(path, FileMode.Create, FileAccess.Write, FileShare.ReadWrite | FileShare.Delete, 1 << 16);
             return new CFile(fs, path, true);
         }
         catch { return null; }

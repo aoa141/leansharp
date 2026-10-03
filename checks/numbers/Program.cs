@@ -81,14 +81,30 @@ static unsafe partial class Tests
     static string FFrexp(Obj p) => FF(lean_unbox_float(lean_ctor_get(p, 0))) + " " + FI(lean_ctor_get(p, 1));
     static string FFrexp32(Obj p) => FF32(lean_unbox_float32(lean_ctor_get(p, 0))) + " " + FI(lean_ctor_get(p, 1));
 
+    /// <summary>Lines `float.<fn>.<n> <text> <bits>` (or `f32.`) whose bit patterns differ by at most two.</summary>
+    static bool DiffersInLastBit(string expected, string actual)
+    {
+        if (!expected.StartsWith("float.") && !expected.StartsWith("f32.")) return false;
+        var e = expected.Split(' ');
+        var a = actual.Split(' ');
+        if (e.Length != 3 || a.Length != 3 || e[0] != a[0]) return false;
+        if (!ulong.TryParse(e[2], out var eb) || !ulong.TryParse(a[2], out var ab)) return false;
+        return (eb > ab ? eb - ab : ab - eb) <= 2;
+    }
+
     static void CompareWithExpected()
     {
         // The transcendental `Float` functions come from the platform's C library and differ in
         // the last digit between macOS (expected.txt) and Linux/glibc (expected.linux.txt); both
         // files were produced by native Lean on that platform.
-        string path = Path.Combine(AppContext.BaseDirectory, OperatingSystem.IsLinux() ? "expected.linux.txt" : "expected.txt");
+        // On Windows there is no such reference: .NET uses the Universal C Runtime while native
+        // Lean links mingw-w64's math library, and each differs from glibc in the last bit of
+        // some results (and from each other). There the Linux file is used, and a difference of
+        // up to two units in the last place of a floating point result is accepted.
+        bool windows = OperatingSystem.IsWindows();
+        string path = Path.Combine(AppContext.BaseDirectory, OperatingSystem.IsLinux() || windows ? "expected.linux.txt" : "expected.txt");
         var expected = File.ReadAllLines(path);
-        int mismatches = 0;
+        int mismatches = 0, lastBit = 0;
         if (expected.Length != s_out.Count)
             Console.WriteLine($"line count differs: expected {expected.Length}, got {s_out.Count}");
         int n = Math.Min(expected.Length, s_out.Count);
@@ -96,10 +112,12 @@ static unsafe partial class Tests
         {
             if (expected[i] != s_out[i])
             {
+                if (windows && DiffersInLastBit(expected[i], s_out[i])) { lastBit++; continue; }
                 if (mismatches < 60) Console.WriteLine($"MISMATCH\n  expected: {expected[i]}\n  actual:   {s_out[i]}");
                 mismatches++;
             }
         }
+        if (lastBit > 0) Console.WriteLine($"{lastBit} floating point results differ from glibc's in the last bits (platform C library)");
         Console.WriteLine($"generated tests: {n - mismatches}/{expected.Length} match");
         if (mismatches > 0 || expected.Length != s_out.Count) s_fail++;
     }

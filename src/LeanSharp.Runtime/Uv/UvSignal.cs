@@ -98,6 +98,13 @@ internal sealed class UvSignal
         if (Signum <= 0) return UvErr.EINVAL;
         StopHandler();
         long gen = ++Generation;
+        if (OperatingSystem.IsWindows() && Signum != 1 && Signum != 2 && Signum != 3 && Signum != 15)
+        {
+            // As in libuv on Windows, watchers for the other signals can be started but never
+            // fire (libuv reports console resizes as SIGWINCH; that has no .NET counterpart).
+            UvLoop.Root(this);
+            return 0;
+        }
         try
         {
             Registration = PosixSignalRegistration.Create(ToPosixSignal(), ctx =>

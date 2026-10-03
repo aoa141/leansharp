@@ -5,7 +5,10 @@ namespace CadicalCheck;
 
 public static class Program
 {
-    static readonly string Native = Path.Combine(Environment.GetEnvironmentVariable("HOME") ?? "", "Repos/lean4/build/release/stage1/bin/cadical");
+    // The reference solver: `CADICAL_NATIVE`, or the one of a native Lean build. Without it the
+    // results are still validated (models against the formula, proofs by the LRAT checkers).
+    static readonly string Native = Environment.GetEnvironmentVariable("CADICAL_NATIVE")
+        ?? Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Repos/lean4/build/release/stage1/bin/cadical" + (OperatingSystem.IsWindows() ? ".exe" : ""));
     static readonly string Dir = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../.."));
 
     public static int Main(string[] args)
@@ -90,12 +93,14 @@ public static class Program
         }
         if (files.Count == 0) files.AddRange(Directory.GetFiles(Path.Combine(Dir, "cnf"), "*.cnf").OrderBy(f => f));
         int failures = 0;
+        bool haveNative = File.Exists(Native);
+        if (!haveNative) Console.WriteLine($"(no native cadical at '{Native}': results are not compared with it)");
         var tmp = Path.Combine(Path.GetTempPath(), "cadical-check-" + Environment.ProcessId);
         Directory.CreateDirectory(tmp);
         foreach (var file in files)
         {
             var cnf = LratCheck.ReadCnf(file, out _);
-            var (ncode, _) = RunNative(new[] { "-q", "-n", file });
+            int? ncode = haveNative ? RunNative(new[] { "-q", "-n", file }).code : null;
             foreach (bool binary in new[] { false, true })
             {
                 string proofPath = Path.Combine(tmp, Path.GetFileName(file) + (binary ? ".lrat.bin" : ".lrat"));
@@ -105,7 +110,7 @@ public static class Program
                 var (code, output) = RunOurs(a.ToArray());
                 sw.Stop();
                 string status = "ok";
-                if (code != ncode) status = $"MISMATCH native={ncode} ours={code}";
+                if (ncode != null && code != ncode) status = $"MISMATCH native={ncode} ours={code}";
                 else if (code == 10)
                 {
                     if (!output.StartsWith("s SATISFIABLE")) status = "bad output";
@@ -121,7 +126,7 @@ public static class Program
                     if (err == null) err = LratCheck.CheckLeanStyle(cnf, proof);
                     if (err != null) status = "LRAT: " + err;
                 }
-                else if (code != 0 || ncode != 0) status = $"unexpected exit {code}: {output}";
+                else if (code != 0 || (ncode ?? 0) != 0) status = $"unexpected exit {code}: {output}";
                 if (status != "ok") failures++;
                 Console.WriteLine($"{Path.GetFileName(file),-28} bin={(binary ? 1 : 0)} res={code} {sw.ElapsedMilliseconds,6} ms {status}");
             }

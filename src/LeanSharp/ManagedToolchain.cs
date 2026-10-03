@@ -354,12 +354,19 @@ public static class ManagedToolchain
         sb.Append("# module\t").Append(mainModule).Append('\n');
         foreach (var d in rel) sb.Append("# path\t").Append(d).Append('\n');
         sb.Append("# lean\t").Append(LeanSysroot.LeanExe).Append('\n');
-        sb.Append("d=$(cd \"$(dirname \"$0\")\" && pwd)\n");
-        sb.Append("s=\"$d/$(basename \"$0\").lean\"\n");
+        // Windows: the script is run by an MSYS shell (Git Bash), also when it is started as `prog`
+        // instead of `prog.exe`; `lean` gets Windows paths (`pwd -W`) in a `;`-separated list.
+        bool windows = OperatingSystem.IsWindows();
+        string sep = windows ? ";" : ":";
+        sb.Append("d=$(cd \"$(dirname \"$0\")\" && ").Append(windows ? "pwd -W" : "pwd").Append(")\n");
+        if (windows)
+            sb.Append("b=$(basename \"$0\"); case \"$b\" in *.exe) ;; *) b=\"$b.exe\" ;; esac\ns=\"$d/$b.lean\"\n");
+        else
+            sb.Append("s=\"$d/$(basename \"$0\").lean\"\n");
         sb.Append("[ -f \"$s\" ] || printf '%s\\n' ").Append(Sh(import)).Append(" > \"$s\"\n");
         sb.Append("LEANSHARP_RUN_BUILTIN_INIT=1 LEAN_PATH=\"");
-        sb.Append(string.Join(":", rel.Select(r => Path.IsPathRooted(r) ? r : "$d/" + r)));
-        sb.Append("${LEAN_PATH:+:$LEAN_PATH}\" exec ").Append(Sh(LeanSysroot.LeanExe)).Append(" --run \"$s\" \"$@\"\n");
+        sb.Append(string.Join(sep, rel.Select(r => Path.IsPathRooted(r) ? r : "$d/" + r)));
+        sb.Append("${LEAN_PATH:+").Append(sep).Append("$LEAN_PATH}\" exec ").Append(Sh(LeanSysroot.LeanExe)).Append(" --run \"$s\" \"$@\"\n");
         WriteAtomic(output, sb.ToString(), executable: true);
     }
 
@@ -376,8 +383,23 @@ public static class ManagedToolchain
         if (!Enabled) return false;
         try
         {
-            if (!(req.Cmd.Contains('/') || req.Cmd.Contains(Path.DirectorySeparatorChar))) return false;
-            string path = Path.GetFullPath(req.Cmd, req.EffectiveCwd);
+            string path;
+            if (req.Cmd.Contains('/') || req.Cmd.Contains(Path.DirectorySeparatorChar))
+            {
+                path = Path.GetFullPath(req.Cmd, req.EffectiveCwd);
+                if (OperatingSystem.IsWindows() && !File.Exists(path) && File.Exists(path + ".exe")) path += ".exe";
+            }
+            else if (OperatingSystem.IsWindows())
+            {
+                // Elsewhere the system starts a launcher found on `PATH` (it is a shell script);
+                // Windows cannot, so it is looked up here (e.g. `lake env leanchecker`).
+                req.BuildEnvironment().TryGetValue("PATH", out var pathVar);
+                path = (pathVar ?? "").Split(Path.PathSeparator, StringSplitOptions.RemoveEmptyEntries)
+                    .SelectMany(d => new[] { Path.Combine(d, req.Cmd), Path.Combine(d, req.Cmd + ".exe") })
+                    .FirstOrDefault(File.Exists);
+                if (path == null) return false;
+            }
+            else return false;
             if (!File.Exists(path)) return false;
             string head = ReadHead(path, 64);
             int nl = head.IndexOf('\n');

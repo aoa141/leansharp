@@ -28,6 +28,8 @@ static class Program
         if (args.Length > 0 && args[0] == "leantar") return LeanSharp.Leantar.LeantarCli.Main(args[1..], Console.In, Console.Out, Console.Error);
         if (args.Length > 0 && args[0] == "leanc") return ManagedToolchain.Leanc(args[1..], Console.Error);
         if (args.Length > 0 && args[0] == "worker") return Worker.Run(args[1..]);
+        // test names and diffs are not ASCII; the default on Windows is the console's code page
+        Console.OutputEncoding = new UTF8Encoding(false);
         if (args.Length > 0 && args[0] == "run") return Coordinator.Run(args[1..]);
         if (args.Length > 0 && args[0] == "one") return Worker.RunOneCli(args[1..]);
         Console.Error.WriteLine("usage: LeanSharp.TestRunner run --tests DIR --pile PILE [--filter RE] [-j N] [--mem GB] [--timeout S] [--results FILE] [--rerun FILE] [--show-diffs] [--include-unsupported]");
@@ -39,6 +41,37 @@ static class Program
 }
 
 record TestResult(string Name, string Status, double Seconds, string Detail);
+
+static class Shell
+{
+    static string s_bash;
+
+    /// <summary>
+    /// The `bash` that runs the test scripts: `LEANSHARP_BASH` if set. On Windows it must be an
+    /// MSYS bash (Git for Windows), as in Lean's own test setup; the `bash.exe` of the Windows
+    /// directories starts WSL, which cannot run the Windows launchers.
+    /// </summary>
+    public static string Bash => s_bash ??= Find();
+
+    static string Find()
+    {
+        var env = Environment.GetEnvironmentVariable("LEANSHARP_BASH");
+        if (!string.IsNullOrEmpty(env)) return env;
+        if (!OperatingSystem.IsWindows()) return "bash";
+        var dirs = (Environment.GetEnvironmentVariable("PATH") ?? "").Split(Path.PathSeparator, StringSplitOptions.RemoveEmptyEntries);
+        // Git for Windows: `<git>\cmd\git.exe` or `<git>\bin\git.exe` on PATH, bash in `<git>\bin`
+        var candidates = dirs.Where(d => File.Exists(Path.Combine(d, "git.exe"))).Select(d => Path.Combine(d, "..", "bin", "bash.exe"))
+            .Append(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "Git", "bin", "bash.exe"))
+            .Concat(dirs.Where(d => !d.Contains(@"\Windows\", StringComparison.OrdinalIgnoreCase) && !d.Contains(@"\WindowsApps", StringComparison.OrdinalIgnoreCase))
+                .Select(d => Path.Combine(d, "bash.exe")));
+        foreach (var c in candidates)
+            if (File.Exists(c)) return Path.GetFullPath(c);
+        return "bash";
+    }
+
+    /// <summary>A path as passed to scripts in environment variables (forward slashes on Windows too).</summary>
+    public static string ScriptPath(string path) => OperatingSystem.IsWindows() ? path.Replace('\\', '/') : path;
+}
 
 static class Piles
 {
@@ -199,7 +232,9 @@ static class Worker
         LeanHost.RunWithLargeStack(() => { LeanHost.Initialize(); return 0; });
         writer.WriteLine("READY");
         string line;
-        while ((line = Console.In.ReadLine()) != null)
+        // test names are sent as UTF-8 (not in the console's code page, as `Console.In` reads on Windows)
+        var stdin = new StreamReader(Console.OpenStandardInput(), new UTF8Encoding(false));
+        while ((line = stdin.ReadLine()) != null)
         {
             if (line.Length == 0) continue;
             var (exit, output, secs) = RunOne(pile, line);
@@ -251,7 +286,7 @@ static class Worker
     static void RunHook(string script)
     {
         if (!File.Exists(script)) return;
-        var psi = new ProcessStartInfo("bash", new[] { "--", script }) { RedirectStandardOutput = true, RedirectStandardError = true };
+        var psi = new ProcessStartInfo(Shell.Bash, new[] { "--", Shell.ScriptPath(script) }) { RedirectStandardOutput = true, RedirectStandardError = true };
         // `lean`/`lake` in the script are the launchers of the sysroot
         psi.Environment["PATH"] = LeanSysroot.BinDir + Path.PathSeparator + Path.GetDirectoryName(Environment.ProcessPath) + Path.PathSeparator + Environment.GetEnvironmentVariable("PATH");
         psi.Environment["LEANSHARP_SYSROOT"] = LeanSysroot.Root;
@@ -348,6 +383,19 @@ static class Coordinator
             .Where(f => re == null || re.IsMatch(Path.GetFileName(f)))
             .Where(f => only == null || only.Contains(Path.GetFileName(f)))
             .OrderBy(f => f, StringComparer.Ordinal).ToList();
+        // A Windows checkout without the privilege to create symbolic links has, for a test that
+        // is a link to another test, a file containing the target's name: copy the target over it.
+        if (OperatingSystem.IsWindows())
+            foreach (var f in tests)
+            {
+                if (new FileInfo(f).Length >= 260) continue;
+                var target = File.ReadAllText(f);
+                if (target.Length == 0 || target.IndexOfAny(new[] { '\n', ' ', ':' }) >= 0) continue;
+                var full = Path.GetFullPath(target, Path.GetDirectoryName(f));
+                if (!File.Exists(full)) continue;
+                Console.WriteLine($"{Path.GetFileName(f)}: replacing the checked-out link by a copy of {target}");
+                File.Copy(full, f, overwrite: true);
+            }
         // hard limit of a worker's managed heap (it fails with an out-of-memory error instead of
         // starving the machine); a worker is replaced once its live heap exceeds 70% of it
         long memLimit = memGb > 0 ? (long)(memGb * (1L << 30)) : Math.Max(3L << 30, (long)(totalMem * 0.75) / jobs);
@@ -397,7 +445,8 @@ static class Coordinator
         {
             m_pile = pile;
             var self = Environment.ProcessPath;
-            var psi = new ProcessStartInfo(self) { RedirectStandardInput = true, RedirectStandardOutput = true, RedirectStandardError = true, UseShellExecute = false };
+            var psi = new ProcessStartInfo(self) { RedirectStandardInput = true, RedirectStandardOutput = true, RedirectStandardError = true, UseShellExecute = false,
+                StandardInputEncoding = new UTF8Encoding(false), StandardOutputEncoding = new UTF8Encoding(false) };
             var entry = typeof(Program).Assembly.Location;
             if (Path.GetFileNameWithoutExtension(self) == "dotnet") psi.ArgumentList.Add(entry);
             psi.ArgumentList.Add("worker"); psi.ArgumentList.Add("--tests"); psi.ArgumentList.Add(testsDir);
@@ -494,6 +543,18 @@ static class ScriptPiles
         ["lake/tests/challenge-olean-issue"] = "forges a `Nat` with `unsafeCast`; the managed kernel rejects it already at build time",
     };
 
+    /// <summary>Like <see cref="s_unsupported"/>, on Windows only.</summary>
+    static readonly Dictionary<string, string> s_unsupportedOnWindows = new(StringComparer.Ordinal)
+    {
+        // `which` of Git Bash only lists files that look executable (a PE image or `#!`); the
+        // stub `libleanshared.dll` is a text file
+        ["lake/tests/env"] = "ends by finding the native `libleanshared.dll` on `PATH` with `which`",
+    };
+
+    static string UnsupportedReason(string key) =>
+        s_unsupported.TryGetValue(key, out var r) ? r
+        : OperatingSystem.IsWindows() && s_unsupportedOnWindows.TryGetValue(key, out r) ? r + " (Windows)" : null;
+
     /// <summary>(test name, working directory, bash command) of every test of the pile.</summary>
     static IEnumerable<(string name, string dir, string cmd)> Enumerate(string testsDir, string pile)
     {
@@ -542,9 +603,9 @@ static class ScriptPiles
         var all0 = Enumerate(testsDir, pile)
             .Where(t => filter == null || filter.IsMatch(t.name))
             .Where(t => only == null || only.Contains(t.name)).ToList();
-        var tests = includeUnsupported ? all0 : all0.Where(t => !s_unsupported.ContainsKey(pile + "/" + t.name)).ToList();
+        var tests = includeUnsupported ? all0 : all0.Where(t => UnsupportedReason(pile + "/" + t.name) == null).ToList();
         foreach (var t in all0.Except(tests))
-            Console.WriteLine($"not run (unsupported scenario): {t.name} -- {s_unsupported[pile + "/" + t.name]}");
+            Console.WriteLine($"not run (unsupported scenario): {t.name} -- {UnsupportedReason(pile + "/" + t.name)}");
         // make sure the launchers exist and point to this program
         var bin = LeanSysroot.BinDir;
         _ = LeanSysroot.Root; LeanSysroot.Root = LeanSysroot.Root;
@@ -588,7 +649,7 @@ static class ScriptPiles
     static TestResult RunOne(string testsDir, string bin, string dotnetDir, (string name, string dir, string cmd) t, double timeout, out string output)
     {
         var sw = Stopwatch.StartNew();
-        var psi = new ProcessStartInfo("bash") { WorkingDirectory = t.dir, RedirectStandardOutput = true, RedirectStandardError = true, RedirectStandardInput = true, UseShellExecute = false };
+        var psi = new ProcessStartInfo(Shell.Bash) { WorkingDirectory = t.dir, RedirectStandardOutput = true, RedirectStandardError = true, RedirectStandardInput = true, UseShellExecute = false };
         psi.ArgumentList.Add("-c");
         psi.ArgumentList.Add(t.cmd + " 2>&1");
         var env = psi.Environment;
@@ -601,13 +662,18 @@ static class ScriptPiles
         env["LEANSHARP_SYSROOT"] = sysroot;
         // the variables of `tests/with_env.sh.in`
         env["STAGE"] = "1";
-        env["TEST_DIR"] = testsDir;
-        env["SRC_DIR"] = Path.GetFullPath(Path.Combine(testsDir, "..", "src"));
-        env["SCRIPT_DIR"] = Path.GetFullPath(Path.Combine(testsDir, "..", "script"));
-        env["BUILD_DIR"] = sysroot;
+        env["TEST_DIR"] = Shell.ScriptPath(testsDir);
+        env["SRC_DIR"] = Shell.ScriptPath(Path.GetFullPath(Path.Combine(testsDir, "..", "src")));
+        env["SCRIPT_DIR"] = Shell.ScriptPath(Path.GetFullPath(Path.Combine(testsDir, "..", "script")));
+        env["BUILD_DIR"] = Shell.ScriptPath(sysroot);
         env["LEAN_CC"] = "cc";
         env["LEANC_OPTS"] = "";
         env["CXX"] = "c++";
+        // the user's git configuration must not rewrite the files in the tests' repositories
+        // (`core.autocrlf=true`, common on Windows, makes Lake's checkouts fail)
+        env["GIT_CONFIG_COUNT"] = "1";
+        env["GIT_CONFIG_KEY_0"] = "core.autocrlf";
+        env["GIT_CONFIG_VALUE_0"] = "false";
         env.Remove("LEAN_PATH"); env.Remove("LEAN_SYSROOT"); env.Remove("LAKE"); env.Remove("LAKE_HOME"); env.Remove("ELAN_TOOLCHAIN");
         var sb = new StringBuilder();
         using var p = Process.Start(psi);

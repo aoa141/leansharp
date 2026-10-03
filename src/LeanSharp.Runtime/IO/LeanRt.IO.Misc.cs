@@ -176,14 +176,109 @@ public static unsafe partial class LeanRt
     }
 
     /* Std.Time.Database.Windows.getNextTransition : @&String -> Int64 -> Bool -> IO (Option (Int64 × TimeZone)) */
-    public static Obj lean_windows_get_next_transition(Obj timezone_str, ulong tm_obj, byte default_time) =>
-        lean_io_result_mk_error(LeanIOErrors.Mk("lean_mk_io_error_invalid_argument", (uint)LeanErrno.EINVAL,
-            lean_mk_string("failed to get timezone, its windows only.")));
+    public static Obj lean_windows_get_next_transition(Obj timezone_str, ulong tm_obj, byte default_time)
+    {
+        if (!OperatingSystem.IsWindows())
+            return lean_io_result_mk_error(LeanIOErrors.Mk("lean_mk_io_error_invalid_argument", (uint)LeanErrno.EINVAL,
+                lean_mk_string("failed to get timezone, its windows only.")));
+        // Natively this uses the ICU of Windows; here `TimeZoneInfo` (which knows the rules of
+        // the Windows time zone database, not the full history of the IANA one).
+        TimeZoneInfo tz;
+        try { tz = TimeZoneInfo.FindSystemTimeZoneById(lean_string_to_net(timezone_str)); }
+        catch (Exception) { tz = TimeZoneInfo.Utc; } // ICU: an unknown identifier is GMT
+        try
+        {
+            DateTimeOffset at = default_time != 0 ? DateTimeOffset.UtcNow : DateTimeOffset.FromUnixTimeSeconds((long)tm_obj);
+            long next = 0;
+            if (default_time == 0)
+            {
+                long? n = WinNextTransition(tz, (long)tm_obj);
+                if (n == null) return lean_io_result_mk_ok(lean_mk_option_none());
+                next = n.Value;
+            }
+            bool isDst = tz.IsDaylightSavingTime(at);
+            var offset = tz.GetUtcOffset(at);
+            var ltz = lean_alloc_ctor(0, 3, 1);
+            lean_ctor_set(ltz, 0, IoInt64ToInt((long)offset.TotalSeconds));
+            lean_ctor_set(ltz, 1, lean_mk_string(isDst ? tz.DaylightName : tz.StandardName));
+            lean_ctor_set(ltz, 2, lean_mk_string(WinZoneAbbreviation(tz, isDst, offset)));
+            lean_ctor_set_uint8(ltz, 8 * 3, isDst ? (byte)1 : (byte)0);
+            var pair = lean_alloc_ctor(0, 2, 0);
+            lean_ctor_set(pair, 0, UvUtil.BoxU64((ulong)next));
+            lean_ctor_set(pair, 1, ltz);
+            return lean_io_result_mk_ok(lean_mk_option_some(pair));
+        }
+        catch (Exception)
+        {
+            return lean_io_result_mk_error(LeanIOErrors.Mk("lean_mk_io_error_invalid_argument", (uint)LeanErrno.EINVAL,
+                lean_mk_string("failed to get next transition")));
+        }
+    }
+
+    const long WinLastTransitionSecs = 32503690800; // year 3000: where `getZoneRules` stops
+
+    static (TimeSpan, bool) WinZoneState(TimeZoneInfo tz, long secs)
+    {
+        var t = DateTimeOffset.FromUnixTimeSeconds(secs);
+        return (tz.GetUtcOffset(t), tz.IsDaylightSavingTime(t));
+    }
+
+    /// <summary>The first second after `secs` at which the offset or the daylight saving state of `tz` changes.</summary>
+    static long? WinNextTransition(TimeZoneInfo tz, long secs)
+    {
+        if (tz.GetAdjustmentRules().Length == 0) return null;
+        var state = WinZoneState(tz, secs);
+        const long step = 7 * 86400;
+        long lo = secs;
+        while (lo <= WinLastTransitionSecs)
+        {
+            long hi = lo + step;
+            if (WinZoneState(tz, hi) != state)
+            {
+                while (hi - lo > 1)
+                {
+                    long mid = lo + (hi - lo) / 2;
+                    if (WinZoneState(tz, mid) != state) hi = mid; else lo = mid;
+                }
+                return hi;
+            }
+            lo = hi;
+        }
+        return null;
+    }
+
+    /// <summary>Short name of a zone as ICU prints it for `en_US`: an abbreviation for the zones of the US, `GMT+1` otherwise.</summary>
+    static string WinZoneAbbreviation(TimeZoneInfo tz, bool isDst, TimeSpan offset)
+    {
+        string id = tz.Id;
+        if (tz.HasIanaId && TimeZoneInfo.TryConvertIanaIdToWindowsId(id, out var win)) id = win;
+        switch (id)
+        {
+            case "UTC": return "UTC";
+            case "Eastern Standard Time": return isDst ? "EDT" : "EST";
+            case "Central Standard Time": return isDst ? "CDT" : "CST";
+            case "Mountain Standard Time": return isDst ? "MDT" : "MST";
+            case "US Mountain Standard Time": return "MST";
+            case "Pacific Standard Time": return isDst ? "PDT" : "PST";
+            case "Alaskan Standard Time": return isDst ? "AKDT" : "AKST";
+            case "Hawaiian Standard Time": return "HST";
+        }
+        if (offset == TimeSpan.Zero) return "GMT";
+        var abs = offset.Duration();
+        return "GMT" + (offset < TimeSpan.Zero ? "-" : "+") + abs.Hours + (abs.Minutes != 0 ? ":" + abs.Minutes.ToString("00") : "");
+    }
 
     /* Std.Time.Database.Windows.getLocalTimeZoneIdentifierAt : Int64 → IO String */
-    public static Obj lean_get_windows_local_timezone_id_at(ulong tm_obj) =>
-        lean_io_result_mk_error(LeanIOErrors.Mk("lean_mk_io_error_invalid_argument", (uint)LeanErrno.EINVAL,
-            lean_mk_string("timezone retrieval is Windows-only")));
+    public static Obj lean_get_windows_local_timezone_id_at(ulong tm_obj)
+    {
+        if (!OperatingSystem.IsWindows())
+            return lean_io_result_mk_error(LeanIOErrors.Mk("lean_mk_io_error_invalid_argument", (uint)LeanErrno.EINVAL,
+                lean_mk_string("timezone retrieval is Windows-only")));
+        // an IANA identifier, as ICU returns it
+        string id = TimeZoneInfo.Local.Id;
+        if (!TimeZoneInfo.Local.HasIanaId && TimeZoneInfo.TryConvertWindowsIdToIanaId(id, out var iana)) id = iana;
+        return lean_io_result_mk_ok(lean_mk_string(id));
+    }
 
     /* getRandomBytes (nBytes : USize) : IO ByteArray */
     public static Obj lean_io_get_random_bytes(ulong nbytes)
