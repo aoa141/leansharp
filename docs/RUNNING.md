@@ -82,9 +82,10 @@ The `lib/lean` directory of a native Lean build of exactly this commit works too
 (`ln -s ~/Repos/lean4/build/release/stage1/lib/lean <sysroot>/lib/lean`); a different version
 fails with "incompatible header".
 
-LeanSharp writes `lean` and `lake` launcher scripts into `<sysroot>/bin` (Lake locates its Lean
+LeanSharp writes `lean` and `lake` launchers into `<sysroot>/bin` (Lake locates its Lean
 installation through them, and they make the sysroot usable from a shell:
-`PATH=$LEANSHARP_SYSROOT/bin:$PATH lake build`).
+`PATH=$LEANSHARP_SYSROOT/bin:$PATH lake build`). They are shell scripts, and on Windows real
+executables (see "Windows").
 
 ## Command line
 
@@ -204,12 +205,23 @@ unchanged in **Git Bash** (the `tools/*.sh` scripts need it); in PowerShell or c
 * Check out the Lean sources with `git -c core.autocrlf=false clone ...` (the expected outputs of
   the tests have LF line endings). This repository's shell scripts stay LF through
   `.gitattributes`.
-* `<sysroot>\bin` gets two launchers per tool. `lean.exe`, `lake.exe`, ... are `#!/bin/sh` scripts
-  (there is no native code to put there): Lake only checks that they exist, and an MSYS shell
-  such as Git Bash runs them, so `PATH=$LEANSHARP_SYSROOT/bin:$PATH lake build` works there.
-  cmd.exe and PowerShell cannot start them; use `lean.cmd`, `lake.cmd`, ... instead.
-  Executables built by Lake (`foo.exe`) are scripts of the same kind: `lake exe foo` runs them
-  in-process, Git Bash runs them directly.
+* `lean.exe`, `lake.exe`, `leanc.exe`, `leantar.exe` and the tools `leanchecker.exe`,
+  `leanexport.exe`, `leanir.exe` in `<sysroot>\bin` are real executables that work from any
+  shell (`$env:PATH = "$sysroot\bin;$env:PATH"; lake build`) and for programs that start
+  `lean.exe` themselves. They are copies of the .NET application host that the build puts next
+  to `LeanSharp.Cli.dll` (`LeanSharp.Cli.exe`), with the path of `LeanSharp.Cli.dll` embedded
+  (`src/LeanSharp/AppHost.cs`). The program recognizes the tool by its executable name and
+  finds the sysroot from its location, as native Lean does. The application host is native
+  code, but it comes with the .NET SDK like `dotnet.exe` and is used as is; nothing is
+  compiled.
+  - The embedded path is relative to the executable: if the sysroot is on another drive than
+    `LeanSharp.Cli.dll`, or there is no `LeanSharp.Cli.exe`, the launchers are `#!/bin/sh`
+    scripts instead (Lake only checks that `lean.exe` exists, and Git Bash runs `#!` scripts
+    whatever their extension), with `lean.cmd`, `lake.cmd`, ... for cmd.exe and PowerShell.
+  - The launchers point to the build that last used the sysroot (the test runner rebinds them to
+    itself while it runs).
+  - Executables built by Lake (`foo.exe`) stay scripts, because Lake moves them and restores
+    them from its cache: `lake exe foo` runs them in-process, Git Bash runs them directly.
 * The test runner looks for the `bash` of Git for Windows (next to `git.exe` on `PATH`, or
   `LEANSHARP_BASH`); the `bash.exe` in the Windows directory starts WSL and is not used.
   `tools/run-pile.sh` needs `LEAN4=/c/path/to/lean4` (the default is `~/Repos/lean4`).

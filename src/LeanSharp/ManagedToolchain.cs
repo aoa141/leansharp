@@ -332,7 +332,14 @@ public static class ManagedToolchain
     /// with the IR interpreter; `libDirs` (directories with the `.olean`/`.ir` files of the
     /// program's modules) are put on `LEAN_PATH`.
     /// </summary>
-    public static void WriteLauncher(string output, string mainModule, IReadOnlyList<string> libDirs)
+    /// <param name="appHost">
+    /// Windows: make the launcher a real executable, a copy of the .NET application host of the
+    /// launcher assembly (see `AppHost`) followed by the launcher's description. It refers to
+    /// that assembly by a relative path, so this is only done for launchers that stay next to
+    /// the sysroot's `lean.exe` (the tools of the sysroot), not for programs built by Lake,
+    /// whose build directories are moved or restored from Lake's cache.
+    /// </param>
+    public static void WriteLauncher(string output, string mainModule, IReadOnlyList<string> libDirs, bool appHost = false)
     {
         // The launcher must keep working when Lake restores it from its artifact cache (only the
         // file itself is cached) or the whole build directory is moved: library directories are
@@ -347,13 +354,20 @@ public static class ManagedToolchain
         var rel = dirs.Select(d => Path.GetRelativePath(dir, d).Replace('\\', '/')).ToList();
         string import = ImportLine(mainModule);
         WriteAtomic(output + ".lean", import + "\n");
+        var info = new StringBuilder();
+        info.Append(ExeMagic).Append('\n');
+        info.Append("# Executable built by LeanSharp: the program is run by Lean's IR interpreter.\n");
+        info.Append("# module\t").Append(mainModule).Append('\n');
+        foreach (var d in rel) info.Append("# path\t").Append(d).Append('\n');
+        info.Append("# lean\t").Append(LeanSysroot.LeanExe).Append('\n');
+        if (appHost && AppHost.Create(LeanSysroot.LauncherAssemblyPath, output) is byte[] exe)
+        {
+            AppHost.WriteIfChanged(output, exe.Concat(Encoding.UTF8.GetBytes("\n" + info)).ToArray());
+            return;
+        }
         var sb = new StringBuilder();
         sb.Append("#!/bin/sh\n");
-        sb.Append(ExeMagic).Append('\n');
-        sb.Append("# Executable built by LeanSharp: the program is run by Lean's IR interpreter.\n");
-        sb.Append("# module\t").Append(mainModule).Append('\n');
-        foreach (var d in rel) sb.Append("# path\t").Append(d).Append('\n');
-        sb.Append("# lean\t").Append(LeanSysroot.LeanExe).Append('\n');
+        sb.Append(info);
         // Windows: the script is run by an MSYS shell (Git Bash), also when it is started as `prog`
         // instead of `prog.exe`; `lean` gets Windows paths (`pwd -W`) in a `;`-separated list.
         bool windows = OperatingSystem.IsWindows();
@@ -400,29 +414,75 @@ public static class ManagedToolchain
                 if (path == null) return false;
             }
             else return false;
-            if (!File.Exists(path)) return false;
-            string head = ReadHead(path, 64);
-            int nl = head.IndexOf('\n');
-            if (nl < 0 || !head.Substring(nl + 1).StartsWith(ExeMagic, StringComparison.Ordinal)) return false;
-            string module = null;
-            string dir = Path.GetDirectoryName(path);
-            var dirs = new List<string>();
-            foreach (var line in File.ReadLines(path))
-            {
-                if (!line.StartsWith("# ", StringComparison.Ordinal)) continue;
-                var p = line.Substring(2).Split('\t');
-                if (p.Length != 2) continue;
-                if (p[0] == "module") module = p[1];
-                else if (p[0] == "path") dirs.Add(Path.GetFullPath(p[1], dir));
-            }
-            if (module == null) return false;
-            string source = path + ".lean";
-            if (!File.Exists(source)) WriteAtomic(source, ImportLine(module) + "\n");
+            if (!TryReadLauncher(path, out var source, out var dirs)) return false;
             leanArgs = new[] { "--run", source }.Concat(req.Args).ToArray();
             req.BuildEnvironment().TryGetValue("LEAN_PATH", out var existing);
             leanPath = string.Join(Path.PathSeparator, string.IsNullOrEmpty(existing) ? dirs : dirs.Append(existing));
             return true;
         }
         catch (Exception) { return false; }
+    }
+
+    /// <summary>
+    /// If this process was started through a launcher that is an application host (see
+    /// <see cref="WriteLauncher"/>), sets up `LEAN_PATH` and returns the `lean` arguments that
+    /// run the program; null otherwise.
+    /// </summary>
+    internal static string[] AppHostLauncherArgs(string exe, string[] args)
+    {
+        try
+        {
+            if (!ReadHead(exe, 2).StartsWith("MZ", StringComparison.Ordinal) || !TryReadLauncher(exe, out var source, out var dirs))
+                return null;
+            var existing = Environment.GetEnvironmentVariable("LEAN_PATH");
+            Environment.SetEnvironmentVariable("LEAN_PATH", string.Join(Path.PathSeparator, string.IsNullOrEmpty(existing) ? dirs : dirs.Append(existing)));
+            Environment.SetEnvironmentVariable("LEANSHARP_RUN_BUILTIN_INIT", "1");
+            return new[] { "--run", source }.Concat(args).ToArray();
+        }
+        catch (Exception) { return null; }
+    }
+
+    /// <summary>
+    /// Reads a launcher: a script whose second line is the magic line, or an application host
+    /// followed by the magic line and the description. Returns the program to run (recreated if
+    /// missing) and the library directories.
+    /// </summary>
+    static bool TryReadLauncher(string path, out string source, out List<string> dirs)
+    {
+        source = null; dirs = new List<string>();
+        if (!File.Exists(path)) return false;
+        IEnumerable<string> lines;
+        string head = ReadHead(path, 64);
+        int nl = head.IndexOf('\n');
+        if (nl >= 0 && head.Substring(nl + 1).StartsWith(ExeMagic, StringComparison.Ordinal))
+            lines = File.ReadLines(path);
+        else if (head.StartsWith("MZ", StringComparison.Ordinal))
+        {
+            // the description at the end of an application host
+            using var f = File.OpenRead(path);
+            int n = (int)Math.Min(f.Length, 8192);
+            f.Seek(-n, SeekOrigin.End);
+            var tail = new byte[n];
+            f.ReadExactly(tail);
+            string text = Encoding.UTF8.GetString(tail);
+            int at = text.LastIndexOf("\n" + ExeMagic + "\n", StringComparison.Ordinal);
+            if (at < 0) return false;
+            lines = text.Substring(at + 1).Split('\n');
+        }
+        else return false;
+        string module = null;
+        string dir = Path.GetDirectoryName(path);
+        foreach (var line in lines)
+        {
+            if (!line.StartsWith("# ", StringComparison.Ordinal)) continue;
+            var p = line.Substring(2).Split('\t');
+            if (p.Length != 2) continue;
+            if (p[0] == "module") module = p[1];
+            else if (p[0] == "path") dirs.Add(Path.GetFullPath(p[1], dir));
+        }
+        if (module == null) return false;
+        source = path + ".lean";
+        if (!File.Exists(source)) WriteAtomic(source, ImportLine(module) + "\n");
+        return true;
     }
 }

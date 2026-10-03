@@ -20,6 +20,7 @@ static class Program
     {
         // the launcher scripts in `<sysroot>/bin` (used by the script-driven piles) start this program
         LeanSysroot.LauncherAssembly = typeof(Program).Assembly.Location;
+        args = LeanSysroot.LauncherArgs(args);
         if (args.Length > 0 && (args[0] == "lean" || args[0] == "lake"))
         {
             LeanProgramState.TopLevelProgramOwnsProcess = true;

@@ -8,6 +8,8 @@
 using LeanSharp;
 
 LeanSharp.Runtime.LeanProgramState.TopLevelProgramOwnsProcess = true;
+// started as `<sysroot>\bin\lean.exe` etc. (Windows)
+args = LeanSysroot.LauncherArgs(args);
 if (OperatingSystem.IsWindows())
 {
     // as native Lean does (`SetConsoleOutputCP(CP_UTF8)`): Lean writes UTF-8 whatever the console's code page

@@ -52,12 +52,12 @@ No test that is run fails.
 
 ## 2. Not done yet
 
-- [ ] **Windows: real executables.** Everything passes on Windows (section 1), but `lean.exe`,
-      `lake.exe` and the executables Lake builds are shell scripts: Git Bash and in-process
-      programs run them, cmd.exe/PowerShell need the `.cmd` launchers, and tools that start a
-      real `lean.exe` (editor extensions) cannot use the sysroot. A fix would be a copy of the
-      .NET SDK's `apphost.exe` (which is native code, so it is a policy question like the
-      precompiled build).
+- [ ] **Windows: executables built by Lake** are still shell scripts (the sysroot's `lean.exe`,
+      `lake.exe` etc. are real executables, copies of the .NET application host; docs/RUNNING.md,
+      "Windows"): `lake exe` and Git Bash run them, cmd.exe/PowerShell cannot. An application
+      host refers to its program by a path relative to itself, which breaks when Lake moves a
+      build directory or restores the file from its cache; a fix needs a host that finds the
+      sysroot another way (e.g. from `PATH` or a recorded absolute path).
 - [ ] **macOS** was the original development platform and has not been rerun since the Linux
       session.
 - [ ] **CI.** There is none. A draft GitHub Actions workflow was removed at the owner's request
@@ -137,7 +137,7 @@ No test that is run fails.
   their initializers with the interpreter (`src/LeanSharp/InterpretedInit.cs`); the plugin's
   dependencies outside the library must be on the search path. Programs that link hand-written C, or whose behavior
   depends on native symbol visibility, do not work. On Windows the launcher only works when
-  started from an in-process program (e.g. `lake exe`).
+  started from an in-process program (e.g. `lake exe`) or from Git Bash.
 - `leantar` is a managed port (`src/LeanSharp/Leantar`). Archives are interchangeable with the
   native tool's in both directions but not byte-identical (different zstd encoder).
 - `Lean.openSSLVersion` reports a fixed OpenSSL 3.0.0 number; nothing is linked.

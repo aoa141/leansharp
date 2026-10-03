@@ -142,7 +142,9 @@ Commands involving anything else (hand-written C, real object files) go to the r
 there is one. The sysroot's `leanc` launcher gives scripts the same emulation
 (`lean --c=X.c X.lean; leanc -shared -o X.so X.c`); as such a C file comes without `.olean`, the
 module is compiled from the source next to it. Lean's own tools that are Lean programs (`leanchecker`, `leanexport`, `leanir`) are
-installed into `<sysroot>/bin` as such launchers by `LeanStdlib.Build`, and the shared libraries
+installed into `<sysroot>/bin` as such launchers by `LeanStdlib.Build` (on Windows as copies of
+the .NET application host followed by the launcher's description, see `src/LeanSharp/AppHost.cs`),
+and the shared libraries
 Lake expects next to the library files (`libLake_shared` etc.) as stub libraries.
 
 ## leantar
